@@ -1,0 +1,37 @@
+= Training Courses
+:page-no-next: true
+:page-layout: home
+
+Lorem ipsum.
+
+== What are you looking for?
+
+++++
+<div id="search-field" class="main-page-search">
+  <input id="search-input" type="text" placeholder="Search" style="display: block; width: 100%; font-size: 2rem; background: #f2f2f2; padding: 0.25rem 1rem; border: none; margin: 1rem 0;">
+</div>
+++++
+
+[.blocks]
+* xref:global-nodes::index.adoc[image:td-bg-01.png[]]
+** xref:global-nodes::index.adoc[Global Nodes]
+** Lorem ipsum.
+
+[.discrete]
+== Lorem ipsum
+
+[.smallblocks]
+* xref:global-nodes::index.adoc[image:td-bg-01.png[] Global Nodes]
+
+[.bannerblocks]
+--
+image::tools-2.png[]
+
+* xref:global-nodes::index.adoc[image:tool-icon.png[] Global Nodes]
+* xref:global-nodes::index.adoc[image:tool-icon.png[] Global Nodes]
+* xref:global-nodes::index.adoc[image:tool-icon.png[] Global Nodes]
+
+[.bannerblocksmore]
+[.blocklink]
+xref:global-nodes::index.adoc[View all of this]
+--

@@ -1,0 +1,41 @@
+site:
+  title: Training Courses
+  start_page: ROOT::index.adoc
+  keys:
+    language: en
+content:
+  sources:
+    - url: .
+      start_path: ./en/home
+      branches: HEAD
+    - url: .
+      start_path: ./en/global-nodes
+      branches: HEAD
+    #- url: https://github.com/gbif/doc-publishing-dna-derived-data.git
+    #  start_path: en
+    #  branches: antora
+output:
+  clean: false
+  dir: ./output/en
+runtime:
+  fetch: false
+  cache_dir: ./cache
+ui:
+  bundle:
+    url: https://builds.gbif.org/job/tech-docs-theme/lastSuccessfulBuild/artifact/build/ui-bundle.zip
+    #url: ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+asciidoc:
+  attributes:
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: yes
+    page-toctitle: 'Page contents'
+    language: en
+    null: ␀
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+    index_latest_only: true
+    languages: [en]

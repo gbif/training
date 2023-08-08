@@ -1,0 +1,95 @@
+// DOI badge: If you have a DOI, remove the comment ("// ") from the line below, change "10.EXAMPLE/EXAMPLE" to the DOI in all three places, and remove this line.
+// https://doi.org/10.EXAMPLE/EXAMPLE[image:https://zenodo.org/badge/DOI/10.EXAMPLE/EXAMPLE.svg[doi:10.EXAMPLE/EXAMPLE]]
+// License badge
+//https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY%2D-SA%204.0-lightgrey.svg[CC BY-SA 4.0]]
+// Build status badge
+https://builds.gbif.org/job/training/lastBuild/console[image:https://builds.gbif.org/job/training/badge/icon[Build status]]
+
+= GBIF Training Courses
+
+This is the the GBIF training courses site.
+
+During development, it is visible at https://training.gbif-uat.org/
+
+NOTE: This file is documenting the training course site system, it's not shown on https://training.gbif-uat.org/.
+
+== Overall structure
+
+The system uses https://docs.antora.org/[Antora], a framework for combining documentation written in https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor] from multiple Git repositories into a single documentation website.
+
+=== Languages, components, versions and modules
+
+Antora strictly defines how files and directories should be arranged, but flexible in allowing those files and directories to come from various sources.  There are four levels of content:
+
+Languages:: (GBIF addition, but following the https://gitlab.com/antora/antora/-/issues/208[suggestion on the Antora issue tracker]).  We don't expect all the courses to be translated into every language, so we should structure content to make it easy for translators to translate (and see progress) for suitable topics without being overwhelmed.
+Components:: Self-contained courses, e.g. Global Nodes or Nodes Training.
+Versions:: Each component can optionally have one or more versions.  We should only declare versions where it makes sense to keep old courses accessible online.
+Modules:: https://docs.antora.org/antora/latest/module-directories/[Antora describes] modules as "primarily an organization tool for the writer". So far we haven't used them, so everything is using the default `ROOT` module.
+
+Each language has its own playbook.  Each playbook specifies which components and versions are part of the documentation.  See link:./training-en-playbook.yml[training-en-playbook.yml] for the English playbook.  The `content.sources` with a `url` of `.` are in this Git repository, and `HEAD` shows the current (i.e. main) branch is used to provide a single version.  The other components (`git@github.com…`) are from other Git repositories, and some have multiple versions shown in `branches`.
+
+Determining how individual pages should be arranged into components (and potentially modules) is not clear.
+It may make translators' work easier if they can aim to translate entire components/modules.
+
+=== Within a component version
+
+A version of a component is defined by its `antora.yml` descriptor file, which should be present at the location specified in `{url}/{start_path}` from the playbook's `content.sources` section.  For example, the https://training.gbif-uat.org/en/global-nodes/[_Global Nodes_] component has its descriptor file in this repository at link:./en/global-nodes/antora.yml[en/global-nodes/antora.yml]:
+
+// If this were part of the real documentation, we could use an 'include:' directive to embed the file.  However, GitHub blocks these
+// for security reasons.  See https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-blocks/#using-include-directives-in-source-blocks
+
+[,yaml]
+----
+name: global-nodes
+title: Global Nodes
+version: ~
+nav:
+- modules/ROOT/nav.adoc
+----
+
+The `name` is the identifier for the component used in links and URLs.  The `title` is used for display.  A `version` of `~` means "no versions".
+
+`nav` sets the left-bar navigation menu.  The content of the linked file is an Asciidoctor unordered list.
+
+=== Further reading
+
+It's probably worth looking at these pages in the Antora and Asciidoctor documentation:
+
+* https://docs.antora.org/antora/latest/family-directories/[Family directories], to see where files for individual pages, images, attachments (downloads) etc. should be stored
+* https://docs.antora.org/antora/latest/page/xref/[Xref macros and page links] and https://docs.antora.org/antora/latest/page/page-links/[create page links] to see how to make links within a page, between pages in the same module, different modules, different versions and different components.
+* The https://docs.antora.org/[Antora documentation] and the https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor documentation].
+
+=== Special pages
+
+==== Home page
+
+The English home page, https://training.gbif-uat.org/en/, is a component called `ROOT`, which is a special name where `ROOT` doesn't show in links or URLs.  Reserve pages in this section for the home page and very general pages about all the training courses.
+
+=== Site theme
+
+The overall design of the site is controlled by a theme, https://github.com/gbif/tech-docs-theme[tech-docs-theme].  That sets the colours, fonts etc and adds the "Search" functionality.
+
+Changing the site menus (on the green bar) is done by overriding the theme.  Start at link:./supplemental_ui/partials/header-navigation.hbs[supplemental_ui/partials/header-navigation.hbs] and copy + paste until you have what you want :-) (but remember pushing changes rebuilds the live site).
+
+== Building
+
+The site builds in Jenkins every time it is modified, see the https://builds.gbif.org/job/training/lastBuild/console[status] and badge above.  To build it locally, the simplest method is to use Docker.  See the https://docs.docker.com/[Docker documentation] for installation on https://docs.docker.com/desktop/install/linux-install/[Linux], https://docs.docker.com/desktop/install/mac-install/[Mac] and https://docs.docker.com/desktop/install/windows-install/[Windows].
+
+For routine use when authoring courses, build just the English courses and omit the search functionality. This uses a special cut-down playbook without some of the configuration suitable for a webserver:
+
+[,sh]
+----
+./build-local-documentation.sh
+----
+
+To build English and Spanish and with the search function, and suitable for a webserver, run:
+
+[,sh]
+----
+docker run --rm -t --user $(id -u) --volume $PWD:/antora:Z --env HOME=/antora antora/antora:3.0.1 npm i @antora/lunr-extension
+for lang in en es; do
+    docker run --rm -t --user $(id -u) --volume $PWD:/antora:Z antora/antora:3.0.1 training-$lang-playbook.yml
+done
+----
+
+Please explore the Antora documentation for alternative methods for building, but they are all going to be more effort than installing Docker.
