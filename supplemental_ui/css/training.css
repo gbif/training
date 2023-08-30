@@ -1,89 +1,123 @@
-.admonitionblock.activity td.icon .icon-note {
-  content: url(../img/icons/stationery.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.activity td.icon,
+.doc .admonitionblock.assignments td.icon,
+.doc .admonitionblock.complete td.icon,
+.doc .admonitionblock.description td.icon,
+.doc .admonitionblock.documentation td.icon,
+.doc .admonitionblock.eval td.icon,
+.doc .admonitionblock.forum td.icon,
+.doc .admonitionblock.glossary td.icon,
+.doc .admonitionblock.install td.icon,
+.doc .admonitionblock.objectives td.icon,
+.doc .admonitionblock.presentation td.icon,
+.doc .admonitionblock.quiz td.icon,
+.doc .admonitionblock.usecase td.icon,
+.doc .admonitionblock.folder td.icon,
+.doc .admonitionblock.speak td.icon,
+.doc .admonitionblock.workspace td.icon {
+    position: static;
+    width: 90px;
+    transform: none;
+    -webkit-transform: none;
+    background-color: transparent;
+    border-radius: 0;
 }
 
-.admonitionblock.assignments td.icon .icon-note {
-  content: url(../img/icons/letter.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.activity td.icon .icon-note,
+.doc .admonitionblock.assignments td.icon .icon-note,
+.doc .admonitionblock.complete td.icon .icon-note,
+.doc .admonitionblock.description td.icon .icon-note,
+.doc .admonitionblock.documentation td.icon .icon-note,
+.doc .admonitionblock.eval td.icon .icon-note,
+.doc .admonitionblock.forum td.icon .icon-note,
+.doc .admonitionblock.glossary td.icon .icon-note,
+.doc .admonitionblock.install td.icon .icon-note,
+.doc .admonitionblock.objectives td.icon .icon-note,
+.doc .admonitionblock.presentation td.icon .icon-note,
+.doc .admonitionblock.quiz td.icon .icon-note,
+.doc .admonitionblock.usecase td.icon .icon-note,
+.doc .admonitionblock.folder td.icon .icon-note,
+.doc .admonitionblock.speak td.icon .icon-note,
+.doc .admonitionblock.workspace td.icon .icon-note {
+    width: 75px;
+    height: 75px;
 }
 
-.admonitionblock.complete td.icon .icon-note {
-  content: url(../img/icons/finish-flag.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.activity td.icon .icon-note {
+    background: radial-gradient(circle, #cdd4a1, #cdd4a1 66%, transparent 66%);
+    content: url(../img/icons/stationery.png);
 }
 
-.admonitionblock.description td.icon .icon-note {
-  content: url(../img/icons/road.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.assignments td.icon .icon-note {
+    background: radial-gradient(circle, #dadbdf, #dadbdf 66%, transparent 66%);
+    content: url(../img/icons/letter.png);
 }
 
-.admonitionblock.documentation td.icon .icon-note {
-  content: url(../img/icons/books.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.complete td.icon .icon-note {
+    background: radial-gradient(circle, #859643, #859643 66%, transparent 66%);
+    content: url(../img/icons/finish-flag.png);
 }
 
-.admonitionblock.eval td.icon .icon-note {
-  content: url(../img/icons/choice.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.description td.icon .icon-note {
+    background: radial-gradient(circle, #598046, #598046 66%, transparent 66%);
+    content: url(../img/icons/road.png);
 }
 
-.admonitionblock.forum td.icon .icon-note {
-  content: url(../img/icons/communication.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
-}
-.admonitionblock.glossary td.icon .icon-note {
-  content: url(../img/icons/cubes.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.documentation td.icon .icon-note {
+    background: radial-gradient(circle, #83858b, #83858b 66%, transparent 66%);
+    content: url(../img/icons/books.png);
 }
 
-.admonitionblock.install td.icon .icon-note {
-  content: url(../img/icons/loading.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.eval td.icon .icon-note {
+    background: radial-gradient(circle, #dcd5d7, #dcd5d7 66%, transparent 66%);
+    content: url(../img/icons/choice.png);
 }
 
-.admonitionblock.objectives td.icon .icon-note {
-  content: url(../img/icons/questionnaire.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.forum td.icon .icon-note {
+    background: radial-gradient(circle, #a8b99e, #a8b99e 66%, transparent 66%);
+    content: url(../img/icons/communication.png);
 }
 
-.admonitionblock.presentation td.icon .icon-note {
-  content: url(../img/icons/video-player.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.glossary td.icon .icon-note {
+    background: radial-gradient(circle, #aeb9c9, #aeb9c9 66%, transparent 66%);
+    content: url(../img/icons/cubes.png);
 }
 
-.admonitionblock.quiz td.icon .icon-note {
-  content: url(../img/icons/test.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.install td.icon .icon-note {
+    background: radial-gradient(circle, #c5c1d4, #c5c1d4 66%, transparent 66%);
+    content: url(../img/icons/loading.png);
 }
 
-.admonitionblock.usecase td.icon .icon-note {
-  content: url(../img/icons/project.png);
-	width: 75px;
-	height: 75px;
-	display: inline-flex;
+.doc .admonitionblock.objectives td.icon .icon-note {
+    background: radial-gradient(circle, #b6c2bf, #b6c2bf 66%, transparent 66%);
+    content: url(../img/icons/questionnaire.png);
+}
+
+.doc .admonitionblock.presentation td.icon .icon-note {
+    background: radial-gradient(circle, #b4b9dc, #b4b9dc 66%, transparent 66%);
+    content: url(../img/icons/video-player.png);
+}
+
+.doc .admonitionblock.quiz td.icon .icon-note {
+    background: radial-gradient(circle, #a09b5c, #a09b5c 66%, transparent 66%);
+    content: url(../img/icons/test.png);
+}
+
+.doc .admonitionblock.usecase td.icon .icon-note {
+    background: radial-gradient(circle, #7bb5e2, #7bb5e2 66%, transparent 66%);
+    content: url(../img/icons/project.png);
+}
+
+.doc .admonitionblock.folder td.icon .icon-note {
+    background: radial-gradient(circle, #668ca3, #668ca3 66%, transparent 66%);
+    content: url(../img/icons/folder.png);
+}
+
+.doc .admonitionblock.speak td.icon .icon-note {
+    background: radial-gradient(circle, #aaafbb, #aaafbb 66%, transparent 66%);
+    content: url(../img/icons/speak.png);
+}
+
+.doc .admonitionblock.workspace td.icon .icon-note {
+    background: radial-gradient(circle, #bec2bc, #bec2bc 66%, transparent 66%);
+    content: url(../img/icons/workspace.png);
 }
