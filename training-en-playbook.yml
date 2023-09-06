@@ -8,22 +8,22 @@ content:
     - url: .
       start_path: ./en/home
       branches: main
-    - url: https://docs.gbif.org/course-introduction-to-gbif
+    - url: .
       start_path: ./en/intro-to-gbif
       branches: main
-    - url: https://docs.gbif.org/course-data-mobilization
+    - url: .
       start_path: ./en/data-mobilization
       branches: main
     - url: .
       start_path: ./en/data-use
       branches: main    
-    - url: https://docs.gbif.org/course-dna-barcoding
+    - url: .
       start_path: ./en/dna-barcoding
       branches: main      
     - url: .
       start_path: ./en/nodes
       branches: main         
-    - url: https://docs.gbif.org/course-establishing-gbif-nodes
+    - url: .
       start_path: ./en/epn
       branches: main 
 output:
