@@ -9,10 +9,12 @@
 .doc .admonitionblock.install td.icon,
 .doc .admonitionblock.objectives td.icon,
 .doc .admonitionblock.presentation td.icon,
+.doc .admonitionblock.prep td.icon,
 .doc .admonitionblock.quiz td.icon,
 .doc .admonitionblock.usecase td.icon,
 .doc .admonitionblock.folder td.icon,
 .doc .admonitionblock.speak td.icon,
+.doc .admonitionblock.trainers td.icon,
 .doc .admonitionblock.workspace td.icon {
     position: static;
     width: 90px;
@@ -20,6 +22,8 @@
     -webkit-transform: none;
     background-color: transparent;
     border-radius: 0;
+    vertical-align: top;
+    padding-top: 5px;;
 }
 
 .doc .admonitionblock.activity td.icon .icon-note,
@@ -33,10 +37,12 @@
 .doc .admonitionblock.install td.icon .icon-note,
 .doc .admonitionblock.objectives td.icon .icon-note,
 .doc .admonitionblock.presentation td.icon .icon-note,
+.doc .admonitionblock.prep td.icon .icon-note,
 .doc .admonitionblock.quiz td.icon .icon-note,
 .doc .admonitionblock.usecase td.icon .icon-note,
 .doc .admonitionblock.folder td.icon .icon-note,
 .doc .admonitionblock.speak td.icon .icon-note,
+.doc .admonitionblock.trainers td.icon .icon-note,
 .doc .admonitionblock.workspace td.icon .icon-note {
     width: 75px;
     height: 75px;
@@ -97,6 +103,11 @@
     content: url(../img/icons/video-player.png);
 }
 
+.doc .admonitionblock.prep td.icon .icon-note {
+    background: radial-gradient(circle, #b4b9dc, #b4b9dc 66%, transparent 66%);
+    content: url(../img/icons/prep.png);
+}
+
 .doc .admonitionblock.quiz td.icon .icon-note {
     background: radial-gradient(circle, #a09b5c, #a09b5c 66%, transparent 66%);
     content: url(../img/icons/test.png);
@@ -115,6 +126,11 @@
 .doc .admonitionblock.speak td.icon .icon-note {
     background: radial-gradient(circle, #aaafbb, #aaafbb 66%, transparent 66%);
     content: url(../img/icons/speak.png);
+}
+
+.doc .admonitionblock.trainers td.icon .icon-note {
+    background: radial-gradient(circle, #aaafbb, #aaafbb 66%, transparent 66%);
+    content: url(../img/icons/art-show.png);
 }
 
 .doc .admonitionblock.workspace td.icon .icon-note {
