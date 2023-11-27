@@ -39,6 +39,8 @@ ui:
     snapshot: true
   supplemental_files: ./supplemental_ui
 asciidoc:
+  extensions:
+  - ./lib/asciidoctor-question
   attributes:
     idprefix: ''
     idseparator: '-'
