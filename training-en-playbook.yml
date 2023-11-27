@@ -16,16 +16,16 @@ content:
       branches: main
     - url: .
       start_path: ./en/data-use
-      branches: main    
+      branches: main
     - url: .
       start_path: ./en/dna-barcoding
-      branches: main      
+      branches: main
     - url: .
       start_path: ./en/nodes
-      branches: main         
+      branches: main
     - url: .
       start_path: ./en/epn
-      branches: main 
+      branches: main
 output:
   clean: false
   dir: ./output/en
@@ -43,6 +43,8 @@ urls:
   latest_version_segment: latest
   redirect_facility: httpd
 asciidoc:
+  extensions:
+  - ./lib/asciidoctor-question
   attributes:
     idprefix: ''
     idseparator: '-'
