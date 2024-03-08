@@ -173,3 +173,10 @@ question[data-type=mc] input[type="checkbox"][data-correct="false"].show ~ span:
 question[data-type=mc] div.content div:nth-child(2 of .ulist) {
   display: none;
 }
+
+/* LAR style */
+
+.doc .figure-caption {
+    font-size: small;
+    font-style: normal;
+}
