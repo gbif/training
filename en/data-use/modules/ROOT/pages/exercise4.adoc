@@ -1,1 +1,30 @@
 = Exercise 4
+
+[NOTE.activity]
+In this exercise you will use the GBIF API to locate specific taxon keys.
+
+== Exercise sheet 
+
+xref:attachment$Exercise4-EN.docx[Download Exercise 4] (MS Word 158 KB).
+
+====
+* *Taxon keys* are issued at the species, genus family, order, phylum and kingdom rank. 
+* *Unique identifiers* are issued to accepted names with synonyms of those accepted names issued the same identifier.  Usage keys vs acceptedUsageKeys
+* Taxon keys allow for user to ensure that they are collecting all the data they need
+* Taxon keys also facilitate multiple species downloads
+
+Taxon keys can be found through:
+
+* https://www.gbif.org/[GBIF.org]  
+* https://techdocs.gbif.org/en/openapi/v1/species[Species API^]
+* https://www.gbif.org/tools/species-lookup[Species matching tool^]
+====
+
+== Instructions
+
+. Using the Species API find the GBIF taxonkeys for these scientific names: 
+.. Lepus saxatilis F.Cuvier, 1823
+..Aves
+..Magnoliophyta
+..Aegithalos caudatus (Linnaeus, 1758)
+. What are the taxonomic status of each?
