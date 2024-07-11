@@ -143,7 +143,7 @@ gdf %>% distinct(establishmentMeans)
 ```
 There are 5 distinct values for https://dwc.tdwg.org/terms/#dwc:basisOfRecord[DwC:basisOfRecord]. We also looked at https://dwc.tdwg.org/list/#dwc_establishmentMeans[dwc:establishmentMeans], where only `NATIVE` is noted for some records.
 
-= Data cleaning
+== Data cleaning
 
 After some exploring of our data, we know that there are potential quality issues in our download. Apparently points outside Madagascar are suspicious, and we have just looked at basisOfRecord and establishmentMeans columns for cues of needed data actions.
 
@@ -323,6 +323,6 @@ ggplot() +
 ```
 image::data-use::lemur_cleaning_4.png[align=center,width=650,height=450]
 
-= Conclusion
+== Conclusion
 
 This document merely demonstrates what GBIF data users could do after downloading data from the global index. Before feeding data into an analytic workflow, users usually examine the download by looking at unique values and visualising facets and then decide to clean or filter the data so that the subsequent analysis can run with desired settings. The process can include many trials and adjustments, and here, we have introduced some of them.
