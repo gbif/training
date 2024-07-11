@@ -1,4 +1,4 @@
-= Handling Taxonomic Uncertainty
+= Handling taxonomic uncertainty
 
 Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
 
@@ -8,7 +8,7 @@ Uncertainty surrounding the taxonomy of a data point can arise for several reaso
 
 == Species mis-identification
 
-Species identification is a complex process, with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. 
+Species identification is a complex process with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. 
 Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to a mis-identification of a species. 
 As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
 
@@ -25,7 +25,7 @@ Synonymy can arise when the same species has been described several times and a 
 Only one species name can be accepted, and other names are what we call synonyms. 
 These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need. 
 GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys. 
-Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
+https://www.gbif.org/species/search[Species searches^] allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
 
 == Taxon Keys
 
