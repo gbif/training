@@ -1,26 +1,28 @@
 = Data quality issues and flags
 
-Determining the precision and accuracy of the data for use is a key step in determining the usefulness of the data for any intended purpose. 
-While GBIF can support the identification of some quality issues that arise from within the data publishing workflow, handling some quality issues requires additional expert knowledge.  
-The two most common issues for which this may be required are:
+The GBIF network publishes datasets, integrating them into a common access system. 
+Here users can retrieve data through common search and download services. 
+During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems. 
+These may contain useful information for you as a user to create fit-for-purpose datasets.  
 
-* *Data gaps* - sampling across taxonomic groups and geographic regions is not equal and users may need to take into account sampling bias in their analyses before the data can be used effectively. 
-* *Taxonomic misidentification* - some taxonomic groups may require additional information to ensure that taxa have been correctly identified such as images, videos and audio recordings that accompany data or collector information.
+image::data-use::workflow2.png[align=center,width=640,height=360]
 
-*GBIF Flags for Data Quality Issues*
+Remarks are shown on the individual occurrence pages to explain the process done after interpretation:
 
-During the indexation process, GBIF assigns issues and flags to data for https://data-blog.gbif.org/post/issues-and-flags/[common data quality issues^].  
-These most frequently occur from data entry errors or missing data fields whose interpretation can be automated centrally by GBIF.  
-These interpretations are classified as 
+*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.
 
-* *Excluded* - where the original data couldn’t be interpreted, so is excluded in the interpreted fields.
-* *Altered* - where the original data is modified in the interpretation process to be indexed in GBIF.org.
-* *Inferred* - where an empty field is inferred using other record information.
- 
-TIP: Be aware that if you are filtering for data quality issues, you should reverse the filter to exclude those data that have been flagged with that issue. You can also see the verbatim data i.e. the non-interpreted data in a Darwin Core Archive if you would like to validate the interpretation process.
- 
-*How can I improve data quality?*
- 
-Data publishers have the responsibility for improving the quality of the data, and as a user, you play a key role in identifying where there are errors. 
-If you should find an error in the data, you should contact the publisher directly using the contact details that GBIF provides on the publisher page. 
-GBIF also provides the ability for users to log data quality issues using the "Feedback and questions" button on the menu bar of http://www.gbif.org[GBIF.org^].
+*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.
+
+*Inferred means the Using other record information the data indexed is inferred, if the original is empty.
+
+Excluding all records with a particular issue is not currently possible with the search interface. 
+It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button. 
+However, reversing will still only give you all other flagged occurrences and not issue-free records. 
+This is something that GBIF is working to improve.
+
+image::data-use::filtering.png[align=center,width=640,height=360]
+
+A full overview of all issues and flags is found within https://techdocs.gbif.org/[GBIF Technical Documentation^]:
+
+* https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Occurrence issues and flags^]
+* https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[Checklist issues and flags^]
