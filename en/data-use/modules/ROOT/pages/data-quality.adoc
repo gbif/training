@@ -57,7 +57,7 @@ Many datasets have equally-spaced points in a regular pattern.
 These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).
 Georeferenced occurrences are snapped to a central point 
 
-image::img/web/gridSnap.gif[align=center,width=640,height=360]
+image::data-use::gridSnap.gif[align=center,width=640,height=360]
 
 Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
 So filtering by these columns can be a good way to remove gridded datasets.
