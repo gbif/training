@@ -1,5 +1,7 @@
 = Data quality issues and flags
 
+== Oveview
+
 The GBIF network publishes datasets, integrating them into a common access system. 
 Here users can retrieve data through common search and download services. 
 During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems. 
@@ -21,6 +23,8 @@ However, reversing will still only give you all other flagged occurrences and no
 This is something that GBIF is working to improve.
 
 image::data-use::filtering.png[align=center,width=640,height=360]
+
+== API documentation
 
 A full overview of all issues and flags is found within https://techdocs.gbif.org/[GBIF Technical Documentation^]:
 
