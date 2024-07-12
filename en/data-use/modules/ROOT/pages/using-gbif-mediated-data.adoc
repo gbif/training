@@ -32,7 +32,7 @@ Key components of using GBIF-mediated data are understanding how to access the s
 There are two main points of access to GBIF-mediated data: http://www.gbif.org[GBIF.org^] and the https://www.gbif.org/developer/summary[Application Programming Interface (API) services^]. 
 Using the website requires no programming experience and allows for quick and easy search, filter and download functions for GBIF-mediated data, as well as a range of additional tools and metrics that are not available through API services.  
 API services allow continued access to GBIF-mediated data through other systems and can be the basis for the development of tools that allow for the interrogation of the data. 
-Examples include a number of R packages, such as https://www.gbif.org/tool/81747/rgbif[rgbif^] and https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], as well as more specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments.
+Examples include a number of R packages, such as https://www.gbif.org/tool/81747/rgbif[rgbif^] and https://docs.ropensci.org/CoordinateCleaner/[CoordinateCleaner^], as well as more specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments.
 
 *What is available to me?*
 
