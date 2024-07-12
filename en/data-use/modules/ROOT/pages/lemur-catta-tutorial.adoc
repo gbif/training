@@ -8,6 +8,8 @@ You can download the R Markdown document for your own use here - xref:attachment
 
 NOTE: As new data is added to the GBIF Index, the results, counts, and images shown below may differ from yours.
 
+== Packages
+
 The following packages will be needed:
 
 ```{r, message = FALSE}
@@ -22,6 +24,7 @@ library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
 == The scenario
+
 We are interested in a species of a country (Madagascar) and want to learn about its presence in the GBIF data space. We will first prepare maps for presentation. We will then download data and plot them on the maps. We will also try to adjust the data (cleaning) and see the difference plotted.
 
 Through the process,  you will learn the techniques for examining the downloaded data and ways to tweak them.
