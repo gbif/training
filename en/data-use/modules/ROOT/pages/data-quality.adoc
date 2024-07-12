@@ -34,7 +34,7 @@ So, if the record simply says “Brazil”, some publishers will put the record 
 Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions. 
 This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well.  
 
-Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids.
+TIP: Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids.
 
 == Points along the equator or prime meridian
 
@@ -84,7 +84,7 @@ As such, it can serve as a useful filtering tool for identifying records that ar
 Currently, GBIF records can be searched using the https://rs.gbif.org/vocabulary/gbif/establishment_means.xml[older vocabulary terms^] native, introduced, naturalized, native, managed or uncertain. These will be updated in late 2022. 
 In some instances, removing “MANAGED” records will remove zoo records.
 
-Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search when using this filter.
+NOTE: Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search when using this filter.
 We would recommend to use the information within the Establishement Means term for filtering after download. 
 
 == Basis of Record 
@@ -99,7 +99,8 @@ https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] is a Darwin Core
 * Machine Observation - An output of a machine observation process for example a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry.  
 
 Basis of record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation.  
-You should note that, even though this can be a useful filter, data publishers do not always complete the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use.
+
+NOTE: Even though this can be a useful filter, data publishers do not always complete the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use.
 
 == Old Records
 
