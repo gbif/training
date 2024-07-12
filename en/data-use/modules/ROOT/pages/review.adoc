@@ -1,0 +1,113 @@
+== Review
+
+[NOTE.quiz]
+Review concepts covered in this course.
+
+****
+// Note the lack of empty lines between the end of the question (....) and the start of the next question
+// (. What…) is required, so I have added // comments to help separate them.
+// The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+
+// Question 1
+. How can you access GBIF data?
++
+[question, mc]
+....
+- [x] GBIF.org search interface
+- [x] GBIF API
+- [x] rgbif
+....
+// Question 2
+. Which file formats are available for downloads of data?
++
+[question, mc]
+....
+- [x] Simple
+- [ ] XML
+- [x] Darwin Core Archive
+- [x] Species list
+....
+// Question 3
+. Who determines if a dataset is fit for use?
++
+[question, mc]
+....
+- [ ] The museum or department director
+- [x] The users of the data for research or education
+- [ ] The collector of the data in the field
+- [ ] The person entering the data into the database
+....
+// Question 4
+. Which of these aspects do you need to consider when assessing if a GBIF-mediated dataset is fit for use?
++
+[question, mc]
+....
+- [x] The number of data points
+- [x] The spatial resolution of the data
+- [x] Dataset metadata
+- [x] The species identification
+....
+// Question 5
+. Considering the measures of quality for accuracy and precision, for the given statements, input the matching image. (A, B, C, D)
+image:img/web/accuracyandprecision.png[align=center,width=640,height=360]
++
+[question, gap]
+....
+* High accuracy, low precision +
+  __C__
+* Low accuracy, high precision +
+  __B__
+* High accuracy, high precision +
+  __D__
+* Low accuracy, low precision +
+  __A__
+....
+// Question 6
+. Which of these would you consider to be accurate data?
++
+[question, mc]
+....
+- [x] Data where the coordinates match the country information
+- [ ] Data where the higher taxonomy of a species does not reflect the current taxonomy of a species
+....
+// Question 7
+. Which of these are some common GBIF data quality issues?
+[question, mc]
+....
+- [x] Duplicates of occurrence data
+- [x] Gridded datasets
+- [x] Country centroids
+- [x] Coordinate mismatches
+....
+// Question 8
+. What kind of flags does GBIF apply to data to alert you to the quality?
++
+[question, mc]
+....
+- [x] altered
+- [ ] amended
+- [ ] translated
+- [x] excluded
+- [ ] interpreted
+- [x] inferred
+....
+// Question 9
+. Which of the following data quality checks cannot be performed automatically by GBIF?
++
+[question, mc]
+....
+- [ ] Duplicate publication of the same occurrence
+- [ ] Coordinate inversions
+- [ ] Missing higher taxonomy
+- [x] Incorrect identification of a taxon
+....
+// Question 10
+. Which of the following is not an issue flag?
+[question, mc]
+....
+- [ ] Country coordinate mismatch
+- [ ] Taxon match fuzzy
+- [ ] Basis of record invalid
+- [x] Outside native range
+....
+****
