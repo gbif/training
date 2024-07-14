@@ -1,13 +1,13 @@
 = Data processing tools
 
-While GBIF filters will allow you to select only those data for download that fulfil certain criteria, it is highly recommended that you perform additional data processing. 
+While GBIF filters will allow you to select and download data that only fulfils specific criteria, it is highly recommended that you perform additional data processing. 
 Your choice for a data processing tool should be based on personal access, familiarity and utility of that tool(s).
 
 == Example tools 
 
-* Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)
+* Spreadsheet editing software, e.g. Excel, Google Sheets (smaller datasets)
 * OpenRefine
 * R packages and scripts, e.g. rgbif, CoordinateCleaner, scrubr and biogeo
-* Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo
+* Geographical Information Systems (GIS), e.g. ArcGIS, QGIS and MapInfo
 
 TIP: It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. This can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation.
