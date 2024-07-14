@@ -21,7 +21,7 @@ In the context of GBIF.org, DOIs serve as stable identifiers for four different 
 
 GBIF assigns DOIs to all datasets and occurrence downloads. 
 When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility. 
-The DOIs will always resolve to dataset or download pages, even if the underlying data is no longer available.
+The DOIs will always resolve to datasets or download pages, even if the underlying data is no longer available.
 
 GBIF started issuing DOIs on 3 February 2015. 
 Downloads requested before this date do not have DOIs, however, if you wish to cite older downloads, you can contact helpdesk@gbif.org and we will assign DOIs as appropriate.
@@ -32,7 +32,7 @@ The data available through GBIF.org and its associated services is the result of
 
 Within the biodiversity domain, the group most often responsible for developing and maintaining data standards is http://www.tdwg.org/[Biodiversity Information Standards^]. This nonprofit scientific and educational association focuses on the development of standards for the exchange of biological and biodiversity data. Members of the biodiversity community generally refer to this group as TDWG (pronounced tad-wig)—a vestigial reminder of its earlier manifestation as the Taxonomic Databases Working Group.
 
-Commonly use standards include:
+Commonly used standards include:
 
 * Darwin Core: The https://dwc.tdwg.org/[Darwin Core Standard^] (DwC) offers a stable, straightforward and flexible framework for compiling biodiversity data from varied and variable sources. 
 The majority of the datasets shared through GBIF.org are published using the Darwin Core Archive format (DwC-A).
@@ -49,7 +49,7 @@ In keeping with a 2014 https://www.gbif.org/news/82363/new-approaches-to-data-li
 * https://creativecommons.org/licenses/by/4.0/[CC-BY^] - use with attribution
 * http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC^] - non-commercial use with attribution 
 
-IMPORTANT: Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers has waived conditions for use, attribution is expected.
+IMPORTANT: Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers have waived conditions for use, attribution is expected.
 
 == FAIR data
 
@@ -74,7 +74,7 @@ GBIF has https://www.gbif.org/data-quality-requirements[requirements] for metada
 ****
 *ACCESSIBLE*
 
-The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine readable interface (REST + JSON) and use the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository.
+The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine-readable interface (REST + JSON) and uses the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository.
 ****
 
 ****
