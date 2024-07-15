@@ -17,13 +17,13 @@ GBIF removes common geospatial issues by default if you choose to have data with
 If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated. 
 These are:
 
-** Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called a "null island". 
+* Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called a "null island". 
 Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasGeospatialIssues is set to FALSE.  
-** Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.). 
+* Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.). 
 GBIF uses the two-letter https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system. 
 When a point does not fall within the country’s polygon or EEZ but says that it should occur within the country, it gets flagged as having “country coordinate mismatch” and will be removed if data are filtered for locations.
-** Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. the coordinates that are not in the valid decimal format.
-** Coordinate out of range — The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
+* Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. the coordinates that are not in the valid decimal format.
+* Coordinate out of range — The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
 
 == Country centroids
 
