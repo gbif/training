@@ -2,12 +2,12 @@
 
 Filtering the data allows you as a user to obtain the data that is most fit for purpose.
 All searches have a set of filters that can be used for finding the data you need, and the occurrence search has a set of additional "Advanced" search filters with more criteria or options available.  
-While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise following the GBIF data publishing model.
-Below are some common data filters that you as a user might consider to make the data more fit-for-purpose.
+While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise.
+Below are some common data filters that you as a user might consider to make the data more fit for use.
 
 == Geospatial filters & issues
 
-The data can be filtered spatially in an occurrence search in one of 3 ways:
+The data can be filtered spatially in an occurrence search in one of three ways:
 
 * Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ).
 * Administrative area - this filter uses the https://gadm.org/data.html[GADM database of administrative areas^] for all countries in the world to allow for 
