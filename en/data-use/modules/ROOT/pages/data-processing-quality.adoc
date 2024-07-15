@@ -10,7 +10,9 @@ In this module, you will learn how to determine if data is fit for your purpose 
 Almost always, you will want to post-process your GBIF download in some way to fit your purposes. 
 Sometimes, you will have to make difficult judgement calls for your particular use case. 
 Whenever you are dealing with thousands or millions of records, you will never quite know the true quality of the source data. 
-It is important to keep in mind that you are mitigating data quality issues, not eliminating them. 
+It is important to keep in mind that you are mitigating data quality issues, not eliminating them.
+
+image::data-use::fitnessforuse.png[align=center,width=640,height=360]
 
 The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency. 
 Correctness and consistency are two ways of documenting data errors and are measures of data quality. 
