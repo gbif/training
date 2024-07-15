@@ -32,9 +32,9 @@ Country centroids are usually records that have been retrospectively given a lat
 Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names. 
 So, if the record simply says “Brazil”, some publishers will use the center of Brazil as the coordinate of the record. 
 Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions. 
-This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well.  
+This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well.
 
-TIP: Identifying country centroid data is currently not possible using GBIF filters. However, the R package CoordinateCleaner can be used for identifying and filtering for country centroids.
+TIP: Use the "Distance from centroid in meters" on a GBIF occurrence search to filter for country centroids. The R package,  https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying and filtering for country centroids.
 
 == Points along the equator or prime meridian
 
