@@ -14,11 +14,10 @@ It is important to keep in mind that you are mitigating data quality issues, not
 
 image::data-use::fitnessforuse.png[align=center,width=640,height=360]
 
-The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency. 
+GBIF downloads contain data from a range of sources and the data will likely vary in its correctness and consistency. 
 Correctness and consistency are two ways of documenting data errors and are measures of data quality. 
 These are measures of how well the data gatherer was able to capture the true value being investigated. 
-The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.
-Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
+Knowing the properties of the data you have will help you to understand the ways in which you can and cannot clean, validate and process the data.
 
 [NOTE.presentation]
 ====
