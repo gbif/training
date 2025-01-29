@@ -9,11 +9,11 @@ https://crowdin.com/project/gbif-training[image:https://badges.crowdin.net/gbif-
 
 = GBIF Training Courses
 
-This is the the GBIF training courses site.
+This is the source code for the https://training.gbif-uat.org/[GBIF training courses site].
 
-During development, it is visible at https://training.gbif-uat.org/
+There is also a https://training.gbif-uat.org/[development site].
 
-NOTE: This file is documenting the training course site system, it's not shown on https://training.gbif-uat.org/.
+NOTE: This file is documenting the training course site system, it's not shown on https://training.gbif.org/.
 
 == Overall structure
 
@@ -65,13 +65,19 @@ It's probably worth looking at these pages in the Antora and Asciidoctor documen
 
 ==== Home page
 
-The English home page, https://training.gbif-uat.org/en/, is a component called `ROOT`, which is a special name where `ROOT` doesn't show in links or URLs.  Reserve pages in this section for the home page and very general pages about all the training courses.
+The English home page, https://training.gbif.org/en/, is a component called `ROOT`, which is a special name where `ROOT` doesn't show in links or URLs.  Reserve pages in this section for the home page and very general pages about all the training courses.
 
 === Site theme
 
 The overall design of the site is controlled by a theme, https://github.com/gbif/tech-docs-theme[tech-docs-theme].  That sets the colours, fonts etc and adds the "Search" functionality.
 
 Changing the site menus (on the green bar) is done by overriding the theme.  Start at link:./supplemental_ui/partials/header-navigation.hbs[supplemental_ui/partials/header-navigation.hbs] and copy + paste until you have what you want :-) (but remember pushing changes rebuilds the live site).
+
+== Language setup
+
+Translations are managed using Crowdin, in the https://crowdin.com/project/gbif-training[GBIF Training Courses] project.  The Jenkins build creates and updates the necessary files.
+
+Languages enabled for deployment to https://training.gbif.org/ are configured within Jenkins.  If new languages are enabled, the `header-languages.hbs` and `head-styles.hbs` files should be updated too.
 
 == Building
 
