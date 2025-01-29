@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-01-29 12:43+0000\n"
+"PO-Revision-Date: 2025-01-29 13:36\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /main/translations/epn/use-case-darwinia.pot\n"
+"X-Crowdin-File-ID: 40982\n"
+
+#. type: Title =
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:1
+#, no-wrap
+msgid "Use case: Developing a national Participant node in Darwinia"
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:3
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:7
+msgid "_Please note that this use case is fictitious, based on an imaginary country “Darwinia” and built for instructional purposes.  Any reference to countries and structures/organizations, real or otherwise, are used merely to facilitate the training and do not reflect reality._"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:10
+msgid "The exercises in this course will build on a fictitious use case scenario _\"Developing a national Participant node in Darwinia\"_ that sets the context for you to go through the steps of building a case for GBIF Participation and establishing a new node.  You will also be invited to consider your own context in additional self-study exercises."
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:13
+msgid "In the use case, you will follow the story of a team based at a natural history museum that received a grant to start work on digitizing their collections and publish data through GBIF.  They see benefits of participating in the GBIF network and would like to build a case for their country to join and establish a national node."
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:14
+#, no-wrap
+msgid "Scenario"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:20
+msgid "The *Darwinia natural history museum*, the largest biological collection based in the nation of Darwinia, responded to a call for proposals for biodiversity data mobilization projects issued by the Global Biodiversity Information Facility (GBIF), in partnership with the smaller herbarium collection at the *Darwinia National University*.  Both project partners had limited capacity in data management prior to the project, but succeeded in getting a grant to begin digitizing their collections.  After receiving training, the museum staff have now installed software for managing their collections and the museum published the first datasets to GBIF.  The herbarium is still using spreadsheets to manage their data, but has advanced with the digitization and has also published data to GBIF, after gaining permission to use the IPT hosted at the Darwinia natural history museum."
+msgstr ""
+
+#. type: Block title
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:22
+#, no-wrap
+msgid "Photograph showing a display of specimens from a public exhibition"
+msgstr ""
+
+#. type: Target for macro image
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:23
+#, no-wrap
+msgid "epn::ButterflySpecimens.png"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:28
+msgid "The staff in both collections are already recognizing the benefits of improved data management on the institutional level and of sharing their data across institutions.  The national university has recently started a Master’s programme for biodiversity and conservation studies within the biology faculty and is keen to integrate teaching on biodiversity informatics within the course.  Both institutions receive national funding through the *Ministry for Research, Science and Higher Education*."
+msgstr ""
+
+#. type: Title ===
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:29
+#, no-wrap
+msgid "National context"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:33
+msgid "Darwinia is not yet a GBIF Participant and there is no national node in the country.  The project team held a national workshop to try to engage with potential users of the data they are publishing."
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:37
+msgid "The *Convention on Biological Diversity (CBD) focal point* and *clearing house mechanism (CHM)* are based at the *Ministry of Environment* and have been informed of the data mobilization project.  They are responsible for the national biodiversity reporting and are currently late in submitting the seventh National Report to the CBD.  They have been struggling to find sufficient information to prepare the report."
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:41
+msgid "The *Ministry for Research, Science and Higher Education* is better funded than the Ministry of Environment, but both suffered budget cuts under the previous government.  The CBD focal point is planning to apply for a *Global Environment Facility (GEF)* grant to establish a national biodiversity monitoring system that would address the gaps in biodiversity information identified in the national report through the establishment of a database.  The Ministry of Environment and the Ministry for Research, Science and Higher Education do not have any policies regarding the sharing of biodiversity data on the national level, although the government has been promoting transparency and open data."
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:45
+msgid "Representatives from the *National Parks Service* (under the Ministry of Environment) came to the project kick-off meeting, and were interested in improving their data management, as currently each park manages its data separately.  Darwinia has a very active tourism industry and is well known for its national parks and nature, although a growing number of the charismatic fauna and flora are threatened due to habitat loss (primarily due to expanding mining and logging industries) and the impacts of invasive alien species.  Representatives of the *Ministry for Tourism* were also invited to the meeting, and there are several private reserves that focus on eco-tourism that are receiving a growing number of tourists annually."
+msgstr ""
+
+#. type: Block title
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:47
+#, no-wrap
+msgid "Photograph \"Please leave nothing but your footprints\" (image via https://www.peakpx.com, licensed under CC-0)"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:49
+msgid "image::epn::Leave nothing but your footprints.jpg[align=center,width=640,height=360]"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:52
+msgid "Several *international conservation bodies (WWF, IUCN etc.)* have national programmes and bring international scientists to work on conservation projects involving the parks, but tend not to share data between them.  Citizen science has not yet taken off in the country, and only a few tourists are making use of citizen science applications."
+msgstr ""
+
+#. type: Title ===
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:53
+#, no-wrap
+msgid "Threats to biodiversity"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:58
+msgid "Darwinia has an active *extraction industry*, which employs *environmental and social impact assessment consultants*.  There is currently no public access to these data and they are not consistently formatted.  The *mining industry* is an important part of the country’s economy."
+msgstr ""
+
+#. type: Block title
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:60
+#, no-wrap
+msgid "Photograph \"Mining excavation on a mountain\" (Photo by Vlad Chețan from Pexels: https://www.pexels.com/photo/mining-excavation-on-a-mountain-2892618/, licensed under CC-0) "
+msgstr ""
+
+#. type: Target for macro image
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:61
+#, no-wrap
+msgid "epn::Mining.jpg[align=center,width=640,height=360]g"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:65
+msgid "The *Department of Forestry* is under the Ministry of Environment and gives permits for logging.  Illegal logging is a growing problem, especially because many communities depend on non-timber forest products."
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:68
+msgid "The Ministry of Environment is aware of the growing impact of invasive alien species (IAS) that are damaging the ecosystems in the parks, and affecting waterways.  They have started an IAS eradication programme in the national parks."
+msgstr ""
+
+#. type: Title ===
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:69
+#, no-wrap
+msgid "Other factors"
+msgstr ""
+
+#. type: Plain text
+#: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:73
+msgid "The newly elected government came into power at the end of 2021.  There have been many changes within the ministries, and the new Minister for Research, Science and Higher Education is a biologist who previously worked at the national university and is aware of the importance of their collections.  The election campaign also promised more sustainable economic growth through supporting the growth of tourism in the country."
+msgstr ""
+
