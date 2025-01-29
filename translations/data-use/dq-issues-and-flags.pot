@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-01-29 12:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:1
+#, no-wrap
+msgid "Data quality issues and flags"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:3
+#, no-wrap
+msgid "Oveview"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:9
+msgid ""
+"The GBIF network publishes datasets, integrating them into a common access "
+"system.  Here, users can retrieve data through common search and download "
+"services.  During the indexation process over the raw data, GBIF adds issues "
+"and flags to records with common data quality problems.  These may contain "
+"useful information for you as a user to create fit-for-purpose datasets."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:10
+#, no-wrap
+msgid "data-use::workflow2.png"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:13
+msgid ""
+"Remarks are shown on the individual occurrence pages to explain the process "
+"done after interpretation:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:15
+msgid ""
+"Excluded means the original data couldn’t be interpreted, so it is excluded "
+"in the interpreted fields."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:17
+msgid ""
+"Altered means the original data is modified in the interpretation process to "
+"be indexed in GBIF.org."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:19
+msgid ""
+"Inferred means if the original is empty, the data is inferred using other "
+"indexed record information."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:24
+msgid ""
+"Excluding all records with a particular issue is not currently possible with "
+"the search interface.  It is possible to filter all records you are not "
+"interested in with issues by selecting the particular issue and hitting the "
+"reverse button.  However, reversing will still only give you all other "
+"flagged occurrences and not issue-free records.  This is something that GBIF "
+"is working to improve."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:25
+#, no-wrap
+msgid "data-use::filtering.png"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:27
+#, no-wrap
+msgid "Issues and flags documentation"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:30
+msgid ""
+"A full overview of all issues and flags is found within https://techdocs."
+"gbif.org/[GBIF Technical Documentation^]:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
+msgid ""
+"https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Occurrence "
+"issues and flags^]"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
+msgid ""
+"https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[Checklist "
+"issues and flags^]"
+msgstr ""

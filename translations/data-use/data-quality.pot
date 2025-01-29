@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-01-29 12:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:1
+#, no-wrap
+msgid "Handling data quality"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:7
+msgid ""
+"Filtering the data allows you as a user to obtain the data that is most fit "
+"for purpose.  All searches have a set of filters that can be used for "
+"finding the data you need, and the occurrence search has a set of additional "
+"\"Advanced\" search filters with more criteria or options available.  While "
+"filters may allow you to filter out data that may not be relevant, or be of "
+"lower quality for your purposes, additional filtering may be required, "
+"either manually or programmaticially, to deal with additional data quality "
+"issues that arise.  Below are some common data filters that you as a user "
+"might consider to make the data more fit for use."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:8
+#, no-wrap
+msgid "Geospatial filters & issues"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:11
+msgid ""
+"The data can be filtered spatially in an occurrence search in one of three "
+"ways:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:13
+msgid ""
+"Country or area/Continent - data is filtered by country and will include "
+"data within the Exclusive Economic Zone (EEZ)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:15
+msgid ""
+"Administrative area - this filter uses the https://gadm.org/data.html[GADM "
+"database of administrative areas^] for all countries in the world to allow "
+"for GBIF removes common geospatial issues by default if you choose to have "
+"data with a location."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:16
+msgid ""
+"Location - this filter allows you to filter for data with coordinates and/or "
+"draw your own polygon shape filters or use a GeoJSON file to delimit your "
+"own shape filter."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:19
+msgid ""
+"If you filter for those data with coordinates, a number of geospatial issues "
+"associated with the data publishing workflow will be eliminated.  These are:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:22
+msgid ""
+"Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called "
+"a \"null island\".  Zero-zero coordinate is a very common geospatial issue. "
+"GBIF removes (0,0) when hasGeospatialIssues is set to FALSE."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:25
+msgid ""
+"Country coordinate mismatch — Data publishers often supply GBIF with a "
+"country code (US,TW,SE,JP…, etc.).  GBIF uses the two-letter https://en."
+"wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system.  "
+"When a point does not fall within the country’s polygon or EEZ but says that "
+"it should occur within the country, it gets flagged as having “country "
+"coordinate mismatch” and will be removed if data are filtered for locations."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:26
+msgid ""
+"Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. "
+"the coordinates that are not in the valid decimal format."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:27
+msgid ""
+"Coordinate out of range — The coordinates are outside of the range for "
+"decimal lat/lon values ((-90,90), (-180,180))."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:28
+#, no-wrap
+msgid "Country centroids"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:36
+msgid ""
+"Country centroids are where the observation is pinned to the centre of the "
+"country instead of where the taxon was observed or recorded.  Country "
+"centroids are usually records that have been retrospectively given a lat-lon "
+"value based on a textual description of where the original record was "
+"located.  Geocoding software uses gazetteers, geographical dictionaries or "
+"directories used in conjunction with a map or atlas, to attribute "
+"coordinates to place names.  So, if the record simply says “Brazil”, some "
+"publishers will use the center of Brazil as the coordinate of the record.  "
+"Similarly if the record simply says “Texas” or “Paris” the record will go in "
+"the center of those regions.  This is almost exclusively a feature of museum "
+"data (PRESERVED_SPECIMEN), but it can also happen with other types of "
+"records as well."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:38
+msgid ""
+"Use the \"Distance from centroid in meters\" on a GBIF occurrence search to "
+"filter for country centroids. The R package, https://docs.ropensci.org/"
+"CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying "
+"and filtering for country centroids."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:39
+#, no-wrap
+msgid "Points along the equator or prime meridian"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:43
+msgid ""
+"Some publishers consider zero and NULL to be equivalent so that empty "
+"latitude and longitude fields for a record are given a zero value.  As a "
+"result, records end up being plotted along the equator and prime meridian "
+"lines."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:44
+#, no-wrap
+msgid "Uncertain location "
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:49
+msgid ""
+"Often, you will want to be sure that the coordinates give a certain location "
+"and are not really 1000s of km away from where the organism was observed or "
+"collected.  There are two fields in Darwin Core - coordinate precision and "
+"coordinateUncertaintyInMeters - that you receive with a SIMPLE CSV download. "
+"You can use these fields to filter by “uncertainty”.  However, these fields "
+"are not used very often by publishers who feel that their records are fairly "
+"certain (from a GPS) and we would recommend not filtering out missing values."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:54
+msgid ""
+"There are also a few “fake” values for coordinate uncertainty that you "
+"should be aware of.  These values are errors produced by geocoding software "
+"and do not represent real uncertainty values.  These \"fake\" values are "
+"301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is "
+"often much-much greater than 301 and actually represents a country centroid."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:55
+#, no-wrap
+msgid "Gridded datasets"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:61
+msgid ""
+"Gridded datasets are a known problem at GBIF.  Many datasets have equally-"
+"spaced points in a regular pattern.  These datasets are usually systematic "
+"national surveys or data taken from some atlas (“so-called rasterized "
+"collection designs”).  Georeferenced occurrences are snapped to a central "
+"point."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:62
+#, no-wrap
+msgid "data-use::gridSnap.gif"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:65
+msgid ""
+"Most publishers of gridded datasets will likely complete one of the "
+"following columns:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:67
+msgid "coordinateUncertaintyInMeters"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:68
+msgid "coordinatePrecision"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:69
+msgid "footprintWKT"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:71
+msgid ""
+"So, filtering by these columns can be a good way to remove gridded datasets. "
+"GBIF has an experimental API for identifying datasets which exhibit a "
+"certain amount of \"griddyness\". You can read more about https://data-blog."
+"gbif.org/post/finding-gridded-datasets/[finding gridded datasets^] on the "
+"GBIF data blog."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:73
+msgid ""
+"The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate "
+"cleaner^] has a function for removing gridded datasets."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:74
+#, no-wrap
+msgid "Absence records"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:79
+msgid ""
+"By default, both presence and absence records are shown when you search "
+"records on GBIF.  Absence records confirm that a species was not found at a "
+"specific locality when that area was surveyed. This information can be "
+"useful in, for example, developing ecological niche models.  If you are only "
+"interested in presence records, you can filter for that using the Occurrence "
+"Status filter."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:80
+#, no-wrap
+msgid "Establishment Means"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:84
+msgid ""
+"The Darwin Core term https://dwc.tdwg.org/terms/#dwc:"
+"establishmentMeans[establishmentMeans^] identifies the process by which the "
+"biological individual(s) represented in the Occurrence became established at "
+"the location.  As such, it can serve as a useful filtering tool for "
+"identifying records that are outside of a species native range with accepted "
+"terms for this field being native, nativeReintroduced, introduced, "
+"introducedAssistedColonisation, vagrant or uncertain."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:87
+msgid ""
+"Use this filter cautiously, however, as most records do not contain this "
+"information, and so would be excluded from a search when using this filter.  "
+"We would recommend using the information within the Establishment Means term "
+"for filtering after download."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:88
+#, no-wrap
+msgid "Basis of Record "
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:91
+msgid ""
+"https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] is a Darwin "
+"Core term that refers to the specific nature of the record and can refer to "
+"one of 6 classes:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:93
+msgid ""
+"Living Specimen - a specimen that is alive. For example, a living plant in a "
+"botanical garden or a living animal in a zoo."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:94
+msgid ""
+"Preserved Specimen - a specimen that has been preserved. For example, a "
+"plant on a herbarium sheet or a cataloged lot of fish in a jar."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:95
+msgid ""
+"Fossil Specimen - a preserved specimen that is a fossil. For example, a body "
+"fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified "
+"tree."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:96
+msgid ""
+"Material Citation - a reference to, or citation of, one, a part of, or "
+"multiple specimens in scholarly publications. For example, a citation of a "
+"physical specimen from a scientifci collection in taxonomic treatment in a "
+"scientiufic publication or an occurrence mentioned in a field note book."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:97
+msgid ""
+"Human Observation - an output of human observation process, e.g. evidence of "
+"an occurrence taken from field notes or literature or a records of an "
+"occurence without physical evidence nor evidence captured with a machine."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:98
+msgid ""
+"Machine Observation - an output of a machine observation process. For "
+"example, a photograph, a video, an audio recording, a remote sensing image "
+"or an occurrence record based on telemetry."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:100
+msgid ""
+"Basis of record should allow users to filter out those indidivuals in ex-"
+"situ collections such as zoos and botanic gardens or fossils as well as "
+"filter for those records based on whether the record is based on a specimen "
+"or an observation, which can support taxonomic validation."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:102
+msgid ""
+"Even though this can be a useful filter, data publishers do not always "
+"complete the basis of record field correctly, or, there may be nuances in "
+"the data that may not be immediately obvious to a user, e.g. https://data-"
+"blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-"
+"of-record/ and you should always double check your data before use."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:103
+#, no-wrap
+msgid "Old Records"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:106
+msgid ""
+"GBIF has many museum records that might be older than what is desired for "
+"some studies."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:107
+#, no-wrap
+msgid "Duplicates"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:112
+msgid ""
+"Duplication of records can occur when several records of the same individal "
+"are made.  This can occur from, for instance, a researcher depositing "
+"several specimens from an individual tree in herbaria around the world who "
+"all then publish these data on GBIF, or when an individual has been "
+"deposited in a natural history collection and the indidivual was also "
+"sampled for its DNA.  In this instance, there will be a record for the "
+"specimen in the collections and one for the DNA sequence."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:115
+msgid ""
+"GBIF has introduced a clustering function in its advanced search that allows "
+"users to identify clusters of records, i.e. records that appear to be "
+"derived from the same source.  This allows users to identify potential "
+"duplicated data and filter them out."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/data-quality.adoc:117
+msgid ""
+"If you filter out those records that are in a cluster, you will lose all "
+"records found within that cluster and will lose potentially useful data.  "
+"The filter may be better used to indicate the extent to which there is "
+"duplication in the dataset, or for indepedent donwloads of the clustered and "
+"non-clustered datasets for comparison."
+msgstr ""

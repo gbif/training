@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-01-29 12:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:1
+#, no-wrap
+msgid "Handling taxonomic uncertainty"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:4
+msgid ""
+"Uncertainty surrounding the taxonomy of a data point can arise for several "
+"reasons:"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:6
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:9
+#, no-wrap
+msgid "Species misidentification"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:7
+msgid "Synonymy"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:8
+msgid "Novel names"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:14
+msgid ""
+"Species identification is a complex process with species typically described "
+"from a certain set of characters identified in a published species "
+"description and linked to a type specimen held within a scientific "
+"collection that be used for validation of species identification.  Where "
+"taxa are very similar or a set of complex traits are required for correct "
+"identification, specific taxonomic expertise not possesed by data publishers "
+"may lead to a species misidentification.  As users, you must have a clear "
+"understanding of how taxonomic determinations for your interest group are "
+"made:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:16
+msgid "What are the characters used for defining the species?"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:17
+msgid ""
+"Are these characters easily confused or captured when the species is "
+"observed or collected?"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:18
+msgid ""
+"Are there related species that could be easily confused with the species you "
+"are interested in?"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:21
+msgid ""
+"If you think that there is a risk that species may be incorrectly "
+"identified, you can take a conservative approach to the data you use and "
+"only use those data linked to specimens in collections where taxonomic "
+"validation would be possible and eliminate other data sources.  Another "
+"approach may be to use associated data, such as collector information, "
+"media, DNA sequences, etc., to validate the taxonomic determination."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:22
+#, no-wrap
+msgid "Synonymy "
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:29
+msgid ""
+"Synonymy can arise when the same species has been described several times "
+"and a new name is given to the species each time it is described, or, when "
+"there is a change in the taxonomy of a species, for example, a species is "
+"moved from one genus to another.  Only one species name can be accepted, and "
+"other names are what we call synonyms.  These synonyms may still be in use "
+"to a lesser or greater extent, and you should be sure when getting data from "
+"GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic "
+"backbone differentiates between accepted scientific names and synonyms, and "
+"unique identifiers in the form of taxon keys.  https://www.gbif.org/species/"
+"search[Species search^] allows for filtering for accepted names and "
+"synonyms, and taxon keys can be used for programmatic searches of GBIF."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:30
+#, no-wrap
+msgid "Taxon Keys"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:37
+msgid ""
+"Scientific names can be messy.  If you are accessing GBIF-mediated data "
+"programatically as opposed to via the website, taxon keys provide an "
+"effective way for defining searches based on taxonomy.  Taxon keys are "
+"issued at the species, genus family, order, phylum and kingdom level.  "
+"Unique identifiers are issued to accepted names with synonyms of those "
+"accepted names issued the same identifier.  So, it may make sense to sort "
+"out the species by their unique taxon keys provided during the indexation of "
+"the dataset by GIBF."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:38
+#, no-wrap
+msgid "New names"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:43
+msgid ""
+"There may be instances where the scientific name does not match any name in "
+"the GBIF backbone, perhaps because the species is newly described or is not "
+"within a checklist used by GBIF to construct its backbone.  These names are "
+"flagged with the TAXON_MATCH_HIGHERRANK flag, indicating that the scientific "
+"name has not been recognised but that the data point has matched at a higher "
+"taxonomic level, e.g., genus or family.  This flag can be used for "
+"identifying and filtering for these data.  When names have been misspelled "
+"or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used "
+"for identifying and filtering names that can only match the taxonomic "
+"backbone using a fuzzy, non-exact match."
+msgstr ""
