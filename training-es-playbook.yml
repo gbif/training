@@ -1,0 +1,59 @@
+site:
+  title: Cursos de formación de GBIF
+  start_page: ROOT::index.adoc
+  keys:
+    language: es
+content:
+  sources:
+    - url: .
+      start_path: ./es/home
+      branches: main
+    - url: .
+      start_path: ./es/intro-to-gbif
+      branches: main
+    - url: .
+      start_path: ./es/data-mobilization
+      branches: main
+    - url: .
+      start_path: ./es/data-use
+      branches: main
+    - url: .
+      start_path: ./es/dna-barcoding
+      branches: main
+    - url: .
+      start_path: ./es/nodes
+      branches: main
+    - url: .
+      start_path: ./es/epn
+      branches: main
+output:
+  clean: false
+  dir: ./output/es
+runtime:
+  fetch: true
+  cache_dir: ./cache
+ui:
+  bundle:
+    url: https://builds.gbif.org/job/tech-docs-theme/lastSuccessfulBuild/artifact/build/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+urls:
+  html_extension_style: drop
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: latest
+  redirect_facility: httpd
+asciidoc:
+  extensions:
+  - ./lib/asciidoctor-question
+  attributes:
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: yes
+    page-toctitle: 'Contenido de la página'
+    language: es
+    null: ␀
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+    index_latest_only: true
+    languages: [es]

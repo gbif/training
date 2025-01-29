@@ -1,0 +1,59 @@
+site:
+  title: 'دورات تدريبية GBIF'
+  start_page: ROOT::index.adoc
+  keys:
+    language: ar
+content:
+  sources:
+    - url: .
+      start_path: ./ar/home
+      branches: main
+    - url: .
+      start_path: ./ar/intro-to-gbif
+      branches: main
+    - url: .
+      start_path: ./ar/data-mobilization
+      branches: main
+    - url: .
+      start_path: ./ar/data-use
+      branches: main
+    - url: .
+      start_path: ./ar/dna-barcoding
+      branches: main
+    - url: .
+      start_path: ./ar/nodes
+      branches: main
+    - url: .
+      start_path: ./ar/epn
+      branches: main
+output:
+  clean: false
+  dir: ./output/ar
+runtime:
+  fetch: true
+  cache_dir: ./cache
+ui:
+  bundle:
+    url: https://builds.gbif.org/job/tech-docs-theme/lastSuccessfulBuild/artifact/build/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+urls:
+  html_extension_style: drop
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: latest
+  redirect_facility: httpd
+asciidoc:
+  extensions:
+  - ./lib/asciidoctor-question
+  attributes:
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: yes
+    page-toctitle: 'محتويات الصفحة'
+    language: ar
+    null: ␀
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+    index_latest_only: true
+    languages: [ar]
