@@ -7,25 +7,25 @@ content:
   sources:
     - url: .
       start_path: ./es/home
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/intro-to-gbif
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/data-mobilization
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/data-use
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/dna-barcoding
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/nodes
-      branches: main
+      branches: HEAD
     - url: .
       start_path: ./es/epn
-      branches: main
+      branches: HEAD
 output:
   clean: false
   dir: ./output/es
