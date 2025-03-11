@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:34\n"
+"PO-Revision-Date: 2025-03-11 21:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/course-review.adoc:1
 #, no-wrap
 msgid "Course review"
-msgstr ""
+msgstr "Revisión del curso"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:5
 msgid "Review concepts covered in this course."
-msgstr ""
+msgstr "Revisa los conceptos tratados en este curso."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -34,7 +34,7 @@ msgstr ""
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/course-review.adoc:12
 msgid "How can you access GBIF data?"
-msgstr ""
+msgstr "¿Cómo se puede acceder a los datos de GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:18
@@ -42,13 +42,15 @@ msgstr ""
 msgid "- [x] GBIF.org search interface\n"
 "- [x] GBIF API\n"
 "- [x] rgbif\n"
-msgstr ""
+msgstr "[x] GBIF.org search interface\n"
+"- [x] GBIF API\n"
+"- [x] rgbif\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:21
 msgid "Which file formats are available for downloads of data?"
-msgstr ""
+msgstr "¿Qué formatos de archivo están disponibles para la descarga de datos?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:28
@@ -57,13 +59,16 @@ msgid "- [x] Simple\n"
 "- [ ] XML\n"
 "- [x] Darwin Core Archive\n"
 "- [x] Species list\n"
-msgstr ""
+msgstr "[x] Simple\n"
+"- [ ] XML\n"
+"- [x] Archivo central Darwin\n"
+"- [x] Lista de especies\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:31
 msgid "Who determines if a dataset is fit for use?"
-msgstr ""
+msgstr "¿Quién determina si un conjunto de datos es apto para su uso?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:38
