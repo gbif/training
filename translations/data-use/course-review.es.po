@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-11 21:33\n"
+"PO-Revision-Date: 2025-03-11 23:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -77,13 +77,16 @@ msgid "- [ ] The museum or department director\n"
 "- [x] The users of the data for research or education\n"
 "- [ ] The collector of the data in the field\n"
 "- [ ] The person entering the data into the database\n"
-msgstr ""
+msgstr "[ ] El director del museo o del departamento\n"
+"- [x] Los usuarios de los datos para investigación o educación\n"
+"- [ ] El recopilador de datos en el campo\n"
+"- [ ] La persona que introduce el dato en la base da datos\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:41
 msgid "Which of these aspects do you need to consider when assessing if a GBIF-mediated dataset is fit for use?"
-msgstr ""
+msgstr "¿Cuáles de estos aspectos usted tiene que tener en cuenta al evaluar si un conjunto de datos mediados por GBIF es adecuado para su uso?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:48
@@ -92,7 +95,10 @@ msgid "- [x] The number of data points\n"
 "- [x] The spatial resolution of the data\n"
 "- [x] Dataset metadata\n"
 "- [x] The species identification\n"
-msgstr ""
+msgstr "[x] El número de puntos de datos\n"
+"- [x] La resolución espacial de los datos\n"
+"- [x] Meta datos del conjunto de datos\n"
+"- [x] La identificación de especies\n"
 
 #.  Question 6
 #. type: Plain text
@@ -111,7 +117,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:59
 msgid "Which of these are some common GBIF data quality issues?"
-msgstr ""
+msgstr "¿Cuáles de estos datos consideraría precisos?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:66
@@ -120,13 +126,16 @@ msgid "- [x] Duplicates of occurrence data\n"
 "- [x] Gridded datasets\n"
 "- [x] Country centroids\n"
 "- [x] Coordinate mismatches\n"
-msgstr ""
+msgstr "- [x] Duplicados de datos de sucesos \n"
+"- [x] Conjunto de datos reticulares\n"
+"- [x] Centroides de los países\n"
+"- [x] Desajustes de coordenadas\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:69
 msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
-msgstr ""
+msgstr "¿Qué tipo de banderas aplica GBIF a los datos para alertar de su calidad?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:78
@@ -137,7 +146,12 @@ msgid "- [x] altered\n"
 "- [x] excluded\n"
 "- [ ] interpreted\n"
 "- [x] inferred\n"
-msgstr ""
+msgstr "[x] Alterado\n"
+"- [ ] enmendado\n"
+"- [ ] traducido\n"
+"- [x] excluido\n"
+"- [ ] interpretado\n"
+"- [x] inferido\n"
 
 #.  Question 9
 #. type: Plain text
