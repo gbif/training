@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-18 08:15\n"
+"PO-Revision-Date: 2025-03-18 10:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -111,7 +111,8 @@ msgstr "¿Cuáles de estos datos consideraría apto?"
 #, no-wrap
 msgid "- [x] Data where the coordinates match the country information\n"
 "- [ ] Data where the higher taxonomy of a species does not reflect the current taxonomy of a species\n"
-msgstr ""
+msgstr "- [x] Datos donde las coordenadas igualan información sobre el país\n"
+"- [ ] Datos donde la taxonomía superior de una especie no refleja la taxonomía actual de la especie\n"
 
 #.  Question 7
 #. type: Plain text
@@ -157,7 +158,7 @@ msgstr "[x] Alterado\n"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:81
 msgid "Which of the following data quality checks cannot be performed automatically by GBIF?"
-msgstr ""
+msgstr "¿Cuál de las siguientes comprobaciones de calidad de datos no puede ser realizada automáticamente por GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:88
@@ -166,13 +167,16 @@ msgid "- [ ] Duplicate publication of the same occurrence\n"
 "- [ ] Coordinate inversions\n"
 "- [ ] Missing higher taxonomy\n"
 "- [x] Incorrect identification of a taxon\n"
-msgstr ""
+msgstr "- [ ] Publicación duplicada de la misma incidencia\n"
+"- [ ] Inversiones de coordenadas\n"
+"- [ ] Falta de taxonomía superior\n"
+"- [x] Identificación incorrecta de un taxón\n"
 
 #.  Question 10
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:91
 msgid "Which of the following is not an issue flag?"
-msgstr ""
+msgstr "¿Cuáles de los siguientes no es un indicador de problemas?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:98
@@ -181,5 +185,8 @@ msgid "- [ ] Country coordinate mismatch\n"
 "- [ ] Taxon match fuzzy\n"
 "- [ ] Basis of record invalid\n"
 "- [x] Outside native range\n"
-msgstr ""
+msgstr "- [ ] Falta de coincidencia de la coordenada del país\n"
+"- [ ] Coincidencia de taxón difusa\n"
+"- [ ] Base del registro inválida\n"
+"- [x] Fuera del área di distribución nativa\n"
 
