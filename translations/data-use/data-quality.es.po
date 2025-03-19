@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:34\n"
+"PO-Revision-Date: 2025-03-19 22:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -36,32 +36,32 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:11
 msgid "The data can be filtered spatially in an occurrence search in one of three ways:"
-msgstr ""
+msgstr "Los datos pueden filtrarse espacialmente en una búsqueda de ocurrencias de una de las tres maneras siguientes:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:13
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)."
-msgstr ""
+msgstr "País o área/Continente - los datos se filtran por país e incluirán los datos dentro de la Zona Económica Exclusiva (ZEE)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:15
 msgid "Administrative area - this filter uses the https://gadm.org/data.html[GADM database of administrative areas^] for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "Área administrativa - este filtro utiliza la https://gadm.org/data.html[base de datos GADM de áreas administrativas^] para todos los países del mundo para permitir que GBIF elimine los problemas geoespaciales comunes por defecto si elige tener datos con una localización."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:16
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter."
-msgstr ""
+msgstr "Ubicación - este filtro le permite filtrar datos con coordenadas y/o dibujar sus propios filtros de forma poligonal o utilizar un archivo GeoJSON para delimitar su propio filtro de forma."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:19
 msgid "If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "Si filtra esos datos con coordenadas, se eliminarán varios problemas geoespaciales asociados al flujo de trabajo de publicación de datos.  Estos son:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:22
 msgid "Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called a \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasGeospatialIssues is set to FALSE."
-msgstr ""
+msgstr "Coordenadas cero - Las coordenadas son exactamente (0,0) o lo que a veces se denomina «isla nula».  La coordenada cero es un problema geoespacial muy común. GBIF elimina (0,0) cuando hasGeospatialIssues está a FALSE."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:25
@@ -87,7 +87,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will use the center of Brazil as the coordinate of the record.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "Los centroides de país son aquellos en los que la observación se fija en el centro del país en lugar de en el lugar donde se observó o registró el taxón.  Los centroides de país suelen ser registros a los que se ha asignado retrospectivamente un valor lat-lon basado en una descripción textual del lugar en el que se encontraba el registro original.  Los programas de geocodificación utilizan nomenclátores, diccionarios geográficos o directorios utilizados junto con un mapa o atlas, para atribuir coordenadas a los topónimos.  Así, si el registro dice simplemente «Brasil», algunos editores utilizarán el centro de Brasil como coordenada del registro.  Del mismo modo, si el registro dice simplemente «Texas» o «París», el registro se situará en el centro de esas regiones.  Esta es una característica casi exclusiva de los datos de museos (PRESERVED_SPECIMEN), pero también puede ocurrir con otros tipos de registros."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
@@ -103,34 +103,34 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:43
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "Algunos editores consideran que cero y NULL son equivalentes, por lo que los campos de latitud y longitud vacíos de un registro reciben un valor cero.  Como resultado, los registros acaban trazándose a lo largo de las líneas del ecuador y del primer meridiano."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:44
 #, no-wrap
 msgid "Uncertain location "
-msgstr ""
+msgstr "Ubicación incierta "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:49
 msgid "Often, you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected.  There are two fields in Darwin Core - coordinate precision and coordinateUncertaintyInMeters - that you receive with a SIMPLE CSV download. You can use these fields to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would recommend not filtering out missing values."
-msgstr ""
+msgstr "A menudo, querrá estar seguro de que las coordenadas dan una ubicación determinada y no están realmente a miles de kilómetros de donde se observó o recolectó el organismo.  Hay dos campos en Darwin Core - coordinate precision y coordinateUncertaintyInMeters - que usted recibe con una descarga SIMPLE CSV. Puede utilizar estos campos para filtrar por «incertidumbre».  Sin embargo, estos campos no son utilizados muy a menudo por los editores que consideran que sus registros son bastante seguros (a partir de un GPS) y recomendaríamos no filtrar los valores que faltan."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:54
 msgid "There are also a few “fake” values for coordinate uncertainty that you should be aware of.  These values are errors produced by geocoding software and do not represent real uncertainty values.  These \"fake\" values are 301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid."
-msgstr ""
+msgstr "También hay algunos valores «falsos» de incertidumbre de coordenadas que debe conocer.  Estos valores son errores producidos por el software de geocodificación y no representan valores reales de incertidumbre.  Estos valores «falsos» son 301, 3036, 999 y 9999.  En el caso del valor 301, la incertidumbre es a menudo mucho mayor que 301 y en realidad representa el centroide de un país."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:55
 #, no-wrap
 msgid "Gridded datasets"
-msgstr ""
+msgstr "Conjuntos de datos reticulares"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:61
 msgid "Gridded datasets are a known problem at GBIF.  Many datasets have equally-spaced points in a regular pattern.  These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).  Georeferenced occurrences are snapped to a central point."
-msgstr ""
+msgstr "Los conjuntos de datos cuadriculados son un problema conocido en GBIF.  Muchos conjuntos de datos tienen puntos espaciados por igual en un patrón regular.  Estos conjuntos de datos suelen ser encuestas nacionales sistemáticas o datos extraídos de algún atlas («los llamados diseños de colección rasterizados»).  Las ocurrencias georreferenciadas se ajustan a un punto central."
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:62
