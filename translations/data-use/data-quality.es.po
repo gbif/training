@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-19 22:29\n"
+"PO-Revision-Date: 2025-03-19 23:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -141,7 +141,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:65
 msgid "Most publishers of gridded datasets will likely complete one of the following columns:"
-msgstr ""
+msgstr "La mayoría de los editores de conjuntos de datos reticulados completarán probablemente una de las siguientes columnas:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:67
@@ -151,7 +151,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:68
 msgid "coordinatePrecision"
-msgstr ""
+msgstr "precisión de coordenadas"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:69
@@ -177,7 +177,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:79
 msgid "By default, both presence and absence records are shown when you search records on GBIF.  Absence records confirm that a species was not found at a specific locality when that area was surveyed. This information can be useful in, for example, developing ecological niche models.  If you are only interested in presence records, you can filter for that using the Occurrence Status filter."
-msgstr ""
+msgstr "Por defecto, tanto los registros de presencia como los de ausencia se muestran cuando se buscan registros en GBIF.  Los registros de ausencia confirman que una especie no se encontró en una localidad específica cuando se estudió esa zona. Esta información puede ser útil, por ejemplo, para desarrollar modelos de nicho ecológico.  Si sólo le interesan los registros de presencia, puede filtrarlos usando el filtro Estado de Ocurrencia."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:80
@@ -188,18 +188,18 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:84
 msgid "The Darwin Core term https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^] identifies the process by which the biological individual(s) represented in the Occurrence became established at the location.  As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant or uncertain."
-msgstr ""
+msgstr "El término Darwin Core https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^] identifica el proceso por el cual el individuo o individuos biológicos representados en la Ocurrencia se establecieron en el lugar.  Como tal, puede servir como una herramienta de filtrado útil para identificar registros que están fuera del área de distribución nativa de una especie, siendo los términos aceptados para este campo nativo, nativoReintroducido, introducido, introducidoColonización asistida, errante o incierto."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:87
 msgid "Use this filter cautiously, however, as most records do not contain this information, and so would be excluded from a search when using this filter.  We would recommend using the information within the Establishment Means term for filtering after download."
-msgstr ""
+msgstr "No obstante, utilice este filtro con precaución, ya que la mayoría de los registros no contienen esta información, por lo que quedarían excluidos de una búsqueda al utilizar este filtro.  Recomendamos utilizar la información del término Medios de establecimiento para filtrar después de la descarga."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:88
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "Base de datos "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:91
@@ -209,72 +209,72 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:93
 msgid "Living Specimen - a specimen that is alive. For example, a living plant in a botanical garden or a living animal in a zoo."
-msgstr ""
+msgstr "Espécimen vivo: un espécimen que está vivo. Por ejemplo, una planta viva en un jardín botánico o un animal vivo en un zoo."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:94
 msgid "Preserved Specimen - a specimen that has been preserved. For example, a plant on a herbarium sheet or a cataloged lot of fish in a jar."
-msgstr ""
+msgstr "Espécimen conservado: un espécimen que ha sido conservado. Por ejemplo, una planta en un pliego de herbario o un lote catalogado de peces en un frasco."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:95
 msgid "Fossil Specimen - a preserved specimen that is a fossil. For example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree."
-msgstr ""
+msgstr "Espécimen fósil: espécimen conservado que es un fósil. Por ejemplo, un cuerpo fósil, un coprolito, un gastrolito, un icnofósil o un trozo de árbol petrificado."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:96
 msgid "Material Citation - a reference to, or citation of, one, a part of, or multiple specimens in scholarly publications. For example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "Cita de material: referencia o cita de uno, parte o varios especímenes en publicaciones científicas. Por ejemplo, una cita de un espécimen físico de una colección científica en el tratamiento taxonómico de una publicación científica o una aparición mencionada en un cuaderno de campo."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:97
 msgid "Human Observation - an output of human observation process, e.g. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "Observación humana: resultado del proceso de observación humana, por ejemplo, pruebas de un suceso tomadas de notas de campo o bibliográficas o registros de un suceso sin pruebas físicas ni pruebas capturadas con una máquina."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:98
 msgid "Machine Observation - an output of a machine observation process. For example, a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "Observación de una máquina: resultado de un proceso de observación de una máquina. Por ejemplo, una fotografía, un vídeo, una grabación de audio, una imagen de teledetección o un registro de sucesos basado en telemetría."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:100
 msgid "Basis of record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation."
-msgstr ""
+msgstr "La base del registro debe permitir a los usuarios filtrar los individuos de colecciones ex situ, como zoológicos y jardines botánicos o fósiles, así como filtrar los registros en función de si se basan en un espécimen o en una observación, lo que puede facilitar la validación taxonómica."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:102
 msgid "Even though this can be a useful filter, data publishers do not always complete the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user, e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr ""
+msgstr "Aunque esto puede ser un filtro útil, los editores de datos no siempre completan correctamente el campo de base de registro, o, puede haber matices en los datos que pueden no ser inmediatamente obvios para un usuario, por ejemplo, https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ y siempre se debe volver a comprobar los datos antes de su uso."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:103
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "Archivos antiguos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:106
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "GBIF tiene muchos registros de museos que pueden ser más antiguos de lo que se desea para algunos estudios."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:107
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplicados"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:112
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from, for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "La duplicación de registros puede ocurrir cuando se hacen varios registros del mismo individuo.  Esto puede ocurrir, por ejemplo, cuando un investigador deposita varios especímenes de un árbol individual en herbarios de todo el mundo que luego publican estos datos en GBIF, o cuando un individuo ha sido depositado en una colección de historia natural y el individuo también fue muestreado para su ADN.  En este caso, habrá un registro para el espécimen en las colecciones y otro para la secuencia de ADN."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:115
 msgid "GBIF has introduced a clustering function in its advanced search that allows users to identify clusters of records, i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter them out."
-msgstr ""
+msgstr "GBIF ha introducido una función de agrupación en su búsqueda avanzada que permite a los usuarios identificar grupos de registros, es decir, registros que parecen proceder de la misma fuente.  Esto permite a los usuarios identificar posibles datos duplicados y filtrarlos."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:117
 msgid "If you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
-msgstr ""
+msgstr "Si filtra los registros que están en un cluster, perderá todos los registros que se encuentren dentro de ese cluster y perderá datos potencialmente útiles.  El filtro puede utilizarse mejor para indicar hasta qué punto hay duplicación en el conjunto de datos, o para donwloads independientes de los conjuntos de datos agrupados y no agrupados para su comparación."
 
