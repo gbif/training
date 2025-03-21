@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-19 23:45\n"
+"PO-Revision-Date: 2025-03-21 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:39
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "Puntos a lo largo del ecuador o meridiano principal"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:43
@@ -146,7 +146,7 @@ msgstr "La mayoría de los editores de conjuntos de datos reticulados completar�
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:67
 msgid "coordinateUncertaintyInMeters"
-msgstr ""
+msgstr "Incertidumbre de las coordenadas en metros"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:68
@@ -156,23 +156,23 @@ msgstr "precisión de coordenadas"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:69
 msgid "footprintWKT"
-msgstr ""
+msgstr "footprintWKT"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:71
 msgid "So, filtering by these columns can be a good way to remove gridded datasets. GBIF has an experimental API for identifying datasets which exhibit a certain amount of \"griddyness\". You can read more about https://data-blog.gbif.org/post/finding-gridded-datasets/[finding gridded datasets^] on the GBIF data blog."
-msgstr ""
+msgstr "Así pues, el filtrado con base en estas columnas puede ser una buena manera de remover conjuntos de datos reticulares. GBIF tiene un API experimental para la identificación de conjuntos de datos que muestran un cierto grado de cuadrículas. Puedes leer más sobre https://data-blog.gbif.org/post/finding-gridded-datasets/[finding gridded datasets^] en el blog de datos de GBIF."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:73
 msgid "The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] has a function for removing gridded datasets."
-msgstr ""
+msgstr "El paquete R, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] tiene la función de remover conjuntos de datos en cuadrículas."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:74
 #, no-wrap
 msgid "Absence records"
-msgstr ""
+msgstr "Registros de ausencia"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:79
@@ -183,7 +183,7 @@ msgstr "Por defecto, tanto los registros de presencia como los de ausencia se mu
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:80
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "Medios de establecimiento"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:84
@@ -204,7 +204,7 @@ msgstr "Base de datos "
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:91
 msgid "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:"
-msgstr ""
+msgstr "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] es un término de Darwin Core que se refiere a la natura específica del registro y se puede referir a una de 6 clases:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:93
