@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:34\n"
+"PO-Revision-Date: 2025-03-22 12:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -108,28 +108,29 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:42
 msgid "Ecological Metadata Language (EML): https://eml.ecoinformatics.org/[Ecological Metadata Language^] is a metadata standard that records information about ecological datasets in a series of modular and extensible XML document types.  All of the descriptions of datasets in GBIF.org rely on ‘metadata’—that is, the information about data—using the open-source EML standard, which is administered and maintained by https://knb.ecoinformatics.org/[The Knowledge Network for Biocomplexity^].  Each Darwin Core Archive includes as one of its components an EML file (written in XML format)."
-msgstr ""
+msgstr "Lenguaje de Metadatos Ecológicos (LME):\n"
+"https://eml.ecoinformatics.org/[Ecological Metadata Language^] es un estándar que registra información sobre conjuntos de datos ecológicos en una serie de tipos de documento XML modular y extensible. Las descripciones de conjuntos de datos en GBIF.org confian en 'metadatos'- es decir, la información sobre los datos- utilizando el estándard open-source EML, lo cual es administrado y mantenido por https://knb.ecoinformatics.org/[The Knowledge Network for Biocomplexity^]. Cada archivo de Darwin Core incluye como uno de su componentes un archivo EML (escrito en formato XML)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:43
 msgid "BioCASe/ABCD: The http://www.biocase.org/[Biological Collection Access Service^], commonly referred to as BioCASe, is an international network linking biological collections data from natural history museums, botanical/zoological gardens and research institutions. The http://www.biocase.org/products/protocols[BioCASe protocol^] relies on the http://www.tdwg.org/standards/115[Access to Biological Collections Data^] (ABCD) data exchange standard, which TDWG also administers."
-msgstr ""
+msgstr "BioCASe/ABCD: The http://www.biocase.org/[Biological Collection Access Service^], comúnmente conocido como BioCASE, es una red internacional que enlaza datos de colecciones biológicas desde museos de historia natural, jardines botánicos/ zoológicos e instituciones de investigación. http://www.biocase.org/products/protocols[BioCASe protocol^] confía en http://www.tdwg.org/standards/115[Access to Biological Collections Data^] estándar de intercambio de daos, el cual administra también TDWG."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:44
 #, no-wrap
 msgid "Open data"
-msgstr ""
+msgstr "Datos abiertos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:47
 msgid "In keeping with a 2014 https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement[decision by the GBIF governing board^], data publishers must assign one of the three Creative Commons options to any occurrence dataset. The Governing Board recognized the need for much greater clarity both for data publishers and users on how data may be used when shared via GBIF.org. https://creativecommons.org/[Creative Commons] is a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges."
-msgstr ""
+msgstr "De acuerdo con una https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement[decision by the GBIF governing board^ de 2014, los publicadores de datos deben asignar una de las tres opciones Creative Commons a cada conjunto de datos de registros. La junta de gobierno reconoció la necesidad de una mayor claridad tanto para los publicadores de datos como los usuarios sobre cómo se pueden utilizar los datos cuando se comparten vía GBIF.org. https://creativecommons.org/[Creative Commons] es una organización sin fines de lucro que ayuda a superar los obstáculos legales para compartir el conocimiento y la creatividad a fin de abordar los desafíos apremiantes del mundo."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:49
 msgid "http://creativecommons.org/publicdomain/zero/1.0[CC0^] - no conditions for use"
-msgstr ""
+msgstr "http://creativecommons.org/publicdomain/zero/1.0[CC0^] -sin condiciones de uso"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:50
@@ -139,35 +140,35 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:51
 msgid "http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC^] - non-commercial use with attribution"
-msgstr ""
+msgstr "http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC^] - uso no comercial con atribución"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:53
 msgid "Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers have waived conditions for use, attribution is expected."
-msgstr ""
+msgstr "Tenga en cuenta que la licencia CC-BY-NC tiene un efecto significativo en la reutilización de los datos. GBIF anima a los editores de datos a elegir la opción más abierta siempre que sea posible. Es importante señalar que las imágenes no están sujetas a la misma licencia que se aplica al conjunto de datos y pueden tener condiciones de uso más restringidas. Por último, la atribución/citación es una norma comunitaria, por lo que incluso si los editores han renunciado a las condiciones de uso, se espera la atribución."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:54
 #, no-wrap
 msgid "FAIR data"
-msgstr ""
+msgstr "Datos FAIR"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:61
 msgid "Many articles from 2011-2016 documented a crisis in scientific reproducibility (see below).  In 2016, the https://www.nature.com/articles/sdata201618[FAIR Guiding Principles for scientific data management and stewardship^] were published in https://www.nature.com/sdata/[Scientific Data^].  The principles were designed to improve the Findability, Accessibility, the Interoperability and the Reusability of datasets and address \"an urgent need to improve the infrastructure supporting the reuse of scholarly data.\" Implementation of these principles began in 2018.  You can read more about http://www.go-fair.org/how-to-go-fair/[How to GO FAIR^] on https://www.go-fair.org/[GO-FAIR.org^]."
-msgstr ""
+msgstr "Numerosos artículos de 2011 a 2016 documentaron una crisis de la reproducibilidad científica (véase más abajo).  En 2016, se publicaron los https://www.nature.com/articles/sdata201618[FAIR Guiding Principles for scientific data management and stewardship^] en https://www.nature.com/sdata/[Scientific Data^].  Los principios fueron diseñados para mejorar la encontrabilidad, accesibilidad, interoperabilidad y reutilización de los conjuntos de datos y abordar «una necesidad urgente de mejorar la infraestructura de apoyo a la reutilización de los datos académicos.» La aplicación de estos principios comenzó en 2018.  Puede obtener más información sobre http://www.go-fair.org/how-to-go-fair/[How to GO FAIR^] en https://www.go-fair.org/[GO-FAIR.org^]."
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:62
 #, no-wrap
 msgid "data-use::gofairlogo.svg"
-msgstr ""
+msgstr "data-use::gofairlogo.svg"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:64
 #, no-wrap
 msgid "data-use::FairPrinciples2.png"
-msgstr ""
+msgstr "data-use::FairPrinciples2.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:67
@@ -179,29 +180,29 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:70
 #, no-wrap
 msgid "*FINDABLE*\n"
-msgstr ""
+msgstr "FÁCIL DE ENCONTRAR\n"
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:72
 msgid "GBIF has https://www.gbif.org/data-quality-requirements[requirements] for metadata and datasets. All datasets are identified by https://www.gbif.org/faq?question=how-and-when-does-gbif-assign-digital-object-identifiers-dois[Digital Object Identifiers^] (DOIs)."
-msgstr ""
+msgstr "GBIF cuenta con https://www.gbif.org/data-quality-requirements[requirements] para los metadatos y conjuntos de datos. Todos los conjuntos de datos están identificados por https://www.gbif.org/faq?question=how-and-when-does-gbif-assign-digital-object-identifiers-dois[Digital Object Identifiers^] (DOIs)."
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:76
 #, no-wrap
 msgid "*ACCESSIBLE*\n"
-msgstr ""
+msgstr "ACCESSIBLE\n"
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:78
 msgid "The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine-readable interface (REST + JSON) and uses the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository."
-msgstr ""
+msgstr "La https://www.gbif.org/developer/summary[GBIF Portal API^] proporciona una interfaz legible por computadoras (REST + JSON) y utiliza el https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) como repositorio de datos de confianza."
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:82
 #, no-wrap
 msgid "*INTEROPERABLE*\n"
-msgstr ""
+msgstr "INTEROPERABLE\n"
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:84
