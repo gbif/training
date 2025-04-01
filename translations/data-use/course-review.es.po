@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:34\n"
+"PO-Revision-Date: 2025-03-18 10:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/course-review.adoc:1
 #, no-wrap
 msgid "Course review"
-msgstr ""
+msgstr "Revisión del curso"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:5
 msgid "Review concepts covered in this course."
-msgstr ""
+msgstr "Revisa los conceptos tratados en este curso."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -34,7 +34,7 @@ msgstr ""
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/course-review.adoc:12
 msgid "How can you access GBIF data?"
-msgstr ""
+msgstr "¿Cómo se puede acceder a los datos de GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:18
@@ -42,13 +42,15 @@ msgstr ""
 msgid "- [x] GBIF.org search interface\n"
 "- [x] GBIF API\n"
 "- [x] rgbif\n"
-msgstr ""
+msgstr "[x] GBIF.org search interface\n"
+"- [x] GBIF API\n"
+"- [x] rgbif\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:21
 msgid "Which file formats are available for downloads of data?"
-msgstr ""
+msgstr "¿Qué formatos de archivo están disponibles para la descarga de datos?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:28
@@ -57,13 +59,16 @@ msgid "- [x] Simple\n"
 "- [ ] XML\n"
 "- [x] Darwin Core Archive\n"
 "- [x] Species list\n"
-msgstr ""
+msgstr "[x] Simple\n"
+"- [ ] XML\n"
+"- [x] Archivo central Darwin\n"
+"- [x] Lista de especies\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:31
 msgid "Who determines if a dataset is fit for use?"
-msgstr ""
+msgstr "¿Quién determina si un conjunto de datos es apto para su uso?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:38
@@ -72,13 +77,16 @@ msgid "- [ ] The museum or department director\n"
 "- [x] The users of the data for research or education\n"
 "- [ ] The collector of the data in the field\n"
 "- [ ] The person entering the data into the database\n"
-msgstr ""
+msgstr "[ ] El director del museo o del departamento\n"
+"- [x] Los usuarios de los datos para investigación o educación\n"
+"- [ ] El recopilador de datos en el campo\n"
+"- [ ] La persona que introduce el dato en la base da datos\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:41
 msgid "Which of these aspects do you need to consider when assessing if a GBIF-mediated dataset is fit for use?"
-msgstr ""
+msgstr "¿Cuáles de estos aspectos usted tiene que tener en cuenta al evaluar si un conjunto de datos mediados por GBIF es adecuado para su uso?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:48
@@ -87,26 +95,30 @@ msgid "- [x] The number of data points\n"
 "- [x] The spatial resolution of the data\n"
 "- [x] Dataset metadata\n"
 "- [x] The species identification\n"
-msgstr ""
+msgstr "[x] El número de puntos de datos\n"
+"- [x] La resolución espacial de los datos\n"
+"- [x] Meta datos del conjunto de datos\n"
+"- [x] La identificación de especies\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:51
 msgid "Which of these would you consider to be accurate data?"
-msgstr ""
+msgstr "¿Cuáles de estos datos consideraría apto?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:56
 #, no-wrap
 msgid "- [x] Data where the coordinates match the country information\n"
 "- [ ] Data where the higher taxonomy of a species does not reflect the current taxonomy of a species\n"
-msgstr ""
+msgstr "- [x] Datos donde las coordenadas igualan información sobre el país\n"
+"- [ ] Datos donde la taxonomía superior de una especie no refleja la taxonomía actual de la especie\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:59
 msgid "Which of these are some common GBIF data quality issues?"
-msgstr ""
+msgstr "¿Cuáles de estos datos consideraría precisos?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:66
@@ -115,13 +127,16 @@ msgid "- [x] Duplicates of occurrence data\n"
 "- [x] Gridded datasets\n"
 "- [x] Country centroids\n"
 "- [x] Coordinate mismatches\n"
-msgstr ""
+msgstr "- [x] Duplicados de datos de sucesos \n"
+"- [x] Conjunto de datos reticulares\n"
+"- [x] Centroides de los países\n"
+"- [x] Desajustes de coordenadas\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:69
 msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
-msgstr ""
+msgstr "¿Qué tipo de banderas aplica GBIF a los datos para alertar de su calidad?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:78
@@ -132,13 +147,18 @@ msgid "- [x] altered\n"
 "- [x] excluded\n"
 "- [ ] interpreted\n"
 "- [x] inferred\n"
-msgstr ""
+msgstr "[x] Alterado\n"
+"- [ ] enmendado\n"
+"- [ ] traducido\n"
+"- [x] excluido\n"
+"- [ ] interpretado\n"
+"- [x] inferido\n"
 
 #.  Question 9
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:81
 msgid "Which of the following data quality checks cannot be performed automatically by GBIF?"
-msgstr ""
+msgstr "¿Cuál de las siguientes comprobaciones de calidad de datos no puede ser realizada automáticamente por GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:88
@@ -147,13 +167,16 @@ msgid "- [ ] Duplicate publication of the same occurrence\n"
 "- [ ] Coordinate inversions\n"
 "- [ ] Missing higher taxonomy\n"
 "- [x] Incorrect identification of a taxon\n"
-msgstr ""
+msgstr "- [ ] Publicación duplicada de la misma incidencia\n"
+"- [ ] Inversiones de coordenadas\n"
+"- [ ] Falta de taxonomía superior\n"
+"- [x] Identificación incorrecta de un taxón\n"
 
 #.  Question 10
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:91
 msgid "Which of the following is not an issue flag?"
-msgstr ""
+msgstr "¿Cuáles de los siguientes no es un indicador de problemas?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:98
@@ -162,5 +185,8 @@ msgid "- [ ] Country coordinate mismatch\n"
 "- [ ] Taxon match fuzzy\n"
 "- [ ] Basis of record invalid\n"
 "- [x] Outside native range\n"
-msgstr ""
+msgstr "- [ ] Falta de coincidencia de la coordenada del país\n"
+"- [ ] Coincidencia de taxón difusa\n"
+"- [ ] Base del registro inválida\n"
+"- [x] Fuera del área di distribución nativa\n"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:35\n"
+"PO-Revision-Date: 2025-03-24 17:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,38 +20,38 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:1
 #, no-wrap
 msgid "_Lemur catta_ tutorial"
-msgstr ""
+msgstr "_Lemur catta_ tutorial"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:4
 msgid "Author: Arman Pili with additional edits by Chihjen Ko"
-msgstr ""
+msgstr "Autor: Arman Pili con ediciones adicionales por Chihjen Ko"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:6
 msgid "This is an example script that can be used for developing your own data processing workflows.  The script takes you through the process of downloading, visualizing and cleaning GBIF-mediated data. Remember that this script is only a tool and that, ultimately, it is you the user to ensure that the data is fit for purpose."
-msgstr ""
+msgstr "Este es un guion de ejemplo que se puede utilizar para desarrollar tus propios datos procesando flujos de trabajo. El guion te lleva a través el proceso de descarga, visualizando y limpiando los datos mediados por GBIF. Recuerde que el guion es solo una herramienta y que, en definitiva, es usted el usuario que asegura que  los datos sean aptos para un propósito."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:8
 msgid "You can download the R Markdown document for your own use here - xref:attachment$Lemur_catta_project.Rmd[_Lemur catta_ project, opts=download]. You will be redirected to another page.  Right click and \"Save as...\" to save the file to your hard drive. (If you save it as an .Rmd file instead of a .txt file you will benefit from the additional functionality that comes with that format when you open it in RStudio)."
-msgstr ""
+msgstr "Usted puede descargar el documento R Markdown para su propio uso aquí - xref:attachment$Lemur_catta_project.Rmd[_Lemur catta_ project, opts=download]. Usted será redirigido a una otra página. Pulsa con el botón derecho y \"Guarda como...\" para guardar el archivo en su disco duro. (Si lo guarda como un archivo Rmd en lugar que un archivo .txt se beneficiará de la funcionalidad adicional que viene con ese formato cuando se abre en RStudio)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:10
 msgid "As new data is added to the GBIF Index, the results, counts, and images shown below may differ from yours."
-msgstr ""
+msgstr "A medida que nuevos datos se añaden al índice de GBIF, los resultados, recuentos e imágenes mostradas abajo podrían diferir de las suyas."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:11
 #, no-wrap
 msgid "Packages"
-msgstr ""
+msgstr "Paquetes"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:14
 msgid "The following packages will be needed:"
-msgstr ""
+msgstr "Se necesitarán de los siguientes paquetes:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:26
@@ -121,7 +121,11 @@ msgid "```{r}\n"
 "                            scale = \"medium\",\n"
 "                            returnclass = \"sf\")\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"country_map <- ne_countries(country = \"Madagascar\",\n"
+"                            scale = \"medium\",\n"
+"                            returnclass = \"sf\")\n"
+"```\n"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:50
@@ -360,7 +364,10 @@ msgid "```{r}\n"
 "clean_step1 <- gdf %>%\n"
 "  as_tibble() %>%\n"
 "  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
-msgstr ""
+msgstr "```{r}\n"
+"clean_step1 <- gdf %>%\n"
+"  as_tibble() %>%\n"
+"  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:167
@@ -368,18 +375,20 @@ msgstr ""
 msgid "print(paste0(nrow(gdf)-nrow(clean_step1), \" records deleted; \",\n"
 "             nrow(clean_step1), \" records remaining.\"))\n"
 "```\n"
-msgstr ""
+msgstr "print(paste0(nrow(gdf)-nrow(clean_step1), \" records deleted; \",\n"
+"             nrow(clean_step1), \" records remaining.\"))\n"
+"```\n"
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:168
 #, no-wrap
 msgid "Plotting raw records vs. cleaned records"
-msgstr ""
+msgstr "Trazar registros crudos contra registros pulidos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:170
 msgid "We can use geom_point() multiple times to stack markers from different data frames. Here we show the cleaned records in red, and the raw ones in black. Notice the black marker \"+\" in Denmark(DK)."
-msgstr ""
+msgstr "Se puede utilizar geom_point() varias veces para apilar marcadores de diferentes marcos de datos. Aquí se muestran los registros limpios en rojo, y los crudos en negro. Observe el marcador negro \"+\" en Denamarca."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:186
@@ -399,24 +408,38 @@ msgid "```{r}\n"
 "             color = \"red\") +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = world_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step1,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:187
 #, no-wrap
 msgid "data-use::lemur_cleaning_1.png"
-msgstr ""
+msgstr "data-use::lemur_cleaning_1.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:189
 #, no-wrap
 msgid "Step 2: Flagging problematic coordinates"
-msgstr ""
+msgstr "Paso 2: Indicar las coordenadas problemáticas"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:192
 msgid "Flagging records with problematic occurrence information using functions of the https://ropensci.github.io/CoordinateCleaner/index.html[coordinateCleaner] package. See comments for what each function does."
-msgstr ""
+msgstr "Indicar registros con información problemática de incidencia usando las funciones del paquete https://ropensci.github.io/CoordinateCleaner/index.html[coordinateCleaner. Consulte los comentarios para saber qué hace cada función."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:207
@@ -435,7 +458,20 @@ msgid "```{r, message = FALSE}\n"
 "  cc_cen(buffer = 2000) %>% # Identify coordinates in vicinity of country and province centroids\n"
 "  cc_gbif(buffer = 2000) %>% # Identify records assigned to GBIF headquarters\n"
 "  cc_inst(buffer = 2000) # Identify records in the vicinity of biodiversity institutions\n"
-msgstr ""
+msgstr "```{r, message = FALSE}\n"
+"clean_step2 <- clean_step1 %>% \n"
+"  filter(!is.na(decimalLatitude),\n"
+"         !is.na(decimalLongitude),\n"
+"         countryCode == \"MG\") %>% # \"MG\" is the ISO 3166-1 alpha-2 code for Madagascar\n"
+"  cc_dupl() %>% # Identify duplicated records\n"
+"  cc_zero() %>% # Identify zero coordinates\n"
+"  cc_equ() %>% # Identify records with identical lat/lon\n"
+"  cc_val() %>% # Identify invalid lat/lon coordinates\n"
+"  cc_sea() %>% # Identify non-terrestrial coordinates\n"
+"  cc_cap(buffer = 2000) %>% # Identify coordinates in vicinity of country capitals\n"
+"  cc_cen(buffer = 2000) %>% # Identify coordinates in vicinity of country and province centroids\n"
+"  cc_gbif(buffer = 2000) %>% # Identify records assigned to GBIF headquarters\n"
+"  cc_inst(buffer = 2000) # Identify records in the vicinity of biodiversity institutions\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:211
@@ -443,13 +479,15 @@ msgstr ""
 msgid "print(paste0(nrow(gdf)-nrow(clean_step2), \" records deleted; \",\n"
 "             nrow(clean_step2), \" records remaining.\"))  \n"
 "```\n"
-msgstr ""
+msgstr "print(paste0(nrow(gdf)-nrow(clean_step2), \" records deleted; \",\n"
+"             nrow(clean_step2), \" records remaining.\"))  \n"
+"```\n"
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:212
 #, no-wrap
 msgid "Plotting raw records vs. cleaned records (step 2)"
-msgstr ""
+msgstr "Trazar registros crudos contra registros limpios (paso 2)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:229
@@ -469,29 +507,43 @@ msgid "```{r}\n"
 "             color = \"red\") +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = world_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step2,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:230
 #, no-wrap
 msgid "data-use::lemur_cleaning_2.png"
-msgstr ""
+msgstr "utilizo-de datos::lemur_cleaning_2.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:233
 msgid "Again, the black \"+\" markers indicate the occurrences of the raw dataset; whereas the red \"+\" markers indicate the occurrences of the cleaned dataset."
-msgstr ""
+msgstr "Otra vez, los marcadores \"+\" negros \"+\" indican los registros de los conjuntos de datos crudos; mientras que los marcadores \"+\" rojos indican los registros de conjuntos de datos limpios."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:234
 #, no-wrap
 msgid "Zooming in to madagascar"
-msgstr ""
+msgstr "Acercarse a Madagascar"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:236
 msgid "With `cord_sf()`, we can zoom in to show markers in Madagascar."
-msgstr ""
+msgstr "Con `cord_sf()`, nos podemos acercar paras mostrar los marcadores en Madagascar."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:254
@@ -513,24 +565,40 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step2,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:254
 #, no-wrap
 msgid "data-use::lemur_madagascar.png"
-msgstr ""
+msgstr "uso-de datos::lemur_madagascar.org"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:256
 #, no-wrap
 msgid "Step 3: Coordinate quality"
-msgstr ""
+msgstr "Paso 3: Coordinar la calidad"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:259
 msgid "We would like to further remove records with coordinate uncertainty and precision issues. The coordinate uncertainty in meters should be below 10000, and the coordinate precision should be better than 0.01."
-msgstr ""
+msgstr "Nos gustaría seguir eliminando registros con incertidumbre de las coordenadas y problemas de precisión. La incertidumbre de coordenadas en metros debería ser inferior a 10000, mientras que la precisión de coordenadas debería ser mejor que 0.01."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:266
@@ -541,7 +609,12 @@ msgid "```{r}\n"
 "           coordinateUncertaintyInMeters < 10000,\n"
 "         is.na(coordinatePrecision) |\n"
 "           coordinatePrecision > 0.01)\n"
-msgstr ""
+msgstr "```{r}\n"
+"clean_step3 <- clean_step2 %>% \n"
+"  filter(is.na(coordinateUncertaintyInMeters) |\n"
+"           coordinateUncertaintyInMeters < 10000,\n"
+"         is.na(coordinatePrecision) |\n"
+"           coordinatePrecision > 0.01)\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:271
@@ -550,13 +623,16 @@ msgid "print(paste0(nrow(gdf)-nrow(clean_step3), \" records deleted; \",\n"
 "             nrow(clean_step3), \" records remaining.\" ))  \n"
 "```\n"
 "We only have 14 records left, as shown in the following plot.\n"
-msgstr ""
+msgstr "print(paste0(nrow(gdf)-nrow(clean_step3), \" records deleted; \",\n"
+"             nrow(clean_step3), \" records remaining.\" ))  \n"
+"```\n"
+"Quedan solo 14 registros, como se muestra en el siguiente gráfico.\n"
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:272
 #, no-wrap
 msgid "Plotting raw records vs. cleaned records (step 3)"
-msgstr ""
+msgstr "Trazar registros nuevos versus registros limpios (paso 3)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:291
@@ -578,29 +654,45 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step3,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:292
 #, no-wrap
 msgid "data-use::lemur_cleaning_3.png"
-msgstr ""
+msgstr "uso-de datos::lemur_cleaning_3.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:294
 #, no-wrap
 msgid "Step 4: Temporal range filtering"
-msgstr ""
+msgstr "Paso 4: Filtrado por rangos temporal"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:297
 msgid "We might have other data layers to work with the occurrence download (e.g. https://worldclim.org/data/index.html[WorldClim] provides data from 1960). Depending on the temporal availability of the data, say, only after 1955, we also want to filter away occurrence records prior to the year as it wouldn't be used."
-msgstr ""
+msgstr "Podríamos tener otros niveles de datos para trabajar con la descarga de incidencia (por ejemplo https://worldclim.org/data/index.html[WorldClim proporciona datos desde 1960). Dependiendo de la disponibilidad temporal de los datos, por ejemplo, después de 1955, nosotros queremos también filtrar los registros de incidencia anterior al año, ya que no serían utilizados."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:299
 msgid "The `filter()` function applying to temporal attributes can easily remove records with temporal range outside that of our predictor variables."
-msgstr ""
+msgstr "La función `filtro()` aplicada a los atributos temporales puede eliminar fácilmente los registros con un rango temporal fuera de nuestras variables predictivas."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:303
@@ -608,7 +700,9 @@ msgstr ""
 msgid "```{r}\n"
 "clean_step4 <- clean_step3 %>% \n"
 "  filter(year >= 1955)\n"
-msgstr ""
+msgstr "```{r}\n"
+"clean_step4 <- clean_step3 %>% \n"
+"  filter(year >= 1955)\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:307
@@ -616,12 +710,14 @@ msgstr ""
 msgid "print(paste0(nrow(gdf)-nrow(clean_step3), \" records deleted; \",\n"
 "             nrow(clean_step4), \" records remaining.\" )) \n"
 "```\n"
-msgstr ""
+msgstr "print(paste0(nrow(gdf)-nrow(clean_step3), \" records deleted; \",\n"
+"             nrow(clean_step4), \" records remaining.\" )) \n"
+"```\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:309
 msgid "As a result, we have only three records after applying this filter. See the next plot."
-msgstr ""
+msgstr "Como resultado, tenemos solo tres registros después de aplicar este filtro. Consulte el gráfico siguiente."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:327
@@ -643,22 +739,38 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step4,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:327
 #, no-wrap
 msgid "data-use::lemur_cleaning_4.png"
-msgstr ""
+msgstr "uso-de datos:: lemur_cleaning_4.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:329
 #, no-wrap
 msgid "Conclusion"
-msgstr ""
+msgstr "Conclusión"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:331
 msgid "This document merely demonstrates what GBIF data users could do after downloading data from the global index. Before feeding data into an analytic workflow, users usually examine the download by looking at unique values and visualising facets and then decide to clean or filter the data so that the subsequent analysis can run with desired settings. The process can include many trials and adjustments, and here, we have introduced some of them."
-msgstr ""
+msgstr "Este documento se limita a mostrar lo que los usuarios de datos de GBIF pueden hacer tras descargar los datos del índice global. Antes de introducir los datos en un flujo de trabajo analítico, los usuarios suelen examinar la descarga observando los valores únicos y visualizando las facetas y, a continuación, deciden limpiar o filtrar los datos para que el análisis posterior pueda ejecutarse con los ajustes deseados. El proceso puede incluir muchas pruebas y ajustes, y aquí hemos presentado algunos de ellos."
 
