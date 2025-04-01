@@ -26,6 +26,9 @@ content:
     - url: .
       start_path: ./it/epn
       branches: HEAD
+    - url: .
+      start_path: ./it/grscicoll
+      branches: HEAD
 output:
   clean: false
   dir: ./output/it
