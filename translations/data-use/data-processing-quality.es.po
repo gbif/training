@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-04-02 15:04\n"
+"PO-Revision-Date: 2025-04-02 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -162,23 +162,23 @@ msgstr "La exactitud e la precisión están regularmente confundidas y generalme
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
 msgid "Accuracy refers to the closeness of measured values, observations or estimates to the real or true value (or to a value that is accepted as being true – for example, the coordinates of a survey control point)."
-msgstr ""
+msgstr "Exactitud se refiere a la cercanía de los valores medidos, de las observaciones o de las estimaciones al valor real o verdadero (o al valor que se acepta como verdadero - por ejemplo, las coordinadas de un punto de control)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:76
 msgid "Precision (or Resolution) can be divided into two main types.  Statistical precision is the closeness with which repeated observations conform to themselves.  They have nothing to do with their relationship to the true value, and may have high precision, but low accuracy.  Numerical precision is the number of significant digits that an observation is recorded in and has become far more obvious with the advent of computers.  For example a database may output a decimal latitude/longitude record to 10 decimal places – i.e. ca .01 mm when in reality the record has a resolution no greater than 10-100 m (3-4 decimal places).  This often leads to a false impression of both the resolution and the accuracy."
-msgstr ""
+msgstr "Precisión (o resolución) puede ser dividida en dos tipos principales. Precisión estadística es la cercanía con la cual observaciones repetidas se conforman a ellas mismas. No tienen nada que ver con su relación con el valor real, y pueden tener una gran precisión, pero poca exactitud. Precisión numeral es el número de dígitos con que se registra una observación y se ha hecho mucho más evidente con la llegada de los ordenadores. Por ejemplo, una base de datos puede mostrar un registro decimal de latitud/ longitud con 10 decimales, es decir, unos 0,01 mm, cuando en realidad el registro tiene una resolución no superior a 10-100 m (3-4 decimales). Eso suele dar una falsa impresión tanto de la resolución como de la precisión."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
 msgid "These terms – accuracy and precision – can also be applied to non-spatial data as well as to spatial data.  For example, a collection may have an identification to subspecies level (i.e. have high precision), but be the wrong taxon (i.e. have low accuracy), or be identified only to Family level (high accuracy, but low precision)."
-msgstr ""
+msgstr "Los siguientes  términos- exactitud y precisión - pueden ser aplicados también a los datos no espaciales al igual que a los datos espaciales. Por ejemplo, una colección puede tener una identificación a un nivel de subespecie (es decir, tener una alta precisión) pero ser el taxón equivocado (es decir, tener una baja precisión) o estar identificada sólo a nivel de Familia (alta exactitud, pero baja precisión)..."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:81
 #, no-wrap
 msgid "*Data quality*\n"
-msgstr ""
+msgstr "*Calidad de datos*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:86
