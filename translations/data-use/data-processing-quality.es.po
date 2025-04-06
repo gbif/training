@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-04-06 11:44\n"
+"PO-Revision-Date: 2025-04-06 12:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -225,42 +225,42 @@ msgstr "*Incertidumbre*\n"
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
 msgid "Uncertainty may be thought of as a “measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if a perfect measuring device were available” (Cullen and Frey 1999).  Uncertainty is a property of the observer’s understanding of the data, and is more about the observer than the data per se.  There is always uncertainty in data; the difficulty is in recording, understanding and visualizing that uncertainty so that others can also understand it.  Uncertainty is a key term in understanding risk and risk assessment."
-msgstr "La incertidumbre puede considerarse como una «medida de lo incompleto del conocimiento o la información que se tiene sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusiera de un dispositivo de medición perfecto» (Cullen y Frey 1999).  La incertidumbre es una propiedad de la comprensión de los datos por parte del observador, y tiene más que ver con el observador que con los datos en sí.  Siempre hay incertidumbre en los datos; lo difícil es registrar, comprender y visualizar esa incertidumbre para que otros también puedan comprenderla.  La incertidumbre es un término clave para entender el riesgo y su evaluación."
+msgstr "La incertidumbre puede considerarse como una «medida de lo incompleto del conocimiento o la información que se tiene sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusiera de un dispositivo de medición perfecto» (Cullen y Frey 1999).  La incertidumbre es una propiedad de la comprensión de los datos por parte del observador, y tiene más que ver con el observador que con los datos en sí.  Siempre hay incertidumbre en los datos; lo difícil es registrar, comprender y visualizar esa incertidumbre para que otros también puedan entenderla. La incertidumbre es un término clave para entender el riesgo y su evaluación."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:111
 #, no-wrap
 msgid "*Error*\n"
-msgstr ""
+msgstr "*Error*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
 msgid "Error encompasses both the imprecision of data and their inaccuracies.  There are many factors that contribute to error.  Error is generally seen as being either random or systematic.  Random error tends to refer to deviation from the true state in a random manner.  Systematic error or bias arises from a uniform shift in values and is sometimes described as having ‘relative accuracy’ in the cartographic world (Chrisman 1991).  In determining ‘fitness for use’ systematic error may be acceptable for some applications, and unfit for others."
-msgstr ""
+msgstr "El error engloba tanto la imprecisión de los datos como su inexactitud.  Hay muchos factores que contribuyen al error.  En general, se considera que el error puede ser aleatorio o sistemático.  El error aleatorio suele referirse a la desviación del estado real de forma aleatoria.  El error sistemático o sesgo surge de un desplazamiento uniforme de los valores y a veces se describe como de «precisión relativa» en el mundo cartográfico (Chrisman 1991).  A la hora de determinar la «idoneidad para el uso», el error sistemático puede ser aceptable para algunas aplicaciones e inadecuado para otras."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
 msgid "An example may be the use of a different geodetic datum1 – where, if used throughout the analysis, may not cause any major problems.  Problems will arise though where an analysis uses data from different sources and with different biases – for example data sources that use different geodetic datums, or where identifications may have been carried out using an earlier version of a nomenclatural code."
-msgstr ""
+msgstr "Un ejemplo puede ser el uso de un datum geodésico diferente1, que, si se utiliza en todo el análisis, puede no causar mayores problemas.  Sin embargo, surgirán problemas cuando un análisis utilice datos procedentes de diferentes fuentes y con diferentes sesgos, por ejemplo, fuentes de datos que utilicen diferentes datums geodésicos, o cuando las identificaciones se hayan realizado utilizando una versión anterior de un código nomenclatural."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:125
 msgid "“Because error is inescapable, it should be recognized as a fundamental dimension of data” (Chrisman 1991).  Only when error is included in a representation of the data is it possible to answer questions about limitations in the data, and even limitations in current knowledge.  Known errors in the three dimensions of space, attribute and time need to be measured, calculated, recorded and documented."
-msgstr ""
+msgstr "«Dado que el error es ineludible, debe reconocerse como una dimensión fundamental de los datos» (Chrisman 1991).  Sólo cuando se incluye el error en una representación de los datos es posible responder a preguntas sobre las limitaciones de los datos, e incluso sobre las limitaciones de los conocimientos actuales.  Los errores conocidos en las tres dimensiones de espacio, atributo y tiempo deben medirse, calcularse, registrarse y documentarse."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:127
 #, no-wrap
 msgid "*Validation and Cleaning*\n"
-msgstr ""
+msgstr "*Validación y Limpieza*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:133
 msgid "Validation is a process used to determine if data are inaccurate, incomplete, or unreasonable.  The process may include format checks, completeness checks, reasonableness checks, limit checks, review of the data to identify outliers (geographic, statistical, temporal or environmental) or other errors, and assessment of data by subject area experts (e.g. taxonomic specialists).  These processes usually result in flagging, documenting and subsequent checking of suspect records.  Validation checks may also involve checking for compliance against applicable standards, rules, and conventions.  A key stage in data validation and cleaning is to identify the root causes of the errors detected and to focus on preventing those errors from re-occurring (Redman 2001)."
-msgstr ""
+msgstr "La validación es un proceso utilizado para determinar si los datos son inexactos, incompletos o poco razonables.  El proceso puede incluir comprobaciones de formato, comprobaciones de integridad, comprobaciones de razonabilidad, comprobaciones de límites, revisión de los datos para identificar valores atípicos (geográficos, estadísticos, temporales o medioambientales) u otros errores, y evaluación de los datos por expertos en la materia (por ejemplo, especialistas taxonómicos).  Estos procesos suelen dar lugar a la señalización, documentación y posterior comprobación de los registros sospechosos.  Los controles de validación también pueden implicar la comprobación del cumplimiento de las normas, reglas y convenciones aplicables.  Una etapa clave en la validación y depuración de datos es identificar las causas fundamentales de los errores detectados y centrarse en evitar que vuelvan a producirse (Redman 2001)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:138
 msgid "Data cleaning refers to the process of “fixing” errors in the data that have been identified during the validation process.  The term is synonymous with “data cleansing”, although some use data cleansing to encompass both data validation and data cleaning.  It is important in the data cleaning process that data is not inadvertently lost, and changes to existing information be carried out very carefully.  It is often better to retain both the old (original data) and the new (corrected data) side by side in the database so that if mistakes are made in the cleaning process, the original information can be recovered."
-msgstr ""
+msgstr "La limpieza de datos se refiere al proceso de «corregir» los errores en los datos que se han identificado durante el proceso de validación.  El término es sinónimo de «limpieza de datos», aunque algunos utilizan la limpieza de datos para englobar tanto la validación como la limpieza de datos.  En el proceso de limpieza de datos es importante que los datos no se pierdan inadvertidamente y que los cambios en la información existente se lleven a cabo con mucho cuidado.  A menudo es mejor conservar los datos antiguos (originales) y los nuevos (corregidos) uno al lado del otro en la base de datos, de modo que si se cometen errores en el proceso de limpieza, se pueda recuperar la información original."
 
