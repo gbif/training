@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-04-06 12:53\n"
+"PO-Revision-Date: 2025-04-07 06:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -66,7 +66,7 @@ msgstr "Coordenadas cero - Las coordenadas son exactamente (0,0) o lo que a vece
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:25
 msgid "Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.).  GBIF uses the two-letter https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system.  When a point does not fall within the country’s polygon or EEZ but says that it should occur within the country, it gets flagged as having “country coordinate mismatch” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Desajuste de coordenadas de país - Los editores de datos a menudo suministran GBIF con un código de país (US,TW,SE,JP..., etc.).  GBIF utiliza un sistema de codificación con dos letras https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^]. Cuando un punto no cae dentro del polígono del país o de la ZEE pero dice que debería ocurrir dentro del país, se marca como que tiene «desajuste de coordenadas de país» y será eliminado si se filtran los datos por ubicaciones."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:26
@@ -92,7 +92,7 @@ msgstr "Los centroides de país son aquellos en los que la observación se fija 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
 msgid "Use the \"Distance from centroid in meters\" on a GBIF occurrence search to filter for country centroids. The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "Utilice la «Distancia desde el centroide en metros» en una búsqueda de ocurrencias GBIF para filtrar los centroides de los países. El paquete R, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] también puede utilizarse para identificar y filtrar los centroides de los países."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:39
@@ -136,7 +136,7 @@ msgstr "Los conjuntos de datos cuadriculados son un problema conocido en GBIF.  
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:62
 #, no-wrap
 msgid "data-use::gridSnap.gif"
-msgstr ""
+msgstr "utilización de datos::gridSnap.gif"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:65
