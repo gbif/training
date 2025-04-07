@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:35\n"
+"PO-Revision-Date: 2025-04-07 08:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,41 +20,41 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:1
 #, no-wrap
 msgid "Data processing tools"
-msgstr ""
+msgstr "Herramientas de procesamientos de los datos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:5
 msgid "While GBIF filters will allow you to select and download data that only fulfils specific criteria, it is highly recommended that you perform additional data processing.  Your choice for a data processing tool should be based on personal access, familiarity and utility of that tool(s)."
-msgstr ""
+msgstr "Aunque los filtros de GBIF le permitirán seleccionar y descargar datos que sólo cumplan criterios específicos, se recomienda encarecidamente que realice un tratamiento adicional de los datos.  Su elección de una herramienta de procesamiento de datos debe basarse en el acceso personal, la familiaridad y la utilidad de esa(s) herramienta(s)."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:6
 #, no-wrap
 msgid "Example tools "
-msgstr ""
+msgstr "Herramientas de ejemplo "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:9
 msgid "Spreadsheet editing software, e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "Software de edición de hojas de cálculo, por ejemplo Excel, Google Sheets (conjuntos de datos más pequeños)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:10
 msgid "OpenRefine"
-msgstr ""
+msgstr "OpenRefine"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:11
 msgid "R packages and scripts, e.g. rgbif, CoordinateCleaner, scrubr and biogeo"
-msgstr ""
+msgstr "Paquetes y códigos de R, ej.: rgbif, CoordinateCleaner, scrubr y biogeo (procesamiento automático de datos)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:12
 msgid "Geographical Information Systems (GIS), e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "Sistemas de información geográfica (SIG), por ejemplo ArcGIS, QGIS y MapInfo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:13
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. This can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "Siempre es importante incluir un paso de visualización de datos en el procesamiento de los mismos para poder identificar los puntos de datos anómalos que pueden haberse pasado por alto durante la fase de procesamiento. Esto puede hacerse con R, pero con OpenRefine o software de edición de hojas de cálculo puede que tenga que utilizar software SIG o incluso herramientas como Google Earth para la visualización de datos."
 
