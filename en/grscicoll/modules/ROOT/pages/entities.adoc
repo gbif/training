@@ -1,3 +1,109 @@
 = Types of entities
 
+== Suggestion system, editing permissions and external sources
+
+=== How the information is organized in GRSciColl - Reminder
+
+[NOTE]
+====
+You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below.
+====
+
+The content of GRSciColl centers around describing physical scientific collections: their content, location, contact information, etc and their associated institutions. The two types of entries that you will see on GRSciColl are **institutions** and **collections**.
+
+* **Collection** entries contain information about the collection. They can be associated or not with an institution (for example personal collections don’t have to be associated with any institution). Collections can have their own content description, address and contact information.
+* **Institution** entries contain information about the collection-holding institutions. They can be associated with zero, one or several collections. They have their own description, expertise, address and contact information.
+
+Both collection and institution entries can be associated with **identifiers**. These identifiers can be external ones (such as ROR identifiers for institutions) or can be historical.
+
+Both collection and institution entries can be connected to one external source of information called **master source**. There are a limited number of possible sources (currently in March 2025, only GBIF Datasets, GBIF publishers and Index Herbariorum entries can be sources of information but we are working on adding more). Once an entry is connected to such a source, some fields will be automatically updated by the source.
+
+In addition to institution and collection entries, GRSciColl records are linked to **occurrence** records published on GBIF when possible. This allows to display some aggregated metrics on GRSciColl pages regardless of the way that the data were published on GBIF.org. One collection can be linked to occurrence records coming from different GBIF datasets and one dataset can have records linked to several collection entries. Occurrences are linked to institution and collection entries based on the collection and institution codes and identifiers used. The GRSciColl API also supports the creation of explicit mapping (find out more in the other modules).
+
+GRSciColl also supports the upload of collection information as structured tables called **collection descriptors**. Collection descriptors can contain relevant details about collections and sub-collections as well as quantitative data which cannot be shared on collection pages (for example, the number of fossil specimens collected in a particular region). Some collection descriptors are used for indexing collections. This means that they improve collection discoverability. For example, a collection associated with a moss species name will be found by users looking for “Bryophyta” in the scientific name field of the collection search. Collection descriptors are particularly relevant for collections that aren’t fully digitized and/or where the specimen records aren’t available on GBIF.org.
+A collection can be associated with zero, one or several collection descriptor groups (tables).
+
+Finally, any GRSciColl collection or institution entry can be associated with **machine tags** (machineTag). Machine tags are meant to be machine readable information to facilitate the programmatic processing of GRSciColl data (they are not meant to be displayed). For example, they are used by Integrated Digitized Biocollections (iDigBio) to show some of GRSciColl data on their collection portal: https://portal.idigbio.org/portal/collections.
+
+For the purpose of understanding the permission model here is a summary of the elements mentioned above:
+* Institution
+* Collection
+* Identifiers
+* Master source
+* Occurrences
+* Collection descriptors
+* Machine tags
+
+[NOTE.presentation]
+There will be a video presentation here
+
+[NOTE.quiz]
+Check the following pages and identify which type of information is represented:
+****
+// Link 1
+. https://scientific-collections.gbif.org/specimen/search?entity=2512997445
++
+[question, mc]
+....
+
+- [ ] Collection
+- [x] Occurrence
+- [ ] Identifier
+....
+// Link 2
+. https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa
++
+[question, mc]
+....
+
+- [ ] Identifiers
+- [ ] Machine tags
+- [x] Collection
+....
+// Link 3
+. https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier
++
+[question, mc]
+....
+
+- [ ] Institution
+- [ ] Occurrence
+- [x] Identifier
+....
+// Link 4
+. https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup
++
+[question, mc]
+....
+
+- [ ] Master source
+- [ ] Institution
+- [x] Collection descriptors
+....
+// Link 5
+. https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4
++
+[question, mc]
+....
+
+- [x] Institution
+- [ ] Collection
+- [ ] Occurrence
+....
+// Link 6
+. https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source
++
+[question, mc]
+....
+
+- [ ] Institution
+- [x] Master source
+- [ ] Collection
+....
+
+
+****
+
+
+
 
