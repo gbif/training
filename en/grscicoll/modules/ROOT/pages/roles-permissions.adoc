@@ -92,12 +92,12 @@ The table below summarises the permissions associated with each role. In the tab
 | Master source | E,M,A | E,M,A | E\*,M\*,A |  |  | 
 | Occurrence mapping | E,M,A |  | E,M,A |  |  | 
 | Collection descriptors | S,E,M,A | S,E,M,A | S,E,M,A |  |  | 
-| Machine tags | E\*\*,M\*\*,A | E\*\*,M\*\*,A | E\*\*,M\*\*,A |  |  | 
+| Machine tags | E\**,M**,A | E**,M**,A | E**,M**,A |  |  | 
 |===
 
 \* **collections** with the master source from Index Hebrariorum can only be disconnected by administrators
 
-\*\* **machine** tags can only be added if the namespace is within permission scope
+\** **machine** tags can only be added if the namespace is within permission scope
 
 [NOTE.presentation]
 There will be a video presentation here
@@ -112,7 +112,7 @@ Who can apply or make the following updates?
 
 ****
 // Link 1
-Add collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad
+**Add** collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad
 [question, mc]
 ....
 
@@ -121,7 +121,7 @@ Add collection descriptors to https://scientific-collections.gbif.org/collection
 - [x] Amadou
 ....
 // Link 2
-Update the description of https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378
+**Update** the description of https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378
 [question, mc]
 ....
 
@@ -130,7 +130,7 @@ Update the description of https://scientific-collections.gbif.org/collection/8bb
 - [ ] Amadou
 ....
 // Link 3
-Deleting this entry: https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905
+**Delete** this entry: https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905
 [question, mc]
 ....
 
