@@ -1,8 +1,6 @@
-= Types of entities
+= Types of entities: Suggestion system, editing permissions and external sources
 
-== Suggestion system, editing permissions and external sources
-
-=== How the information is organized in GRSciColl - Reminder
+== How the information is organized in GRSciColl - Reminder
 
 [NOTE]
 ====
@@ -26,6 +24,7 @@ A collection can be associated with zero, one or several collection descriptor g
 Finally, any GRSciColl collection or institution entry can be associated with **machine tags** (machineTag). Machine tags are meant to be machine readable information to facilitate the programmatic processing of GRSciColl data (they are not meant to be displayed). For example, they are used by Integrated Digitized Biocollections (iDigBio) to show some of GRSciColl data on their collection portal: https://portal.idigbio.org/portal/collections.
 
 For the purpose of understanding the permission model here is a summary of the elements mentioned above:
+
 * Institution
 * Collection
 * Identifiers
@@ -38,7 +37,7 @@ For the purpose of understanding the permission model here is a summary of the e
 There will be a video presentation here
 
 [NOTE.quiz]
-Check the following pages and identify which type of information is represented:
+Check the following pages and identify which type of information is represented.
 ****
 // Link 1
 . https://scientific-collections.gbif.org/specimen/search?entity=2512997445
