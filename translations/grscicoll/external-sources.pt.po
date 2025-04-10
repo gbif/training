@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-09 14:36+0000\n"
-"PO-Revision-Date: 2025-04-09 15:29\n"
+"POT-Creation-Date: 2025-04-10 09:58+0000\n"
+"PO-Revision-Date: 2025-04-10 10:05\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -21,6 +21,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:8
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
 msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
 msgstr ""
@@ -30,6 +31,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:89
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "There will be a video presentation here"
 msgstr ""
@@ -47,7 +49,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:11
-msgid "Currently, the two possible sources of information for GRSciColl entries are https://sweetgum.nybg.org/science/ih/[^Index Herbariorum] and the GBIF dataset and publisher metadata. Data for entries drawn from these sources should be edited at the source. In practice, GRSciColl’s editing interface doesn’t allow users to update fields that use information from an external source."
+msgid "Currently, the two possible sources of information for GRSciColl entries are https://sweetgum.nybg.org/science/ih/[Index Herbariorum] and the GBIF dataset and publisher metadata. Data for entries drawn from these sources should be edited at the source. In practice, GRSciColl’s editing interface doesn’t allow users to update fields that use information from an external source."
 msgstr ""
 
 #. type: Title ==
@@ -58,12 +60,12 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:15
-msgid "Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih/[^Index Herbariorum] API, updating information for existing entries whose source is Index Herbariorum and creating suggestions for new entries as needed."
+msgid "Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih/[Index Herbariorum] API, updating information for existing entries whose source is Index Herbariorum and creating suggestions for new entries as needed."
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
-msgid "By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[^GitHub issue]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created."
+msgid "By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[GitHub issue]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created."
 msgstr ""
 
 #. type: delimited block =
@@ -90,42 +92,42 @@ msgstr ""
 #.  Link 1
 #. type: delimited block *
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:37
-msgid "https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2[^This collection]"
+msgid "https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2[This collection]"
 msgstr ""
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:43
 #, no-wrap
-msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[^see this link]\n"
-"- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[^see this link]\n"
-"- [x] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[^see this link]\n"
+msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
+"- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
+"- [x] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]\n"
 msgstr ""
 
 #.  Link 2
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:46
-msgid "https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80"
+msgid "https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[This institution]"
 msgstr ""
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
 #, no-wrap
-msgid "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[^see this link]\n"
-"- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[^see this link]\n"
-"- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[^see this link]\n"
+msgid "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
+"- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
+"- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]\n"
 msgstr ""
 
 #.  Link 3
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:55
-msgid "https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e"
+msgid "https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[This collection]"
 msgstr ""
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:61
 #, no-wrap
-msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[^see this link]\n"
-"- [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[^see this link]\n"
-"- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[^see this link]\n"
+msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
+"- [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
+"- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]\n"
 msgstr ""
 
