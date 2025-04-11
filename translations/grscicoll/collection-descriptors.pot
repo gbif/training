@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:12+0000\n"
+"POT-Creation-Date: 2025-04-11 13:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,14 +36,25 @@ msgid ""
 "are an audio-visual learner, you can skip the text and watch the video below."
 msgstr ""
 
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:10
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:12
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:10
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:10
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:11
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:11
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:10
+msgid "There will be a video presentation here"
+msgstr ""
+
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:8
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:11
 #, no-wrap
 msgid "What are collection descriptors in GRSciColl?"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:11
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
 msgid ""
 "GRSciColl collection descriptors are meant to share structured information "
 "about collections. They can contain relevant details about collections and "
@@ -57,19 +68,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:13
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
 msgid "Here are some examples of searches based on collection descriptors:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:15
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:18
 msgid ""
 "https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J."
 "%20Berkeley[Find some collections with specimens collected by M. J. Berkeley]"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:19
 msgid ""
 "https://scientific-collections.gbif.org/collection/search?"
 "country=FR&taxonKey=59[Find some fern collections hosted in French "
@@ -77,7 +88,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:18
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:21
 msgid ""
 "Currently, only a handful of collection descriptors are indexed and "
 "searchable: scientific name, country or area of coverage (of the specimen, "
@@ -87,38 +98,38 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:20
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:23
 #, no-wrap
 msgid "**When to upload collection descriptors in GRSciColl:**\n"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:22
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
 msgid ""
 "The collection is not part of the GBIF Scope (for example, mineralogy, "
 "archeology, anthropology, etc.)"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:23
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:26
 msgid ""
 "The information about the collection is structured but not at the specimen "
 "level (e.g. you can not create occurrences)."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:24
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:27
 msgid "You have information that does not fit the Darwin Core Standard."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:28
 #, no-wrap
 msgid "How to format collection descriptors"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:28
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:31
 msgid ""
 "Each GRSciColl collection entry can have one or several collection "
 "descriptor groups. A group can correspond to descriptors for a particular "
@@ -126,14 +137,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:30
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:33
 msgid ""
 "A **title** of the set of descriptors. For example, “Taxonomic breakdown of "
 "the algae sub-collection”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:31
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:34
 msgid ""
 "A **description** for the set of descriptors. For example, “These "
 "descriptors are based on the 2008 inventory of the algarium. This inventory "
@@ -141,7 +152,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:32
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:35
 msgid ""
 "A **comma-separated file** containing the descriptors where each column is a "
 "descriptor and each row a subset of the collection described. The header of "
@@ -150,13 +161,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:34
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:37
 #, no-wrap
 msgid "The descriptor table"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:37
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:40
 msgid ""
 "As mentioned above the descriptor tables are CSV files where each row is a "
 "subset of the collection (or a group of specimens) and each column is a "
@@ -168,7 +179,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:43
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:46
 #, no-wrap
 msgid ""
 "| ltc:biomeType | dwc:scientificName | dwc:country | Number of identified specimens at genus level\n"
@@ -178,7 +189,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:46
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:49
 msgid ""
 "In the example above, the last column couldn’t be mapped to any Darwin Core "
 "or Latimer Core term so it was left with a descriptive title. This column "
@@ -191,26 +202,26 @@ msgid ""
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:47
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:50
 #, no-wrap
 msgid "NYBG collection descriptors"
 msgstr ""
 
 #. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:47
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:50
 #, no-wrap
 msgid "https://data-blog.gbif.org/post/2024-10-01-grscicoll-collection-descriptors/NY_descriptors.png"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:50
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:53
 msgid ""
 "Note that tables might contain overlapping information or different "
 "descriptions for the same subset of specimens."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:52
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:55
 msgid ""
 "There is not any template to download as the descriptors can include a lot "
 "of headers. You are very welcome to download any table you like from "
@@ -221,7 +232,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:54
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:57
 msgid ""
 "https://github.com/gbif/registry/files/14419456/"
 "swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628."
@@ -230,7 +241,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:55
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:58
 msgid ""
 "https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-"
 "b94e-4ed6-a9ae-f57c7baaf521.csv[Example 2 from https://swisscollnet.scnat.ch "
@@ -238,7 +249,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:56
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:59
 msgid ""
 "https://github.com/gbif/registry/files/14419329/"
 "rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc."
@@ -247,7 +258,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:57
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:60
 msgid ""
 "https://github.com/gbif/registry/files/14419363/"
 "rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[Example 4 from "
@@ -255,7 +266,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:61
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:64
 msgid ""
 "The Latimer core term `objectClassificationName` is very convenient to "
 "describe subsets of collections that do not necessarily have other ways of "
@@ -266,19 +277,8 @@ msgid ""
 "gbif/vocabulary/issues/157"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:66
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:12
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:10
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:10
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:10
-msgid "There will be a video presentation here"
-msgstr ""
-
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:70
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:71
 msgid ""
 "Given the following text describing a (fictional) collection and with the "
 "help of the Latimer Core quick reference guide (https://ltc.tdwg.org/quick-"
@@ -287,7 +287,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:74
 msgid ""
 "This collection contains bony fish specimens from the African coast gathered "
 "during two expeditions: one in the 19th century and one in 1940-1952. About "
@@ -297,13 +297,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:74
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:75
 #, no-wrap
 msgid "Table 1"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:82
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
 #, no-wrap
 msgid ""
 "| continent | date | taxon | Is type | Percentage identified at genus level\n"
@@ -315,13 +315,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:84
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:85
 #, no-wrap
 msgid "Table 2"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:90
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:91
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n"
@@ -331,13 +331,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:92
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:93
 #, no-wrap
 msgid "Table 3"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:100
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n"
@@ -348,13 +348,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:101
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:102
 #, no-wrap
 msgid "Table 4"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:111
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n"
@@ -367,13 +367,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:113
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:114
 msgid ""
 "Which ranking orders the table from the poorest to the richest data mapped"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:119
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:120
 #, no-wrap
 msgid ""
 "- [ ] 2, 3, 1, 4\n"
@@ -382,7 +382,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:121
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:122
 #, no-wrap
 msgid "====\n"
 msgstr ""
