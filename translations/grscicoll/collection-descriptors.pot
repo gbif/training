@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-10 09:56+0000\n"
+"POT-Creation-Date: 2025-04-11 06:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,15 +64,14 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:15
 msgid ""
 "https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J."
-"%20Berkeley[^ Find some collections with specimens collected by M. J. "
-"Berkeley]"
+"%20Berkeley[Find some collections with specimens collected by M. J. Berkeley]"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
 msgid ""
 "https://scientific-collections.gbif.org/collection/search?"
-"country=FR&taxonKey=59[^ Find some fern collections hosted in French "
+"country=FR&taxonKey=59[Find some fern collections hosted in French "
 "institutions]"
 msgstr ""
 
@@ -225,7 +224,7 @@ msgstr ""
 msgid ""
 "https://github.com/gbif/registry/files/14419456/"
 "swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628."
-"csv[^ Example 1 from https://swisscollnet.scnat.ch on an entomological "
+"csv[Example 1 from https://swisscollnet.scnat.ch on an entomological "
 "collection]"
 msgstr ""
 
@@ -233,8 +232,8 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:55
 msgid ""
 "https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-"
-"b94e-4ed6-a9ae-f57c7baaf521.csv[^ Example 2 from https://swisscollnet.scnat."
-"ch on a mineralogy collection]"
+"b94e-4ed6-a9ae-f57c7baaf521.csv[Example 2 from https://swisscollnet.scnat.ch "
+"on a mineralogy collection]"
 msgstr ""
 
 #. type: Plain text
@@ -242,7 +241,7 @@ msgstr ""
 msgid ""
 "https://github.com/gbif/registry/files/14419329/"
 "rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc."
-"csv[^ Example 3 from http://rnc.humboldt.org.co on a botanical garden "
+"csv[Example 3 from http://rnc.humboldt.org.co on a botanical garden "
 "collection]"
 msgstr ""
 
@@ -250,8 +249,8 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:57
 msgid ""
 "https://github.com/gbif/registry/files/14419363/"
-"rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[^ Example 4 "
-"from http://rnc.humboldt.org.co on a herbarium collection]"
+"rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[Example 4 from "
+"http://rnc.humboldt.org.co on a herbarium collection]"
 msgstr ""
 
 #. type: delimited block =
@@ -276,15 +275,8 @@ msgstr ""
 msgid "There will be a video presentation here"
 msgstr ""
 
-#. type: quote
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:68
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:39
-#, no-wrap
-msgid "===\n"
-msgstr ""
-
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:70
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:69
 msgid ""
 "Given the following text describing a (fictional) collection and with the "
 "help of the Latimer Core quick reference guide (https://ltc.tdwg.org/quick-"
@@ -293,21 +285,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
-#, no-wrap
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:72
 msgid ""
-"This collection contains bony fish specimens from the African coast gathered during two expeditions: one in the 19th century and one in 1940-1952. About half of these specimens are identified to the genus level. The collection contains a few type specimens, including one for Eustomias monoclonoides and one for Bothus podas.\n"
-"===\n"
+"This collection contains bony fish specimens from the African coast gathered "
+"during two expeditions: one in the 19th century and one in 1940-1952. About "
+"half of these specimens are identified to the genus level. The collection "
+"contains a few type specimens, including one for Eustomias monoclonoides and "
+"one for Bothus podas."
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:75
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
 #, no-wrap
 msgid "Table 1"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:81
 #, no-wrap
 msgid ""
 "| continent | date | taxon | Is type | Percentage identified at genus level\n"
@@ -319,13 +313,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:85
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
 #, no-wrap
 msgid "Table 2"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:91
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:89
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n"
@@ -335,13 +329,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:93
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:91
 #, no-wrap
 msgid "Table 3"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:100
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:98
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n"
@@ -352,13 +346,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:102
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:100
 #, no-wrap
 msgid "Table 4"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:111
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:109
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n"
@@ -371,13 +365,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:114
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:112
 msgid ""
 "Which ranking orders the table from the poorest to the richest data mapped"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:120
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
 #, no-wrap
 msgid ""
 "- [ ] 2, 3, 1, 4\n"
