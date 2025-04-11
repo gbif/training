@@ -5,6 +5,8 @@
 You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below.
 ====
 
+== Introduction
+
 Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[^Latimer core standard] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[^objectGroup] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections.
 
 However, GRSciColl isn’t as flexible as the Latimer Core standard. Representing the information in GRSciColl means working with a more limited model. There are four types of entries available on the GRSciColl website:
@@ -13,6 +15,8 @@ However, GRSciColl isn’t as flexible as the Latimer Core standard. Representin
 * **Collections**
 * **Collection descriptors**
 * **Occurrence records shared on GBIF**
+
+== GRSciColl users
 
 When modelling the information in GRSciColl, keep in mind the target audience. **Who is this for?** Who should find your collections and institution? What information do they need?
 
@@ -32,14 +36,16 @@ Ultimately, institutions decide how they wish to represent their holdings on GRS
 
 Here we propose to consider the following points when deciding how to represent collections and making guidelines.
 
-== Where are the institutions, collections and experts?
+== Six questions to help deciding how to represent entries
+
+=== Where are the institutions, collections and experts?
 
 Some people will look for collections, institutions and experts in specific locations (city, island, country). Which is why it is important to document the institution and collection addresses.
 
 Note that institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, **representing one institution entry per physical location** (for example: the campus where the collection is held) can help its visibility.
 
 
-== Who can answer questions?
+=== Who can answer questions?
 
 GRSciColl aims to facilitate communication between those who need collections and expertise and those who can help. Think of who should the contact point be for a given collection: who can answer questions about the collection (or at least redirect you to someone who can)? Who is the expert?
 
@@ -48,7 +54,7 @@ If a collection entry corresponds to a collection with a large scope and many st
 Representing **one collection entry per contact point** can help facilitate communication.
 
 
-== What is the scope of the collection and expertise?
+=== What is the scope of the collection and expertise?
 
 Some people might want to find collections and experts in a particular field, look for specific taxa or might be interested in a particular collector. Documenting the scope of a collection is important to make them discoverable. There are two ways of documenting the collection scope:
 
@@ -60,13 +66,13 @@ Important collectors, collection type, taxa, regions covered by the collection a
 * A small historical collection associated with a particular collector can be a separate entry.
 * If a herbarium specialises in vascular plants but has a few fungi, there might not be a need for a separate collection but rather a mention in the main collection description.
 
-== How can the collections and specimens be accessed?
+=== How can the collections and specimens be accessed?
 
 Collection and specimen access depends on individual countries, institution policies and the type of specimen concerned. Access conditions can shape how the information is represented in GRSciColl. For example, if all loan and visit requests must be submitted to an administrative unit (like a university), this unit could correspond to an institution entry in GRSciColl.
 
 Where to reach out and how to access the collection should be clearly stated.
 
-== Are the specimens digitized and available on GBIF?
+=== Are the specimens digitized and available on GBIF?
 
 Ideally, the collection content would be digitized and made available online on relevant platforms like GBIF.org, iDigBio.org, ALA.org.au, etc. Sharing digital specimen records is a great way to ensure the discoverability of collection content. Not only users can find the collections but can also use individual records relevant to their research.
 
@@ -74,7 +80,7 @@ When digitized specimen records are published on GBIF with the relevant codes an
 
 If collections don’t have specimen-related records available on GBIF, documenting the collections in GRSciColl is particularly relevant.
 
-== Linking to other systems, metrics and dashboards?
+=== Linking to other systems, metrics and dashboards?
 
 As mentioned before, GRSciColl is also a repository for collection and institution codes and identifiers. These codes and identifiers can be used to link to other systems as well as link occurrences published on GBIF. Consider the following:
 
@@ -85,8 +91,9 @@ As mentioned before, GRSciColl is also a repository for collection and instituti
 There will be a video presentation here
 
 [NOTE.quiz]
+====
 True or False?
-****
+
 // Question 1
 . There is only one way to represent institution and collections in GRSciColl
 +
@@ -114,6 +121,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
+
 // Question 4
 . There can be one institution entry for an entire university
 +
@@ -123,6 +131,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
+
 // Question 5
 . Institutions can only have up to 5 collection entries
 +
@@ -141,6 +150,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
+
  // Question 7
 . A collection entry can correspond to a large collection with wide taxonomic and geographic coverage
 +
@@ -150,6 +160,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
+
  // Question 8
 . Collection descriptors can be used to describe the content of sub-collections
 +
@@ -165,6 +176,7 @@ True or False?
 +
 [question, mc]
 ....
+====
 
 - [ ] True
 - [x] False
