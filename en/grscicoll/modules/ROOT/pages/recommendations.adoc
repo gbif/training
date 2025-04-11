@@ -6,6 +6,9 @@ You can access the content of this module in written or video format. If you are
 ====
 
 
+[NOTE.presentation]
+There will be a video presentation here
+
 In this section, we will go over some special cases and questions that editors may encounter when working on representing information on GRSciColl.
 
 == How to represent sub-collections?
@@ -29,5 +32,3 @@ We will update the training documentation as guidelines are developed.
 GRSciColl was not designed to represent virtual collections. If you wish to create metrics for a subset of specimen related records published on GBIF, consider selecting the occurrences based on their associated data (for example, their scientific names). If you are publishing occurrences shared on GBIF, consider using Darwin Core terms like https://dwc.tdwg.org/terms/#dwc:datasetID[datasetID] for occurrences to facilitate their selection.
 
 
-[NOTE.presentation]
-There will be a video presentation here
