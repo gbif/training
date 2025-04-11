@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 15:41+0000\n"
+"POT-Creation-Date: 2025-04-11 15:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,25 @@ msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:45
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:55
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
 #, no-wrap
 msgid "Review"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:1
 #: en/grscicoll/modules/ROOT/pages/downloads.adoc:18
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:43
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:51
 #, no-wrap
 msgid "Collection descriptors"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/downloads.adoc:11
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:3
+#, no-wrap
+msgid "How information is organized in GRSciColl"
 msgstr ""
 
 #. type: Title =
@@ -38,17 +45,11 @@ msgstr ""
 msgid "Types of entities: Suggestion system, editing permissions and external sources"
 msgstr ""
 
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:3
-#, no-wrap
-msgid "How the information is organized in GRSciColl - Reminder"
-msgstr ""
-
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:8
 msgid ""
 "You can obtain the content of this section either via video or written "
-"format. You will find the written text below the video."
+"format. You will find the video transcript below the video."
 msgstr ""
 
 #. type: delimited block =
@@ -59,8 +60,19 @@ msgid ""
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:20
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:19
+#, no-wrap
+msgid "Video transcript (click to expand)"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:23
+msgid "{blank}"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:28
 msgid ""
 "The content of GRSciColl centers around describing physical scientific "
 "collections: their content, location, contact information, etc and their "
@@ -68,28 +80,28 @@ msgid ""
 "GRSciColl are **institutions** and **collections**."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:22
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:30
 #, no-wrap
 msgid "**Collection** entries contain information about the collection. They can be associated or not with an institution (for example personal collections don’t have to be associated with any institution). Collections can have their own content description, address and contact information.\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:23
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:31
 #, no-wrap
 msgid "**Institution** entries contain information about the collection-holding institutions. They can be associated with zero, one or several collections. They have their own description, expertise, address and contact information.\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:33
 msgid ""
 "Both collection and institution entries can be associated with "
 "**identifiers**. These identifiers can be external ones (such as ROR "
 "identifiers for institutions) or can be historical."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:27
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:35
 msgid ""
 "Both collection and institution entries can be connected to one external "
 "source of information called **master source**. There are a limited number "
@@ -99,8 +111,8 @@ msgid ""
 "some fields will be automatically updated by the source."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:29
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:37
 msgid ""
 "In addition to institution and collection entries, GRSciColl records are "
 "linked to **occurrence** records published on GBIF when possible. This "
@@ -113,8 +125,8 @@ msgid ""
 "creation of explicit mapping (find out more in the other modules)."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:32
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:40
 msgid ""
 "GRSciColl also supports the upload of collection information as structured "
 "tables called **collection descriptors**. Collection descriptors can contain "
@@ -131,8 +143,8 @@ msgid ""
 "descriptor groups (tables)."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:34
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:42
 msgid ""
 "Finally, any GRSciColl collection or institution entry can be associated "
 "with **machine tags** (machineTag). Machine tags are meant to be machine "
@@ -142,51 +154,51 @@ msgid ""
 "on their collection portal: https://portal.idigbio.org/portal/collections."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:36
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:44
 msgid ""
 "For the purpose of understanding the permission model here is a summary of "
 "the elements mentioned above:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:38
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:46
 msgid "Institution"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:39
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:47
 msgid "Collection"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:40
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:48
 msgid "Identifiers"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:41
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:49
 msgid "Master source"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:42
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:50
 msgid "Occurrences"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:44
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:52
 msgid "Machine tags"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:50
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:60
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
 msgid "Quiz yourself on the concepts covered in this module."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:54
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
 msgid ""
 "Check the following pages and identify which type of information is "
 "represented."
@@ -194,13 +206,13 @@ msgstr ""
 
 #.  Link 1
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:57
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:67
 msgid ""
 "https://scientific-collections.gbif.org/specimen/search?entity=2512997445"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:74
 #, no-wrap
 msgid ""
 "- [ ] Collection\n"
@@ -210,14 +222,14 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:67
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:77
 msgid ""
 "https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-"
 "bd51-8c9b07cb7daa"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:74
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:84
 #, no-wrap
 msgid ""
 "- [ ] Identifiers\n"
@@ -227,14 +239,14 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:77
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:87
 msgid ""
 "https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/"
 "identifier"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:84
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:94
 #, no-wrap
 msgid ""
 "- [ ] Institution\n"
@@ -244,14 +256,14 @@ msgstr ""
 
 #.  Link 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:87
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:97
 msgid ""
 "https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/"
 "descriptorGroup"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:94
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:104
 #, no-wrap
 msgid ""
 "- [ ] Master source\n"
@@ -261,14 +273,14 @@ msgstr ""
 
 #.  Link 5
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:97
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:107
 msgid ""
 "https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-"
 "b822-673f3d36eef4"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:104
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:114
 #, no-wrap
 msgid ""
 "- [x] Institution\n"
@@ -278,14 +290,14 @@ msgstr ""
 
 #.  Link 6
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:107
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:117
 msgid ""
 "https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/"
 "master-source"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:114
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:124
 #, no-wrap
 msgid ""
 "- [ ] Institution\n"
