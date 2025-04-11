@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-01 15:16+0000\n"
-"PO-Revision-Date: 2025-04-01 15:36\n"
+"POT-Creation-Date: 2025-04-11 15:02+0000\n"
+"PO-Revision-Date: 2025-04-11 15:35\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -15,23 +15,6 @@ msgstr ""
 "X-Crowdin-Language: ar\n"
 "X-Crowdin-File: /main/translations/grscicoll/description.pot\n"
 "X-Crowdin-File-ID: 43777\n"
-
-#. type: Title =
-#: en/data-use/modules/ROOT/pages/description.adoc:1
-#: en/epn/modules/ROOT/pages/description.adoc:1
-#: en/grscicoll/modules/ROOT/pages/description.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:2
-#: en/nodes/modules/ROOT/pages/description.adoc:1
-#, no-wrap
-msgid "Course description"
-msgstr ""
-
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/description.adoc:3
-#: en/grscicoll/modules/ROOT/pages/description.adoc:3
-#, no-wrap
-msgid "Topics"
-msgstr ""
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/description.adoc:16
@@ -80,29 +63,47 @@ msgstr ""
 msgid "Certificate of completion"
 msgstr ""
 
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:11
-msgid "This course aims to support the community maintaining the data in the Global Registry of Scientific Collections (GRSciColl).  It gives an overview of the GRSciColl data structure and its relationship with GBIF data, explains the GRSciColl permissions system and presents the GRSciColl editing interface.  By the end of the course, participants should be able to model and update the collection information in GRSciColl.  The material of this course can be reused by the participants to organize their own online or onsite training events."
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:1
+#: en/grscicoll/modules/ROOT/pages/index.adoc:1
+#, no-wrap
+msgid "Editing GRSciColl"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/description.adoc:3
+#, no-wrap
+msgid "Description"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:13
+#: en/grscicoll/modules/ROOT/pages/description.adoc:8
+msgid "This course aims to support the community maintaining the data in the Global Registry of Scientific Collections (GRSciColl) and is comprised of three modules:"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:10
 msgid "Suggestion system, editing permissions and external sources"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:14
+#: en/grscicoll/modules/ROOT/pages/description.adoc:11
 msgid "Modelling information in GRSciColl"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:15
+#: en/grscicoll/modules/ROOT/pages/description.adoc:12
 msgid "How to edit GRSciColl content"
 msgstr ""
 
 #. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:15
+msgid "It gives an overview of the GRSciColl data structure and its relationship with GBIF data, explains the GRSciColl permissions system and presents the GRSciColl editing interface.  By the end of the course, participants should be able to model and update the collection information in GRSciColl."
+msgstr ""
+
+#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/description.adoc:17
-msgid "This course consists of videos and documentation paired with quizzes and practical exercises."
+msgid "This course consists of videos and documentation paired with quizzes and practical exercises and the material of this course can be reused by the participants to organize their own online or onsite training events."
 msgstr ""
 
 #. type: delimited block =
