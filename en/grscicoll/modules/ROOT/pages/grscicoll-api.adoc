@@ -6,6 +6,8 @@ The GRSciColl API can allow you to edit or retrieve programmatically GRSciColl r
 The API also offers the possibility to upload and update records in bulk which is documented here: https://github.com/gbif/registry/blob/dev/docs/grscicoll_batches.md.
 
 In order to use the GRSciColl API, you will need to use a client in the programming language of your choice. For example, you can use the `requests` library in Python or the `httr2` library in R. This will allow you to use any of the API functions available.
+
+[NOTE]
 If you would like an entry level introduction to the GBIF APIs in general, you can watch https://www.gbif.org/composition/4TlmnRvvPs2RxrPvLH6mOa/data-use-club-practical-session-3-recording-and-resources[this recorded webinar] or read https://data-blog.gbif.org/post/gbif-api-beginners-guide/[this blogpost].
 
 If you wish to edit the GRSciColl records programmatically by using the API, you will need to find and use the keys of the entries that you would like to edit.
@@ -18,7 +20,7 @@ In this module, we won’t go over the details of how the API can be used to upd
 [NOTE.quiz]
 ====
 True or False?
-****
+
 // Question 1
 . The GRSciColl API allows to create programmatically new entries in GRSciColl.
 +
@@ -58,5 +60,5 @@ True or False?
 - [ ] True
 - [x] False
 ....
-****
+
 ====
