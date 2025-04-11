@@ -1,9 +1,15 @@
-= GRSciColl API - gets started
+= GRSciColl API - get started
 
+== What can the GRSciColl API do
 
 The GRSciColl API can allow you to edit or retrieve programmatically GRSciColl records. This API is part of the GBIF registry API and is documented here: https://techdocs.gbif.org/en/openapi/v1/registry#/Collections. All the functions available in the GRSciColl website and editing interface are also available in the API, including adding, editing and deleting records as well as making update suggestions. In addition to that, the permission system is the same in the web interface and the API.
 
 The API also offers the possibility to upload and update records in bulk which is documented here: https://github.com/gbif/registry/blob/dev/docs/grscicoll_batches.md.
+
+image::https://techdocs.gbif.org/en/_images/td-bg-02.png[GBIF API technical documentation]
+https://techdocs.gbif.org/en/openapi/
+
+== How and when to use the GRSciColl API
 
 In order to use the GRSciColl API, you will need to use a client in the programming language of your choice. For example, you can use the `requests` library in Python or the `httr2` library in R. This will allow you to use any of the API functions available.
 
