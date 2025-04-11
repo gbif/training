@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-10 09:56+0000\n"
-"PO-Revision-Date: 2025-04-10 10:05\n"
+"POT-Creation-Date: 2025-04-11 07:08+0000\n"
+"PO-Revision-Date: 2025-04-11 07:20\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -22,6 +22,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
 msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
 msgstr ""
@@ -31,21 +32,15 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:89
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "There will be a video presentation here"
 msgstr ""
 
-#. type: quote
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:68
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:39
-#, no-wrap
-msgid "===\n"
-msgstr ""
-
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:89
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:92
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:90
 msgid "True or False?"
 msgstr ""
 
@@ -54,9 +49,9 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:107
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:171
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:111
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:121
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:161
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:109
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:119
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:159
 #, no-wrap
 msgid "- [ ] True\n"
 "- [x] False\n"
@@ -68,10 +63,10 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:143
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:152
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:161
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:101
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:131
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:141
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:151
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:99
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:139
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:149
 #, no-wrap
 msgid "- [x] True\n"
 "- [ ] False\n"
@@ -177,19 +172,17 @@ msgid "Every time one of these occurrences is processed by GBIF (when it is publ
 msgstr ""
 
 #. type: quote
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:41
-#, no-wrap
-msgid "Using a cached version of GRSciColl means that the data used to interpret occurrences isn’t the most up to date. There is often a lag of a few days between an update in GRSciColl and the version that is used to interpret occurrences on GBIF. Sometimes, you or a GBIF administrator will need to trigger the occurrence republishing or re-interpretation in order to ensure that occurrences are linked to the correct entries a few days after GRSciColl update.\n"
-"===\n"
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:40
+msgid "Using a cached version of GRSciColl means that the data used to interpret occurrences isn’t the most up to date. There is often a lag of a few days between an update in GRSciColl and the version that is used to interpret occurrences on GBIF. Sometimes, you or a GBIF administrator will need to trigger the occurrence republishing or re-interpretation in order to ensure that occurrences are linked to the correct entries a few days after GRSciColl update."
 msgstr ""
 
 #. type: quote
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:44
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:42
 msgid "The GRSciColl lookup service will attempt to match occurrences based on the following:"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:55
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:53
 #, no-wrap
 msgid "| Information associated with the occurrence | Information associated with GRSciColl entries\n\n"
 "| collectionCode | Collection code and alternative codes\n"
@@ -202,126 +195,126 @@ msgid "| Information associated with the occurrence | Information associated wit
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:58
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:56
 msgid "(See a detailed illustration here: https://github.com/gbif/registry/blob/dev/registry-service/docs/grscicoll_lookup.png)"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:60
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:58
 msgid "There are two ways to ensure that occurrences get matched to the correct entries:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:62
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:60
 msgid "Using the same codes and identifiers in occurrences and GRSciColl"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:63
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:61
 msgid "Adding explicit mappings in GRSciColl"
 msgstr ""
 
 #. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:64
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:62
 #, no-wrap
 msgid "Matching codes and identifiers"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:67
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:65
 msgid "Occurrences are linked to GRSciColl if the values in the collectionCode, institutionCode, ownerInstitutionCode, collectionID and institutionID fields match the GRSciColl collection and institution codes and identifiers."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:69
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:67
 msgid "Any of the codes or alternatives codes of a collection or institution can be used in the collectionCode and institutionCode fields. However, several collections or institutions can have the same codes. This means that matches based on codes only are not always reliable. When two GRSciColl entries have the same code, the algorithm compares the occurrence publishing country with the GRSciColl entry countries to try disambiguating the match. This is why all the occurrences that are matched based on codes are flagged as “fuzzy” on GBIF."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:71
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:69
 msgid "In order to ensure unambiguous matches, we recommend using identifiers to link occurrences to GRSciColl entries. Any identifier associated with a GRSciColl collection or institution can be used in the collectionID and institutionID fields. In addition to that, the UUID or the URL of a GRSciColl collection or institution can also be used."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:73
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:71
 msgid "Currently, the recommended and most declarative way to link data to institutions or collection entities in GRSciColl is to use the full URL for the entity. For example, when using Darwin Core:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:75
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:73
 msgid "`dwc:institutionID`: `https://scientific-collections.gbif.org/institution/e3d4dcc4-81e2-444c-8a5c-41d1044b5381`"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:76
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:74
 msgid "`dwc:collectionID`: `https://scientific-collections.gbif.org/collection/772f9e37-4643-452b-82b4-a06550283096`"
 msgstr ""
 
 #. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:77
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:75
 #, no-wrap
 msgid "Explicit mapping with the GRSciColl API"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:81
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:79
 msgid "GRSciColl editors can use the https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[GRSciColl API] to create explicit mappings between GRSciColl collections and occurrences. A mapping can only be associated with a given GRSciColl entry and will be defined by a dataset key and a code used in the occurrence.  For example, a mapping can be added to an entomology collection to specify that all the occurrence records with the collection code “ENT” for a given dataset should be linked to that collection."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:83
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:81
 msgid "https://github.com/ManonGros/Small-scripts-using-GBIF-API/blob/master/map_occ_to_grscicoll.ipynb[Here] is an example in python of adding occurrence mapping to a GRSciColl entry (see also https://github.com/gbif/collection-mobilization/wiki/How-to-Link-Occurrences-records-or-datasets-to-GRSciColl-entries%3F-Or-vise-versa[this tutorial])."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:85
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:83
 msgid "Occurrence explicit mapping can be particularly useful when trying to adjust the mapping of datasets published by third party systems like the https://www.gbif.org/publisher/ada9d123-ddb4-467d-8891-806ea8d94230[European Nucleotide Archive] or https://www.gbif.org/publisher/7ce8aef0-9e92-11dc-8738-b8a03c50a862[PLAZI]."
 msgstr ""
 
 #.  Question 1
 #. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:95
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:93
 msgid "Some collection content cannot be shared as occurrences on GBIF, for example meteorites."
 msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:105
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:103
 msgid "Only occurrences with the basis of record “preserved specimens” can be linked to GRSciColl entries."
 msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:115
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:113
 msgid "Occurrences are matched to a live version of GRSciColl data."
 msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:125
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:123
 msgid "Occurrences shared on GBIF can be aggregated in dashboards on the GRSciColl website."
 msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:135
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:133
 msgid "If two institutions based in the same country have the same code, “MMFG”, an occurrence with the value “MMFG” in the institutionCode field and no value in the institutionID field won’t be matched to any institution."
 msgstr ""
 
 #.  Question 6
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:145
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:143
 msgid "If you use the URL of a GRSciColl collection entry in the collectionID field of an occurrence, the occurrence will be matched to the relevant collection in GRSciColl."
 msgstr ""
 
 #.  Question 7
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:155
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:153
 msgid "If a GRSciColl **institution** is associated with the code “MMFG” and its collection is associated with the code “ENT”, you can use the code “MMFG” in the **collectionCode** field of an occurrence to match it to the **collection**."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:162
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:160
 #, no-wrap
 msgid "***\n"
 msgstr ""
