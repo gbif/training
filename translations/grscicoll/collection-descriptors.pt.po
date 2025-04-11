@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-11 07:08+0000\n"
-"PO-Revision-Date: 2025-04-11 07:21\n"
+"POT-Creation-Date: 2025-04-11 08:29+0000\n"
+"PO-Revision-Date: 2025-04-11 10:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -133,7 +133,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:46
-msgid "In the example above, the last column couldn’t be mapped to any Darwin Core or Latimer Core term so it was left with a descriptive title. This column will not be indexed, and users will not be able to search data based on its values, but it will be displayed along the other descriptors on the collection page. See an example of collection descriptors for https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72[^ The New York Botanical Garden collection] where not every column is mapped to a standard:"
+msgid "In the example above, the last column couldn’t be mapped to any Darwin Core or Latimer Core term so it was left with a descriptive title. This column will not be indexed, and users will not be able to search data based on its values, but it will be displayed along the other descriptors on the collection page. See an example of collection descriptors for https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72[The New York Botanical Garden collection] where not every column is mapped to a standard:"
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -145,7 +145,7 @@ msgstr ""
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:47
 #, no-wrap
-msgid "https://github.com/gbif/data-blog/blob/master/content/post/2024-10-01-grscicoll-collection-descriptors/NY_descriptors.png"
+msgid "https://data-blog.gbif.org/post/2024-10-01-grscicoll-collection-descriptors/NY_descriptors.png"
 msgstr ""
 
 #. type: Plain text
@@ -194,24 +194,24 @@ msgstr ""
 msgid "There will be a video presentation here"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:69
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:70
 msgid "Given the following text describing a (fictional) collection and with the help of the Latimer Core quick reference guide (https://ltc.tdwg.org/quick-reference/), rank the tables from the poorest to the richest amount of information mapped."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:72
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
 msgid "This collection contains bony fish specimens from the African coast gathered during two expeditions: one in the 19th century and one in 1940-1952. About half of these specimens are identified to the genus level. The collection contains a few type specimens, including one for Eustomias monoclonoides and one for Bothus podas."
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:74
 #, no-wrap
 msgid "Table 1"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:81
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:82
 #, no-wrap
 msgid "| continent | date | taxon | Is type | Percentage identified at genus level\n\n"
 "| Africa | XIX | Bony fish |  | 50\n"
@@ -221,13 +221,13 @@ msgid "| continent | date | taxon | Is type | Percentage identified at genus lev
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:84
 #, no-wrap
 msgid "Table 2"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:89
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:90
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n\n"
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine\n"
@@ -235,13 +235,13 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n\n"
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:91
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:92
 #, no-wrap
 msgid "Table 3"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:98
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n\n"
 "| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50\n"
@@ -250,13 +250,13 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percen
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:100
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:101
 #, no-wrap
 msgid "Table 4"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:109
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n\n"
 "| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50 | \n"
@@ -267,15 +267,21 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percen
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:112
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:113
 msgid "Which ranking orders the table from the poorest to the richest data mapped"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:119
 #, no-wrap
 msgid "- [ ] 2, 3, 1, 4\n"
 "- [x] 1, 2, 3, 4\n"
 "- [ ] 4, 3, 1, 2\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:121
+#, no-wrap
+msgid "====\n"
 msgstr ""
 
