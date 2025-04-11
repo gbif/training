@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:37\n"
+"POT-Creation-Date: 2025-04-01 15:16+0000\n"
+"PO-Revision-Date: 2025-04-07 10:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -32,6 +32,9 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:23
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:10
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:18
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:26
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
@@ -252,52 +255,52 @@ msgstr ""
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:32
 msgid "https://orcid.org/0000-0003-0520-6983[David Jennings^], Node Manager, iDigBio"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-0520-6983[David Jennings^], Director de nodo, iDigBio"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:34
 msgid "https://orcid.org/0000-0002-4329-4892[Niels Raes^], Node Manager, Netherlands"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4329-4892[Niels Raes^], Director de nodo, Países Bajos"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:36
 msgid "Secretariat consultants: https://orcid.org/0000-0003-3918-4065[Andrea Hahn^], Head of Data Products, and https://orcid.org/0000-0002-2685-8078[Marie Grosjean^], Data Administrator"
-msgstr ""
+msgstr "Consultores de la Secretaría: https://orcid.org/0000-0003-3918-4065[Andrea Hahn], Jefe de Productos de Datos, y https://orcid.org/0000-0002-2685-8078[Marie Grosjean], Administrador de Datos"
 
 #. type: Target for macro image
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:37
 #, no-wrap
 msgid "nodes::collections-community-team.jpeg"
-msgstr ""
+msgstr "nodes::collections-community-team.jpeg"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:47
 #, no-wrap
 msgid "*Create a https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account[GitHub account^]* if you do not already have one (follow directions for part 1 and choose free account).\n"
-msgstr ""
+msgstr "*Crear un https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account[cuenta de GitHub]* si usted no tiene ya uno (siga las instrucciones para la parte 1 y elija una cuenta gratuita).\n"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:49
 #, no-wrap
 msgid "*Review* https://docs.gbif.org/gbif-communications-strategy/1.0/en/#gbifs-audiences[GBIF Audiences and Audience Segmentation^] from the Communications Strategy.\n"
-msgstr ""
+msgstr "*Revisión* https://docs.gbif.org/gbif-communications-strategy/1.0/en/#gbifs-audiences[GBIF Audiences and Audience Segmentation] de la Estrategia de Comunicaciones.\n"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:51
 #, no-wrap
 msgid "*Watch a video* from Lily Shrestha, Asia Regional Support, on using a GRSciColl workflow to facilitate Data Mobilization (Vimeo - 9:55 min)\n"
-msgstr ""
+msgstr "*Ver un vídeo* de Lily Shrestha, Asia Regional Support, sobre el uso de un flujo de trabajo GRSciColl para facilitar la movilización de datos (Vimeo - 9:55 min)\n"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:57
 #, no-wrap
 msgid "Stakeholder landscape"
-msgstr ""
+msgstr "Panorama de las partes interesadas"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:61
 msgid "This presentation an introduction to identifying and prioritizing stakeholders."
-msgstr ""
+msgstr "Esta presentación es una introducción a la identificación y priorización de las partes interesadas."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:68
@@ -305,18 +308,20 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQrtd2o5LRI8gwJ1kmMev7MiHccLNR4jITYW8b3I1HQjZD_SiqX05AD_TTCiCkP1qzf1wjNBqcP8Hjo/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQrtd2o5LRI8gwJ1kmMev7MiHccLNR4jITYW8b3I1HQjZD_SiqX05AD_TTCiCkP1qzf1wjNBqcP8Hjo/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:72
 #, no-wrap
 msgid "Indentifying stakeholders"
-msgstr ""
+msgstr "Identificación de las partes interesadas"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:76
 msgid "For this activity, you will identify key community stakeholders and audience."
-msgstr ""
+msgstr "Para esta actividad, identificará a los principales interesados y público de la comunidad."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:83
@@ -324,12 +329,14 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQLlXPHrLXL3nR7Rbjrh5tizevI42KXxYnmqoSJhg2nkovWnbB3pyhNHiJV8L6aE0pWm0AgfH-rVnBj/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQLlXPHrLXL3nR7Rbjrh5tizevI42KXxYnmqoSJhg2nkovWnbB3pyhNHiJV8L6aE0pWm0AgfH-rVnBj/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:89
 msgid "During this section you will contribute to a discussion on the outcomes of the stakeholder mapping exercise."
-msgstr ""
+msgstr "Durante esta sección, usted contribuirá a un debate sobre los resultados del ejercicio de mapeo de las partes interesadas."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:96
@@ -337,18 +344,20 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR83U-dxB4vm4FE8NM2X9WLeE8rqvcVGut2cF6RPpZ0GUf6MBx4ZfQPA2Khy-W1GhLLcKuGA65W_egY/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR83U-dxB4vm4FE8NM2X9WLeE8rqvcVGut2cF6RPpZ0GUf6MBx4ZfQPA2Khy-W1GhLLcKuGA65W_egY/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
 #, no-wrap
 msgid "Community engagement"
-msgstr ""
+msgstr "Participación comunitaria"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:105
 msgid "This presentation outlines techniques to engage with the collections community"
-msgstr ""
+msgstr "Esta presentación describe las técnicas para interactuar con la comunidad de colecciones"
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:112
@@ -356,18 +365,20 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVfZxWsqTlMp62-HIYYSjD8RC51fnLyYVmwQMkok3dN1aTyhhffByPn8qs-zRCFGmpwPj57-tFu5d_/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVfZxWsqTlMp62-HIYYSjD8RC51fnLyYVmwQMkok3dN1aTyhhffByPn8qs-zRCFGmpwPj57-tFu5d_/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:118
 #, no-wrap
 msgid "Developing a data mobilization strategy"
-msgstr ""
+msgstr "Elaboración de una estrategia de movilización de datos"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:122
 msgid "This presentation provides an introduction to developing a data mobilization campaign within your collections community."
-msgstr ""
+msgstr "Esta presentación ofrece una introducción al desarrollo de una campaña de movilización de datos dentro de su comunidad de colecciones."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:129
@@ -375,18 +386,20 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTBbSLHVWR6DiZwXTcPFkbJj7RU2OWzLnYDo42uUmalYxQgRE3DV1v-b-qiZM_tkFARSWbCZ50Qnf7h/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTBbSLHVWR6DiZwXTcPFkbJj7RU2OWzLnYDo42uUmalYxQgRE3DV1v-b-qiZM_tkFARSWbCZ50Qnf7h/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:133
 #, no-wrap
 msgid "Design a data mobilization campaign"
-msgstr ""
+msgstr "Diseñar una campaña de movilización de datos"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:137
 msgid "For this activity, you will design a data mobilization campaign."
-msgstr ""
+msgstr "Para esta actividad, diseñará una campaña de movilización de datos."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:144
@@ -394,12 +407,14 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRFNIOfjRvfYD3IuA2DleFSVC4-69a1_BHXOmCo9Km4XvVpTFvR6RcgdxiUZoBgKGVXo2JSRoIFLS1q/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRFNIOfjRvfYD3IuA2DleFSVC4-69a1_BHXOmCo9Km4XvVpTFvR6RcgdxiUZoBgKGVXo2JSRoIFLS1q/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:152
 msgid "Use this action plan to develop your strategy on how your node can better engage with the collections community and increase the amount of data published to GBIF."
-msgstr ""
+msgstr "Utilice este plan de acción para desarrollar su estrategia sobre cómo su nodo puede interactuar mejor con la comunidad de colecciones y aumentar la cantidad de datos publicados en GBIF."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:159
@@ -407,5 +422,7 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTOyFcMnPh42Vx8Gkql7cWdSwQjmibIuLV-cmXsrc0MEcrsC0zIvA_v47fJW2Xa6w/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTOyFcMnPh42Vx8Gkql7cWdSwQjmibIuLV-cmXsrc0MEcrsC0zIvA_v47fJW2Xa6w/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
