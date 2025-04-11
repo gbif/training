@@ -21,8 +21,14 @@ If you are a GRSciColl editor with the **relevant permissions**, you can create 
 . Provide a collection or institution code.
 . Click on “create”.
 
-[IMPORTANT]
+[NOTE]
 The entries will be created and linked to their sources. Note that the newly created collection entries aren’t associated with any institution by default. You will have to go back to the collection entry and add the institution.
+
+[NOTE.presentation]
+=====
+This video is optional. Some of the operations described above shown here.
+video::https://vimeo.com/649977782[vimeo]
+=====
 
 == Delete entries
 
@@ -31,7 +37,7 @@ The entries will be created and linked to their sources. Note that the newly cre
 . Click on “Deleted this institution” or “Delete this collection”.
 . Confirm the deletion by clicking “yes”.
 
-[IMPORTANT]
+[NOTE]
 Deleted entries can be restored if needed. If you find duplicate entries, we recommend merging them rather than deleting them to avoid the loss of codes and identifiers.
 
 == Merging entries
@@ -53,6 +59,7 @@ In the interface:
 . Click on “Merge”.
 
 The following will be moved to the remaining entry:
+
 * Any associated identifier
 * Any associated contact
 * Any associated collection
