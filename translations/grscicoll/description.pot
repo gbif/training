@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 14:55+0000\n"
+"POT-Creation-Date: 2025-04-11 14:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
-#: en/data-use/modules/ROOT/pages/description.adoc:1
-#: en/epn/modules/ROOT/pages/description.adoc:1
-#: en/grscicoll/modules/ROOT/pages/description.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:2
-#: en/nodes/modules/ROOT/pages/description.adoc:1
-#, no-wrap
-msgid "Course description"
-msgstr ""
-
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/description.adoc:3
-#: en/grscicoll/modules/ROOT/pages/description.adoc:11
-#, no-wrap
-msgid "Topics"
-msgstr ""
-
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/description.adoc:16
 #: en/epn/modules/ROOT/pages/description.adoc:21
-#: en/grscicoll/modules/ROOT/pages/description.adoc:18
+#: en/grscicoll/modules/ROOT/pages/description.adoc:19
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:18
 #: en/nodes/modules/ROOT/pages/description.adoc:8
 #, no-wrap
@@ -46,7 +29,7 @@ msgstr ""
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/description.adoc:23
 #: en/epn/modules/ROOT/pages/description.adoc:25
-#: en/grscicoll/modules/ROOT/pages/description.adoc:26
+#: en/grscicoll/modules/ROOT/pages/description.adoc:27
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:22
 #: en/nodes/modules/ROOT/pages/description.adoc:12
 #, no-wrap
@@ -56,7 +39,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/description.adoc:28
 #: en/epn/modules/ROOT/pages/description.adoc:28
-#: en/grscicoll/modules/ROOT/pages/description.adoc:31
+#: en/grscicoll/modules/ROOT/pages/description.adoc:32
 #: en/nodes/modules/ROOT/pages/description.adoc:15
 msgid ""
 "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF "
@@ -65,7 +48,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/description.adoc:30
-#: en/grscicoll/modules/ROOT/pages/description.adoc:33
+#: en/grscicoll/modules/ROOT/pages/description.adoc:34
 msgid ""
 "Additionally, individuals completing this course should possess the "
 "following skills and knowledge:"
@@ -73,7 +56,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/description.adoc:35
-#: en/grscicoll/modules/ROOT/pages/description.adoc:35
+#: en/grscicoll/modules/ROOT/pages/description.adoc:36
 msgid ""
 "A good command of English. While efforts are made to provide materials in "
 "other languages, instruction/videos will be in English."
@@ -81,24 +64,57 @@ msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/description.adoc:34
-#: en/grscicoll/modules/ROOT/pages/description.adoc:37
+#: en/grscicoll/modules/ROOT/pages/description.adoc:38
 #, no-wrap
 msgid "Certificate of completion"
+msgstr ""
+
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:1
+#, no-wrap
+msgid "Course details"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/description.adoc:3
+#, no-wrap
+msgid "Description"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/description.adoc:8
 msgid ""
 "This course aims to support the community maintaining the data in the Global "
-"Registry of Scientific Collections (GRSciColl).  It gives an overview of the "
-"GRSciColl data structure and its relationship with GBIF data, explains the "
-"GRSciColl permissions system and presents the GRSciColl editing interface.  "
-"By the end of the course, participants should be able to model and update "
-"the collection information in GRSciColl."
+"Registry of Scientific Collections (GRSciColl) and is comprised of three "
+"modules:"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/description.adoc:10
+msgid "Suggestion system, editing permissions and external sources"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:11
+msgid "Modelling information in GRSciColl"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:12
+msgid "How to edit GRSciColl content"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:15
+msgid ""
+"It gives an overview of the GRSciColl data structure and its relationship "
+"with GBIF data, explains the GRSciColl permissions system and presents the "
+"GRSciColl editing interface.  By the end of the course, participants should "
+"be able to model and update the collection information in GRSciColl."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:17
 msgid ""
 "This course consists of videos and documentation paired with quizzes and "
 "practical exercises and the material of this course can be reused by the "
@@ -106,22 +122,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:14
-msgid "Suggestion system, editing permissions and external sources"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:15
-msgid "Modelling information in GRSciColl"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:16
-msgid "How to edit GRSciColl content"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:24
+#: en/grscicoll/modules/ROOT/pages/description.adoc:25
 msgid ""
 "This course is designed for individuals who wish to extensively contribute "
 "to managing the GRSciColl data content for a set of collections.  The "
@@ -130,7 +131,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/description.adoc:42
+#: en/grscicoll/modules/ROOT/pages/description.adoc:43
 msgid ""
 "Upon successful attendance of live sessions and completion of activities, "
 "participants will receive a completion certification."
