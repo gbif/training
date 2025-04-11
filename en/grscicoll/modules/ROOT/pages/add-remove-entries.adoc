@@ -1,4 +1,87 @@
-= Add and remove entries
+= Add, remove,merge and transform entries
 
+[IMPORTANT]
+All the instructions below will be for working in the GRSciColl part of the GBIF Registry: https://registry.gbif.org/. If you don’t have the log in or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system.
 
+== Create entries
+
+. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab].
+. Click on the “create new” button in the upper right corner.
+. Fill out the information: only names and codes are mandatory but we strongly recommend to fill in at least one address and country.
+. Click on the create button.
+
+=== Create entries directly from GBIF dataset or publisher
+
+If you are a GRSciColl editor with the **relevant permissions**, you can create new entries from GBIF datasets or publishers.
+
+. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab].
+. Click on the “create new” button in the upper right corner.
+. Click on the “create from source” button in the upper right corner.
+. Look for the GBIF dataset (if you are creating a collection) or the publisher (if you are creating an institution) that you would like to use.
+. Provide a collection or institution code.
+. Click on “create”.
+
+[IMPORTANT]
+The entries will be created and linked to their sources. Note that the newly created collection entries aren’t associated with any institution by default. You will have to go back to the collection entry and add the institution.
+
+== Delete entries
+
+. Click on the entry that you would like to delete.
+. Click on the “More” button in the upper right corner.
+. Click on “Deleted this institution” or “Delete this collection”.
+. Confirm the deletion by clicking “yes”.
+
+[IMPORTANT]
+Deleted entries can be restored if needed. If you find duplicate entries, we recommend merging them rather than deleting them to avoid the loss of codes and identifiers.
+
+== Merging entries
+
+Merging entries means that one of the entries will be deleted and its associated information will be moved to the remaining entry. In addition to that, GRSciColl will display a warning message and show a link to the remaining entry.
+
+[NOTE]
+====
+* If two entries both have an external source, they cannot be merged.
+* Two collections can only be merged if they belong to the same institution.
+====
+
+In the interface:
+
+. Click on the entry that you would like to delete.
+. Click on the “More” button in the upper right corner.
+. Click on “Merge with other institution” or “Merge with other collection”.
+. Select the institution or collection that you would like to keep.
+. Click on “Merge”.
+
+The following will be moved to the remaining entry:
+* Any associated identifier
+* Any associated contact
+* Any associated collection
+* The codes of the deleted entry will be added as alternative codes to the remaining entry
+* The content of the fields will be moved to the remaining entry if the same field didn’t contain any data originally.
+
+After merging two entries, please review the remaining entry to check if any incorrect data was automatically added during the merge.
+
+== Transform institutions into collection
+
+Some institution entries might in fact correspond to collection. On GRSciColl there is a way to transform an institution entry into a collection entry. In practice, the institution entry will be deleted and a new collection entry will be created by reusing the same information. Any collection associated with the original institution will be added under the new institution in addition to the newly created collection.
+
+Here is how to proceed:
+
+. Click on the institution that you would like to transform.
+. Click on the “More” button in the upper right corner.
+. Click on “Convert to collection”.
+. Choose whether the collection should be under an existing institution or a new one:
+    * If you would like to create a new institution, check the box “Create under new institution” and enter a name for your new institution. The system will automatically create an institution entry based on the current entry.
+    * If you would like to associate the collection with an existing institution, use the search box and select the parent institution.
+.Click the “convert” button.
+
+[NOTE.activity]
+====
+Go to our TEST registry: https://registry.gbif-uat.org/ and, without logging in, make the following suggestion:
+
+. Create an entry
+. Delete an entry
+. Merge two entries
+. Convert an institution into a collection
+====
 
