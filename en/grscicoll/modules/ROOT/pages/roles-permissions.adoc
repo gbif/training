@@ -5,6 +5,9 @@
 You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below.
 ====
 
+[NOTE.presentation]
+There will be a video presentation here
+
 The information on GRSciColl is managed in the **GBIF registry interface**: https://registry.gbif.org/ and **GBIF registry API**: https://techdocs.gbif.org/en/openapi/v1/registry.
 
 == Suggestions
@@ -76,12 +79,12 @@ Suggestion notifications aren’t sent to all the editors and mediators responsi
 
 The table below summarises the permissions associated with each role. In the table, the letters represent the following:
 
----
+----
 * “S” means it can be suggested
 * “E” means editors can make or apply the change
 * “M” means mediators can make or apply the change
 * “A” means administrators can make or apply the change
----
+----
 
 |===
 | Elements \ actions | add | update | delete | merge | transform | Map occurrences
@@ -89,22 +92,21 @@ The table below summarises the permissions associated with each role. In the tab
 | institution | S,E,M,A | S,E,M,A | S,M,A | S,M,A | S,M,A | E,M,A
 | collection | S,E,M,A | S,E,M,A | S,M,A | S,M,A |  | E,M,A
 | identifiers | E,M,A | E,M,A | E,M,A |  |  | 
-| Master source | E,M,A | E,M,A | E\*,M\*,A |  |  | 
+| Master source | E,M,A | E,M,A | E\* ,M\* ,A |  |  | 
 | Occurrence mapping | E,M,A |  | E,M,A |  |  | 
 | Collection descriptors | S,E,M,A | S,E,M,A | S,E,M,A |  |  | 
-| Machine tags | E\**,M\**,A | E\**,M\**,A | E\**,M\**,A |  |  | 
+| Machine tags | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A |  |  | 
 |===
 
 \* **collections** with the master source from Index Hebrariorum can only be disconnected by administrators
 
-\** **machine** tags can only be added if the namespace is within permission scope
+\* \* **machine** tags can only be added if the namespace is within permission scope
 
-[NOTE.presentation]
-There will be a video presentation here
 
 [NOTE.quiz]
 ====
 Given the three hypothetical users were given the following permissions:
+
 * Lola is an editor for the NHMUK institution
 * Ichiko is a mediator for the United Kingdom and Austria
 * Amadou an editor for the ​​Royal Ontario Museum - Entomology collection
