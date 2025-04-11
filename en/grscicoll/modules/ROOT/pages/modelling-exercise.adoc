@@ -1,0 +1,25 @@
+= Modelling exercise
+
+Given the following fictional institutions and collections, think about how to model the information in GRSciColl and answer the questions below. Please create (a) collection descriptor table(s) when relevant. Note that there is no right or wrong answer.
+
+== Use case:
+
+[quote]
+====
+The small geological museum in Dino city hosts a wide range of fossils and minerals.
+
+The exhibition part of the collection has been digitized and is available on the museum website for users interested in virtual visits. Some of the digitized specimens include petrified wood, fossil bivalves and some fossil vertebrates. The rest of the digitized collection corresponds to 130 gems and some volcanic rocks.
+Over all, the museums hold fossil specimens from the precambrian to present days and an estimated 1,000 volcanic and sedimentary rocks collected in Europe.
+
+Zein is the main person in charge of the museum holdings and handles loan requests.
+
+The museum is affiliated with Dino University (DU) which is located on the other side of town and hosts some dried plant specimens as well as small teaching collections of vertebrates collected in South East Asia in 1970. The teaching collection includes a dozen jars of amphibians as well as some bird skulls and one complete mounted skeleton of a juvenile elephant.
+====
+
+== Questions:
+
+. How many institution entries would you create? Which one(s)? Why?
+. How many collection entries would you create? Which one(s)? With which institution entry would they be associated with? Why?
+. What could be published as occurrences on GBIF?
+. What could be modelled as collection descriptors? Create such (a) descriptor table(s)
+. **Optional**: Model the information by using the https://ltc.tdwg.org/index.html[Latimer Core] standard.
