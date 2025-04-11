@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-10 09:58+0000\n"
-"PO-Revision-Date: 2025-04-10 10:05\n"
+"POT-Creation-Date: 2025-04-11 11:17+0000\n"
+"PO-Revision-Date: 2025-04-11 12:28\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -22,6 +22,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
 msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
 msgstr ""
@@ -29,9 +30,10 @@ msgstr ""
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:66
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:89
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:32
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:92
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "There will be a video presentation here"
 msgstr ""
@@ -42,61 +44,68 @@ msgstr ""
 msgid "External sources: Synchronization with External sources"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:9
-msgid "The GRSciColl institution and collection entries can have external primary sources of information that comes from another registry or website. Edits to such primary sources prompt updates to corresponding GRSciColl entries, eliminating the need to manage information across multiple registries."
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:8
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:8
+#, no-wrap
+msgid "Introduction"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:11
+msgid "The GRSciColl institution and collection entries can have external primary sources of information that comes from another registry or website. Edits to such primary sources prompt updates to corresponding GRSciColl entries, eliminating the need to manage information across multiple registries."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:13
 msgid "Currently, the two possible sources of information for GRSciColl entries are https://sweetgum.nybg.org/science/ih/[Index Herbariorum] and the GBIF dataset and publisher metadata. Data for entries drawn from these sources should be edited at the source. In practice, GRSciColl’s editing interface doesn’t allow users to update fields that use information from an external source."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:12
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:14
 #, no-wrap
 msgid "Index Herbariorum"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:15
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
 msgid "Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih/[Index Herbariorum] API, updating information for existing entries whose source is Index Herbariorum and creating suggestions for new entries as needed."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:19
 msgid "By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[GitHub issue]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:21
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:23
 msgid "Editors can disconnect institutions entries from Index Herbariorum and choose to edit the institution directly in the GRSciColl editing interface."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:23
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
 #, no-wrap
 msgid "GBIF dataset metadata and GBIF publisher pages"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:27
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:29
 msgid "The metadata of datasets published on GBIF can be used as primary sources for collection entries in GRSciColl. Unlike with the Index Herbariorum synchronization, there is no weekly schedule and new entries aren’t automatically created. Instead, editors must link GRSciColl collections to their sources manually. This is because the scope of GBIF includes data beyond the scope of GRSciColl. Note that there is also an option to create a collection entry from a dataset which is available to editors and mediators. When the metadata of a dataset is updated, the corresponding collection entry is updated immediately.  Similarly, the publisher information available on GBIF can be used as a primary source for institution entries in GRSciColl."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:34
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:37
 msgid "For the following GRSciColl entry, find their master source."
 msgstr ""
 
 #.  Link 1
-#. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:37
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:40
 msgid "https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2[This collection]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:43
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:46
 #, no-wrap
 msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
 "- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
@@ -105,12 +114,12 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:46
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:49
 msgid "https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[This institution]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:55
 #, no-wrap
 msgid "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
 "- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
@@ -119,12 +128,12 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:55
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:58
 msgid "https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[This collection]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:61
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:64
 #, no-wrap
 msgid "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
 "- [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]\n"
