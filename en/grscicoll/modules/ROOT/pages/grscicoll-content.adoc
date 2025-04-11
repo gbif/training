@@ -7,7 +7,7 @@ You can access the content of this module in written or video format. If you are
 
 == Introduction
 
-Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[^Latimer core standard] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[^objectGroup] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections.
+Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[Latimer core standard] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[objectGroup] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections.
 
 However, GRSciColl isn’t as flexible as the Latimer Core standard. Representing the information in GRSciColl means working with a more limited model. There are four types of entries available on the GRSciColl website:
 
@@ -176,9 +176,9 @@ True or False?
 +
 [question, mc]
 ....
-====
+
 
 - [ ] True
 - [x] False
 ....
-****
+====
