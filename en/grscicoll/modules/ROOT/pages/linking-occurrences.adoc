@@ -36,9 +36,7 @@ Only the occurrences with the following basis of records are selected to show on
 Every time one of these occurrences is processed by GBIF (when it is published or re-interpreted), GBIF attempts to match it to GRSciColl entries by using the https://techdocs.gbif.org/en/openapi/v1/registry#/Lookup%20institutions%20and%20collections[GRSciColl lookup service] and a cached version of GRSciColl.
 
 [IMPORTANT]
-===
 Using a cached version of GRSciColl means that the data used to interpret occurrences isn’t the most up to date. There is often a lag of a few days between an update in GRSciColl and the version that is used to interpret occurrences on GBIF. Sometimes, you or a GBIF administrator will need to trigger the occurrence republishing or re-interpretation in order to ensure that occurrences are linked to the correct entries a few days after GRSciColl update.
-===
 
 The GRSciColl lookup service will attempt to match occurrences based on the following:
 
