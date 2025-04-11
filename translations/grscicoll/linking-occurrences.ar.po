@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-11 07:08+0000\n"
-"PO-Revision-Date: 2025-04-11 07:20\n"
+"POT-Creation-Date: 2025-04-11 11:30+0000\n"
+"PO-Revision-Date: 2025-04-11 12:28\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -30,46 +30,51 @@ msgstr ""
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:66
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:32
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:92
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "There will be a video presentation here"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:89
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:90
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:23
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:96
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:91
 msgid "True or False?"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:98
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:107
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:171
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:109
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:119
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:159
-#, no-wrap
-msgid "- [ ] True\n"
-"- [x] False\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:116
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:125
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:143
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:32
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:42
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:123
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:133
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:152
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:161
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:99
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:129
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:139
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:149
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:162
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:172
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:100
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:130
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:140
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:150
 #, no-wrap
 msgid "- [x] True\n"
 "- [ ] False\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:52
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:62
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:105
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:114
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:143
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:183
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:110
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:120
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:160
+#, no-wrap
+msgid "- [ ] True\n"
+"- [x] False\n"
 msgstr ""
 
 #. type: Title =
@@ -272,50 +277,44 @@ msgid "Occurrence explicit mapping can be particularly useful when trying to adj
 msgstr ""
 
 #.  Question 1
-#. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:93
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:94
 msgid "Some collection content cannot be shared as occurrences on GBIF, for example meteorites."
 msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:103
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:104
 msgid "Only occurrences with the basis of record “preserved specimens” can be linked to GRSciColl entries."
 msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:113
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:114
 msgid "Occurrences are matched to a live version of GRSciColl data."
 msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:123
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:124
 msgid "Occurrences shared on GBIF can be aggregated in dashboards on the GRSciColl website."
 msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:133
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:134
 msgid "If two institutions based in the same country have the same code, “MMFG”, an occurrence with the value “MMFG” in the institutionCode field and no value in the institutionID field won’t be matched to any institution."
 msgstr ""
 
 #.  Question 6
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:143
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:144
 msgid "If you use the URL of a GRSciColl collection entry in the collectionID field of an occurrence, the occurrence will be matched to the relevant collection in GRSciColl."
 msgstr ""
 
 #.  Question 7
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:153
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:154
 msgid "If a GRSciColl **institution** is associated with the code “MMFG” and its collection is associated with the code “ENT”, you can use the code “MMFG” in the **collectionCode** field of an occurrence to match it to the **collection**."
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:160
-#, no-wrap
-msgid "***\n"
 msgstr ""
 
