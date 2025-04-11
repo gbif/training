@@ -1,3 +1,99 @@
 = Edit entries
 
+[IMPORTANT]
+All the instructions below will be for working in the GRSciColl part of the GBIF Registry: https://registry.gbif.org/. Editing core information, contacts and collection descriptors is possible through the suggestion system but you will need specific permissions to work on identifiers, and master source.
+
+== Editing core information
+
+. Find and click on the entry that you would like to edit.
+. Click “suggest” or “edit”.
+. Make the changes you would like to make.
+. Click on save (if you are in suggestion mode, you need to provide an email address and comment).
+
+[NOTE]
+====
+If you notice that some fields are grey and won’t allow you to add any information, that means that the record is connected to a master source. If you would like to update the information for those fields, you have two options:
+
+* Edit the information at the source. For that, you need to click on the blue hyperlink at the top of the entry.
+* Disconnect the entry from the source. For that, you will need to follow the instructions below.
+====
+
+== Edit contact information
+
+. Find and click on the entry that you would like to edit.
+. Click on the “Contacts” tab.
+. Then you can do one of the following:
+
+    * To update an existing contact, click on “view” next to the contact, then the “edit” or “suggest” toggle button in the upper right corner, then save.
+    * To create a new contact, click on the “create new” button in the upper right corner and add your contact before saving.
+    * To delete an existing contact, click on “delete” next to the contact and confirm the deletion.
+
+== Edit identifiers
+
+You will need to be an editor in order to add or remove identifiers.
+
+. Find and click on the entry that you would like to edit.
+. Click on the “Identifiers” tab.
+. Then you can do one of the following:
+    * Delete an existing identifier
+    * Create a new identifier
+
+When you create a new identifier, you can define it as the primary identifier. The identifier that you would like people to use when citing your institution or collection.
+
+== Edit, add, delete collection descriptor groups
+
+[NOTE]
+====
+Collection descriptor groups can only be added to collections. Any collection can have several collection descriptor groups.
+
+You will need to prepare and format the collection descriptor tables before you upload them in the interface.
+====
+
+. Find and click on the collection that you would like to work with.
+. Click on the “Descriptor group” tab (see the screenshot below)
+
+image::https://data-blog.gbif.org/post/2024-10-01-grscicoll-collection-descriptors/descriptor_group_ui.png[Screeenshot GBIF registry]
+
+If you would like to add a collection descriptor group:
+. Click Add and fill in the title and description of the descriptor group and choose your CSV file.
+. Then click “add”.
+
+If you would like to delete one, click on the red trash can icon next to the group to delete. To edit them, click on the edit button.
+
+== Add or delete master sources
+
+You will need to be an editor in order to add or remove master source records.
+
+To add a source:
+. Find and click on the entry that you would like to work with.
+. Click on the “Master source” tab.
+. Click on the “Create new” button.
+. Select a type of source in the drop down list
+. Enter the identifier corresponding to this entry in the source. For example, if you select a GBIF dataset as the source of a collection, you must provide the UUID of that dataset.
+
+To delete a source:
+. Find and click on the entry that you would like to work with.
+. Click on the “Master source” tab.
+. Click on the “Delete” button (on the same line as the source).
+
+[IMPORTANT]
+If you would like to disconnect a collection from Index Herbariorum, please contact us.
+
+[NOTE.presentation]
+=====
+This video is optional. Some of the operations described above shown here.
+video::649977825[vimeo]
+=====
+
+[NOTE.activity]
+====
+Go to our TEST registry: https://registry.gbif-uat.org/ and, without logging in, make the following suggestion:
+
+* Edit the core information of an entry.
+* Add a contact point from an entry.
+* Delete a contact point for an entry.
+* Add a collection descriptor group
+====
+
+
 
