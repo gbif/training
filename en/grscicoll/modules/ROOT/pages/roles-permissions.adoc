@@ -23,7 +23,7 @@ Here are the types of suggestions that can be made:
 
 The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned.
 
-=== Editors, mediators and administrators
+== Editors, mediators and administrators
 
 Users who have registered an **account on GBIF.org** can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.
 In the context of GRSciColl, users can be given one of the three following roles:
@@ -72,7 +72,7 @@ Suggestion notifications aren’t sent to all the editors and mediators responsi
 * If there are no collection or institution editor, the country editor or mediator is notified
 * If there is no mediator for the country, only scientific-collections@gbif.org is notified and administrators review the suggestion.
 
-=== Summary of roles and permissions
+== Summary of roles and permissions
 
 The table below summarises the permissions associated with each role. In the table, the letters represent the following:
 
@@ -92,7 +92,7 @@ The table below summarises the permissions associated with each role. In the tab
 | Master source | E,M,A | E,M,A | E\*,M\*,A |  |  | 
 | Occurrence mapping | E,M,A |  | E,M,A |  |  | 
 | Collection descriptors | S,E,M,A | S,E,M,A | S,E,M,A |  |  | 
-| Machine tags | E\**,M**,A | E**,M**,A | E**,M**,A |  |  | 
+| Machine tags | E\**,M\**,A | E\**,M\**,A | E\**,M\**,A |  |  | 
 |===
 
 \* **collections** with the master source from Index Hebrariorum can only be disconnected by administrators
@@ -110,8 +110,7 @@ Given the three hypothetical users were given the following permissions:
 * Amadou an editor for the ​​Royal Ontario Museum - Entomology collection
 
 Who can apply or make the following updates?
-====
-****
+
 // Link 1
 **Add** collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad
 [question, mc]
@@ -150,5 +149,5 @@ Deleting this entry: https://scientific-collections.gbif.org/institution/1d808a7
 ....
 
 
-****
+====
 
