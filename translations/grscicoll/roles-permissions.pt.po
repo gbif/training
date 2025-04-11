@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-09 14:36+0000\n"
-"PO-Revision-Date: 2025-04-09 15:29\n"
+"POT-Creation-Date: 2025-04-11 09:15+0000\n"
+"PO-Revision-Date: 2025-04-11 10:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -28,6 +28,8 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:8
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
 msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
 msgstr ""
@@ -37,6 +39,8 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "There will be a video presentation here"
 msgstr ""
@@ -116,7 +120,7 @@ msgstr ""
 msgid "The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:26
 #, no-wrap
 msgid "Editors, mediators and administrators"
@@ -241,7 +245,7 @@ msgstr ""
 msgid "If there is no mediator for the country, only scientific-collections@gbif.org is notified and administrators review the suggestion."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:75
 #, no-wrap
 msgid "Summary of roles and permissions"
@@ -290,7 +294,7 @@ msgid "| Elements \\ actions | add | update | delete | merge | transform | Map o
 "| Master source | E,M,A | E,M,A | E\\*,M\\*,A |  |  | \n"
 "| Occurrence mapping | E,M,A |  | E,M,A |  |  | \n"
 "| Collection descriptors | S,E,M,A | S,E,M,A | S,E,M,A |  |  | \n"
-"| Machine tags | E\\**,M**,A | E**,M**,A | E**,M**,A |  |  | \n"
+"| Machine tags | E\\**,M\\**,A | E\\**,M\\**,A | E\\**,M\\**,A |  |  | \n"
 msgstr ""
 
 #. type: Plain text
@@ -329,14 +333,14 @@ msgid "Who can apply or make the following updates?"
 msgstr ""
 
 #.  Link 1
-#. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:117
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:116
 #, no-wrap
 msgid "**Add** collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:123
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:122
 #, no-wrap
 msgid "- [ ] Lola\n"
 "- [ ] Ichiko\n"
@@ -345,13 +349,13 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:126
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:125
 #, no-wrap
 msgid "**Update** the description of https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:132
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:131
 #, no-wrap
 msgid "- [x] Lola\n"
 "- [x] Ichiko\n"
@@ -360,14 +364,14 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:135
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:134
 #, no-wrap
 msgid "**Delete** this entry: https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:141
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:150
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:149
 #, no-wrap
 msgid "- [ ] Lola\n"
 "- [x] Ichiko\n"
@@ -376,7 +380,7 @@ msgstr ""
 
 #.  Link 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:144
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:143
 msgid "Deleting this entry: https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e"
 msgstr ""
 
