@@ -11,8 +11,8 @@ GRSciColl collection descriptors are meant to share structured information about
 
 Here are some examples of searches based on collection descriptors:
 
-* https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J.%20Berkeley[^ Find some collections with specimens collected by M. J. Berkeley]
-* https://scientific-collections.gbif.org/collection/search?country=FR&taxonKey=59[^ Find some fern collections hosted in French institutions]
+* https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J.%20Berkeley[Find some collections with specimens collected by M. J. Berkeley]
+* https://scientific-collections.gbif.org/collection/search?country=FR&taxonKey=59[Find some fern collections hosted in French institutions]
 
 Currently, only a handful of collection descriptors are indexed and searchable: scientific name, country or area of coverage (of the specimen, this is based on the dwc:country term), recorded by and type status. However, GBIF will be able to add filters for more standardized terms as more descriptors are shared in GRSciColl.
 
@@ -50,10 +50,10 @@ Note that tables might contain overlapping information or different descriptions
 
 There is not any template to download as the descriptors can include a lot of headers. You are very welcome to download any table you like from GRSciColl and use it as your own template. Here are some examples that we compiled from real data while working on the implementation of descriptors. They could certainly be mapped differently, and this is to help give an idea of the type of mapping we expect:
 
-* https://github.com/gbif/registry/files/14419456/swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628.csv[^ Example 1 from https://swisscollnet.scnat.ch on an entomological collection]
-* https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-b94e-4ed6-a9ae-f57c7baaf521.csv[^ Example 2 from https://swisscollnet.scnat.ch on a mineralogy collection]
-* https://github.com/gbif/registry/files/14419329/rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc.csv[^ Example 3 from http://rnc.humboldt.org.co on a botanical garden collection]
-* https://github.com/gbif/registry/files/14419363/rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[^ Example 4 from http://rnc.humboldt.org.co on a herbarium collection]
+* https://github.com/gbif/registry/files/14419456/swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628.csv[Example 1 from https://swisscollnet.scnat.ch on an entomological collection]
+* https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-b94e-4ed6-a9ae-f57c7baaf521.csv[Example 2 from https://swisscollnet.scnat.ch on a mineralogy collection]
+* https://github.com/gbif/registry/files/14419329/rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc.csv[Example 3 from http://rnc.humboldt.org.co on a botanical garden collection]
+* https://github.com/gbif/registry/files/14419363/rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[Example 4 from http://rnc.humboldt.org.co on a herbarium collection]
 
 [NOTE]
 ====
@@ -65,12 +65,10 @@ The Latimer core term `objectClassificationName` is very convenient to describe 
 There will be a video presentation here
 
 [NOTE.activity]
-===
 Given the following text describing a (fictional) collection and with the help of the Latimer Core quick reference guide (https://ltc.tdwg.org/quick-reference/), rank the tables from the poorest to the richest amount of information mapped.
 
 [quote]
 This collection contains bony fish specimens from the African coast gathered during two expeditions: one in the 19th century and one in 1940-1952. About half of these specimens are identified to the genus level. The collection contains a few type specimens, including one for Eustomias monoclonoides and one for Bothus podas.
-===
 
 .Table 1
 |===
