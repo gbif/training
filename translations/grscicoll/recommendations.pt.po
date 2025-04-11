@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-01 15:16+0000\n"
-"PO-Revision-Date: 2025-04-01 15:37\n"
+"POT-Creation-Date: 2025-04-11 07:08+0000\n"
+"PO-Revision-Date: 2025-04-11 07:21\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -16,9 +16,89 @@ msgstr ""
 "X-Crowdin-File: /main/translations/grscicoll/recommendations.pot\n"
 "X-Crowdin-File-ID: 43799\n"
 
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:8
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
+msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:66
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:38
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:30
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:87
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:33
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
+msgid "There will be a video presentation here"
+msgstr ""
+
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:1
 #, no-wrap
 msgid "Recommendations"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:10
+msgid "In this section, we will go over some special cases and questions that editors may encounter when working on representing information on GRSciColl."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:11
+#, no-wrap
+msgid "How to represent sub-collections?"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:15
+msgid "In some cases, institutions might be interested in highlighting a particular subset of collections. For example, historical or private collections that have been integrated in a larger collection.  Institutions always have the possibility to create separate collection entries for those. However, some alternatives are available:"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:17
+msgid "You can use the “incorporated collections” field to emphasise collections that were integrated in a larger one."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:18
+msgid "Sub-collection codes can also be added as alternative codes of a collection entry."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:19
+msgid "The collection descriptor groups can be used to structure sub-collections. For example, you can create one collection descriptor group per sub-collections with its own title and description."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:20
+#, no-wrap
+msgid "How to share literature references associated with a collection or its specimens?"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:23
+msgid "There is no ideal way to currently share literature references associated with a collection or its specimens. For now, we recommend sharing such references as collection descriptors. For example, the https://scientific-collections.gbif.org/collection/d4e9aa65-7974-4a31-9b0c-817d474294bc[Japanese Antartic meteorite collection] has a set of references mapped to the Darwin core term https://dwc.tdwg.org/terms/#dcterms:bibliographicCitation[bibliographicCitation]."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:26
+msgid "We will update the training documentation as guidelines are developed."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:27
+#, no-wrap
+msgid "How to represent virtual collections?"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:30
+msgid "GRSciColl was not designed to represent virtual collections. If you wish to create metrics for a subset of specimen related records published on GBIF, consider selecting the occurrences based on their associated data (for example, their scientific names). If you are publishing occurrences shared on GBIF, consider using Darwin Core terms like https://dwc.tdwg.org/terms/#dwc:datasetID[datasetID] for occurrences to facilitate their selection."
 msgstr ""
 
