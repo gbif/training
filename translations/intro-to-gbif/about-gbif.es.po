@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:36\n"
+"POT-Creation-Date: 2025-04-11 19:08+0000\n"
+"PO-Revision-Date: 2025-04-15 13:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -18,21 +18,28 @@ msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:59
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
 #, no-wrap
 msgid "Review"
-msgstr ""
+msgstr "Revisión"
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
+msgid "Quiz yourself on the concepts covered in this module."
+msgstr "Examínese sobre los conceptos tratados en este módulo."
 
 #. type: Title =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:1
 #, no-wrap
 msgid "About GBIF "
-msgstr ""
+msgstr "Acerca de GBIF "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:7
 msgid "The Global Biodiversity Information Facility (GBIF) is an international network of country and organizational Participants that exists to enable free and open access to biodiversity data from all sources and to support biodiversity science, environmental research, and evidence based decision-making.  GBIF operates as a federated system of distributed data publishing efforts, coordinated through a global informatics infrastructure and collaborative network.  In this module, you will learn more about GBIF."
-msgstr ""
+msgstr "El Global Biodiversity Information Facility (GBIF) es una red internacional de países y organizaciones participantes que existe para permitir el acceso libre y abierto a datos sobre biodiversidad de todas las fuentes y para apoyar la ciencia de la biodiversidad, la investigación medioambiental y la toma de decisiones basada en pruebas.  GBIF opera como un sistema federado de esfuerzos distribuidos de publicación de datos, coordinados a través de una infraestructura informática global y una red de colaboración.  En este módulo aprenderá más sobre GBIF."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -43,133 +50,128 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:79
 #, no-wrap
 msgid "What is GBIF?"
-msgstr ""
+msgstr "¿Qué es GBIF?"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:12
 msgid "In this video (03:19) you will learn about GBIF. It is a co-production of SiB Colombia and GBIF Spain, both GBIF national nodes, with co-funding from GBIF Spain and Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH). If you are unable to watch the embedded Vimeo video, you can link:../videos/GBIF__The_library_of_life.mp4[download^,opts=download] it locally. (MP4 - 11.3 MB)"
-msgstr ""
+msgstr "En este vídeo (03:19) aprenderás sobre GBIF. Es una coproducción de SiB Colombia y GBIF España, ambos nodos nacionales de GBIF, con cofinanciación de GBIF España y el Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH). Si no puede ver el vídeo Vimeo incrustado, puede link:../videos/GBIF__The_library_of_life.mp4[descargarlo^,opts=download] localmente. (MP4 - 11,3 MB)"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:17
 msgid "If you see the CC symbol on a video, you can click it to enable closed captioning/subtitles in English or other available languages."
-msgstr ""
+msgstr "Si ve el símbolo CC en un vídeo, puede hacer clic en él para activar los subtítulos en inglés u otros idiomas disponibles."
 
 #. type: Title =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:18
 #: en/intro-to-gbif/modules/ROOT/pages/index.adoc:1
 #, no-wrap
 msgid "Introduction to GBIF"
-msgstr ""
+msgstr "Introducción a GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:23
 msgid "In this video (07:55), Tim Hirsch, Deputy Director of the GBIF Secretariat, provides you with an overview of GBIF.  If you are unable to watch the embedded Vimeo video, you can link:../videos/Introduction-to-GBIF.mp4[download^,opts=download] it locally. (MP4 - 32.3 MB)"
-msgstr ""
+msgstr "En este vídeo (07:55), Tim Hirsch, Subdirector de la Secretaría de GBIF, le ofrece una visión general de GBIF.  Si no puede ver el vídeo incrustado de Vimeo, puede link:../videos/Introduction-to-GBIF.mp4[descargarlo^,opts=download] localmente. (MP4 - 32,3 MB)"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:27
 #, no-wrap
 msgid "Introduction to GBIF Participant Nodes"
-msgstr ""
+msgstr "Introducción a los Nodos Participantes de GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:35
 msgid "Since GBIF’s founding in 2001, the participating countries and organizations have been testing and developing models for coordinating the mobilization, management and reuse of biodiversity data at the national level or within an organization’s scope.  The formation of Participant ‘nodes’ has been central to these efforts.  Designated by each Participant, these teams coordinate the needs and interests of the many stakeholders involved.  In this video (07:53), we look at the variety of node models in the GBIF network to present generalized concepts relating to Participant nodes and the roles that they play in the GBIF community.  If you are unable to watch the embedded Vimeo video, you can link:../videos/Role-of-nodes-in-GBIF.mp4[download^,opts=download] it locally. (MP4 - 14.0 MB)"
-msgstr ""
+msgstr "Desde la fundación de GBIF en 2001, los países y organizaciones participantes han estado probando y desarrollando modelos para coordinar la movilización, gestión y reutilización de datos sobre biodiversidad a nivel nacional o dentro del ámbito de una organización.  La formación de «nodos» participantes ha sido fundamental en estos esfuerzos.  Designados por cada Participante, estos equipos coordinan las necesidades e intereses de las numerosas partes interesadas.  En este vídeo (07:53), observamos la variedad de modelos de nodos en la red de GBIF para presentar conceptos generalizados relacionados con los nodos Participantes y las funciones que desempeñan en la comunidad de GBIF.  Si no puedes ver el vídeo incrustado de Vimeo, puedes link:../videos/Role-of-nodes-in-GBIF.mp4[descargarlo^,opts=download] localmente. (MP4 - 14,0 MB)"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:41
 #, no-wrap
 msgid "*Further guidance for Nodes*\n"
-msgstr ""
+msgstr "*Orientaciones adicionales para los Nodos*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:43
 msgid "https://docs.gbif.org/effective-nodes-guidance/1.0/en/[Establishing an effective GBIF Participant Node^]"
-msgstr ""
+msgstr "https://docs.gbif.org/effective-nodes-guidance/1.0/en/[Establecimiento de un Nodo Participante de GBIF efectivo ^]"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:44
 msgid "https://www.gbif.org/tool/6Y2SqK8XokHUqIFUn6TLxX/online-capacity-self-assessment-tool-for-national-biodiversity-information-facilities[Online capacity self-assessment tool for national biodiversity information facilities^]"
-msgstr ""
+msgstr "https://www.gbif.org/tool/6Y2SqK8XokHUqIFUn6TLxX/online-capacity-self-assessment-tool-for-national-biodiversity-information-facilities[Herramienta en línea de autoevaluación de la capacidad de los servicios nacionales de información sobre biodiversidad^]"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:46
 #, no-wrap
 msgid "Countries/Economies in GBIF"
-msgstr ""
+msgstr "Países/Economías en GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:50
 msgid "Investigate how your country/economy is represented in GBIF"
-msgstr ""
+msgstr "Investigue cómo está representado su país/economía en GBIF"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #, no-wrap
 msgid "The GBIF website has pages dedicated to countries/economies, including for countries/economies that do not yet participate in GBIF. You can use the search box on the homepage to look up a country/economy name."
-msgstr ""
+msgstr "El sitio web de GBIF tiene páginas dedicadas a países/economías, incluso para países/economías que todavía no participan en GBIF. Puede utilizar el cuadro de búsqueda de la página principal para buscar el nombre de un país/economía."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:52
 #, no-wrap
 msgid "img/web/lookupcountry.png"
-msgstr ""
+msgstr "img/web/lookupcountry.png"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:54
 #, no-wrap
 msgid "The tabs on these pages provide a general description of the data available about the biodiversity of the country, any data published by national institutions, as well as other relevant information on the use of data by researchers in the country."
-msgstr ""
+msgstr "Las pestañas de estas páginas ofrecen una descripción general de los datos disponibles sobre la biodiversidad del país, cualquier dato publicado por instituciones nacionales, así como otra información relevante sobre el uso de los datos por parte de los investigadores del país."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:55
 #, no-wrap
 msgid "img/web/countrypage.png"
-msgstr ""
+msgstr "img/web/countrypage.png"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:57
 #, no-wrap
 msgid "A recent collaboration with the IUCN Invasive Species Specialist Group means that, for many countries, a checklist of introduced and invasive alien species is available from the Global Register of Introduced and Invasive Species (GRIIS)."
-msgstr ""
+msgstr "Gracias a una reciente colaboración con el Grupo de Especialistas en Especies Invasoras de la UICN, en el Registro Mundial de Especies Introducidas e Invasoras (GRIIS) se puede consultar una lista de especies exóticas introducidas e invasoras de muchos países."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:58
 #, no-wrap
 msgid "img/web/alienspecies.png"
-msgstr ""
+msgstr "img/web/alienspecies.png"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:62
 msgid "Look up your country on the GBIF website."
-msgstr ""
+msgstr "Busque su país en el sitio web de GBIF."
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:63
 msgid "Does your country participate in GBIF?"
-msgstr ""
+msgstr "¿Participa su país en GBIF?"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:64
 msgid "How many institutions are publishing data?"
-msgstr ""
+msgstr "¿Cuántas instituciones publican datos?"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:65
 msgid "Is a list of introduced and invasive alien species available for your country?"
-msgstr ""
+msgstr "¿Dispone su país de una lista de especies exóticas introducidas e invasoras?"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:66
 msgid "How well does the information available on GBIF reflect what you know about the biodiversity of your country?"
-msgstr ""
-
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
-msgid "Quiz yourself on the concepts covered in this module."
-msgstr ""
+msgstr "¿En qué medida la información disponible en GBIF refleja lo que usted sabe sobre la biodiversidad de su país?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:87
@@ -179,13 +181,17 @@ msgid "- [ ] An intergovernmental network and research infrastructure\n"
 "- [ ] A network of participant nodes\n"
 "- [ ] A secretariat, based in Copenhagen, Denmark\n"
 "- [x] All of the above\n"
-msgstr ""
+msgstr "- [ ] Una red intergubernamental y una infraestructura de investigación\n"
+"- [ ] Una colaboración entre gobiernos y organizaciones internacionales\n"
+"- [ ] Una red de nodos participantes\n"
+"- [ ] Una secretaría, con sede en Copenhague, Dinamarca\n"
+"- [x] Todas las anteriores\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:90
 msgid "When was GBIF established?"
-msgstr ""
+msgstr "¿Cuándo se creó GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:96
@@ -193,13 +199,15 @@ msgstr ""
 msgid "- [ ] 1992\n"
 "- [ ] 1999\n"
 "- [x] 2001\n"
-msgstr ""
+msgstr "- [ ] 1992\n"
+"- [ ] 1999\n"
+"- [x] 2001\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:99
 msgid "Which of the following is the best description of a GBIF Participant node?"
-msgstr ""
+msgstr "¿Cuál de las siguientes es la mejor descripción de un nodo Participante de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:106
@@ -208,13 +216,16 @@ msgid "- [ ] A GBIF national office, funded by the GBIF Secretariat\n"
 "- [x] A team designated by a Participant country or organization to coordinate a network of people and institutions that produce, manage and use biodiversity data, collectively building an infrastructure for delivering biodiversity information\n"
 "- [ ] A regional hub for expertise in biodiversity data mobilization and data use\n"
 "- [ ] The informatics infrastructure that connects with GBIF.org to enable a Participant country or organization to publish biodiversity data\n"
-msgstr ""
+msgstr "- [ ] Una oficina nacional de GBIF, financiada por la Secretaría de GBIF\n"
+"- [x] Un equipo designado por un país u organización Participante para coordinar una red de personas e instituciones que producen, gestionan y usan datos sobre biodiversidad, construyendo colectivamente una infraestructura para proporcionar información sobre biodiversidad.\n"
+"- [ ] Un centro regional de conocimientos especializados sobre la movilización y el uso de datos sobre biodiversidad.\n"
+"- [ ] La infraestructura informática que se conecta con GBIF.org para permitir a un país u organización Participante publicar datos sobre biodiversidad\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:109
 msgid "Which of the following is NOT a typical function of a GBIF Participant node?"
-msgstr ""
+msgstr "¿Cuál de las siguientes NO es una función típica de un nodo Participante de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:117
@@ -224,13 +235,17 @@ msgid "- [ ] Coordinating a community of initiatives relating to biodiversity in
 "- [ ] Encouraging the reuse of the available data to support biodiversity-related science and support decision-making for sustainable development \n"
 "- [ ] Providing expertise on biodiversity data management and improving data quality to support users’ needs \n"
 "- [x] Maintaining a mirror website of the GBIF.org to ensure real-time backup of the GBIF data index and improve user access from within the country\n"
-msgstr ""
+msgstr "- [ ] Coordinar una comunidad de iniciativas relacionadas con la información sobre biodiversidad, incluyendo el establecimiento de conexiones con la red internacional de GBIF \n"
+"- [ ] Promover y apoyar la movilización de datos sobre biodiversidad dentro del ámbito del país o de la organización, de forma que el mayor número posible de fuentes estén disponibles de forma libre y abierta. \n"
+"- [ ] Fomentar la reutilización de los datos disponibles para apoyar la ciencia relacionada con la biodiversidad y la toma de decisiones para el desarrollo sostenible. \n"
+"- [ ] Proporcionar conocimientos sobre la gestión de datos de biodiversidad y mejorar la calidad de los datos para satisfacer las necesidades de los usuarios. \n"
+"- [x] Mantener un sitio web espejo de GBIF.org para asegurar una copia de seguridad en tiempo real del índice de datos de GBIF y mejorar el acceso de los usuarios desde dentro del país \n"
 
 #.  Question 5
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:120
 msgid "What is a GBIF Participant?"
-msgstr ""
+msgstr "¿Qué es un participante de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:127
@@ -239,13 +254,16 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [x]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr ""
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+"- [x] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible.\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:130
 msgid "What is a GBIF Head of Delegation?"
-msgstr ""
+msgstr "¿Qué es un Jefe de Delegación de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:137
@@ -254,13 +272,16 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [x] The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr ""
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+"- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [x] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:140
 msgid "What is a Biodiversity information facility?"
-msgstr ""
+msgstr "¿Qué es un servicio de información sobre biodiversidad?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:147
@@ -269,13 +290,16 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [x]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr ""
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+"- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
+"- [x] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:150
 msgid "What is a Node manager?"
-msgstr ""
+msgstr "¿Qué es un gestor de nodos?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
@@ -284,18 +308,22 @@ msgid "- [x] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr ""
+msgstr "- [x] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+"- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 9
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:160
 msgid "Who designates the institution that hosts the GBIF Participant node?"
-msgstr ""
+msgstr "¿Quién designa la institución que aloja el nodo Participante de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:165
 #, no-wrap
 msgid "- [x] The Head of Delegation\n"
 "- [ ] The GBIF Secretariat\n"
-msgstr ""
+msgstr "- [x] El Jefe de Delegación\n"
+"- [ ] La Secretaría de GBIF\n"
 
