@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-04-07 08:11\n"
+"POT-Creation-Date: 2025-04-11 19:08+0000\n"
+"PO-Revision-Date: 2025-04-15 11:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -18,10 +18,17 @@ msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:59
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
 #, no-wrap
 msgid "Review"
 msgstr "Revisión"
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
+msgid "Quiz yourself on the concepts covered in this module."
+msgstr "Examínese sobre los conceptos tratados en este módulo."
 
 #. type: Title =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:1
@@ -166,11 +173,6 @@ msgstr "¿Dispone su país de una lista de especies exóticas introducidas e inv
 msgid "How well does the information available on GBIF reflect what you know about the biodiversity of your country?"
 msgstr "¿En qué medida la información disponible en GBIF refleja lo que usted sabe sobre la biodiversidad de su país?"
 
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
-msgid "Quiz yourself on the concepts covered in this module."
-msgstr "Examínese sobre los conceptos tratados en este módulo."
-
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:87
 #, no-wrap
@@ -179,11 +181,11 @@ msgid "- [ ] An intergovernmental network and research infrastructure\n"
 "- [ ] A network of participant nodes\n"
 "- [ ] A secretariat, based in Copenhagen, Denmark\n"
 "- [x] All of the above\n"
-msgstr "[ ] Una red intergubernamental y una infraestructura de investigación\n"
-"- Una colaboración entre gobiernos y organizaciones internacionales\n"
+msgstr "- [ ] Una red intergubernamental y una infraestructura de investigación\n"
+"- [ ] Una colaboración entre gobiernos y organizaciones internacionales\n"
 "- [ ] Una red de nodos participantes\n"
 "- [ ] Una secretaría, con sede en Copenhague, Dinamarca\n"
-"- x] Todas las anteriores\n"
+"- [x] Todas las anteriores\n"
 
 #.  Question 2
 #. type: Plain text
@@ -215,8 +217,8 @@ msgid "- [ ] A GBIF national office, funded by the GBIF Secretariat\n"
 "- [ ] A regional hub for expertise in biodiversity data mobilization and data use\n"
 "- [ ] The informatics infrastructure that connects with GBIF.org to enable a Participant country or organization to publish biodiversity data\n"
 msgstr "- [ ] Una oficina nacional de GBIF, financiada por la Secretaría de GBIF\n"
-"- x] Un equipo designado por un país u organización Participante para coordinar una red de personas e instituciones que producen, gestionan y usan datos sobre biodiversidad, construyendo colectivamente una infraestructura para proporcionar información sobre biodiversidad.\n"
-"- Un centro regional de conocimientos especializados sobre la movilización y el uso de datos sobre biodiversidad.\n"
+"- [x] Un equipo designado por un país u organización Participante para coordinar una red de personas e instituciones que producen, gestionan y usan datos sobre biodiversidad, construyendo colectivamente una infraestructura para proporcionar información sobre biodiversidad.\n"
+"- [ ] Un centro regional de conocimientos especializados sobre la movilización y el uso de datos sobre biodiversidad.\n"
 "- [ ] La infraestructura informática que se conecta con GBIF.org para permitir a un país u organización Participante publicar datos sobre biodiversidad\n"
 
 #.  Question 4
@@ -234,10 +236,10 @@ msgid "- [ ] Coordinating a community of initiatives relating to biodiversity in
 "- [ ] Providing expertise on biodiversity data management and improving data quality to support users’ needs \n"
 "- [x] Maintaining a mirror website of the GBIF.org to ensure real-time backup of the GBIF data index and improve user access from within the country\n"
 msgstr "- [ ] Coordinar una comunidad de iniciativas relacionadas con la información sobre biodiversidad, incluyendo el establecimiento de conexiones con la red internacional de GBIF \n"
-"- Promover y apoyar la movilización de datos sobre biodiversidad dentro del ámbito del país o de la organización, de forma que el mayor número posible de fuentes estén disponibles de forma libre y abierta. \n"
-"- Fomentar la reutilización de los datos disponibles para apoyar la ciencia relacionada con la biodiversidad y la toma de decisiones para el desarrollo sostenible. \n"
-"- Proporcionar conocimientos sobre la gestión de datos de biodiversidad y mejorar la calidad de los datos para satisfacer las necesidades de los usuarios. \n"
-"- x] Mantener un sitio web espejo de GBIF.org para asegurar una copia de seguridad en tiempo real del índice de datos de GBIF y mejorar el acceso de los usuarios desde dentro del país \n"
+"- [ ] Promover y apoyar la movilización de datos sobre biodiversidad dentro del ámbito del país o de la organización, de forma que el mayor número posible de fuentes estén disponibles de forma libre y abierta. \n"
+"- [ ] Fomentar la reutilización de los datos disponibles para apoyar la ciencia relacionada con la biodiversidad y la toma de decisiones para el desarrollo sostenible. \n"
+"- [ ] Proporcionar conocimientos sobre la gestión de datos de biodiversidad y mejorar la calidad de los datos para satisfacer las necesidades de los usuarios. \n"
+"- [x] Mantener un sitio web espejo de GBIF.org para asegurar una copia de seguridad en tiempo real del índice de datos de GBIF y mejorar el acceso de los usuarios desde dentro del país \n"
 
 #.  Question 5
 #. type: Plain text
@@ -252,10 +254,10 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [x]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr "[ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
-"- x] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible.\n"
-"- La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
-"- La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+"- [x] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible.\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 6
 #. type: Plain text
@@ -270,10 +272,10 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [x] The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr "[ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
 "- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
-"- La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
-"- x] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [x] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 7
 #. type: Plain text
@@ -288,9 +290,9 @@ msgid "- [ ] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [x]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr "La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+msgstr "- [ ] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
 "- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
-"- x] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [x] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
 "- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 8
@@ -306,10 +308,10 @@ msgid "- [x] The person designated by a participating country/economy/organizati
 "- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development\n"
 "- [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders\n"
 "- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making\n"
-msgstr "La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
+msgstr "- [x] La persona designada por un país/economía/organización participante para gestionar las actividades del nodo para coordinar un servicio de información sobre biodiversidad\n"
 "- [ ] Un país, economía u organización que se une a GBIF firmando el Memorando de Entendimiento y estableciendo un esfuerzo coordinado para apoyar el acceso abierto y el uso de datos sobre biodiversidad, para avanzar en la investigación científica, y para promover el desarrollo tecnológico y sostenible\n"
-"- La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
-"- La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
+"- [ ] La estructura más amplia de personas e instituciones, coordinada por el nodo, que colectivamente forma una infraestructura para proporcionar información sobre biodiversidad a las partes interesadas relevantes.\n"
+"- [ ] La persona designada por el país/economía/organización participante para actuar como su representante en el Órgano de Gobierno de GBIF y tomar parte en la toma de decisiones a nivel global\n"
 
 #.  Question 9
 #. type: Plain text
