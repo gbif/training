@@ -1,7 +1,7 @@
 = Edit entries
 
 [IMPORTANT]
-All the instructions below will be for working in the GRSciColl part of the GBIF Registry: https://registry.gbif.org/. Editing core information, contacts and collection descriptors is possible through the suggestion system but you will need specific permissions to work on identifiers, and master source.
+All the instructions below will be for working in the GRSciColl part of the https://registry.gbif.org/[GBIF Registry^]. Editing core information, contacts and collection descriptors is possible through the suggestion system but you will need specific permissions to work on identifiers, and master source.
 
 == Editing core information
 
@@ -50,9 +50,11 @@ You will need to prepare and format the collection descriptor tables before you 
 ====
 
 . Find and click on the collection that you would like to work with.
-. Click on the “Descriptor group” tab (see the screenshot below)
+. Click on the “Descriptor group” tab (see the image below)
 
-image::https://data-blog.gbif.org/post/2024-10-01-grscicoll-collection-descriptors/descriptor_group_ui.png[Screeenshot GBIF registry]
+:figure-caption!:
+.Descriptor group
+image::grscicoll::descriptor_group_ui.png[align=center,width=640,height=360]
 
 If you would like to add a collection descriptor group:
 . Click Add and fill in the title and description of the descriptor group and choose your CSV file.
@@ -79,21 +81,22 @@ To delete a source:
 [IMPORTANT]
 If you would like to disconnect a collection from Index Herbariorum, please contact us.
 
+== Optional video
+
 [NOTE.presentation]
-=====
-This video is optional. Some of the operations described above shown here.
-video::649977825[vimeo]
-=====
+====
+In this video (03:02), GBIF Data Administrator, Marie Grosjean, describes how to edit entries within GRSciColl.
+====
+
+[.responsive-video]
+video::1074662005[vimeo]
 
 [NOTE.activity]
 ====
-Go to our TEST registry: https://registry.gbif-uat.org/ and, without logging in, make the following suggestion:
+Go to our https://registry.gbif-uat.org/[TEST registry^] and, without logging in, make the following suggestion:
 
 * Edit the core information of an entry.
 * Add a contact point from an entry.
 * Delete a contact point for an entry.
-* Add a collection descriptor group
+* Add a collection descriptor group.
 ====
-
-
-
