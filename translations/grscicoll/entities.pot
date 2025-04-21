@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-21 14:48+0000\n"
+"POT-Creation-Date: 2025-04-21 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,7 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:60
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:48
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:125
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:126
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
 #, no-wrap
 msgid "Review"
@@ -304,109 +304,122 @@ msgstr ""
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:65
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:53
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:130
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:131
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
 msgid "Quiz yourself on the concepts covered in this module."
 msgstr ""
 
-#. type: delimited block -
+#. type: delimited block *
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:69
-#, no-wrap
-msgid "Instructions: Review each page and identify which type of information is represented.\n"
-msgstr ""
-
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:75
-#, no-wrap
 msgid ""
-"// Link 1\n"
-". https://scientific-collections.gbif.org/specimen/search?entity=2512997445[https://scientific-collections.gbif.org/specimen/search?entity=2512997445^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
+"Instructions: Review each page and identify which type of information is "
+"represented."
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:85
+#.  Link 1
+#. type: delimited block *
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:72
+msgid ""
+"https://scientific-collections.gbif.org/specimen/search?"
+"entity=2512997445[https://scientific-collections.gbif.org/specimen/search?"
+"entity=2512997445^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #, no-wrap
 msgid ""
 "- [ ] Collection\n"
 "- [x] Occurrence\n"
 "- [ ] Identifier\n"
-"....\n"
-"// Link 2\n"
-". https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa[https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:95
+#.  Link 2
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:82
+msgid ""
+"https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-"
+"bd51-8c9b07cb7daa[https://scientific-collections.gbif.org/"
+"collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:89
 #, no-wrap
 msgid ""
 "- [ ] Identifiers\n"
 "- [ ] Machine tags\n"
 "- [x] Collection\n"
-"....\n"
-"// Link 3\n"
-". https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier[https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:105
+#.  Link 3
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:92
+msgid ""
+"https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/"
+"identifier[https://registry.gbif.org/institution/5667a399-386e-40be-"
+"b8b5-8b304305aa7e/identifier^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:99
 #, no-wrap
 msgid ""
 "- [ ] Institution\n"
 "- [ ] Occurrence\n"
 "- [x] Identifier\n"
-"....\n"
-"// Link 4\n"
-". https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup[https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:115
+#.  Link 4
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:102
+msgid ""
+"https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/"
+"descriptorGroup[https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-"
+"cbd609c31838/descriptorGroup^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:109
 #, no-wrap
 msgid ""
 "- [ ] Master source\n"
 "- [ ] Institution\n"
 "- [x] Collection descriptors\n"
-"....\n"
-"// Link 5\n"
-". https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4[https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:125
+#.  Link 5
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:112
+msgid ""
+"https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-"
+"b822-673f3d36eef4[https://scientific-collections.gbif.org/"
+"institution/2a3a7a96-3cea-4251-b822-673f3d36eef4^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:119
 #, no-wrap
 msgid ""
 "- [x] Institution\n"
 "- [ ] Collection\n"
 "- [ ] Occurrence\n"
-"....\n"
-"// Link 6\n"
-". https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source[https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source^]\n"
-"+\n"
-"[question, mc]\n"
-"....\n"
 msgstr ""
 
-#. type: delimited block -
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:130
+#.  Link 6
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:122
+msgid ""
+"https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/"
+"master-source[https://registry.gbif.org/collection/"
+"b2190553-4505-4fdd-8fff-065c8ca26f72/master-source^]"
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:129
 #, no-wrap
 msgid ""
 "- [ ] Institution\n"
 "- [x] Master source\n"
 "- [ ] Collection\n"
-"....\n"
 msgstr ""
