@@ -2,15 +2,33 @@
 
 [NOTE]
 ====
-You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below.
+You can obtain the content of this section either via video or written format. You will find the video transcript below the video.
 ====
 
 [NOTE.presentation]
-There will be a video presentation here
+====
+In this video (04:31), GBIF Data Administrator, Marie Grosjean, describes the roles and permissions in GRSciColl.   
+If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.
+====
+
+[.responsive-video]
+video::1074662305[vimeo]
+
+== Video transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
 
 The information on GRSciColl is managed in the **GBIF registry interface**: https://registry.gbif.org/ and **GBIF registry API**: https://techdocs.gbif.org/en/openapi/v1/registry.
 
-== Suggestions
+=== Suggestions
 
 Anyone can make update suggestions on GRSciColl. Making a suggestion doesn’t require any account nor associated permission. Suggestions can be made via the registry web interface or via the registry API on collection and institution entries.
 Here are the types of suggestions that can be made:
@@ -26,7 +44,7 @@ Here are the types of suggestions that can be made:
 
 The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned.
 
-== Editors, mediators and administrators
+=== Editors, mediators and administrators
 
 Users who have registered an **account on GBIF.org** can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.
 In the context of GRSciColl, users can be given one of the three following roles:
@@ -65,7 +83,7 @@ The most common types of permissions on GRSciColl are for institutional editors 
 
 An **administrator** can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. Note that only GBIF Secretariat staff are GRSciColl administrators.
 
-== Review of suggestions
+=== Review of suggestions
 
 Editors, mediators and administrators can also apply the suggestions that correspond to their permission scope and roles.
 
@@ -75,7 +93,7 @@ Suggestion notifications aren’t sent to all the editors and mediators responsi
 * If there are no collection or institution editor, the country editor or mediator is notified
 * If there is no mediator for the country, only scientific-collections@gbif.org is notified and administrators review the suggestion.
 
-== Summary of roles and permissions
+=== Summary of roles and permissions
 
 The table below summarises the permissions associated with each role. In the table, the letters represent the following:
 
@@ -103,9 +121,13 @@ The table below summarises the permissions associated with each role. In the tab
 \* \* **machine** tags can only be added if the namespace is within permission scope
 
 
+== Review
+
 [NOTE.quiz]
 ====
-Given the three hypothetical users were given the following permissions:
+Quiz yourself on the concepts covered in this module.
+
+Instructions: Given the three hypothetical users were given the following permissions:
 
 * Lola is an editor for the NHMUK institution
 * Ichiko is a mediator for the United Kingdom and Austria
