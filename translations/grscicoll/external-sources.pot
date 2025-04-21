@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-21 15:07+0000\n"
+"POT-Creation-Date: 2025-04-21 15:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,6 +122,13 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/downloads.adoc:13
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:1
+#, no-wrap
+msgid "Synchronization with external sources"
+msgstr ""
+
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:7
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:5
@@ -153,12 +160,6 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:131
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
 msgid "Quiz yourself on the concepts covered in this module."
-msgstr ""
-
-#. type: Title =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:1
-#, no-wrap
-msgid "Synchronization with External sources"
 msgstr ""
 
 #. type: delimited block =
@@ -252,15 +253,14 @@ msgid ""
 "on GBIF can be used as a primary source for institution entries in GRSciColl."
 msgstr ""
 
-#. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:57
-msgid ""
-"Instructions: For the following GRSciColl entries, find their master source."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:55
+msgid "_For the following GRSciColl entries, find their master source._"
 msgstr ""
 
 #.  Link 1
-#. type: delimited block *
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:60
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:58
 msgid ""
 "Which is the master source for the collection record for https://scientific-"
 "collections.gbif.org/collection/bc3d39fd-a7d4-4763-"
@@ -269,7 +269,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:66
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:64
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
@@ -279,7 +279,7 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:69
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:67
 msgid ""
 "Which is the master source for the institution record for https://scientific-"
 "collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[MNHN - "
@@ -287,7 +287,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:75
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:73
 #, no-wrap
 msgid ""
 "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
@@ -297,7 +297,7 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:78
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:76
 msgid ""
 "Which is the master source for the collection record for https://scientific-"
 "collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[The "
@@ -306,7 +306,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:84
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:82
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
