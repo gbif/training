@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-21 16:09+0000\n"
-"PO-Revision-Date: 2025-04-21 16:21\n"
+"POT-Creation-Date: 2025-04-21 18:51+0000\n"
+"PO-Revision-Date: 2025-04-21 19:00\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -36,9 +36,10 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:25
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:14
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:22
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:30
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
@@ -124,7 +125,7 @@ msgstr ""
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/navigation.adoc:3
 #: en/epn/modules/ROOT/pages/introduction.adoc:16
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:7
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:9
 #: en/nodes/modules/ROOT/pages/navigation.adoc:5
 #, no-wrap
 msgid "Left navigation"
@@ -133,22 +134,15 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:6
 #: en/epn/modules/ROOT/pages/introduction.adoc:19
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:10
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:12
 #: en/nodes/modules/ROOT/pages/navigation.adoc:8
 msgid "You will find the course navigation on the left side of the page. Some of the menu items expand/collapse."
-msgstr ""
-
-#. type: Target for macro image
-#: en/data-use/modules/ROOT/pages/navigation.adoc:7
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:11
-#, no-wrap
-msgid "data-use::course-left-nav.png"
 msgstr ""
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/navigation.adoc:11
 #: en/epn/modules/ROOT/pages/introduction.adoc:24
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:15
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:17
 #: en/nodes/modules/ROOT/pages/navigation.adoc:13
 #, no-wrap
 msgid "Right navigation"
@@ -157,24 +151,15 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:14
 #: en/epn/modules/ROOT/pages/introduction.adoc:27
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:18
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:20
 #: en/nodes/modules/ROOT/pages/navigation.adoc:16
 msgid "You will find individual page contents on the right side of the page."
-msgstr ""
-
-#. type: Target for macro image
-#: en/data-use/modules/ROOT/pages/navigation.adoc:15
-#: en/epn/modules/ROOT/pages/introduction.adoc:28
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:19
-#: en/nodes/modules/ROOT/pages/navigation.adoc:17
-#, no-wrap
-msgid "epn::course-right-nav.png"
 msgstr ""
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/navigation.adoc:19
 #: en/epn/modules/ROOT/pages/introduction.adoc:32
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:23
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:25
 #: en/nodes/modules/ROOT/pages/navigation.adoc:21
 #, no-wrap
 msgid "Bottom navigation"
@@ -183,7 +168,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:22
 #: en/epn/modules/ROOT/pages/introduction.adoc:35
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:26
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:28
 #: en/nodes/modules/ROOT/pages/navigation.adoc:24
 msgid "At the bottom of each page you will find forward and back buttons to move you through the content."
 msgstr ""
@@ -191,7 +176,7 @@ msgstr ""
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/navigation.adoc:23
 #: en/epn/modules/ROOT/pages/introduction.adoc:36
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:27
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:29
 #: en/nodes/modules/ROOT/pages/navigation.adoc:25
 #, no-wrap
 msgid "epn::course-bottom-nav.png"
@@ -200,7 +185,7 @@ msgstr ""
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/navigation.adoc:27
 #: en/epn/modules/ROOT/pages/introduction.adoc:40
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:31
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:33
 #: en/nodes/modules/ROOT/pages/navigation.adoc:29
 #, no-wrap
 msgid "Action icons"
@@ -209,7 +194,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:30
 #: en/epn/modules/ROOT/pages/introduction.adoc:43
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:34
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:36
 #: en/nodes/modules/ROOT/pages/navigation.adoc:32
 msgid "The course is comprised of modules. Each modules contains a series of actions for you to complete. This may include reading assignments, videos to watch, notes to take, and exercises to complete."
 msgstr ""
@@ -217,7 +202,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:32
 #: en/epn/modules/ROOT/pages/introduction.adoc:45
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:36
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:38
 #: en/nodes/modules/ROOT/pages/navigation.adoc:34
 msgid "Look for the following icons indicating you need to take action:"
 msgstr ""
@@ -225,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:35
 #: en/epn/modules/ROOT/pages/introduction.adoc:48
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:39
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:41
 #: en/nodes/modules/ROOT/pages/navigation.adoc:37
 msgid "Reading assignments"
 msgstr ""
@@ -233,7 +218,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:38
 #: en/epn/modules/ROOT/pages/introduction.adoc:51
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:42
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:44
 #: en/nodes/modules/ROOT/pages/navigation.adoc:40
 msgid "Watch a video"
 msgstr ""
@@ -243,7 +228,7 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/benefits-of-node.adoc:46
 #: en/epn/modules/ROOT/pages/introduction.adoc:54
 #: en/epn/modules/ROOT/pages/participant-process.adoc:41
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:45
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:47
 #: en/nodes/modules/ROOT/pages/benefits-of-node.adoc:46
 #: en/nodes/modules/ROOT/pages/navigation.adoc:43
 #, no-wrap
@@ -253,7 +238,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:44
 #: en/epn/modules/ROOT/pages/introduction.adoc:57
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:48
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:50
 #: en/nodes/modules/ROOT/pages/navigation.adoc:46
 msgid "Complete an activity or exercise"
 msgstr ""
@@ -261,7 +246,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/navigation.adoc:46
 #: en/epn/modules/ROOT/pages/introduction.adoc:59
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:50
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:52
 #: en/nodes/modules/ROOT/pages/navigation.adoc:48
 msgid "Discuss with your peers"
 msgstr ""
@@ -275,5 +260,23 @@ msgstr ""
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:6
 msgid "You can obtain the content of each module either via video or written format. You will find the video transcripts below each video. Click to expand the transcript."
+msgstr ""
+
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:7
+#, no-wrap
+msgid "grscicoll::video-transcript.png"
+msgstr ""
+
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:13
+#, no-wrap
+msgid "grscicoll::left-nav.png"
+msgstr ""
+
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:21
+#, no-wrap
+msgid "grscicoll::right-nav.png"
 msgstr ""
 
