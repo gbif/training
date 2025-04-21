@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-11 13:25+0000\n"
-"PO-Revision-Date: 2025-04-11 13:36\n"
+"POT-Creation-Date: 2025-04-21 16:12+0000\n"
+"PO-Revision-Date: 2025-04-21 16:21\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -16,50 +16,185 @@ msgstr ""
 "X-Crowdin-File: /main/translations/grscicoll/grscicoll-content.pot\n"
 "X-Crowdin-File-ID: 43785\n"
 
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:8
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
-msgid "You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below."
-msgstr ""
-
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:10
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:12
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:10
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:10
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:11
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:11
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:10
-msgid "There will be a video presentation here"
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:14
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:22
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:30
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
+#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
+#: en/nodes/modules/ROOT/pages/citation.adoc:6
+#: en/nodes/modules/ROOT/pages/citation.adoc:10
+#: en/nodes/modules/ROOT/pages/citation.adoc:14
+#: en/nodes/modules/ROOT/pages/citation.adoc:17
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
+msgid "&nbsp;"
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:11
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:12
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:57
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:47
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:109
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:125
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
 #, no-wrap
-msgid "Introduction"
+msgid "Review"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:29
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:97
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:93
-msgid "True or False?"
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:1
+#: en/grscicoll/modules/ROOT/pages/downloads.adoc:18
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:53
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:35
+#, no-wrap
+msgid "Collection descriptors"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:3
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:3
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:3
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:3
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:3
+#, no-wrap
+msgid "Video"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:14
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:14
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:14
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:14
+#, no-wrap
+msgid "Video transcript"
+msgstr ""
+
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
+
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/downloads.adoc:17
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:1
+#, no-wrap
+msgid "GRSciColl content overview"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:62
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:114
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:130
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
+msgid "Quiz yourself on the concepts covered in this module."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:27
+#, no-wrap
+msgid "*Introduction*\n"
 msgstr ""
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:38
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:48
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:124
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:153
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:163
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:173
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:143
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:152
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:170
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:179
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:188
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:102
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:132
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:142
@@ -72,10 +207,10 @@ msgstr ""
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:58
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:68
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:106
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:115
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:144
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:184
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:125
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:161
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:197
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:112
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:122
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:162
@@ -84,307 +219,297 @@ msgid "- [ ] True\n"
 "- [x] False\n"
 msgstr ""
 
-#. type: Title =
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:1
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:9
 #, no-wrap
-msgid "GRSciColl content: Overview - Institutions, collections, sub-collections, specimens"
+msgid "In this video (08:43), GBIF Data Administrator, Marie Grosjean, provides an overview of the content (institutions, collections, sub-collections, specimens) contained within GRSciColl.   \n"
+"If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:15
-msgid "Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[Latimer core standard] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[objectGroup] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:29
+msgid "Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[Latimer core standard^] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[objectGroup^] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:17
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:31
 msgid "However, GRSciColl isn’t as flexible as the Latimer Core standard. Representing the information in GRSciColl means working with a more limited model. There are four types of entries available on the GRSciColl website:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:19
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:33
+msgid "Institutions"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:34
+msgid "Collections"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:36
+msgid "Occurrence records shared on GBIF"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:38
 #, no-wrap
-msgid "**Institutions**\n"
+msgid "*GRSciColl users*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:20
-#, no-wrap
-msgid "**Collections**\n"
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:40
+msgid "When modelling the information in GRSciColl, keep in mind the target audience. *Who is this for?* Who should find your collections and institution? What information do they need?"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:21
-#, no-wrap
-msgid "**Collection descriptors**\n"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:22
-#, no-wrap
-msgid "**Occurrence records shared on GBIF**\n"
-msgstr ""
-
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:23
-#, no-wrap
-msgid "GRSciColl users"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:26
-msgid "When modelling the information in GRSciColl, keep in mind the target audience. **Who is this for?** Who should find your collections and institution? What information do they need?"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:28
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:42
 msgid "People who use GRSciColl come from different backgrounds and might have different goals in mind. Some users may arrive at GRSciColl by using a search engine and looking for an institution name. Others were looking to resolve a specific collection or institution code. Some will be browsing collections or GBIF occurrences to find what they are looking for."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:30
-msgid "Based on some of interactions we had at the GBIF helpdesk, here are real-life examples of GRSciColl users:"
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:44
+msgid "Based on interactions through the GBIF helpdesk, here are real-life examples of GRSciColl users:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:32
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:46
 msgid "A researcher looking for a collection holding soft tissues of their species of interest for DNA sequencing."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:33
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:47
 msgid "A researcher looking for collections holding a specific species to have an overview of the dorsal * scale counts for these."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:34
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:48
 msgid "A history enthusiast looking for collections which might have plant specimens gathered by their favorite geologist."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:35
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:49
 msgid "A number of researchers and laboratories are looking for live specimens (mosses, yeasts, etc.) that can be cultivated."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:36
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:50
 msgid "At least one school project looking for a local expert which could help them identify algae they collected."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:38
-msgid "Occasional students looking for a place where they can apply for an internship.  National infrastructure aiming to have an overview of collection available for a given field or in a given location."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:51
+msgid "Occasional students looking for a place where they can apply for an internship."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:40
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:52
+msgid "National infrastructure aiming to have an overview of collection available for a given field or in a given location."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:54
 msgid "Ultimately, institutions decide how they wish to represent their holdings on GRSciColl. In addition to that, individual countries may have their own national registries and guidelines on how collections should be registered."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:42
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:56
 msgid "Here we propose to consider the following points when deciding how to represent collections and making guidelines."
 msgstr ""
 
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:43
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:58
 #, no-wrap
-msgid "Six questions to help deciding how to represent entries"
+msgid "*Questions to help decide how to represent entries*\n"
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:45
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:60
 #, no-wrap
-msgid "Where are the institutions, collections and experts?"
+msgid "*_Where are the institutions, collections and experts?_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:48
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:62
 msgid "Some people will look for collections, institutions and experts in specific locations (city, island, country). Which is why it is important to document the institution and collection addresses."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:50
-msgid "Note that institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, **representing one institution entry per physical location** (for example: the campus where the collection is held) can help its visibility."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:65
+msgid "Institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, *representing one institution entry per physical location* (for example: the campus where the collection is held) can help its visibility."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:52
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:67
 #, no-wrap
-msgid "Who can answer questions?"
+msgid "*_Who can answer questions?_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:55
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:69
 msgid "GRSciColl aims to facilitate communication between those who need collections and expertise and those who can help. Think of who should the contact point be for a given collection: who can answer questions about the collection (or at least redirect you to someone who can)? Who is the expert?"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:57
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:71
 msgid "If a collection entry corresponds to a collection with a large scope and many staff members associated with it, it might be difficult to reach out to the relevant people."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:59
-msgid "Representing **one collection entry per contact point** can help facilitate communication."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:73
+msgid "Representing *one collection entry per contact point* can help facilitate communication."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:61
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:75
 #, no-wrap
-msgid "What is the scope of the collection and expertise?"
+msgid "*_What is the scope of the collection and expertise?_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:64
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:77
 msgid "Some people might want to find collections and experts in a particular field, look for specific taxa or might be interested in a particular collector. Documenting the scope of a collection is important to make them discoverable. There are two ways of documenting the collection scope:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:66
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:79
 msgid "Create a collection entry with its associated core fields and textual description."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:67
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:80
 msgid "Create collection descriptor groups: they enable to convey detailed structured collection content and are used to index collections (more details in the next section)."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:69
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:82
 msgid "Important collectors, collection type, taxa, regions covered by the collection and more can be shared as collection descriptors. Consider what should be emphasised. For example:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:71
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:84
 msgid "A small historical collection associated with a particular collector can be a separate entry."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:72
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:85
 msgid "If a herbarium specialises in vascular plants but has a few fungi, there might not be a need for a separate collection but rather a mention in the main collection description."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:73
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:87
 #, no-wrap
-msgid "How can the collections and specimens be accessed?"
+msgid "*_How can the collections and specimens be accessed_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:76
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:89
 msgid "Collection and specimen access depends on individual countries, institution policies and the type of specimen concerned. Access conditions can shape how the information is represented in GRSciColl. For example, if all loan and visit requests must be submitted to an administrative unit (like a university), this unit could correspond to an institution entry in GRSciColl."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:78
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:91
 msgid "Where to reach out and how to access the collection should be clearly stated."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:79
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:93
 #, no-wrap
-msgid "Are the specimens digitized and available on GBIF?"
+msgid "*_Are the specimens digitized and available on GBIF?_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:82
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:95
 msgid "Ideally, the collection content would be digitized and made available online on relevant platforms like GBIF.org, iDigBio.org, ALA.org.au, etc. Sharing digital specimen records is a great way to ensure the discoverability of collection content. Not only users can find the collections but can also use individual records relevant to their research."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:84
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:97
 msgid "When digitized specimen records are published on GBIF with the relevant codes and identifiers, they are automatically linked to the corresponding GRSciColl collection and institution. These aggregated specimen records can then be used to create metrics and dashboards."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:86
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:99
 msgid "If collections don’t have specimen-related records available on GBIF, documenting the collections in GRSciColl is particularly relevant."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:87
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:101
 #, no-wrap
-msgid "Linking to other systems, metrics and dashboards?"
+msgid "*_Linking to other systems, metrics and dashboards?_*\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:90
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:103
 msgid "As mentioned before, GRSciColl is also a repository for collection and institution codes and identifiers. These codes and identifiers can be used to link to other systems as well as link occurrences published on GBIF. Consider the following:"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:92
-msgid "Should the institution and collections in GRSciColl have the same structure as in other systems? For example, some countries recommend following ROR (https://ror.org/) when representing institutions in GRSciColl."
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:105
+msgid "Should the institution and collections in GRSciColl have the same structure as in other systems? For example, some countries recommend following the https://ror.org/[Research Organization Registry^] (ROR) when representing institutions in GRSciColl."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:93
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:106
 msgid "What kind of metrics would you like to have? For example, institutions with specimen-related records published on GBIF, can have specimen dashboards for each collection entry. Would it be best to have dashboards for the border collection with a large overview? Or more detailed metrics?"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:116
+msgid "_True or False?_"
 msgstr ""
 
 #.  Question 1
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:100
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:119
 msgid "There is only one way to represent institution and collections in GRSciColl"
 msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:109
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:128
 msgid "GRSciColl can accommodate the full flexibility of the Latimer Core data standard"
 msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:118
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:137
 msgid "There can be one institution entry per campus for a university"
 msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:128
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:146
 msgid "There can be one institution entry for an entire university"
 msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:138
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:155
 msgid "Institutions can only have up to 5 collection entries"
 msgstr ""
 
 #.  Question 6
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:147
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:164
 msgid "A collection entry can correspond to a small thematic, private and/or historical collection"
 msgstr ""
 
+#.  Question 7
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:156
-#, no-wrap
-msgid " // Question 7\n"
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:173
+msgid "A collection entry can correspond to a large collection with wide taxonomic and geographic coverage"
 msgstr ""
 
+#.  Question 8
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:157
-#, no-wrap
-msgid "A collection entry can correspond to a large collection with wide taxonomic and geographic coverage\n"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:166
-#, no-wrap
-msgid " // Question 8\n"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:167
-#, no-wrap
-msgid "Collection descriptors can be used to describe the content of sub-collections\n"
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:182
+msgid "Collection descriptors can be used to describe the content of sub-collections"
 msgstr ""
 
 #.  Question 9
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:177
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:191
 msgid "Specimen-related records shared on GBIF can never be linked to GRSciColl entries"
 msgstr ""
 
