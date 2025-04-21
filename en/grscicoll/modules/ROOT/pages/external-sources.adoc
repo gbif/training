@@ -28,13 +28,13 @@ video::1074662341[vimeo]
 
 The GRSciColl institution and collection entries can have external primary sources of information that comes from another registry or website. Edits to such primary sources prompt updates to corresponding GRSciColl entries, eliminating the need to manage information across multiple registries.
 
-Currently, the two possible sources of information for GRSciColl entries are https://sweetgum.nybg.org/science/ih/[Index Herbariorum] and the GBIF dataset and publisher metadata. Data for entries drawn from these sources should be edited at the source. In practice, GRSciColl’s editing interface doesn’t allow users to update fields that use information from an external source.
+Currently, the two possible sources of information for GRSciColl entries are https://sweetgum.nybg.org/science/ih/[Index Herbariorum^] and the GBIF dataset and publisher metadata. Data for entries drawn from these sources should be edited at the source. In practice, GRSciColl’s editing interface doesn’t allow users to update fields that use information from an external source.
 
 *Index Herbariorum*
 
-Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih/[Index Herbariorum] API, updating information for existing entries whose source is Index Herbariorum and creating suggestions for new entries as needed.
+Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih/[Index Herbariorum^] API, updating information for existing entries whose source is Index Herbariorum and creating suggestions for new entries as needed.
 
-By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[GitHub issue]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created.
+By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[GitHub issue^]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created.
 
 [NOTE]
 Editors can disconnect institutions entries from Index Herbariorum and choose to edit the institution directly in the GRSciColl editing interface.
@@ -52,34 +52,34 @@ The metadata of datasets published on GBIF can be used as primary sources for co
 Quiz yourself on the concepts covered in this module.
 ====
 
-====
+****
 Instructions: For the following GRSciColl entries, find their master source.
 
 // Link 1
-. https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2[This collection]
+. Which is the master source for the collection record for https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2[Herbarium - MNHN - Museum national d'Histoire naturelle^] collection?
 +
 [question, mc]
 ....
-- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]
-- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]
-- [x] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]
+- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]
+- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[The fossil collection (F) of the Muséum national d'Histoire naturelle (MNHN - Paris)^]
+- [x] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[Muséum National d'Histoire Naturelle]
 ....
 // Link 2
-. https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[This institution]
+. Which is the master source for the institution record for https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[MNHN - Museum national d'Histoire naturelle^]
 +
 [question, mc]
 ....
-- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]
-- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]
-- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]
+- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]
+- [ ] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[The fossil collection (F) of the Muséum national d'Histoire naturelle (MNHN - Paris)^]
+- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[Muséum National d'Histoire Naturelle^]
 ....
 // Link 3
-. https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[This collection]
+. Which is the master source for the collection record for https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[The fossil collection (F) of the Muséum national d'Histoire naturelle (MNHN - Paris)^]
 +
 [question, mc]
 ....
-- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]
-- [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]
-- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]
+- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]
+- [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[The fossil collection (F) of the Muséum national d'Histoire naturelle (MNHN - Paris)^]
+- [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[Muséum National d'Histoire Naturelle^]
 ....
-====
+****
