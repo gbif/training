@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-21 17:52+0000\n"
-"PO-Revision-Date: 2025-04-21 17:59\n"
+"POT-Creation-Date: 2025-04-21 18:08+0000\n"
+"PO-Revision-Date: 2025-04-21 19:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -54,12 +54,12 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:6
-msgid "The GRSciColl API can allow you to edit or retrieve programmatically GRSciColl records. This API is part of the GBIF registry API and is documented here: https://techdocs.gbif.org/en/openapi/v1/registry#/Collections. All the functions available in the GRSciColl website and editing interface are also available in the API, including adding, editing and deleting records as well as making update suggestions. In addition to that, the permission system is the same in the web interface and the API."
+msgid "The GRSciColl API can allow you to edit or retrieve programmatically GRSciColl records. This API is part of the GBIF registry API and is https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[fully documented^]. All the functions available in the GRSciColl website and editing interface are also available in the API, including adding, editing and deleting records as well as making update suggestions. In addition to that, the permission system is the same in the web interface and the API."
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:8
-msgid "The API also offers the possibility to upload and update records in bulk which is documented here: https://github.com/gbif/registry/blob/dev/docs/grscicoll_batches.md."
+msgid "The API also offers the possibility to https://github.com/gbif/registry/blob/dev/docs/grscicoll_batches.md[upload and update records in bulk^]."
 msgstr ""
 
 #. type: Block title
@@ -92,7 +92,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:22
-msgid "If you wish to edit the GRSciColl records programmatically by using the API, you will need to find and use the keys of the entries that you would like to edit.  For example, if you were to edit the entry for the https://scientific-collections.gbif.org/institution/ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377[New York Botanical Garden^], you would have to use the UUID from its URL: `ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377`. This will allow you to tie the information to the correct entry (see also https://techdocs.gbif.org/en/openapi/v1/registry#/Institutions/updateInstitution)."
+msgid "If you wish to edit the GRSciColl records programmatically by using the API, you will need to find and use the keys of the entries that you would like to edit.  For example, if you were to edit the entry for the https://scientific-collections.gbif.org/institution/ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377[New York Botanical Garden^], you would have to use the UUID from its URL: `ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377`. This will allow you to tie the information to the correct entry (see also the https://techdocs.gbif.org/en/openapi/v1/registry#/Institutions/updateInstitution[documentation^] to update an institution)."
 msgstr ""
 
 #. type: Plain text
