@@ -1,9 +1,7 @@
 = Roles and permissions
 
 [NOTE]
-====
 You can obtain the content of this section either via video or written format. You will find the video transcript below the video.
-====
 
 [NOTE.presentation]
 ====
@@ -28,25 +26,25 @@ video::1074662305[vimeo]
 
 The information on GRSciColl is managed in the **GBIF registry interface**: https://registry.gbif.org/ and **GBIF registry API**: https://techdocs.gbif.org/en/openapi/v1/registry.
 
-=== Suggestions
+*Suggestions*
 
 Anyone can make update suggestions on GRSciColl. Making a suggestion doesn’t require any account nor associated permission. Suggestions can be made via the registry web interface or via the registry API on collection and institution entries.
 Here are the types of suggestions that can be made:
 
-* Sending **comments**
-* **Creating** institutions and collections
-* **Updating** the core information for institutions and collections
-* Creating, deleting or updating **contacts** for institutions and collections
-* **Deleting** institutions and collections
-* **Merging** institutions and collections
-* **Transforming** institution entries into collection entries
-* Uploading, updating or deleting **collection descriptors** for collections
+* Sending *comments*
+* *Creating* institutions and collections
+* *Updating* the core information for institutions and collections
+* Creating, deleting or updating *contacts* for institutions and collections
+* *Deleting* institutions and collections
+* *Merging* institutions and collections
+* *Transforming* institution entries into collection entries
+* Uploading, updating or deleting *collection descriptors* for collections
 
 The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned.
 
-=== Editors, mediators and administrators
+*Editors, mediators and administrators*
 
-Users who have registered an **account on GBIF.org** can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.
+Users who have registered an *account on GBIF.org* can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.
 In the context of GRSciColl, users can be given one of the three following roles:
 
 * Editor
@@ -55,10 +53,10 @@ In the context of GRSciColl, users can be given one of the three following roles
 
 These roles are associated with different levels of permission and are always accompanied by a scope. The permission scope defines the entities for which the permissions apply. Here are the possible scopes:
 
-* One or several **collections**
-* One or several **institutions** (which includes all associated collections)
-* One or several **countries** (which includes all associated institutions and collections)
-* One or several **machine tag namespace**
+* One or several *collections*
+* One or several *institutions* (which includes all associated collections)
+* One or several *countries* (which includes all associated institutions and collections)
+* One or several *machine tag namespace*
 
 [NOTE]
 The permission scope can be a combination of all of the above.
@@ -81,9 +79,11 @@ A *mediator* can make the same changes as an editor, plus the following changes:
 
 The most common types of permissions on GRSciColl are for institutional editors (who are responsible for updating their institution and associated collections) and national mediators (who manage entries for an entire country).
 
-An *administrator* can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. Note that only GBIF Secretariat staff are GRSciColl administrators.
+An *administrator* can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. 
 
-=== Review of suggestions
+[NOTE] Only GBIF Secretariat staff are GRSciColl administrators.
+
+*Review of suggestions*
 
 Editors, mediators and administrators can also apply the suggestions that correspond to their permission scope and roles.
 
@@ -93,7 +93,7 @@ Suggestion notifications aren’t sent to all the editors and mediators responsi
 * If there are no collection or institution editor, the country editor or mediator is notified
 * If there is no mediator for the country, only scientific-collections@gbif.org is notified and administrators review the suggestion.
 
-=== Summary of roles and permissions
+*Summary of roles and permissions*
 
 The table below summarises the permissions associated with each role. In the table, the letters represent the following:
 
@@ -113,12 +113,12 @@ The table below summarises the permissions associated with each role. In the tab
 | Master source | E M A | E M A | E* M* A |  |  | 
 | Occurrence mapping | E M A |  | E M A |  |  | 
 | Collection descriptors | S E M A | S E M A | S E M A |  |  | 
-| Machine tags | E** M** A | E** M** A | E** M** A |  |  | 
+| Machine tags | +E**+ +M**+ A | +E**+ +M**+ A | +E**+ +M**+ A |  |  | 
 |===
 
-*{sp}*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.
++*+ *Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.
 
-**{sp}*Machine* tags can only be added if the namespace is within permission scope.
++**+ *Machine* tags can only be added if the namespace is within permission scope.
 --
 ====
 
