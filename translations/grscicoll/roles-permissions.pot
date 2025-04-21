@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-21 14:11+0000\n"
+"POT-Creation-Date: 2025-04-21 14:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -476,63 +476,61 @@ msgid ""
 "| institution | S E M A | S E M A | S M A | S M A | S M A | E M A\n"
 "| collection | S E M A | S E M A | S M A | S M A |  | E M A\n"
 "| identifiers | E M A | E M A | E M A |  |  | \n"
-"| Master source | E M A | E M A | E\\* M\\* A |  |  | \n"
+"| Master source | E M A | E M A | E* M* A |  |  | \n"
 "| Occurrence mapping | E M A |  | E M A |  |  | \n"
 "| Collection descriptors | S E M A | S E M A | S E M A |  |  | \n"
-"| Machine tags | E\\* \\* ,M\\* \\* ,A | E\\* \\* ,M\\* \\* ,A | E\\* \\* ,M\\* \\* ,A |  |  | \n"
+"| Machine tags | E** M** A | E** M** A | E** M** A |  |  | \n"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:120
-msgid ""
-"\\* *collections* with the master source from Index Hebrariorum can only be "
-"disconnected by administrators"
+#, no-wrap
+msgid "*{sp}*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.\n"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:122
-msgid ""
-"\\** *machine* tags can only be added if the namespace is within permission "
-"scope"
+#, no-wrap
+msgid "**{sp}*Machine* tags can only be added if the namespace is within permission scope.\n"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:132
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:134
 msgid ""
 "Instructions: Given the three hypothetical users were given the following "
 "permissions:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:134
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:136
 msgid "Lola is an editor for the NHMUK institution"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:135
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:137
 msgid "Ichiko is a mediator for the United Kingdom and Austria"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:138
 msgid "Amadou an editor for the ​​Royal Ontario Museum - Entomology collection"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:138
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
 msgid "Who can apply or make the following updates?"
 msgstr ""
 
 #.  Link 1
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:141
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:143
 msgid ""
 "Who can *add* collection descriptors to https://scientific-collections.gbif."
 "org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:148
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:150
 #, no-wrap
 msgid ""
 "- [ ] Lola\n"
@@ -542,14 +540,14 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:151
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:153
 msgid ""
 "Who can *update* the description of https://scientific-collections.gbif.org/"
 "collection/8bb3763f-955c-4791-8777-44de1996b378"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:158
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:160
 #, no-wrap
 msgid ""
 "- [x] Lola\n"
@@ -559,15 +557,15 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:161
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:163
 msgid ""
 "Who can *delete* this entry: https://scientific-collections.gbif.org/"
 "institution/bfee2121-a5b9-450d-9150-5c0e15b1c905"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:168
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:178
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:170
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:180
 #, no-wrap
 msgid ""
 "- [ ] Lola\n"
@@ -577,7 +575,7 @@ msgstr ""
 
 #.  Link 4
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:171
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:173
 msgid ""
 "Who can *delete* this entry: https://scientific-collections.gbif.org/"
 "institution/1d808a7c-1f9e-4379-9616-edb749ecf10e"
