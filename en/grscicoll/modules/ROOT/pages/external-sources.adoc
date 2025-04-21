@@ -1,9 +1,7 @@
 = External sources: Synchronization with External sources
 
 [NOTE]
-====
 You can obtain the content of this section either via video or written format. You will find the video transcript below the video.
-====
 
 [NOTE.presentation]
 ====
@@ -39,14 +37,13 @@ Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/science/ih
 By default, one Index Herbariorum entry corresponds to an institution entry as well as a collection entry in GRSciColl because herbaria are often botanical collections within other institutions. You can read more about the rationale in this https://github.com/gbif/registry/issues/167[GitHub issue]. The synchronization process can generate duplicate institution entries when a single institution is home to several herbaria collections. This is why the synchronization now generates suggestions instead of creating new entries directly. Reviewers are asked to check the new entries suggested to make sure that no new duplicate is created.
 
 [NOTE]
-====
 Editors can disconnect institutions entries from Index Herbariorum and choose to edit the institution directly in the GRSciColl editing interface.
-====
 
 === GBIF dataset metadata and GBIF publisher pages
 
 The metadata of datasets published on GBIF can be used as primary sources for collection entries in GRSciColl. Unlike with the Index Herbariorum synchronization, there is no weekly schedule and new entries aren’t automatically created. Instead, editors must link GRSciColl collections to their sources manually. This is because the scope of GBIF includes data beyond the scope of GRSciColl. Note that there is also an option to create a collection entry from a dataset which is available to editors and mediators. When the metadata of a dataset is updated, the corresponding collection entry is updated immediately.
 Similarly, the publisher information available on GBIF can be used as a primary source for institution entries in GRSciColl.
+--
 ====
 
 == Review
@@ -84,5 +81,4 @@ Instructions: For the following GRSciColl entries, find their master source.
 - [x] GBIF dataset: https://www.gbif.org/dataset/b275a4c1-9859-4f3c-8ead-d86dde820fbc[see this link]
 - [ ] IH: http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=125382[see this link]
 ....
-
 ====
