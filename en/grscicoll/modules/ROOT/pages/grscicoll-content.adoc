@@ -56,14 +56,14 @@ Here we propose to consider the following points when deciding how to represent 
 
 *Questions to help decide how to represent entries*
 
-_Where are the institutions, collections and experts?_
+*_Where are the institutions, collections and experts?_*
 
 Some people will look for collections, institutions and experts in specific locations (city, island, country). Which is why it is important to document the institution and collection addresses.
 
 [NOTE]
 Institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, *representing one institution entry per physical location* (for example: the campus where the collection is held) can help its visibility.
 
-_Who can answer questions?_
+*_Who can answer questions?_*
 
 GRSciColl aims to facilitate communication between those who need collections and expertise and those who can help. Think of who should the contact point be for a given collection: who can answer questions about the collection (or at least redirect you to someone who can)? Who is the expert?
 
@@ -71,7 +71,7 @@ If a collection entry corresponds to a collection with a large scope and many st
 
 Representing *one collection entry per contact point* can help facilitate communication.
 
-_What is the scope of the collection and expertise?_
+*_What is the scope of the collection and expertise?_*
 
 Some people might want to find collections and experts in a particular field, look for specific taxa or might be interested in a particular collector. Documenting the scope of a collection is important to make them discoverable. There are two ways of documenting the collection scope:
 
@@ -83,13 +83,13 @@ Important collectors, collection type, taxa, regions covered by the collection a
 * A small historical collection associated with a particular collector can be a separate entry.
 * If a herbarium specialises in vascular plants but has a few fungi, there might not be a need for a separate collection but rather a mention in the main collection description.
 
-_How can the collections and specimens be accessed_
+*_How can the collections and specimens be accessed_*
 
 Collection and specimen access depends on individual countries, institution policies and the type of specimen concerned. Access conditions can shape how the information is represented in GRSciColl. For example, if all loan and visit requests must be submitted to an administrative unit (like a university), this unit could correspond to an institution entry in GRSciColl.
 
 Where to reach out and how to access the collection should be clearly stated.
 
-_Are the specimens digitized and available on GBIF?_
+*_Are the specimens digitized and available on GBIF?_*
 
 Ideally, the collection content would be digitized and made available online on relevant platforms like GBIF.org, iDigBio.org, ALA.org.au, etc. Sharing digital specimen records is a great way to ensure the discoverability of collection content. Not only users can find the collections but can also use individual records relevant to their research.
 
@@ -97,7 +97,7 @@ When digitized specimen records are published on GBIF with the relevant codes an
 
 If collections don’t have specimen-related records available on GBIF, documenting the collections in GRSciColl is particularly relevant.
 
-_Linking to other systems, metrics and dashboards?_
+*_Linking to other systems, metrics and dashboards?_*
 
 As mentioned before, GRSciColl is also a repository for collection and institution codes and identifiers. These codes and identifiers can be used to link to other systems as well as link occurrences published on GBIF. Consider the following:
 
