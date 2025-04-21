@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:15+0000\n"
+"POT-Creation-Date: 2025-04-21 13:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,28 +16,143 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:30
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:28
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:10
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:18
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:26
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:28
+#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
+#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
+#: en/nodes/modules/ROOT/pages/citation.adoc:6
+#: en/nodes/modules/ROOT/pages/citation.adoc:10
+#: en/nodes/modules/ROOT/pages/citation.adoc:14
+#: en/nodes/modules/ROOT/pages/citation.adoc:17
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:59
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:124
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
+#, no-wrap
+msgid "Review"
+msgstr ""
+
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:8
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:6
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:6
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:6
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:6
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
 msgid ""
-"You can access the content of this module in written or video format. If you "
-"are an audio-visual learner, you can skip the text and watch the video below."
+"You can obtain the content of this section either via video or written "
+"format. You will find the video transcript below the video."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:19
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:17
+#, no-wrap
+msgid "Video transcript"
+msgstr ""
+
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:21
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:19
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:19
+#, no-wrap
+msgid "Click to expand"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:10
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:12
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:10
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:10
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:11
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:11
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:10
-msgid "There will be a video presentation here"
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:57
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:129
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
+msgid "Quiz yourself on the concepts covered in this module."
 msgstr ""
 
 #. type: Title =
@@ -46,15 +161,23 @@ msgstr ""
 msgid "External sources: Synchronization with External sources"
 msgstr ""
 
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:12
+#, no-wrap
+msgid ""
+"In this video (02:56), GBIF Data Administrator, Marie Grosjean, describes how external sources are used in GRSciColl.   \n"
+"If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
+msgstr ""
+
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:11
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:29
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:12
 #, no-wrap
 msgid "Introduction"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:14
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:32
 msgid ""
 "The GRSciColl institution and collection entries can have external primary "
 "sources of information that comes from another registry or website. Edits to "
@@ -62,8 +185,8 @@ msgid ""
 "eliminating the need to manage information across multiple registries."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:34
 msgid ""
 "Currently, the two possible sources of information for GRSciColl entries are "
 "https://sweetgum.nybg.org/science/ih/[Index Herbariorum] and the GBIF "
@@ -73,14 +196,14 @@ msgid ""
 "source."
 msgstr ""
 
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
+#. type: Title ===
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:35
 #, no-wrap
 msgid "Index Herbariorum"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:20
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:38
 msgid ""
 "Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/"
 "science/ih/[Index Herbariorum] API, updating information for existing "
@@ -88,8 +211,8 @@ msgid ""
 "entries as needed."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:22
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:40
 msgid ""
 "By default, one Index Herbariorum entry corresponds to an institution entry "
 "as well as a collection entry in GRSciColl because herbaria are often "
@@ -102,21 +225,21 @@ msgid ""
 "make sure that no new duplicate is created."
 msgstr ""
 
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:26
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:44
 msgid ""
 "Editors can disconnect institutions entries from Index Herbariorum and "
 "choose to edit the institution directly in the GRSciColl editing interface."
 msgstr ""
 
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:28
+#. type: Title ===
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:46
 #, no-wrap
 msgid "GBIF dataset metadata and GBIF publisher pages"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:32
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:50
 msgid ""
 "The metadata of datasets published on GBIF can be used as primary sources "
 "for collection entries in GRSciColl. Unlike with the Index Herbariorum "
@@ -132,20 +255,21 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:38
-msgid "For the following GRSciColl entry, find their master source."
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:59
+msgid ""
+"Instructions: For the following GRSciColl entries, find their master source."
 msgstr ""
 
 #.  Link 1
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:41
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:62
 msgid ""
 "https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-"
 "b951-2bdeddd8a5d2[This collection]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:47
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:68
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
@@ -155,14 +279,14 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:50
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:71
 msgid ""
 "https://scientific-collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-"
 "f8661274ff80[This institution]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:56
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:77
 #, no-wrap
 msgid ""
 "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
@@ -172,14 +296,14 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:59
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:80
 msgid ""
 "https://scientific-collections.gbif.org/collection/23fbece0-6e07-4a9c-"
 "ac86-7aa8e041ac9e[This collection]"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:65
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:86
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[see this link]\n"
