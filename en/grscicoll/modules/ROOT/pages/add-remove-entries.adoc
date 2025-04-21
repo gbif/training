@@ -1,20 +1,20 @@
-= Add, remove,merge and transform entries
+= Add, remove, merge and transform entries
 
 [IMPORTANT]
-All the instructions below will be for working in the GRSciColl part of the GBIF Registry: https://registry.gbif.org/. If you don’t have the log in or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system.
+All the instructions below will be for working in the GRSciColl part of the https://registry.gbif.org/[GBIF Registry^]. If you don’t have a login or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system.
 
 == Create entries
 
-. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab].
+. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab^], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab^].
 . Click on the “create new” button in the upper right corner.
 . Fill out the information: only names and codes are mandatory but we strongly recommend to fill in at least one address and country.
 . Click on the create button.
 
 === Create entries directly from GBIF dataset or publisher
 
-If you are a GRSciColl editor with the **relevant permissions**, you can create new entries from GBIF datasets or publishers.
+If you are a GRSciColl editor with the *relevant permissions*, you can create new entries from GBIF datasets or publishers.
 
-. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab].
+. To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab^], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab^].
 . Click on the “create new” button in the upper right corner.
 . Click on the “create from source” button in the upper right corner.
 . Look for the GBIF dataset (if you are creating a collection) or the publisher (if you are creating an institution) that you would like to use.
@@ -24,11 +24,16 @@ If you are a GRSciColl editor with the **relevant permissions**, you can create 
 [NOTE]
 The entries will be created and linked to their sources. Note that the newly created collection entries aren’t associated with any institution by default. You will have to go back to the collection entry and add the institution.
 
+=== Optional video
+
 [NOTE.presentation]
-=====
-This video is optional. Some of the operations described above shown here.
-video::https://vimeo.com/649977782[vimeo]
-=====
+====
+In this video (02:46), GBIF Data Administrator, Marie Grosjean, describes how to create new entries in GRSciColl.  
+If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.
+====
+
+[.responsive-video]
+video::649977782[vimeo]
 
 == Delete entries
 
@@ -57,16 +62,15 @@ In the interface:
 . Click on “Merge with other institution” or “Merge with other collection”.
 . Select the institution or collection that you would like to keep.
 . Click on “Merge”.
+. After merging two entries, please review the remaining entry to check if any incorrect data was automatically added during the merge.
 
 The following will be moved to the remaining entry:
 
-* Any associated identifier
-* Any associated contact
-* Any associated collection
+* Any associated identifiers
+* Any associated contacts
+* Any associated collections
 * The codes of the deleted entry will be added as alternative codes to the remaining entry
 * The content of the fields will be moved to the remaining entry if the same field didn’t contain any data originally.
-
-After merging two entries, please review the remaining entry to check if any incorrect data was automatically added during the merge.
 
 == Transform institutions into collection
 
@@ -82,9 +86,11 @@ Here is how to proceed:
     * If you would like to associate the collection with an existing institution, use the search box and select the parent institution.
 .Click the “convert” button.
 
+== Activity
+
 [NOTE.activity]
 ====
-Go to our TEST registry: https://registry.gbif-uat.org/ and, without logging in, make the following suggestion:
+Go to our https://registry.gbif-uat.org/[TEST registry^] and, without logging in, make the following suggestions:
 
 . Create an entry
 . Delete an entry
