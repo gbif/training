@@ -1,32 +1,46 @@
-= GRSciColl content: Overview - Institutions, collections, sub-collections, specimens
+= GRSciColl content overview
 
-[NOTE]
-====
-You can access the content of this module in written or video format. If you are an audio-visual learner, you can skip the text and watch the video below.
-====
+== Video
 
 [NOTE.presentation]
-There will be a video presentation here
+====
+In this video (08:43), GBIF Data Administrator, Marie Grosjean, provides an overview of the content (institutions, collections, sub-collections, specimens) contained within GRSciColl.   
+If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.
+====
 
+[.responsive-video]
+video::1074662113[vimeo]
 
-== Introduction
+== Video transcript
 
-Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[Latimer core standard] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[objectGroup] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections.
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+*Introduction*
+
+Representing physical objects and collections online isn’t straightforward. One can represent the information at an infinity of scale: a set of specimens with the same taxon, a drawer, a room, a building, etc. This is why the https://ltc.tdwg.org/index.html[Latimer core standard^] defines its main class as an https://ltc.tdwg.org/terms/index.html#ObjectGroup[objectGroup^] and enables hierarchical representations of these groups. Such flexibility accommodates the reality (and heterogeneity) of physical collections.
 
 However, GRSciColl isn’t as flexible as the Latimer Core standard. Representing the information in GRSciColl means working with a more limited model. There are four types of entries available on the GRSciColl website:
 
-* **Institutions**
-* **Collections**
-* **Collection descriptors**
-* **Occurrence records shared on GBIF**
+* Institutions
+* Collections
+* Collection descriptors
+* Occurrence records shared on GBIF
 
-== GRSciColl users
+*GRSciColl users*
 
-When modelling the information in GRSciColl, keep in mind the target audience. **Who is this for?** Who should find your collections and institution? What information do they need?
+When modelling the information in GRSciColl, keep in mind the target audience. *Who is this for?* Who should find your collections and institution? What information do they need?
 
 People who use GRSciColl come from different backgrounds and might have different goals in mind. Some users may arrive at GRSciColl by using a search engine and looking for an institution name. Others were looking to resolve a specific collection or institution code. Some will be browsing collections or GBIF occurrences to find what they are looking for.
 
-Based on some of interactions we had at the GBIF helpdesk, here are real-life examples of GRSciColl users:
+Based on interactions through the GBIF helpdesk, here are real-life examples of GRSciColl users:
 
 * A researcher looking for a collection holding soft tissues of their species of interest for DNA sequencing.
 * A researcher looking for collections holding a specific species to have an overview of the dorsal * scale counts for these.
@@ -34,31 +48,30 @@ Based on some of interactions we had at the GBIF helpdesk, here are real-life ex
 * A number of researchers and laboratories are looking for live specimens (mosses, yeasts, etc.) that can be cultivated.
 * At least one school project looking for a local expert which could help them identify algae they collected.
 * Occasional students looking for a place where they can apply for an internship.
-National infrastructure aiming to have an overview of collection available for a given field or in a given location.
+* National infrastructure aiming to have an overview of collection available for a given field or in a given location.
 
 Ultimately, institutions decide how they wish to represent their holdings on GRSciColl. In addition to that, individual countries may have their own national registries and guidelines on how collections should be registered.
 
 Here we propose to consider the following points when deciding how to represent collections and making guidelines.
 
-== Six questions to help deciding how to represent entries
+*Questions to help decide how to represent entries*
 
-=== Where are the institutions, collections and experts?
+_Where are the institutions, collections and experts?_
 
 Some people will look for collections, institutions and experts in specific locations (city, island, country). Which is why it is important to document the institution and collection addresses.
 
-Note that institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, **representing one institution entry per physical location** (for example: the campus where the collection is held) can help its visibility.
+[NOTE]
+Institutions and collections can have separate addresses. However, only institutions have associated coordinates and are represented on a map. With that in mind, *representing one institution entry per physical location* (for example: the campus where the collection is held) can help its visibility.
 
-
-=== Who can answer questions?
+_Who can answer questions?_
 
 GRSciColl aims to facilitate communication between those who need collections and expertise and those who can help. Think of who should the contact point be for a given collection: who can answer questions about the collection (or at least redirect you to someone who can)? Who is the expert?
 
 If a collection entry corresponds to a collection with a large scope and many staff members associated with it, it might be difficult to reach out to the relevant people.
 
-Representing **one collection entry per contact point** can help facilitate communication.
+Representing *one collection entry per contact point* can help facilitate communication.
 
-
-=== What is the scope of the collection and expertise?
+_What is the scope of the collection and expertise?_
 
 Some people might want to find collections and experts in a particular field, look for specific taxa or might be interested in a particular collector. Documenting the scope of a collection is important to make them discoverable. There are two ways of documenting the collection scope:
 
@@ -70,13 +83,13 @@ Important collectors, collection type, taxa, regions covered by the collection a
 * A small historical collection associated with a particular collector can be a separate entry.
 * If a herbarium specialises in vascular plants but has a few fungi, there might not be a need for a separate collection but rather a mention in the main collection description.
 
-=== How can the collections and specimens be accessed?
+_How can the collections and specimens be accessed_
 
 Collection and specimen access depends on individual countries, institution policies and the type of specimen concerned. Access conditions can shape how the information is represented in GRSciColl. For example, if all loan and visit requests must be submitted to an administrative unit (like a university), this unit could correspond to an institution entry in GRSciColl.
 
 Where to reach out and how to access the collection should be clearly stated.
 
-=== Are the specimens digitized and available on GBIF?
+_Are the specimens digitized and available on GBIF?_
 
 Ideally, the collection content would be digitized and made available online on relevant platforms like GBIF.org, iDigBio.org, ALA.org.au, etc. Sharing digital specimen records is a great way to ensure the discoverability of collection content. Not only users can find the collections but can also use individual records relevant to their research.
 
@@ -84,16 +97,22 @@ When digitized specimen records are published on GBIF with the relevant codes an
 
 If collections don’t have specimen-related records available on GBIF, documenting the collections in GRSciColl is particularly relevant.
 
-=== Linking to other systems, metrics and dashboards?
+_Linking to other systems, metrics and dashboards?_
 
 As mentioned before, GRSciColl is also a repository for collection and institution codes and identifiers. These codes and identifiers can be used to link to other systems as well as link occurrences published on GBIF. Consider the following:
 
-* Should the institution and collections in GRSciColl have the same structure as in other systems? For example, some countries recommend following ROR (https://ror.org/) when representing institutions in GRSciColl.
+* Should the institution and collections in GRSciColl have the same structure as in other systems? For example, some countries recommend following the https://ror.org/[Research Organization Registry^] (ROR) when representing institutions in GRSciColl.
 * What kind of metrics would you like to have? For example, institutions with specimen-related records published on GBIF, can have specimen dashboards for each collection entry. Would it be best to have dashboards for the border collection with a large overview? Or more detailed metrics?
+--
+====
+
+== Review
 
 [NOTE.quiz]
 ====
-True or False?
+Quiz yourself on the concepts covered in this module.
+
+_True or False?_
 
 // Question 1
 . There is only one way to represent institution and collections in GRSciColl
@@ -122,7 +141,6 @@ True or False?
 - [x] True
 - [ ] False
 ....
-
 // Question 4
 . There can be one institution entry for an entire university
 +
@@ -132,7 +150,6 @@ True or False?
 - [x] True
 - [ ] False
 ....
-
 // Question 5
 . Institutions can only have up to 5 collection entries
 +
@@ -151,8 +168,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
-
- // Question 7
+// Question 7
 . A collection entry can correspond to a large collection with wide taxonomic and geographic coverage
 +
 [question, mc]
@@ -161,8 +177,7 @@ True or False?
 - [x] True
 - [ ] False
 ....
-
- // Question 8
+// Question 8
 . Collection descriptors can be used to describe the content of sub-collections
 +
 [question, mc]
@@ -171,13 +186,11 @@ True or False?
 - [x] True
 - [ ] False
 ....
-
 // Question 9
 . Specimen-related records shared on GBIF can never be linked to GRSciColl entries
 +
 [question, mc]
 ....
-
 
 - [ ] True
 - [x] False
