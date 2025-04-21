@@ -110,15 +110,15 @@ The table below summarises the permissions associated with each role. In the tab
 | institution | S E M A | S E M A | S M A | S M A | S M A | E M A
 | collection | S E M A | S E M A | S M A | S M A |  | E M A
 | identifiers | E M A | E M A | E M A |  |  | 
-| Master source | E M A | E M A | E\* M\* A |  |  | 
+| Master source | E M A | E M A | E* M* A |  |  | 
 | Occurrence mapping | E M A |  | E M A |  |  | 
 | Collection descriptors | S E M A | S E M A | S E M A |  |  | 
-| Machine tags | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A |  |  | 
+| Machine tags | E** M** A | E** M** A | E** M** A |  |  | 
 |===
 
-\* *collections* with the master source from Index Hebrariorum can only be disconnected by administrators
+*{sp}*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.
 
-\** *machine* tags can only be added if the namespace is within permission scope
+**{sp}*Machine* tags can only be added if the namespace is within permission scope.
 --
 ====
 
@@ -127,7 +127,9 @@ The table below summarises the permissions associated with each role. In the tab
 [NOTE.quiz]
 ====
 Quiz yourself on the concepts covered in this module.
+====
 
+====
 Instructions: Given the three hypothetical users were given the following permissions:
 
 * Lola is an editor for the NHMUK institution
