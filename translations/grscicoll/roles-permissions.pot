@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-21 14:30+0000\n"
+"POT-Creation-Date: 2025-04-21 14:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -463,89 +463,89 @@ msgstr ""
 msgid "*Machine* tags can only be added if the namespace is within permission scope.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block -
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:134
-msgid ""
-"Instructions: Given the three hypothetical users were given the following "
-"permissions:"
+#, no-wrap
+msgid "Instructions: Given the three hypothetical users were given the following permissions:\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:136
-msgid "Lola is an editor for the NHMUK institution"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:137
-msgid "Ichiko is a mediator for the United Kingdom and Austria"
-msgstr ""
-
-#. type: Plain text
+#. type: delimited block -
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:138
-msgid "Amadou an editor for the ​​Royal Ontario Museum - Entomology collection"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
-msgid "Who can apply or make the following updates?"
-msgstr ""
-
-#.  Link 1
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:143
+#, no-wrap
 msgid ""
-"Who can *add* collection descriptors to https://scientific-collections.gbif."
-"org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad"
+"* Lola is an editor for the NHMUK institution\n"
+"* Ichiko is a mediator for the United Kingdom and Austria\n"
+"* Amadou an editor for the ​​Royal Ontario Museum - Entomology collection\n"
 msgstr ""
 
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:150
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#, no-wrap
+msgid "Who can apply or make the following updates?\n"
+msgstr ""
+
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:146
+#, no-wrap
+msgid ""
+"// Link 1\n"
+". Who can *add* collection descriptors to the entry for the https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad[Royal Ontario Museum - Entomology^]?\n"
+"+\n"
+"[question, mc]\n"
+"....\n"
+msgstr ""
+
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:156
 #, no-wrap
 msgid ""
 "- [ ] Lola\n"
 "- [ ] Ichiko\n"
 "- [x] Amadou\n"
+"....\n"
+"// Link 2\n"
+". Who can *update* the description on the entry for the https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378[Herbarium - The Natural History Museum^]?\n"
+"+\n"
+"[question, mc]\n"
+"....\n"
 msgstr ""
 
-#.  Link 2
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:153
-msgid ""
-"Who can *update* the description of https://scientific-collections.gbif.org/"
-"collection/8bb3763f-955c-4791-8777-44de1996b378"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:160
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:166
 #, no-wrap
 msgid ""
 "- [x] Lola\n"
 "- [x] Ichiko\n"
 "- [ ] Amadou\n"
+"....\n"
+"// Link 3\n"
+". Who can *delete* the entry for the https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905[University of Salzburg^]?\n"
+"+\n"
+"[question, mc]\n"
+"....\n"
 msgstr ""
 
-#.  Link 3
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:163
-msgid ""
-"Who can *delete* this entry: https://scientific-collections.gbif.org/"
-"institution/bfee2121-a5b9-450d-9150-5c0e15b1c905"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:170
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:180
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:176
 #, no-wrap
 msgid ""
 "- [ ] Lola\n"
 "- [x] Ichiko\n"
 "- [ ] Amadou\n"
+"....\n"
+"// Link 4\n"
+". Who can *delete* the entry for the https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e[Natural History Museum, London^]?\n"
+"+\n"
+"[question, mc]\n"
+"....\n"
 msgstr ""
 
-#.  Link 4
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:173
+#. type: delimited block -
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:181
+#, no-wrap
 msgid ""
-"Who can *delete* this entry: https://scientific-collections.gbif.org/"
-"institution/1d808a7c-1f9e-4379-9616-edb749ecf10e"
+"- [ ] Lola\n"
+"- [x] Ichiko\n"
+"- [ ] Amadou\n"
+"....\n"
 msgstr ""
