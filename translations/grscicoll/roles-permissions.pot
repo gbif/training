@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-21 14:23+0000\n"
+"POT-Creation-Date: 2025-04-21 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:10
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:18
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:26
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:28
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:26
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
@@ -122,10 +122,10 @@ msgstr ""
 msgid "Review"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:8
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:5
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:6
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:5
 msgid ""
 "You can obtain the content of this section either via video or written "
 "format. You will find the video transcript below the video."
@@ -134,7 +134,7 @@ msgstr ""
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:19
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:15
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:17
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:15
 #, no-wrap
 msgid "Video transcript"
 msgstr ""
@@ -142,7 +142,7 @@ msgstr ""
 #. type: Block title
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:21
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:17
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:19
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:17
 #, no-wrap
 msgid "Click to expand"
 msgstr ""
@@ -162,7 +162,7 @@ msgid "Roles and permissions"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:12
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:10
 #, no-wrap
 msgid ""
 "In this video (04:31), GBIF Data Administrator, Marie Grosjean, describes the roles and permissions in GRSciColl.   \n"
@@ -170,21 +170,21 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:30
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:28
 msgid ""
 "The information on GRSciColl is managed in the **GBIF registry interface**: "
 "https://registry.gbif.org/ and **GBIF registry API**: https://techdocs.gbif."
 "org/en/openapi/v1/registry."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:31
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:30
 #, no-wrap
-msgid "Suggestions"
+msgid "*Suggestions*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:35
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:33
 msgid ""
 "Anyone can make update suggestions on GRSciColl. Making a suggestion doesn’t "
 "require any account nor associated permission. Suggestions can be made via "
@@ -193,92 +193,99 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:35
+msgid "Sending *comments*"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:36
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:67
+#, no-wrap
+msgid "*Creating* institutions and collections\n"
+msgstr ""
+
+#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:37
-msgid "Sending **comments**"
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:68
+#, no-wrap
+msgid "*Updating* the core information for institutions and collections\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:38
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:69
 #, no-wrap
-msgid "**Creating** institutions and collections\n"
+msgid "Creating, deleting or updating *contacts* for institutions and collections\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:39
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:77
 #, no-wrap
-msgid "**Updating** the core information for institutions and collections\n"
+msgid "*Deleting* institutions and collections\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:40
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:78
 #, no-wrap
-msgid "Creating, deleting or updating **contacts** for institutions and collections\n"
+msgid "*Merging* institutions and collections\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:41
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:79
 #, no-wrap
-msgid "**Deleting** institutions and collections\n"
+msgid "*Transforming* institution entries into collection entries\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:42
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:72
 #, no-wrap
-msgid "**Merging** institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:43
-#, no-wrap
-msgid "**Transforming** institution entries into collection entries\n"
+msgid "Uploading, updating or deleting *collection descriptors* for collections\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:44
-#, no-wrap
-msgid "Uploading, updating or deleting **collection descriptors** for collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:46
 msgid ""
 "The suggestion will be sent to a reviewer who can apply, modify or discard "
 "it. The reviewer can be an editor, a mediator or an administrator with the "
 "permission for the entry concerned."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:47
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:46
 #, no-wrap
-msgid "Editors, mediators and administrators"
+msgid "*Editors, mediators and administrators*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:51
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:49
 msgid ""
-"Users who have registered an **account on GBIF.org** can be given special "
+"Users who have registered an *account on GBIF.org* can be given special "
 "permissions to make edits directly in the GBIF registry or via the GBIF "
 "registry API.  In the context of GRSciColl, users can be given one of the "
 "three following roles:"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:53
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:51
 msgid "Editor"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:54
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:52
 msgid "Mediator"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:55
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:53
 msgid "Administrator"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:57
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:55
 msgid ""
 "These roles are associated with different levels of permission and are "
 "always accompanied by a scope. The permission scope defines the entities for "
@@ -286,109 +293,67 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:57
+msgid "One or several *collections*"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:58
+msgid ""
+"One or several *institutions* (which includes all associated collections)"
+msgstr ""
+
+#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:59
-msgid "One or several **collections**"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:60
 msgid ""
-"One or several **institutions** (which includes all associated collections)"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:61
-msgid ""
-"One or several **countries** (which includes all associated institutions and "
+"One or several *countries* (which includes all associated institutions and "
 "collections)"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:62
-msgid "One or several **machine tag namespace**"
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:60
+msgid "One or several *machine tag namespace*"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:65
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:63
 msgid "The permission scope can be a combination of all of the above."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:67
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:65
 msgid ""
 "An *editor* can make the following type of changes for the entries within "
 "their scope:"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:69
-#, no-wrap
-msgid "*Creating* institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:70
-#, no-wrap
-msgid "*Updating* the core information for institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:71
-#, no-wrap
-msgid "Creating, deleting or updating *contacts* for institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:72
 #, no-wrap
 msgid "Creating, deleting or updating *identifiers* for institutions and collections\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:73
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:71
 #, no-wrap
 msgid "Adding or deleting *master sources* for institutions and collections (unless the collection is * connected to Index Hebariorum)\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:74
-#, no-wrap
-msgid "Uploading, updating or deleting *collection descriptors* for collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:75
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:73
 #, no-wrap
 msgid "Add machine tags to collections and institutions if the *machine tags* namespace used is within their permission scope\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:77
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:75
 msgid ""
 "A *mediator* can make the same changes as an editor, plus the following "
 "changes:"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:79
-#, no-wrap
-msgid "*Deleting* institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:80
-#, no-wrap
-msgid "*Merging* institutions and collections\n"
-msgstr ""
-
-#. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:81
-#, no-wrap
-msgid "*Transforming* institution entries into collection entries\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:83
 msgid ""
 "The most common types of permissions on GRSciColl are for institutional "
 "editors (who are responsible for updating their institution and associated "
@@ -397,17 +362,21 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:85
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:83
 msgid ""
 "An *administrator* can do everything that mediators do plus restore deleted "
-"entries and disconnecting collections from Index Herbariorum. Note that only "
-"GBIF Secretariat staff are GRSciColl administrators."
+"entries and disconnecting collections from Index Herbariorum."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:86
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:85
+msgid "[NOTE] Only GBIF Secretariat staff are GRSciColl administrators."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:87
 #, no-wrap
-msgid "Review of suggestions"
+msgid "*Review of suggestions*\n"
 msgstr ""
 
 #. type: delimited block =
@@ -444,10 +413,10 @@ msgid ""
 "org is notified and administrators review the suggestion."
 msgstr ""
 
-#. type: Title ===
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:96
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:97
 #, no-wrap
-msgid "Summary of roles and permissions"
+msgid "*Summary of roles and permissions*\n"
 msgstr ""
 
 #. type: delimited block =
@@ -479,19 +448,19 @@ msgid ""
 "| Master source | E M A | E M A | E* M* A |  |  | \n"
 "| Occurrence mapping | E M A |  | E M A |  |  | \n"
 "| Collection descriptors | S E M A | S E M A | S E M A |  |  | \n"
-"| Machine tags | E** M** A | E** M** A | E** M** A |  |  | \n"
+"| Machine tags | +E**+ +M**+ A | +E**+ +M**+ A | +E**+ +M**+ A |  |  | \n"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:120
 #, no-wrap
-msgid "*{sp}*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.\n"
+msgid "*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.\n"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:122
 #, no-wrap
-msgid "**{sp}*Machine* tags can only be added if the namespace is within permission scope.\n"
+msgid "*Machine* tags can only be added if the namespace is within permission scope.\n"
 msgstr ""
 
 #. type: Plain text
