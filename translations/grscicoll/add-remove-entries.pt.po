@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-11 11:24+0000\n"
-"PO-Revision-Date: 2025-04-11 12:28\n"
+"POT-Creation-Date: 2025-04-21 17:57+0000\n"
+"PO-Revision-Date: 2025-04-21 17:59\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -16,15 +16,16 @@ msgstr ""
 "X-Crowdin-File: /main/translations/grscicoll/add-remove-entries.pot\n"
 "X-Crowdin-File-ID: 43839\n"
 
+#.  == Translators
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:1
 #, no-wrap
-msgid "Add, remove,merge and transform entries"
+msgid "Add, remove, merge and transform entries"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:5
-msgid "All the instructions below will be for working in the GRSciColl part of the GBIF Registry: https://registry.gbif.org/. If you don’t have the log in or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system."
+msgid "All the instructions below will be for working in the GRSciColl part of the https://registry.gbif.org/[GBIF Registry^]. If you don’t have a login or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system."
 msgstr ""
 
 #. type: Title ==
@@ -36,7 +37,7 @@ msgstr ""
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:9
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:18
-msgid "To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab]."
+msgid "To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab^], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab^]."
 msgstr ""
 
 #. type: Plain text
@@ -63,7 +64,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:16
-msgid "If you are a GRSciColl editor with the **relevant permissions**, you can create new entries from GBIF datasets or publishers."
+msgid "If you are a GRSciColl editor with the *relevant permissions*, you can create new entries from GBIF datasets or publishers."
 msgstr ""
 
 #. type: Plain text
@@ -91,192 +92,204 @@ msgstr ""
 msgid "The entries will be created and linked to their sources. Note that the newly created collection entries aren’t associated with any institution by default. You will have to go back to the collection entry and add the institution."
 msgstr ""
 
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:27
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:84
+#, no-wrap
+msgid "Optional video"
+msgstr ""
+
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:30
-#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:85
-msgid "This video is optional. Some of the operations described above shown here."
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:33
+msgid "In this video (02:46), GBIF Data Administrator, Marie Grosjean, describes how to create new entries in GRSciColl.  If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:33
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:38
 #, no-wrap
 msgid "Delete entries"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:36
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:56
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:41
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:61
 msgid "Click on the entry that you would like to delete."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:37
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:57
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:79
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:42
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:62
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:83
 msgid "Click on the “More” button in the upper right corner."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:38
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:43
 msgid "Click on “Deleted this institution” or “Delete this collection”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:39
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:44
 msgid "Confirm the deletion by clicking “yes”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:42
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:47
 msgid "Deleted entries can be restored if needed. If you find duplicate entries, we recommend merging them rather than deleting them to avoid the loss of codes and identifiers."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:43
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:48
 #, no-wrap
 msgid "Merging entries"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:46
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:51
 msgid "Merging entries means that one of the entries will be deleted and its associated information will be moved to the remaining entry. In addition to that, GRSciColl will display a warning message and show a link to the remaining entry."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:50
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:55
 msgid "If two entries both have an external source, they cannot be merged."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:51
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:56
 msgid "Two collections can only be merged if they belong to the same institution."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:54
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:59
 msgid "In the interface:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:58
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:63
 msgid "Click on “Merge with other institution” or “Merge with other collection”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:59
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:64
 msgid "Select the institution or collection that you would like to keep."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:60
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:65
 msgid "Click on “Merge”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:62
-msgid "The following will be moved to the remaining entry:"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:64
-msgid "Any associated identifier"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:65
-msgid "Any associated contact"
-msgstr ""
-
-#. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:66
-msgid "Any associated collection"
-msgstr ""
-
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:67
-msgid "The codes of the deleted entry will be added as alternative codes to the remaining entry"
+msgid "After merging two entries, please review the remaining entry to check if any incorrect data was automatically added during the merge."
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:68
-msgid "The content of the fields will be moved to the remaining entry if the same field didn’t contain any data originally."
+msgid "The following will be moved to the remaining entry:"
 msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:70
-msgid "After merging two entries, please review the remaining entry to check if any incorrect data was automatically added during the merge."
+msgid "Any associated identifiers"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:71
+msgid "Any associated contacts"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:72
+msgid "Any associated collections"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:73
+msgid "The codes of the deleted entry will be added as alternative codes to the remaining entry"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:74
+msgid "The content of the fields will be moved to the remaining entry if the same field didn’t contain any data originally."
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:71
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:75
 #, no-wrap
 msgid "Transform institutions into collection"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:74
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:78
 msgid "Some institution entries might in fact correspond to collection. On GRSciColl there is a way to transform an institution entry into a collection entry. In practice, the institution entry will be deleted and a new collection entry will be created by reusing the same information. Any collection associated with the original institution will be added under the new institution in addition to the newly created collection."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:76
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:80
 msgid "Here is how to proceed:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:78
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:82
 msgid "Click on the institution that you would like to transform."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:80
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:84
 msgid "Click on “Convert to collection”."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:81
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:85
 msgid "Choose whether the collection should be under an existing institution or a new one:"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:82
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:86
 msgid "If you would like to create a new institution, check the box “Create under new institution” and enter a name for your new institution. The system will automatically create an institution entry based on the current entry."
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:83
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:87
 msgid "If you would like to associate the collection with an existing institution, use the search box and select the parent institution."
 msgstr ""
 
-#. type: Block title
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:83
-#, no-wrap
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
 msgid "Click the “convert” button."
 msgstr ""
 
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
-#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:91
-msgid "Go to our TEST registry: https://registry.gbif-uat.org/ and, without logging in, make the following suggestion:"
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:89
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
+#, no-wrap
+msgid "Activity"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:90
-msgid "Create an entry"
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:94
+msgid "Go to our https://registry.gbif-uat.org/[TEST registry^] and, without logging in, make the following suggestions:"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:91
-msgid "Delete an entry"
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:96
+msgid "Create an entry."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:92
-msgid "Merge two entries"
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:97
+msgid "Delete an entry."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:93
-msgid "Convert an institution into a collection"
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:98
+msgid "Merge two entries."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:99
+msgid "Convert an institution into a collection."
 msgstr ""
 
