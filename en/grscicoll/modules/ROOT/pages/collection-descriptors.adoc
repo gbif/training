@@ -61,7 +61,9 @@ As mentioned above the descriptor tables are CSV files where each row is a subse
 
 In the example above, the last column couldn’t be mapped to any Darwin Core or Latimer Core term so it was left with a descriptive title. This column will not be indexed, and users will not be able to search data based on its values, but it will be displayed along the other descriptors on the collection page. See an example of collection descriptors for https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72[The New York Botanical Garden collection^] where not every column is mapped to a standard:
 
-image::https://data-blog.gbif.org/post/2024-10-01-grscicoll-collection-descriptors/NY_descriptors.png[NYBG collection descriptors]
+:figure-caption!:
+.NYBG collection descriptors
+image::grscicoll::NY_descriptors.png[align=center,width=640,height=360]
 
 [NOTE]
 Tables might contain overlapping information or different descriptions for the same subset of specimens.
