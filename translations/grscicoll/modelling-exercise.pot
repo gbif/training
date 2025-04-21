@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:19+0000\n"
+"POT-Creation-Date: 2025-04-21 16:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,21 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
+#, no-wrap
+msgid "Activity"
+msgstr ""
+
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:1
 #, no-wrap
 msgid "Modelling exercise"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:4
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:8
 msgid ""
 "Given the following fictional institutions and collections, think about how "
 "to model the information in GRSciColl and answer the questions below. Please "
@@ -32,20 +39,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:5
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:10
 #, no-wrap
-msgid "Use case:"
+msgid "Use case"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:10
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:15
 msgid ""
 "The small geological museum in Dino city hosts a wide range of fossils and "
 "minerals."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:13
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:18
 msgid ""
 "The exhibition part of the collection has been digitized and is available on "
 "the museum website for users interested in virtual visits. Some of the "
@@ -57,14 +64,14 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:15
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:20
 msgid ""
 "Zein is the main person in charge of the museum holdings and handles loan "
 "requests."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:17
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:22
 msgid ""
 "The museum is affiliated with Dino University (DU) which is located on the "
 "other side of town and hosts some dried plant specimens as well as small "
@@ -74,37 +81,37 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:19
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:24
 #, no-wrap
-msgid "Questions:"
+msgid "Questions"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:22
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:27
 msgid "How many institution entries would you create? Which one(s)? Why?"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:23
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:28
 msgid ""
 "How many collection entries would you create? Which one(s)? With which "
 "institution entry would they be associated with? Why?"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:24
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:29
 msgid "What could be published as occurrences on GBIF?"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:25
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:30
 msgid ""
 "What could be modelled as collection descriptors? Create such (a) descriptor "
 "table(s)"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:25
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:30
 #, no-wrap
 msgid "**Optional**: Model the information by using the https://ltc.tdwg.org/index.html[Latimer Core] standard.\n"
 msgstr ""
