@@ -63,25 +63,25 @@ These roles are associated with different levels of permission and are always ac
 [NOTE]
 The permission scope can be a combination of all of the above.
 
-An **editor** can make the following type of changes for the entries within their scope:
+An *editor* can make the following type of changes for the entries within their scope:
 
-* **Creating** institutions and collections
-* **Updating** the core information for institutions and collections
-* Creating, deleting or updating **contacts** for institutions and collections
-* Creating, deleting or updating **identifiers** for institutions and collections
-* Adding or deleting **master sources** for institutions and collections (unless the collection is * connected to Index Hebariorum)
-* Uploading, updating or deleting **collection descriptors** for collections
-* Add machine tags to collections and institutions if the **machine tags** namespace used is within their permission scope
+* *Creating* institutions and collections
+* *Updating* the core information for institutions and collections
+* Creating, deleting or updating *contacts* for institutions and collections
+* Creating, deleting or updating *identifiers* for institutions and collections
+* Adding or deleting *master sources* for institutions and collections (unless the collection is * connected to Index Hebariorum)
+* Uploading, updating or deleting *collection descriptors* for collections
+* Add machine tags to collections and institutions if the *machine tags* namespace used is within their permission scope
 
-A **mediator** can make the same changes as an editor, plus the following changes:
+A *mediator* can make the same changes as an editor, plus the following changes:
 
-* **Deleting** institutions and collections
-* **Merging** institutions and collections
-* **Transforming** institution entries into collection entries
+* *Deleting* institutions and collections
+* *Merging* institutions and collections
+* *Transforming* institution entries into collection entries
 
 The most common types of permissions on GRSciColl are for institutional editors (who are responsible for updating their institution and associated collections) and national mediators (who manage entries for an entire country).
 
-An **administrator** can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. Note that only GBIF Secretariat staff are GRSciColl administrators.
+An *administrator* can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. Note that only GBIF Secretariat staff are GRSciColl administrators.
 
 === Review of suggestions
 
@@ -107,18 +107,19 @@ The table below summarises the permissions associated with each role. In the tab
 |===
 | Elements \ actions | add | update | delete | merge | transform | Map occurrences
 
-| institution | S,E,M,A | S,E,M,A | S,M,A | S,M,A | S,M,A | E,M,A
-| collection | S,E,M,A | S,E,M,A | S,M,A | S,M,A |  | E,M,A
-| identifiers | E,M,A | E,M,A | E,M,A |  |  | 
-| Master source | E,M,A | E,M,A | E\* ,M\* ,A |  |  | 
-| Occurrence mapping | E,M,A |  | E,M,A |  |  | 
-| Collection descriptors | S,E,M,A | S,E,M,A | S,E,M,A |  |  | 
+| institution | S E M A | S E M A | S M A | S M A | S M A | E M A
+| collection | S E M A | S E M A | S M A | S M A |  | E M A
+| identifiers | E M A | E M A | E M A |  |  | 
+| Master source | E M A | E M A | E\* M\* A |  |  | 
+| Occurrence mapping | E M A |  | E M A |  |  | 
+| Collection descriptors | S E M A | S E M A | S E M A |  |  | 
 | Machine tags | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A | E\* \* ,M\* \* ,A |  |  | 
 |===
 
-\* **collections** with the master source from Index Hebrariorum can only be disconnected by administrators
+\* *collections* with the master source from Index Hebrariorum can only be disconnected by administrators
 
-\* \* **machine** tags can only be added if the namespace is within permission scope
+\** *machine* tags can only be added if the namespace is within permission scope
+--
 ====
 
 == Review
@@ -136,7 +137,7 @@ Instructions: Given the three hypothetical users were given the following permis
 Who can apply or make the following updates?
 
 // Link 1
-. *Add* collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad
+. Who can *add* collection descriptors to https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad
 +
 [question, mc]
 ....
@@ -146,7 +147,7 @@ Who can apply or make the following updates?
 - [x] Amadou
 ....
 // Link 2
-. *Update* the description of https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378
+. Who can *update* the description of https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378
 +
 [question, mc]
 ....
@@ -156,7 +157,7 @@ Who can apply or make the following updates?
 - [ ] Amadou
 ....
 // Link 3
-. *Delete* this entry: https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905
+. Who can *delete* this entry: https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905
 +
 [question, mc]
 ....
@@ -166,7 +167,7 @@ Who can apply or make the following updates?
 - [ ] Amadou
 ....
 // Link 4
-. *Delete* this entry: https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e 
+. Who can *delete* this entry: https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e
 +
 [question, mc]
 ....
