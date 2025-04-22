@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-04-21 18:08+0000\n"
+"PO-Revision-Date: 2025-04-21 19:00\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /main/translations/grscicoll/grscicoll-api.pot\n"
+"X-Crowdin-File-ID: 43783\n"
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:57
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:47
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:109
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:110
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:125
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
+#, no-wrap
+msgid "Review"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:62
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:32
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:114
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:115
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:130
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
+msgid "Quiz yourself on the concepts covered in this module."
+msgstr ""
+
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:1
+#, no-wrap
+msgid "GRSciColl API - get started"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:3
+#, no-wrap
+msgid "What can the GRSciColl API do"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:6
+msgid "The GRSciColl API can allow you to edit or retrieve programmatically GRSciColl records. This API is part of the GBIF registry API and is https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[fully documented^]. All the functions available in the GRSciColl website and editing interface are also available in the API, including adding, editing and deleting records as well as making update suggestions. In addition to that, the permission system is the same in the web interface and the API."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:8
+msgid "The API also offers the possibility to https://github.com/gbif/registry/blob/dev/docs/grscicoll_batches.md[upload and update records in bulk^]."
+msgstr ""
+
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:10
+#, no-wrap
+msgid "https://techdocs.gbif.org/en/openapi/[GBIF API technical documentation^]"
+msgstr ""
+
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:11
+#, no-wrap
+msgid "grscicoll::td-bg-02.png"
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:13
+#, no-wrap
+msgid "How and when to use the GRSciColl API"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:16
+msgid "In order to use the GRSciColl API, you will need to use a client in the programming language of your choice. For example, you can use the `requests` library in Python or the `httr2` library in R. This will allow you to use any of the API functions available."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:19
+msgid "If you would like an entry level introduction to the GBIF APIs in general, you can watch https://www.gbif.org/composition/4TlmnRvvPs2RxrPvLH6mOa/data-use-club-practical-session-3-recording-and-resources[this recorded webinar^] or read https://data-blog.gbif.org/post/gbif-api-beginners-guide/[this blogpost^]."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:22
+msgid "If you wish to edit the GRSciColl records programmatically by using the API, you will need to find and use the keys of the entries that you would like to edit.  For example, if you were to edit the entry for the https://scientific-collections.gbif.org/institution/ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377[New York Botanical Garden^], you would have to use the UUID from its URL: `ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377`. This will allow you to tie the information to the correct entry (see also the https://techdocs.gbif.org/en/openapi/v1/registry#/Institutions/updateInstitution[documentation^] to update an institution)."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:24
+msgid "If you maintain your own database or registry of collections and would like to push updates to GRSciColl, you can use the GRSciColl API. You just need to store the keys of the corresponding GRSciColl collection and institution entries on your side to ensure that the correct entries get updated."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:26
+msgid "In this module, we won’t go over the details of how the API can be used to update GRSciColl records. If you are thinking of making updates programmatically and you are unsure of how to proceed, please contact scientific-collections@gbif.org. We can help you write a script adapted to your needs."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:34
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:116
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:117
+msgid "_True or False?_"
+msgstr ""
+
+#.  Question 1
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:37
+msgid "The GRSciColl API allows to create programmatically new entries in GRSciColl."
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:43
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:52
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:143
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:152
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:170
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:179
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:188
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:126
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:153
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:162
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:171
+#, no-wrap
+msgid "- [x] True\n"
+"- [ ] False\n"
+msgstr ""
+
+#.  Question 2
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:46
+msgid "The permission system is the same for the GRSciColl API and the GRSciColl editing interface."
+msgstr ""
+
+#.  Question 3
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:55
+msgid "You can only use the GRSciColl API in the programming language Python."
+msgstr ""
+
+#. type: delimited block .
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:61
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:70
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:125
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:161
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:197
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:135
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:144
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:180
+#, no-wrap
+msgid "- [ ] True\n"
+"- [x] False\n"
+msgstr ""
+
+#.  Question 4
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:64
+msgid "The UUID of this GRSciColl institution associated with the code NHMUK is d2a27206-87ab-47ea-b5fc-d2e57054b688"
+msgstr ""
+

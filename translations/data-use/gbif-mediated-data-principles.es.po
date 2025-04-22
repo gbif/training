@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-22 13:17\n"
+"PO-Revision-Date: 2025-04-07 06:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,75 +20,75 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:1
 #, no-wrap
 msgid "Principles of GBIF-mediated data"
-msgstr ""
+msgstr "Principios de datos mediados por GBIF"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:6
 msgid "In this section, you will learn about the principles that GBIF follows with regards to data and how data in the GBIF portal are FAIR."
-msgstr ""
+msgstr "En esta sección, conocerá los principios que GBIF sigue con respecto a los datos y cómo los datos del portal de GBIF son FAIR."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:9
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:9
 msgid "This is a review of information found in the Introduction to GBIF course, if you need a refresher."
-msgstr ""
+msgstr "Este es un repaso de la información encontrada en el curso de Introducción a GBIF, por si necesita un repaso."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:10
 #, no-wrap
 msgid "Digital object identifiers"
-msgstr ""
+msgstr "Identificadores de objetos digitales"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:14
 msgid "A Digital Object Identifier, or DOI, is a http://www.iso.org/iso/catalogue_detail?csnumber=43506[standard^], permanent identifier that provides an actionable, interoperable, persistent link to any entity.  The concept is that DOI differs from commonly used references like URL web links because it identifies an object itself as a first-class entity, not simply the place where the object is currently located."
-msgstr ""
+msgstr "Un identificador de objeto digital, o DOI (Digital Object Identifier), es un identificador permanente http://www.iso.org/iso/catalogue_detail?csnumber=43506[standard^] que proporciona un enlace procesable, interoperable y persistente a cualquier entidad.  El concepto es que el DOI difiere de las referencias de uso común, como los enlaces web URL, porque identifica un objeto en sí como una entidad de primera clase, no simplemente el lugar donde el objeto se encuentra actualmente."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:16
 msgid "In the context of GBIF.org, DOIs serve as stable identifiers for four different types of things:"
-msgstr ""
+msgstr "En el contexto de GBIF.org, los DOI sirven como identificadores estables para cuatro tipos diferentes de cosas:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:18
 msgid "datasets from the GBIF network"
-msgstr ""
+msgstr "conjuntos de datos de la red GBIF"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:19
 msgid "data downloads from GBIF.org"
-msgstr ""
+msgstr "descargas de datos desde GBIF.org"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:20
 msgid "research articles and reports published by scientific journals, agencies and NGOs"
-msgstr ""
+msgstr "artículos de investigación e informes publicados por revistas científicas, agencias y ONG"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:21
 msgid "materials deposited in a general-use repository"
-msgstr ""
+msgstr "materiales depositados en un repositorio de uso general"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:25
 msgid "GBIF assigns DOIs to all datasets and occurrence downloads.  When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility.  The DOIs will always resolve to datasets or download pages, even if the underlying data is no longer available."
-msgstr ""
+msgstr "GBIF asigna DOIs a todos los conjuntos de datos y descargas de ocurrencias.  Cuando se utilizan datos, seguir el DOI https://www.gbif.org/citation-guidelines[práctica de citación^] asegura una forma fácil y consistente de acreditar a los titulares de los conjuntos de datos al tiempo que permite la reproducibilidad.  Los DOI siempre remitirán a los conjuntos de datos o a las páginas de descarga, aunque los datos subyacentes ya no estén disponibles."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:28
 msgid "GBIF started issuing DOIs on 3 February 2015.  Downloads requested before this date do not have DOIs, however, if you wish to cite older downloads, you can contact helpdesk@gbif.org and we will assign DOIs as appropriate."
-msgstr ""
+msgstr "GBIF comenzó a emitir DOIs el 3 de febrero de 2015.  Las descargas solicitadas antes de esta fecha no tienen DOI, sin embargo, si desea citar descargas más antiguas, puede ponerse en contacto con helpdesk@gbif.org y le asignaremos DOI según corresponda."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:29
 #, no-wrap
 msgid "Standards"
-msgstr ""
+msgstr "Normas"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:32
 msgid "The data available through GBIF.org and its associated services is the result of the GBIF network of Participants and publishers applying shared rules and conventions to describe, record and structure thousands of different datasets drawn from hundreds of institutions around the world. Common standards are the main enabler for bringing together the hundreds of millions of primary biodiversity records in the GBIF index."
-msgstr ""
+msgstr "Los datos disponibles a través de GBIF.org y sus servicios asociados son el resultado de la aplicación por parte de la red de Participantes y editores de GBIF de normas y convenciones compartidas para describir, registrar y estructurar miles de conjuntos de datos diferentes procedentes de cientos de instituciones de todo el mundo. Los estándares comunes son el principal habilitador para reunir los cientos de millones de registros primarios de biodiversidad en el índice de GBIF."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:34

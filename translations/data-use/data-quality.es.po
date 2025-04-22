@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-03-21 11:38\n"
+"PO-Revision-Date: 2025-04-07 06:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,18 +20,18 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:1
 #, no-wrap
 msgid "Handling data quality"
-msgstr ""
+msgstr "Manejo de la calidad de los datos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:7
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and the occurrence search has a set of additional \"Advanced\" search filters with more criteria or options available.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise.  Below are some common data filters that you as a user might consider to make the data more fit for use."
-msgstr ""
+msgstr "El filtrado de los datos le permite a usted, como usuario, obtener los datos más adecuados para su finalidad.  Todas las búsquedas tienen un conjunto de filtros que pueden utilizarse para encontrar los datos que necesita, y la búsqueda por ocurrencia tiene un conjunto de filtros adicionales de búsqueda «Avanzada» con más criterios u opciones disponibles.  Aunque los filtros pueden permitirle filtrar datos que pueden no ser relevantes, o ser de menor calidad para sus propósitos, puede ser necesario un filtrado adicional, ya sea manual o programado, para tratar los problemas adicionales de calidad de datos que surjan.  A continuación se presentan algunos filtros de datos comunes que usted, como usuario, podría considerar para hacer que los datos sean más adecuados para su uso."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:8
 #, no-wrap
 msgid "Geospatial filters & issues"
-msgstr ""
+msgstr "Filtros e Incidencias Geo espaciales"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:11
@@ -66,23 +66,23 @@ msgstr "Coordenadas cero - Las coordenadas son exactamente (0,0) o lo que a vece
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:25
 msgid "Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.).  GBIF uses the two-letter https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system.  When a point does not fall within the country’s polygon or EEZ but says that it should occur within the country, it gets flagged as having “country coordinate mismatch” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Desajuste de coordenadas de país - Los editores de datos a menudo suministran GBIF con un código de país (US,TW,SE,JP..., etc.).  GBIF utiliza un sistema de codificación con dos letras https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^]. Cuando un punto no cae dentro del polígono del país o de la ZEE pero dice que debería ocurrir dentro del país, se marca como que tiene «desajuste de coordenadas de país» y será eliminado si se filtran los datos por ubicaciones."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:26
 msgid "Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. the coordinates that are not in the valid decimal format."
-msgstr ""
+msgstr "Coordenada inválida - Si GBIF es incapaz de interpretar las coordenadas, es decir, las coordenadas que no están en el formato decimal válido."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:27
 msgid "Coordinate out of range — The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "Coordenada fuera de rango - Las coordenadas están fuera del rango de valores decimales lat/lon ((-90,90), (-180,180))."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:28
 #, no-wrap
 msgid "Country centroids"
-msgstr ""
+msgstr "Centroides de país"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
@@ -92,7 +92,7 @@ msgstr "Los centroides de país son aquellos en los que la observación se fija 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
 msgid "Use the \"Distance from centroid in meters\" on a GBIF occurrence search to filter for country centroids. The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "Utilice la «Distancia desde el centroide en metros» en una búsqueda de ocurrencias GBIF para filtrar los centroides de los países. El paquete R, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] también puede utilizarse para identificar y filtrar los centroides de los países."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:39
@@ -136,7 +136,7 @@ msgstr "Los conjuntos de datos cuadriculados son un problema conocido en GBIF.  
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:62
 #, no-wrap
 msgid "data-use::gridSnap.gif"
-msgstr ""
+msgstr "utilización de datos::gridSnap.gif"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:65

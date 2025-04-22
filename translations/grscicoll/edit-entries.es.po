@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-04-21 18:02+0000\n"
+"PO-Revision-Date: 2025-04-21 19:00\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/translations/grscicoll/edit-entries.pot\n"
+"X-Crowdin-File-ID: 43837\n"
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:27
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:87
+#, no-wrap
+msgid "Optional video"
+msgstr ""
+
+#. type: Title =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:1
+#, no-wrap
+msgid "Edit entries"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:5
+msgid "All the instructions below will be for working in the GRSciColl part of the https://registry.gbif.org/[GBIF Registry^]. Editing core information, contacts and collection descriptors is possible through the suggestion system but you will need specific permissions to work on identifiers, and master source."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:6
+#, no-wrap
+msgid "Editing core information"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:9
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:24
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:36
+msgid "Find and click on the entry that you would like to edit."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:10
+msgid "Click “suggest” or “edit”."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:11
+msgid "Make the changes you would like to make."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:12
+msgid "Click on save (if you are in suggestion mode, you need to provide an email address and comment)."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:16
+msgid "If you notice that some fields are grey and won’t allow you to add any information, that means that the record is connected to a master source. If you would like to update the information for those fields, you have two options:"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:18
+msgid "Edit the information at the source. For that, you need to click on the blue hyperlink at the top of the entry."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:19
+msgid "Disconnect the entry from the source. For that, you will need to follow the instructions below."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:21
+#, no-wrap
+msgid "Edit contact information"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:25
+msgid "Click on the “Contacts” tab."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:26
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:38
+msgid "Then you can do one of the following:"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:28
+msgid "To update an existing contact, click on “view” next to the contact, then the “edit” or “suggest” toggle button in the upper right corner, then save."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:29
+msgid "To create a new contact, click on the “create new” button in the upper right corner and add your contact before saving."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:30
+msgid "To delete an existing contact, click on “delete” next to the contact and confirm the deletion."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:31
+#, no-wrap
+msgid "Edit identifiers"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:34
+msgid "You will need to be an editor in order to add or remove identifiers."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:37
+msgid "Click on the “Identifiers” tab."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:39
+msgid "Delete an existing identifier"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:40
+msgid "Create a new identifier"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:42
+msgid "When you create a new identifier, you can define it as the primary identifier. The identifier that you would like people to use when citing your institution or collection."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:43
+#, no-wrap
+msgid "Edit, add, delete collection descriptor groups"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:48
+msgid "Collection descriptor groups can only be added to collections. Any collection can have several collection descriptor groups."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:50
+msgid "You will need to prepare and format the collection descriptor tables before you upload them in the interface."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:53
+msgid "Find and click on the collection that you would like to work with."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:54
+msgid "Click on the “Descriptor group” tab (see the image below)"
+msgstr ""
+
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:56
+#, no-wrap
+msgid "Descriptor group"
+msgstr ""
+
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:57
+#, no-wrap
+msgid "grscicoll::descriptor_group_ui.png"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:60
+msgid "If you would like to add a collection descriptor group:"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:62
+msgid "Click Add and fill in the title and description of the descriptor group and choose your CSV file."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:63
+msgid "Click “add”."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:65
+msgid "If you would like to delete one, click on the red trash can icon next to the group to delete. To edit them, click on the edit button."
+msgstr ""
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:66
+#, no-wrap
+msgid "Add or delete master sources"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:69
+msgid "You will need to be an editor in order to add or remove master source records."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:71
+msgid "To add a source:"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:73
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:81
+msgid "Find and click on the entry that you would like to work with."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:74
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:82
+msgid "Click on the “Master source” tab."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:75
+msgid "Click on the “Create new” button."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:76
+msgid "Select a type of source in the drop down list"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:77
+msgid "Enter the identifier corresponding to this entry in the source. For example, if you select a GBIF dataset as the source of a collection, you must provide the UUID of that dataset."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:79
+msgid "To delete a source:"
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:83
+msgid "Click on the “Delete” button (on the same line as the source)."
+msgstr ""
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:86
+msgid "If you would like to disconnect a collection from Index Herbariorum, please contact us."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:92
+msgid "In this video (03:02), GBIF Data Administrator, Marie Grosjean, describes how to edit entries within GRSciColl."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:100
+msgid "Go to our https://registry.gbif-uat.org/[TEST registry^] and, without logging in, make the following suggestion:"
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:102
+msgid "Edit the core information of an entry."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:103
+msgid "Add a contact point from an entry."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:104
+msgid "Delete a contact point for an entry."
+msgstr ""
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:105
+msgid "Add a collection descriptor group."
+msgstr ""
+
