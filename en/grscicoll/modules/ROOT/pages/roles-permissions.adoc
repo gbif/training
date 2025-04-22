@@ -23,11 +23,18 @@ video::1074662305[vimeo]
 [.left]
 &nbsp;
 
+image::grscicoll::module1-section2-Slide1.png[align=center]
+
 The information on GRSciColl is managed in the https://registry.gbif.org/[*GBIF registry interface*^] and the https://techdocs.gbif.org/en/openapi/v1/registry[*GBIF registry API*^].
+
+image::grscicoll::module1-section2-Slide2.png[align=center]
 
 *Suggestions*
 
 Anyone can make update suggestions on GRSciColl. Making a suggestion doesn’t require any account nor associated permission. Suggestions can be made via the registry web interface or via the registry API on collection and institution entries.
+
+image::grscicoll::module1-section2-Slide3.png[align=center]
+
 Here are the types of suggestions that can be made:
 
 * Sending *comments*
@@ -42,6 +49,8 @@ Here are the types of suggestions that can be made:
 The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned.
 
 *Editors, mediators and administrators*
+
+image::grscicoll::module1-section2-Slide4.png[align=center]
 
 Users who have registered an *account on GBIF.org* can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.
 In the context of GRSciColl, users can be given one of the three following roles:
@@ -60,6 +69,8 @@ These roles are associated with different levels of permission and are always ac
 [NOTE]
 The permission scope can be a combination of all of the above.
 
+image::grscicoll::module1-section2-Slide5.png[align=center]
+
 An *editor* can make the following type of changes for the entries within their scope:
 
 * *Creating* institutions and collections
@@ -70,6 +81,9 @@ An *editor* can make the following type of changes for the entries within their 
 * Uploading, updating or deleting *collection descriptors* for collections
 * Add machine tags to collections and institutions if the *machine tags* namespace used is within their permission scope
 
+
+image::grscicoll::module1-section2-Slide6.png[align=center]
+
 A *mediator* can make the same changes as an editor, plus the following changes:
 
 * *Deleting* institutions and collections
@@ -78,12 +92,16 @@ A *mediator* can make the same changes as an editor, plus the following changes:
 
 The most common types of permissions on GRSciColl are for institutional editors (who are responsible for updating their institution and associated collections) and national mediators (who manage entries for an entire country).
 
+image::grscicoll::module1-section2-Slide7.png[align=center]
+
 An *administrator* can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum. 
 
 [NOTE]
 Only GBIF Secretariat staff are GRSciColl administrators.
 
 *Review of suggestions*
+
+image::grscicoll::module1-section2-Slide8.png[align=center]
 
 Editors, mediators and administrators can also apply the suggestions that correspond to their permission scope and roles.
 
