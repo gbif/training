@@ -35,21 +35,33 @@ image::grscicoll::module1-section1-Slide3.png[align=center]
 
 * *Institution* entries contain information about the collection-holding institutions. They can be associated with zero, one or several collections. They have their own description, expertise, address and contact information.
 
+image::grscicoll::module1-section1-Slide4.png[align=center]
+
 Both collection and institution entries can be associated with *identifiers*. These identifiers can be external ones (such as ROR identifiers for institutions) or can be historical.
+
+image::grscicoll::module1-section1-Slide5.png[align=center]
 
 Both collection and institution entries can be connected to one external source of information called *master source*. Once an entry is connected to such a source, some fields will be automatically updated by the source. There are a limited number of possible sources. 
 
 [NOTE]
 As of March 2025, only GBIF datasets, GBIF publishers and Index Herbariorum entries can be sources of information, but we are working on adding more.
 
+image::grscicoll::module1-section1-Slide6.png[align=center]
+
 In addition to institution and collection entries, GRSciColl records are linked to *occurrence* records published on GBIF when possible. This allows to display some aggregated metrics on GRSciColl pages regardless of the way that the data were published on GBIF.org. One collection can be linked to occurrence records coming from different GBIF datasets and one dataset can have records linked to several collection entries. Occurrences are linked to institution and collection entries based on the collection and institution codes and identifiers used. The GRSciColl API also supports the creation of explicit mapping (find out more in the other modules).
+
+image::grscicoll::module1-section1-Slide7.png[align=center]
 
 GRSciColl also supports the upload of collection information as structured tables called *collection descriptors*. Collection descriptors can contain relevant details about collections and sub-collections as well as quantitative data which cannot be shared on collection pages (for example, the number of fossil specimens collected in a particular region). Some collection descriptors are used for indexing collections. This means that they improve collection discoverability. For example, a collection associated with a moss species name will be found by users looking for “Bryophyta” in the scientific name field of the collection search. Collection descriptors are particularly relevant for collections that aren’t fully digitized and/or where the specimen records aren’t available on GBIF.org.
 A collection can be associated with zero, one or several collection descriptor groups (tables).
 
+image::grscicoll::module1-section1-Slide8.png[align=center]
+
 Finally, any GRSciColl collection or institution entry can be associated with *machine tags* (machineTag). Machine tags are meant to be machine readable information to facilitate the programmatic processing of GRSciColl data (they are not meant to be displayed). For example, they are used by Integrated Digitized Biocollections (iDigBio) to show some of GRSciColl data on their https://portal.idigbio.org/portal/collections[collection portal^].
 
 For the purpose of understanding the permission model here is a summary of the elements mentioned above:
+
+image::grscicoll::module1-section1-Slide9.png[align=center]
 
 * Institution
 * Collection
@@ -58,6 +70,9 @@ For the purpose of understanding the permission model here is a summary of the e
 * Occurrences
 * Collection descriptors
 * Machine tags
+
+
+
 --
 ====
 
