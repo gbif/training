@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-22 11:19+0000\n"
+"POT-Creation-Date: 2025-04-22 11:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgstr ""
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:47
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
@@ -170,7 +170,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:84
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:52
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:56
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:32
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:141
@@ -187,15 +187,21 @@ msgid ""
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
 msgstr ""
 
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:26
+#, no-wrap
+msgid "grscicoll::module1-section3-Slide1.png"
+msgstr ""
+
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:27
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:29
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:29
 #, no-wrap
 msgid "*Introduction*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:29
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:31
 msgid ""
 "The GRSciColl institution and collection entries can have external primary "
 "sources of information that comes from another registry or website. Edits to "
@@ -204,7 +210,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:31
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:33
 msgid ""
 "Currently, the two possible sources of information for GRSciColl entries are "
 "https://sweetgum.nybg.org/science/ih/[Index Herbariorum^] and the GBIF "
@@ -215,13 +221,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:33
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:35
 #, no-wrap
 msgid "*Index Herbariorum*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:35
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:37
 msgid ""
 "Every week, GRSciColl synchronizes with the https://sweetgum.nybg.org/"
 "science/ih/[Index Herbariorum^] API, updating information for existing "
@@ -229,8 +235,14 @@ msgid ""
 "entries as needed."
 msgstr ""
 
+#. type: Target for macro image
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:38
+#, no-wrap
+msgid "grscicoll::module1-section3-Slide2.png"
+msgstr ""
+
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:37
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:41
 msgid ""
 "By default, one Index Herbariorum entry corresponds to an institution entry "
 "as well as a collection entry in GRSciColl because herbaria are often "
@@ -244,20 +256,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:40
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:44
 msgid ""
 "Editors can disconnect institutions entries from Index Herbariorum and "
 "choose to edit the institution directly in the GRSciColl editing interface."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:42
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:46
 #, no-wrap
 msgid "*GBIF dataset metadata and GBIF publisher pages*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:44
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:48
 msgid ""
 "The metadata of datasets published on GBIF can be used as primary sources "
 "for collection entries in GRSciColl. Unlike with the Index Herbariorum "
@@ -272,13 +284,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:54
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:58
 msgid "_For the following GRSciColl entries, find their master source._"
 msgstr ""
 
 #.  Link 1
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:57
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:61
 msgid ""
 "Which is the master source for the collection record for https://scientific-"
 "collections.gbif.org/collection/bc3d39fd-a7d4-4763-"
@@ -287,7 +299,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:63
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:67
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
@@ -297,7 +309,7 @@ msgstr ""
 
 #.  Link 2
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:66
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:70
 msgid ""
 "Which is the master source for the institution record for https://scientific-"
 "collections.gbif.org/institution/6a6ac6c5-1b8a-48db-91a2-f8661274ff80[MNHN - "
@@ -305,7 +317,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:72
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:76
 #, no-wrap
 msgid ""
 "- [x] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
@@ -315,7 +327,7 @@ msgstr ""
 
 #.  Link 3
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:75
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:79
 msgid ""
 "Which is the master source for the collection record for https://scientific-"
 "collections.gbif.org/collection/23fbece0-6e07-4a9c-ac86-7aa8e041ac9e[The "
@@ -324,7 +336,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:81
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:85
 #, no-wrap
 msgid ""
 "- [ ] GBIF publisher: https://www.gbif.org/publisher/2cd829bb-b713-433d-99cf-64bef11e5b3e[MNHN - Museum national d'Histoire naturelle^]\n"
