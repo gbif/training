@@ -44,7 +44,6 @@ Here are the types of suggestions that can be made:
 * *Deleting* institutions and collections
 * *Merging* institutions and collections
 * *Transforming* institution entries into collection entries
-* Uploading, updating or deleting *collection descriptors* for collections
 
 The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned.
 
@@ -130,7 +129,7 @@ The table below summarises the permissions associated with each role. In the tab
 | identifiers | E M A | E M A | E M A |  |  | 
 | Master source | E M A | E M A | E* M* A |  |  | 
 | Occurrence mapping | E M A |  | E M A |  |  | 
-| Collection descriptors | S E M A | S E M A | S E M A |  |  | 
+| Collection descriptors | E M A | E M A | E M A |  |  | 
 | Machine tags | +E**+ +M**+ A | +E**+ +M**+ A | +E**+ +M**+ A |  |  | 
 |===
 
