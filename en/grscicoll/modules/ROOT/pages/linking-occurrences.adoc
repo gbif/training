@@ -23,7 +23,11 @@ video::1074662005[vimeo]
 [.left]
 &nbsp;
 
+image::grscicoll::module2-section3-Slide1.png[align=center]
+
 *Reminder: GBIF occurrences*
+
+image::grscicoll::module2-section3-Slide2.png[align=center]
 
 According to the https://dwc.tdwg.org/terms/#occurrence[Darwin Core^] documentation an occurrence is:
 [quote, http://rs.tdwg.org/dwc/terms/Occurrence]
@@ -35,13 +39,21 @@ Occurrences shared on GBIF.org can come from a wide range of data providers: Mus
 
 The breath of information associated with a given occurrence can vary. Sometimes, all that is available is a catalogue number, a family, a region, a date range, etc. While other occurrences may be associated with precise geolocation and images.
 
+image::grscicoll::module2-section3-Slide3.png[align=center]
+
 As mentioned before, when possible, the GBIF’s system attempts to link specimen-related occurrences published on GBIF to GRSciColl entries. This allows us to create metrics and dashboards for institutions and collections regardless of the way data were provided to GBIF.
 
+image::grscicoll::module2-section3-Slide4.png[align=center]
+
 GRSciColl and GBIF have overlapping content: many of the collections listed in GRSciColl are also datasets on GBIF. However, the scope of GRSciColl goes beyond biodiversity data, for example, GRSciColl contains mineralogy and archaeology collections but doesn’t include things like citizen science observation data. See https://data-blog.gbif.org/post/data-shareability/[this blog post^] explaining the type of data that can be shared on GBIF.
+
+image::grscicoll::module2-section3-Slide6.png[align=center]
 
 This training material doesn’t cover how data should be shared on GBIF, if you are interested, consider reviewing the course on https://docs.gbif.org/course-data-mobilization[Biodiversity data mobilization^]. This https://www.gbif.org/composition/2w2DNTfjtU9OrGDLIagfc5[Data Use Club recorded webinar^] is also a good introduction to how the data are shared and processed on GBIF.
 
 *How are GBIF occurrences linked to GRSciColl?*
+
+image::grscicoll::module2-section3-Slide8.png[align=center]
 
 Only the occurrences with the following basis of records are selected to show on the GRSciColl website and to be linked with GRSciColl entries:
 
@@ -81,11 +93,21 @@ There are two ways to ensure that occurrences get matched to the correct entries
 
 *Matching codes and identifiers*
 
+image::grscicoll::module2-section3-Slide10.png[align=center]
+
 Occurrences are linked to GRSciColl if the values in the collectionCode, institutionCode, ownerInstitutionCode, collectionID and institutionID fields match the GRSciColl collection and institution codes and identifiers.
+
+image::grscicoll::module2-section3-Slide11.png[align=center]
 
 Any of the codes or alternatives codes of a collection or institution can be used in the collectionCode and institutionCode fields. However, several collections or institutions can have the same codes. This means that matches based on codes only are not always reliable. When two GRSciColl entries have the same code, the algorithm compares the occurrence publishing country with the GRSciColl entry countries to try disambiguating the match. This is why all the occurrences that are matched based on codes are flagged as “fuzzy” on GBIF.
 
-In order to ensure unambiguous matches, we recommend using identifiers to link occurrences to GRSciColl entries. Any identifier associated with a GRSciColl collection or institution can be used in the collectionID and institutionID fields. In addition to that, the UUID or the URL of a GRSciColl collection or institution can also be used.
+image::grscicoll::module2-section3-Slide12.png[align=center]
+
+In order to ensure unambiguous matches, we recommend using identifiers to link occurrences to GRSciColl entries. Any identifier associated with a GRSciColl collection or institution can be used in the collectionID and institutionID fields.
+
+image::grscicoll::module2-section3-Slide13.png[align=center]
+
+In addition to that, the UUID or the URL of a GRSciColl collection or institution can also be used.
 
 Currently, the recommended and most declarative way to link data to institutions or collection entities in GRSciColl is to use the full URL for the entity. For example, when using Darwin Core:
 ----
@@ -98,8 +120,12 @@ Currently, the recommended and most declarative way to link data to institutions
 
 *Explicit mapping with the GRSciColl API*
 
+image::grscicoll::module2-section3-Slide14.png[align=center]
+
 GRSciColl editors can use the https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[GRSciColl API] to create explicit mappings between GRSciColl collections and occurrences. A mapping can only be associated with a given GRSciColl entry and will be defined by a dataset key and a code used in the occurrence.
 For example, a mapping can be added to an entomology collection to specify that all the occurrence records with the collection code “ENT” for a given dataset should be linked to that collection.
+
+image::grscicoll::module2-section3-Slide15.png[align=center]
 
 https://github.com/ManonGros/Small-scripts-using-GBIF-API/blob/master/map_occ_to_grscicoll.ipynb[Here^] is an example in python of adding occurrence mapping to a GRSciColl entry (see also https://github.com/gbif/collection-mobilization/wiki/How-to-Link-Occurrences-records-or-datasets-to-GRSciColl-entries%3F-Or-vise-versa[this tutorial^]).
 
