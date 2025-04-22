@@ -1,11 +1,29 @@
 = Recommendations
 
-[NOTE.documentation]
+== Video
+
+[NOTE.presentation]
 ====
-In this section, we will review some special cases and questions that editors may encounter when working on representing information on GRSciColl.
+In this video (02:17), GBIF Data Administrator, Marie Grosjean, reviews special cases and recommendations for representing information in GRSciColl.   
+If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.
 ====
 
-== How to represent sub-collections?
+[.responsive-video]
+video::1077627319[vimeo]
+
+== Video transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+*How to represent sub-collections?*
 
 In some cases, institutions might be interested in highlighting a particular subset of collections. For example, historical or private collections that have been integrated in a larger collection.
 Institutions always have the possibility to create separate collection entries for those. However, some alternatives are available:
@@ -14,13 +32,15 @@ Institutions always have the possibility to create separate collection entries f
 * Sub-collection codes can also be added as alternative codes of a collection entry.
 * The collection descriptor groups can be used to structure sub-collections. For example, you can create one collection descriptor group per sub-collections with its own title and description.
 
-== How to share literature references associated with a collection or its specimens?
+*How to share literature references associated with a collection or its specimens?*
 
 There is no ideal way to currently share literature references associated with a collection or its specimens. For now, we recommend sharing such references as collection descriptors. For example, the https://scientific-collections.gbif.org/collection/d4e9aa65-7974-4a31-9b0c-817d474294bc[Japanese Antartic meteorite collection^] has a set of references mapped to the Darwin core term https://dwc.tdwg.org/terms/#dcterms:bibliographicCitation[bibliographicCitation^].
 
 [NOTE]
 We will update the training documentation as guidelines are developed.
 
-== How to represent virtual collections?
+*How to represent virtual collections?*
 
 GRSciColl was not designed to represent virtual collections. If you wish to create metrics for a subset of specimen related records published on GBIF, consider selecting the occurrences based on their associated data (for example, their scientific names). If you are publishing occurrences shared on GBIF, consider using Darwin Core terms like https://dwc.tdwg.org/terms/#dwc:datasetID[datasetID^] for occurrences to facilitate their selection.
+--
+====
