@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-28 10:56+0000\n"
+"POT-Creation-Date: 2025-04-28 10:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -474,69 +474,74 @@ msgid ""
 "one for Bothus podas."
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:111
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:121
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:129
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:138
-msgid "."
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
+#, no-wrap
+msgid "1"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:113
-msgid ""
-"| continent | date | taxon | Is type | Percentage identified at genus level"
-msgstr ""
-
-#. type: Plain text
+#. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
+#, no-wrap
 msgid ""
-"| Africa | XIX | Bony fish | | 50 | Africa | 1940-1952 | Bony fish | | 50 | "
-"Africa | | Eustomias monoclonoides | TRUE | | Africa | | Bothus podas | TRUE "
-"|"
+"| continent | date | taxon | Is type | Percentage identified at genus level\n"
+"\n"
+"| Africa | XIX | Bony fish |  | 50\n"
+"| Africa | 1940-1952 | Bony fish |  | 50\n"
+"| Africa |  | Eustomias monoclonoides | TRUE | \n"
+"| Africa |  | Bothus podas | TRUE | \n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:123
-msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome"
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:120
+#, no-wrap
+msgid "2"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126
+#, no-wrap
 msgid ""
-"| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine | Africa | "
-"1940-01-01/1952-01-01 | Actinopterygii | Marine"
+"| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n"
+"\n"
+"| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine\n"
+"| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine\n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:131
-msgid ""
-"| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | "
-"Percentage identified at the genus level"
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:128
+#, no-wrap
+msgid "3"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:135
+#, no-wrap
 msgid ""
-"| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50 | Africa | "
-"1940-01-01/1952-01-01 | Actinopterygii | Marine | | Africa | "
-"1800-01-01/1900-01-01 | Actinopterygii | Marine |"
+"| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n"
+"\n"
+"| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50\n"
+"| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine | \n"
+"| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine | \n"
 msgstr ""
 
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:140
-msgid ""
-"| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | "
-"Percentage identified at the genus level | dwc:typeStatus"
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:137
+#, no-wrap
+msgid "4"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:146
+#, no-wrap
 msgid ""
-"| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50 | | Africa | "
-"1940-01-01/1952-01-01 | Actinopterygii | Marine | | | Africa | "
-"1800-01-01/1900-01-01 | Actinopterygii | Marine | | | Africa | | Eustomias "
-"monoclonoides | Marine | | type | Africa | | Bothus podas | Marine | | type"
+"| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n"
+"\n"
+"| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50 | \n"
+"| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine |  | \n"
+"| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine |  | \n"
+"| Africa |  | Eustomias monoclonoides | Marine |  | type\n"
+"| Africa |  | Bothus podas | Marine |  | type\n"
 msgstr ""
 
 #. Question
