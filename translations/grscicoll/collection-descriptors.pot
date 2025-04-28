@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-28 10:59+0000\n"
+"POT-Creation-Date: 2025-04-28 11:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,10 +33,6 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:120
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:128
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:137
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:25
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
@@ -117,7 +113,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/research-communities.adoc:149
 #: en/nodes/modules/ROOT/pages/research-communities.adoc:157
 #: en/nodes/modules/ROOT/pages/research-communities.adoc:164
-#, no-wrap
 msgid "&nbsp;"
 msgstr ""
 
@@ -479,6 +474,18 @@ msgid ""
 "one for Bothus podas."
 msgstr ""
 
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:108
+#, no-wrap
+msgid "{empty}"
+msgstr ""
+
+#. type: Named 'caption' AttributeList argument for style 'caption'
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:109
+#, no-wrap
+msgid "{table-caption} {counter:table-number}"
+msgstr ""
+
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
 #, no-wrap
@@ -492,7 +499,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:125
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n"
@@ -502,7 +509,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:135
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:133
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n"
@@ -513,7 +520,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:146
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:143
 #, no-wrap
 msgid ""
 "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n"
@@ -527,13 +534,13 @@ msgstr ""
 
 #. Question
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:150
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:147
 msgid ""
 "Which ranking orders the table from the poorest to the richest data mapped?"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:157
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:154
 #, no-wrap
 msgid ""
 "- [ ] 2, 3, 1, 4\n"
