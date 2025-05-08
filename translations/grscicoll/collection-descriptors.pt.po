@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-22 09:36+0000\n"
-"PO-Revision-Date: 2025-04-22 11:12\n"
+"POT-Creation-Date: 2025-04-28 11:04+0000\n"
+"PO-Revision-Date: 2025-04-28 11:20\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -40,6 +40,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
 #: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
@@ -116,7 +117,7 @@ msgid "&nbsp;"
 msgstr ""
 
 #. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:89
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
 #, no-wrap
@@ -138,6 +139,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:3
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:3
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:3
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:3
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:3
 #, no-wrap
 msgid "Video"
@@ -156,6 +158,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:14
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:14
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:14
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:14
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:14
 #, no-wrap
 msgid "Video transcript"
@@ -167,6 +170,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
 #, no-wrap
 msgid "Click to expand"
@@ -379,13 +383,16 @@ msgid "This collection contains bony fish specimens from the African coast gathe
 msgstr ""
 
 #. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:108
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:120
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:128
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:137
 #, no-wrap
-msgid "Table 1"
+msgid "{empty}"
 msgstr ""
 
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:116
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
 #, no-wrap
 msgid "| continent | date | taxon | Is type | Percentage identified at genus level\n\n"
 "| Africa | XIX | Bony fish |  | 50\n"
@@ -394,28 +401,16 @@ msgid "| continent | date | taxon | Is type | Percentage identified at genus lev
 "| Africa |  | Bothus podas | TRUE | \n"
 msgstr ""
 
-#. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
-#, no-wrap
-msgid "Table 2"
-msgstr ""
-
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:124
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n\n"
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine\n"
 "| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine\n"
 msgstr ""
 
-#. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126
-#, no-wrap
-msgid "Table 3"
-msgstr ""
-
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:133
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:135
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level\n\n"
 "| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50\n"
@@ -423,14 +418,8 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percen
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine | \n"
 msgstr ""
 
-#. type: Block title
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:135
-#, no-wrap
-msgid "Table 4"
-msgstr ""
-
 #. type: Table
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:144
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:146
 #, no-wrap
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percentage identified at the genus level | dwc:typeStatus\n\n"
 "| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50 | \n"
@@ -442,12 +431,12 @@ msgstr ""
 
 #. Question
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:148
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:150
 msgid "Which ranking orders the table from the poorest to the richest data mapped?"
 msgstr ""
 
 #. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:155
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:157
 #, no-wrap
 msgid "- [ ] 2, 3, 1, 4\n"
 "- [x] 1, 2, 3, 4\n"
