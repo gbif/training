@@ -1,0 +1,421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-07-29 21:59+0000\n"
+"PO-Revision-Date: 2025-07-29 22:03\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /main/translations/nodes/resourcing-collaborative-projects.pot\n"
+"X-Crowdin-File-ID: 44174\n"
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:50
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:58
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:67
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:75
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:79
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:87
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:91
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:99
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:103
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:111
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:122
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:130
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:139
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:146
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:52
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:60
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:71
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:79
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:83
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:91
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:95
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:103
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:114
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:122
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:131
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:138
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:47
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:55
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:59
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:67
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:71
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:79
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:88
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:96
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:105
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:113
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:122
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:130
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:139
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:146
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:45
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:53
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:64
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:72
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:76
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:84
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:88
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:96
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:113
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:121
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:132
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:139
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:10
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:10
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:10
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:10
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:10
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:10
+#, no-wrap
+msgid "Learning objectives"
+msgstr ""
+
+#. type: delimited block =
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:10
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:15
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:15
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:15
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:15
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:15
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:15
+msgid "After completing this module, you should be able to perform the following:"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:3
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:3
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:3
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:3
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:3
+#, no-wrap
+msgid "Context"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:23
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:22
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:25
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:23
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:23
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:23
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:20
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:24
+#, no-wrap
+msgid "Trainers"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:28
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:27
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:30
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:28
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:28
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:25
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:29
+msgid "The following trainers have developed the content for this topic:"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:34
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:34
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:29
+msgid "with additional contributions from:"
+msgstr ""
+
+#. type: Title =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:1
+#, no-wrap
+msgid "Resourcing and collaborative projects"
+msgstr ""
+
+#. type: Title =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:8
+#, no-wrap
+msgid "..."
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:17
+msgid "Describe node funding mechanisms"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:18
+msgid "Describe"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:27
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:31
+msgid "Anders Telenius, Sweden"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:31
+msgid "André Heughebaert, Belgium"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:32
+msgid "Anne-Sophie Archambeau, France"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:33
+msgid "Jean Paul Kubwimana, ARCOS"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:35
+msgid "GBIF staff consultant: Maheva Bagard Laursen, Programme Officer for Community and Capacity"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:37
+#, no-wrap
+msgid "Models for resourcing nodes activities"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:44
+#, no-wrap
+msgid "Experiences from ARCOS"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:52
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQyAq52I26pvnAd3CO1zq8TClfrmFM7lKulTfmjcalGmoSb3bJLUUyA3bDZzI-YeMZey8dU_v50t4YV/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:56
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:73
+#, no-wrap
+msgid "Experiences from Sweden"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:64
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRZGmPdKjR0jhUWFJBN1_H6shg54f2Bo3ogST8K0bFDGzjHl1Z_aT4inBlyNIJp6LzH58C31zwar7PF/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:68
+#, no-wrap
+msgid "Experiences from Belgium"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:76
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ4fOlQ84WEz9urdx6tuh8IpaayrD9m0ximlDE2YhsitjGuQzN9k7SN8eOy_yUhuSu59veqUgfqRKk0/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:80
+#, no-wrap
+msgid "Nodes resourcing exercise "
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:85
+msgid "Overview of resourcing in the community and speed dating activity - short exchanges with other node managers on the topic of resourcing for node activities and aiming to capture tips and recommendations."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:93
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vS-X7saEvVOR1sctblUx9ataD5W_ey2gOX4S8WZNiiFsSldgc8ulWThXT5BzcC19cRvw-baP3sf3HyW/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:97
+#, no-wrap
+msgid "GBIF support to collaborative projects"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:102
+msgid "An introduction to collaboration in the community with an overview of the different programmes supported by the GBIF Secretariat and nodes."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:110
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ3GFcDFbGGhUR6xjsC_FCE9Yp9iN2rIxB_zr4hPITyPR2QYEWKpHVDZi7K8BTZorK-NQdiumWSlQmJ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:114
+#, no-wrap
+msgid "Experiences from France"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:119
+msgid "There are many ways nodes can get involved in supporting collaborative projects, from leading projects, partnering in them, providing mentoring support, assisting as trainers, supporting assessment and reporting processes."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:127
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSBkvQV1d6el4oKEdBT40vcIA2yRSJKdw0duyGDdriv2mlGnKLUT-3OEhIk4sWImEiwtZloFmU__OAk/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:131
+#, no-wrap
+msgid "Project assessment exercise"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:136
+msgid "For this activity, we will split into groups focused on one of three typical project types: mentoring projects, data mobilization projects and regional events. Each group will firstly take on the role of assessing fictitious concept notes and then work on developing a full proposal."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:144
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQxQR_ViMHbmSRDPEgz6FlwY_mNn9jBSg3jL9MWeE5PDeXIJ5KNgbxBNdB0gPhtAwzCQMrijrM_XepK/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
