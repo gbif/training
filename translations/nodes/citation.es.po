@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-01-29 13:37\n"
+"POT-Creation-Date: 2025-05-28 09:29+0000\n"
+"PO-Revision-Date: 2025-05-28 11:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -19,6 +19,7 @@ msgstr ""
 #. type: Title =
 #: en/data-use/modules/ROOT/pages/citation.adoc:1
 #: en/epn/modules/ROOT/pages/citation.adoc:1
+#: en/grscicoll/modules/ROOT/pages/citation.adoc:1
 #: en/nodes/modules/ROOT/pages/citation.adoc:1
 #, no-wrap
 msgid "Citation"
@@ -27,6 +28,7 @@ msgstr ""
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/citation.adoc:3
 #: en/epn/modules/ROOT/pages/citation.adoc:3
+#: en/grscicoll/modules/ROOT/pages/citation.adoc:3
 #: en/nodes/modules/ROOT/pages/citation.adoc:3
 #, no-wrap
 msgid "Suggested citation"
@@ -35,114 +37,35 @@ msgstr ""
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/citation.adoc:7
 #: en/epn/modules/ROOT/pages/citation.adoc:7
+#: en/grscicoll/modules/ROOT/pages/citation.adoc:7
 #: en/nodes/modules/ROOT/pages/citation.adoc:7
 #, no-wrap
 msgid "Licence"
 msgstr ""
 
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/citation.adoc:11
-#: en/epn/modules/ROOT/pages/citation.adoc:11
-#: en/nodes/modules/ROOT/pages/citation.adoc:11
-#, no-wrap
-msgid "Persistent URI"
-msgstr ""
-
+#. == Persistent URI
+#. &nbsp;
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/citation.adoc:15
 #: en/epn/modules/ROOT/pages/citation.adoc:15
+#: en/grscicoll/modules/ROOT/pages/citation.adoc:15
 #: en/nodes/modules/ROOT/pages/citation.adoc:15
 #, no-wrap
 msgid "Document control"
 msgstr ""
 
 #. type: Plain text
-#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
-#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
-#: en/data-use/modules/ROOT/pages/navigation.adoc:10
-#: en/data-use/modules/ROOT/pages/navigation.adoc:18
-#: en/data-use/modules/ROOT/pages/navigation.adoc:26
-#: en/epn/modules/ROOT/pages/assignments.adoc:59
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
-#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
-#: en/epn/modules/ROOT/pages/introduction.adoc:23
-#: en/epn/modules/ROOT/pages/introduction.adoc:31
-#: en/epn/modules/ROOT/pages/introduction.adoc:39
-#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
-#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
 #: en/nodes/modules/ROOT/pages/citation.adoc:6
+msgid "GBIF Nodes Development Curriculum. 1st edition 2025. GBIF Secretariat: Copenhagen."
+msgstr ""
+
+#. type: Plain text
 #: en/nodes/modules/ROOT/pages/citation.adoc:10
-#: en/nodes/modules/ROOT/pages/citation.adoc:14
+msgid "GBIF Nodes Development Curriculum is licensed under Creative Commons https://creativecommons.org/licenses/by-sa/4.0[Attribution-ShareAlike 4.0 Unported License^]."
+msgstr ""
+
+#. type: Plain text
 #: en/nodes/modules/ROOT/pages/citation.adoc:17
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
-#: en/nodes/modules/ROOT/pages/navigation.adoc:12
-#: en/nodes/modules/ROOT/pages/navigation.adoc:20
-#: en/nodes/modules/ROOT/pages/navigation.adoc:28
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
-msgid "&nbsp;"
+msgid "1st edition. May 2025"
 msgstr ""
 

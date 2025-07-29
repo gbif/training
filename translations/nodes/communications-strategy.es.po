@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2025-04-07 10:26\n"
+"POT-Creation-Date: 2025-07-29 21:59+0000\n"
+"PO-Revision-Date: 2025-07-29 22:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -16,9 +16,432 @@ msgstr ""
 "X-Crowdin-File: /main/translations/nodes/communications-strategy.pot\n"
 "X-Crowdin-File-ID: 41032\n"
 
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:50
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:58
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:67
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:75
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:79
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:87
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:91
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:99
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:103
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:111
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:122
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:130
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:139
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:146
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:52
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:60
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:71
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:79
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:83
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:91
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:95
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:103
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:114
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:122
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:131
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:138
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:47
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:55
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:59
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:67
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:71
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:79
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:88
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:96
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:105
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:113
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:122
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:130
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:139
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:146
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:45
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:53
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:64
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:72
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:76
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:84
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:88
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:96
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:113
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:121
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:132
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:139
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:10
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:10
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:10
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:10
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:10
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:10
+#, no-wrap
+msgid "Learning objectives"
+msgstr ""
+
+#. type: delimited block =
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:10
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:15
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:15
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:15
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:15
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:15
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:15
+msgid "After completing this module, you should be able to perform the following:"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:3
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:3
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:3
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:3
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:3
+#, no-wrap
+msgid "Context"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:23
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:22
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:25
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:23
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:23
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:23
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:20
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:24
+#, no-wrap
+msgid "Trainers"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:28
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:27
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:30
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:28
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:28
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:25
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:29
+msgid "The following trainers have developed the content for this topic:"
+msgstr ""
+
 #. type: Title =
 #: en/nodes/modules/ROOT/pages/communications-strategy.adoc:1
 #, no-wrap
-msgid "Communications strategy"
-msgstr "Estrategia de comunicación"
+msgid "Communications and stakeholder engagement"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:8
+msgid "An introduction to developing a communication plan for engaging your node’s network."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:17
+msgid "Describe the different types of audiences that GBIF needs to engage on the global level"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:18
+msgid "Understand that in developing a communication strategy, you need to adapt key messages to the specific audience you are engaging and select the appropriate medium"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:19
+msgid "Describe different communication means (media) that nodes can use to engage their network"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:20
+msgid "Adapt messages and media to different audiences"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:21
+msgid "Develop communication strategies tailored to specific audiences"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:30
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:30
+msgid "Anabela Plos, Argentina"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:31
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:31
+msgid "Carole Sinou, Canadensys"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:32
+msgid "Pierre Radji, Togo"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:34
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:34
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:29
+msgid "with additional contributions from:"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:36
+msgid "Cristina Villaverde, Spain"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:37
+msgid "Dairo Escobar, Colombia"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:38
+msgid "Luke Jimu, Zimbabwe"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:40
+msgid "GBIF staff consultant: Mélianie Raymond, Community and Capacity Manager"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:42
+#, no-wrap
+msgid "GBIF's communication strategy"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:47
+msgid "An introduction to the key audiences, communication needs and key messages in the GBIF communication strategy."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:55
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRTtBeifC9ez3guNXtZF-uth2TiA0RyXPMvMJ1gVBDXa_lZFGsdiMxhiMxEklSHNT4UNApEvpxs0ZPH/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:59
+#, no-wrap
+msgid "Communication and stakeholder engagement at the node level"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:64
+msgid "Nodes managers present on how to develop communications plans to assist them in engaging their key audiences."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:72
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSRyc0ipKJPqNUEQGWxLBoSJ7cgCA7kDyfq39Wv34OeHSDBYQhJ3yPY7ZurP7RdG-_EB7pc12s17ZA9/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:76
+#, no-wrap
+msgid "Experiences from Spain and Zimbabwe"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:84
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vS0TZkKNG-74RKE6_4d_gFQwMrh89lKyA2_hFo5hZe7x4IzBC_jwEMwh8fQosmGKMdO1QDlrCTHrJz4/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:88
+#, no-wrap
+msgid "Experiences from Togo"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:96
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTX9heOoz2WIjjqfQuXGDJqfJhPqp6uvifaIZs25C1hmbKUBPqeW4cfW-Y8HY1qZ1IX7v11JaP8T0wO/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:100
+#, no-wrap
+msgid "Experiences from Colombia"
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:108
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQwbsWbD-SgfXFNbbN3MksoRr-c1rpwhqbWhnhXKjbExNTomvTwf5CVtoaP5UN7hf8-RowKaOO6V6g0/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ==
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:112
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:104
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:97
+#, no-wrap
+msgid "Exercises"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
+#, no-wrap
+msgid "Engaging key audiences exercise "
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:119
+msgid "For this activity, Nodes will collect success stories on engaging key audiences across the nodes community."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:127
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSK5xcjs_kMzNySH41n27RmzMJsqaroQ6KpDjDqbQbsnJ2bHm3XIRdYt0d_HyY5PevaKvLzy1oNQBSC/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:131
+#, no-wrap
+msgid "Communication for stakeholder engagement exercise"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:136
+msgid "For this activity, you will work in pairs to design a communications approach for engaging a specific audience and practice delivering your key messages in sharing your approach back to your group."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:144
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTDzUMaDXOM4OOMaPkNoqCcTzNRaZP16TfrvLTDvo9GHxpwCdGM_rJP7RRWTz3cHVlpawts8z6e04X_/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
 
