@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-04-01 15:16+0000\n"
-"PO-Revision-Date: 2025-04-07 10:26\n"
+"POT-Creation-Date: 2025-07-30 10:42+0000\n"
+"PO-Revision-Date: 2025-07-30 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -32,58 +32,85 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:23
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:10
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:18
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:26
-#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:4
-#: en/nodes/modules/ROOT/pages/acknowledgements.adoc:13
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:51
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:57
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:88
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:103
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:118
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:133
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:139
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:143
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:147
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:167
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:66
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:81
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:96
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:111
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:128
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:143
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
-#: en/nodes/modules/ROOT/pages/citation.adoc:6
-#: en/nodes/modules/ROOT/pages/citation.adoc:10
-#: en/nodes/modules/ROOT/pages/citation.adoc:14
-#: en/nodes/modules/ROOT/pages/citation.adoc:17
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:63
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:71
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:78
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:86
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:91
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:99
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:107
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:115
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:124
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:132
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:139
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:147
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:154
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:161
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
@@ -93,32 +120,64 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/navigation.adoc:12
 #: en/nodes/modules/ROOT/pages/navigation.adoc:20
 #: en/nodes/modules/ROOT/pages/navigation.adoc:28
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:65
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:72
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:80
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:87
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:94
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:112
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:120
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:127
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:135
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:142
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:149
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:157
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:164
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
 #: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:10
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
 #: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:10
-#: en/nodes/modules/ROOT/pages/description.adoc:16
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
 #: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
 #, no-wrap
 msgid "Learning objectives"
 msgstr "Objetivos de aprendizaje"
@@ -126,29 +185,35 @@ msgstr "Objetivos de aprendizaje"
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
 #: en/epn/modules/ROOT/pages/establishing-a-node.adoc:8
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:15
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:15
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:10
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:17
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:17
 #: en/nodes/modules/ROOT/pages/case-for-participation.adoc:8
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:17
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:17
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:17
 #: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:8
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:15
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:17
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:18
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:17
 msgid "After completing this module, you should be able to perform the following:"
 msgstr "Después de completar este módulo, usted debe ser capaz de realizar lo siguiente:"
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/downloads.adoc:38
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:168
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:144
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:148
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:158
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:170
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:146
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:150
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:160
 #, no-wrap
 msgid "Action plan"
 msgstr "Plan de acción"
 
 #. type: Title =
 #: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:1
-#: en/nodes/modules/ROOT/nav.adoc:69
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:114
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:116
 #: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:1
 #, no-wrap
 msgid "Engaging stakeholders"
@@ -158,59 +223,79 @@ msgstr "Participación de los interesados"
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:3
 #: en/nodes/modules/ROOT/pages/business-sector.adoc:3
 #: en/nodes/modules/ROOT/pages/collections-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:3
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:3
 #: en/nodes/modules/ROOT/pages/research-communities.adoc:3
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:3
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:3
 #, no-wrap
 msgid "Context"
 msgstr "Contexto"
 
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:10
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:10
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:10
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:10
+msgid "These materials were developed as part of the 2023 Global Nodes training in Canberra, Australia."
+msgstr ""
+
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:23
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:22
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:25
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:23
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:25
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:24
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:27
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:25
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:25
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:25
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:27
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:26
 #, no-wrap
 msgid "Trainers"
 msgstr "Instructores"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:28
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:27
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:30
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:28
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:30
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:29
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:32
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:30
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:30
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:30
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:32
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:31
 msgid "The following trainers have developed the content for this topic:"
 msgstr "Los siguientes formadores han desarrollado el contenido de este tema:"
 
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:38
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:37
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:40
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:38
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:40
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:39
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:42
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:40
 #, no-wrap
 msgid "Preparation"
 msgstr "Preparación"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:43
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:42
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:45
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:43
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:45
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:44
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:47
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:45
 msgid "Complete the following activities to prepare for the onsite sessions:"
 msgstr "Completar las siguientes actividades para preparar las sesiones in situ:"
 
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:72
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:56
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:55
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:47
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:74
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:58
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:57
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:49
 #, no-wrap
 msgid "Module 1"
 msgstr "Módulo 1"
 
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:151
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:112
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:116
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:104
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:153
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:114
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:118
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:106
 #, no-wrap
 msgid "Module 2"
 msgstr "Módulo 2"
@@ -227,100 +312,100 @@ msgid "In recent years, several nodes have scaled up engagement with the private
 msgstr "En los últimos años, varios nodos han aumentado el compromiso con el sector privado, lo que ha dado lugar a una mayor movilización de datos, asociaciones y materiales de comunicación para apoyar un mayor compromiso (ver los recursos desarrollados y disponibles para su reutilización a través de https://www.gbif.org/project/2Zik1tfJoh3C92ZslvhDIr/[proyecto OpenPSD CESP] y https://www.gbif.org/business[página del sector empresarial de GBIF]). (Ver https://docs.gbif.org/nodes-implementation-2023/en/#3-promote-open-biodiversity-data-approaches-within-the-business-and-finance-sectors[Nodes Strategy #3] para más detalles.)"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:17
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:19
 msgid "Describe the business sector commitments to biodiversity."
 msgstr "Describir los compromisos del sector empresarial con la biodiversidad."
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:18
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:20
 msgid "Describe successful examples of engagement, training and data mobilization for the business sector."
 msgstr "Describir ejemplos exitosos de participación, capacitación y movilización de datos para el sector empresarial."
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:19
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:21
 msgid "Identify business sector organizations with biodiversity data."
 msgstr "Identificar a las organizaciones del sector empresarial con datos sobre biodiversidad."
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:20
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:22
 msgid "Develop a strategy to engage the business sector in the data mobilization process."
 msgstr "Elaborar una estrategia para hacer participar al sector empresarial en el proceso de movilización de datos."
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:29
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:31
 msgid "https://orcid.org/0000-0001-6902-1465[Anne-Sophie Archambeau^], Node Manager, France"
 msgstr "https://orcid.org/0000-0001-6902-1465[Anne-Sophie Archambeau], directora de nodo, Francia"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:31
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:33
 msgid "https://orcid.org/0000-0003-1070-1081[Ricardo Ortiz^], Node Manager, Colombia"
 msgstr "https://orcid.org/0000-0003-1070-1081[Ricardo Ortiz^], director de nodo, Colombia"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:33
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:35
 msgid "Secretariat consultant: https://orcid.org/0000-0002-5468-2452[Andrew Rodrigues^], Data Partnerships Officer"
 msgstr "Consultor de la Secretaría: https://orcid.org/0000-0002-5468-2452[Andrew Rodrigues], Oficial de Alianzas de Datos"
 
 #. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:34
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:36
 #, no-wrap
 msgid "nodes::business-sector-team.jpeg"
 msgstr "nodes::business-sector-team.jpeg"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:44
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:46
 #, no-wrap
 msgid "*Read* about https://www.gbif.org/business[GBIF and Business^] (webpage)\n"
 msgstr "*Leer* acerca de https://www.gbif.org/business[GBIF and Business] (página web)\n"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:46
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:48
 #, no-wrap
 msgid "*Watch video* on https://vimeo.com/473377963[Open Private Sector Data^] (PSD) (Vimeo - 4:43 min)\n"
 msgstr "*Watch video* on https://vimeo.com/473377963[Open Private Sector Data^] (PSD) (Vimeo - 4:43 min)\n"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:50
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:52
 #, no-wrap
 msgid "*Read* about https://www.gbif.org/data4nature[Data4Nature^]* (webpage and associated Vimeo - 1:17 min)\n"
 msgstr "*Read* about https://www.gbif.org/data4nature[Data4Nature^]* (webpage and associated Vimeo - 1:17 min)\n"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:52
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:54
 #, no-wrap
 msgid "*Read* about the https://www.gbif.org/news/6wybKvTFVZPWTLioIcOuB3/the-equator-principles-encourage-open-access-to-environmental-impact-data-through-the-gbif-network[Equator Principles^] (webpage)\n"
 msgstr "*Leer* sobre el https://www.gbif.org/news/6wybKvTFVZPWTLioIcOuB3/the-equator-principles-encourage-open-access-to-environmental-impact-data-through-the-gbif-f-network[Equator Principles] (página web)\n"
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:54
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:56
 #, no-wrap
 msgid "*Read* https://docs.gbif.org/private-sector-data-publishing/2.0/en/[Guidance for private companies to become data publishers through GBIF^] (guide)\n"
 msgstr "*Leer* https://docs.gbif.org/private-sector-data-publishing/2.0/en/[Guía para que las empresas privadas se conviertan en editores de datos a través del GBIF] (guía)\n"
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:58
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:60
 #, no-wrap
 msgid "GBIF and the business sector"
 msgstr "El GBIF y el sector empresarial"
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:62
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:64
 msgid "This presentation provides an introduction to the business sector, some key sustainabiltiy frameworks that are shaping the work of this sector and initiatives that GBIF is taking with this sector."
 msgstr "Esta presentación proporciona una introducción al sector empresarial, algunos marcos clave de sostenibilidad que están dando forma a la labor de este sector y las iniciativas que GBIF está tomando con este sector."
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:67
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:69
 #, no-wrap
 msgid "Business sector - France"
 msgstr "Sector empresarial - Francia"
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:71
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:73
 msgid "This presentation focuses on experiences with engaging the business sector in France."
 msgstr "Esta presentación se centra en las experiencias de participación del sector empresarial en Francia."
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:78
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:80
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTdgQ0tIAq5Dyz9Uvr9uza-3RMCTJEeZBpBnSPPRzsEgp2rbk0TRhSqaVvwZNF6EA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
@@ -330,18 +415,18 @@ msgstr "<div class=\"responsive-slides\">\n"
 "</div>\n"
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:82
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:84
 #, no-wrap
 msgid "Business sector - Colombia"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:86
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:88
 msgid "This presentation focuses on experiences with engaging the business sector in Colombia."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:93
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:95
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQhRXIeVJxdYFlLP_yYxm_XZUdTX8-HtmKsWxxt07LudsEJTxDA2YFQss0h7BB2hw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
@@ -349,18 +434,18 @@ msgid "<div class=\"responsive-slides\">\n"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:97
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:99
 #, no-wrap
 msgid "Nodes experience"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:101
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:103
 msgid "During this section you will complete a poll and contribute to a discussion on Nodes experiences in the business sector."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:108
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:110
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRX6IljwD55gpKL3y7T99n_pr3ajNy4DSK-eDCFndPWpQ5AY12Dm3HfueedS11HNA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
@@ -368,12 +453,12 @@ msgid "<div class=\"responsive-slides\">\n"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:118
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:120
 msgid "For this activity, you will be placed in one of three groups and with other group members will compile business sector needs and compare them with benefits and services offered by nodes."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:125
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:127
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSbkMnvsMLOd7g3OMGCV3LVOhvrEPyFOCEvltB8bepUJ1O0yDia7zoGT-ICFtuAbw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
@@ -381,18 +466,18 @@ msgid "<div class=\"responsive-slides\">\n"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:129
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:131
 #, no-wrap
 msgid "Key aspects for engaging the business sector"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:133
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:135
 msgid "This presentation focuses key aspects to allow your Node to begin to or better engage with the business sector in your country."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:140
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:142
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQjHxY8JbFfB5Z3mmFye5WP3o6EHjilz3QKXredl-FZ3QkmJkr5PitG3xsI1a7EJQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
@@ -400,12 +485,12 @@ msgid "<div class=\"responsive-slides\">\n"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:148
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:150
 msgid "Use this action plan to develop your mobilization strategy for engaging the business sector in your country. Share with your Node buddies for feedback."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:155
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:157
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQjA3OFluINufRXTaEM8B1VuQ0YzHrbQFhdPJEqG2XsqLEf0SffeNuWH5ecwVhKGA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
