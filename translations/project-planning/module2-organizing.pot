@@ -168,25 +168,13 @@ msgid "&nbsp;"
 msgstr ""
 
 #. type: Title ==
-#: en/epn/modules/ROOT/pages/participant-process.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:68
+#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
+#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:27
+#: en/project-planning/modules/ROOT/pages/module2-resourcing.adoc:27
 #, no-wrap
-msgid "Review"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:1
-#: en/grscicoll/modules/ROOT/pages/downloads.adoc:18
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:72
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:41
-#, no-wrap
-msgid "Collection descriptors"
+msgid "Activity"
 msgstr ""
 
 #. type: Title ==
@@ -232,320 +220,86 @@ msgid "Click to expand"
 msgstr ""
 
 #. type: Title =
-#: en/grscicoll/modules/ROOT/pages/downloads.adoc:11
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:1
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:1
 #, no-wrap
-msgid "How information is organized in GRSciColl"
+msgid "Organizing"
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:9
-#, no-wrap
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:10
 msgid ""
-"In this video (04:15), GBIF Data Administrator, Marie Grosjean, describes how information is organized in GRSciColl.   \n"
-"If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:26
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide1.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:29
-msgid ""
-"The content of GRSciColl centers around describing physical scientific "
-"collections: their content, location, contact information, and their "
-"associated institutions. The two types of entries that you will see on "
-"GRSciColl are *institutions* and *collections*."
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:30
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide2.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:33
-#, no-wrap
-msgid "*Collection* entries contain information about the collection. They can be associated or not with an institution (for example personal collections don’t have to be associated with any institution). Collections can have their own content description, address and contact information.\n"
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:34
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide3.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:37
-#, no-wrap
-msgid "*Institution* entries contain information about the collection-holding institutions. They can be associated with zero, one or several collections. They have their own description, expertise, address and contact information.\n"
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:38
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide4.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:41
-msgid ""
-"Both collection and institution entries can be associated with "
-"*identifiers*. These identifiers can be external ones (such as ROR "
-"identifiers for institutions) or can be historical."
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:42
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide5.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:45
-msgid ""
-"Both collection and institution entries can be connected to one external "
-"source of information called *master source*. Once an entry is connected to "
-"such a source, some fields will be automatically updated by the source. "
-"There are a limited number of possible sources."
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:48
-msgid ""
-"As of March 2025, only GBIF datasets, GBIF publishers and Index Herbariorum "
-"entries can be sources of information, but we are working on adding more."
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:49
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide6.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:52
-msgid ""
-"In addition to institution and collection entries, GRSciColl records are "
-"linked to *occurrence* records published on GBIF when possible. This allows "
-"to display some aggregated metrics on GRSciColl pages regardless of the way "
-"that the data were published on GBIF.org. One collection can be linked to "
-"occurrence records coming from different GBIF datasets and one dataset can "
-"have records linked to several collection entries. Occurrences are linked to "
-"institution and collection entries based on the collection and institution "
-"codes and identifiers used. The GRSciColl API also supports the creation of "
-"explicit mapping (find out more in the other modules)."
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:53
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide7.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:57
-msgid ""
-"GRSciColl also supports the upload of collection information as structured "
-"tables called *collection descriptors*. Collection descriptors can contain "
-"relevant details about collections and sub-collections as well as "
-"quantitative data which cannot be shared on collection pages (for example, "
-"the number of fossil specimens collected in a particular region). Some "
-"collection descriptors are used for indexing collections. This means that "
-"they improve collection discoverability. For example, a collection "
-"associated with a moss species name will be found by users looking for "
-"“Bryophyta” in the scientific name field of the collection search. "
-"Collection descriptors are particularly relevant for collections that aren’t "
-"fully digitized and/or where the specimen records aren’t available on GBIF."
-"org.  A collection can be associated with zero, one or several collection "
-"descriptor groups (tables)."
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:58
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide8.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:61
-msgid ""
-"Finally, any GRSciColl collection or institution entry can be associated "
-"with *machine tags* (machineTag). Machine tags are meant to be machine "
-"readable information to facilitate the programmatic processing of GRSciColl "
-"data (they are not meant to be displayed). For example, they are used by "
-"Integrated Digitized Biocollections (iDigBio) to show some of GRSciColl data "
-"on their https://portal.idigbio.org/portal/collections[collection portal^]."
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:63
-msgid ""
-"For the purpose of understanding the permission model here is a summary of "
-"the elements mentioned above:"
-msgstr ""
-
-#. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:64
-#, no-wrap
-msgid "grscicoll::module1-section1-Slide9.png"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:67
-msgid "Institution"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:68
-msgid "Collection"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:69
-msgid "Identifiers"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:70
-msgid "Master source"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:71
-msgid "Occurrences"
-msgstr ""
-
-#. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:73
-msgid "Machine tags"
+"This video (15:52) focuses on tasks and the ways that they can be organized "
+"in order to prepare practical workable plans and clear documentation.  If "
+"you are unable to watch the embedded video, you can link:../videos/"
+"Planning_Organizing.mp4[download^,opts=download] it locally. (MP4 - 26.2 MB)"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:84
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:56
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:32
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:134
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:141
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:145
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:72
-msgid "Quiz yourself on the concepts covered in this module."
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:33
+#: en/project-planning/modules/ROOT/pages/module2-resourcing.adoc:33
+msgid ""
+"For this activity, you will be using a virtual tabletop platform.  Review "
+"the exercise instructions below."
 msgstr ""
 
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:86
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:36
 msgid ""
-"_Review each page and identify which type of information is represented._"
+"Using the stakeholder and goal analysis from exercise 1a, develop a workflow "
+"using the STAGE cards."
 msgstr ""
 
-#.  Link 1
 #. type: delimited block =
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:89
-msgid ""
-"https://scientific-collections.gbif.org/specimen/search?"
-"entity=2512997445[https://scientific-collections.gbif.org/specimen/search?"
-"entity=2512997445^]"
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:38
+msgid "Re-read the use case introduction, if necessary."
 msgstr ""
 
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:96
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:39
+msgid "Decide which TASKS for which each ROLE will be responsible."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:40
+msgid "Review the STAGE cards and order the TASKS appropriately."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:41
+msgid "Use the previously downloaded exercise sheet to provide your answers."
+msgstr ""
+
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:44
 #, no-wrap
-msgid ""
-"- [ ] Collection\n"
-"- [x] Occurrence\n"
-"- [ ] Identifier\n"
+msgid "*Questions*   \n"
 msgstr ""
 
-#.  Link 2
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:99
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:47
 msgid ""
-"https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-"
-"bd51-8c9b07cb7daa[https://scientific-collections.gbif.org/"
-"collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa^]"
+"Are there obvious bottlenecks in the workflow? For example: Are there too "
+"many tasks for a particular role/resource?"
 msgstr ""
 
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:106
-#, no-wrap
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:49
 msgid ""
-"- [ ] Identifiers\n"
-"- [ ] Machine tags\n"
-"- [x] Collection\n"
+"What issues do you think would be important to the successful mobilization "
+"of data from the points of view of each stakeholder/role? For example: What "
+"are the deliverables? Thinking about the general project timeframe, are they "
+"realistic?"
 msgstr ""
 
-#.  Link 3
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:109
-msgid ""
-"https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/"
-"identifier[https://registry.gbif.org/institution/5667a399-386e-40be-"
-"b8b5-8b304305aa7e/identifier^]"
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:50
+msgid "Consolidate notes and prioritize in order of importance."
 msgstr ""
 
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:116
-#, no-wrap
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:51
 msgid ""
-"- [ ] Institution\n"
-"- [ ] Occurrence\n"
-"- [x] Identifier\n"
-msgstr ""
-
-#.  Link 4
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:119
-msgid ""
-"https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/"
-"descriptorGroup[https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-"
-"cbd609c31838/descriptorGroup^]"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:126
-#, no-wrap
-msgid ""
-"- [ ] Master source\n"
-"- [ ] Institution\n"
-"- [x] Collection descriptors\n"
-msgstr ""
-
-#.  Link 5
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:129
-msgid ""
-"https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-"
-"b822-673f3d36eef4[https://scientific-collections.gbif.org/"
-"institution/2a3a7a96-3cea-4251-b822-673f3d36eef4^]"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:136
-#, no-wrap
-msgid ""
-"- [x] Institution\n"
-"- [ ] Collection\n"
-"- [ ] Occurrence\n"
-msgstr ""
-
-#.  Link 6
-#. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:139
-msgid ""
-"https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/"
-"master-source[https://registry.gbif.org/collection/"
-"b2190553-4505-4fdd-8fff-065c8ca26f72/master-source^]"
-msgstr ""
-
-#. type: delimited block .
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:146
-#, no-wrap
-msgid ""
-"- [ ] Institution\n"
-"- [x] Master source\n"
-"- [ ] Collection\n"
+"If you have time you can explore different combinations as different "
+"scenarios are possible in different contexts or even try to document the "
+"situation for your own project."
 msgstr ""
