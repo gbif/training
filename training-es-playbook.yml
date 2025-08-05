@@ -29,6 +29,9 @@ content:
     - url: .
       start_path: ./es/grscicoll
       branches: HEAD
+     - url: .
+      start_path: ./es/project-planning
+      branches: HEAD         
 output:
   clean: false
   dir: ./output/es
