@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-05-28 08:50+0000\n"
-"PO-Revision-Date: 2025-05-28 08:52\n"
+"POT-Creation-Date: 2025-08-05 16:29+0000\n"
+"PO-Revision-Date: 2025-08-05 16:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -39,78 +39,80 @@ msgid "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF^]"
 msgstr ""
 
 #. ** xref:intro-to-gbif::index.adoc[Introduction to GBIF]
-#.  ** lorem ipsum.
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:16
+#: en/home/modules/ROOT/pages/index.adoc:15
 msgid "https://docs.gbif.org/course-data-mobilization[image:Courses-02.png[]^]"
 msgstr ""
 
 #. * xref:data-mobilization::index.adoc[image:Courses-02.png[]]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:17
+#: en/home/modules/ROOT/pages/index.adoc:16
 msgid "https://docs.gbif.org/course-data-mobilization[Biodiversity data mobilization^]"
 msgstr ""
 
 #. ** xref:data-mobilization::index.adoc[Biodiversity data mobilization]
-#.  ** lorem ipsum
-#. ** https://docs.gbif.org/course-data-use[Biodiversity data use^]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:22
-msgid "https://docs.gbif.org/course-data-use[image:Courses-03.png[]^]"
+#: en/home/modules/ROOT/pages/index.adoc:20
+msgid "xref:data-use::index.adoc[image:Courses-07.png[]]"
 msgstr ""
 
-#. * xref:data-use::index.adoc[image:Courses-03.png[]]
-#.  ** loloremrum ipsum
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:25
+#: en/home/modules/ROOT/pages/index.adoc:21
+msgid "xref:project-planning::index.adoc[Biodiversity data mobilization project planning]"
+msgstr ""
+
+#. type: Plain text
+#: en/home/modules/ROOT/pages/index.adoc:23
+msgid "xref:data-use::index.adoc[image:Courses-03.png[]]"
+msgstr ""
+
+#. type: Plain text
+#: en/home/modules/ROOT/pages/index.adoc:24
 msgid "xref:data-use::index.adoc[Introduction to using GBIF-mediated data]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:28
-msgid "xref:grscicoll::index.adoc[image:Courses-08.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:29
-msgid "xref:grscicoll::index.adoc[Editing GRSciColl]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:31
+#: en/home/modules/ROOT/pages/index.adoc:26
 msgid "xref:nodes::index.adoc[image:Courses-05.png[]]"
 msgstr ""
 
-#. ** https://globalnodes.gbif.org/en/gnt/[Global Nodes Training 2023^]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:32
+#: en/home/modules/ROOT/pages/index.adoc:27
 msgid "xref:nodes::index.adoc[Nodes development]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:35
+#: en/home/modules/ROOT/pages/index.adoc:29
 msgid "xref:epn::index.adoc[image:Courses-06.png[]]"
 msgstr ""
 
-#.  ** lorem ipsum
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:36
+#: en/home/modules/ROOT/pages/index.adoc:30
 msgid "xref:epn::index.adoc[Formal engagement and establishing Participant nodes]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:32
+msgid "xref:grscicoll::index.adoc[image:Courses-08.png[]]"
+msgstr ""
+
+#. type: Plain text
+#: en/home/modules/ROOT/pages/index.adoc:33
+msgid "xref:grscicoll::index.adoc[Editing GRSciColl]"
+msgstr ""
+
+#. type: Plain text
+#: en/home/modules/ROOT/pages/index.adoc:35
 msgid "https://docs.gbif.org/course-dna-barcoding[image:Courses-04.png[]^]"
 msgstr ""
 
 #. * xref:dna-barcoding::index.adoc[image:Courses-04.png[]]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:36
 msgid "https://docs.gbif.org/course-dna-barcoding[Accelerating biodiversity research through DNA barcodes, collection and observation data^]"
 msgstr ""
 
 #. ** xref:dna-barcoding::index.adoc[Accelerating biodiversity research through DNA barcodes, collection and observation data]
-#.  ** lorem ipsum
 #. [.discrete]
 #. == Community resources
 #. [.smallblocks]
@@ -126,13 +128,13 @@ msgstr ""
 #. xref:global-nodes::index.adoc[View all of this]
 #. --
 #. type: Title ==
-#: en/home/modules/ROOT/pages/index.adoc:63
+#: en/home/modules/ROOT/pages/index.adoc:58
 #, no-wrap
 msgid "What are you looking for?"
 msgstr ""
 
 #. type: delimited block +
-#: en/home/modules/ROOT/pages/index.adoc:69
+#: en/home/modules/ROOT/pages/index.adoc:64
 #, no-wrap
 msgid "<div id=\"search-field\" class=\"main-page-search\">\n"
 "  <input id=\"search-input\" type=\"text\" placeholder=\"Search\" style=\"display: block; width: 100%; font-size: 2rem; background: #f2f2f2; padding: 0.25rem 1rem; border: none; margin: 1rem 0;\">\n"
