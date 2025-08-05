@@ -31,7 +31,7 @@ content:
       branches: HEAD
      - url: .
       start_path: ./it/project-planning
-      branches: HEAD         
+      branches: HEAD
 output:
   clean: false
   dir: ./output/it
