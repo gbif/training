@@ -1,0 +1,282 @@
+= Assessing the project overview and defining activities and deliverables
+
+== Learning objectives
+
+[NOTE.objectives]
+====
+This module will review the overall objectives that your project will address.
+
+After completing this module, you should be able to perform the following:
+
+* Understand the key elements of the project overview section
+* Understand the key elements of the activities and deliverables section
+* Understand the SMART framework
+* Understand key terms that apply to data mobilization projects
+* Understand the dataset classes supported by GBIF
+* Understand the elements to consider when selecting the dataset classes, scope and structure of the datasets and number of records to be published through GBIF
+====
+
+== Project considerations
+
+* What will this project accomplish, both in terms of records published and increased capacity?
+* What are the project’s expected deliverables?
+* Why is the data mobilized by the project needed?
+* Who will it benefit and how?
+* Are there considerations regarding Indigenous data sovereignty and governance that relate to the data mobilization effort in the project?
+* What are the time and staffing requirements for each activity? Does the plan align with the overall project duration?
+* How will data mobilization activities be sustained into the future?
+
+== Presentation
+
+[NOTE.presentation]
+In this presentation, we will introduce some of the keys aspects we expect to see in a project full proposal submitted under a GBIF-managed call.  
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSXUz6D1GnbQP5b6FWLusDpsdNGnu7fENUKqQxC0f3yoRgxPZOSQS9gPOiwqWm2Lg/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+
+== Text transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+Slide 1 - Assessing project overview and defining activities and deliverables
+
+In this presentation, we will introduce some of the keys aspects we expect to see in a project full proposal submitted under a GBIF-managed call. 
+
+Slide 2 Tips
+
+To begin, we'd like to list a few tips that can be applied throughout your project proposal:
+
+You should continue to build upon the content of your concept note. If you have been selected to submit a full proposal, this means that the reviewers found merit in your concept note. Thus, it is important to build on it by considering the recommendations and feedback communicated by the evaluation panel. Update and expand any section as relevant.
+
+Addressing the feedback you received on your concept note is a criterion of evaluation. The reviewers will expect that any identified issues or recommendations will be addressed in your full proposal. If you believe that is not feasible to address a specific feedback, then you should give a rationale explaining why.
+
+In general, be brief and clear. Answer each section as clearly as possible and make sure you focus on the main message you want to convey. Only add background or additional information if really needed and preferably through links to background documents and/or external resources.
+
+Slide 3 - Project overview
+
+The first part of the project proposal contains the project overview:
+This includes:
+The overall objective, expected outcomes/impacts, the project description, and the expected use of the data to be mobilized by the project.
+
+Your project description should state, clearly and briefly, the project's long-term objective and any activities that contribute to the overall objective. 
+
+Keep in mind that you have a limited amount of characters to describe your project and should this project be funded, that we will use this summary to describe the project in public communications, so it is important that it captures what the project will accomplish at a high level.
+
+Slide 4
+
+So if your project overview is at a high-level, you then need to get into the specifics in the next section of the proposal with your project activities and deliverables. 
+
+Each activity should directly contribute to the objective(s) set forth in your project. 
+
+Each activity will also have a companion deliverable or impact. Additionally, as all projects funded through the BID programme have a mobilization component, you will also detail any datasets you expect to deliver as part of the project.
+
+To write effective activities and deliverables, it is good to use the SMART framework. SMART is the acronym for Specific, Measurable, Achievable, Relevant, and Time-bound. This framework allows you to clearly define what you want to achieve, how you'll measure progress, ensure it's realistic, aligns with overall objective, and when it will be complete. And as a part of being specific, this is also a good opportunity to define who (perhaps a specific role or team) will be responsible for completing the activities and deliverables.
+
+Slide 5
+Glossary terms
+
+GBIF has some specific terminology when it comes to mobilization projects which might be helpful during your proposal writing process.
+
+Slide 6
+•	Digitization is the act of converting information into a digital format that can be processed by a computer.
+•	Mobilization is the act of bringing resources into use to achieve a particular goal.
+•	In project management terminology, Resources are required to carry out project tasks. Resources can be people, equipment, facilities, or funding required for the completion of an activity.
+
+Slide 7
+The next four terms are dataset types. You can read more about each of the dataset types on the GBIF website. The dataset types increase in the complexity of data you can provide with each
+
+Dataset type - Metadata Only
+A metadata only dataset primarily shares descriptive information about biodiversity data, rather than the data itself. This allows researchers to discover and understand the existence and location of biodiversity data, even if it's not yet available online or is held in non-digital formats. In this case, the available data including the potential volume of data would be described. But no records would be included.
+
+Slide 8
+Dataset type - Checklist
+
+A checklist dataset is a catalogue of scientific names of organisms sharing a common theme or feature. Information is typically categorized along, taxonomic, geographic, or thematic lines.
+
+The number of records published in a checklist is typically lower as it provides a unique list of names. However it is possible to publish a checklist and include related occurrences which would then include two different counts of records, one for the list of unique names of the checklist and an associated count of the occurrences that meet the criterion of the checklist.
+
+Slide 9
+Dataset type - Occurrence
+An occurrence dataset is a set of digital records detailing facts about organisms, observations or the collection of specimens. It contains scientific names, dates, and locations. It provides the what, when, and where something was collected or observed. It often contains Who as well. Like Who collected it and who identified it. There are many more fields that can be shared as well. To make data as fit for use for users, it is best to share more data than less.
+
+The number of records in occurence dataset could be range from small to quite large.  If an institution decides to share all their records, they might choose to publish multiple datasets over thematic groups.
+
+One last note related to record counts with respect to occurrences with associated images.
+
+an occurrence record equals one organism observed or collected at a given location and at a given time.
+
+1 observation + 5 images of that same observation from different angles = 1 occurrence record + 5 associated images (not 5 occurrences)
+1 herbarium specimen + 3 different scans of the herbarium sheet = 1 occurrence record + 3 associated images
+
+Associated images can be shared along side occurrences in an occurrence dataset.
+
+Slide 10
+Dataset type – Sampling event
+The third dataset type is sampling event. A sampling event dataset is the output of monitoring programmes that are quantitative, calibrated, repeatable, and comparable.
+It contains scientific names, dates, locations, and sampling protocols.
+
+The number of records in a sampling event can also range from small to large depending on what was conducting during the sampling event.
+
+Like checklists, a sampling event dataset can be paired with the related occurrences that were observed or collected during the event.
+
+Slide 11
+Data publishing
+
+Data publishing is the act of making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL).
+
+Most organizations, otherwise known as publishers, make use of an IPT, the Integrated Publishing Toolkit, to publish their data. These publishers may choose to host their own installation of an IPT, but generally prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node, through an established thematic group, or through a GBIF-hosted regional IPTs.
+
+If you are part of groups like Symbiota or the Living Atlases Communities, they have other means to assist you with publishing your data to GBIF.
+
+Slide 11
+So in review:
+
+Start with a clear understanding of the project's overall purpose and what you aim to achieve and involve your team members and other relevant stakeholders in the objective-setting process. Keep it concise: project objectives should be easy to understand and remember and should no be overly long or complex. 
+
+And when writing activities and deliverables be SMART!
+
+Slide 12
+Thank you
+
+--
+====
+== Activity
+
+[NOTE.quiz]
+Quiz yourself on the concepts learned in this section.
+
+// Note the lack of empty lines between the end of the question (....) and the start of the next question
+// (. What…) is required, so I have added // comments to help separate them.
+// The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+
+****
+// Question 1
+. What dataset type(s) would you choose for an ichthyology collection?
++
+[question, mc]
+....
+:figure-caption!:
+.https://www.gbif.org/occurrence/441867173[Eutrigla gurnardus (Linnaeus, 1758)] | Muséum d’histoire naturelle de Nice
+image::img/web/QDataTypes-specimen.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [x] checklist
+- [ ] sampling event
+....
+// Question 2
+. What dataset type(s) would you choose for a list of invasive species?
++
+[question, mc]
+....
+:figure-caption!:
+.Water hyacinth (Eichhornia crassipes) observed in Bourail, New Caledonia, where it is an introduced and invasive species by GRIIS. Photo by gérard (2016) licensed under CC BY-SA 2.0
+image::img/web/QDataTypes-plant.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [x] checklist
+- [ ] sampling event
+....
+// Question 3
+. What dataset type(s) would you choose for the flora and fauna of an environmental impact study?
++
+[question, mc]
+....
+Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).
+
+:figure-caption!:
+.https://upload.wikimedia.org/wikipedia/commons/6/64/Entomologist_chasing_buterflies.jpg[Entomologist chasing butterflies] by Matthieu Gauvain (CC-BY-SA)
+image::img/web/QDataTypes-field.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [ ] checklist
+- [x] sampling event
+....
+// Question 4
+. What dataset type(s) would you choose for bird tracking data?
++
+[question, mc]
+....
+Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.
+
+:figure-caption!:
+.https://commons.wikimedia.org/wiki/File:Griffon_vulture_at_Gamla_nature_reserve.jpg[Griffin vulture] observed at Gamla Nature Reserve by מינוזיג - MinoZig (CC0) 
+image::img/web/QDataTypes-tracking.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [ ] checklist
+- [ ] sampling event
+....
+// Question 5
+. What dataset type(s) would you choose for insect trap data?
++
+[question, mc]
+....
+:figure-caption!:
+.https://www.flickr.com/photos/miheco/215305679/[Insect trap] by miheco (CC-BY-SA)
+image::img/web/QDataTypes-traps.png[align="center",width=640,height=360]
+
+- [x] occurrence
+- [ ] checklist
+- [x] sampling event
+....
+// Question 6
+. What dataset type(s) would you choose for national park management data?
++
+[question, mc]
+....
+Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.
+
+:figure-caption!:
+.https://pixabay.com/photos/%C3%A9l%C3%A9phant-%C3%A9l%C3%A9phant-d-asie-4037451/[Sri Lankan elephants] observed by pen_ash.
+image::img/web/QDataTypes-Observations.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [x] checklist
+- [x] sampling event
+....
+// Question 7
+. What dataset type(s) would you choose for a citizen science bioblitz?
++
+[question, mc]
+....
+Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.
+
+Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.
+
+:figure-caption!:
+.https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)
+image::img/web/QDataTypes-citizen.png[align=center,width=640,height=360]
+
+- [x] occurrence
+- [ ] checklist
+- [x] sampling event
+....
+// Question 8
+. What dataset type(s) would you choose for a regional species list?
++
+[question, mc]
+....
+:figure-caption!:
+.https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300
+image::img/web/QDataTypes-threatened.png[align=center,width=640,height=360]
+
+- [ ] occurrence
+- [x] checklist
+- [ ] sampling event
+....
+****
