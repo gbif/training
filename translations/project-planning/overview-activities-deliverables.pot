@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-12 18:51+0000\n"
+"POT-Creation-Date: 2025-08-12 19:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,8 +163,9 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:23
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:31
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:38
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:43
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:162
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:167
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
@@ -228,9 +229,9 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:156
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:26
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:217
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:218
 #: en/project-planning/modules/ROOT/pages/resourcing.adoc:26
 #, no-wrap
 msgid "Activity"
@@ -244,6 +245,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:34
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:16
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:36
 #: en/project-planning/modules/ROOT/pages/resourcing.adoc:16
@@ -257,6 +259,24 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:19
 #, no-wrap
 msgid "Presentation"
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:152
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:132
+msgid ""
+"A richer type of dataset available on GBIF is checklist datasets. They can "
+"help capture and share information at the taxon level, such as taxonomy,  or "
+"properties (e.g. invasive, vernacular names, threatened, etc.) of a given "
+"list of taxa. Checklists must contain individual taxon records and their "
+"relevant associated fields."
 msgstr ""
 
 #. type: Title =
@@ -319,12 +339,6 @@ msgid ""
 "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSXUz6D1GnbQP5b6FWLusDpsdNGnu7fENUKqQxC0f3yoRgxPZOSQS9gPOiwqWm2Lg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
-
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
-#, no-wrap
-msgid "Presentation transcript"
 msgstr ""
 
 #. type: Target for macro image
@@ -640,16 +654,6 @@ msgstr ""
 msgid "*Slide 10 - Glossary terms - dataset - Checklist*\n"
 msgstr ""
 
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:132
-msgid ""
-"A richer type of dataset available on GBIF is checklist datasets. They can "
-"help capture and share information at the taxon level, such as taxonomy,  or "
-"properties (e.g. invasive, vernacular names, threatened, etc.) of a given "
-"list of taxa. Checklists must contain individual taxon records and their "
-"relevant associated fields."
-msgstr ""
-
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:133
 #, no-wrap
@@ -957,7 +961,7 @@ msgid "*Slide 18 - Thank you*\n"
 msgstr ""
 
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:221
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:222
 msgid "Check your understanding of the dataset types with published records."
 msgstr ""
 
@@ -966,12 +970,12 @@ msgstr ""
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:230
 msgid "What dataset type(s) would you choose for an ichthyology collection?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:235
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:236
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -980,8 +984,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:241
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:254
 #, no-wrap
 msgid ""
 "- [x] occurrence\n"
@@ -991,12 +995,12 @@ msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:244
 msgid "What dataset type(s) would you choose for a list of invasive species?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:249
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:250
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1006,20 +1010,20 @@ msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:257
 msgid ""
 "What dataset type(s) would you choose for the flora and fauna of an "
 "environmental impact study?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:261
 #, no-wrap
 msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:264
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:265
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1028,9 +1032,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:269
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:297
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:329
 #, no-wrap
 msgid ""
 "- [x] occurrence\n"
@@ -1040,18 +1044,18 @@ msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:272
 msgid "What dataset type(s) would you choose for bird tracking data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:276
 #, no-wrap
 msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:279
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:280
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1060,7 +1064,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:284
 #, no-wrap
 msgid ""
 "- [x] occurrence\n"
@@ -1070,12 +1074,12 @@ msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:287
 msgid "What dataset type(s) would you choose for insect trap data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:292
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:293
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1085,19 +1089,19 @@ msgstr ""
 
 #.  Question 6
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:300
 msgid ""
 "What dataset type(s) would you choose for national park management data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:304
 #, no-wrap
 msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:307
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:308
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1106,7 +1110,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:312
 #, no-wrap
 msgid ""
 "- [x] occurrence\n"
@@ -1116,24 +1120,24 @@ msgstr ""
 
 #.  Question 7
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:315
 msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:319
 #, no-wrap
 msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:321
 #, no-wrap
 msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:324
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:325
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1143,12 +1147,12 @@ msgstr ""
 
 #.  Question 8
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:332
 msgid "What dataset type(s) would you choose for a regional species list?"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:337
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:338
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
@@ -1157,7 +1161,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:342
 #, no-wrap
 msgid ""
 "- [ ] occurrence\n"
