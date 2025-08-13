@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-12 19:17+0000\n"
+"POT-Creation-Date: 2025-08-13 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,8 +159,7 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:35
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:23
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:23
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:31
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:43
@@ -195,7 +194,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
-#: en/project-planning/modules/ROOT/pages/oldmodule2.adoc:3
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
 #, no-wrap
 msgid "Learning objectives"
@@ -218,134 +216,155 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:18
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:17
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:10
-#: en/project-planning/modules/ROOT/pages/oldmodule2.adoc:12
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:10
 msgid ""
 "After completing this module, you should be able to perform the following:"
 msgstr ""
 
-#. type: Title ==
-#: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
-#: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:156
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:26
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:218
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:26
-#, no-wrap
-msgid "Activity"
-msgstr ""
-
 #. type: Title =
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:1
 #, no-wrap
-msgid "Module 4: Final output"
+msgid "Module 3: Documenting a full proposal"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:8
-msgid "some text here"
+msgid ""
+"This module provides a demonstration of working in the GBIF Grants Portal on "
+"a BID Full Proposal"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:12
-msgid "learning objective"
+msgid "Understand the elements in a dataset deliverable"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:13
+msgid "Develop a dataset deliverable"
 msgstr ""
 
 #. type: Title ==
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:14
-#, no-wrap
-msgid "Module content and considerations"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:17
-msgid "Dataset Title"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:18
-msgid "Dataset Type"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:19
-msgid "Approximate # of Records"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:20
-msgid ""
-"Current Format of the data (i.e., undigitized, partially digitized, "
-"digitized)"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:21
-msgid "Geographic Scope"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:22
-msgid "Temporal Scope"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:23
-msgid "Taxonomic Scope"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:24
-msgid "Sampling Methodology (if relevant)"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:25
-msgid "Relevance [why this dataset?]"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:26
-msgid "Data Holders"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:27
-msgid ""
-"Has the data holder confirmed agreement to publish the data through GBIF?"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:28
-msgid "Expected Publication date"
-msgstr ""
-
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:29
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:16
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:17
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:19
 #, no-wrap
 msgid "Presentation"
 msgstr ""
 
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:33
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:21
-msgid "This presentation"
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:21
+msgid ""
+"This video demonstrates how to add a dataset deliverable in a BID full "
+"proposal."
 msgstr ""
 
-#. type: delimited block +
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:28
+#, no-wrap
+msgid "Example of a dataset deliverable"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+msgid ""
+"This example is largely based on a real dataset (DOI: https://doi."
+"org/10.15468/viradl[10.15468/viradl^]), but includes fictional elements to "
+"illustrate key concepts"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:34
+#, no-wrap
+msgid ""
+"*Dataset Title* \n"
+"Solomon Islands Community Seagrass & Dugong Conservation Data (2018-2024)\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
+#, no-wrap
+msgid ""
+"*Dataset Type*\n"
+"Sampling-events, survey, monitoring\n"
+msgstr ""
+
+#. type: Plain text
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:40
 #, no-wrap
 msgid ""
-"<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR4lH2Qj9W_9Kg_wlgLOeMCn8bUCjoAtU1bS3nVI504pszvBooQi3221xmhBoJyIQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
-"</div>\n"
+"*Approximate # of Records*\n"
+"1500\n"
 msgstr ""
 
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:48
-msgid "Quiz"
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+#, no-wrap
+msgid ""
+"*Current Format of the data (i.e., undigitized, partially digitized, digitized)*\n"
+"Partially digitized (Data up to 2022 have been digitized, however, data collected in 2023 and 2024 are still in paper form in field notebooks).\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:46
+#, no-wrap
+msgid ""
+"*Geographic Scope*\n"
+"Tetepare island (Western Province), Kmaga (Isable Province) and Marau (Guadalcanal Province)\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:49
+#, no-wrap
+msgid ""
+"*Temporal Scope*\n"
+"15 January 2018 to 31 January 2024\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#, no-wrap
+msgid ""
+"*Taxonomic Scope*\n"
+"Cymodocea rotundata, Cymodocea serulata, Enhalus acoroides, Halodule uninervis, Halophila Ovalis, Syringodium Isoetifolium, Thalassia hemprichii, Thalassoden Ciliatum, Zostera Capricorni\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:55
+#, no-wrap
+msgid ""
+"*Sampling Methodology (if relevant)*\n"
+"Annual survey using 50 m fixed transect and standardized checklists to record seagrass and dugong occurrences and associated observations.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:58
+#, no-wrap
+msgid ""
+"*Relevance [why this dataset?]*\n"
+"The publication of this dataset will highlight the impact of community-based conservation efforts. It will also support Target 8 of the GBF by contributing to efforts to minimize the impact of climate change on biodiversity and build resilience, and promote the role of Locally Managed Marine Areas, a national priority identified in the Solomon Islands’ National Biodiversity Strategy and Action Plan (NBSAP). By publishing this dataset as a sampling event, it will enable the sharing of information on the relative abundance of species over time.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:61
+#, no-wrap
+msgid ""
+"*Data Holders*\n"
+"Solomon Islands Ministry of the Environment and Climate Change\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:64
+#, no-wrap
+msgid ""
+"*Has the data holder confirmed agreement to publish the data through GBIF?*\n"
+"Yes\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:66
+#, no-wrap
+msgid ""
+"*Expected Publication date*\n"
+"25 June 2026\n"
 msgstr ""
