@@ -119,16 +119,13 @@ image::project-planning::oad9.png[align=center]
 
 *Slide 9 - Glossary terms - dataset metadata only*
 
-The next four terms are dataset types. You can read more about each of the dataset types on the GBIF website. The dataset types increase in the complexity of data you can provide with each
-
-Dataset type - Metadata Only
-The simplest type of dataset that can be shared on GBIF are metadata-only datasets. They allow participants to highlight and describe data that may not be available online yet. Metadata-only datasets can be particularly useful in regions where there is a need to identify possible sources of biodiversity data. They can describe for example, undigitized or untranscribed biodiversity-related documents.
+A biodiversity data holding otherwise known as a metadata-only dataset is the simplest type of dataset that can be shared on GBIF. They allow participants to highlight and describe data that may not be available online yet. Metadata-only datasets can be particularly useful in regions where there is a need to identify possible sources of biodiversity data. They can describe for example, undigitized or untranscribed biodiversity-related documents.
 
 image::project-planning::oad10.png[align=center]
 
 *Slide 10 - Glossary terms - dataset - Checklist*
 
-A richer type of dataset available on GBIF is checklist datasets. They can help capture and share information at the taxon level, such as taxonomy,  or properties (e.g. invasive, vernacular names, threatened, etc.) of a given list of taxa. Checklists must contain individual taxon records and their relevant associated fields.
+Species or taxon lists otherwise known as checklists are a richer type of dataset available on GBIF. They can help capture and share information at the taxon level, such as taxonomy,  or properties (e.g. invasive, vernacular names, threatened, etc.) of a given list of taxa. Checklists must contain individual taxon records and their relevant associated fields.
 
 image::project-planning::oad11.png[align=center]
 
@@ -151,8 +148,11 @@ image::project-planning::oad12.png[align=center]
 
 *Slide 12 - Glossary terms - dataset – Sampling event*
 
-The third dataset type is sampling event. A sampling event dataset is the output of monitoring programmes that are quantitative, calibrated, repeatable, and comparable.
-It contains scientific names, dates, locations, and sampling protocols.
+Sampling-event, survey and monitoring datasets are the richest type of datasets available on GBIF.
+
+Sampling-event data describes species occurrences in time and space together with details of sampling effort. Such data is available from thousands of environmental, ecological, and natural resource investigations. These can be one-off studies or monitoring programs. Such data are usually quantitative, calibrated, and follow certain protocols so that changes and trends of populations can be detected.
+
+All sampling event datasets contain occurrences. They also contain records of events and information about the sampling context (“how?”). These can be captured in event fields (like sampling protocol, sample size value and unit, sampling efforts) or in the Humbolt extension for ecological repositories.
 
 image::project-planning::oad13.png[align=center]
 
@@ -176,15 +176,13 @@ image::project-planning::oad15.png[align=center]
 
 *Slide 15 - Indigenous data considerations*
 
-We would like to raise some points regarding Indigenous data in the context of BID project proposals. 
+We would like to raise some points regarding Indigenous data in the context of BID project proposals, and we would like to encourage anyone working with Indigenous data to refer to some core concepts: 
 
-Firstly, we would like to encourage anyone working with Indigenous data to refer to some core concepts: 
+Indigenous data sovereignty is the right of Indigenous Peoples to exercise control over Indigenous data across all phases of the data lifecycle, and recognizes Indigenous Peoples as data creators, data stewards and knowledge experts.
 
-Indigenous data sovereignty is the right of Indigenous Peoples to exercise ownership and control over Indigenous data across all phases of the data lifecycle, and recognizes Indigenous Peoples as data creators, data stewards and knowledge experts.
+Indigenous data governance is the policies and practices that support Indigenous Peoples in applying Indigenous data sovereignty to govern, collect, store, analyze, use and manage the application of Indigenous data.
 
-Indigenous data governance is the policies and practices that support Indigenous Peoples in applying Indigenous data sovereignty to govern, collect, store, analyze, use and manage the application of Indigenous data.
-
-The CARE data principles are a very important reference for considering how these concepts can relate to open data.
+The CARE data principles are an important reference for considering how these concepts can relate to open data.
 
 Designed to complement the FAIR Principles, the CARE Principles affirm the rights of Indigenous and local peoples, nations and communities to act as self-determining custodians and users of open data. The four principles—Collective benefit, Authority to control, Responsibility and Ethics—provide a framework for aligning the actions of GBIF network members toward more equitable biodiversity data and data practices throughout the data lifecycle.
 
