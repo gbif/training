@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-14 13:39+0000\n"
-"PO-Revision-Date: 2025-08-14 14:13\n"
+"POT-Creation-Date: 2025-08-14 14:39+0000\n"
+"PO-Revision-Date: 2025-08-14 15:52\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -171,7 +171,8 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:180
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
@@ -250,6 +251,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:16
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
@@ -1041,12 +1043,11 @@ msgid "occurrence\n"
 "Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:373
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:20
 #, no-wrap
 msgid "checklist\n"
-"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
+"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results^])."
 msgstr ""
 
 #. type: Plain text
@@ -1079,12 +1080,11 @@ msgstr ""
 msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:385
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:32
 #, no-wrap
 msgid "occurrence\n"
-"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
+"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example^])"
 msgstr ""
 
 #. type: Plain text
