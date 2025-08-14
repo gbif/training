@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-14 13:39+0000\n"
+"POT-Creation-Date: 2025-08-14 14:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,15 +67,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:373
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:20
-#, no-wrap
-msgid ""
-"checklist\n"
-"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
-msgstr ""
-
-#. type: Plain text
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
 #: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:22
 #, no-wrap
@@ -105,15 +96,6 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:29
 #, no-wrap
 msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
-msgstr ""
-
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:385
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:32
-#, no-wrap
-msgid ""
-"occurrence\n"
-"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
 msgstr ""
 
 #. type: Plain text
@@ -220,4 +202,20 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:1
 #, no-wrap
 msgid "Solution: Dataset types review"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:20
+#, no-wrap
+msgid ""
+"checklist\n"
+"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:32
+#, no-wrap
+msgid ""
+"occurrence\n"
+"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
 msgstr ""
