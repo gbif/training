@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-12 19:17+0000\n"
-"PO-Revision-Date: 2025-08-12 20:03\n"
+"POT-Creation-Date: 2025-08-14 08:48+0000\n"
+"PO-Revision-Date: 2025-08-14 08:56\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -159,8 +159,9 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:35
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:34
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:40
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:48
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:23
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:31
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:43
@@ -195,7 +196,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
-#: en/project-planning/modules/ROOT/pages/oldmodule2.adoc:3
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
 #, no-wrap
 msgid "Learning objectives"
@@ -218,7 +218,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:18
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:17
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:10
-#: en/project-planning/modules/ROOT/pages/oldmodule2.adoc:12
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:10
 msgid "After completing this module, you should be able to perform the following:"
 msgstr ""
@@ -227,7 +226,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:21
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:156
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:26
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:218
@@ -252,8 +251,25 @@ msgstr ""
 msgid "Click to expand"
 msgstr ""
 
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/indigenous-data-considerations.adoc:4
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:184
+msgid "Indigenous data sovereignty is the right of Indigenous Peoples to exercise ownership and control over Indigenous data across all phases of the data lifecycle, and recognizes Indigenous Peoples as data creators, data stewards and knowledge experts."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/indigenous-data-considerations.adoc:6
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:186
+msgid "Indigenous data governance is the policies and practices that support Indigenous Peoples in applying Indigenous data sovereignty to govern, collect, store, analyze, use and manage the application of Indigenous data."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/indigenous-data-considerations.adoc:12
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:188
+msgid "The CARE data principles are a very important reference for considering how these concepts can relate to open data."
+msgstr ""
+
 #. type: Title ==
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:29
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:17
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:19
 #, no-wrap
@@ -693,21 +709,6 @@ msgid "Firstly, we would like to encourage anyone working with Indigenous data t
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:184
-msgid "Indigenous data sovereignty is the right of Indigenous Peoples to exercise ownership and control over Indigenous data across all phases of the data lifecycle, and recognizes Indigenous Peoples as data creators, data stewards and knowledge experts."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:186
-msgid "Indigenous data governance is the policies and practices that support Indigenous Peoples in applying Indigenous data sovereignty to govern, collect, store, analyze, use and manage the application of Indigenous data."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:188
-msgid "The CARE data principles are a very important reference for considering how these concepts can relate to open data."
-msgstr ""
-
-#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:190
 msgid "Designed to complement the FAIR Principles, the CARE Principles affirm the rights of Indigenous and local peoples, nations and communities to act as self-determining custodians and users of open data. The four principles—Collective benefit, Authority to control, Responsibility and Ethics—provide a framework for aligning the actions of GBIF network members toward more equitable biodiversity data and data practices throughout the data lifecycle."
 msgstr ""
@@ -795,7 +796,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:222
-msgid "Check your understanding of the dataset types with published records."
+msgid "Check your understanding of the dataset types with published records. If you need assistance choosing your own dataset type, review the blog post on https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
 msgstr ""
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
