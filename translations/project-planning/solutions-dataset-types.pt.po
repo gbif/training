@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-08-14 08:21+0000\n"
+"PO-Revision-Date: 2025-08-14 08:56\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /main/translations/project-planning/solutions-dataset-types.pot\n"
+"X-Crowdin-File-ID: 44604\n"
+
+#. type: Title =
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:1
+#, no-wrap
+msgid "Solution: Dataset types review"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:4
+msgid "If you need assistance choosing your own dataset type, review the blog post on https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:6
+#, no-wrap
+msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:11
+#, no-wrap
+msgid "occurrence\n"
+"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:13
+#, no-wrap
+msgid "checklist\n"
+"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:15
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:18
+#, no-wrap
+msgid "occurrence\n"
+"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:20
+#, no-wrap
+msgid "checklist\n"
+"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:22
+#, no-wrap
+msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:25
+#, no-wrap
+msgid "occurrence\n"
+"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:27
+#, no-wrap
+msgid "sampling event\n"
+"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:29
+#, no-wrap
+msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:32
+#, no-wrap
+msgid "occurrence\n"
+"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:34
+#, no-wrap
+msgid "*What dataset type(s) would you choose for insect trap data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:37
+#, no-wrap
+msgid "occurrence\n"
+"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:41
+#, no-wrap
+msgid "sampling event\n"
+"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:43
+#, no-wrap
+msgid "*What dataset type(s) would you choose for national park management data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:46
+#, no-wrap
+msgid "occurrence\n"
+"record individuals of species"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:48
+#, no-wrap
+msgid "checklist\n"
+"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:50
+#, no-wrap
+msgid "sampling event\n"
+"check and track the populations"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:52
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:55
+#, no-wrap
+msgid "occurrence\n"
+"Bioblitz datasets are mainly shared as occurrence datasets."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:57
+#, no-wrap
+msgid "sampling event\n"
+"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:59
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a regional species list?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:62
+#, no-wrap
+msgid "checklist\n"
+"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
+msgstr ""
+

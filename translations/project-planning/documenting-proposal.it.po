@@ -1,0 +1,514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-08-14 12:53+0000\n"
+"PO-Revision-Date: 2025-08-14 13:06\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /main/translations/project-planning/documenting-proposal.pot\n"
+"X-Crowdin-File-ID: 44216\n"
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:23
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:45
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:51
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:59
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:75
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:135
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:142
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:23
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:31
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:43
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:162
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:167
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/organizing.adoc:25
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:25
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:45
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:356
+#: en/project-planning/modules/ROOT/pages/resourcing.adoc:25
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
+#, no-wrap
+msgid "Learning objectives"
+msgstr ""
+
+#. type: delimited block =
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:10
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:10
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:17
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:17
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:8
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:17
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:17
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:17
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:8
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:17
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:18
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:17
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:10
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:10
+msgid "After completing this module, you should be able to perform the following:"
+msgstr ""
+
+#. type: Block title
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:66
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:34
+#: en/project-planning/modules/ROOT/pages/organizing.adoc:16
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:36
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:347
+#: en/project-planning/modules/ROOT/pages/resourcing.adoc:16
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
+
+#. type: Title =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:1
+#, no-wrap
+msgid "Module 3: Documenting a full proposal"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:8
+msgid "This module includes review of the dataset deliverables assignment, provides a demonstration of working in the GBIF Grants Portal on a BID Full Proposal and includes two panel discussions with invited guests -- volunteers from the GBIF community of practice."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:12
+msgid "Understand the work that goes into a biodiversity mobilization project"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:13
+msgid "Understand the elements in a dataset deliverable"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:14
+msgid "Develop dataset deliverables with clear relevance to your project's objectives"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:15
+msgid "Apply a reviewer's perspective to strengthen your full proposal using the evaluation criteria listed in the calls for proposals"
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:17
+#, no-wrap
+msgid "Beyond the Upload: Understanding The Real Work of Biodiversity Data Mobilization"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:21
+msgid "During this panel discussion invited volunteers from the GBIF Community of Practice will share their views on the work that goes into a mobilization project, quality vs quantity, the people behind the data, and how to insure that mobilized data remains relevant over time."
+msgstr ""
+
+#. type: delimited block +
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:28
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQ9jFxw5gL2pWtQ8WnIwJZuoJC1dUZAsC4gUXv8IOQy-OYkXycxLMnAhLY_BThvdw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:32
+#, no-wrap
+msgid "Poll"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:36
+msgid "Using https://www.menti.com/aljfysxezsp6[Mentimeter^], answer the poll questions regarding the dataset deliverables assignment. You can view results, back on this page."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:38
+#, no-wrap
+msgid "*Instructions*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:40
+msgid "Go to the poll on https://www.menti.com/aljfysxezsp6[Mentimeter^]"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:41
+msgid "Reflect on the dataset deliverables assignment"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:42
+msgid "Answer both poll questions"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+msgid "Return here to see the results"
+msgstr ""
+
+#. type: delimited block +
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:48
+#, no-wrap
+msgid "<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alshe3mroa58s24w4e94m9mfjyg28x48/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>\n"
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#, no-wrap
+msgid "Demonstration"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:57
+msgid "This video demonstrates how to add a dataset deliverable in a BID full proposal."
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:64
+#, no-wrap
+msgid "Example of a dataset deliverable"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:77
+msgid "This example is largely based on a real dataset (DOI: https://doi.org/10.15468/viradl[10.15468/viradl^]), but includes fictional elements to illustrate key concepts"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:79
+#, no-wrap
+msgid "*Dataset Title* \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:81
+msgid "Solomon Islands Community Seagrass & Dugong Conservation Data (2018-2024)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:83
+#, no-wrap
+msgid "*Dataset Type*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:85
+msgid "Sampling-events, survey, monitoring"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:87
+#, no-wrap
+msgid "*Approximate # of Records*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:89
+msgid "1500"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:91
+#, no-wrap
+msgid "*Current Format of the data (i.e., undigitized, partially digitized, digitized)*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:93
+msgid "Partially digitized (Data up to 2022 have been digitized, however, data collected in 2023 and 2024 are still in paper form in field notebooks)."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:95
+#, no-wrap
+msgid "*Geographic Scope*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:97
+msgid "Tetepare island (Western Province), Kmaga (Isable Province) and Marau (Guadalcanal Province)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:99
+#, no-wrap
+msgid "*Temporal Scope*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:101
+msgid "15 January 2018 to 31 January 2024"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:103
+#, no-wrap
+msgid "*Taxonomic Scope*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:105
+msgid "Cymodocea rotundata, Cymodocea serulata, Enhalus acoroides, Halodule uninervis, Halophila Ovalis, Syringodium Isoetifolium, Thalassia hemprichii, Thalassoden Ciliatum, Zostera Capricorni"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:107
+#, no-wrap
+msgid "*Sampling Methodology (if relevant)*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:109
+msgid "Annual survey using 50 m fixed transect and standardized checklists to record seagrass and dugong occurrences and associated observations."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:111
+#, no-wrap
+msgid "*Relevance [why this dataset?]*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:113
+msgid "The publication of this dataset will highlight the impact of community-based conservation efforts. It will also support Target 8 of the GBF by contributing to efforts to minimize the impact of climate change on biodiversity and build resilience, and promote the role of Locally Managed Marine Areas, a national priority identified in the Solomon Islands’ National Biodiversity Strategy and Action Plan (NBSAP). By publishing this dataset as a sampling event, it will enable the sharing of information on the relative abundance of species over time."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:115
+#, no-wrap
+msgid "*Data Holders*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:117
+msgid "Solomon Islands Ministry of the Environment and Climate Change"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:119
+#, no-wrap
+msgid "*Has the data holder confirmed agreement to publish the data through GBIF?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:121
+msgid "Yes"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:123
+#, no-wrap
+msgid "*Expected Publication date*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:125
+msgid "25 June 2026"
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:129
+#, no-wrap
+msgid "Lessons from BID Reviewers: Taking a Reviewer Perspective to Strengthen your Full Proposal"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:133
+msgid "During this panel discussion invited reviewers from the GBIF Community of Practice will share their views on key signs that a proposal will be relevant and impactful, what influences their decisions and feedback, considerations on efficient use of resources and cost-effectiveness of a project, and sustainability of a project."
+msgstr ""
+
+#. type: delimited block +
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:140
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRSBWApwxYDsQiz5CQW2H3-JXBwhdG18RziXay2mcVn00TmiDKzSyC0f1UCviXisg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+

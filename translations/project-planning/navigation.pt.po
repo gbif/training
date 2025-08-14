@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-05 16:29+0000\n"
-"PO-Revision-Date: 2025-08-05 16:36\n"
+"POT-Creation-Date: 2025-08-12 09:27+0000\n"
+"PO-Revision-Date: 2025-08-12 11:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-File: /main/translations/project-planning/navigation.pot\n"
 "X-Crowdin-File-ID: 44214\n"
 
-#. type: Plain text
+#. type: delimited block =
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -159,11 +159,20 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
-#: en/project-planning/modules/ROOT/pages/module2-organizing.adoc:26
-#: en/project-planning/modules/ROOT/pages/module2-resourcing.adoc:26
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:35
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:29
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:37
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:49
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/organizing.adoc:25
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:43
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:55
+#: en/project-planning/modules/ROOT/pages/resourcing.adoc:25
 msgid "&nbsp;"
 msgstr ""
 
@@ -327,29 +336,25 @@ msgid "Content"
 msgstr ""
 
 #. type: Plain text
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:6
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:6
-msgid "You can obtain the content of each module either via video or written format. You will find the video transcripts below each video. Click to expand the transcript."
+msgid "You can obtain the content of each module in a written format. You will find the transcript below each presentation. Click to expand the transcript."
 msgstr ""
 
 #. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:7
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:7
 #, no-wrap
-msgid "grscicoll::video-transcript.png"
+msgid "project-planning::transcript.png"
 msgstr ""
 
 #. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:13
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:13
 #, no-wrap
-msgid "grscicoll::left-nav.png"
+msgid "project-planning::left-nav.png"
 msgstr ""
 
 #. type: Target for macro image
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:21
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:21
 #, no-wrap
-msgid "grscicoll::right-nav.png"
+msgid "project-planning::right-nav.png"
 msgstr ""
 

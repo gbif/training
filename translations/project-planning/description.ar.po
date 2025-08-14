@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-05 16:29+0000\n"
-"PO-Revision-Date: 2025-08-05 16:35\n"
+"POT-Creation-Date: 2025-08-11 13:32+0000\n"
+"PO-Revision-Date: 2025-08-11 13:44\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/description.adoc:21
 #: en/grscicoll/modules/ROOT/pages/description.adoc:19
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:18
-#: en/project-planning/modules/ROOT/pages/description.adoc:12
+#: en/project-planning/modules/ROOT/pages/description.adoc:18
 #, no-wrap
 msgid "Audience"
 msgstr ""
@@ -31,37 +31,15 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/description.adoc:25
 #: en/grscicoll/modules/ROOT/pages/description.adoc:27
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:22
-#: en/project-planning/modules/ROOT/pages/description.adoc:19
+#: en/project-planning/modules/ROOT/pages/description.adoc:25
 #, no-wrap
 msgid "Prerequisites"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/description.adoc:28
-#: en/epn/modules/ROOT/pages/description.adoc:28
-#: en/grscicoll/modules/ROOT/pages/description.adoc:32
-#: en/project-planning/modules/ROOT/pages/description.adoc:24
-msgid "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF course^]"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/description.adoc:30
-#: en/grscicoll/modules/ROOT/pages/description.adoc:34
-#: en/project-planning/modules/ROOT/pages/description.adoc:26
-msgid "Additionally, individuals completing this course should possess the following skills and knowledge:"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/description.adoc:35
-#: en/grscicoll/modules/ROOT/pages/description.adoc:36
-#: en/project-planning/modules/ROOT/pages/description.adoc:28
-msgid "A good command of English. While efforts are made to provide materials in other languages, instruction/videos will be in English."
 msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/description.adoc:34
 #: en/grscicoll/modules/ROOT/pages/description.adoc:38
-#: en/project-planning/modules/ROOT/pages/description.adoc:30
+#: en/project-planning/modules/ROOT/pages/description.adoc:36
 #, no-wrap
 msgid "Certificate of completion"
 msgstr ""
@@ -75,8 +53,31 @@ msgstr ""
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/description.adoc:43
-#: en/project-planning/modules/ROOT/pages/description.adoc:35
+#: en/project-planning/modules/ROOT/pages/description.adoc:41
 msgid "Upon successful attendance of live sessions and completion of activities, participants will receive a completion certification."
+msgstr ""
+
+#. type: Title =
+#: en/project-planning/modules/ROOT/pages/description.adoc:1
+#: en/project-planning/modules/ROOT/pages/index.adoc:1
+#, no-wrap
+msgid "Biodiversity data mobilization project planning"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/description.adoc:8
+msgid "This course consists of videos and documentation paired with quizzes and practical exercises and aims to provide https://www.gbif.org/bid[Biodiversity Information for Development^] (BID) programme applicants with the knowledge needed to develop a realistic, coherent and well-designed data mobilization plan as part of their project proposal."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/description.adoc:10
+msgid "This course will not cover all aspects of project planning and management, but rather focus on the specifics related to managing a project aiming to mobilize data through GBIF."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/description.adoc:12
+#, no-wrap
+msgid "*Topics*\n"
 msgstr ""
 
 #.  xref:attachment$Module1-videos.zip[Module1-videos.zip] (98.9 MB) contains the following videos:
@@ -89,24 +90,41 @@ msgstr ""
 #.  * Linking occurrences to GRSciColl entries
 #.  * Special cases and recommendations
 #. type: Title =
-#: en/project-planning/modules/ROOT/pages/description.adoc:1
-#: en/project-planning/modules/ROOT/pages/index.adoc:1
+#: en/project-planning/modules/ROOT/pages/description.adoc:14
+#: en/project-planning/modules/ROOT/pages/goals-deliverables.adoc:1
 #, no-wrap
-msgid "Biodiversity data mobilization project planning"
+msgid "Assessing goals and defining deliverables"
+msgstr ""
+
+#. type: Title =
+#: en/project-planning/modules/ROOT/pages/description.adoc:15
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:1
+#, no-wrap
+msgid "Measuring progress"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/description.adoc:8
-msgid "This course aims to provide Biodiversity Information for Development (BID) programme applicants with the knowledge needed to develop a realistic, coherent and well-designed data mobilization plan as part of their project proposal."
+#: en/project-planning/modules/ROOT/pages/description.adoc:16
+msgid "Documenting a full proposal"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/description.adoc:10
-msgid "This course consists of videos and documentation paired with quizzes and practical exercises."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/description.adoc:17
+#: en/project-planning/modules/ROOT/pages/description.adoc:23
 msgid "This course is designed for BID programme applicants who have advanced to the full proposal phase."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/description.adoc:30
+msgid "A BID programme project advanced to the full proposal phase."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/description.adoc:31
+msgid "Individuals completing this course should have a good command of English. While efforts are made to provide materials in other languages, instruction/videos will be in English."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/description.adoc:35
+msgid "If you need to learn more about GBIF in advance of the course, it is recommended to complete the https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF course^]."
 msgstr ""
 
