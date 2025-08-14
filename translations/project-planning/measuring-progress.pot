@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-14 12:53+0000\n"
+"POT-Creation-Date: 2025-08-14 13:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,8 +170,8 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:23
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:31
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:43
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:162
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:167
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:174
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:179
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
@@ -179,7 +179,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:25
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:33
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:45
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:356
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:354
 #: en/project-planning/modules/ROOT/pages/resourcing.adoc:25
 msgid "&nbsp;"
 msgstr ""
@@ -211,9 +211,9 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:156
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:161
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:26
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:218
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:216
 #: en/project-planning/modules/ROOT/pages/resourcing.adoc:26
 #, no-wrap
 msgid "Activity"
@@ -231,7 +231,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:34
 #: en/project-planning/modules/ROOT/pages/organizing.adoc:16
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:36
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:347
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:345
 #: en/project-planning/modules/ROOT/pages/resourcing.adoc:16
 #, no-wrap
 msgid "Click to expand"
@@ -242,6 +242,19 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:1
 #, no-wrap
 msgid "Measuring progress"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:38
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:167
+#, no-wrap
+msgid "*Instructions*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:43
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:172
+msgid "Return here to see the results"
 msgstr ""
 
 #. type: delimited block =
@@ -391,10 +404,13 @@ msgid "The following must be completed for the Midterm report:"
 msgstr ""
 
 #. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:67
+msgid "Publication of at least one dataset through GBIF.org"
+msgstr ""
+
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:68
-msgid ""
-"Publication of at least one dataset through GBIF.org Gain certification at "
-"BID Capacity Enhancement Workshop"
+msgid "Gain certification at BID Capacity Enhancement Workshop"
 msgstr ""
 
 #. type: Target for macro image
@@ -417,13 +433,22 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:78
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:76
 msgid ""
 "How you plan to monitor progress/achievement of the stated objectives and "
-"implementation of planned activities and production of deliverables; How you "
-"will evaluate immediate impact of your project; How you will evaluate the "
-"longer-term impact of your project, for example 6-12 months after its "
-"completion."
+"implementation of planned activities and production of deliverables;"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:77
+msgid "How you will evaluate immediate impact of your project;"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:78
+msgid ""
+"How you will evaluate the longer-term impact of your project, for example "
+"6-12 months after its completion."
 msgstr ""
 
 #. type: delimited block =
@@ -451,24 +476,52 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:88
+#, no-wrap
+msgid "*Mandatory binary indicators (Yes/No)*\n"
+msgstr ""
+
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:90
 msgid ""
-"Mandatory Binary indicators (Yes/No): Data mobilized contribute to relevant "
-"goals and targets of Global Biodiversity Framework (GBF)  Data mobilized "
-"support policy-relevant information products"
+"Data mobilized contribute to relevant goals and targets of Global "
+"Biodiversity Framework (GBF)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:91
+msgid "Data mobilized support policy-relevant information products"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:93
+#, no-wrap
+msgid "*Mandatory quantitative indicators*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:95
+msgid "Number of institutions represented in events organized by the project"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:96
-msgid ""
-"Mandatory Quantitative indicators Number of institutions represented in "
-"events organized by the project Number of people trained by the project "
-"Number of replication workshops organized by the project Number of "
-"georeferenced species occurrence records published by the project"
+msgid "Number of people trained by the project"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:97
+msgid "Number of replication workshops organized by the project"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:98
+msgid ""
+"Number of georeferenced species occurrence records published by the project"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:100
 msgid ""
 "If it helps you to monitor progress you can add additional indicators, You "
 "will then be able to select any other relevant capacity development "
@@ -477,7 +530,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:100
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:102
 msgid ""
 "If your project is selected, you will be required to report on both the "
 "mandatory indicators and your chosen indicators in your midterm and final "
@@ -485,76 +538,103 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:101
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:103
 #, no-wrap
 msgid "project-planning::mp6.png"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:104
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:106
 #, no-wrap
 msgid "*Slide 6 - Examples of additional non-mandatory binary indicators*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:106
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:108
 msgid ""
-"Examples of additional non-mandatory binary indicators to demonstrate the "
+"Examples of additional *non-mandatory binary indicators* to demonstrate the "
 "impact of data mobilization activities:"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:108
-msgid "BINARY:"
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:110
+#, no-wrap
+msgid "*BINARY*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:112
+msgid "Promotion of the use of GBIF-Mediated data for Research"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:113
 msgid ""
-"promotion of the use of GBIF-Mediated data for Research Contribution to the "
-"development of local, national, and/or regional policies relating to "
-"environment Promotion of open biodiversity approaches within the business "
-"and finance sector Contribution to establishing or strengthening "
-"collaborations to support the implementation of biodiversity-related "
-"multilateral environment agreements"
+"Contribution to the development of local, national, and/or regional policies "
+"relating to environment"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:114
+msgid ""
+"Promotion of open biodiversity approaches within the business and finance "
+"sector"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:115
+msgid ""
+"Contribution to establishing or strengthening collaborations to support the "
+"implementation of biodiversity-related multilateral environment agreements"
 msgstr ""
 
 #. type: Target for macro image
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:115
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:116
 #, no-wrap
 msgid "project-planning::mp7.png"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:118
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:119
 #, no-wrap
 msgid "*Slide 7 - Examples of additional non-mandatory quantitative indicators*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:122
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:121
 msgid ""
-"Examples of additional non-mandatory QUANTITATIVE indicators to demonstrate "
-"the impact of data mobilization activities:\v Number of publishing "
-"institution registered as GBIF data publishers as result of the project "
+"Examples of additional *non-mandatory quantitative indicators* to "
+"demonstrate the impact of data mobilization activities:"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:123
+msgid ""
+"Number of publishing institution registered as GBIF data publishers as "
+"result of the project"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:124
+msgid ""
 "Number of data publishing institutions publishing data as a result of the "
 "project"
 msgstr ""
 
 #. type: Target for macro image
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:123
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:125
 #, no-wrap
 msgid "project-planning::mp8.png"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:126
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:128
 #, no-wrap
 msgid "*Slide 8 - Identification of risks and sustainability prospects*\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:128
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:130
 msgid ""
 "Lastly you will want to develop the section on sustainability prospects.  "
 "You should explain the approach that will be taken to ensure the long-term "
@@ -565,83 +645,137 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:130
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:132
 msgid ""
 "The identification of risks is an important step to assess and control areas "
 "of uncertainties and improve the chances of a project to succeed."
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:132
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:134
 msgid ""
 "Mitigation strategies can be identified by answering questions such as; is "
-"there any possibility to Avoid the risk? How? If not, is it possible to "
-"Reduce the risk and its impact on the project? How can we Manage the Risk? "
-"What are the processes we can implement to reduce the probability of the "
-"risk happening? How can we downsize its overall impact on the project?"
-msgstr ""
-
-#. type: Target for macro image
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:133
-#, no-wrap
-msgid "project-planning::mp9.png"
+"there any possibility to:"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:136
 #, no-wrap
-msgid "*Slide 9 - Project considerations*\n"
+msgid "*Avoid* the risk? If so, how? \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:137
+#, no-wrap
+msgid "If not, is it possible to *Reduce* the risk and its impact on the project? \n"
 msgstr ""
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:138
+#, no-wrap
+msgid "How can we *Manage* the risk? \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:139
+#, no-wrap
+msgid "What are the processes we can implement to reduce the probability of the risk happening? \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:140
+#, no-wrap
+msgid "How can we downsize its overall impact on the project?\n"
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:141
+#, no-wrap
+msgid "project-planning::mp9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:144
+#, no-wrap
+msgid "*Slide 9 - Project considerations*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:146
 msgid ""
 "When you finish your proposal would should be able to answer these questions."
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:145
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:148
+msgid "What are mandatory indicators?"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:149
+msgid "What are the project mandatory milestones?"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:150
+msgid "When are deliverables scheduled?"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:151
 msgid ""
-"What are mandatory indicators? What are the project mandatory milestones? "
-"When are deliverables scheduled? Is the timeline for producing deliverables, "
-"especially datasets, aligned with the project's mandatory milestones? What "
-"will be included in your monitoring plan? What tools and processes will you "
-"use to monitor progress, and how will you evaluate impact?"
+"Is the timeline for producing deliverables, especially datasets, aligned "
+"with the project's mandatory milestones?"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:152
+msgid "What will be included in your monitoring plan?"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:153
+msgid ""
+"What tools and processes will you use to monitor progress, and how will you "
+"evaluate impact?"
 msgstr ""
 
 #. type: Target for macro image
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:147
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:154
 #, no-wrap
 msgid "project-planning::mp10.png"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:150
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:157
 #, no-wrap
 msgid "*Slide 10 - Thank you*\n"
 msgstr ""
 
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:152
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:132
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:165
 msgid ""
-"A richer type of dataset available on GBIF is checklist datasets. They can "
-"help capture and share information at the taxon level, such as taxonomy,  or "
-"properties (e.g. invasive, vernacular names, threatened, etc.) of a given "
-"list of taxa. Checklists must contain individual taxon records and their "
-"relevant associated fields."
+"Using https://www.menti.com/al4ywtipfzr5[Mentimeter^], rearrange the "
+"activity steps in a logical workflow."
 msgstr ""
 
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:160
-msgid ""
-"Using https://www.menti.com/al4ywtipfzr5[Mentimeter^], rearrange the "
-"activity steps in a logical workflow. You can view results, back on this "
-"page."
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:169
+msgid "Go to the poll on https://www.menti.com/al4ywtipfzr5[Mentimeter^]"
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:170
+msgid "Move the activities from the bottom list up to the gray box at the top."
+msgstr ""
+
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:171
+msgid "Rearrange the activities in a logical workflow."
 msgstr ""
 
 #. type: delimited block +
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:165
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:177
 #, no-wrap
 msgid "<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ali657t822eiiyx6j38143kqhcubctg5/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>\n"
 msgstr ""
