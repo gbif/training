@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2025-08-11 13:32+0000\n"
+"PO-Revision-Date: 2026-02-02 15:55\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/translations/data-use/exercise4.pot\n"
+"X-Crowdin-File-ID: 40906\n"
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/exercise1.adoc:10
+#: en/data-use/modules/ROOT/pages/exercise2.adoc:10
+#: en/data-use/modules/ROOT/pages/exercise3.adoc:10
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:23
+#: en/data-use/modules/ROOT/pages/exercise5.adoc:10
+#: en/project-planning/modules/ROOT/pages/assignment.adoc:4
+#, no-wrap
+msgid "Instructions"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/exercise2.adoc:6
+#: en/data-use/modules/ROOT/pages/exercise3.adoc:6
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:19
+#: en/data-use/modules/ROOT/pages/exercise5.adoc:6
+#, no-wrap
+msgid "Exercise sheet "
+msgstr ""
+
+#. type: Title =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:1
+#, no-wrap
+msgid "Exercise 4"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:6
+msgid "In this exercise you will use the GBIF API to locate specific taxon keys."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:8
+#, no-wrap
+msgid "*Taxon keys* are issued at the species, genus family, order, phylum and kingdom rank. \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:9
+#, no-wrap
+msgid "*Unique identifiers* are issued to accepted names with synonyms of those accepted names issued the same identifier.  Usage keys vs acceptedUsageKeys.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:10
+#, no-wrap
+msgid "Taxon keys allow for user to ensure that they are collecting all the data they need.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:11
+#, no-wrap
+msgid "Taxon keys also facilitate multiple species downloads.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:13
+msgid "Taxon keys can be found via:"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:15
+msgid "https://www.gbif.org/[GBIF.org]"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:16
+msgid "https://techdocs.gbif.org/en/openapi/v1/species[Species API^]"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:17
+msgid "https://www.gbif.org/tools/species-lookup[Species matching tool^]"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:22
+msgid "xref:attachment$Ex4-species-api.docx[Download Exercise 4] (MS Word 158 KB)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:26
+msgid "Using the Species API find the GBIF taxonkeys for these scientific names:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:27
+msgid "Lepus saxatilis F.Cuvier, 1823"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:28
+msgid "Aves"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:29
+msgid "Magnoliophyta"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:30
+msgid "Aegithalos caudatus (Linnaeus, 1758)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/exercise4.adoc:30
+msgid "What is the taxonomic status of each?"
+msgstr ""
+
