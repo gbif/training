@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-14 14:39+0000\n"
-"PO-Revision-Date: 2026-02-03 16:44\n"
+"POT-Creation-Date: 2026-02-03 16:04+0000\n"
+"PO-Revision-Date: 2026-02-04 09:38\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -176,12 +176,10 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:25
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:25
 msgid "&nbsp;"
 msgstr ""
 
@@ -234,9 +232,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:162
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:26
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:217
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:26
 #, no-wrap
 msgid "Activity"
 msgstr ""
@@ -252,10 +248,8 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:16
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:16
 #, no-wrap
 msgid "Click to expand"
 msgstr ""
@@ -271,60 +265,60 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:20
 #, no-wrap
 msgid "Presentation"
-msgstr ""
+msgstr "Présentation"
 
 #. type: Title ==
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
 #, no-wrap
 msgid "Presentation transcript"
-msgstr ""
+msgstr "Transcription de la présentation"
 
 #. type: Title =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:1
 #, no-wrap
 msgid "Assessing the project overview and defining activities and deliverables"
-msgstr ""
+msgstr "Évaluer la vue d'ensemble du projet et définir les activités et les résultats attendus"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:8
 msgid "This module will review the overall objectives that your project will address."
-msgstr ""
+msgstr "Ce module passe en revue les objectifs généraux concernés par votre projet."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:12
 msgid "Understand the key elements of the project overview section"
-msgstr ""
+msgstr "Comprendre les éléments clés de la section sur la vue d'ensemble du projet"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:13
 msgid "Understand the key elements of the activities and deliverables section"
-msgstr ""
+msgstr "Comprendre les éléments clés de la section sur les activités et les résultats attendus"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:14
 msgid "Understand the SMART framework"
-msgstr ""
+msgstr "Comprendre le cadre SMART"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:15
 msgid "Understand key terms that apply to data mobilization projects"
-msgstr ""
+msgstr "Comprendre les termes clés qui s'appliquent aux projets de mobilisation de données"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:16
 msgid "Understand the dataset classes supported by GBIF"
-msgstr ""
+msgstr "Comprendre les types de jeux de données pris en charge par le GBIF"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:17
 msgid "Understand the elements to consider when selecting the dataset classes, scope and structure of the datasets and number of records to be published through GBIF"
-msgstr ""
+msgstr "Comprendre les éléments à prendre en compte lors de la sélection des types de jeux de données, du son périmètre et de sa structure ainsi que du nombre d'enregistrements à publier via le GBIF"
 
 #. type: Plain text
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:24
 msgid "In this presentation, we will introduce some of the keys aspects we expect to see in a project full proposal submitted under a GBIF-managed call."
-msgstr ""
+msgstr "Dans cette présentation, nous introduirons certains des aspects clés que nous attendons d'une proposition complète soumise dans le cadre d'un appel à projet géré par le GBIF."
 
 #. type: delimited block +
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:31
@@ -332,137 +326,139 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSXUz6D1GnbQP5b6FWLusDpsdNGnu7fENUKqQxC0f3yoRgxPZOSQS9gPOiwqWm2Lg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSXUz6D1GnbQP5b6FWLusDpsdNGnu7fENUKqQxC0f3yoRgxPZOSQS9gPOiwqWm2Lg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:47
 #, no-wrap
 msgid "project-planning::oad1.png"
-msgstr ""
+msgstr "project-planning::oad1.png"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:50
 #, no-wrap
 msgid "*Slide 1 - Assessing project overview and defining activities and deliverables*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Évaluer la vue d'ensemble du projet et définir les activités et les résultats attendus*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:52
 msgid "In this presentation, we will introduce some of the key aspects we expect to see in a project full proposal submitted under a GBIF-managed call."
-msgstr ""
+msgstr "Dans cette présentation, nous introduirons certains des aspects clés que nous attendons d'une proposition complète soumise dans le cadre d'un appel à projet géré par le GBIF."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:53
 #, no-wrap
 msgid "project-planning::oad2.png"
-msgstr ""
+msgstr "project-planning::oad2.png"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:56
 #, no-wrap
 msgid "*Slide 2 - General Tips*\n"
-msgstr ""
+msgstr "*Diapositive 2 - Conseils généraux*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:58
 msgid "To begin, we'd like to list a few tips that can be applied throughout your project proposal:"
-msgstr ""
+msgstr "Pour commencer, nous aimerions énumérer quelques conseils qui peuvent être appliqués à l'ensemble de votre proposition de projet :"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:60
 msgid "You should continue to build upon the content of your concept note. If you have been selected to submit a full proposal, this means that the reviewers found merit in your concept note. Thus, it is important to build on it by considering the recommendations and feedback communicated by the evaluation panel. Update and expand any section as relevant."
-msgstr ""
+msgstr "Continuez à développer le contenu de votre note conceptuelle. Si vous avez été sélectionné pour soumettre une proposition complète, cela signifie que les évaluateurs ont trouvé du mérite dans votre note conceptuelle. Il est donc important de la développer en tenant compte des recommandations et des commentaires communiqués par le comité d'évaluation. Mettez à jour et développez toute section pertinente."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:62
 msgid "Addressing the feedback you received on your concept note is a criterion of evaluation. The reviewers will expect that any identified issues or recommendations will be addressed in your full proposal. If you believe that is not feasible to address a specific feedback, then you should give a rationale explaining why."
-msgstr ""
+msgstr "Les réponses aux commentaires que vous avez reçus sur votre note conceptuelle sont un critère d'évaluation. Les évaluateurs s'attendent à ce que toutes les questions ou recommandations identifiées soient traitées dans votre proposition complète. Si vous estimez qu'il n'est pas possible de répondre à un commentaire spécifique, vous devez en expliquer les raisons."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:64
 msgid "In general, be brief and clear. Answer each section as clearly as possible and make sure you focus on the main message you want to convey. Only add background or additional information if really needed and preferably through links to background documents and/or external resources."
-msgstr ""
+msgstr "En général, soyez succinct et clair. Répondez à chaque section aussi clairement que possible et veillez à vous concentrer sur le message principal que vous souhaitez transmettre. N'ajoutez des informations de fond ou des informations supplémentaires que si elles sont nécessaires et, de préférence, par le biais de liens vers des documents de référence et/ou des ressources externes."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:65
 #, no-wrap
 msgid "project-planning::oad3.png"
-msgstr ""
+msgstr "project-planning::oad3.png"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:68
 #, no-wrap
 msgid "*Slide 3 - Project overview*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Vue d'ensemble du projet*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:70
 msgid "The first part of the project proposal contains the project overview and this information provides a high-level overview of your project."
-msgstr ""
+msgstr "La première partie de la proposition de projet contient la vue d'ensemble du projet à un haut niveau."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:72
 msgid "This includes: the overall objective, expected outcomes/impacts, the project description, and the expected use of the data to be mobilized by the project."
-msgstr ""
+msgstr "Cela comprend : l'objectif global, l'impact et les résultats attendus, la description du projet et l'utilisation attendue des données mobilisées par le projet."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:74
 msgid "All of this information was ported from the concept note to your full proposal. It is not necessary to change the information in these sections unless warranted through your response to feedback from reviewers or to better state the relevance of your project for regional priorities or in support of the Global Biodiversity Framework."
-msgstr ""
+msgstr "Toutes ces informations ont été transférées de la note conceptuelle à votre proposition complète. Il n'est pas nécessaire de modifier les informations contenues dans ces sections, sauf si votre réponse aux commentaires des évaluateurs le justifie ou si vous souhaitez mieux préciser la pertinence de votre projet par rapport aux priorités régionales ou au cadre mondial pour la biodiversité (Global Biodiversity Framework)."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:75
 #, no-wrap
 msgid "project-planning::oad4.png"
-msgstr ""
+msgstr "project-planning::oad4.png"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:78
 #, no-wrap
 msgid "*Slide 4 - Activities and deliverables*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Activités et résultats attendus*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:80
 msgid "Since the project overview is at a high-level, you then need to get into the specifics in the next section of the proposal with your project activities and deliverables."
-msgstr ""
+msgstr "Étant donné que la vue d'ensemble du projet est de haut niveau, la section suivante nécessite d'entrer dans les détails de la proposition, avec les activités et les résultats attendus du projet."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:82
 msgid "Each activity should directly contribute to the objective(s) set forth in your project."
-msgstr ""
+msgstr "Chaque activité doit contribuer directement à l'objectif ou aux objectifs définis préalablement dans votre projet."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:84
 msgid "Each activity will have a companion deliverable or impact. And each activity will contribute to an Activity area. Additionally, as all projects funded through the BID programme have a mobilization component, you will also detail any datasets you expect to deliver as part of the project in this section."
-msgstr ""
+msgstr "Chaque activité sera accompagnée d'un résultat ou d'un impact. Et chaque activité contribuera à un Domaine d'Activité. En outre, comme tous les projets financés par le programme BID comportent une composante de mobilisation, vous détaillerez également dans cette section les ensembles de données que vous prévoyez de fournir dans le cadre du projet."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:86
 msgid "To write effective activities and deliverables, you may want to take inspiration with the SMART framework. SMART is the acronym for Specific, Measurable, Achievable, Relevant, and Time-bound. This framework helps you to define what you want to achieve, how you'll measure progress, ensure it's realistic, aligns with overall objective, and when it will be complete. And as a part of being specific, this is also a good opportunity to define who (perhaps a specific role or team) will be responsible for completing the activities and deliverables. Use what makes sense for your project in your activity and deliverable descriptions."
-msgstr ""
+msgstr "Pour mettre en place des activités et des résultats attendus efficaces, vous pouvez vous inspirer du cadre SMART. SMART est l'acronyme anglais de Specific, Measurable, Achievable, Relevant, and Time-bound (Spécifique, Mesurable, Atteignable, Pertinent et Temporel). Ce cadre vous aide à définir ce que vous voulez réaliser, à mesurer les progrès effectifs, à vous assurer qu'ils sont réalistes, qu'ils correspondent à l'objectif global et qu'ils seront terminés à la date prévue. C'est également une bonne occasion pour définir qui (un rôle ou une équipe spécifique) sera responsable de la réalisation des activités et des résultats attendus. Faites usage de ce qui est pertinent pour votre projet dans la descriptions de vos activités et de resultats attendus."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:87
 #, no-wrap
 msgid "project-planning::oad5.png"
-msgstr ""
+msgstr "project-planning::oad5.png"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:90
 #, no-wrap
 msgid "*Slide 5 - Activity areas*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Domaines d'activité*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:92
 msgid "Depending on your grant type, your activities must relate to a specific Activity area."
-msgstr ""
+msgstr "Selon votre type de subvention, vos activités doivent être liées à un Domaine d'Activité spécifique."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:94
 msgid "Activities in the mobilizing biodiversity information area, should focus on digitizing and sharing existing sources of biodiversity data through GBIF."
-msgstr ""
+msgstr "Les activités dans le domaine de la mobilisation des informations sur la biodiversité devraient se concentrer sur la digitalisation et le partage des sources existantes de données sur la biodiversité via le GBIF."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:96
@@ -999,45 +995,39 @@ msgstr ""
 msgid "Dataset types quiz rationale"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:357
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:4
 msgid "If you need assistance choosing your own dataset type, review the blog post on https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:6
 #, no-wrap
 msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:11
 #, no-wrap
 msgid "occurrence\n"
 "Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:13
 #, no-wrap
 msgid "checklist\n"
 "It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:15
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:18
 #, no-wrap
 msgid "occurrence\n"
 "Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
@@ -1050,32 +1040,28 @@ msgid "checklist\n"
 "Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results^])."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:22
 #, no-wrap
 msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:25
 #, no-wrap
 msgid "occurrence\n"
 "Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:27
 #, no-wrap
 msgid "sampling event\n"
 "They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:29
 #, no-wrap
 msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
 msgstr ""
@@ -1087,93 +1073,81 @@ msgid "occurrence\n"
 "These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example^])"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:34
 #, no-wrap
 msgid "*What dataset type(s) would you choose for insect trap data?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:37
 #, no-wrap
 msgid "occurrence\n"
 "Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:41
 #, no-wrap
 msgid "sampling event\n"
 "Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:43
 #, no-wrap
 msgid "*What dataset type(s) would you choose for national park management data?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:46
 #, no-wrap
 msgid "occurrence\n"
 "record individuals of species"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:48
 #, no-wrap
 msgid "checklist\n"
 "It is important to know how many species are present in the park/reserve perimeter and their conservation status."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:50
 #, no-wrap
 msgid "sampling event\n"
 "check and track the populations"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:52
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:55
 #, no-wrap
 msgid "occurrence\n"
 "Bioblitz datasets are mainly shared as occurrence datasets."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:57
 #, no-wrap
 msgid "sampling event\n"
 "Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:59
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a regional species list?*\n"
 msgstr ""
 
-#. type: Plain text
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
-#: en/project-planning/modules/ROOT/pages/solutions-dataset-types.adoc:62
 #, no-wrap
 msgid "checklist\n"
 "Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
