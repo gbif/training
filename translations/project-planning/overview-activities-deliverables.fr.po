@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-02-03 16:04+0000\n"
-"PO-Revision-Date: 2026-02-06 06:43\n"
+"PO-Revision-Date: 2026-02-06 08:15\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -939,7 +939,7 @@ msgstr "Quel(s) type(s) de jeu de données choisiriez-vous pour des données de 
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
 #, no-wrap
 msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
-msgstr ""
+msgstr "Les données acquises dans le cadre de la gestion des aires protégées (comme les parcs nationaux mais aussi les réserves naturelles plus petites) peuvent être diverses et avoir des origines différentes : relevés botaniques, suivi des animaux marqués, observations effectuées par les gestionnaires et les gardes, et même des données de «science citoyenne» ou encore déduites d'images partagées sur les réseaux sociaux.\n"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:307
@@ -947,7 +947,9 @@ msgstr ""
 msgid ":figure-caption!:\n"
 ".https://pixabay.com/photos/%C3%A9l%C3%A9phant-%C3%A9l%C3%A9phant-d-asie-4037451/[Sri Lankan elephants] observed by pen_ash.\n"
 "image::project-planning::QDataTypes-Observations.png[align=center,width=640,height=360]\n"
-msgstr ""
+msgstr ":figure-caption!:\n"
+".https://pixabay.com/photos/%C3%A9l%C3%A9phant-%C3%A9l%C3%A9phant-d-asie-4037451/[Sri Lankan elephants] observed by pen_ash.\n"
+"image::project-planning::QDataTypes-Observations.png[align=center,width=640,height=360]\n"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
@@ -963,19 +965,19 @@ msgstr "- [x] occurrence\n"
 #. type: Plain text
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
 msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
-msgstr ""
+msgstr "Quel(s) type(s) de jeu de données choisiriez-vous pour un inventaire éclair (bioblitz) dans le cadre d'un programme de science participative?"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
 #, no-wrap
 msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
-msgstr ""
+msgstr "Les données de sciences participatives sont souvent recueillies par le biais de journées thématiques de travail sur le terrain, connues sous le nom de « bioblitz », ou inventaire éclair. Les bénévoles se rassemblent généralement dans une zone donnée et passent la journée à essayer d'observer et d'identifier autant d'espèces qu'ils le peuvent dans cette zone.\n"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
 #, no-wrap
 msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
-msgstr ""
+msgstr "Les données de chaque participant sont saisies et agrégées dans l’outil de saisie ou de gestion des données du programme de science participative.\n"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:324
@@ -983,13 +985,15 @@ msgstr ""
 msgid ":figure-caption!:\n"
 ".https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)\n"
 "image::project-planning::QDataTypes-citizen.png[align=center,width=640,height=360]\n"
-msgstr ""
+msgstr ":figure-caption!:\n"
+".https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)\n"
+"image::project-planning::QDataTypes-citizen.png[align=center,width=640,height=360]\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
 msgid "What dataset type(s) would you choose for a regional species list?"
-msgstr ""
+msgstr "Quel(s) type(s) de jeu de données choisiriez-vous pour une liste d'espèces régionale?"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:337
@@ -997,7 +1001,9 @@ msgstr ""
 msgid ":figure-caption!:\n"
 ".https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300\n"
 "image::project-planning::QDataTypes-threatened.png[align=center,width=640,height=360]\n"
-msgstr ""
+msgstr ":figure-caption!:\n"
+".https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300\n"
+"image::project-planning::QDataTypes-threatened.png[align=center,width=640,height=360]\n"
 
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
@@ -1005,58 +1011,64 @@ msgstr ""
 msgid "- [ ] occurrence\n"
 "- [x] checklist\n"
 "- [ ] sampling event\n"
-msgstr ""
+msgstr "- [ ] occurrence\n"
+"- [x] liste taxonomique\n"
+"- [ ] événement d'échantillonnage\n"
 
 #. type: Title ==
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:344
 #, no-wrap
 msgid "Dataset types quiz rationale"
-msgstr ""
+msgstr "Justification pour le quiz sur les ensembles de données"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:357
 msgid "If you need assistance choosing your own dataset type, review the blog post on https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
-msgstr ""
+msgstr "Si vous avez besoin d'aide pour choisir votre propre type de jeu de données, consultez l'article de blog sur https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
 #, no-wrap
 msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour une collection d’ichtyologie ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
 #, no-wrap
 msgid "occurrence\n"
 "Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
-msgstr ""
+msgstr "occurrence\n"
+"La plupart du temps, les spécimens issus de bases de données de collections sont partagés sous forme de données d’occurrence. Chaque occurrence (spécimen ou lot de spécimens) possède son propre identifiant unique (parfois dérivé de son numéro de catalogue dans la collection source), et les champs Darwin Core utilisés pour les partager via GBIF décrivent chaque spécimen : nom scientifique, date de collecte sur le terrain, personne qui l’a collecté et/ou identifié, lieu de collecte, etc. Une même collection peut contenir plusieurs spécimens d’une même espèce, tant que chaque spécimen est associé à un identifiant unique.  "
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
 #, no-wrap
 msgid "checklist\n"
 "It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
-msgstr ""
+msgstr "checklist\n"
+"Il est également possible de créer et de partager une checklist taxonomique dérivée d’une base de données de collection ; dans ce cas, il est recommandé de partager la checklist sous forme de jeu de données taxonomique, en lui associant la liste d’occurrences (spécimens) en utilisant le noyau Occurrence (Occurrence core) comme extension au noyau Taxon (Taxon Core) dans l’IPT de GBIF."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour une liste d'espèces envahissantes ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
 #, no-wrap
 msgid "occurrence\n"
 "Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
-msgstr ""
+msgstr "occurence\n"
+"Certaines entités publient des jeux de données d’occurrences issus d’études ou de programmes qui suivent des spécimens liés à certaines espèces exotiques envahissantes ; lorsque les données portent sur des individus plutôt que sur l’espèce envahissante en tant que telle, elles peuvent, en règle générale, être partagées comme des données d’occurrence."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:373
 #, no-wrap
 msgid "checklist\n"
 "Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results^])."
-msgstr ""
+msgstr "la liste de contrôle\n"
+"Les espèces invasives peuvent être suivies et surveillées à différentes échelles (régionales, nationales, thématiques…); car ce type de jeu de données se concentre davantage sur les espèces et leur distribution sur une portée géographique donnée, ils sont principalement partagés en tant que jeux de données taxonomiques au sein du GBIF (https://www. bif.org/dataset/search?project_id=GRIIS[ voir les résultats de recherche GRIIS^])."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
