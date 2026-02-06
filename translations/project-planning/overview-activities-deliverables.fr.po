@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-02-06 14:24+0000\n"
-"PO-Revision-Date: 2026-02-06 14:26\n"
+"PO-Revision-Date: 2026-02-06 15:48\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -563,7 +563,7 @@ msgstr "*Diapositive 10 - Glossaire - Jeu de données « Listes d'espèces »*\n
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:130
 msgid "Species or taxon lists otherwise known as checklists are a richer type of dataset available on GBIF. They can help capture and share information at the taxon level, such as taxonomy, or properties (e.g. invasive, vernacular names, threatened, etc.) of a given list of taxa. Checklists must contain individual taxon records and their relevant associated fields."
-msgstr ""
+msgstr "Les listes d'espèces ou de taxons, également appelées listes de contrôle ou checklists, constituent un type de jeu de données plus riche disponible sur GBIF. Elles permettent de recueillir et de partager des informations au niveau du taxon, telles que la taxonomie ou les propriétés (par exemple, envahissantes, noms vernaculaires, menacées, etc.) d'une liste donnée de taxons. Les checklists doivent contenir les enregistrements individuels de chaque taxon et leurs champs associés pertinents."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:131
@@ -580,7 +580,7 @@ msgstr "*Diapositive 11 - Glossaire - Jeu de données « Occurence »*\n"
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:136
 msgid "Occurrence datasets contain records of observations or collections of a given set of organisms at a given time and place. In addition to the GBIF dataset requirements, occurrence datasets must also contain individual occurrence records with the following information (“What? Where? When?”):"
-msgstr ""
+msgstr "Les jeux de données d'occurrence contiennent des enregistrements d'observations ou de récolte d'un ensemble donné d'organismes à un moment et un lieu précis. Outre les exigences relatives aux jeux de données GBIF, les jeux de données d'occurrence doivent également contenir des enregistrements d'occurrence individuels avec les informations suivantes (« Quoi ? Où ? Quand ? ») :"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:138
@@ -632,7 +632,7 @@ msgstr "Les données d'échantillonnage décrivent les occurrences d'espèces da
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:157
 msgid "All sampling event datasets contain occurrences. They also contain records of events and information about the sampling context (“how?”). These can be captured in event fields (like sampling protocol, sample size value and unit, sampling efforts) or in the Humbolt extension for ecological repositories."
-msgstr ""
+msgstr "Tous les jeux de données d'échantillonnage contiennent des occurrences. Ils contiennent également des enregistrements d'événements et des informations sur le contexte d'échantillonnage (\"comment ?\"). Ces informations peuvent être saisies dans des champs d'événements (comme le protocole d'échantillonnage, la valeur et l'unité de la taille de l'échantillon, les efforts d'échantillonnage) ou dans l'extension de Humbolt pour les référentiels écologiques."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:158
@@ -703,17 +703,17 @@ msgstr "Nous aimerions soulever quelques points concernant les données Autochto
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:183
 msgid "Indigenous data sovereignty is the right of Indigenous Peoples to exercise control over Indigenous data across all phases of the data lifecycle, and recognizes Indigenous Peoples as data creators, data stewards and knowledge experts."
-msgstr ""
+msgstr "La souveraineté des données autochtones est le droit des peuples autochtones d'exercer un contrôle sur leurs données à toutes les étapes du cycle de vie de celles-ci, et reconnaît les peuples autochtones comme créateurs, gestionnaires et experts de données, ainsi que comme détenteurs de savoirs."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:185
 msgid "Indigenous data governance is the policies and practices that support Indigenous Peoples in applying Indigenous data sovereignty to govern, collect, store, analyze, use and manage the application of Indigenous data."
-msgstr ""
+msgstr "La gouvernance des données autochtones désigne les politiques et les pratiques qui permettent aux peuples autochtones d'appliquer leur souveraineté sur les données afin de gouverner, collecter, stocker, analyser, utiliser et gérer l'application des données autochtones."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:189
 msgid "Designed to complement the FAIR Principles, the CARE Principles affirm the rights of Indigenous and local peoples, nations and communities to act as self-determining custodians and users of open data. The four principles—Collective benefit, Authority to control, Responsibility and Ethics—provide a framework for aligning the actions of GBIF network members toward more equitable biodiversity data and data practices throughout the data lifecycle."
-msgstr ""
+msgstr "Conçus pour compléter les [principes FAIR], les [principes CARE] affirment le droit des peuples autochtones et locaux, des nations et des communautés à agir en tant que gardiens et utilisateurs autonomes des données ouvertes. Les quatre principes — bénéfice collectif, autorité de contrôle, responsabilité et éthique — fournissent un cadre pour aligner les actions des membres du réseau GBIF sur des données et des pratiques de données sur la biodiversité plus équitables tout au long du cycle de vie de celles-ci."
 
 #. type: Target for macro image
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:190
@@ -747,7 +747,7 @@ msgstr "*Diapositive 17 - Considérations relatives au projet*\n"
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:201
 msgid "When you finish your proposal you should be able to answer all of these questions."
-msgstr ""
+msgstr "Lorsque vous aurez finalisé votre proposition, vous devriez être en mesure de répondre à toutes ces questions."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:203
@@ -1074,27 +1074,29 @@ msgstr "la liste de contrôle\n"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
 #, no-wrap
 msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour la flore et la faune d'une étude d'impact environnementale ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
 #, no-wrap
 msgid "occurrence\n"
 "Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
-msgstr ""
+msgstr "occurrence\n"
+"Les données sont enregistrées sur le terrain par des naturalistes et peuvent être partagées sous forme de simples jeux de données d'occurrence."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
 #, no-wrap
 msgid "sampling event\n"
 "They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
-msgstr ""
+msgstr "évènement d'échantillonnage\n"
+"Elles peuvent aussi être partagées sous forme de jeux de données de type “événement d’échantillonnage” (sampling event) si des protocoles standardisés (par ex. placettes de végétation, transects, pièges, etc.) sont utilisés pour collecter les données."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
 #, no-wrap
 msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour des données de suivi des oiseaux ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:385
