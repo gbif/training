@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-14 14:39+0000\n"
-"PO-Revision-Date: 2026-02-03 17:14\n"
+"POT-Creation-Date: 2026-02-11 15:56+0000\n"
+"PO-Revision-Date: 2026-02-11 16:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -165,8 +165,10 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:136
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:143
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:269
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:276
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
@@ -176,12 +178,10 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:16
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:24
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:32
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:25
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:25
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
@@ -238,12 +238,11 @@ msgstr "Tras completar este módulo, usted debería ser capaz de realizar las si
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/organizing.adoc:16
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#: en/project-planning/modules/ROOT/pages/resourcing.adoc:16
 #, no-wrap
 msgid "Click to expand"
 msgstr ""
@@ -346,7 +345,7 @@ msgstr ""
 #. type: Title ==
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:53
 #, no-wrap
-msgid "Demonstration"
+msgid "Demonstration 1"
 msgstr ""
 
 #. type: delimited block =
@@ -500,16 +499,307 @@ msgstr ""
 #. type: Title ==
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:130
 #, no-wrap
+msgid "Demonstration 2"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:135
+msgid "This video demonstrates how to add budget details in a BID full proposal."
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:142
+#, no-wrap
+msgid "Budget details"
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:154
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide1.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:157
+msgid "Slide 1: Title"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:159
+msgid "In this short video, we will introduce some of the keys budget aspects, that we expect to see in a project full proposal, submitted under a BID managed call."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:160
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:163
+msgid "Slide 2: Full Proposal budget (1 of 2)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:165
+msgid "You can access the Budget section under Quick links as shown here."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:166
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:169
+msgid "Slide 3: Full proposal budget (2 of 2)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:171
+msgid "For the Concept Note, you were only required to indicate the total grant amount requested and the co-funding offered, along with a basic budget."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:173
+msgid "Now, for the Full Proposal, the budget needs to be more detailed."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:175
+msgid "As a first step, we recommend reviewing your list of identified activities and deliverables, and identifying all the costs associated with each one."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:177
+msgid "It is important that all cost estimates are accurately calculated and that the overall budget is realistic. Volume and price must be included for each of the planned expenses."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:179
+msgid "Please note that the quality of the budget will form part of the final assessment of your proposal."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:180
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:183
+msgid "Slide 4: Identify your local currency"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:185
+msgid "Next, you will be asked to identify your local currency and the Euro exchange rate."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:187
+msgid "Start by typing the name of your local currency. Then, indicate the exchange rate to the Euro—in other words, how much of your local currency equals 1 Euro."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:189
+msgid "For example, 1 Euro is equivalent to 1.18 US dollars."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:191
+msgid "We understand that exchange rates change daily. Please use the exchange rate that applies on the day you are completing the budget section."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:193
+msgid "Once you have entered this information, select Save in the bottom right-hand corner. This is a very important step. You will not be able to continue filling in the budget, unless you click Save first. When you do so, the system will automatically calculate the Euro exchange rate."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:194
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:197
+msgid "Slide 5: Detailed budget instructions"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:199
+msgid "Before starting to add the budget lines, you can read the Detailed budget instructions by clicking on *here*. The detailed budget instructions give information on the expense categories, how the amounts should be calculated, what are ineligible costs and how to fill in the Budget table."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:201
+msgid "It is important to note here that all costs should clearly show how the amount was calculated (e.g. unit cost × quantity, daily rate × number of days)."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:203
+msgid "Example: “Coffee break for 15 people at 100 [currency] per person; venue hire of 1,000 [currency] per day for 2 days."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:204
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:207
+msgid "Slide 6: Add budget lines (1 of 2)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:209
+msgid "After you have indicated your currency and the Euro exchange rate and added the Detailed budget description, you can now add the budget information for each individual cost you have identified, based on the planned activities and deliverables."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:211
+msgid "To add the individual budget lines, click on the plus sign."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:213
+msgid "Once you have filled in the information for a budget line, click save."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:215
+msgid "Click on plus again to add a new budget line. You can add as many as you need."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:217
+msgid "If you wish to remove an entry, hover your mouse below the entry and click on delete (next to edit)."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:219
+msgid "Save at the bottom of the page, to have the Euro amounts automatically calculated based on the Euro exchange rate you provided."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:221
+msgid "In the pop-up window, you need to select the Activity, Type and Title. Select the expense Type that is most appropriate for your cost."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:223
+msgid "The Title should make it easy to identify the specific cost. For example, if the expense Type is ‘Conference Logistics’ the Title might be ‘Venue hire’ or ‘Catering’."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:224
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:227
+msgid "Slide 7: Add budget lines (2 of 2)"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:229
+msgid "After you select the Activity, Type and Title you must explain how you came to the budget amount for each line. This would involve details such as unit price, hourly or monthly salary rates, accommodation costs per night, etc., depending on the type of cost."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:231
+msgid "If you added ‘Venue hire’ as the Expense title and selected ‘Conference Logistics’ as Expense Type, an example description could be:"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:233
+msgid "“Hire of meeting room for 40 persons for 4 days. Daily rate is DKK 1,000”."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:235
+msgid "It is important that it is clear to us how you came to the amount, so make sure to supply enough details on what it covers."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:237
+msgid "Add the requested amount in your local currency."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:239
+msgid "If any co-funding is offered for this cost, please add the co-funding amount in your local currency."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:241
+msgid "After having completed this, remember to ‘Save’ your budget line."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:243
+msgid "The budget line information should now be visible in the budget section."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:245
+msgid "To see the Euro values for all information you have entered, please click ‘Save’ in the bottom right-hand corner of the screen. This will allow for the automatic calculation and will display the Euro amounts for all the costs you have added in your local currency."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:246
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:249
+msgid "Slide 8: Finalization of budget"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:251
+msgid "In the end, check that the amounts in the Summary and Full proposal summary are matching. These 2 budget amounts should also be matching with the BID grant requested and the co-funding amount."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:253
+msgid "Add manually the amount requested at the bottom under BID grant requested (Amount in Euros). The same applies for the co-funding."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:255
+msgid "Once you are done click Save and Close in the lower right corner."
+msgstr ""
+
+#. type: Target for macro image
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:256
+#, no-wrap
+msgid "project-planning::BudgetDetailsSlide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:260
+msgid "Slide 9: Need help? If you need any assistance or encounter any technical or other issues, please don’t hesitate to reach out to us. You can contact the BID Coordination Team at BID@gbif.org."
+msgstr ""
+
+#. type: Title ==
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:263
+#, no-wrap
 msgid "Lessons from BID Reviewers: Taking a Reviewer Perspective to Strengthen your Full Proposal"
 msgstr ""
 
 #. type: Plain text
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:134
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:267
 msgid "During this panel discussion invited reviewers from the GBIF Community of Practice will share their views on key signs that a proposal will be relevant and impactful, what influences their decisions and feedback, considerations on efficient use of resources and cost-effectiveness of a project, and sustainability of a project."
 msgstr ""
 
 #. type: delimited block +
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:274
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRSBWApwxYDsQiz5CQW2H3-JXBwhdG18RziXay2mcVn00TmiDKzSyC0f1UCviXisg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
