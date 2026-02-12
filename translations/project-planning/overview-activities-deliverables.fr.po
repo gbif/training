@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-02-06 14:24+0000\n"
-"PO-Revision-Date: 2026-02-06 15:48\n"
+"POT-Creation-Date: 2026-02-12 12:09+0000\n"
+"PO-Revision-Date: 2026-02-12 13:17\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -165,8 +165,10 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:136
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:143
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:269
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:276
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
@@ -231,6 +233,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:99
 #: en/grscicoll/modules/ROOT/pages/modelling-exercise.adoc:3
+#: en/project-planning/modules/ROOT/pages/assignment-budget.adoc:11
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:162
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:217
 #, no-wrap
@@ -246,6 +249,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
 #: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
@@ -1103,85 +1107,94 @@ msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour des données de
 #, no-wrap
 msgid "occurrence\n"
 "These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example^])"
-msgstr ""
+msgstr "occurrence\n"
+"Ces données sont partagées comme des jeux de données d'occurrences : idéalement, chaque oiseau est identifié avec son organisme et chaque occurrence (GPS ping) a son propre ID d'occurrence, qui est utile pour suivre les différents emplacements GPS du même oiseau dans le cadre du programme ou du projet de suivi. (Voir https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[exemple^])"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
 #, no-wrap
 msgid "*What dataset type(s) would you choose for insect trap data?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour des données de pièges à insectes?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
 #, no-wrap
 msgid "occurrence\n"
 "Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
-msgstr ""
+msgstr "occurence\n"
+"Bien que ces données puissent être partagées sous forme de simples jeux de données d’occurrences, il est préférable de les partager sous forme de jeux de données d’événements (sampling event), car cela permet de mieux détailler la localisation, l’identifiant et le contenu de chaque piège."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
 #, no-wrap
 msgid "sampling event\n"
 "Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
-msgstr ""
+msgstr "événements d’échantillonnage (sampling event)\n"
+"Les pièges entomologiques (ainsi que d’autres types de pièges, comme les pièges Barber/pitfall, les pièges Malaise, etc.) sont généralement utilisés dans des programmes de suivi pour vérifier la présence (ou l’absence) de certaines espèces et/ou estimer leur abondance. L’utilisation du champ *eventID* pour identifier chaque piège permet aux utilisateur·ice·s de retrouver tous les spécimens collectés dans ce piège. La même logique s’applique à d’autres protocoles de terrain, tels que les transects, les placettes, les caméras automatiques, etc. : en utilisant le noyau Événement (Event Core) plutôt que le noyau Occurrence (Occurrence core), vous pourrez partager beaucoup plus d’informations sur le contexte de la collecte des données, et permettre aux utilisateur·ice·s de mieux comprendre (et même de reproduire) votre travail."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
 #, no-wrap
 msgid "*What dataset type(s) would you choose for national park management data?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour des données de gestion d'un parc national ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
 #, no-wrap
 msgid "occurrence\n"
 "record individuals of species"
-msgstr ""
+msgstr "occurrence\n"
+"recenser des individus identifiés au niveau de l’espèce"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
 #, no-wrap
 msgid "checklist\n"
 "It is important to know how many species are present in the park/reserve perimeter and their conservation status."
-msgstr ""
+msgstr "checklist\n"
+"Il est important de connaître combien d’espèces sont présentes dans le périmètre du parc/de la réserve, ainsi que leur statut de conservation."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
 #, no-wrap
 msgid "sampling event\n"
 "check and track the populations"
-msgstr ""
+msgstr "événement d'échantillonnage\n"
+"surveiller et suivre les populations"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour un inventaire éclair (bioblitz) dans le cadre d'un programme de science participative ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
 #, no-wrap
 msgid "occurrence\n"
 "Bioblitz datasets are mainly shared as occurrence datasets."
-msgstr ""
+msgstr "occurence\n"
+"Les jeux de données issus de Bioblitz sont principalement partagés sous forme de jeux de données d’occurrences."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
 #, no-wrap
 msgid "sampling event\n"
 "Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
-msgstr ""
+msgstr "événement d'échantillonnage\n"
+"Selon le programme de science participative, des protocoles d’échantillonnage spécifiques peuvent être utilisés par les bénévoles ; dans ce cas, les données peuvent être partagées sous forme de jeu de données d’événements (événements d’échantillonnage)."
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
 #, no-wrap
 msgid "*What dataset type(s) would you choose for a regional species list?*\n"
-msgstr ""
+msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour une liste d'espèces régionale ?*\n"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
 #, no-wrap
 msgid "checklist\n"
 "Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
-msgstr ""
+msgstr "checklist\n"
+"Les listes d’espèces géographiques ou thématiques sont souvent utilisées pour partager des informations sur les espèces présentes dans une zone donnée ; la plupart du temps, ces listes indiquent aussi la répartition de chaque espèce ainsi que son statut de conservation dans cette zone. Les listes régionales d’espèces peuvent offrir un aperçu utile de la biodiversité et des habitats d’une région, et doivent être partagées sous forme de jeux de données taxonomiques, avec ou sans occurrences associées."
 
