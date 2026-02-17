@@ -2,6 +2,7 @@
     <link rel="stylesheet" href="{{{uiRootPath}}}/css/training.css">
 
     <!-- Build environment: {{ env.env }} -->
+    <link rel="canonical" href="https://training.gbif{{#if (and env.env (not (eq env.env 'prod')))}}-{{env.env}}{{/if}}.org/{{site.keys.language}}{{page.url}}" />
 
     <link rel="alternate" hreflang="x-default" href="https://training.gbif{{#if (and env.env (not (eq env.env 'prod')))}}-{{env.env}}{{/if}}.org/en{{page.url}}" />
     <link rel="alternate" hreflang="en" href="https://training.gbif{{#if (and env.env (not (eq env.env 'prod')))}}-{{env.env}}{{/if}}.org/en{{page.url}}" />
