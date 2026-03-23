@@ -1,0 +1,210 @@
+= Efficient data access for data reporting
+
+== Context
+
+[NOTE.description]
+====
+This topic relates to approaches to efficiently access GBIF-mediated data for the purpose of generating data reports. Recent developments at GBIF include the availability of GBIF snapshots on cloud computing infrastructures and the ability to query GBIF using SQL allowing for e.g. data metrics and custom data reports rather than downloading individual records. Additionally, emerging data cube formats will provide an opportunity to efficiently analyze biodiversity trends on spatiotemporal data.
+====
+
+== Learning objectives
+
+[NOTE.objectives]
+====
+After completing this module, you should be able to perform the following:
+
+* Identify the data access landscape (i.e, what tools are available and how they are used)
+* Identify appropriate solutions for given data access use cases
+* Gain insight into coding and rGBIF
+* Explore scripting reproducible workflows
+====
+
+== Trainers
+
+[NOTE.trainers]
+====
+The following trainers have developed the content for this topic:
+
+Dag Endresen, Node Manager, Norway
+
+Will Morris, Node Manager, Finland
+
+Secretariat consultants: Andrew Rodrigues and John Waller
+
+//image::gnt::research-communities-team.jpeg[]
+====
+
+== Preparation
+
+[NOTE.prep]
+====
+Complete the following activities to prepare for the onsite sessions:
+
+. xref:gnt-sharingexperience.adoc[Propose a data use case/data reporting example] to share as a subject for group discussion.
+. https://www.gbif.org/user/profile[Create an account^] on GBIF.org (if you don’t already have one).
+. Install software
+.. Install R. https://www.r-project.org/
+.. Install R Studio Desktop. https://posit.co/download/rstudio-desktop/
+
+xref:attachment$Install-R-RStudio.pdf[Download installation instructions] (846 KB)
+
+====
+
+== Data access landscape
+
+=== Introduction and data types
+
+[NOTE.presentation]
+====
+This presentation introduces the training topic and provides an overview of the data types found in GBIF.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR2DZD4wwuObOYjaIs0JpaigGy_C7dyZQDGHTznOidPdfElKU5T1mWt1I2sFPJCoQ/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Access methods
+
+[NOTE.presentation]
+====
+This presentation provides an overview of the various methods that can be used to access GBIF-mediated data.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTASXGF53evZKhKA3h0tG-puBYxeIH1I8qodByAm26-ng2v5o9TdR_bGjVZJWB3eA/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Shared examples from nodes
+
+[NOTE.presentation]
+====
+Please review the examples shared by nodes on data uses cases. You can refer to these during the group activity for inspiration. 
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWuEcGjjaqSVrZBxH3ODQ7BGF82L-QQWnh4RC9jAoAM_-DBDo_QZ2bpl_0yvOY1Q/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Exploring data access and use cases
+
+[NOTE.activity]
+====
+For this activity, each group should: (a) explore and discuss possible data access and reporting use cases and (b) select a data access use case to work on during the hands-on section.
+
+Each group should answer/discuss the following:
+
+. Examples encountered by Nodes requiring them to access/use GBIF-mediated data.
+. Discuss how the different data uses/data users/report types affect which method you might use or recommend to access GBIF-mediated data.
+. Pick a use case or data reporting example among those discussed that can be carried forward to the next exercise. As far as possible, pick a use case that is (a) non-trivial and (b) as likely as possible to be unique among the groups.
+. How would you approach the use case/data reporting example using the web interface, data downloads, API interface, R interface, cloud access, or SQL downloads?
+. What would be the relative benefits or pitfalls of each approach?
+
+At the conclusion of the activity, each group should select a member of the group to present their selected use case in plenary (max 2 minutes per group).
+====
+
+=== Case study
+
+[NOTE.presentation]
+====
+Conservation of Nordic Crop Wild Relatives will be presented as an example case study using the GBIF API. 
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQBUL3SCpe08EZf7brUCwG294pZ-IVNkB8zak_a-KWRzQ8xXAW-FHAOCYihR7cVaw/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+== Hands-on with data access and use cases
+
+=== Cloud access and SQL
+
+[NOTE.presentation]
+====
+This presentation provides an overview of accessing GBIF-mediated data using cloud services.  It also includes an introduction to SQL and how to access GBIF-mediated data using SQL.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTf7sN5KXMMgKe63J4zsofN5CFmAmjBYltIUHh-tuCt1QVLHYMWVOigdfoOu_arKQ/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== GBIF API and rgbif
+
+[NOTE.presentation]
+====
+This presentation provides an overview of accessing GBIF-mediated data using the GBIF API.  It also includes an overview of accessing GBIF-mediated data using rgbif.  Lastly,  Barents IAS portal will be presented as an example case study using rgbif. 
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRpVCQ0gSrmjuPNQZ69Hhk6mEbOaLItb9VMX4zQ9Ky14Mz0VIh_EAYkcMNTIYWXuQ/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Hands-on activity
+
+[NOTE.activity]
+====
+For this activity, (a) individuals will be exposed to coding and (b) as a group will begin work on a replicable workflow (e.g., R script, etc) for accessing GBIF-mediated data.
+
+Each group should answer/discuss/complete the following:
+
+. How would you approach the use case/data reporting example you discussed earlier, using the rgbif API client?
+. What benefits could be gained from scripting a solution to the problems discussed previously?
+. Are there aspects to the use case/data reporting example that can't be addressed using rgbif or a similar tool?
+. Work together on a script(s) to address your use case with rgbif or a similar tool.
+
+
+At the conclusion of the activity, each group should select a member of the group to present their solutions (max 2 minutes per group).
+
+https://docs.google.com/document/d/1OjRqzEbKX3MmufBO_HvsbCIfAc5pGiGC5BIBnx09nNY/edit?usp=sharing[Share your results/scripts]
+====
+
+== Action plan
+
+[NOTE.assignments]
+====
+The trainers will conclude the topic and offer an action plan for you to reflect on this topic post-training.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9ZUU5VwUY_X6qrdfPVB4Nfh_13WXkib2868fqiFptsLuN5p7XH8qadgB42pHIBQ/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====

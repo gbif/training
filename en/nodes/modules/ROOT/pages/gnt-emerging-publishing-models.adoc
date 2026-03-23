@@ -1,0 +1,224 @@
+= Emerging publishing model: DwC-DP
+
+== Context
+
+[NOTE.description]
+====
+This topic relates to work being done on the GBIF data model with regards to publishing data to GBIF using the Integrated Publishing Toolkit (IPT) for supporting richer, more complex types of biodiversity data.
+====
+
+== Learning objectives
+
+[NOTE.objectives]
+====
+After completing this module, you should be able to perform the following:
+
+* Describe the DwC-DP model 
+* Understand the Darwin Core Archive limitations
+* Understand the rationale behind the Darwin Core Data Package (DwC-DP)
+* Identify and describe dataset examples that can use DwC-DP
+* Review a dataset and consider possible mappings
+* Locate and use key resources to support data publication using DwC-DP
+* Adapt DwC-DP resources/messages for your network
+* Identify possible impacts for your community in transitioning to DwC-DP 
+====
+
+== Trainers
+
+[NOTE.trainers]
+====
+The following trainers have developed the content for this topic:
+
+André Heughebaert, Retired Node Manager, Belgium
+
+Yi Ming Gan, Node Staff, Scientific Committee on Antarctic Research
+
+Secretariat consultants: Kate Ingenloff and Mikhail Podolskiy
+
+//image::gnt::research-communities-team.jpeg[]
+====
+
+== Preparation
+
+[NOTE.prep]
+====
+Complete the following activities to prepare for the onsite sessions:
+
+. Review the materials covered in the https://www.gbif.org/event/7oJVaWQZ2wlknRfM7w4OXE[Introduction to the Darwin Core Data Package^] webinar (recording from 2 June 2025).
+====
+
+== Introduction to the Darwin Core Data Package
+
+[NOTE.presentation]
+====
+This presentation introduces the training topic and provides an overview of the path to a new data model.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSSo1yFjc8l0WdcNVYc-JVUjohI9LkUyrh0Gnh_zznQcgC1JOS-Pv5Fu1Frlnfz3Q/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+== Understanding DwC-DP
+
+[NOTE.presentation]
+====
+This presentation looks at the evolution of Darwin Core and the Darwin Core Archive into the Darwin Core Data Package.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRA27dSLYVlBQn9zJdV3Uq9gK-nQy4FtKSsZYBh479ved1p-aR7MK1Cuhv9uF3hDw/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Surveying Viridian Forest
+
+[NOTE.activity]
+====
+For this activity, the breakout groups will work together to examine information gathered in a survey and will then determine how to map that information to the DwC-DP tables.
+
+Step 1: Each group member will be assigned a role and should read through their provided role descriptions:
+
+* Professor
+* Trainer
+* Beedrill_01
+* Beedrill_02
+* Combee
+* Cutiefly
+* Butterfree
+* Pikachu
+
+Step 2: Each Pokémon has a set of information (provided on white cards).  The Pokémon and the Trainer(s) should determine which tables (the colored cards) will be used to represent the information.
+
+Step 3: All the cards can be glued to the provided sheets of paper.
+
+Step 4: Once the information and tables are arranged, the tables can be joined.
+
+Step 5: Remember to add your table name to your completed mapping.
+
+Step 6: Review the other groups' https://flic.kr/s/aHBqjCxcYg[mappings^].
+
+Step 7: Review the https://dwcdp-ipt.gbif-test.org/resource?r=viridian-forest-survey[Viridian Forest Survey of Flying Bug-type Pokémon^] dataset published on the DwC-DP test IPT.
+
+If you'd like to conduct this exercise at your own institution, you can xref:attachment$SurveyingTheViridianForest-DwC-DP-Activity.zip[download all the materials] (10.5 MB) for printing on A4 paper.
+====
+
+== Adopting DwC-DP
+
+[NOTE.presentation]
+====
+This presentation will introduce you to the resources in development and will open the discussions to assess the readiness of your node to adopt DwC-DP.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRkbYWWcrQA8x85GtqJkXpyY7CJCt7y96T0JewJZIla2zOotJyC_yMt12O6LHHjA/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Community Role Playing Game and SWOT
+
+[NOTE.activity]
+====
+For this activity, group members will take on a character role and discuss a series of questions. After discussion the group should plot results of their discussions in the form of a SWOT diagram -- Strengths, Weaknesses, Opportunties and Threats.
+
+_Characters and defining characteristics_
+
+* Node Manager
+* Data Publisher
+* Data User
+
+* Conservative / Progressive
+* Rational / Passionate
+* Inexperienced / Experienced
+
+_Guidance for the discussion_
+
+* Participants are invited to play the role and traits they chose while interacting with other participants.
+* Participants can play their own role, or go for a very different one for the sake of the game.
+* Ideally groups will consist of two NMs, two DPs, two DUs.
+* Make sure everybody has the opportunity to express his/her view.
+
+_Suggested discussion topics_
+
+* What will be the benefits of adopting DwC-DP?
+* Would it require new skills for me or my institution?
+* Would it require new tools for the community?
+* Would you be an early adopter or a follower?
+* At what pace would you adopt the new Data Model (weeks, months or years)?
+* My staff are already trained to publish using DwC-Archive, why should we change now?
+* How can I contribute to training materials translation?
+* How can I report concerns or issues about DwC-DP?
+* Will it allow users to query data beyond just occurrences points?
+
+While discussing, a recorder should capture the Strengths, Weaknesses, Opportunities, and Threats of the new Data Model as perceived by the participants and plot those on the provided diagram. 
+
+At the conclusion of the activity, each group will select someone to report back in plenary.
+====
+
+== Additional resources
+
+[NOTE.documentation]
+====
+The DwC-DP is one of several emerging publishing models in the community. Some additional resources are included here for https://camtrap-dp.tdwg.org/[Camtrap DP^] and https://github.com/CatalogueOfLife/coldp[CoLDP^].
+====
+
+=== CoLDP
+
+[NOTE.presentation]
+====
+The Catalogue of Life Data Package, or ColDP. ColDP  was created by the Catalogue of Life to  manage the most complete, authoritative list of the world’s species. This list is built through the collaboration and effort of hundreds of taxonomists from all around the world.
+
+This package is also use to structure and manage more than 160 taxonomic checklist underpinning the catalog.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSzaQoIGe1_pity2zBJwPXDcLpiraYSibYwszVtVnmgKMJWMbyi304IGswOK4UsY_qzcg7avFybvl6h/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
+
+=== Camtrap DP
+
+[NOTE.presentation]
+====
+Camtrap DP is a relatively new publishing format in GBIF and was featured in February as part of the technical support hour for nodes. The video shows how to publish a camera trap dataset with the IPT (v3+) – from original data to a dataset published on GBIF.org. Peter Desmet who is part of the Machine Observations Interest Group that manages Camtrap DP and Sanne Govaert who has firsthand experience with publishing the format were guests during the session. https://discourse.gbif.org/t/publishing-camtrap-dp-with-the-iptv3/5758[More information^] regarding the presentation and the questions asked during the session are available on the GBIF community forum.
+
+video::1064272770[vimeo]
+
+====
+
+== Action plan
+
+[NOTE.assignments]
+====
+The trainers will conclude the topic and offer an action plan for you to reflect on this topic post-training.
+
+&nbsp;
+
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVULEZ3WmzBYzly7_LIZ3olqEYNgomuHunZwKvsUnp9bglqzSbYGNhmDgUcWyjug/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+
+&nbsp;
+====
