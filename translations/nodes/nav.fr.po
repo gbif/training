@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-11 13:32+0000\n"
-"PO-Revision-Date: 2026-02-24 01:49\n"
+"POT-Creation-Date: 2026-03-24 13:57+0000\n"
+"PO-Revision-Date: 2026-03-24 14:30\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -32,17 +32,17 @@ msgid "xref:citation.adoc[Citation]"
 msgstr ""
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:9 en/nodes/modules/ROOT/nav.adoc:11
+#: en/epn/modules/ROOT/nav.adoc:9 en/nodes/modules/ROOT/nav.adoc:12
 msgid "xref:case-for-participation.adoc[Building a case for engagement in GBIF]"
 msgstr "xref:case-for-participation.adoc[Construire un argumentaire pour l'engagement dans le GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:10 en/nodes/modules/ROOT/nav.adoc:12
+#: en/epn/modules/ROOT/nav.adoc:10 en/nodes/modules/ROOT/nav.adoc:13
 msgid "xref:understanding-gbif-relevance.adoc[Understanding GBIF's relevance]"
 msgstr "xref:understanding-gbif-relevance.adoc [Comprendre la pertinence du GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:11 en/nodes/modules/ROOT/nav.adoc:13
+#: en/epn/modules/ROOT/nav.adoc:11 en/nodes/modules/ROOT/nav.adoc:50
 msgid "xref:estimating-gbif-value.adoc[Estimating the value of GBIF]"
 msgstr "xref:estimating-gbif-value.adoc[Estimation de la valeur du GBIF]"
 
@@ -97,123 +97,201 @@ msgstr ""
 
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:10
-msgid "Node administration"
+msgid "Establishing a node"
 msgstr ""
 
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:11
+msgid "Designate and resource a node"
+msgstr ""
+
+#. *** Examples of nodes budgets
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:20
-msgid "Developing communications plans for your nodes"
+msgid "xref:resourcing-collaborative-projects.adoc[Resourcing and collaborative projects]"
 msgstr ""
 
-#. *** Community norms and values
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:21
-msgid "xref:communications-strategy.adoc[A communication plan for your network]"
-msgstr ""
-
-#. ** Node models and mandates
+#. *** Institutional support
+#. *** Node models and mandates
 #. *** Governance structures for your node	
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:24
+msgid "Establish node governance"
+msgstr ""
+
 #. *** Staffing models
 #. *** Examples of mandates
 #. *** Needs assessments
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:27
-msgid "Developing strategic and work plans for your node and network"
-msgstr ""
-
-#. *** Monitoring progress at the node level
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:29
 msgid "xref:strategic-planning.adoc[Strategic planning and alignment with GBIF plans]"
 msgstr ""
 
+#. *** Monitoring progress at the node level
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:31
-msgid "Resourcing node activities"
+#: en/nodes/modules/ROOT/nav.adoc:30
+msgid "Develop work plans with monitoring and evaluation"
 msgstr ""
 
-#. *** Examples of nodes budgets
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:32
-msgid "xref:resourcing-collaborative-projects.adoc[Resourcing and collaborative projects]"
-msgstr ""
-
-#. *** Institutional support
-#. *** Project support
-#. *** Volunteer contributions
-#. *** Collaborative projects
-#. ** Identifying and assessing sources of biodiversity data
-#. *** Surveys
-#. *** GRSciColl
-#. ** Developing and implementing data mobilization strategies
-#. *** Data gap analyses
-#. *** Supporting digitization
-#. *** Promoting incentives for data publishing
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:46
+#: en/nodes/modules/ROOT/nav.adoc:33
 msgid "Support for science and research"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:34
+msgid "Engage with researchers and scientific communities"
 msgstr ""
 
 #. *** Understanding the endorsement process
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:47
-msgid "Thematic community development"
-msgstr ""
-
-#. **** DNA
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:49
+#: en/nodes/modules/ROOT/nav.adoc:35
 msgid "xref:research-communities.adoc[Research communities]"
 msgstr ""
 
-#. **** Survey and monitoring
-#. **** Disease vectors/human health
+#. *** Survey and monitoring
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:53
-msgid "xref:business-sector.adoc[Business sector]"
+#: en/nodes/modules/ROOT/nav.adoc:37
+msgid "xref:gnt-metabarcoding-data.adoc[Metabarcoding data]"
 msgstr ""
 
+#. *** Disease vectors/human health
 #. *** Citizen science
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:54
+#: en/nodes/modules/ROOT/nav.adoc:40
 msgid "xref:collections-communities.adoc[Collections communities]"
 msgstr ""
 
 #. ** Data papers
 #. ** Promoting data use
 #. *** GBIF Data use club
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:45
+msgid "Contribute to open science"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:46
+msgid "Develop partnerships with research infrastructures"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:48
+msgid "Support for policy and decisions"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:49
+msgid "Demonstrate the value of biodiversity to decision-makers"
+msgstr ""
+
 #. ** Assessing biodiversity information users’ needs
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:60
-msgid "Support for policy and decisions"
+#: en/nodes/modules/ROOT/nav.adoc:51
+msgid "xref:gnt-efficient-data-access-data-reporting.adoc[Efficient data access for data reporting]"
 msgstr ""
 
 #. *** Tracking data use examples
 #. *** Data gap analyses
 #. ** National and thematic checklists
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:65
-msgid "Coordinating data flows into national policy and decision making processes"
+#: en/nodes/modules/ROOT/nav.adoc:56
+msgid "Engage with biodiversity and science policy iniatives"
 msgstr ""
 
 #. *** Links with clearing house mechanism
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:66
+#: en/nodes/modules/ROOT/nav.adoc:57
 msgid "xref:biodiversity-commitments.adoc[Supporting national biodiversity commitments and the science-policy interface]"
 msgstr ""
 
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:59
+msgid "Engage with private sector and finance communities"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:60
+msgid "xref:business-sector.adoc[Business sector]"
+msgstr ""
+
 #. type: Title =
-#: en/nodes/modules/ROOT/nav.adoc:69
+#: en/nodes/modules/ROOT/nav.adoc:62
 #: en/nodes/modules/ROOT/pages/enabling-community.adoc:1
 #, no-wrap
 msgid "Engaging and enabling the community"
 msgstr ""
 
-#. *** Engaging stakeholders
-#. *** Targeting stakeholders' interests
-#. *** Data mobilization
+#. *** Community norms and values
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:73
+#: en/nodes/modules/ROOT/nav.adoc:63
+msgid "Establishing a community of practice"
+msgstr ""
+
+#. *** Community of practice
+#. *** Engaging volunteers
+#. *** Regional level engagement
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:68
+msgid "xref:communications-strategy.adoc[A communication plan for your network]"
+msgstr ""
+
+#. *** Data gap analyses
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:69
+msgid "Develop and implement data mobilization strategies"
+msgstr ""
+
+#. *** Supporting digitization
+#. *** Promoting incentives for data publishing
+#. *** Identifying and assessing sources of biodiversity data
+#. *** Surveys
+#. *** GRSciColl
+#. *** Project support
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:76
+msgid "Develop capacity for biodiversity data mobilization and use"
+msgstr ""
+
+#. *** Collaborative projects
+#. *** Organizing stakeholder events
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:79
 msgid "xref:developing-training.adoc[Developing training for your network]"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:82
+msgid "Technical services for biodiversity data management"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:83
+msgid "Provide tools and services in support of data publishing"
+msgstr ""
+
+#. *** Supporting data publishing
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:84
+msgid "xref:gnt-emerging-publishing-models.adoc[Emerging publishing model: DwC-DP]"
+msgstr ""
+
+#. *** Hosting an IPT or requesting support from the Secretariat
+#. *** Providing helpdesk support for data publishing
+#. ** Contributing to work on biodiversity information standards
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:88
+msgid "Establish data quality workflows"
+msgstr ""
+
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:90
+msgid "Provide tools and services in support of data access"
+msgstr ""
+
+#. *** Living Atlases community
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:91
+msgid "xref:gnt-gbif-hosted-portals.adoc[Hosted portals for nodes, networks and institutions]"
 msgstr ""
 
