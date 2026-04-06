@@ -1,1 +1,494 @@
-= GBIF-mediated data
+= GBIF-mediated data 
+
+[NOTE.objectives]
+In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will also have a chance to review the various metrics that are available for the data within the portal.
+
+== Primary biodiversity data
+
+In this section, you will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information.
+
+When we refer to primary biodiversity data, we mean the data that document where and when species have been recorded. This knowledge derives from many sources, including everything from museum specimens collected in the 18th and 19th century to geotagged smartphone photos shared by amateur naturalists in recent days and weeks.
+
+The GBIF network draws all these sources together through the use of data standards, such as Darwin Core, which forms the basis for the bulk of GBIF.org's index of hundreds of millions of species occurrence records. Publishers provide open access to their datasets using machine-readable Creative Commons licence designations, allowing scientists, researchers and others to apply the data in hundreds of peer-reviewed publications and policy papers each year. Many of these analyses—which cover topics from the impacts of climate change and the spread of invasive and alien pests to priorities for conservation and protected areas, food security and human health— would not be possible without this.
+
+[NOTE.presentation]
+====
+In this video (12:03), Cecilie Svenningsen, GBIF Data Product Manager, shares how data is shared with GBIF and how that data might be used, along with describing biodiversity standards and GBIF dataset types.
+
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[download] it locally (MP4 - 39.4 MB).
+====
+
+[.responsive-video]
+video::1180609453[vimeo]
+
+&nbsp;
+
+== Presentation transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+image::intro-to-gbif::how-data-is-shared_Slide1.png[align=center]
+
+*Slide 1 - How is data shared on GBIF.org?*
+
+One thing to be mindful of is that data publishers on GBIF own and maintain their data, and then they share that with GBIF.
+
+image::intro-to-gbif::how-data-is-shared_Slide2.png[align=center]
+
+*Slide 2 - Data publishing*
+
+So the way it works is that we have a data set that is owned by an organization. That organization needs to be endorsed by a GBIF node, that could be a country node or any sort of participant node, to be able to share data with GBIF.
+
+That data then needs to be hosted somewhere in an installation, for example, the integrated publishing toolkit provided by GBIF.
+
+So the data sets are hosted there, and then they can be published to GBIF and shared with you.
+
+image::intro-to-gbif::how-data-is-shared_Slide3.png[align=center]
+
+*Slide 3 - Data shared on GBIF is heterogeneous*
+
+Another thing to be mindful of is that data on GBIF is quite heterogeneous. These organizations that share data with GBIF come from quite various sources, and it's a community-endorsed process, as I had mentioned, where we have the nodes endorsing the publishing organizations, and that they can be anything from universities, museums, governmental agencies, et cetera.
+
+So what they share can come from research projects or monitoring efforts, citizen science data or collections.
+
+That is also something to be mindful of, that data is not live on GBIF.
+
+You can have data that is a part of a mobilized effort of a collection, museum collection that might be digitizing their data from 50 years ago, 70 years ago, and the next day, it's available on GBIF.
+
+image::intro-to-gbif::how-data-is-shared_Slide4.png[align=center]
+
+*Slide 4 - Accessing and downloading data*
+
+So just to show you how such an aggregated search can look for you as a user, if you go and you want to look at a species, in this case, I'm showing you the orange tip butterfly. So if you, as most of our users, go into our portal and search for the species, the first thing you would encounter is the species page.
+
+That will show you an overall description of the species and the GBIF occurrence distribution. But you would usually go to the occurrence record page, where you would apply further filters.
+
+In this case, I'm saying I only want records that are from 2020 to 2022, I think. And I also say that it has to be in the continent of Europe.
+
+So I've narrowed down my search and I click download, where I have to choose different options. In this case, I'm choosing the simple option.
+
+But you can also see other information, such as known issues for the data, which might be something you should look into if you want to apply further filters for your download, if you don't want that data included.
+
+So in your GBIF user profile, you can see all the downloads you ever created.
+
+In this case, I'm showing you the one I just created, the filters. But you will also see that 927 data sets contributed to this aggregated search.
+
+So quite a varied source contributed with data. This matters because that has an impact of what will actually be in the data you download.
+
+image::intro-to-gbif::how-data-is-shared_Slide5.png[align=center]
+
+*Slide 5 - Reviewing a download*
+
+So this is an example of that simple download I just created, where in the simple download, you have less fields available, less columns. But if you did the full Darwin Core archive download, you would have many fields to search from. But you will notice that there's some of these fields that appear to be empty, where we don't have any values. But as you can see, as I'm showing you now, you do actually do have some locality information shared by some publishers.
+
+So that means that some publishers might be sharing data while others don't. And that can matter for your analysis.
+
+So for example, individual count, which can give you an idea about the abundance of the species, might not necessarily be filled out by some publishers, but is filled out by others.
+
+And as I mentioned, if you have the full Darwin Core archive download, where you have many more columns, you will see a much more patchy data set, which matters for how you post-process your data.
+
+image::intro-to-gbif::how-data-is-shared_Slide6.png[align=center]
+
+*Slide 6 - To which extent is there content in the fields you download?*
+
+If we go to a little more into detail of which content you can expect from the data you download on GBIF, I just give you some general ideas of some of the fields that you could download.
+
+The GBIF ID, which we apply to the record that is shared with GBIF, is always 100%. You always get all the GBIF IDs for your data. But if you are looking for habitat information, if you look across all occurrence records on GBIF, only around 7% have data in that field. 
+
+Individual counts have quite high numbers, as well as state and province, but be mindful that this is because of birds. The biggest group of data we have on GBIF is coming from birds, so they really up how much data we actually have available. So it can be quite group specific.
+
+So if you're looking for insects, you might find that the percentage of values that are actually covered is quite low.
+
+With scientific name, it's pretty good.
+
+For the depth, if you're looking into marine occurrences, very few publishers actually share that data.
+
+The same for elevation, and life stage is only 9%.
+
+Most of our publishers do provide some sort of temporal data, but that could be just in the form of year. 
+
+So just be mindful of that when you use your data.
+
+image::intro-to-gbif::how-data-is-shared_Slide7.png[align=center]
+
+*Slide 7 - Data standards*
+
+So I'm going to talk a bit about the data standards that are behind what you see on GBIF. As you noticed, the columns have quite specific names. These names and fields are defined by data standards, which are maintained by a global biodiversity community.
+
+image::intro-to-gbif::how-data-is-shared_Slide8.png[align=center]
+
+*Slide 8 - Darwin Core Archive (DwC-A)*
+
+So most of the data shared with GBIF is usually within a Darwin Core archive, as I also mentioned earlier. And the publishers sharing data with GBIF have to map their data to this Darwin Core standard.
+
+It's maintained by the Biodiversity Information Standards, also called TDWG.
+
+And those data standards define the field name, as I mentioned, and they also sometimes define the value content that could be like a controlled vocabulary or some sort of normalized value that people should use when they share their data.
+
+So let's say you're a publisher, you're completely new to data standards and publishing on GBIF. You might have a spreadsheet saying that you have a name, you have a count of how many of that species you saw, and some general notes about what you found.
+
+Those fields have to be called scientific name for the name, for example, individual count for the counts, and for the notes, you might want to put those in occurrence remarks or event remarks.
+
+The point is that you have specific fields to capture specific information. 
+
+image::intro-to-gbif::how-data-is-shared_Slide9.png[align=center]
+
+*Slide 9 - Available fields*
+
+Now, the fields available for sharing on GBIF, it's dependent on the dataset class.
+
+As I mentioned, you have occurrence records. Those occurrence records is one type of dataset class on GBIF. 
+
+So the most simple one is the metadata-only dataset, which doesn't really have any data. It's just a description of the dataset. So that could be a description of a collection or description of a field study, but where you haven't been able to digitize the data just yet.
+
+Then we also have checklist datasets, which is a list of taxon names. There could be more information included, but generally, it's sharing scientific names of a given area or within a different specific scope.
+
+And then you have occurrences, which I mentioned before, which is the evidence of a species present or a taxon present at a given date and place.
+
+Now, the last type of dataset class we have is the sampling events, which has a little more information because usually people have to share sampling effort and protocol, and it can allow users to assess community composition and abundance of species. 
+
+image::intro-to-gbif::how-data-is-shared_Slide10.png[align=center]
+
+*Slide 10 - Dataset cores*
+
+Now, those dataset classes are core tables. So if you have a dataset table that is either a taxon, occurrence, or event table those tables have a specific set of fields you can share. But you might want to share even more information.
+
+For example, if you have an event dataset, you might want to share individual occurrences. 
+
+You did a BioBlitz from start of Saturday to the end of Saturday, but at that range, you found that butterfly or that beetle at a specific time during that.
+
+That's an occurrence within the event of the BioBlitz.
+
+Or you might have media associated. You took pictures of the different insects you found during that time, or you might even have taken samples for DNA, and then you have identifications based on DNA.
+
+And you might have a taxon core or a checklist, as I mentioned, where you have the distribution of the species covered.
+
+image::intro-to-gbif::how-data-is-shared_Slide11.png[align=center]
+
+*Slide 11 - Missing fields?*
+
+Now, we have a lot of fields available on GBIF in which you can filter down and narrow your search for. But in some cases, you might not find the fields that you need for your analysis.
+
+If you would ever need such a field, the correct way of getting, well, at least starting the discussion of getting that field into GBIF would to be to go through TDWG and the Darwin Core standard.
+
+You can propose new terms and changes to Darwin Core, but you have to be mindful that changing data standards is a community-driven process which requires a lot of engagement and patience because you need to discuss it with your peers, and you need to find a common ground for adding those data. So you have to consider whether the term already exists but would require an update, where the new term would best be placed. Is it taxon specific? Is it occurrence specific or event specific? Is it something to do with locations?
+
+And you also have to think about whether the term is better suited in an extension or in one of the core tables.
+
+So many people are maybe not that aware of extensions to these core tables, but there's a lot of extensions out there to serve the community who wants to share data or use data.
+
+So please familiarize yourself with them before you propose or change terms. 
+
+image::intro-to-gbif::how-data-is-shared_Slide12.png[align=center]
+
+*Slide 12 - Dataset metadata*
+
+One last thing I have to mention about the data standards is that you also have a data standard called EML or Ecological Metadata Language publishers use to share information about the dataset resource in which they have all their data. So that is, for example, who was the people who was involved in maintaining, gathering the data, the overall spatial and temporal scope of the dataset, the taxonomic scope of the dataset, and any funding and project-specific information, as well as methods and design.
+
+So that's another standard which is not part of the TDWG standard you might want to look into as well.
+
+--
+====
+
+=== GBIF dataset classes
+
+We encourage data holders to publish the richest data possible to ensure their use across a wider range of research approaches and questions, but not every dataset includes information at the same level of detail. 
+Sharing what is available through GBIF.org is valuable, because even partial information answers some important questions.
+
+The four classes of datasets supported by GBIF start simply and become progressively richer, more structured and more complex.
+
+image::intro-to-gbif::QDataTypes-types.png[align="center", width="640"]
+
+* Metadata only - datasets describing *undigitized* resources like those in natural history and other collections
+* Checklist - a *catalogue* or list of named organisms, or taxa
+* Occurrence - the evidence of the *occurrence of a species* (or other taxon) at a particular place on a specified date. 
+Occurrence datasets make up the core of data published through GBIF.org
+* Sampling-event - offering evidence that a species occurred at a given location and date, but also making it possible to *assess community composition* for broader taxonomic groups or even the *abundance of species* at multiple times and places.
+
+More information on https://www.gbif.org/dataset-classes[dataset classes^] can be found on the GBIF website.
+
+You might also want to explore https://data-blog.gbif.org/post/choose-dataset-type/[how to choose a dataset type^].
+
+=== GBIF taxonomic backbone
+
+*What is the GBIF Backbone taxonomy?*
+
+The Backbone taxonomy is actually a https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF dataset^].
+But not just any dataset, it is probably the most important dataset for GBIF. On its page, it is defined as:
+
+----
+a single synthetic management classification with the goal of covering all names GBIF is dealing with
+----
+
+image::intro-to-gbif::backbone.png[align="center", width="640"]
+
+*Why does GBIF need a backbone?* 
+
+The backbone is needed to organize the data available on GBIF. 
+Without it, we wouldn’t be able to do any taxonomic search and it would be difficult to generate consistent statistics and maps.
+
+As you can imagine, not everyone uses the same classifications or names. 
+This results in considerable variations in higher taxa and a large number of synonyms. 
+The backbone aims to bring all these names together and organize them.
+
+*How is the backbone generated?*
+
+The backbone is built from other checklists. These include:
+
+* 55 authority checklists,
+* a checklist generated from the type specimens shared on GBIF,
+* two large sources for stable Operational Taxonomic Units (OTUs): iBOL Barcode Index Numbers and the UNITE Species Hypothesis identifiers,
+* and any checklist shared by PLAZI.org on GBIF (currently 27,054 but not all these were available when the backbone was generated).
+
+These checklists are ordered by priority starting with the Catalogue of Life for most taxa. 
+This order is crucial as it shapes the taxonomy.
+
+NOTE: Note that many sequence-based occurrences have no Latin names but are named using species hypotheses (UNITE: fungi) or Barcode Index Numbers (iBOL: primarily animals). This is why adding these two major sources of stable OTUs to the latest backbone taxonomy significantly improves GBIF’s indexing functionality for sequence-based biodiversity data.
+
+====
+The information above is an excerpt from a 2019 blog post by Marie Grosjean. Read the https://data-blog.gbif.org/post/gbif-backbone-taxonomy/[blog post^] for more detail on the backbone.
+====
+
+== GRSciColl
+
+The Global Registry of Scientific Collections, or https://scientific-collections.gbif.org/[GRSciColl^], is a comprehensive and community-curated clearing house of information about scientific collections in the GBIF registry. By providing information about physical scientific collections—their content, location, contacts, associated institutions, and collection codes and identifiers—GRSciColl offers a resource for a wide range of uses by experts, researchers and members of broader society.
+
+[NOTE.presentation]
+====
+In this video (02:11), Marie Grosjean, GBIF Data Administrator, provides an introduction to GRSciColl.
+
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$getting_started_on_global_registry_of_scientific_collection_website_v1 _1080p.mp4[download] it locally (MP4 - 13.3 MB).
+====
+
+[.responsive-video]
+video::872824009[vimeo]
+
+== Principles of GBIF-mediated data
+
+[NOTE.activity]
+In this section, you will learn about the principles that GBIF follows with regards to data and how data in the GBIF portal are FAIR.
+
+=== Digital object identifiers
+
+A Digital Object Identifier, or DOI, is a http://www.iso.org/iso/catalogue_detail?csnumber=43506[standard^], permanent identifier that provides an actionable, interoperable, persistent link to any entity. 
+The concept is that DOI differs from commonly used references like URL web links because it identifies an object itself as a first-class entity, not simply the place where the object is currently located.
+
+In the context of GBIF.org, DOIs serve as stable identifiers for four different types of things: 
+
+. datasets from the GBIF network
+. data downloads from GBIF.org
+. research articles and reports published by scientific journals, agencies and NGOs
+. materials deposited in a general-use repository
+
+GBIF assigns DOIs to all datasets and occurrence downloads. 
+When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility. 
+The DOIs will always resolve to dataset or download pages, even if the underlying data is no longer available.
+
+GBIF started issuing DOIs on 3 February 2015. 
+Downloads requested before this date do not have DOIs, however, if you wish to cite older downloads, you can contact helpdesk@gbif.org and we will assign DOIs as appropriate.
+
+=== Standards
+
+The data available through GBIF.org and its associated services is the result of the GBIF network of Participants and publishers applying shared rules and conventions to describe, record and structure thousands of different datasets drawn from hundreds of institutions around the world. Common standards are the main enabler for bringing together the hundreds of millions of primary biodiversity records in the GBIF index.
+
+Within the biodiversity domain, the group most often responsible for developing and maintaining data standards is http://www.tdwg.org/[Biodiversity Information Standards^]. This nonprofit scientific and educational association focuses on the development of standards for the exchange of biological and biodiversity data. Members of the biodiversity community generally refer to this group as TDWG (pronounced tad-wig)—a vestigial reminder of its earlier manifestation as the Taxonomic Databases Working Group.
+
+Commonly use standards include:
+
+* Darwin Core: The https://dwc.tdwg.org/[Darwin Core Standard^] (DwC) offers a stable, straightforward and flexible framework for compiling biodiversity data from varied and variable sources. 
+The majority of the datasets shared through GBIF.org are published using the Darwin Core Archive format (DwC-A).
+* Ecological Metadata Language (EML): https://eml.ecoinformatics.org/[Ecological Metadata Language^] is a metadata standard that records information about ecological datasets in a series of modular and extensible XML document types. 
+All of the descriptions of datasets in GBIF.org rely on ‘metadata’—that is, the information about data—using the open-source EML standard, which is administered and maintained by https://knb.ecoinformatics.org/[The Knowledge Network for Biocomplexity^].
+Each Darwin Core Archive includes as one of its components an EML file (written in XML format).
+* BioCASe/ABCD: The http://www.biocase.org/[Biological Collection Access Service^], commonly referred to as BioCASe, is an international network linking biological collections data from natural history museums, botanical/zoological gardens and research institutions. The http://www.biocase.org/products/protocols[BioCASe protocol^] relies on the http://www.tdwg.org/standards/115[Access to Biological Collections Data^] (ABCD) data exchange standard, which TDWG also administers.
+
+=== Open data
+
+In keeping with a 2014 https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement[decision by the GBIF governing board^], data publishers must assign one of the three Creative Commons options to any occurrence dataset. The Governing Board recognized the need for much greater clarity both for data publishers and users on how data may be used when shared via GBIF.org. https://creativecommons.org/[Creative Commons] is a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges.
+
+* http://creativecommons.org/publicdomain/zero/1.0[CC0^] - no conditions for use
+* https://creativecommons.org/licenses/by/4.0/[CC-BY^] - use with attribution
+* http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC^] - non-commercial use with attribution 
+
+IMPORTANT: Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers has waived conditions for use, attribution is expected.
+
+=== FAIR data
+
+Many articles from 2011-2016 documented a crisis in scientific reproducibility (see below). 
+In 2016, the https://www.nature.com/articles/sdata201618[FAIR Guiding Principles for scientific data management and stewardship^] were published in https://www.nature.com/sdata/[Scientific Data^]. 
+The principles were designed to improve the Findability, Accessibility, the Interoperability and the Reusability of datasets and address "an urgent need to improve the infrastructure supporting the reuse of scholarly data." 
+Implementation of these principles began in 2018. 
+You can read more about http://www.go-fair.org/how-to-go-fair/[How to GO FAIR^] on https://www.go-fair.org/[GO-FAIR.org^].
+
+image::intro-to-gbif::gofairlogo.svg[align="center", width="208", height="58"]
+
+image::intro-to-gbif::FairPrinciples2.png[align="center", width="340", height="517"]
+
+*Data found on GBIF.org are FAIR.*
+
+****
+*FINDABLE*
+
+GBIF has https://www.gbif.org/data-quality-requirements[requirements] for metadata and datasets. All datasets are identified by https://www.gbif.org/faq?question=how-and-when-does-gbif-assign-digital-object-identifiers-dois[Digital Object Identifiers^] (DOIs).
+****
+
+****
+*ACCESSIBLE*
+
+The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine readable interface (REST + JSON) and use the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository.
+****
+
+****
+*INTEROPERABLE*
+
+GBIF recommends using the https://eml.ecoinformatics.org/[Ecological Metadata Language^] (EML) for datasets and https://dwc.tdwg.org/[Darwin Core^] for occurrence data.
+****
+
+****
+*REUSABLE*
+
+GBIF require creative common data licenses (https://creativecommons.org/publicdomain/zero/1.0[CC0^], https://creativecommons.org/licenses/by/4.0[CC BY^], or https://creativecommons.org/licenses/by-nc/4.0[CC BY-NC^]). Provenance available from the GBIF portal.
+****
+
+====
+*Literature references*
+
+Baker (2016) 1,500 scientists lift the lid on reproducibility. Nature 533: 452-454 (26 May 2016) doi:10.1038/533452a
+
+Baker (2016) Reproducibility: Seek out stronger science. Nature 537: 703-704 (29 September 2016) doi:10.1038/nj7622-703a
+
+Nature editorial (2016) Reality check on reproducibility. Nature 533: 437 (26 May 2016) doi:10.1038/533437a
+
+Baker (2016) Statisticians issue warning over misuse of P values. Nature 531: 151 (10 March 2016) doi:10.1038/nature.2016.19503
+
+Nosek et al. (2015) Promoting an open research culture. Science 348(6242): 1422-1425. DOI:10.1126/science.aab2374
+
+Leek and Peng (2015) Statistics: P values are just the tip of the iceberg. Nature 520: 612 (30 April 2015) doi:10.1038/520612°
+
+Nuzzo (2015) How scientists fool themselves – and how they can stop. Nature 526: 182–185 (08 October 2015) doi:10.1038/526182a
+
+Hayden (2013) Weak statistical standards implicated in scientific irreproducibility. Nature doi:10.1038/nature.2013.14131
+
+Young (2012) Replication studies: Bad copy. Nature 485, 298–300 (17 May 2012) doi:10.1038/485298a
+
+Callaway (2011) Reports finds massive fraud at Dutch universities. Nature 479, 15 (1 November 2011) doi:10.1038/479015a
+====
+
+== Data metrics
+
+[NOTE.activity]
+In this section review the various metrics available for datasets.
+
+One of the many benefits of publishing data via GBIF is that, during the indexing process, GBIF analyses all datasets and produces https://www.gbif.org/analytics/global[metrics^] about them. These metrics are made available in several different ways:
+
+* global trends
+* country pages
+* dataset content statistics
+* dataset download activity
+
+Participants and publishers can use this information to improve the quality of their datasets, e.g. by addressing issues detected during the indexing process. They can also use the access statistics as evidence of real user interest in their datasets and potential use of the published data.
+
+*Global data trends*
+
+GBIF.org regularly updates analytics to provide an overview of global trends in the data from 2008 to the present. The charts illustrate trends in:
+
+* occurrence records
+* species counts
+* time and seasonality
+* completeness and precision
+* geographic coverage for recorded species
+* data sharing with country of origin
+
+image::intro-to-gbif::10_trends.png[align="center", width="640", height="815"]
+
+*Dataset content statistics*
+
+Each dataset page includes a tab labelled ‘Metrics’. This tab gives access to graphs and tables resulting from the analysis of the contents of the dataset. This includes a summaries of:
+
+* Taxonomic distribution (both list and chart)
+* Occurrences per issue
+* Occurrences per year
+
+The charts/tables are interactive and you can click to filter and explore further. Additionally, the images can be downloaded for reporting purposes.
+
+image::intro-to-gbif::MetricsImage6.png[align="center", width="640", height="843"]
+
+*Data access logs*
+
+There is a third tab in occurrence dataset pages labelled ‘Activity’. In this tab you can see a list of all download requests that included records from that dataset, including their download DOI for easy tracking.
+
+image::intro-to-gbif::ActivityImage7.png[align="center", width="640", height="1009"]
+
+== Review
+
+[NOTE.quiz]
+====
+Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions.
+
+You can read more about the answers in the xref:solutions.adoc[Solutions Appendix].
+====
+
+// Note the lack of empty lines between the end of the question (....) and the start of the next question
+// (. What…) is required, so I have added // comments to help separate them.
+// The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+
+****
+// Question 1
+. What dataset class makes up the core of data published within GBIF?
++
+[question, mc]
+....
+- [ ] Metadata-only
+- [ ] Checklist
+- [x] Occurrence
+- [ ] Sampling-event
+....
+// Question 2
+. What is the taxonomic backbone?
++
+[question, mc]
+....
+- [ ] A dataset
+- [ ] A management classification with the goal of covering all names in GBIF
+- [ ] Allows for taxonomic search on GBIF
+- [x] All of the above
+....
+// Question 3
+. Which licenses or waivers can be applied to datasets published in GBIF?
++
+[question, mc]
+....
+- [x] CC BY
+- [ ] CC BY-SA
+- [x] CC BY-NC
+- [ ] CC BY-NC-SA
+- [ ] CC BY-ND
+- [ ] CC BY-NC-ND
+- [ ] CC BY-NC-SA
+- [x] CC0
+....
+// Question 4
+. Images are subject to the same licenses as datasets?
++
+[question, mc]
+....
+- [ ] True
+- [x] False
+....
+// Question 5
+. GBIF data are FAIR?
++
+[question, mc]
+....
+- [x] True
+- [ ] False
+....
+****

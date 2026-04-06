@@ -1,46 +1,374 @@
 = About GBIF 
 
 [NOTE.objectives]
-The Global Biodiversity Information Facility (GBIF) is an international network of country and organizational Participants that exists to enable free and open access to biodiversity data from all sources and to support biodiversity science, environmental research, and evidence based decision-making. 
+====
+The Global Biodiversity Information Facility (GBIF) is an international network of country and organizational Participants that exists to enable free and open access to biodiversity data from all sources and to support biodiversity science, environmental research, and evidence based decision-making.
+
 GBIF operates as a federated system of distributed data publishing efforts, coordinated through a global informatics infrastructure and collaborative network.
+
 In this module, you will learn more about GBIF.
+====
 
 == What is GBIF?
 
 [NOTE.presentation]
-In this video (03:19) you will learn about GBIF. It is a co-production of SiB Colombia and GBIF Spain, both GBIF national nodes, with co-funding from GBIF Spain and Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH). If you are unable to watch the embedded Vimeo video, you can link:../videos/GBIF__The_library_of_life.mp4[download^,opts=download] it locally. (MP4 - 11.3 MB)
+====
+Can you imagine how much knowledge could be generated, if people could find and use the Earth's biodiversity data, in an organized and accessible way? 
+
+This video (03:19) was originally co-produced in Spanish (https://vimeo.com/236573907) by SiB Colombia and GBIF Spain, both national nodes of GBIF, and Go Visual with co-financing from GBIF Spain and the Alexander von Humboldt Biological Resources Research Institute (IAvH), the host institution of SiB Colombia.
+
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$gbif__the_library_of_life_v1-1080p.mp4[download] it locally (MP4 - 39.5 MB).
 
 [.responsive-video]
 video::661945151[vimeo]
+
+====
 
 TIP: If you see the CC symbol on a video, you can click it to enable closed captioning/subtitles in English or other available languages.
 
 == Introduction to GBIF
 
 [NOTE.presentation]
-In this video (07:55), Tim Hirsch, Deputy Director of the GBIF Secretariat, provides you with an overview of GBIF. 
-If you are unable to watch the embedded Vimeo video, you can link:../videos/Introduction-to-GBIF.mp4[download^,opts=download] it locally. (MP4 - 32.3 MB)
+====
+In this video (07:55), Kyle Copas, GBIF Head of Communications, provides you with an overview of GBIF.
+ 
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$Ex1_Darwin_Core.docx[download] it locally (MP4 - 32.3 MB).
 
 [.responsive-video]
 video::434831655[vimeo]
+====
 
-== Introduction to GBIF Participant Nodes
+== GBIF for Science
 
 [NOTE.presentation]
-Since GBIF’s founding in 2001, the participating countries and organizations have been testing and developing models for coordinating the mobilization, management and reuse of biodiversity data at the national level or within an organization’s scope. 
-The formation of Participant ‘nodes’ has been central to these efforts. 
-Designated by each Participant, these teams coordinate the needs and interests of the many stakeholders involved. 
-In this video (07:53), we look at the variety of node models in the GBIF network to present generalized concepts relating to Participant nodes and the roles that they play in the GBIF community.
-If you are unable to watch the embedded Vimeo video, you can link:../videos/Role-of-nodes-in-GBIF.mp4[download^,opts=download] it locally. (MP4 - 14.0 MB)
+====
+In this video (07:52), Dmitry Schigel, GBIF Lead Scientific Officer, illustrates GBIF’s work in building the evidence to advance scientific research and understanding of global biodiversity.
+
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$gbif_for_science_v1-1080p.mp4[download] it locally (MP4 - 39.4 MB).
+====
 
 [.responsive-video]
-video::543599833[vimeo]
+video::1180481633[vimeo]
+
+&nbsp;
+
+== Presentation transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+image::intro-to-gbif::GBIF-for-Science-Slide1.png[align=center]
+
+*Slide 1 - GBIF for Science*
+
+This presentation illustrates GBIF’s work in building the evidence to advance scientific research and understanding of global biodiversity.
+
+image::intro-to-gbif::GBIF-for-Science-Slide2.png[align=center]
+
+*Slide 2 - Providing biodiversity evidence for research and policy*
+
+Let’s take a look at GBIF from the science point of view. Let’s work though this left to right.
+
+On the left, academic organizations such as museums and universities, as well as, governmental agencies and non-governmental organizations, businesses and amateur communities, all can register as data holders in GBIF and share biodiversity data that are borne under their roofs and affiliations. 
+
+Primary biodiversity evidence can have physical objects behind it, like samples and specimens, or it could also be virtual recordings by humans or by automated sensors. 
+
+Some samples undergo chemical processing to reveal biodiversity signals, for instance, through DNA from soil, water, air, or wood. The same method is widely applied to individual or bulk specimens, and together these form eDNA, barcoding, and metabarcoding body of evidence.
+
+This variety of sources and methods comes together in the central index at GBIF – this index makes searches, filters and machine queries work across all the datasets shared with GBIF. 
+
+On the right side, you see the meaning of GBIF’s existence: GBIF provides efficiency and time saving for data discovery and data access – but we do not resolve data heterogeneity for you. Like with any other internet search, your science needs – on the right in magenta – or, perhaps, your policy needs, in blue, dictate which data records will be fit for your use.
+
+So here biodiversity science happens on on both sides – on the left, among the data publishers, and on the right – with the users. Biodiversity informatics, computer science with their technical competencies bring the two sides together.
+
+image::intro-to-gbif::GBIF-for-Science-Slide3.png[align=center]
+
+*Slide 3 - Datasets: attribution, credit and affiliation*
+
+For anyone in research and academia, the dataset page at GBIF will have familiar elements which focus on credit and attribution: 
+
+First, is the dataset’s organizational affiliation – which is also a link leading to publisher’s page – in GBIF, datasets are shared by organizations. 
+
+Next – are the dataset’s authors in a few key roles – the dataset originators, the creative authors of the recorded biodiversity evidence, and the metadata authors – whose role is to ensure that digital representation and description of the dataset at GBIF is accurate. 
+
+Third – every dataset page where at least one record was cited at least once displays an ever-growing number and links to research papers which are powered by this dataset’s use. 
+
+The fourth and final element highlighted here – is the dataset’s DOI, the unique digital object identifier which enables what we call literature tracking. Anytime data is used from a dataset, the DOI of the dataset is meant to be cited by the users of the data. 
+
+In this particular example, a https://doi.org/10.15468/ajkhha[dataset on bryophytes^], mosses from Switzerland, has been used in a https://doi.org/10.15468/dl.36wam3[study analyzing climate and distribution of Sphagnum mosses^] by a group of authors based in Sweden. This is only one of over 150 studies that are rooted in this dataset.
+
+image::intro-to-gbif::GBIF-for-Science-Slide4.png[align=center]
+
+*Slide 4 - Peer-reviewed publications using GBIF-mediated data*
+
+Through the Secretariat’s https://www.gbif.org/literature-tracking[literature tracking programme^], we are able to see that GBIF-mediated data are used in scientific literature at an increasing rate. 
+
+The https://www.gbif.org/science-review[GBIF Science Review^] highlights an annual selection of key research uses drawn from the literature tracking programme. The peer-reviewed articles summarized in the Review offer a partial but instructive view of the wide range of research investigations that are enhanced and supported by free and open access to biodiversity data from the GBIF network of Participants, nodes and publishers.
+
+image::intro-to-gbif::GBIF-for-Science-Slide5.png[align=center]
+
+*Slide 5 - Systematic reviews of GBIF-enabled science*
+
+As more and more researchers cite data using DOIs, GBIF is better able to monitor and to analyze the landscape of GBIF-enabled science. Every five years the corpus of GBIF enabled research is a subject of systematic review, exploring the patterns of GBIF use in research.
+
+On the left, you can see diversity of topics in years 2016 to 2019,  the topics becoming hotter and cooler with time, topic connections, and topic sizes, and the picture on the right outlines the thematic relevance landscape of GBIF in more recently from 2020 to 2024.
+
+These studies produce two kinds of important fact-based signals for the network: they outline the evolution of the GBIF data outputs for scientific analyses, and the strategic understanding of GBIF position and trends in supporting science.
+
+____
+https://doi.org/10.1073/pnas.2018093118
+Heberling et al. 2021
+Data integration enables global biodiversity synthesis
+2016 – 2019
+DOI: 10.1073/pnas.2018093118
+
+https://doi.org/10.1073/pnas.2519119122
+Steinke et al. 2025
+Globally aggregated biodiversity data impact predictive and descriptive research
+2020 – 2024
+____
+
+image::intro-to-gbif::GBIF-for-Science-Slide6.png[align=center]
+
+*Slide 6 - GBIF-enabled science: research topics over time: 2010 – 2024*
+
+What kind of signals and patterns do these systematic reviews reveal? GBIF-powered studies were mostly focuse on ecology in combination with conservation, climate change, agriculture, phylogenetics, evolution, taxonomy, and species distribution. The prevalence of the topics have changed over time — especially ecology in combination with climate change (since 2019), and agriculture (a jump in 2023).
+
+____
+Steinke D et al. (2025): Globally aggregated biodiversity data impacts predictive and descriptive research. PNAS 122(50): e2519119122. https://doi.org/10.1073/pnas.2519119122
+____
+
+image::intro-to-gbif::GBIF-for-Science-Slide7.png[align=center]
+
+*Slide 7 - GBIF thematic relevance*
+
+Data shared through GBIF is https://www.gbif.org/composition/2SEGqoMS8eMVos9T1owEEk[applied across many disciplines and research traditions^]. To name just a few: 
+
+CONSERVATION, including conservation biology but also science-based management, such as design of the protect areas and assessment of threats to species, by tracking the actual and predicted spread of invasive alien species. 
+
+In relation to Agrobiodiversity, GBIF mediated data help exploring distribution of the crop wild relatives. 
+
+Another human related sector is HUMAN HEALTH where species that act as vectors, hosts and reservoirs of human diseases are discoverable through GBIF. 
+
+As GBIF provides access to both historic and to recent biodiversity data, GBIF powers research on effect of the environmental CHANGE onto species and communities, often using modelling techniques where GBIF mediated data serve as baseline and as inputs.
+
+image::intro-to-gbif::GBIF-for-Science-Slide8.png[align=center]
+
+*Slide 8 - Mision and Vision*
+
+GBIF exists to build the evidence to advance scientific research and to support global understanding of biodiversity. GBIF relevance for science and research is the most visible and the best documented thanks for DOI based literature tracking. GBIF coordinates international scientific efforts of GBIF on its mission of making biodiversity data openly available to all countries and individuals.  
+
+image::intro-to-gbif::GBIF-for-Science-Slide9.png[align=center]
+
+*Slide 9 - Conclusion*
+
+This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Dmitry Schigel. If you have any questions on the course content, you can reach out at training@gbif.org.  
+
+--
+====
+
+== GBIF Participant Nodes
+
+[NOTE.presentation] 
+====
+In this video (08:05), Mélianie Raymond, GBIF Head of Community and Capacity, explores the important role that nodes play in GBIF. 
+
+If you are unable to watch the embedded Vimeo video, you can xref:attachment$the_role_of_nodes_in_gbif_v1-1080p.mp4[download] it locally (MP4 - 48.5 MB).
+====
+
+[.responsive-video]
+video::1180481510[vimeo]
+
+&nbsp;
+
+== Presentation transcript
+
+.Click to expand
+[%collapsible]
+====
+//. {blank}
+//+
+[.float-group]
+--
+[.left]
+&nbsp;
+
+image::intro-to-gbif::role-of-nodes-Slide1.png[align=center]
+
+*Slide 1 - The role of nodes in GBIF*
+
+In this video, we’ll explore the important role that https://www.gbif.org/nodes[nodes^] play in GBIF—the Global Biodiversity Information Facility.
+
+GBIF is both a data infrastructure and an international network that exists to enable free and open access to biodiversity data from all sources. 
+
+Here, we’ll focus on one key part of this network: the role of GBIF Participant nodes.
+
+image::intro-to-gbif::role-of-nodes-Slide2.png[align=center]
+
+*Slide 2 - Establishing a node is a commitment made by GBIF Participants*
+
+GBIF is an intergovernmental initiative and its members—formally known as Participants consist of countries, economies, and international organizations working together to promote open access to biodiversity data.
+
+To join, Participants sign a https://www.gbif.org/mou[Memorandum of Understanding^], confirming their commitment to share biodiversity data openly.
+
+In signing the MOU, each Participant also commits to establishing a national or organizational node.
+
+image::intro-to-gbif::role-of-nodes-Slide3.png[align=center]
+
+*Slide 3 - What is a GBIF Participant node?*
+
+A node is a team designated by a country or organization participating in GBIF. Its role is to coordinate a network of people and institutions that produce, manage, and use biodiversity data.
+
+Together, they build and support the infrastructure needed to deliver biodiversity information. 
+
+Nodes work to improve both the availability and the usefulness of biodiversity data—for research, policy, and decision-making.
+
+And by participating in GBIF, they connect their national or organizational efforts to a global network.
+
+image::intro-to-gbif::role-of-nodes-Slide4.png[align=center]
+
+*Slide 4 - National and organizational nodes*
+
+GBIF nodes fall into two main categories: national and organizational.
+
+National nodes are established by countries. They coordinate biodiversity data sharing at the national level, often under a formal mandate and governance structure, such as a board or steering committee.
+
+This allows data holders, researchers, policymakers, and other partners to work together and set priorities for how the country participates in the GBIF network.
+
+Organizational nodes, on the other hand, are established by the international organizations that participate in GBIF.
+
+They often focus on specific themes or regions, and help extend the reach of the GBIF network.
+
+These two types of nodes complement each other, strengthening collaboration across countries, regions, and thematic areas.
+
+image::intro-to-gbif::role-of-nodes-Slide5.png[align=center]
+
+*Slide 5 - Nodes provide services in four key areas*
+
+Broadly, the services and responsibilities of all nodes can be grouped into four main categories:
+
+* Support for science and research
+* Support for policy and decisions
+* Engaging and enabling the community
+* Technical services for biodiversity data management
+
+We will now look at the benefits that nodes provide in each of these areas.
+
+image::intro-to-gbif::role-of-nodes-Slide6.png[align=center]
+
+*Slide 6 - Benefits of establishing a node: Supporting science & research*
+
+Nodes help Participants get more value from their investments in biodiversity research and data collection—past, present, and future.
+
+They support biodiversity data holders in publishing and sharing data using common standards, making it easier to discover, combine, and reuse across studies.
+
+They help make the publication of primary data - and the citation of its reuse -  part of the scientific mainstream. 
+
+This supports both basic and applied research, and advances our understanding of biodiversity at local, national, and global scales.
+
+image::intro-to-gbif::role-of-nodes-Slide7.png[align=center]
+
+*Slide 7 - Benefits of establishing a node: Supporting policy & decision-making*
+
+Nodes promote open data practices and help establish the data flows that allow biodiversity data to inform policy and decision-making.
+
+This includes supporting information needs for biodiversity strategies, conventions, and sustainable development goals.
+
+Participant nodes and biodiversity information facilities are therefore instrumental in helping Participants achieve their own biodiversity data-related goals and targets.
+
+image::intro-to-gbif::role-of-nodes-Slide8.png[align=center]
+
+*Slide 8 - Benefits of establishing a node: Engaging and enabling the community*
+
+Nodes play a key role in building and supporting a strong biodiversity data community.
+
+Through training and outreach, nodes help grow the network and develop skills across the community.
+
+Nodes also connect with other nodes to share knowledge and experience. This increases the efficiency of establishing biodiversity data sharing networks.  
+
+image::intro-to-gbif::role-of-nodes-Slide9.png[align=center]
+
+*Slide 9 - Benefits of establishing a node: Providing technical services & infrastructure*
+
+Finally, nodes provide the technical foundation for managing and sharing biodiversity data.
+
+They offer tools, infrastructure, and helpdesk support to enable data publication and access.
+
+By making the connection to GBIF, nodes enable the integration of data mobilized their networks with relevant data published by other countries and organizations. 
+
+Data mobilized to serve national or organizational needs therefore also become available for reuse by the broader international audience. This raises the visibility of the Participant’s data publishing institutions and mobilization efforts.  
+
+image::intro-to-gbif::role-of-nodes-Slide10.png[align=center]
+
+*Slide 10 - Participant roles*
+
+Two main roles are assigned when a Participant joins GBIF: the Head of Delegation and the node manager. 
+
+The Head of Delegation represents the country, economy or organization on the GBIF Governing Board, and acts as the Participant’s primary focal point for all GBIF-related activity. 
+
+The node manager leads the operational activities of the country or organization in coordinating the mobilization and use of open-access biodiversity data, and also represents the Participant on the GBIF Participant Node Managers Committee.
+
+image::intro-to-gbif::role-of-nodes-Slide11.png[align=center]
+
+*Slide 11 - Governance role*
+
+Nodes therefore also play a role in GBIF’s governance.
+
+The https://www.gbif.org/contact-us/directory?group=nodesCommittee[Nodes Committee^], which brings together node managers from across the network, provides guidance to the governing board on the implementation of GBIF’s work.
+
+This committee also provides a space for nodes to share experiences, develop best practices, and strengthen collaboration.
+
+The Nodes committee meets in a global nodes meeting every second year. Regional nodes meetings are organized in years in between the global meetings.  These dynamic meetings help keep the network connected and aligned.
+
+image::intro-to-gbif::role-of-nodes-Slide12.png[align=center]
+
+*Slide 12 - Recommendations on node staffing*
+
+Running a node requires a broad mix of skills.
+
+GBIF’s https://doi.org/10.35035/doc-d601-d695[guidance on establishing an effective Participant node^] includes suggestions on staff roles within nodes, which includes a minimum of four roles as you see here. 
+
+The node manager will lead the team and will serve as the main point of contact with the GBIF network and Secretariat, including participation in the Node Managers’ Committee. 
+
+Nodes also benefit from a scientific expert who understands research communities and can motivate and communicate with data holders and users.
+
+Nodes also need a person with skills in data management, to provide technical assistance and  maintain databases
+
+And finally, a person with an informatics background to develop and maintain the infrastructure needed for publishing and accessing biodiversity data.
+
+Deciding how to staff a node will, of course, depend on its expected roles, the level of financial support and the hosting agreement or institutional location of the node.
+
+image::intro-to-gbif::role-of-nodes-Slide13.png[align=center]
+
+*Slide 13 - Nodes connect audiences*
+
+In summary, Nodes play an essential role in GBIF’s network and governance.
+
+They connect GBIF’s audiences: people, data, and systems—linking local efforts to a global network.
+
+By supporting data sharing, collaboration, and capacity development, nodes enable both national and international communities to contribute to and benefit from participation in the GBIF network.
+
+image::intro-to-gbif::role-of-nodes-Slide14.png[align=center]
+
+*Slide 14 - Conclusion*
+
+This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Melianie Raymond. If you have any questions on the course content, you can reach out at training@gbif.org.
+
+--
+====
 
 ====
 *Further guidance for Nodes*
 
-* https://docs.gbif.org/effective-nodes-guidance/1.0/en/[Establishing an effective GBIF Participant Node^]
-* https://www.gbif.org/tool/6Y2SqK8XokHUqIFUn6TLxX/online-capacity-self-assessment-tool-for-national-biodiversity-information-facilities[Online capacity self-assessment tool for national biodiversity information facilities^]
+* https://doi.org/10.35035/doc-d601-d695[Establishing an effective GBIF Participant Node^]
+* https://www.gbif.org/nodes
 ====
 
 == Countries/Economies in GBIF
@@ -49,13 +377,13 @@ video::543599833[vimeo]
 Investigate how your country/economy is represented in GBIF
 
 .The GBIF website has pages dedicated to countries/economies, including for countries/economies that do not yet participate in GBIF. You can use the search box on the homepage to look up a country/economy name.
-image::img/web/lookupcountry.png[align="center", width="640"]
+image::intro-to-gbif::lookupcountry.png[align="center", width="640"]
 
 .The tabs on these pages provide a general description of the data available about the biodiversity of the country, any data published by national institutions, as well as other relevant information on the use of data by researchers in the country.
-image::img/web/countrypage.png[align="center", width="640"]
+image::intro-to-gbif::countrypage.png[align="center", width="640"]
 
 .A recent collaboration with the IUCN Invasive Species Specialist Group means that, for many countries, a checklist of introduced and invasive alien species is available from the Global Register of Introduced and Invasive Species (GRIIS).
-image::img/web/alienspecies.png[align="center", width="640"]
+image::intro-to-gbif::alienspecies.png[align="center", width="640"]
 
 ****
 . Look up your country on the GBIF website.
@@ -68,12 +396,17 @@ image::img/web/alienspecies.png[align="center", width="640"]
 == Review
 
 [NOTE.quiz]
-Quiz yourself on the concepts covered in this module.
-****
+====
+Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions.
+
+You can read more about the answers in the xref:solutions.adoc[Solutions Appendix].
+====
+
 // Note the lack of empty lines between the end of the question (....) and the start of the next question
 // (. What…) is required, so I have added // comments to help separate them.
 // The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 
+****
 // Question 1
 . What is GBIF?
 +
@@ -95,7 +428,27 @@ Quiz yourself on the concepts covered in this module.
 - [x] 2001
 ....
 // Question 3
-. Which of the following is the best description of a GBIF Participant node?
+. What is a GBIF's literature tracking programme?
++
+[question, mc]
+....
+- [ ] ??
+- [ ]  ??
+- [x]  ??
+- [ ]  ??
+....
+// Question 4
+. What is the Science Review?
++
+[question, mc]
+....
+- [ ] ??
+- [ ]  ??
+- [x]  ??
+- [ ]  ??
+....
+// Question 5
+. What is the best description of a GBIF Participant node?
 +
 [question, mc]
 ....
@@ -104,8 +457,8 @@ Quiz yourself on the concepts covered in this module.
 - [ ] A regional hub for expertise in biodiversity data mobilization and data use
 - [ ] The informatics infrastructure that connects with GBIF.org to enable a Participant country or organization to publish biodiversity data
 ....
-// Question 4
-.  Which of the following is NOT a typical function of a GBIF Participant node?
+// Question 6
+.  What is NOT a typical function of a GBIF Participant node?
 +
 [question, mc]
 ....
@@ -115,7 +468,7 @@ Quiz yourself on the concepts covered in this module.
 - [ ] Providing expertise on biodiversity data management and improving data quality to support users’ needs 
 - [x] Maintaining a mirror website of the GBIF.org to ensure real-time backup of the GBIF data index and improve user access from within the country
 ....
-// Question 5
+// Question 7
 . What is a GBIF Participant?
 +
 [question, mc]
@@ -125,7 +478,7 @@ Quiz yourself on the concepts covered in this module.
 - [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders
 - [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making
 ....
-// Question 6
+// Question 8
 . What is a GBIF Head of Delegation?
 +
 [question, mc]
@@ -135,17 +488,7 @@ Quiz yourself on the concepts covered in this module.
 - [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders
 - [x] The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making
 ....
-// Question 7
-. What is a Biodiversity information facility?
-+
-[question, mc]
-....
-- [ ] The person designated by a participating country/economy/organization to manage the activities of the node to coordinate a biodiversity information facility
-- [ ]  A country, economy or organization that joins GBIF by signing the Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development
-- [x]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders
-- [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making
-....
-// Question 8
+// Question 9
 . What is a Node manager?
 +
 [question, mc]
@@ -155,7 +498,7 @@ Quiz yourself on the concepts covered in this module.
 - [ ]  The broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders
 - [ ]  The person designated by the participating country/economy/organization to act as its representative to the GBIF Governing Board and take part in the global-level decision making
 ....
-// Question 9
+// Question 10
 . Who designates the institution that hosts the GBIF Participant node?
 +
 [question, mc]
