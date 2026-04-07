@@ -2,19 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-03-23 16:06+0000\n"
-"PO-Revision-Date: 2026-03-24 14:30\n"
+"PO-Revision-Date: 2026-03-24 14:31\n"
 "Last-Translator: \n"
-"Language-Team: French\n"
-"Language: fr_FR\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: gbif-training-courses\n"
 "X-Crowdin-Project-ID: 758779\n"
-"X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /main/translations/nodes/biodiversity-commitments.pot\n"
-"X-Crowdin-File-ID: 41018\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /main/translations/nodes/gnt-efficient-data-access-data-reporting.pot\n"
+"X-Crowdin-File-ID: 44934\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
@@ -224,6 +224,18 @@ msgstr ""
 msgid "&nbsp;"
 msgstr ""
 
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/software.adoc:7
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:47
+msgid "Install R. https://www.r-project.org/"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/software.adoc:8
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:48
+msgid "Install R Studio Desktop. https://posit.co/download/rstudio-desktop/"
+msgstr ""
+
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
 #: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
@@ -249,7 +261,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
 #, no-wrap
 msgid "Learning objectives"
-msgstr "Objectifs d'apprentissage"
+msgstr "Obiettivi di apprendimento"
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
@@ -274,7 +286,7 @@ msgstr "Objectifs d'apprentissage"
 #: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:10
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:10
 msgid "After completing this module, you should be able to perform the following:"
-msgstr "À l'issue de ce module, vous devriez être en mesure d'effectuer les actions suivantes :"
+msgstr "Dopo aver completato questo modulo, dovreste essere in grado di:"
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/downloads.adoc:38
@@ -288,13 +300,7 @@ msgstr "À l'issue de ce module, vous devriez être en mesure d'effectuer les ac
 #: en/nodes/modules/ROOT/pages/research-communities.adoc:160
 #, no-wrap
 msgid "Action plan"
-msgstr "Plan d'action"
-
-#. type: Title =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:1
-#, no-wrap
-msgid "Supporting national biodiversity commitments and the science-policy interface"
-msgstr ""
+msgstr "Piano d'azione"
 
 #. type: Title ==
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:3
@@ -311,44 +317,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:3
 #, no-wrap
 msgid "Context"
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:8
-msgid "Through partnerships and coordination, nodes can enable data flows into indicators and reporting processes relating to biodiversity status and trends, supporting commitments under the Convention on Biological Diversity (CBD) and the Sustainable Development Goals. By building linkages with the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), nodes can support biodiversity assessments by providing access to biodiversity data and enabling policy-related research based on GBIF-mediated data. These linkages can also support the nodes in terms of raising awareness of the value of open biodiversity data to national policy and commitments, as well as identifying policy-relevant gaps in data availability. (See https://docs.gbif.org/nodes-implementation-2023/en/#2-support-national-biodiversity-commitments-and-the-science-policy-interface[Nodes Strategy #2] for more detail.)"
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:10
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:10
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:10
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:10
-msgid "These materials were developed as part of the 2023 Global Nodes training in Canberra, Australia."
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:19
-msgid "Describe the Convention on Biological Diversity (CBD) and associates reporting processes."
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:20
-msgid "Describe the different components of the Kunming-Montreal Global Biodiversity Framework (GBF) including associated targets and monitoring framework."
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:21
-msgid "Identify dataflows and actions at a national level to support national biodiversity reporting to the CBD."
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:22
-msgid "Identify CBD contacts and National Biodiversity Strategy and Action Plan (NBSAP) within your country."
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:23
-msgid "Develop a strategy on how your node can directly contribute to national efforts to fulfill the commitments within the Kunming-Montreal GBF."
 msgstr ""
 
 #. type: Title ==
@@ -384,27 +352,6 @@ msgstr ""
 msgid "The following trainers have developed the content for this topic:"
 msgstr ""
 
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:32
-msgid "https://orcid.org/0009-0009-8717-8904[Michelle Judge^], Node Manager, Ireland"
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:34
-msgid "https://orcid.org/0000-0003-2409-2408[Melisa Ojeda^], Node Manager, Guatemala"
-msgstr ""
-
-#. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:36
-msgid "Secretariat consultants: https://orcid.org/0000-0002-5015-5807[Tim Hirsch^], Deputy Director, and https://orcid.org/0000-0002-5468-2452[Andrew Rodrigues^], Data Partnerships Officer"
-msgstr ""
-
-#. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:37
-#, no-wrap
-msgid "nodes::biodiversity-commitments-team.jpeg"
-msgstr ""
-
 #. type: Title ==
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:40
 #: en/nodes/modules/ROOT/pages/business-sector.adoc:39
@@ -430,222 +377,304 @@ msgstr ""
 msgid "Complete the following activities to prepare for the onsite sessions:"
 msgstr ""
 
-#. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:46
+#. type: Title =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:1
 #, no-wrap
-msgid "Convention on Biological Diversity (CBD)"
+msgid "Efficient data access for data reporting"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:49
-#, no-wrap
-msgid "*Watch introduction video* on the Post-2020 Global Biodiversity Framework (YouTube - 1:14 min)\n"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:8
+msgid "This topic relates to approaches to efficiently access GBIF-mediated data for the purpose of generating data reports. Recent developments at GBIF include the availability of GBIF snapshots on cloud computing infrastructures and the ability to query GBIF using SQL allowing for e.g. data metrics and custom data reports rather than downloading individual records. Additionally, emerging data cube formats will provide an opportunity to efficiently analyze biodiversity trends on spatiotemporal data."
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:55
-#, no-wrap
-msgid "*Watch video* on the Post-2020 Global Biodiversity Framework and Targets (YouTube - 8:35 min; https://www.youtube.com/watch?v=e48M-DupuYo[Spanish^])\n"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:17
+msgid "Identify the data access landscape (i.e, what tools are available and how they are used)"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:61
-#, no-wrap
-msgid "*Read* https://www.cbd.int/doc/publications/cbd-sustain-en.pdf[Sustaining life on Earth^] (PDF 500 KB)\n"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:18
+msgid "Identify appropriate solutions for given data access use cases"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:63
-#, no-wrap
-msgid "*Investigate* the https://www.cbd.int/countries/[CBD in your country^] (Download xref:attachment$CBD-in-your-country.docx[worksheet])\n"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:19
+msgid "Gain insight into coding and rGBIF"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:65
-msgid "Does your country have a current National Biodiversity Strategy and Action Plan (NBSAP)?"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:20
+msgid "Explore scripting reproducible workflows"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:66
-msgid "Is your country updating its NBSAP?"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:29
+msgid "Dag Endresen, Node Manager, Norway"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:67
-msgid "If so, what is the state of the process? Who is coordinating it?"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:31
+msgid "Will Morris, Node Manager, Finland"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:68
-msgid "Are you engaged in the process - if so, how? If not, how could you be involved?"
-msgstr ""
-
-#. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:69
-#, no-wrap
-msgid "Global Biodiversity Framework Kunming-Montreal"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:33
+msgid "Secretariat consultants: Andrew Rodrigues and John Waller"
 msgstr ""
 
 #. type: delimited block =
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:72
-#, no-wrap
-msgid "*Read* the https://www.cbd.int/gbf/[overview^]* (webpage)\n"
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:44
+msgid "xref:gnt-sharingexperience.adoc[Propose a data use case/data reporting example] to share as a subject for group discussion."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:45
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:51
+msgid "https://www.gbif.org/user/profile[Create an account^] on GBIF.org (if you don’t already have one)."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:46
+msgid "Install software"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:50
+msgid "xref:attachment$Install-R-RStudio.pdf[Download installation instructions] (846 KB)"
 msgstr ""
 
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:74
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:58
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:57
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:49
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:53
 #, no-wrap
-msgid "Module 1"
+msgid "Data access landscape"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:76
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:55
 #, no-wrap
-msgid "Introduction to CBD"
+msgid "Introduction and data types"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:80
-msgid "This presentation provides an introduction to the CBD."
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:60
+msgid "This presentation introduces the training topic and provides an overview of the data types found in GBIF."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:87
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:67
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSEJRNeNk9-of1xpFhosXlkobdPUXFxaf6Mxa8VGbPR8N3FyunNK_iRHrz2uC_JFg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR2DZD4wwuObOYjaIs0JpaigGy_C7dyZQDGHTznOidPdfElKU5T1mWt1I2sFPJCoQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:91
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:72
 #, no-wrap
-msgid "GBIF and CBD"
+msgid "Access methods"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:95
-msgid "This presentation provides an introduction to GBIF and the CBD."
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:77
+msgid "This presentation provides an overview of the various methods that can be used to access GBIF-mediated data."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:102
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:84
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRRJMh7Ln7wTKknX5R_HczZdEupKwYLc7E0XtImVTRFifjpWvzfFpROYxCiOA3uHw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTASXGF53evZKhKA3h0tG-puBYxeIH1I8qodByAm26-ng2v5o9TdR_bGjVZJWB3eA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:106
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:89
 #, no-wrap
-msgid "Node engagement with CBD - Ireland"
+msgid "Shared examples from nodes"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:110
-msgid "This presentation focuses on how a node can engage nationally with the CBD."
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:94
+msgid "Please review the examples shared by nodes on data uses cases. You can refer to these during the group activity for inspiration."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:117
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:101
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTpyse82vHEpjxQQr9ulU1PwSP1iqmP6GZQL7_DUrxV8irVsqyrpCAJJ_ql85Phbw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQWuEcGjjaqSVrZBxH3ODQ7BGF82L-QQWnh4RC9jAoAM_-DBDo_QZ2bpl_0yvOY1Q/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:121
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:145
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:106
 #, no-wrap
-msgid "National examples"
+msgid "Exploring data access and use cases"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:125
-msgid "During this section you will review several Nodes examples where the connection between the CBD and GBIF is working."
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:111
+msgid "For this activity, each group should: (a) explore and discuss possible data access and reporting use cases and (b) select a data access use case to work on during the hands-on section."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:113
+msgid "Each group should answer/discuss the following:"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:115
+msgid "Examples encountered by Nodes requiring them to access/use GBIF-mediated data."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:116
+msgid "Discuss how the different data uses/data users/report types affect which method you might use or recommend to access GBIF-mediated data."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:117
+msgid "Pick a use case or data reporting example among those discussed that can be carried forward to the next exercise. As far as possible, pick a use case that is (a) non-trivial and (b) as likely as possible to be unique among the groups."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:118
+msgid "How would you approach the use case/data reporting example using the web interface, data downloads, API interface, R interface, cloud access, or SQL downloads?"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:119
+msgid "What would be the relative benefits or pitfalls of each approach?"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:121
+msgid "At the conclusion of the activity, each group should select a member of the group to present their selected use case in plenary (max 2 minutes per group)."
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:123
+#, no-wrap
+msgid "Case study"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:128
+msgid "Conservation of Nordic Crop Wild Relatives will be presented as an example case study using the GBIF API."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:132
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:135
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSlbmGR9veXr7-UQvGuMSf7CEcGBpYMvF7ZQyGUM31zWcA4YmexbL_rXuBf6dAQnQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQBUL3SCpe08EZf7brUCwG294pZ-IVNkB8zak_a-KWRzQ8xXAW-FHAOCYihR7cVaw/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
 #. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:136
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:140
 #, no-wrap
-msgid "Poll results"
-msgstr ""
-
-#. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:138
-#, no-wrap
-msgid "nodes::PriorityTargets.png"
-msgstr ""
-
-#. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:142
-#, no-wrap
-msgid "nodes::NodeStaff-CBD.png"
-msgstr ""
-
-#. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:146
-#, no-wrap
-msgid "nodes::CurrentNBSAP.png"
-msgstr ""
-
-#. type: Target for macro image
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:150
-#, no-wrap
-msgid "nodes::UpdatingNBSAP.png"
-msgstr ""
-
-#. type: Title ==
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:153
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:114
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:118
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:106
-#, no-wrap
-msgid "Module 2"
+msgid "Hands-on with data access and use cases"
 msgstr ""
 
 #. type: Title ===
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:155
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:142
 #, no-wrap
-msgid "Supporting national reporting requirements"
+msgid "Cloud access and SQL"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:159
-msgid "For this activity, you will identify actions that you can take as a node to help support national reporting requirements to the Convention on Biological Diversity."
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:147
+msgid "This presentation provides an overview of accessing GBIF-mediated data using cloud services.  It also includes an introduction to SQL and how to access GBIF-mediated data using SQL."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:166
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:154
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQtuQDl1N3479YOQywOz0aPcmuvQHomzrx3cVZFvUjdIpAyA7RJyi2E9JO23X3iKA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTf7sN5KXMMgKe63J4zsofN5CFmAmjBYltIUHh-tuCt1QVLHYMWVOigdfoOu_arKQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
-#. type: Plain text
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:174
-msgid "Use this action plan to develop your strategy on how your node can directly contribute to national efforts to fulfill the commitments within the Kunming-Montreal GBF and engage with the CBD in your country. Share with your Node buddies for feedback."
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:159
+#, no-wrap
+msgid "GBIF API and rgbif"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:164
+msgid "This presentation provides an overview of accessing GBIF-mediated data using the GBIF API.  It also includes an overview of accessing GBIF-mediated data using rgbif.  Lastly, Barents IAS portal will be presented as an example case study using rgbif."
 msgstr ""
 
 #. type: delimited block +
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:181
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:171
 #, no-wrap
 msgid "<div class=\"responsive-slides\">\n"
-"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQhhnGRABgu_0CehQBiDtylnTtkzu944I_H-Nb8RS73ib8rhaMa1NADMWwXTecMFg/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRpVCQ0gSrmjuPNQZ69Hhk6mEbOaLItb9VMX4zQ9Ky14Mz0VIh_EAYkcMNTIYWXuQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title ===
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:176
+#, no-wrap
+msgid "Hands-on activity"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:181
+msgid "For this activity, (a) individuals will be exposed to coding and (b) as a group will begin work on a replicable workflow (e.g., R script, etc) for accessing GBIF-mediated data."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:183
+msgid "Each group should answer/discuss/complete the following:"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:185
+msgid "How would you approach the use case/data reporting example you discussed earlier, using the rgbif API client?"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:186
+msgid "What benefits could be gained from scripting a solution to the problems discussed previously?"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:187
+msgid "Are there aspects to the use case/data reporting example that can't be addressed using rgbif or a similar tool?"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:188
+msgid "Work together on a script(s) to address your use case with rgbif or a similar tool."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:191
+msgid "At the conclusion of the activity, each group should select a member of the group to present their solutions (max 2 minutes per group)."
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:193
+msgid "https://docs.google.com/document/d/1OjRqzEbKX3MmufBO_HvsbCIfAc5pGiGC5BIBnx09nNY/edit?usp=sharing[Share your results/scripts]"
+msgstr ""
+
+#. type: delimited block =
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:200
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:214
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:199
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:172
+msgid "The trainers will conclude the topic and offer an action plan for you to reflect on this topic post-training."
+msgstr ""
+
+#. type: delimited block +
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:207
+#, no-wrap
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vT9ZUU5VwUY_X6qrdfPVB4Nfh_13WXkib2868fqiFptsLuN5p7XH8qadgB42pHIBQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
 msgstr ""
 
