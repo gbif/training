@@ -1,15 +1,9 @@
 = GBIF-mediated data 
 
 [NOTE.objectives]
-In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will also have a chance to review the various metrics that are available for the data within the portal.
+In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information. You will also have a chance to review the various metrics that are available for the data within the portal.
 
 == Primary biodiversity data
-
-In this section, you will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information.
-
-When we refer to primary biodiversity data, we mean the data that document where and when species have been recorded. This knowledge derives from many sources, including everything from museum specimens collected in the 18th and 19th century to geotagged smartphone photos shared by amateur naturalists in recent days and weeks.
-
-The GBIF network draws all these sources together through the use of data standards, such as Darwin Core, which forms the basis for the bulk of GBIF.org's index of hundreds of millions of species occurrence records. Publishers provide open access to their datasets using machine-readable Creative Commons licence designations, allowing scientists, researchers and others to apply the data in hundreds of peer-reviewed publications and policy papers each year. Many of these analyses—which cover topics from the impacts of climate change and the spread of invasive and alien pests to priorities for conservation and protected areas, food security and human health— would not be possible without this.
 
 [NOTE.presentation]
 ====
@@ -198,62 +192,46 @@ So that's another standard which is not part of the TDWG standard you might want
 
 === GBIF dataset classes
 
-We encourage data holders to publish the richest data possible to ensure their use across a wider range of research approaches and questions, but not every dataset includes information at the same level of detail. 
-Sharing what is available through GBIF.org is valuable, because even partial information answers some important questions.
-
-The four classes of datasets supported by GBIF start simply and become progressively richer, more structured and more complex.
-
-image::intro-to-gbif::QDataTypes-types.png[align="center", width="640"]
-
-* Metadata only - datasets describing *undigitized* resources like those in natural history and other collections
-* Checklist - a *catalogue* or list of named organisms, or taxa
-* Occurrence - the evidence of the *occurrence of a species* (or other taxon) at a particular place on a specified date. 
-Occurrence datasets make up the core of data published through GBIF.org
-* Sampling-event - offering evidence that a species occurred at a given location and date, but also making it possible to *assess community composition* for broader taxonomic groups or even the *abundance of species* at multiple times and places.
-
 More information on https://www.gbif.org/dataset-classes[dataset classes^] can be found on the GBIF website.
 
 You might also want to explore https://data-blog.gbif.org/post/choose-dataset-type/[how to choose a dataset type^].
 
-=== GBIF taxonomic backbone
+=== Taxonomy interpretation
 
-*What is the GBIF Backbone taxonomy?*
+To facilitate searching and metric generation, all occurrence records are matched to two taxonomies:
 
-The Backbone taxonomy is actually a https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF dataset^].
-But not just any dataset, it is probably the most important dataset for GBIF. On its page, it is defined as:
+https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[Catalogue of Life eXtended Release^] (COL XR) - This is the primary taxonomy used by GBIF. 
 
-----
-a single synthetic management classification with the goal of covering all names GBIF is dealing with
-----
+https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF backbone^] - This is a taxonomy that, up until recently, GBIF has been building and integrating periodically. It is primarily based on an older version of Catalogue of Life with additional taxa added in an automated way from other taxonomic datasets. The build process has now been discontinued in favour of the eXtended release of the Catalogue of Life. The GBIF Backbone will no longer be updated, but will remain available for backwards compatibility. All GBIF Backbone identifiers will be preserved and supported in the API.
 
-image::intro-to-gbif::backbone.png[align="center", width="640"]
+TIP: https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#api-support[API support for taxonomy interpretation^] along with https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#taxonomic-indexes[Taxonomic indexes^] are documented in GBIF's technical documentation.
 
-*Why does GBIF need a backbone?* 
+*Why does GBIF need taxonomy interpretation?* 
 
-The backbone is needed to organize the data available on GBIF. 
 Without it, we wouldn’t be able to do any taxonomic search and it would be difficult to generate consistent statistics and maps.
 
 As you can imagine, not everyone uses the same classifications or names. 
 This results in considerable variations in higher taxa and a large number of synonyms. 
-The backbone aims to bring all these names together and organize them.
+This process aims to bring all these names together and organize them.
 
-*How is the backbone generated?*
+*How are the taxonomies generated?*
 
-The backbone is built from other checklists. These include:
+image::intro-to-gbif::ChecklistBank-04-07-2026_01_43_PM.png[align=center]
 
-* 55 authority checklists,
-* a checklist generated from the type specimens shared on GBIF,
-* two large sources for stable Operational Taxonomic Units (OTUs): iBOL Barcode Index Numbers and the UNITE Species Hypothesis identifiers,
-* and any checklist shared by PLAZI.org on GBIF (currently 27,054 but not all these were available when the backbone was generated).
-
-These checklists are ordered by priority starting with the Catalogue of Life for most taxa. 
-This order is crucial as it shapes the taxonomy.
+https://www.catalogueoflife.org/[Catalogue of Life^] is a global index of species, which aims to provide a comprehensive and authoritative list of the world’s species. It is compiled from multiple taxonomic datasets and is updated regularly. The https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) builds on the Base Release by programmatically integrating additional data sources. It integrates information from over 58,000 overlapping taxonomic and nomenclatural global, regional, national and management data sources (checklists) as well as originating from digitised literature available in Catalogue of Life’s infrastructure https://www.checklistbank.org/[ChecklistBank^].
 
 NOTE: Note that many sequence-based occurrences have no Latin names but are named using species hypotheses (UNITE: fungi) or Barcode Index Numbers (iBOL: primarily animals). This is why adding these two major sources of stable OTUs to the latest backbone taxonomy significantly improves GBIF’s indexing functionality for sequence-based biodiversity data.
 
-====
-The information above is an excerpt from a 2019 blog post by Marie Grosjean. Read the https://data-blog.gbif.org/post/gbif-backbone-taxonomy/[blog post^] for more detail on the backbone.
-====
+*How are the taxonimic status' defined?*
+
+image::intro-to-gbif::helianthusL.png[align=center]
+
+* *Accepted*: A taxonomically accepted, current name
+* *Provisionally accepted*: Treated as accepted, but doubtful whether this is correct.
+* *Synonym*: Names which point unambiguously at one species (not specifying whether homo- or heterotypic).Synonyms, in the CoL sense, include also orthographic variants and published misspellings.
+* *Ambiguous synonym*: Names which are ambiguous because they point at the current species and one or more others e.g. homonyms, pro-parte synonyms (in other words, names which appear more than in one place in the Catalogue).
+* *Misapplied*: A misapplied name. Usually accompanied with an accordingTo on the synonym to indicate the source the misapplication can be found in.
+* *Bare name*: A name alone without any usage, neither a synonym nor a taxon.
 
 == GRSciColl
 

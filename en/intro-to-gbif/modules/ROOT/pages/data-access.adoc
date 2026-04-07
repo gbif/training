@@ -52,6 +52,7 @@ The data available to you are:
 ** *Simple*: https://www.gbif.org/faq?question=csv-download[Tab delimited CSV^]. Only contains the data after GBIF interpretation. No multimedia included. 
 ** *Darwin Core Archive*: The https://www.gbif.org/faq?question=dwc-download[Darwin Core Archive^] (DwC-A) contains both the original data as the publisher provided it and the GBIF interpretation. Links (but not files) to multimedia included.
 ** *Species list*: Tab delimited CSV with the distinct list of names in the search result and as a map visualization of the data.
+** *Cube*: An occurrence cube is a tab-separated csv file containing species occurrence measures (e.g. a count) summarized by taxonomic, temporal and/or spatial dimensions (e.g. a given year, a specific taxonomic rank, etc.).
 * A range of metrics are provided for https://www.gbif.org/analytics/global[countries and regions^], data publishers, datasets and data searches that provide taxonomic breakdowns, trends in data collection and highlight data quality issues. For countries, these metrics can be also be downloaded in the form of a PDF activity report. 
 * https://www.gbif.org/resource/search?contentType=literature&literatureType=journal&relevance=GBIF_USED&peerReview=true[Searchable database of publications^] that have used GBIF-mediated data.
 
@@ -132,6 +133,8 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [x] GBIF.org search interface
 - [x] GBIF API
 - [x] rGBIF
+- [x] pyGBIF
+- [x] occurrence snapshots in the cloud
 ....
 // Question 2
 . Which file formats are available for downloads of data?
@@ -142,6 +145,7 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [ ] XML
 - [x] Darwin Core Archive
 - [x] species list
+- [x] cube
 ....
 // Question 3
 . What kind of flags does GBIF apply to data to alert you to the quality?
