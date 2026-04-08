@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:43\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -18,24 +18,47 @@ msgstr ""
 
 #.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:3
+#: en/data-use/modules/ROOT/nav.adoc:3 en/epn/modules/ROOT/nav.adoc:3
+#: en/grscicoll/modules/ROOT/nav.adoc:3
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:3
+#: en/project-planning/modules/ROOT/nav.adoc:3
 msgid "xref:index.adoc[Course details]"
 msgstr "xref:index.adoc[Detalles de curso]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:4
+#: en/data-use/modules/ROOT/nav.adoc:4 en/epn/modules/ROOT/nav.adoc:4
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:4
 msgid "xref:description.adoc[Course description]"
 msgstr "xref:description.adoc[Descripción de curso]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:5
+#: en/data-use/modules/ROOT/nav.adoc:5 en/epn/modules/ROOT/nav.adoc:5
+#: en/grscicoll/modules/ROOT/nav.adoc:5
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:5 en/nodes/modules/ROOT/nav.adoc:5
+#: en/project-planning/modules/ROOT/nav.adoc:5
 msgid "xref:acknowledgements.adoc[Acknowledgements]"
 msgstr "xref:acknowledgements.adoc[Reconocimientos]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:6
+#: en/data-use/modules/ROOT/nav.adoc:6 en/epn/modules/ROOT/nav.adoc:6
+#: en/grscicoll/modules/ROOT/nav.adoc:6
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:6 en/nodes/modules/ROOT/nav.adoc:6
+#: en/project-planning/modules/ROOT/nav.adoc:6
 msgid "xref:citation.adoc[Citation]"
 msgstr "xref:citation.adoc[Citación]"
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/nav.adoc:8 en/epn/modules/ROOT/nav.adoc:8
+#: en/grscicoll/modules/ROOT/nav.adoc:8
+msgid "xref:downloads.adoc[Files for download]"
+msgstr "xref:downloads.adoc[Archivos para descargar]"
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/nav.adoc:31 en/epn/modules/ROOT/nav.adoc:20
+#: en/grscicoll/modules/ROOT/nav.adoc:26
+#: en/project-planning/modules/ROOT/nav.adoc:20
+msgid "xref:course-evaluation.adoc[Course evaluation]"
+msgstr "xref:course-evaluation.adoc[Evaluación del curso]"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/nav.adoc:7
@@ -43,22 +66,17 @@ msgid "xref:introduction.adoc[Introduction]"
 msgstr "xref:introduction.adoc[Introduction]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:8
-msgid "xref:downloads.adoc[Files for download]"
-msgstr "xref:downloads.adoc[Archivos para descargar]"
-
-#. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:9
+#: en/epn/modules/ROOT/nav.adoc:9 en/nodes/modules/ROOT/nav.adoc:12
 msgid "xref:case-for-participation.adoc[Building a case for engagement in GBIF]"
 msgstr "xref:case-for-participation.adoc[Building a case for engagement in GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:10
+#: en/epn/modules/ROOT/nav.adoc:10 en/nodes/modules/ROOT/nav.adoc:13
 msgid "xref:understanding-gbif-relevance.adoc[Understanding GBIF's relevance]"
 msgstr "xref:understanding-gbif-relevance.adoc[Entender la relevancia de GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:11
+#: en/epn/modules/ROOT/nav.adoc:11 en/nodes/modules/ROOT/nav.adoc:50
 msgid "xref:estimating-gbif-value.adoc[Estimating the value of GBIF]"
 msgstr "xref:estimating-gbif-value.adoc[Estimar el valor de GBIF]"
 
@@ -68,17 +86,17 @@ msgid "xref:participant-process.adoc[Process for becoming a GBIF Participant]"
 msgstr "xref:participant-process.adoc[Proceso para convertirse en Participante de GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:13
+#: en/epn/modules/ROOT/nav.adoc:13 en/nodes/modules/ROOT/nav.adoc:14
 msgid "xref:benefits-of-participation.adoc[Benefits of GBIF Participation]"
 msgstr "xref:benefits-of-participation.adoc[Beneficios de la participación en GBIF]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:14
+#: en/epn/modules/ROOT/nav.adoc:14 en/nodes/modules/ROOT/nav.adoc:15
 msgid "xref:benefits-of-node.adoc[Benefits of establishing a node]"
 msgstr "xref:benefits-of-node.adoc[Beneficios de establecer un nodo]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:15
+#: en/epn/modules/ROOT/nav.adoc:15 en/nodes/modules/ROOT/nav.adoc:16
 msgid "xref:establishing-a-node.adoc[Engaging stakeholders towards establishing a node]"
 msgstr "xref:establishing-a-node.adoc[Involucrar a las partes interesadas para establecer un nodo]"
 
@@ -88,17 +106,17 @@ msgid "xref:use-case-darwinia.adoc[Use case]"
 msgstr "xref:use-case-darwinia.adoc[Caso de uso]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:17
+#: en/epn/modules/ROOT/nav.adoc:17 en/nodes/modules/ROOT/nav.adoc:17
 msgid "xref:engaging-stakeholders.adoc[Engaging stakeholders]"
 msgstr "xref:engaging-stakeholders.adoc[[Involucrar a las partes]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:18
+#: en/epn/modules/ROOT/nav.adoc:18 en/nodes/modules/ROOT/nav.adoc:18
 msgid "xref:targeting-stakeholder-interests.adoc[Targeting stakeholders' interests]"
 msgstr "xref:targeting-stakeholder-interests.adoc[Atender los intereses de las partes interesadas]"
 
 #. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:19
+#: en/epn/modules/ROOT/nav.adoc:19 en/nodes/modules/ROOT/nav.adoc:19
 msgid "xref:participatory-approach.adoc[Participatory approach]"
 msgstr "xref:participatory-approach.adoc[Método participativo]"
 
@@ -106,9 +124,4 @@ msgstr "xref:participatory-approach.adoc[Método participativo]"
 #: en/epn/modules/ROOT/nav.adoc:20
 msgid "xref:assignments.adoc[Final assignments]"
 msgstr "xref:assignments.adoc[Tareas finales]"
-
-#. type: Plain text
-#: en/epn/modules/ROOT/nav.adoc:20
-msgid "xref:course-evaluation.adoc[Course evaluation]"
-msgstr "xref:course-evaluation.adoc[Evaluación del curso]"
 
