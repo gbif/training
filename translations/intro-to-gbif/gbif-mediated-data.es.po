@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-08 13:37+0000\n"
-"PO-Revision-Date: 2026-04-08 14:03\n"
+"PO-Revision-Date: 2026-04-08 14:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -605,7 +605,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:1
 #, no-wrap
 msgid "GBIF-mediated data "
-msgstr ""
+msgstr "Datos mediados por GBIF "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:5
@@ -616,7 +616,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:6
 #, no-wrap
 msgid "Primary biodiversity data"
-msgstr ""
+msgstr "Datos primarios sobre biodiversidad"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:11
@@ -1056,17 +1056,17 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:193
 #, no-wrap
 msgid "GBIF dataset classes"
-msgstr ""
+msgstr "Tipos de conjuntos de datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:196
 msgid "More information on https://www.gbif.org/dataset-classes[dataset classes^] can be found on the GBIF website."
-msgstr ""
+msgstr "Más información en https://www.gbif.org/es/dataset-classes[tipos de conjuntos de datos^] en el sitio web de GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:198
 msgid "You might also want to explore https://data-blog.gbif.org/post/choose-dataset-type/[how to choose a dataset type^]."
-msgstr ""
+msgstr "También puede explorar https://data-blog.gbif.org/post/choose-dataset-type/[cómo elegir un tipo de conjunto de datos ^]."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:199
@@ -1130,7 +1130,7 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:224
 msgid "Note that many sequence-based occurrences have no Latin names but are named using species hypotheses (UNITE: fungi) or Barcode Index Numbers (iBOL: primarily animals). This is why adding these two major sources of stable OTUs to the latest backbone taxonomy significantly improves GBIF’s indexing functionality for sequence-based biodiversity data."
-msgstr ""
+msgstr "Tenga en cuenta que muchos registros biológicos basados en secuencias no tienen nombres en latín pero son nombradas usando hipótesis de especies (UNITE: hongos) o códigos de barras (iBOL: principalmente animales). Ésa es la razón por la que la adición de estas dos fuentes principales de OTUs estables a la última versión del árbol taxonómico mejora significativamente la funcionalidad de indexación de GBIF para los datos sobre biodiversidad derivados de secuencias."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:226
@@ -1184,7 +1184,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:236
 #, no-wrap
 msgid "GRSciColl"
-msgstr ""
+msgstr "GRSciColl"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:239
@@ -1204,17 +1204,17 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:270
 msgid "GBIF assigns DOIs to all datasets and occurrence downloads.  When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility.  The DOIs will always resolve to dataset or download pages, even if the underlying data is no longer available."
-msgstr ""
+msgstr "GBIF asigna DOIs a todos los conjuntos de datos y descargas de registros biológicos. Cuando se utilizan datos siguiendo las https://www.gbif.org/citation-guidelines[practicas de citación del DOI^] se asegura una forma fácil y consistente de dar crédito a los titulares de los conjuntos de datos al mismo tiempo que permite la reproducibilidad. Los DOIs siempre resolverán las páginas del conjunto de datos o de descarga, incluso si los datos subyacentes ya no están disponibles."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:281
 msgid "Commonly use standards include:"
-msgstr ""
+msgstr "Los estándares usados comúnmente incluyen:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:298
 msgid "Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers has waived conditions for use, attribution is expected."
-msgstr ""
+msgstr "Tenga en cuenta que la licencia CC-BY-NC tiene un efecto significativo en la reutilización de los datos. GBIF anima a los publicadores de datos a elegir la opción más abierta posible. Es importante señalar que las imágenes no están sujetas a la misma licencia que se aplica al conjunto de datos y pueden tener términos de uso más restringidos. Por último, la atribución/citación es una norma de comunidad, así que incluso si los publicadores han renunciado a las condiciones de uso, se espera que tengan atribución."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:307
@@ -1231,43 +1231,43 @@ msgstr ""
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:323
 msgid "The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine readable interface (REST + JSON) and use the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository."
-msgstr ""
+msgstr "La https://www.gbif.org/developer/summary[API del Portal de GBIF^] proporciona una interfaz legible por computadoras (REST + JSON) y utiliza el https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) como repositorio de datos de confianza."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:361
 #, no-wrap
 msgid "Data metrics"
-msgstr ""
+msgstr "Métricas de datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:365
 msgid "In this section review the various metrics available for datasets."
-msgstr ""
+msgstr "En esta sección se revisan las distintas métricas disponibles para los conjuntos de datos."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:367
 msgid "One of the many benefits of publishing data via GBIF is that, during the indexing process, GBIF analyses all datasets and produces https://www.gbif.org/analytics/global[metrics^] about them. These metrics are made available in several different ways:"
-msgstr ""
+msgstr "Uno de los muchos beneficios de publicar datos a través de GBIF es que, durante el proceso de indexación, GBIF analiza todos los conjuntos de datos y produce https://www.gbif.org/analytics/global[métricas^] acerca de ellos. Estas métricas están disponibles de varias maneras diferentes:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:369
 msgid "global trends"
-msgstr ""
+msgstr "tendencias globales"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:370
 msgid "country pages"
-msgstr ""
+msgstr "páginas de país"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:371
 msgid "dataset content statistics"
-msgstr ""
+msgstr "estadísticas sobre el contenido del conjunto de datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:372
 msgid "dataset download activity"
-msgstr ""
+msgstr "actividad de descarga del conjunto de datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:374
@@ -1283,37 +1283,37 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:378
 msgid "GBIF.org regularly updates analytics to provide an overview of global trends in the data from 2008 to the present. The charts illustrate trends in:"
-msgstr ""
+msgstr "GBIF.org actualiza regularmente los análisis para proporcionar una visión general de las tendencias globales en los datos desde 2008 hasta el presente. Los gráficos ilustran tendencias en:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:380
 msgid "occurrence records"
-msgstr ""
+msgstr "registros biológicos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:381
 msgid "species counts"
-msgstr ""
+msgstr "número de especies"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:382
 msgid "time and seasonality"
-msgstr ""
+msgstr "tiempo y estacionalidad"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:383
 msgid "completeness and precision"
-msgstr ""
+msgstr "completitud y precisión"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:384
 msgid "geographic coverage for recorded species"
-msgstr ""
+msgstr "cobertura geográfica para especies registradas"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:385
 msgid "data sharing with country of origin"
-msgstr ""
+msgstr "intercambio de datos con el país de origen"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:386
@@ -1325,32 +1325,32 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:389
 #, no-wrap
 msgid "*Dataset content statistics*\n"
-msgstr ""
+msgstr "*Estadísticas sobre el contenido de los conjuntos de datos*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:391
 msgid "Each dataset page includes a tab labelled ‘Metrics’. This tab gives access to graphs and tables resulting from the analysis of the contents of the dataset. This includes a summaries of:"
-msgstr ""
+msgstr "Cada página de un conjunto de datos incluye una pestaña llamada \"Estadísticas\". Esta pestaña da acceso a gráficos y tablas resultantes del análisis del contenido del conjunto de datos. Esto incluye resúmenes de:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:393
 msgid "Taxonomic distribution (both list and chart)"
-msgstr ""
+msgstr "Distribución taxonómica (lista y gráfico)"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:394
 msgid "Occurrences per issue"
-msgstr ""
+msgstr "Registros biológicos por incidencia"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:395
 msgid "Occurrences per year"
-msgstr ""
+msgstr "Registros biológicos por año"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:397
 msgid "The charts/tables are interactive and you can click to filter and explore further. Additionally, the images can be downloaded for reporting purposes."
-msgstr ""
+msgstr "Las tablas y gráficos son interactivos, usted puede hacer clic para filtrar y explorar. Además, las gráficas se pueden descargar con fines informativos."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:398
@@ -1362,12 +1362,12 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:401
 #, no-wrap
 msgid "*Data access logs*\n"
-msgstr ""
+msgstr "*Registro del acceso a los datos*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:403
 msgid "There is a third tab in occurrence dataset pages labelled ‘Activity’. In this tab you can see a list of all download requests that included records from that dataset, including their download DOI for easy tracking."
-msgstr ""
+msgstr "Hay una tercera pestaña en la página de los conjuntos de datos de registros biológicos etiquetada como 'Actividad'. En esta pestaña puede ver una lista de todas las solicitudes de descarga que incluyen registros de ese conjunto de datos, incluyendo el DOI de la descarga para un seguimiento fácil."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:404
@@ -1382,7 +1382,7 @@ msgstr ""
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:422
 msgid "What dataset class makes up the core of data published within GBIF?"
-msgstr ""
+msgstr "¿Qué clase de conjunto de datos constituye el grueso de los datos publicados en GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:429
@@ -1391,13 +1391,16 @@ msgid "- [ ] Metadata-only\n"
 "- [ ] Checklist\n"
 "- [x] Occurrence\n"
 "- [ ] Sampling-event\n"
-msgstr ""
+msgstr "- [ ] Solo metadatos\n"
+"- [ ] Lista de especies (\"checklist\")\n"
+"- [x] Ocurrencias\n"
+"- [ ] Eventos de muestreo\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:432
 msgid "What is the taxonomic backbone?"
-msgstr ""
+msgstr "¿Qué es el árbol taxonómico?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:439
@@ -1406,13 +1409,16 @@ msgid "- [ ] A dataset\n"
 "- [ ] A management classification with the goal of covering all names in GBIF\n"
 "- [ ] Allows for taxonomic search on GBIF\n"
 "- [x] All of the above\n"
-msgstr ""
+msgstr "- [ ] Un conjunto de datos\n"
+"- [ ] Una clasificación de gestión con el objetivo de cubrir todos los nombres en GBIF\n"
+"- [ ] Permite la búsqueda taxonómica en GBIF\n"
+"- [x] Todo lo anterior\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:442
 msgid "Which licenses or waivers can be applied to datasets published in GBIF?"
-msgstr ""
+msgstr "¿Qué licencias o exenciones se pueden aplicar a los conjuntos de datos publicados a través de GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:453
@@ -1425,17 +1431,24 @@ msgid "- [x] CC BY\n"
 "- [ ] CC BY-NC-ND\n"
 "- [ ] CC BY-NC-SA\n"
 "- [x] CC0\n"
-msgstr ""
+msgstr "- [x] CC BY\n"
+"- [ ] CC BY-SA\n"
+"- [x] CC BY-NC\n"
+"- [ ] CC BY-NC-SA\n"
+"- [ ] CC BY-ND\n"
+"- [ ] CC BY-NC-ND\n"
+"- [ ] CC BY-NC-SA\n"
+"- [x] CC0\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:456
 msgid "Images are subject to the same licenses as datasets?"
-msgstr ""
+msgstr "¿Las imágenes están sujetas a las mismas licencias que los conjuntos de datos?"
 
 #.  Question 5
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:464
 msgid "GBIF data are FAIR?"
-msgstr ""
+msgstr "¿Los datos de GBIF son FAIR?"
 
