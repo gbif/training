@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-29 12:43+0000\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:250
 #, no-wrap
 msgid "Principles of GBIF-mediated data"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:254
 msgid ""
 "In this section, you will learn about the principles that GBIF follows with "
 "regards to data and how data in the GBIF portal are FAIR."
@@ -37,14 +39,16 @@ msgid ""
 "you need a refresher."
 msgstr ""
 
-#. type: Title ==
+#. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:10
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:255
 #, no-wrap
 msgid "Digital object identifiers"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:14
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:259
 msgid ""
 "A Digital Object Identifier, or DOI, is a http://www.iso.org/iso/"
 "catalogue_detail?csnumber=43506[standard^], permanent identifier that "
@@ -56,6 +60,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:261
 msgid ""
 "In the context of GBIF.org, DOIs serve as stable identifiers for four "
 "different types of things:"
@@ -63,16 +68,19 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:263
 msgid "datasets from the GBIF network"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:264
 msgid "data downloads from GBIF.org"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:265
 msgid ""
 "research articles and reports published by scientific journals, agencies and "
 "NGOs"
@@ -80,6 +88,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:21
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:266
 msgid "materials deposited in a general-use repository"
 msgstr ""
 
@@ -96,20 +105,23 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:28
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:273
 msgid ""
 "GBIF started issuing DOIs on 3 February 2015.  Downloads requested before "
 "this date do not have DOIs, however, if you wish to cite older downloads, "
 "you can contact helpdesk@gbif.org and we will assign DOIs as appropriate."
 msgstr ""
 
-#. type: Title ==
+#. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:274
 #, no-wrap
 msgid "Standards"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:32
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:277
 msgid ""
 "The data available through GBIF.org and its associated services is the "
 "result of the GBIF network of Participants and publishers applying shared "
@@ -121,6 +133,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:34
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:279
 msgid ""
 "Within the biodiversity domain, the group most often responsible for "
 "developing and maintaining data standards is http://www.tdwg.org/"
@@ -139,6 +152,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:39
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:284
 msgid ""
 "Darwin Core: The https://dwc.tdwg.org/[Darwin Core Standard^] (DwC) offers a "
 "stable, straightforward and flexible framework for compiling biodiversity "
@@ -148,6 +162,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:287
 msgid ""
 "Ecological Metadata Language (EML): https://eml.ecoinformatics.org/"
 "[Ecological Metadata Language^] is a metadata standard that records "
@@ -161,6 +176,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:43
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:288
 msgid ""
 "BioCASe/ABCD: The http://www.biocase.org/[Biological Collection Access "
 "Service^], commonly referred to as BioCASe, is an international network "
@@ -171,14 +187,16 @@ msgid ""
 "standard, which TDWG also administers."
 msgstr ""
 
-#. type: Title ==
+#. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:44
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:289
 #, no-wrap
 msgid "Open data"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:47
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:292
 msgid ""
 "In keeping with a 2014 https://www.gbif.org/news/82363/new-approaches-to-"
 "data-licensing-and-endorsement[decision by the GBIF governing board^], data "
@@ -192,6 +210,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:49
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:294
 msgid ""
 "http://creativecommons.org/publicdomain/zero/1.0[CC0^] - no conditions for "
 "use"
@@ -199,12 +218,14 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:50
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:295
 msgid ""
 "https://creativecommons.org/licenses/by/4.0/[CC-BY^] - use with attribution"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:296
 msgid ""
 "http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC^] - non-commercial "
 "use with attribution"
@@ -222,14 +243,16 @@ msgid ""
 "expected."
 msgstr ""
 
-#. type: Title ==
+#. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:54
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:299
 #, no-wrap
 msgid "FAIR data"
 msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:61
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:306
 msgid ""
 "Many articles from 2011-2016 documented a crisis in scientific "
 "reproducibility (see below).  In 2016, the https://www.nature.com/articles/"
@@ -257,18 +280,21 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:67
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:312
 #, no-wrap
 msgid "*Data found on GBIF.org are FAIR.*\n"
 msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:70
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:315
 #, no-wrap
 msgid "*FINDABLE*\n"
 msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:72
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:317
 msgid ""
 "GBIF has https://www.gbif.org/data-quality-requirements[requirements] for "
 "metadata and datasets. All datasets are identified by https://www.gbif.org/"
@@ -278,6 +304,7 @@ msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:76
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:321
 #, no-wrap
 msgid "*ACCESSIBLE*\n"
 msgstr ""
@@ -292,12 +319,14 @@ msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:82
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:327
 #, no-wrap
 msgid "*INTEROPERABLE*\n"
 msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:84
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:329
 msgid ""
 "GBIF recommends using the https://eml.ecoinformatics.org/[Ecological "
 "Metadata Language^] (EML) for datasets and https://dwc.tdwg.org/[Darwin "
@@ -306,12 +335,14 @@ msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:88
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:333
 #, no-wrap
 msgid "*REUSABLE*\n"
 msgstr ""
 
 #. type: delimited block *
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:90
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:335
 msgid ""
 "GBIF require creative common data licenses (https://creativecommons.org/"
 "publicdomain/zero/1.0[CC0^], https://creativecommons.org/licenses/by/4.0[CC "
@@ -321,12 +352,14 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:94
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:339
 #, no-wrap
 msgid "*Literature references*\n"
 msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:96
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:341
 msgid ""
 "Baker (2016) 1,500 scientists lift the lid on reproducibility. Nature 533: "
 "452-454 (26 May 2016) doi:10.1038/533452a"
@@ -334,6 +367,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:98
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:343
 msgid ""
 "Baker (2016) Reproducibility: Seek out stronger science. Nature 537: 703-704 "
 "(29 September 2016) doi:10.1038/nj7622-703a"
@@ -341,6 +375,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:100
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:345
 msgid ""
 "Nature editorial (2016) Reality check on reproducibility. Nature 533: 437 "
 "(26 May 2016) doi:10.1038/533437a"
@@ -348,6 +383,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:102
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:347
 msgid ""
 "Baker (2016) Statisticians issue warning over misuse of P values. Nature "
 "531: 151 (10 March 2016) doi:10.1038/nature.2016.19503"
@@ -355,6 +391,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:104
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:349
 msgid ""
 "Nosek et al. (2015) Promoting an open research culture. Science 348(6242): "
 "1422-1425. DOI:10.1126/science.aab2374"
@@ -362,6 +399,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:106
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:351
 msgid ""
 "Leek and Peng (2015) Statistics: P values are just the tip of the iceberg. "
 "Nature 520: 612 (30 April 2015) doi:10.1038/520612°"
@@ -369,6 +407,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:108
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:353
 msgid ""
 "Nuzzo (2015) How scientists fool themselves – and how they can stop. Nature "
 "526: 182–185 (08 October 2015) doi:10.1038/526182a"
@@ -376,6 +415,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:110
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:355
 msgid ""
 "Hayden (2013) Weak statistical standards implicated in scientific "
 "irreproducibility. Nature doi:10.1038/nature.2013.14131"
@@ -383,6 +423,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:112
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:357
 msgid ""
 "Young (2012) Replication studies: Bad copy. Nature 485, 298–300 (17 May "
 "2012) doi:10.1038/485298a"
@@ -390,6 +431,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:359
 msgid ""
 "Callaway (2011) Reports finds massive fraud at Dutch universities. Nature "
 "479, 15 (1 November 2011) doi:10.1038/479015a"
