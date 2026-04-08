@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2025-08-05 16:29+0000\n"
-"PO-Revision-Date: 2026-02-02 15:59\n"
+"POT-Creation-Date: 2026-03-26 15:11+0000\n"
+"PO-Revision-Date: 2026-04-08 11:45\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -16,24 +16,20 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/nav.pot\n"
 "X-Crowdin-File-ID: 41008\n"
 
+#.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
 #. type: Plain text
-#: en/data-use/modules/ROOT/nav.adoc:4 en/epn/modules/ROOT/nav.adoc:4
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:3
+msgid "xref:index.adoc[Home]"
+msgstr ""
+
+#. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:4
 msgid "xref:description.adoc[Course description]"
 msgstr ""
 
 #. type: Plain text
-#: en/data-use/modules/ROOT/nav.adoc:5 en/epn/modules/ROOT/nav.adoc:5
-#: en/grscicoll/modules/ROOT/nav.adoc:5
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:5 en/nodes/modules/ROOT/nav.adoc:5
-#: en/project-planning/modules/ROOT/nav.adoc:5
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:5
 msgid "xref:acknowledgements.adoc[Acknowledgements]"
-msgstr ""
-
-#.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:3
-msgid "xref:index.adoc[Home]"
 msgstr ""
 
 #. type: Plain text
