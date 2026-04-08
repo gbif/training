@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:42\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,18 +16,53 @@ msgstr ""
 "X-Crowdin-File: /main/translations/project-planning/description.pot\n"
 "X-Crowdin-File-ID: 44192\n"
 
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:16
+#: en/epn/modules/ROOT/pages/description.adoc:21
+#: en/grscicoll/modules/ROOT/pages/description.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:19
+#: en/project-planning/modules/ROOT/pages/description.adoc:18
+#, no-wrap
+msgid "Audience"
+msgstr "Public cible"
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:23
+#: en/epn/modules/ROOT/pages/description.adoc:25
+#: en/grscicoll/modules/ROOT/pages/description.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:26
+#: en/project-planning/modules/ROOT/pages/description.adoc:25
+#, no-wrap
+msgid "Prerequisites"
+msgstr "Prérequis"
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/description.adoc:34
+#: en/grscicoll/modules/ROOT/pages/description.adoc:38
+#: en/project-planning/modules/ROOT/pages/description.adoc:36
+#, no-wrap
+msgid "Certificate of completion"
+msgstr "Certificat de participation"
+
+#. type: Title ==
+#: en/grscicoll/modules/ROOT/pages/description.adoc:3
+#: en/project-planning/modules/ROOT/pages/description.adoc:3
+#, no-wrap
+msgid "Description"
+msgstr "Description"
+
+#. type: delimited block =
+#: en/grscicoll/modules/ROOT/pages/description.adoc:43
+#: en/project-planning/modules/ROOT/pages/description.adoc:41
+msgid "Upon successful attendance of live sessions and completion of activities, participants will receive a completion certification."
+msgstr "Après avoir assisté assidûment aux sessions en direct et terminé avec succès les activités, les participants recevront un certificat de participation."
+
 #. type: Title =
 #: en/project-planning/modules/ROOT/pages/description.adoc:1
 #: en/project-planning/modules/ROOT/pages/index.adoc:1
 #, no-wrap
 msgid "Biodiversity data mobilization project planning"
 msgstr "Planification de projets de mobilisation de données sur la biodiversité"
-
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/description.adoc:3
-#, no-wrap
-msgid "Description"
-msgstr "Description"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/description.adoc:8
@@ -62,22 +97,10 @@ msgstr "Mesurer les progrès"
 msgid "Documenting a full proposal"
 msgstr "Documentation d'une proposition complète"
 
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/description.adoc:18
-#, no-wrap
-msgid "Audience"
-msgstr "Public cible"
-
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/description.adoc:23
 msgid "This course is designed for BID programme applicants who have advanced to the full proposal phase."
 msgstr "Ce cours est destiné aux candidats au programme BID qui ont atteint la phase de proposition complète."
-
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/description.adoc:25
-#, no-wrap
-msgid "Prerequisites"
-msgstr "Prérequis"
 
 #. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/description.adoc:30
@@ -93,15 +116,4 @@ msgstr "Les personnes qui suivent ce cours doivent avoir une bonne maîtrise de 
 #: en/project-planning/modules/ROOT/pages/description.adoc:35
 msgid "If you need to learn more about GBIF in advance of the course, it is recommended to complete the https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF course^]."
 msgstr "Si vous souhaitez en savoir plus sur le GBIF avant le cours, il est recommandé de suivre le cours https://docs.gbif.org/course-introduction-to-gbif[Introduction au GBIF^]."
-
-#. type: Title ==
-#: en/project-planning/modules/ROOT/pages/description.adoc:36
-#, no-wrap
-msgid "Certificate of completion"
-msgstr "Certificat de participation"
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/description.adoc:41
-msgid "Upon successful attendance of live sessions and completion of activities, participants will receive a completion certification."
-msgstr "Après avoir assisté assidûment aux sessions en direct et terminé avec succès les activités, les participants recevront un certificat de participation."
 
