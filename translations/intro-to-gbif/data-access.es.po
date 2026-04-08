@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-08 13:37+0000\n"
-"PO-Revision-Date: 2026-04-08 14:03\n"
+"PO-Revision-Date: 2026-04-08 14:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -233,17 +233,17 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:106
 #, no-wrap
 msgid "Data access"
-msgstr ""
+msgstr "Acceso a los datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:6
 msgid "In this module, you will learn how GBIF's data is used and accessed.  You will also learn about the handling of data quality and GBIF's data quality flags."
-msgstr ""
+msgstr "En este módulo aprenderá cómo se utilizan los datos de GBIF y cómo se accede a ellos. También aprenderá sobre el manejo de la calidad de los datos y las alertas de calidad de los datos de GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:11
 msgid "The GBIF https://www.gbif.org/literature-tracking[literature tracking system^] has identified over 5,000 uses of GBIF mediated data, most of which are in peer-reviewed articles.  The majority of these uses are in the field of ecology, but others relate to climate change, conservation, human health and agriculture.  A systematic review of the use of https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[GBIF-mediated data by Heberling et al. (2020)^] showed:"
-msgstr ""
+msgstr "El https://www.gbif.org/literature-tracking[sistema de seguimiento de literatura^] de GBIF ha identificado más de 5,000 usos de datos mediados por GBIF, la mayoría de los cuales están en artículos revisados por pares. La mayoría de estos usos se encuentran en el ámbito de la ecología, pero otros están relacionados con el cambio climático, la conservación, la salud humana y la agricultura. Una revisión sistemática del uso de https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[datos mediados por GBIF de Heberling et al. (2020)^] mostró:"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:21
@@ -255,7 +255,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:29
 #, no-wrap
 msgid "Accessing GBIF-mediated data"
-msgstr ""
+msgstr "Accediendo a datos mediados por GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:32
@@ -303,30 +303,30 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:63
 #, no-wrap
 msgid "Handling data quality "
-msgstr ""
+msgstr "Manejo de la calidad de los datos "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:68
 msgid "Determining the precision and accuracy of the data for use is a key step in determining the usefulness of the data for any intended purpose.  While GBIF can support the identification of some quality issues that arise from within the data publishing workflow, handling some quality issues requires additional expert knowledge.  The two most common issues for which this may be required are:"
-msgstr ""
+msgstr "Determinar la precisión y exactitud de los datos para su uso es un paso clave para determinar la utilidad de los datos para cualquier propósito previsto. Mientras que GBIF puede apoyar la identificación de algunos problemas de calidad que surgen del flujo de trabajo de publicación de datos, manejar algunos problemas de calidad requiere conocimientos expertos adicionales. Los dos problemas más comunes para los que esto puede ser necesario son:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:70
 #, no-wrap
 msgid "*Data gaps* - sampling across taxonomic groups and geographic regions is not equal and users may need to take into account sampling bias in their analyses before the data can be used effectively. \n"
-msgstr ""
+msgstr "*Vacíos de datos* - el muestreo entre grupos taxonómicos y regiones geográficas no es igual y los usuarios pueden necesitar tener en cuenta el sesgo de muestreo en sus análisis antes de que los datos puedan ser utilizados eficazmente.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:71
 #, no-wrap
 msgid "*Taxonomic misidentification* - some taxonomic groups may require additional information to ensure that taxa have been correctly identified such as images, videos and audio recordings that accompany data or collector information.\n"
-msgstr ""
+msgstr "*Identificación taxonómica errónea* - algunos grupos taxonómicos pueden requerir información adicional, para asegurar que los taxa hayan sido identificados correctamente, como imágenes, videos y grabaciones de audio que acompañan a la información asociada a los datos o colectores.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:73
 #, no-wrap
 msgid "*GBIF Flags for Data Quality Issues*\n"
-msgstr ""
+msgstr "*Alertas de GBIF para problemas de calidad de datos*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
@@ -343,35 +343,35 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:80
 #, no-wrap
 msgid "*Excluded* - where the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
-msgstr ""
+msgstr "*Excluido* - cuando los datos originales no pudieron ser interpretados, por lo cual se excluyen en los campos interpretados.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:81
 #, no-wrap
 msgid "*Altered* - where the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
-msgstr ""
+msgstr "*Alterado* - cuando los datos originales son modificados en el proceso de interpretación para ser indexados en GBIF.org.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:82
 #, no-wrap
 msgid "*Inferred* - where an empty field is inferred using other record information.\n"
-msgstr ""
+msgstr "*Inferido* - cuando un campo vacío es inferido usando otra información del registro.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:84
 msgid "Be aware that if you are filtering for data quality issues, you should reverse the filter to exclude those data that have been flagged with that issue. You can also see the verbatim data i.e. the non-interpreted data in a Darwin Core Archive if you would like to validate the interpretation process."
-msgstr ""
+msgstr "Tenga en cuenta que si está filtrando por problemas de calidad de datos, debería revertir el filtro para excluir aquellos datos que han sido marcados con ese problema. También puede ver los datos originales, es decir, los datos no interpretados en un archivo de Darwin Core, si desea validar el proceso de interpretación."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:86
 #, no-wrap
 msgid "*How can I improve data quality?*\n"
-msgstr ""
+msgstr "*¿Cómo puedo mejorar la calidad de los datos?*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:90
 msgid "Data publishers have the responsibility for improving the quality of the data, and as a user, you play a key role in identifying where there are errors.  If you should find an error in the data, you should contact the publisher directly using the contact details that GBIF provides on the publisher page.  GBIF also provides the ability for users to log data quality issues using the \"Feedback and questions\" button on the menu bar of http://www.gbif.org[GBIF.org^]."
-msgstr ""
+msgstr "Los publicadores tienen la responsabilidad de mejorar la calidad de los datos y, como usuario, usted juega un papel clave en la identificación de errores. Si encuentra un error en los datos, debe ponerse en contacto con el publicador directamente utilizando los datos de contacto que GBIF proporciona en la página del publicador. GBIF también proporciona a los usuarios la posibilidad de registrar problemas de calidad de datos mediante el botón \"Comentarios y preguntas\" en la barra de menú de http://www.gbif.org[GBIF.org^]."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:91
@@ -410,7 +410,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:104
 #, no-wrap
 msgid "GBIF data blog"
-msgstr ""
+msgstr "Blog de datos de GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:107
@@ -420,7 +420,7 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:109
 msgid "Statistics"
-msgstr ""
+msgstr "Estadísticas"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:110
