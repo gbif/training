@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-02-16 20:20+0000\n"
-"PO-Revision-Date: 2026-03-18 17:49\n"
+"POT-Creation-Date: 2026-03-26 15:11+0000\n"
+"PO-Revision-Date: 2026-04-08 11:46\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -16,12 +16,7 @@ msgstr ""
 "X-Crowdin-File: /main/translations/epn/estimating-gbif-value.pot\n"
 "X-Crowdin-File-ID: 40966\n"
 
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
-#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
-#: en/data-use/modules/ROOT/pages/navigation.adoc:10
-#: en/data-use/modules/ROOT/pages/navigation.adoc:18
-#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#. type: Plain text
 #: en/epn/modules/ROOT/pages/assignments.adoc:59
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
@@ -32,253 +27,88 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:23
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
-#: en/nodes/modules/ROOT/pages/navigation.adoc:12
-#: en/nodes/modules/ROOT/pages/navigation.adoc:20
-#: en/nodes/modules/ROOT/pages/navigation.adoc:28
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:273
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:280
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 msgid "&nbsp;"
 msgstr ""
 
 #. type: Title =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:1
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:1
 #, no-wrap
 msgid "Estimating the value of GBIF"
 msgstr "Stima del valore del GBIF"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:4
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:4
 msgid "This section will help you to understand the value of GBIF as data infrastructure and an international network. Estimates of the economic value of GBIF can be helpful in communicating the benefits of Participation in the network."
 msgstr "Questa sezione vi aiuterà a comprendere il valore del GBIF come infrastruttura di dati e rete internazionale. Le stime del valore economico del GBIF possono essere utili per comunicare i vantaggi della Partecipazione alla rete."
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:5
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:5
 #, no-wrap
 msgid "Economic valuation"
 msgstr "Valutazione economica"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:8
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:8
 msgid "The 2023 report, Economic valuation and assessment of the impact of the GBIF network, prepared and published by Deloitte Access Economics, gives insight into the value that GBIF provides to its users and in broader societal benefits."
 msgstr "Il rapporto 2023, Valutazione economica e analisi dell'impatto della rete GBIF, preparato e pubblicato da Deloitte Access Economics, illustra il valore che il GBIF fornisce ai suoi utenti e ai benefici sociali più ampi."
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:12
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:12
 msgid "The news item that accompanied the release of this report points to highlights, but we recommend that you also review the full report for a more complete understanding."
 msgstr "La notizia che ha accompagnato la pubblicazione di questo rapporto ne evidenzia i punti salienti, ma si consiglia di consultare anche il rapporto completo per una comprensione più completa."
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:14
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:14
 msgid "https://www.gbif.org/news/5WZThcL928vmPnSvrGhZfE/report-reveals-return-on-investments-in-gbif[News item^]"
 msgstr "https://www.gbif.org/news/5WZThcL928vmPnSvrGhZfE/report-reveals-return-on-investments-in-gbif[Notizia^]"
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:15
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:15
 msgid "https://www.deloitte.com/au/en/services/economics/perspectives/total-economic-value-open-access-database-living-world.html[Full report^]"
 msgstr "https://www.deloitte.com/au/en/services/economics/perspectives/total-economic-value-open-access-database-living-world.html[Rapporto completo^]"
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:20
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:20
 msgid "In this video (6:55) Kyle Copas, GBIF Communications Manager, unpacks some of the key expressions of value from the Deloitte Access Economics report and explains how to estimate the national value of time savings from GBIF-enabled research. If you are unable to watch via the embedded Vimeo showcase, you can download the videos locally from the xref:downloads.adoc[Files for download] page."
 msgstr "In questo video (6:55) Kyle Copas, responsabile delle comunicazioni del GBIF, illustra alcune delle principali espressioni di valore del rapporto Deloitte Access Economics e spiega come stimare il valore nazionale del risparmio di tempo derivante dalla ricerca abilitata dal GBIF. Se non riuscite a guardare il Vimeo showcase incorporata, potete scaricare i video localmente dalla pagina xref:downloads.adoc[Fili da scaricare]."
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:25
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:25
 #, no-wrap
 msgid "Estimate time savings"
 msgstr "Stima del risparmio di tempo"
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:30
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:30
 msgid "Having watched the video above, work through the following steps to estimate the national value of time savings from GBIF-enabled research. Do this for your own country and keep notes of your findings in your activity sheet. You can also do this for other countries to give some comparisons."
 msgstr "Dopo aver visto il video di cui sopra, lavorate ai seguenti passi per stimare il valore nazionale del risparmio di tempo derivante dalla ricerca abilitata dal GBIF. Fate questo per il vostro Paese e annotate i risultati nel vostro foglio di attività. Potete farlo anche per altri Paesi per avere un termine di paragone."
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:33
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:33
 #, no-wrap
 msgid "*Step 1*: Go to the https://www.gbif.org/[GBIF website] and click on the icon showing the global number of peer-reviewed papers using data.\n"
 msgstr "*Fase 1*: Andare sul sito https://www.gbif.org/[sito web GBIF] e cliccare sull'icona che mostra il numero globale di pubblicazioni peer-reviewed che utilizzano i dati.\n"
 
 #. type: Target for macro image
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:34
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:34
 #, no-wrap
 msgid "epn::estimate-step1.png"
 msgstr "epn::estimate-step1.png"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:39
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:39
 #, no-wrap
 msgid "*Step 2*:  You are now looking at literature filtered by “Literature type” = “Journal article” and “Relevance” = “GBIF used”. This means you are seeing a list of all tracked examples of journal articles that cite the use of GBIF-mediated data. \n"
 msgstr "*Fase 2*:  Ora si sta guardando la letteratura filtrata da \"Tipo di letteratura\" = \"Articolo di riviste\" e \"Rilevanza\" = \"GBIF utilizzato\". Questo significa che state vedendo un elenco di tutti gli esempi tracciati di articoli di riviste che citano l'uso di dati mediati da GBIF. \n"
 
 #. type: Target for macro image
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:40
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:40
 #, no-wrap
 msgid "epn::estimate-step2.png"
 msgstr "epn::estimate-step2.png"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:46
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:46
 #, no-wrap
 msgid "*Step 3*: Using the filter “Country or area of researcher”, filter these results to your own country. You are now seeing all tracked examples of journal articles that cite the use of GBIF-mediated data for \n"
 "which at least one of the authors is affiliated with an institution from your country.\n"
@@ -287,50 +117,43 @@ msgstr "*Fase 3*: Utilizzando il filtro \"Paese o area di ricerca\", filtrare qu
 
 #. type: Target for macro image
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:47
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:47
 #, no-wrap
 msgid "epn::estimate-step3.png"
 msgstr "epn::estimate-step3.png"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:52
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:52
 #, no-wrap
 msgid "*Step 4*: Using the filter “Year of publication”, filter the results to only show publications from one full year. You are now seeing all tracked examples of journal articles that cite the use of GBIF-mediated data for which at least one of the authors is affiliated with an institution from your country from a single year. Enter this value into the column in your activity sheet.\n"
 msgstr "*Fase 4*: Utilizzando il filtro \"Anno di pubblicazione\", filtrare i risultati per mostrare solo le pubblicazioni di un anno intero. Ora vengono visualizzati tutti gli esempi tracciati di articoli di riviste che citano l'uso di dati mediati da GBIF per i quali almeno uno degli autori è affiliato a un'istituzione del vostro Paese e che risalgono a un solo anno. Inserite questo valore nella colonna del vostro foglio di attività.\n"
 
 #. type: Target for macro image
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:53
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:53
 #, no-wrap
 msgid "epn::estimate-step4.png"
 msgstr "epn::estimate-step4.png"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:58
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:58
 #, no-wrap
 msgid "*Step 5*: Estimate the hourly wage for a researcher or data scientist in your country. Keep note of this value and the currency in your activity sheet.\n"
-msgstr ""
+msgstr "*Fase 5*: Stimate il salario orario di un ricercatore o di un data scientist nel vostro Paese. Prendete nota di questo valore e della valuta nel vostro foglio di attività.\n"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:62
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:62
 #, no-wrap
 msgid "*Step 6*: Apply the formula explained in the video to calculate the estimated value of research time saved by GBIF for the year and keep note of the result in your activity sheet.\n"
-msgstr ""
+msgstr "*Fase 6*: Applicate la formula spiegata nel video per calcolare il valore stimato del tempo di ricerca risparmiato dal GBIF per l'anno e annotate il risultato nel vostro foglio di attività.\n"
 
 #. type: Target for macro image
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:63
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:63
 #, no-wrap
 msgid "epn::estimate-step6.png"
-msgstr ""
+msgstr "epn::estimate-step6.png"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:67
-#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:67
 #, no-wrap
 msgid "*Step 7*: Consider what this figure means and how it could be used to communicate the value of GBIF Participation.\n"
-msgstr ""
+msgstr "*Fase 7*: Riflettere sul significato di questa cifra e su come potrebbe essere utilizzata per comunicare il valore della Partecipazione al GBIF.\n"
 
