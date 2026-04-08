@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:46\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:08\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -17,9 +17,39 @@ msgstr ""
 "X-Crowdin-File-ID: 40958\n"
 
 #. type: Title =
+#: en/data-use/modules/ROOT/pages/description.adoc:1
 #: en/epn/modules/ROOT/pages/description.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:2
+#: en/nodes/modules/ROOT/pages/description.adoc:1
 #, no-wrap
 msgid "Course description"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:16
+#: en/epn/modules/ROOT/pages/description.adoc:21
+#: en/grscicoll/modules/ROOT/pages/description.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:19
+#: en/project-planning/modules/ROOT/pages/description.adoc:18
+#, no-wrap
+msgid "Audience"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:23
+#: en/epn/modules/ROOT/pages/description.adoc:25
+#: en/grscicoll/modules/ROOT/pages/description.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:26
+#: en/project-planning/modules/ROOT/pages/description.adoc:25
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/description.adoc:28
+#: en/epn/modules/ROOT/pages/description.adoc:28
+#: en/grscicoll/modules/ROOT/pages/description.adoc:32
+msgid "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF course^]"
 msgstr ""
 
 #. type: delimited block *
@@ -27,8 +57,9 @@ msgstr ""
 msgid "This course aims to support teams working on GBIF funded projects, observers and other interested participants in the first stages of building a case for formal Participation in GBIF and establishing a Participant node."
 msgstr "Questo corso mira a supportare i team che lavorano su progetti finanziati dal GBIF, gli osservatori e altri partecipanti interessati nelle prime fasi di costruzione di un caso di Partecipazione formale al GBIF e di creazione di un nodo Partecipante."
 
-#. type: delimited block *
+#. type: delimited block =
 #: en/epn/modules/ROOT/pages/description.adoc:7
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
 msgid "Topics include:"
 msgstr "I temi includono:"
 
@@ -67,27 +98,10 @@ msgstr "Il corso comprende video e documentazione abbinati a quiz ed esercizi pr
 msgid "At the time of registration, all participants must commit to completing the course within the allocated time-frame and to supporting peers in the group work."
 msgstr "Al momento dell'iscrizione, tutti i partecipanti devono impegnarsi a completare il corso entro i tempi previsti e a sostenere i pari nel lavoro di gruppo."
 
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/description.adoc:21
-#, no-wrap
-msgid "Audience"
-msgstr ""
-
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/description.adoc:24
 msgid "This course is aimed at interested individuals and teams engaged in GBIF’s capacity development programmes based in countries or organizations that are not yet formal GBIF Participants. Encouraging national Participation and the establishment of a Participant node brings many benefits and is a good way to ensure the sustainability of efforts started through capacity development projects focused on biodiversity data mobilization and use."
 msgstr "Questo corso è diretto a persone e team interessati, impegnati nei programmi di sviluppo delle capacità del GBIF, con sede in Paesi o organizzazioni che non sono ancora Partecipanti ufficiali del GBIF. Incoraggiare la Partecipazione nazionale e la creazione di un nodo Partecipante porta molti benefici ed è un buon modo per garantire la sostenibilità degli sforzi avviati attraverso progetti di sviluppo delle capacità incentrati sulla mobilitazione e sull'uso dei dati sulla biodiversità."
-
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/description.adoc:25
-#, no-wrap
-msgid "Prerequisites"
-msgstr ""
-
-#. type: Plain text
-#: en/epn/modules/ROOT/pages/description.adoc:28
-msgid "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF course^]"
-msgstr ""
 
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/description.adoc:29
@@ -100,9 +114,10 @@ msgstr "Obiettivo di apprendimento"
 msgid "Participants that complete this course are empowered to make the case for establishing nodes - and biodiversity information facilities more generally - for the sustainability of biodiversity data mobilization and use activities."
 msgstr "I partecipanti che completano questo corso sono in grado di sostenere la creazione di nodi - e più in generale di strutture informative sulla biodiversità - per garantire la sostenibilità delle attività di mobilitazione e utilizzo dei dati sulla biodiversità."
 
-#.  inlude if needed, otherwise remove
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/description.adoc:34
+#: en/grscicoll/modules/ROOT/pages/description.adoc:38
+#: en/project-planning/modules/ROOT/pages/description.adoc:36
 #, no-wrap
 msgid "Certificate of completion"
 msgstr "Certificato di completamento"
