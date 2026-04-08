@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:41\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:01\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,7 +16,40 @@ msgstr ""
 "X-Crowdin-File: /main/translations/nodes/estimating-gbif-value.pot\n"
 "X-Crowdin-File-ID: 41050\n"
 
-#. type: Plain text
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:24
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:32
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
 #: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
@@ -172,88 +205,126 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:273
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:280
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
 msgstr ""
 
 #. type: Title =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:1
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:1
 #, no-wrap
 msgid "Estimating the value of GBIF"
 msgstr "Estimation de la valeur du GBIF"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:4
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:4
 msgid "This section will help you to understand the value of GBIF as data infrastructure and an international network. Estimates of the economic value of GBIF can be helpful in communicating the benefits of Participation in the network."
 msgstr "Cette section vous aidera à comprendre la valeur du GBIF en tant qu'infrastructure de données et réseau international. Les estimations de la valeur économique du GBIF peuvent être utiles pour communiquer les avantages de la participation au réseau."
 
 #. type: Title ==
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:5
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:5
 #, no-wrap
 msgid "Economic valuation"
 msgstr "Évaluation économique"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:8
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:8
 msgid "The 2023 report, Economic valuation and assessment of the impact of the GBIF network, prepared and published by Deloitte Access Economics, gives insight into the value that GBIF provides to its users and in broader societal benefits."
 msgstr "Le rapport 2023, « Economic valuation and assessment of the impact of the GBIF network », préparé et publié par Deloitte Access Economics, donne un aperçu de la valeur que le GBIF apporte à ses utilisateurs et des avantages sociétaux plus larges."
 
 #. type: delimited block =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:12
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:12
 msgid "The news item that accompanied the release of this report points to highlights, but we recommend that you also review the full report for a more complete understanding."
 msgstr "Le communiqué de presse qui accompagne la publication de ce rapport en souligne les points saillants, mais nous vous recommandons de consulter également le rapport complet pour une meilleure compréhension."
 
 #. type: delimited block =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:14
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:14
 msgid "https://www.gbif.org/news/5WZThcL928vmPnSvrGhZfE/report-reveals-return-on-investments-in-gbif[News item^]"
 msgstr "https://www.gbif.org/news/5WZThcL928vmPnSvrGhZfE/report-reveals-return-on-investments-in-gbif[Article d'actualité^]"
 
 #. type: delimited block =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:15
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:15
 msgid "https://www.deloitte.com/au/en/services/economics/perspectives/total-economic-value-open-access-database-living-world.html[Full report^]"
 msgstr "https://www.deloitte.com/au/en/services/economics/perspectives/total-economic-value-open-access-database-living-world.html[Rapport complet^]"
 
 #. type: delimited block =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:20
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:20
 msgid "In this video (6:55) Kyle Copas, GBIF Communications Manager, unpacks some of the key expressions of value from the Deloitte Access Economics report and explains how to estimate the national value of time savings from GBIF-enabled research. If you are unable to watch via the embedded Vimeo showcase, you can download the videos locally from the xref:downloads.adoc[Files for download] page."
 msgstr "Dans cette vidéo (6:55), Kyle Copas, responsable de la communication du GBIF, analyse certaines des expressions clés de la valeur du rapport de Deloitte Access Economics et explique comment estimer la valeur nationale des économies de temps réalisées grâce à la recherche financée par le GBIF. Si vous ne pouvez pas regarder les vidéos via la vitrine Vimeo intégrée, vous pouvez les télécharger localement à partir de la page xref:downloads.adoc[Fichiers à télécharger]."
 
 #. type: Title ==
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:25
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:25
 #, no-wrap
 msgid "Estimate time savings"
 msgstr "Estimer les gains de temps"
 
 #. type: delimited block =
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:30
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:30
 msgid "Having watched the video above, work through the following steps to estimate the national value of time savings from GBIF-enabled research. Do this for your own country and keep notes of your findings in your activity sheet. You can also do this for other countries to give some comparisons."
 msgstr "Après avoir visionné la vidéo ci-dessus, suivez les étapes suivantes pour estimer la valeur nationale des économies de temps réalisées grâce à la recherche financée par le GBIF. Faites-le pour votre propre pays et notez vos résultats dans votre fiche d'activité. Vous pouvez également le faire pour d'autres pays afin d'établir des comparaisons."
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:33
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:33
 #, no-wrap
 msgid "*Step 1*: Go to the https://www.gbif.org/[GBIF website] and click on the icon showing the global number of peer-reviewed papers using data.\n"
 msgstr "*Étape 1 Allez sur le site https://www.gbif.org/[site web du GBIF] et cliquez sur l'icône indiquant le nombre global d'articles évalués par des pairs et utilisant des données.\n"
 
 #. type: Target for macro image
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:34
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:34
 #, no-wrap
 msgid "epn::estimate-step1.png"
 msgstr "epn::estimate-step1.png"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:39
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:39
 #, no-wrap
 msgid "*Step 2*:  You are now looking at literature filtered by “Literature type” = “Journal article” and “Relevance” = “GBIF used”. This means you are seeing a list of all tracked examples of journal articles that cite the use of GBIF-mediated data. \n"
 msgstr "*Étape 2* : Vous regardez maintenant la littérature filtrée par \"Literature type\" = \"Journal article\" et \"Relevance\" = \"GBIF used\". Cela signifie que vous voyez une liste de tous les exemples suivis d'articles de journaux qui citent l'utilisation de données transmises par le GBIF. \n"
 
 #. type: Target for macro image
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:40
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:40
 #, no-wrap
 msgid "epn::estimate-step2.png"
 msgstr "epn::estimate-step2.png"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:46
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:46
 #, no-wrap
 msgid "*Step 3*: Using the filter “Country or area of researcher”, filter these results to your own country. You are now seeing all tracked examples of journal articles that cite the use of GBIF-mediated data for \n"
@@ -262,42 +333,49 @@ msgstr "*Étape 3* : En utilisant le filtre \"Country or area of researcher\", f
 "et dont au moins un des auteurs est affilié à une institution de votre pays.\n"
 
 #. type: Target for macro image
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:47
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:47
 #, no-wrap
 msgid "epn::estimate-step3.png"
 msgstr "epn::estimate-step3.png"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:52
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:52
 #, no-wrap
 msgid "*Step 4*: Using the filter “Year of publication”, filter the results to only show publications from one full year. You are now seeing all tracked examples of journal articles that cite the use of GBIF-mediated data for which at least one of the authors is affiliated with an institution from your country from a single year. Enter this value into the column in your activity sheet.\n"
 msgstr "*Étape 4* : En utilisant le filtre \"Year of publication\", filtrez les résultats pour n'afficher que les publications d'une année complète. Vous voyez maintenant tous les exemples suivis d'articles de journaux qui citent l'utilisation de données transmises par le GBIF et dont au moins un des auteurs est affilié à une institution de votre pays pour une seule année. Inscrivez cette valeur dans la colonne de votre feuille d'activité.\n"
 
 #. type: Target for macro image
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:53
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:53
 #, no-wrap
 msgid "epn::estimate-step4.png"
 msgstr "epn::estimate-step4.png"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:58
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:58
 #, no-wrap
 msgid "*Step 5*: Estimate the hourly wage for a researcher or data scientist in your country. Keep note of this value and the currency in your activity sheet.\n"
 msgstr "*Étape 5* : Estimez le salaire horaire d'un chercheur ou d'un scientifique des données dans votre pays. Notez cette valeur et la devise dans votre feuille d'activité.\n"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:62
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:62
 #, no-wrap
 msgid "*Step 6*: Apply the formula explained in the video to calculate the estimated value of research time saved by GBIF for the year and keep note of the result in your activity sheet.\n"
 msgstr "*Étape 6* : Appliquez la formule expliquée dans la vidéo pour calculer la valeur estimée du temps de recherche économisé par le GBIF pour l'année et notez le résultat dans votre feuille d'activité.\n"
 
 #. type: Target for macro image
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:63
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:63
 #, no-wrap
 msgid "epn::estimate-step6.png"
 msgstr "epn::estimate-step6.png"
 
 #. type: Plain text
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:67
 #: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:67
 #, no-wrap
 msgid "*Step 7*: Consider what this figure means and how it could be used to communicate the value of GBIF Participation.\n"
