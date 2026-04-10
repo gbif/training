@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:43\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -18,57 +18,85 @@ msgstr ""
 
 #.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
 #. type: Plain text
+#: en/data-use/modules/ROOT/nav.adoc:3 en/epn/modules/ROOT/nav.adoc:3
+#: en/grscicoll/modules/ROOT/nav.adoc:3
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:3
-msgid "xref:index.adoc[Home]"
-msgstr ""
+#: en/project-planning/modules/ROOT/nav.adoc:3
+msgid "xref:index.adoc[Course details]"
+msgstr "xref:index.adoc[Detalles de curso]"
 
 #. type: Plain text
+#: en/data-use/modules/ROOT/nav.adoc:4 en/epn/modules/ROOT/nav.adoc:4
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:4
 msgid "xref:description.adoc[Course description]"
 msgstr "xref:description.adoc[Descripción de curso]"
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:5
+#: en/data-use/modules/ROOT/nav.adoc:5 en/epn/modules/ROOT/nav.adoc:5
+#: en/grscicoll/modules/ROOT/nav.adoc:5
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:5 en/nodes/modules/ROOT/nav.adoc:5
+#: en/project-planning/modules/ROOT/nav.adoc:5
 msgid "xref:acknowledgements.adoc[Acknowledgements]"
 msgstr "xref:acknowledgements.adoc[Reconocimientos]"
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:6
-msgid "xref:about-gbif.adoc[01. About GBIF]"
-msgstr ""
+#: en/data-use/modules/ROOT/nav.adoc:6 en/epn/modules/ROOT/nav.adoc:6
+#: en/grscicoll/modules/ROOT/nav.adoc:6
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:6 en/nodes/modules/ROOT/nav.adoc:6
+#: en/project-planning/modules/ROOT/nav.adoc:6
+msgid "xref:citation.adoc[Citation]"
+msgstr "xref:citation.adoc[Citación]"
 
+#. * xref:downloads.adoc[Files for download]
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:7
-msgid "xref:gbif-mediated-data.adoc[02. GBIF-mediated data]"
+#: en/grscicoll/modules/ROOT/nav.adoc:7
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:7 en/nodes/modules/ROOT/nav.adoc:7
+#: en/project-planning/modules/ROOT/nav.adoc:7
+msgid "xref:navigation.adoc[Navigating the course]"
 msgstr ""
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:8
-msgid "xref:data-publishing.adoc[03. Data publishing]"
+msgid "xref:about-gbif.adoc[About GBIF]"
 msgstr ""
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:9
-msgid "xref:data-access.adoc[04. Data access]"
+msgid "xref:gbif-mediated-data.adoc[GBIF-mediated data]"
 msgstr ""
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:10
-msgid "xref:community-of-practice.adoc[05. Community of practice]"
+msgid "xref:data-publishing.adoc[Data publishing]"
 msgstr ""
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:11
-msgid "xref:course-complete.adoc[06. Course complete]"
+msgid "xref:data-access.adoc[Data access]"
 msgstr ""
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/nav.adoc:12
+msgid "xref:community-of-practice.adoc[Community of practice]"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:13
+msgid "xref:course-complete.adoc[Course complete]"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:14
+msgid "Appendices"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:15
 msgid "xref:glossary.adoc[Glossary]"
 msgstr ""
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/nav.adoc:12
-msgid "xref:solutions.adoc[Appendix: Solutions]"
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:15
+msgid "xref:solutions.adoc[Solutions]"
 msgstr ""
 

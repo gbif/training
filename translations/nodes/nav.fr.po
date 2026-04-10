@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:41\n"
+"POT-Creation-Date: 2026-04-10 08:34+0000\n"
+"PO-Revision-Date: 2026-04-10 08:36\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,31 +16,117 @@ msgstr ""
 "X-Crowdin-File: /main/translations/nodes/nav.pot\n"
 "X-Crowdin-File-ID: 41058\n"
 
-#.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:3
-msgid "xref:index.adoc[Details]"
-msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:4
-msgid "xref:description.adoc[Description]"
-msgstr "xref:description.adoc[Description]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:5
+#: en/data-use/modules/ROOT/nav.adoc:5 en/epn/modules/ROOT/nav.adoc:5
+#: en/grscicoll/modules/ROOT/nav.adoc:5
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:5 en/nodes/modules/ROOT/nav.adoc:5
+#: en/project-planning/modules/ROOT/nav.adoc:5
 msgid "xref:acknowledgements.adoc[Acknowledgements]"
 msgstr "xref:acknowledgements.adoc[Remerciements]"
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:6
+#: en/data-use/modules/ROOT/nav.adoc:6 en/epn/modules/ROOT/nav.adoc:6
+#: en/grscicoll/modules/ROOT/nav.adoc:6
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:6 en/nodes/modules/ROOT/nav.adoc:6
+#: en/project-planning/modules/ROOT/nav.adoc:6
 msgid "xref:citation.adoc[Citation]"
 msgstr ""
 
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:9 en/nodes/modules/ROOT/nav.adoc:12
+msgid "xref:case-for-participation.adoc[Building a case for engagement in GBIF]"
+msgstr "xref:case-for-participation.adoc[Construire un argumentaire pour l'engagement dans le GBIF]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:10 en/nodes/modules/ROOT/nav.adoc:13
+msgid "xref:understanding-gbif-relevance.adoc[Understanding GBIF's relevance]"
+msgstr "xref:understanding-gbif-relevance.adoc [Comprendre la pertinence du GBIF]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:11 en/nodes/modules/ROOT/nav.adoc:50
+msgid "xref:estimating-gbif-value.adoc[Estimating the value of GBIF]"
+msgstr "xref:estimating-gbif-value.adoc[Estimation de la valeur du GBIF]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:13 en/nodes/modules/ROOT/nav.adoc:14
+msgid "xref:benefits-of-participation.adoc[Benefits of GBIF Participation]"
+msgstr "xref:avantages-de-la-participation.adoc [Avantages de la participation au GBIF]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:14 en/nodes/modules/ROOT/nav.adoc:15
+msgid "xref:benefits-of-node.adoc[Benefits of establishing a node]"
+msgstr "xref:benefits-of-node.adoc [Avantages de l'établissement d'un nœud]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:15 en/nodes/modules/ROOT/nav.adoc:16
+msgid "xref:establishing-a-node.adoc[Engaging stakeholders towards establishing a node]"
+msgstr "xref:establishing-a-node.adoc [Engager les parties prenantes dans l'établissement d'un nœud]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:17 en/nodes/modules/ROOT/nav.adoc:17
+msgid "xref:engaging-stakeholders.adoc[Engaging stakeholders]"
+msgstr "xref:engager les parties prenantes.adoc[Engager les parties prenantes]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:18 en/nodes/modules/ROOT/nav.adoc:18
+msgid "xref:targeting-stakeholder-interests.adoc[Targeting stakeholders' interests]"
+msgstr "xref:targeting-stakeholder-interests.adoc [Cibler les intérêts des parties prenantes]"
+
+#. type: Plain text
+#: en/epn/modules/ROOT/nav.adoc:19 en/nodes/modules/ROOT/nav.adoc:19
+msgid "xref:participatory-approach.adoc[Participatory approach]"
+msgstr "xref:participatory-approach.adoc [Approche participative]"
+
+#. type: Plain text
+#: en/grscicoll/modules/ROOT/nav.adoc:4 en/nodes/modules/ROOT/nav.adoc:4
+#: en/project-planning/modules/ROOT/nav.adoc:4
+msgid "xref:description.adoc[Description]"
+msgstr "xref:description.adoc[Description]"
+
 #. * xref:downloads.adoc[Files for download]
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:7
+#: en/grscicoll/modules/ROOT/nav.adoc:7
+#: en/intro-to-gbif/modules/ROOT/nav.adoc:7 en/nodes/modules/ROOT/nav.adoc:7
+#: en/project-planning/modules/ROOT/nav.adoc:7
 msgid "xref:navigation.adoc[Navigating the course]"
+msgstr ""
+
+#. *** Monitoring progress at the node level
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:347
+#: en/nodes/modules/ROOT/nav.adoc:33
+msgid "Support for science and research"
+msgstr ""
+
+#. ** Data papers
+#. ** Promoting data use
+#. *** GBIF Data use club
+#. ** Contribute to open science
+#. ** Develop partnerships with research infrastructures
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:348
+#: en/nodes/modules/ROOT/nav.adoc:48
+msgid "Support for policy and decisions"
+msgstr ""
+
+#. type: Title =
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:349
+#: en/nodes/modules/ROOT/nav.adoc:62
+#: en/nodes/modules/ROOT/pages/enabling-community.adoc:1
+#, no-wrap
+msgid "Engaging and enabling the community"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:350
+#: en/nodes/modules/ROOT/nav.adoc:82
+msgid "Technical services for biodiversity data management"
+msgstr ""
+
+#.  Note the "home" section navigation is not currently visible, as the pages use the "home" layout which omits it.
+#. type: Plain text
+#: en/nodes/modules/ROOT/nav.adoc:3
+msgid "xref:index.adoc[Details]"
 msgstr ""
 
 #. type: Plain text
@@ -52,46 +138,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/nav.adoc:11
 msgid "Designate and resource a node"
 msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:12
-msgid "xref:case-for-participation.adoc[Building a case for engagement in GBIF]"
-msgstr "xref:case-for-participation.adoc[Construire un argumentaire pour l'engagement dans le GBIF]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:13
-msgid "xref:understanding-gbif-relevance.adoc[Understanding GBIF's relevance]"
-msgstr "xref:understanding-gbif-relevance.adoc [Comprendre la pertinence du GBIF]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:14
-msgid "xref:benefits-of-participation.adoc[Benefits of GBIF Participation]"
-msgstr "xref:avantages-de-la-participation.adoc [Avantages de la participation au GBIF]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:15
-msgid "xref:benefits-of-node.adoc[Benefits of establishing a node]"
-msgstr "xref:benefits-of-node.adoc [Avantages de l'établissement d'un nœud]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:16
-msgid "xref:establishing-a-node.adoc[Engaging stakeholders towards establishing a node]"
-msgstr "xref:establishing-a-node.adoc [Engager les parties prenantes dans l'établissement d'un nœud]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:17
-msgid "xref:engaging-stakeholders.adoc[Engaging stakeholders]"
-msgstr "xref:engager les parties prenantes.adoc[Engager les parties prenantes]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:18
-msgid "xref:targeting-stakeholder-interests.adoc[Targeting stakeholders' interests]"
-msgstr "xref:targeting-stakeholder-interests.adoc [Cibler les intérêts des parties prenantes]"
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:19
-msgid "xref:participatory-approach.adoc[Participatory approach]"
-msgstr "xref:participatory-approach.adoc [Approche participative]"
 
 #. *** Examples of nodes budgets
 #. type: Plain text
@@ -110,20 +156,10 @@ msgstr ""
 #. *** Staffing models
 #. *** Examples of mandates
 #. *** Needs assessments
+#. ** Develop work plans with monitoring and evaluation
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:29
 msgid "xref:strategic-planning.adoc[Strategic planning and alignment with GBIF plans]"
-msgstr ""
-
-#. *** Monitoring progress at the node level
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:30
-msgid "Develop work plans with monitoring and evaluation"
-msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:33
-msgid "Support for science and research"
 msgstr ""
 
 #. type: Plain text
@@ -150,33 +186,10 @@ msgstr ""
 msgid "xref:collections-communities.adoc[Collections communities]"
 msgstr ""
 
-#. ** Data papers
-#. ** Promoting data use
-#. *** GBIF Data use club
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:45
-msgid "Contribute to open science"
-msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:46
-msgid "Develop partnerships with research infrastructures"
-msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:48
-msgid "Support for policy and decisions"
-msgstr ""
-
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:49
 msgid "Demonstrate the value of biodiversity to decision-makers"
 msgstr ""
-
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:50
-msgid "xref:estimating-gbif-value.adoc[Estimating the value of GBIF]"
-msgstr "xref:estimating-gbif-value.adoc[Estimation de la valeur du GBIF]"
 
 #. ** Assessing biodiversity information users’ needs
 #. type: Plain text
@@ -208,13 +221,6 @@ msgstr ""
 msgid "xref:business-sector.adoc[Business sector]"
 msgstr ""
 
-#. type: Title =
-#: en/nodes/modules/ROOT/nav.adoc:62
-#: en/nodes/modules/ROOT/pages/enabling-community.adoc:1
-#, no-wrap
-msgid "Engaging and enabling the community"
-msgstr ""
-
 #. *** Community norms and values
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:63
@@ -224,17 +230,13 @@ msgstr ""
 #. *** Community of practice
 #. *** Engaging volunteers
 #. *** Regional level engagement
+#. ** Develop and implement data mobilization strategies
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:68
 msgid "xref:communications-strategy.adoc[A communication plan for your network]"
 msgstr ""
 
 #. *** Data gap analyses
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:69
-msgid "Develop and implement data mobilization strategies"
-msgstr ""
-
 #. *** Supporting digitization
 #. *** Promoting incentives for data publishing
 #. *** Identifying and assessing sources of biodiversity data
@@ -254,11 +256,6 @@ msgid "xref:developing-training.adoc[Developing training for your network]"
 msgstr ""
 
 #. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:82
-msgid "Technical services for biodiversity data management"
-msgstr ""
-
-#. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:83
 msgid "Provide tools and services in support of data publishing"
 msgstr ""
@@ -271,12 +268,8 @@ msgstr ""
 
 #. *** Hosting an IPT or requesting support from the Secretariat
 #. *** Providing helpdesk support for data publishing
+#. ** Establish data quality workflows
 #. ** Contributing to work on biodiversity information standards
-#. type: Plain text
-#: en/nodes/modules/ROOT/nav.adoc:88
-msgid "Establish data quality workflows"
-msgstr ""
-
 #. type: Plain text
 #: en/nodes/modules/ROOT/nav.adoc:90
 msgid "Provide tools and services in support of data access"

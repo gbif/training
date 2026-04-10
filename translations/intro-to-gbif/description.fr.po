@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
-"PO-Revision-Date: 2026-04-08 11:41\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
+"PO-Revision-Date: 2026-04-08 14:01\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,82 +16,96 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/description.pot\n"
 "X-Crowdin-File-ID: 41000\n"
 
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
-#, no-wrap
-msgid "Data access"
-msgstr "Accès aux données"
-
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:12
-#, no-wrap
-msgid "Data publishing"
-msgstr "Publication de données"
-
 #. type: Title =
+#: en/data-use/modules/ROOT/pages/description.adoc:1
+#: en/epn/modules/ROOT/pages/description.adoc:1
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:2
+#: en/nodes/modules/ROOT/pages/description.adoc:1
 #, no-wrap
 msgid "Course description"
 msgstr "Description du cours"
 
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:6
-msgid "This course provides an introduction to GBIF, the data available in GBIF's portal, accessing that data and information about engaging with GBIF and its community of practice."
-msgstr "Ce cours fournit une introduction au GBIF, aux données disponibles sur le portail GBIF, à l'accès à ces données et aux informations sur l'engagement avec le GBIF et sa communauté de pratique."
-
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:8
-msgid "Topics include:"
-msgstr "Les sujets incluent:"
-
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:10
-msgid "Information about GBIF"
-msgstr "Informations à propos de GBIF"
-
-#. type: Title =
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:11
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:1
-#, no-wrap
-msgid "GBIF-mediated data"
-msgstr "Les données obtenues via le GBIF"
-
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:14
-msgid "GBIF community of practice"
-msgstr "La communauté de pratique GBIF"
-
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:16
-msgid "This course is comprised of video and written instruction and paired with quizzes and practical exercises."
-msgstr "Ce cours est composé de vidéos et d'instructions écrites, jumelées à des quiz et des exercices pratiques."
-
 #. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:18
+#: en/data-use/modules/ROOT/pages/description.adoc:16
+#: en/epn/modules/ROOT/pages/description.adoc:21
+#: en/grscicoll/modules/ROOT/pages/description.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:19
+#: en/project-planning/modules/ROOT/pages/description.adoc:18
 #, no-wrap
 msgid "Audience"
 msgstr "Public"
 
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:21
-msgid "This course is designed for individuals who work in biodiversity research or policy institutions and contribute to or use data from the GBIF portal. The instruction provided is particularly useful for those who have a desire to know more about GBIF and its place in the biodiversity community and want to engage further with GBIF."
-msgstr "Ce cours est conçu pour les personnes qui travaillent dans les institutions de recherche sur la biodiversité ou politiques et qui alimentent ou utilisent les données du portail GBIF. Les instructions fournies sont particulièrement utiles pour ceux qui souhaitent en savoir plus sur le GBIF et sa place dans la communauté de la biodiversité et qui souhaitent s’engager davantage auprès du GBIF."
-
 #. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:22
+#: en/data-use/modules/ROOT/pages/description.adoc:23
+#: en/epn/modules/ROOT/pages/description.adoc:25
+#: en/grscicoll/modules/ROOT/pages/description.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:26
+#: en/project-planning/modules/ROOT/pages/description.adoc:25
 #, no-wrap
 msgid "Prerequisites"
 msgstr "Prérequis"
 
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:26
+#. type: delimited block =
+#: en/epn/modules/ROOT/pages/description.adoc:7
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
+msgid "Topics include:"
+msgstr "Les sujets incluent:"
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:14
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:106
+#, no-wrap
+msgid "Data access"
+msgstr "Accès aux données"
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "Data publishing"
+msgstr "Publication de données"
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:7
+msgid "This course provides an introduction to GBIF, the data available in GBIF's portal, accessing that data and information about engaging with GBIF and its community of practice."
+msgstr "Ce cours fournit une introduction au GBIF, aux données disponibles sur le portail GBIF, à l'accès à ces données et aux informations sur l'engagement avec le GBIF et sa communauté de pratique."
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:11
+msgid "Information about GBIF"
+msgstr "Informations à propos de GBIF"
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:55
+#, no-wrap
+msgid "GBIF-mediated data"
+msgstr "Les données obtenues via le GBIF"
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:15
+msgid "GBIF community of practice"
+msgstr "La communauté de pratique GBIF"
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:17
+msgid "This course is comprised of video and written instruction and paired with quizzes and practical exercises."
+msgstr "Ce cours est composé de vidéos et d'instructions écrites, jumelées à des quiz et des exercices pratiques."
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:24
+msgid "This course is designed for anyone who is interested in using data from or publishing data to GBIF. It is particularly useful for those who have a desire to know more about GBIF and its place in the biodiversity community and want to engage further with GBIF."
+msgstr ""
+
+#. type: delimited block =
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:32
 msgid "There are no prerequisites for this course.  This course serves as a prerequisite for other GBIF courses."
 msgstr "Il n'y a pas de prérequis pour ce cours.  Ce cours est un prérequis pour d'autres cours du GBIF."
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:27
-msgid "Participants should have a good command of English. While efforts are made to provide materials in other languages, instruction videos will be in English with subtitles in other languages."
-msgstr "Les participants doivent avoir une bonne maîtrise de l'anglais. Bien que des efforts soient déployés pour fournir du matériel dans d'autres langues, les vidéos d'instruction seront en anglais avec des sous-titres dans d'autres langues."
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:34
+msgid "While efforts are made to provide materials in other languages, videos will be in English. Efforts are made to include subtitles when possible."
+msgstr ""
 
