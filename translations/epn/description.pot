@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-26 15:11+0000\n"
+"POT-Creation-Date: 2026-04-08 13:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
+#: en/data-use/modules/ROOT/pages/description.adoc:1
 #: en/epn/modules/ROOT/pages/description.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:2
+#: en/nodes/modules/ROOT/pages/description.adoc:1
 #, no-wrap
 msgid "Course description"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:16
+#: en/epn/modules/ROOT/pages/description.adoc:21
+#: en/grscicoll/modules/ROOT/pages/description.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:19
+#: en/project-planning/modules/ROOT/pages/description.adoc:18
+#, no-wrap
+msgid "Audience"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/description.adoc:23
+#: en/epn/modules/ROOT/pages/description.adoc:25
+#: en/grscicoll/modules/ROOT/pages/description.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:26
+#: en/project-planning/modules/ROOT/pages/description.adoc:25
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-use/modules/ROOT/pages/description.adoc:28
+#: en/epn/modules/ROOT/pages/description.adoc:28
+#: en/grscicoll/modules/ROOT/pages/description.adoc:32
+msgid ""
+"https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF "
+"course^]"
 msgstr ""
 
 #. type: delimited block *
@@ -30,8 +62,9 @@ msgid ""
 "formal Participation in GBIF and establishing a Participant node."
 msgstr ""
 
-#. type: delimited block *
+#. type: delimited block =
 #: en/epn/modules/ROOT/pages/description.adoc:7
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
 msgid "Topics include:"
 msgstr ""
 
@@ -80,12 +113,6 @@ msgid ""
 "work."
 msgstr ""
 
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/description.adoc:21
-#, no-wrap
-msgid "Audience"
-msgstr ""
-
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/description.adoc:24
 msgid ""
@@ -95,19 +122,6 @@ msgid ""
 "establishment of a Participant node brings many benefits and is a good way "
 "to ensure the sustainability of efforts started through capacity development "
 "projects focused on biodiversity data mobilization and use."
-msgstr ""
-
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/description.adoc:25
-#, no-wrap
-msgid "Prerequisites"
-msgstr ""
-
-#. type: Plain text
-#: en/epn/modules/ROOT/pages/description.adoc:28
-msgid ""
-"https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF "
-"course^]"
 msgstr ""
 
 #. type: Title ==
@@ -125,9 +139,10 @@ msgid ""
 "activities."
 msgstr ""
 
-#.  inlude if needed, otherwise remove
 #. type: Title ==
 #: en/epn/modules/ROOT/pages/description.adoc:34
+#: en/grscicoll/modules/ROOT/pages/description.adoc:38
+#: en/project-planning/modules/ROOT/pages/description.adoc:36
 #, no-wrap
 msgid "Certificate of completion"
 msgstr ""
