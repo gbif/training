@@ -32,6 +32,9 @@ content:
     - url: .
       start_path: ./fr/project-planning
       branches: HEAD
+    - url: .
+      start_path: ./fr/foundations
+      branches: HEAD      
 output:
   clean: false
   dir: ./output/fr
