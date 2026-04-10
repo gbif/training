@@ -16,141 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:1
-#, no-wrap
-msgid "Data processing and quality"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:6
-msgid ""
-"In this module, you will learn how to determine if data is fit for your "
-"purpose and how reviewing GBIF data quality issues and flags can help you "
-"process the data you are using for your research."
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:9
-msgid ""
-"Depending on your research question, you will need to decide if the "
-"available data/datasets are fit for your purpose.This will include "
-"evaluating the quality of the data."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:13
-msgid ""
-"In this video (12:26), you will review some of the principles for fitness "
-"for use and data quality. This video's audience is directed towards the "
-"publishers of data, but many of the same principles apply to users of data. "
-"If you are unable to watch the embedded YouTube video, you can download it "
-"locally on the xref:downloads.adoc[Files for download] page."
-msgstr ""
-
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:18
-#, no-wrap
-msgid "Determining fitness for use"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:21
-msgid ""
-"For one person, data identified to the level of Genus may be sufficient to "
-"run predictive models of ecological niches. For a person studying a "
-"particular taxon, that same genus-level data will be much less useful than "
-"more detailed occurrences with subspecies information."
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:23
-msgid ""
-"Based on the principles that Arthur Chapman discusses in the https://www."
-"gbif.org/document/80509/principles-of-data-quality[_Principles of Data "
-"Quality_^] (2005), you should reflect on some important questions about the "
-"data to help you decide if data is trustworthy or useful enough for your "
-"purpose:"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:25
-msgid ""
-"How *Accurate* are the data? For example, are the identifications current "
-"and were they made by known experts?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:26
-msgid ""
-"How *Timely* are the data? When was the data made available? How often has "
-"it been updated?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:27
-msgid ""
-"How *Complete or Comprehensive* are the data? How well does the data cover a "
-"particular time, place, or domain?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:28
-msgid ""
-"How *Consistent* are the data? Are the data in each field always of the same "
-"type? Was the data collected using the same documented protocols?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:29
-msgid ""
-"How *Relevant* are the data? How similar is the dataset to others that have "
-"been used successfully for the same purpose?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:30
-msgid ""
-"How *Detailed* are the data? How much resolution is there in the data? At "
-"what scale can the data be used for mapping?"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:31
-msgid ""
-"Is the data *Easy* to interpret? Is the dataset (metadata) documented in a "
-"clear and concise way?"
-msgstr ""
-
-#. type: Block title
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:33
-#, no-wrap
-msgid "Image by Melissa Liu"
-msgstr ""
-
-#. type: Target for macro image
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:34
-#, no-wrap
-msgid "data-use::fitnessforuse.png"
-msgstr ""
-
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:36
-#, no-wrap
-msgid "Evaluating data quality"
-msgstr ""
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:40
-msgid ""
-"If you have determined a dataset is fit for your purpose, you need to "
-"further examine the dataset and complete post-download processing of the "
-"data. GBIF downloads contain data from a range of sources and the data will "
-"likely vary in its measures of quality.  Knowing the properties of the data "
-"you have will help you to understand the ways in which you can and cannot "
-"clean, validate and process the data."
-msgstr ""
-
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:23
@@ -461,4 +326,40 @@ msgid ""
 "(original data) and the new (corrected data) side by side in the database so "
 "that if mistakes are made in the cleaning process, the original information "
 "can be recovered."
+msgstr ""
+
+#. type: Title =
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:1
+#, no-wrap
+msgid "Data quality "
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:5
+msgid "This module provides an introduction to data quality."
+msgstr ""
+
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:6
+#, no-wrap
+msgid "Data quality"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:11
+msgid "In this video (12:26), you will review terminology used in this course."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:13
+msgid ""
+"If you are unable to watch the embedded video, you can xref:"
+"attachment$foundations-data_quality_v1-720p.mp4[download^,opts=download] it "
+"locally. (MP4 - 56.4 MB)"
+msgstr ""
+
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#, no-wrap
+msgid "Principles of data quality"
 msgstr ""

@@ -243,150 +243,40 @@ msgid "&nbsp;"
 msgstr ""
 
 #. type: Title =
-#: en/home/modules/ROOT/pages/index.adoc:1
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/course-complete.adoc:1
 #, no-wrap
-msgid "GBIF Training Courses"
+msgid "Course complete"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:6
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:4
+#: en/intro-to-gbif/modules/ROOT/pages/course-complete.adoc:4
+msgid "You have now completed the course."
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:6
 msgid ""
-"The GBIF Secretariat, in collaboration with our community of trainers and "
-"mentors, develops curricula on biodiversity data mobilization and use. These "
-"courses are available online for self-paced use or can be adapted for onsite "
-"or virtual workshops. Contact us at training@gbif.org with questions."
-msgstr ""
-
-#. * https://docs.gbif.org/course-introduction-to-gbif[image:Courses-01.png[]^]
-#. ** https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF^]
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:11
-msgid "xref:intro-to-gbif::index.adoc[image:Courses-01.png[]]"
+"As a reminder, this course serves as the prerequisite for the Biodiversity "
+"Data Mobilization course. You only need to take the course one time, but you "
+"can of course refer back to the material at any time."
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:12
-msgid "xref:intro-to-gbif::index.adoc[Introduction to GBIF]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:14
-msgid "xref:data-use::index.adoc[image:Courses-03.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:15
-msgid "xref:data-use::index.adoc[Introduction to using GBIF-mediated data]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:17
-msgid "xref:epn::index.adoc[image:Courses-06.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:18
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:8
 msgid ""
-"xref:epn::index.adoc[Formal engagement and establishing Participant nodes]"
+"If you have any difficulty in using the form below, click here to https://"
+"www.survey-xact.dk/LinkCollector?key=GQWMLZCDU63K[open in a new window^]."
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:20
-msgid "xref:project-planning::index.adoc[image:Courses-07.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:21
-msgid ""
-"xref:project-planning::index.adoc[Biodiversity data mobilization project "
-"planning]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:23
-msgid "xref:foundations::index.adoc[image:Courses-09.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:24
-msgid ""
-"xref:foundations::index.adoc[Biodiversity Data Mobilization Foundations]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:26
-msgid "https://docs.gbif.org/course-data-mobilization[image:Courses-02.png[]^]"
-msgstr ""
-
-#. * xref:data-mobilization::index.adoc[image:Courses-02.png[]]
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:27
-msgid ""
-"https://docs.gbif.org/course-data-mobilization[Biodiversity data "
-"mobilization^]"
-msgstr ""
-
-#. ** xref:data-mobilization::index.adoc[Biodiversity data mobilization]
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:31
-msgid "xref:nodes::index.adoc[image:Courses-05.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:32
-msgid "xref:nodes::index.adoc[Nodes development]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:34
-msgid "xref:grscicoll::index.adoc[image:Courses-08.png[]]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:35
-msgid "xref:grscicoll::index.adoc[Editing GRSciColl]"
-msgstr ""
-
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:40
-msgid "https://docs.gbif.org/course-dna-barcoding[image:Courses-04.png[]^]"
-msgstr ""
-
-#. * xref:dna-barcoding::index.adoc[image:Courses-04.png[]]
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:41
-msgid ""
-"https://docs.gbif.org/course-dna-barcoding[Accelerating biodiversity "
-"research through DNA barcodes, collection and observation data^]"
-msgstr ""
-
-#
-#
-#. [.discrete]
-#. == Community resources
-#. [.smallblocks]
-#. * xref:community::index.adoc[image:td-bg-01.png[] Community resources]
-#. [.bannerblocks]
-#. --
-#. image::tools-2.png[]
-#. * xref:global-nodes::index.adoc[image:tool-icon.png[] Resource 1]
-#. * xref:global-nodes::index.adoc[image:tool-icon.png[] Resource 2]
-#. * xref:global-nodes::index.adoc[image:tool-icon.png[] Resource 3]
-#. [.bannerblocksmore]
-#. [.blocklink]
-#. xref:global-nodes::index.adoc[View all of this]
-#. --
-#. type: Title ==
-#: en/home/modules/ROOT/pages/index.adoc:69
-#, no-wrap
-msgid "What are you looking for?"
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:11
+msgid "Click the finish button to fully submit your form."
 msgstr ""
 
 #. type: delimited block +
-#: en/home/modules/ROOT/pages/index.adoc:75
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:16
 #, no-wrap
-msgid ""
-"<div id=\"search-field\" class=\"main-page-search\">\n"
-"  <input id=\"search-input\" type=\"text\" placeholder=\"Search\" style=\"display: block; width: 100%; font-size: 2rem; background: #f2f2f2; padding: 0.25rem 1rem; border: none; margin: 1rem 0;\">\n"
-"</div>\n"
+msgid "  <iframe src=\"https://www.survey-xact.dk/LinkCollector?key=GQWMLZCDU63K\" frameborder=\"0\" allowfullscreen=\"true\" height=\"100%\" width=\"100%\"></iframe>\n"
 msgstr ""
