@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 20:09+0000\n"
-"PO-Revision-Date: 2026-04-11 21:04\n"
+"PO-Revision-Date: 2026-04-11 22:18\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -74,18 +74,18 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:1
 #, no-wrap
 msgid "Data management"
-msgstr ""
+msgstr "La gestion des données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:6
 msgid "In this module, you will review the main concepts, related tools and best practices for data management, particularly, data cleaning and standardization."
-msgstr ""
+msgstr "Dans ce module, vous passerez en revue les concepts principaux, les outils connexes et les meilleures pratiques pour la gestion des données, en particulier, le nettoyage et la normalisation des données."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:8
 #, no-wrap
 msgid "Principles of data management"
-msgstr ""
+msgstr "Principes de gestion des données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:13
@@ -101,7 +101,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:20
 #, no-wrap
 msgid "Data management tools"
-msgstr ""
+msgstr "Outils de gestion des données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:25
@@ -122,7 +122,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:37
 msgid "For these exercises, you will perform technical and consistency validation checks, improve data with different tools, and learn how to use https://openrefine.org/[OpenRefine^]."
-msgstr ""
+msgstr "Pour ces exercices, vous effectuerez des vérifications techniques et cohérentes, améliorerez les données avec différents outils et apprendrez à utiliser https://openrefine.org/[OpenRefine^]."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:42
@@ -139,12 +139,12 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:46
 #, no-wrap
 msgid "*Validation checks*\n"
-msgstr ""
+msgstr "*Contrôles de validation*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:49
 msgid "In this exercise we will focus on technical errors and perform a basic validation check to identify technical errors.  Refer to <<Validation checks>> for information on the types of errors."
-msgstr ""
+msgstr "Dans cet exercice, nous nous concentrerons sur les erreurs techniques et effectuerons un contrôle de validation de base pour identifier les erreurs techniques. Reportez-vous à <<Contrôles de validation>> pour plus d'informations sur les types d'erreurs."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:51
@@ -159,7 +159,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:53
 msgid "Find and correct the errors manually."
-msgstr ""
+msgstr "Trouvez et corrigez les erreurs manuellement."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:54
@@ -167,7 +167,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:101
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
 msgid "Use the previously downloaded exercise sheet to provide your answers."
-msgstr ""
+msgstr "Utilisez la feuille d'exercice précédemment téléchargée pour donner vos réponses."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:55
@@ -179,82 +179,82 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:58
 #, no-wrap
 msgid "*Other data management tools*\n"
-msgstr ""
+msgstr "*Autres outils de gestion des données*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:60
 msgid "The GPA association has given you a checklist of data quality elements to verify:"
-msgstr ""
+msgstr "L'association GPA vous a donné une liste d'éléments de contrôle de qualité des données à vérifier :"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:62
 msgid "All plant names (full name) are correctly spelled"
-msgstr ""
+msgstr "Tous les noms de plantes (nom complet) sont correctement orthographiés"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:63
 msgid "All plant names belong to the order"
-msgstr ""
+msgstr "Tous les noms de plantes appartiennent à cet ordre"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:64
 msgid "All records have coordinates"
-msgstr ""
+msgstr "Tous les enregistrements ont des coordonnées"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:65
 msgid "All coordinates are inside the country stated and converted to decimal format"
-msgstr ""
+msgstr "Toutes les coordonnées sont à l'intérieur du pays indiqué et converties au format décimal"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:66
 msgid "All dates are in the proper column and in the format YYYY-MM-DD"
-msgstr ""
+msgstr "Toutes les dates sont dans la colonne appropriée et au format AAAA-MM-JJ"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:68
 msgid "The three categories of errors are:"
-msgstr ""
+msgstr "Les trois catégories d'erreurs sont :"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:70
 msgid "Nomenclatural errors"
-msgstr ""
+msgstr "Erreurs de nomenclature"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:71
 msgid "Format errors"
-msgstr ""
+msgstr "Erreurs de format"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:72
 msgid "Geographic errors / outliers"
-msgstr ""
+msgstr "Erreurs géographiques/coordonnées aberrantes"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:75
 msgid "Refer to <<Helpful tools>> in order to complete the exercise.  You are not limited to these tools, you may use any tools you like."
-msgstr ""
+msgstr "Reportez-vous à <<Outils utiles>> pour terminer l'exercice. Vous n'êtes pas limité à ces outils, vous pouvez utiliser les outils que vous voulez."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:76
 msgid "Use the same file from the previous exercise."
-msgstr ""
+msgstr "Utilisez le même fichier que pour l'exercice précédent."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:77
 msgid "Make the correction ONLY for the Eriocaulaceae family (so you may want to filter the data)"
-msgstr ""
+msgstr "Effectuez la correction SEULEMENT pour la famille Eriocaulaceae (vous devrez sans doute filtrer les données)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:78
 msgid "Correct the errors found in the dataset used in exercise 3a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet."
-msgstr ""
+msgstr "Corrigez les erreurs trouvées dans le jeu de données utilisé dans l'exercice 3a (exercice précédent), en utilisant les outils de votre choix et documentez les changements que vous effectuez dans la feuille d'exercice."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:79
 msgid "Correct the entire file if you have time."
-msgstr ""
+msgstr "Corrigez le fichier entier si vous avez le temps."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:81
@@ -276,12 +276,12 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:94
 #, no-wrap
 msgid "*OpenRefine*\n"
-msgstr ""
+msgstr "*OpenRefine*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:96
 msgid "In this exercise we use OpenRefine to improve the quality of a dataset by using the default features, existing web services and regular expressions."
-msgstr ""
+msgstr "Dans cet exercice, nous utilisons OpenRefine pour améliorer la qualité d'un jeu de données grâce aux fonctionnalités par défaut du logiciel, des services web existants et des expressions régulières."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:98
@@ -297,13 +297,13 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:102
 #, no-wrap
 msgid "Exercise tips"
-msgstr ""
+msgstr "Conseils pour l'exercice"
 
 #. type: Title ====
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:104
 #, no-wrap
 msgid "Validation checks"
-msgstr ""
+msgstr "Contrôles de validation"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:109
@@ -311,60 +311,68 @@ msgstr ""
 msgid "*Technical errors*\n"
 "Relatively simple, often able to be automated, *checks against the integrity of the data*. \n"
 "These may indicate incorrect exports, data mapping, field slippage (e.g. moving 1 column to the right) or data missing at the source.\n"
-msgstr ""
+msgstr "*Erreurs techniques*\n"
+"Relativement simples, il est souvent possible d'automatiser les *vérifications liées à l'intégrité des données*. \n"
+"Celles-ci peuvent indiquer des problèmes d'exportations de fichier, de cartographie de données, de glissement de champ (par exemple le déplacement involontaire d'une colonne vers la droite) ou des données manquantes à la source.\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:112
 #, no-wrap
 msgid "*Completeness*: \n"
 "Whether all the data and metadata is available – are all fields present, are all fields filled out?\n"
-msgstr ""
+msgstr "*Complétude* : \n"
+"Vérifiez si toutes les données et métadonnées sont disponibles – tous les champs sont-ils présents, tous les champs sont-ils remplis ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:114
 #, no-wrap
 msgid "*Bounds*: \n"
 "For example, are days given in the range 1-31 (depending on month)\n"
-msgstr ""
+msgstr "*Limites* : \n"
+"Par exemple, les jours sont-ils renseignés entre les bornes 1 et 31 (selon le mois)\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:116
 #, no-wrap
 msgid "*Data type*: \n"
 "For example, does the Date field contain a date or a number?\n"
-msgstr ""
+msgstr "*Type de données* : \n"
+"Par exemple, le champ Date contient-il une date ou un nombre ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:118
 #, no-wrap
 msgid "*Data format*: \n"
 "For example, are Dates provided as 01/01/2010 or 01/Jan/10?\n"
-msgstr ""
+msgstr "*Format des données* : \n"
+"Par exemple, les Dates sont-elles fournies sous la forme 01/01/2010 ou 01/Jan/10 ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:120
 #, no-wrap
 msgid "*Consistency errors*\n"
-msgstr ""
+msgstr "*Erreurs de cohérence*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:126
 msgid "Application of real-world rules to the data.  These may indicate incorrect data entry from older records, transcription errors or post processing.  Some are complex to implement and *require reference data sets to check against*.  E.g. a list of known collectors and collecting habits.  These rules can be gathered from data users and analysts."
-msgstr ""
+msgstr "Application de règles réelles aux données. Ces règles peuvent indiquer une saisie incorrecte de données provenant d'anciens enregistrements, d'erreurs de transcription ou de post-traitement. Certaines sont complexes à implémenter et *requièrent que les jeux de données de référence soient vérifiés*, par exemple une liste des collectionneurs connus et des habitudes de collecte. Ces règles peuvent être recueillies auprès des utilisateurs de données et des analystes."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:129
 #, no-wrap
 msgid "*Taxonomic*: \n"
 "For example, if identified to species level, have a binomial scientific name and entries in genus and species fields been provided?\n"
-msgstr ""
+msgstr "*Erreurs taxonomiques* : \n"
+"Par exemple, si une occurrence est identifiée au niveau de l'espèce, un nom scientifique et des entrées dans les champs du genre et de l'espèce ont-ils été fournis ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:131
 #, no-wrap
 msgid "*Currency*: \n"
 "Are dates of collection, identification, update and digitization consistent?\n"
-msgstr ""
+msgstr "*Erreurs de dates* : \n"
+"Les dates de collecte, d'identification, de mise à jour et de numérisation sont-elles cohérentes ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:134
@@ -372,7 +380,9 @@ msgstr ""
 msgid "*Outliers*: \n"
 "Detect outliers, but remember that not all outliers are necessarily errors. \n"
 "For example, compare against a known species range, or known environmental range (but remember that outliers may be misidentifications, rather than incorrect coordinates).\n"
-msgstr ""
+msgstr "*Valeurs aberrantes* : \n"
+"Détectez les valeurs aberrantes, mais n'oubliez pas que toutes les aberrations ne sont pas nécessairement des erreurs. \n"
+"Par exemple, comparez avec une répartition d'espèce connue, ou une aire environnementale connue (mais n'oubliez pas que les valeurs aberrantes peuvent être de fausses identifications, plutôt que des coordonnées incorrectes).\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:137
@@ -380,7 +390,9 @@ msgstr ""
 msgid "*Geographic*: \n"
 "Are the coordinates within the identified locality or region? \n"
 "For example, are there any terrestrial occurrences in the sea or marine occurrences on land?\n"
-msgstr ""
+msgstr "*Erreurs géographiques* : \n"
+"Les coordonnées sont-elles dans la localité ou la région identifiée ? \n"
+"Par exemple, y a-t-il des occurrences terrestres dans la mer ou les occurrences marines sur terre ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:141
@@ -389,14 +401,18 @@ msgid "*Collecting patterns*: \n"
 "Does the occurrence detail match the known collecting patterns of the organization or collector?\n"
 "Do any records appear to have been created after a collector has died (could this possibly be a different collector with a similar name)?\n"
 "For example, are any mammal records attributed to a bird watching group?\n"
-msgstr ""
+msgstr "*Protocoles de collecte* : \n"
+"Est-ce que le détail de l'occurrence correspond aux protocoles connus de collecte de l'organisation ou du collecteur ?\n"
+"Des enregistrements semblent-ils avoir été créés après la mort d'un collecteur (cela pourrait-il être un collecteur différent avec un nom similaire) ?\n"
+"Par exemple, des enregistrements de mammifères sont-ils attribués à une association d'observation d'oiseaux ?\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:143
 #, no-wrap
 msgid "*Accuracy and precision*: \n"
 "For example, are any georeferenced records indicating very high precision or accuracy from a pre-GPS (or pre-accurate GPS) collecting period?\n"
-msgstr ""
+msgstr "*Exactitude et précision* : \n"
+"Par exemple, y a-til des des enregistrements géoréférencés indiquant une très grande exactitude ou précision alors qu'ils ont été recueillis avant l'utilisation des GPS ? (ou des GPS très précis)\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:146
@@ -404,73 +420,75 @@ msgstr ""
 msgid "*Collecting methods*: \n"
 "Different survey methods (e.g. transects and area surveys) have particular characteristics. \n"
 "Are the records consistent with the method provided?\n"
-msgstr ""
+msgstr "*Méthodes de collecte* : \n"
+"Les différentes méthodes d'arpentage (ex: transects et exploration de parcelles) ont des caractéristiques particulières. \n"
+"Les enregistrements sont-ils cohérents avec la méthode fournie ?\n"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:147
 #, no-wrap
 msgid "Helpful tools"
-msgstr ""
+msgstr "Outils utiles"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:150
 #, no-wrap
 msgid "*GBIF Name Parser*: https://www.gbif.org/tools/name-parser\n"
-msgstr ""
+msgstr "*Outil GBIF de séquençage des noms scientifiques* : https://www.gbif.org/tools/name-parser\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:151
 #, no-wrap
 msgid "*Global Names Resolver*: http://resolver.globalnames.org\n"
-msgstr ""
+msgstr "*Global Names Resolver* : http://resolver.globalnames.org\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:152
 #, no-wrap
 msgid "*Catalogue of Life name match*: https://data.catalogueoflife.org/tools/name-match\n"
-msgstr ""
+msgstr "*Correspondance de nom de Catalogue of Life* : https://data.catalogueoflife.org/tools/name-match\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:153
 #, no-wrap
 msgid "*TNRS*: https://tnrs.biendata.org/\n"
-msgstr ""
+msgstr "*TNRS* : https://tnrs.biendata.org/\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:154
 #, no-wrap
 msgid "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
-msgstr ""
+msgstr "*WoRMS* : https://www.marinespecies.org/aphia.php?p=match\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:155
 #, no-wrap
 msgid "*InfoXY*: http://splink.cria.org.br/infoxy?criaLANG=en\n"
-msgstr ""
+msgstr "*InfoXY* : http://splink.cria.org.br/infoxy?criaLANG=en\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:156
 #, no-wrap
 msgid "*Georeferencing Calculator*: http://georeferencing.org/georefcalculator/gc.html\n"
-msgstr ""
+msgstr "*Calculateur de coordonnées géographiques* : http://georeferencing.org/georefcalculator/gc.html\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:157
 #, no-wrap
 msgid "*Canadensys coordinate conversion*: http://data.canadensys.net/tools/coordinates\n"
-msgstr ""
+msgstr "*Outil Canadensys de conversion des coordonnées* : https://data.canadensys.net/tools/coordinates?lang=fr\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:158
 #, no-wrap
 msgid "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
-msgstr ""
+msgstr "*Outil Canadensys de séquençage des dates* : https://data.canadensys.net/tools/dates?lang=fr\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:159
 #, no-wrap
 msgid "*Google Maps*: https://maps.google.com/\n"
-msgstr ""
+msgstr "*Google Maps* : https://maps.google.com/\n"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -479,7 +497,7 @@ msgstr ""
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:176
 msgid "Why is it best to clean your data?"
-msgstr ""
+msgstr "Pourquoi est-il préférable de nettoyer vos données ?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:182
@@ -487,13 +505,15 @@ msgstr ""
 msgid "- [x] to make them as fit for use as possible\n"
 "- [x] to achieve your data quality goals\n"
 "- [ ] data should be cleaned by the users, not the providers\n"
-msgstr ""
+msgstr "- [x] pour les rendre aussi réutilisables que possible\n"
+"- [x] pour atteindre vos objectifs de qualité des données\n"
+"- [ ] les données doivent être nettoyées par les utilisateurs, pas les fournisseurs\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:185
 msgid "How should you organize your data cleaning workflow?"
-msgstr ""
+msgstr "Comment devriez-vous organiser votre processus de nettoyage des données ?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:191
@@ -501,13 +521,15 @@ msgstr ""
 msgid "- [ ] work alone, you know your data best\n"
 "- [x] ask your colleagues for expertise\n"
 "- [x] work at an institutional level to harmonize data quality workflows\n"
-msgstr ""
+msgstr "- [ ] travaillez seul, vous connaissez le mieux vos données\n"
+"- [x] sollicitez vos collègues pour obtenir l'expertise qui vous manque\n"
+"- [x] travaillez au niveau institutionnel pour harmoniser les processus concernant la qualité des données\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:194
 msgid "Which is best:"
-msgstr ""
+msgstr "Qu'est-ce qui est le mieux :"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:200
@@ -515,13 +537,15 @@ msgstr ""
 msgid "- [x] prevent errors from occurring\n"
 "- [x] correct errors as soon as you find them in your database or spreadsheet\n"
 "- [ ] not cleaning errors but documenting them as you go, so people who reuse your data know where they are\n"
-msgstr ""
+msgstr "- [x] Empêcher les erreurs de se produire\n"
+"- [x] Corriger les erreurs dès que vous les trouvez dans votre base de données ou dans votre feuille de calcul\n"
+"- [ ] Non pas nettoyer les erreurs mais les documenter au fur et à mesure que vous les repérez, afin que les personnes qui réutilisent vos données sachent où elles se trouvent\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:203
 msgid "Whose responsibility is data quality?"
-msgstr ""
+msgstr "Qui est responsable de la qualité des données ?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:212
@@ -532,13 +556,18 @@ msgid "- [ ] The person(s) who record data on the field\n"
 "- [x] Everyone involved in the management of data\n"
 "- [ ] The people who use your data\n"
 "- [ ] GBIF\n"
-msgstr ""
+msgstr "- [ ] La ou les personnes qui enregistrent les données sur le terrain\n"
+"- [ ] Les transcripteurs de données\n"
+"- [ ] Le gestionnaire de base de données\n"
+"- [x] Toutes les personnes impliquées dans la gestion des données\n"
+"- [ ] Les personnes qui utilisent vos données\n"
+"- [ ] GBIF\n"
 
 #.  Question 5
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:215
 msgid "Which tools can be used to clean your data ?"
-msgstr ""
+msgstr "Quels outils peuvent être utilisés pour nettoyer vos données ?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:222
@@ -547,5 +576,8 @@ msgid "- [x] Excel & other spreadsheets management tools\n"
 "- [x] OpenRefine\n"
 "- [x] Your database software\n"
 "- [x] Online tools such as Scientific Names Resolver or Google Maps\n"
-msgstr ""
+msgstr "- [x] Excel & autres outils de gestion de feuilles de calcul\n"
+"- [x] OpenRefine\n"
+"- [x] Votre logiciel de base de données\n"
+"- [x] Des outils en ligne tels que Scientific Names Resolver ou Google Maps\n"
 
