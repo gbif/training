@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 19:21+0000\n"
-"PO-Revision-Date: 2026-04-11 21:04\n"
+"PO-Revision-Date: 2026-04-11 22:18\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:10
 #, no-wrap
 msgid "Data capture review solutions"
-msgstr ""
+msgstr "Solutions de vérification de la saisie des données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:13
@@ -93,7 +93,8 @@ msgstr "occurence\n"
 #, no-wrap
 msgid "checklist\n"
 "Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
-msgstr ""
+msgstr "checklist\n"
+"Les espèces exotiques envahissantes peuvent être suivies et surveillées à différentes échelles (régionale, nationale, thématique, etc.). Comme ce type de jeu de données se concentre davantage sur les espèces et leur répartition à l’échelle d’un périmètre géographique donné, il est le plus souvent partagé dans GBIF sous forme de jeu de données taxonomique (voir les résultats de recherche GRIIS sur GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:29
@@ -132,7 +133,8 @@ msgstr "*Quel(s) type(s) de jeu de données choisiriez-vous pour des données de
 #, no-wrap
 msgid "occurrence\n"
 "These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
-msgstr ""
+msgstr "occurence\n"
+"Ces données sont partagées sous forme de jeux de données d’occurrences : idéalement, chaque oiseau est identifié par un organismID, et chaque occurrence (point GPS) possède son propre occurrenceID, ce qui est utile pour suivre les différentes localisations GPS d’un même oiseau sur toute la durée et/ou l’étendue du programme ou du projet de suivi. Exemple GBIF: https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:41
@@ -238,138 +240,138 @@ msgstr "checklist\n"
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:71
 #, no-wrap
 msgid "Data management review solutions"
-msgstr ""
+msgstr "Solutions des révisions sur la gestion des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:74
 #, no-wrap
 msgid "*Why is it best to clean your data?*\n"
-msgstr ""
+msgstr "*Pourquoi est-il préférable de nettoyer vos données ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:76
 msgid "to make them as fit for use as possible"
-msgstr ""
+msgstr "pour les rendre aussi utilisables que possible"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:77
 msgid "to achieve your data quality goals"
-msgstr ""
+msgstr "pour atteindre vos objectifs de qualité des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:80
 msgid "You should always aim to manage and publish data with the highest possible quality.  This will improve your day-to-day work (it is easier to work with organized and clean data), as well as the work of potential re-users of your data, who need to understand them and trust their source before using them."
-msgstr ""
+msgstr "Vous devriez toujours vous efforcer de gérer et de publier des données de la meilleure qualité possible. Cela améliorera votre travail quotidien (il est plus facile de travailler avec des données organisées et bien nettoyées), ainsi que le travail des réutilisateurs potentiels de vos données, qui ont besoin de les comprendre et de faire confiance à leur source avant de les utiliser."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:82
 #, no-wrap
 msgid "*How should you organize your data cleaning workflow?*\n"
-msgstr ""
+msgstr "*Comment devriez-vous organiser votre processus de nettoyage des données ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:84
 msgid "ask your colleagues for expertise"
-msgstr ""
+msgstr "sollicitez vos collègues pour obtenir l'expertise qui vous manque"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:85
 msgid "work at an institutional level to harmonize data quality workflows"
-msgstr ""
+msgstr "travaillez au niveau institutionnel pour harmoniser les processus concernant la qualité des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:87
 msgid "Nobody is expected to know everything about biodiversity data; you should seek help and advice from your colleagues or other knowledgeable people, and ensure that you're applying the good practices recommended by your institution as you clean your data."
-msgstr ""
+msgstr "Personne n'est censé tout savoir sur les données sur la biodiversité ; vous pouvez demander de l'aide et des conseils à vos collègues ou à d'autres personnes expertes dans leur domaine, et vous assurez que vous appliquez les bonnes pratiques recommandées par votre institution lorsque vous nettoyez vos données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:89
 #, no-wrap
 msgid "*Which is best:*\n"
-msgstr ""
+msgstr "*Qu'est-ce qui est le mieux :*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:91
 msgid "prevent errors from occurring"
-msgstr ""
+msgstr "empêcher les erreurs de se produire"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:92
 msgid "correct errors as soon as you find them in your database or spreadsheet"
-msgstr ""
+msgstr "corriger les erreurs dès que vous les trouvez dans votre base de données ou dans votre feuille de calcul"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:94
 msgid "The best way to avoid spreading errors in your data is to prevent them from occurring at the start of the data collecting/recording process."
-msgstr ""
+msgstr "La meilleure façon d'éviter de propager des erreurs dans vos données est de les empêcher de se produire au début du processus de collecte/enregistrement des données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:96
 msgid "Of course, mistakes are unavoidable so you should also clean them as soon as you find them, and document the cleaning process."
-msgstr ""
+msgstr "Bien sûr, les erreurs sont inévitables. Vous devriez donc les nettoyer dès que vous les trouvez et documenter le processus de nettoyage."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:98
 msgid "If you don't have the time or resources to properly clean your data, it is best to wait before you can do so instead of publishing erroneous data that might confuse people."
-msgstr ""
+msgstr "Si vous n'avez pas le temps ou les ressources pour nettoyer correctement vos données, Il est préférable d'attendre de pouvoir le faire au lieu de publier des données erronées, qui pourraient perturber le travail des personnes souhaitant les réutiliser."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:100
 #, no-wrap
 msgid "*Whose responsibility is data quality?*\n"
-msgstr ""
+msgstr "*Qui est responsable de la qualité des données ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:102
 msgid "Everyone involved in the management of data"
-msgstr ""
+msgstr "Toutes les personnes impliquées dans la gestion des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:104
 msgid "Every person involved in your data management workflow is at least partly responsible for their quality, from the field technicians to the database manager(s)."
-msgstr ""
+msgstr "Chaque personne impliquée dans votre processus de gestion des données est au moins en partie responsable de leur qualité, des techniciens de terrain au(x) gestionnaire(s) de la base de données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:106
 msgid "People who might later use your data can inform you of any remaining error in your data, and should use them responsibly for their own research, but the initial data quality is not their responsibility."
-msgstr ""
+msgstr "Les personnes qui pourraient ultérieurement utiliser vos données peuvent vous informer de toute erreur restante dans vos données, et devraient les utiliser de manière appropriée pour leurs propres recherches, mais la qualité initiale des données n'est pas leur responsabilité."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:108
 msgid "GBIF can perform automatic checks on your data (e.g. detection of missing values, geographic outliers, unknown scientific names) but should not be held responsible for errors that occurred earlier in the data management process."
-msgstr ""
+msgstr "Le GBIF peut effectuer des vérifications automatiques sur vos données (par ex. la détection des valeurs manquantes, des aberrations géographiques, des noms scientifiques inconnus) mais ne peut pas être tenu responsable des erreurs qui se sont produites plus tôt dans le processus de gestion des données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:110
 #, no-wrap
 msgid "*Which tools can be used to clean your data?*\n"
-msgstr ""
+msgstr "*Quels outils peuvent être utilisés pour nettoyer vos données ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:112
 msgid "Excel & other spreadsheets management tools"
-msgstr ""
+msgstr "Excel et autres outils de gestion des feuilles de calcul"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:114
 msgid "Your database software"
-msgstr ""
+msgstr "Votre logiciel de base de données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:115
 msgid "Online tools such as Scientific Names Resolver or Google Maps"
-msgstr ""
+msgstr "Des outils en ligne tels que le Scientific Names Resolver ou Google Maps"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:117
 msgid "All kinds of tools can be used to clean your data, but you should identify which ones will answer your needs in terms of taxonomic resolving, georeferencing, deleting duplicates, and so on. You can find <<helpful-tools,helpful tools>> listed in the data management section."
-msgstr ""
+msgstr "Tous types d'outils peuvent être utilisés pour nettoyer vos données, mais vous devez identifier ceux qui répondront à vos besoins en termes de réconciliation taxonomique, de géo-référencement, de suppression des doublons, etc. Vous pouvez trouver <<Outils utiles,la liste des outils utiles>> dans la section dédiée à la gestion des données."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:118
 #, no-wrap
 msgid "Data publishing review solutions"
-msgstr ""
+msgstr "Solutions des révisions sur la publication des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:121
@@ -387,101 +389,101 @@ msgstr "Rendre votre ou vos jeu(x) de données sur la biodiversité accessible(s
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:125
 msgid "Data publishing within GBIF means making your biodiversity dataset(s) publicly accessible in a standardized format (most of the time, Darwin Core), so that it can be discovered and reused by other people."
-msgstr ""
+msgstr "La publication de données dans le GBIF signifie rendre votre ou vos jeu(x) de données sur la biodiversité accessible(s) publiquement dans un format standardisé (la plupart du temps, le Darwin Core), afin qu'il(s) puisse(nt) être découvert(s) et réutilisé(s) par d'autres personnes."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:127
 #, no-wrap
 msgid "*What is an IPT?*\n"
-msgstr ""
+msgstr "*Qu'est-ce qu'un IPT ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:129
 msgid "a tool that helps you publish your data to GBIF"
-msgstr ""
+msgstr "un outil qui vous aide à publier vos données sur le GBIF"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:130
 msgid "a tool that helps you produce a Data paper"
-msgstr ""
+msgstr "un outil qui vous aide à produire un data paper (article de données)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:133
 msgid "The IPT (Integrated Publishing Toolkit) is a Java-coded software that allows you to upload and publish data to GBIF.  It is not to be used as a data management or data cleaning tool."
-msgstr ""
+msgstr "L'IPT (Integrated Publishing Toolkit) est un logiciel codé en Java qui vous permet de charger et de publier des données sur le GBIF. Il ne doit pas être utilisé comme outil de gestion des données ou de nettoyage des données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:135
 msgid "The IPT can also help you with the process of writing and submitting a data paper, thanks to the EML file it generates automatically when you fill in the metadata for your data resource."
-msgstr ""
+msgstr "L'IPT peut également vous aider dans le processus d'écriture et de soumission d'un data paper (article de données), grâce au fichier EML qu'il génère automatiquement lorsque vous remplissez les métadonnées de votre ressource de données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:137
 #, no-wrap
 msgid "*Which Creative Commons licences and waivers are recommended by GBIF for data publication?*\n"
-msgstr ""
+msgstr "*Quelles licences ou dérogations Creative Commons sont recommandées par le GBIF pour la publication de données ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:139
 msgid "CC0, CC-BY and CC-BY-NC"
-msgstr ""
+msgstr "CC0, CC-BY et CC-BY-NC"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:142
 msgid "The Creative Commons licences and waivers recommended to publish your dataset(s) to GBIF are CC0, CC-BY and CC-BY-NC.  They are widely recognized licenses and/or waivers that align with international open-data requirements for data sharing and re-use."
-msgstr ""
+msgstr "Les licences et dérogations Creative Commons recommandées pour publier vos jeux de données sur le GBIF sont CC0, CC-BY et CC-BY-NC. Ce sont des licences et/ou des dérogations largement reconnues qui s'alignent sur les exigences internationales de l'open-data en matière de partage et de réutilisation des données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:144
 msgid "Please note that you should only choose CC0 or CC-BY waiver/license for your BID-related dataset(s)."
-msgstr ""
+msgstr "Veuillez noter que vous ne devez choisir que la dérogation/licence CC0 ou CC-BY pour votre (vos) jeu(x) de données publié(s) dans le cadre du programme BID."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:146
 #, no-wrap
 msgid "*What are the three Cores from which you can choose for an IPT resource?*\n"
-msgstr ""
+msgstr "*Quels sont les trois noyaux (\"Cores\") que vous pouvez choisir pour une ressource sur l'IPT ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:148
 msgid "Occurrence Core, Taxon Core, Event Core"
-msgstr ""
+msgstr "Occurrence Core, Taxon Core, Event Core"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:150
 msgid "You can choose one of the three following Cores for each of your IPT resources: Occurrence, Taxon or Event Core."
-msgstr ""
+msgstr "Vous pouvez choisir l'un des trois noyaux (\"Cores\") suivants pour chacune de vos ressources IPT : Occurrence, Taxon ou Event."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:152
 msgid "The Darwin Core standard also allows you to link extensions to your chosen Core, such as SimpleMultimedia or MeasurementOrFact."
-msgstr ""
+msgstr "Le standard Darwin Core vous permet également de lier des extensions au noyau de votre choix, comme SimpleMultimedia ou MeasurementOrFact."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:154
 msgid "The metadata are filled in a separate section of the IPT and are shared using the EML standard, not the Darwin Core (which is used for data only)."
-msgstr ""
+msgstr "Les métadonnées sont remplies dans une section séparée de l'IPT et sont partagées en utilisant le standard EML, pas le Darwin Core (qui n'est utilisé que pour les données)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:156
 #, no-wrap
 msgid "*How many Extensions files can a dataset have?*\n"
-msgstr ""
+msgstr "*Combien de fichiers d'extensions un jeu de données peut-il avoir ?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:158
 msgid "as many as needed"
-msgstr ""
+msgstr "autant que nécessaire"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:161
 msgid "Once you have chosen a Core for your IPT resource, you can add Darwin core extensions to it.  You can add only one or several extensions, depending on the type of Core you chose, and which extensions are compatible with it."
-msgstr ""
+msgstr "Une fois que vous avez choisi un noyau pour votre ressource IPT, vous pouvez y ajouter des extensions Darwin Core. Vous pouvez n'ajouter qu'une ou plusieurs extensions, selon le type de Core que vous avez choisi, et les extensions qui sont compatibles avec celui-ci."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:163
 msgid "Extensions are not mandatory (you can publish a dataset without any extension) but can be useful if you want to share additional information that you could not map with your chosen Core."
-msgstr ""
+msgstr "Les extensions ne sont pas obligatoires (vous pouvez publier un jeu de données sans aucune extension) mais peuvent être utiles si vous voulez partager des informations supplémentaires que vous ne pouvez pas associer avec le noyau de votre choix."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:164
