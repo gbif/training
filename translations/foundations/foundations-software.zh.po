@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-11 12:37+0000\n"
+"PO-Revision-Date: 2026-04-11 16:30\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/translations/foundations/foundations-software.pot\n"
+"X-Crowdin-File-ID: 45034\n"
+
+#. type: Title =
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:1
+#, no-wrap
+msgid "Software tools"
+msgstr "軟體工具"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:5
+msgid "Review software tools used in biodiversity informatics"
+msgstr "回顧生物多樣性資訊使用之軟體工具"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:7
+msgid "During the Biodiversity Data Mobilization course activities, we’ll demonstrate and work with many different software tools related to data digitization, data quality and transformation. You probably already use several of them in your daily work."
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:9
+msgid "Community trainers, mentors and former course participants have compiled a list with information about biodiversity informatics software tools. It provides links for their main websites, a key facts and a summary of strong and weak points."
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:11
+msgid "Download xref:attachment$Software-database-EN.xlsx[Software-database-EN.xlsx,opts=download]. (23 KB)"
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:15
+msgid "When analysing biodiversity software that you have not used before, you need to consider how you would adapt it for your purposes.  You will find below a list with which you can start your evaluation.  They are inspired by the chapter “characteristics of a good database solution” of the GBIF manual https://www.gbif.org/document/80574/initiating-a-collection-digitisation-project[_Initiating a Digitisation Project_^]:"
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:18
+#, no-wrap
+msgid "*Price*: One of the most determining factors.\n"
+"Beware of other costs beyond the price of the software license, such as hardware needed to run it, maintenance, upgrades, and the expertise to run it.\n"
+msgstr "*價格*：最重要的決定因素之一。除了軟體授權費用外，還需考慮運行的硬體、維護、升級、和使用時的專業知識。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:20
+#, no-wrap
+msgid "*Functionality*: You need to have clarity on what do you expect the software to achieve, and make sure it does it efficiently.\n"
+"Do not get distracted by additional functionality that can make the software more complex unnecessarily.\n"
+msgstr "*功能性*：你得先對「要軟體能達成什麼」的期待十分清楚，藉以確保它能有效地達成目標。不要分心在附加功能上，它們可能會讓軟體不必要地變得更加複雜。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:22
+#, no-wrap
+msgid "*Stability*: Some solutions have been in the market for long and are supported by solid institutions or companies are more likely to be bug-free and/or have good systems in place to solve any issues arising.\n"
+"It will also make more likely to be updated and ported to more modern operating systems.\n"
+msgstr "*穩定性*：\n"
+"有些解方已經在市面上好一陣子，且被實體的機構、公司支援，它們更可能是沒有bug、或擁有良好的系統來解決任何出現的問題。它們也更有可能更新並移植到更現代的作業系統上。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:24
+#, no-wrap
+msgid "*Scalability*: Some software performs very well when demoed out-of-the-box, but its  performance degrades after some time or when using them with larger amounts of data or when several users access it simultaneously.\n"
+"Check the opinions of other users online.\n"
+msgstr "*可擴展性*： 有些軟體在剛開箱展示時表現良好，但一段時間後、或使用大量資料時、或同時多人存取時的表現卻會下降。請參考網上其他使用者的意見。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:26
+#, no-wrap
+msgid "*Integration*: Make sure that the software accepts and produces the data formats that you use and need.\n"
+"Data transformation is a time consuming task.\n"
+msgstr "*整合性*：請確保軟體能讀取你使用的資料格式，且也能生產出你需要的格式。資料轉換可是件耗時的工作。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:27
+#, no-wrap
+msgid "*Language support*: it is essential that everyone using the software can understand its interface, and the documentation that will make possible its use.\n"
+msgstr "*語言支援*：讓每個軟體使用者都能理解它的介面、且也都了解可能會使用到的檔案，這點十分重要。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:29
+#, no-wrap
+msgid "*Documentation and technical support*: make sure to explore the existing documentation and support mechanisms.\n"
+"You can be sure that at some point you will need it.\n"
+msgstr "*文檔與技術支援*： 確保探索完既有的文檔與技術支援機制，你將確定在某刻你會需要它們。\n"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-software.adoc:29
+#, no-wrap
+msgid "*Learning curve*: Some software may require specific training to learn how to use it, while others are more intuitive and can be learned while using them, supported by in-line help systems.\n"
+msgstr "*學習曲線*：有些軟體可能需要特別的訓練來學習如何使用，但有些則更加直覺性、且能在使用中學會操作(透過內建的幫助系統)。\n"
+

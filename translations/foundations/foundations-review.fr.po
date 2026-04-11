@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 13:32+0000\n"
-"PO-Revision-Date: 2026-04-11 13:58\n"
+"PO-Revision-Date: 2026-04-11 15:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -33,7 +33,7 @@ msgstr "- [ ] Le directeur du musée ou de département\n"
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:1
 #, no-wrap
 msgid "Review "
-msgstr ""
+msgstr "Révision "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
@@ -104,13 +104,13 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:45
 msgid "If you open a data file and see the following, what would you suspect is the issue? +"
-msgstr ""
+msgstr "Si vous ouvrez un fichier de données et vous voyez ce qui suit, que soupçonnerez-vous d'être le problème ? +"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:47
 #: en/foundations/modules/ROOT/pages/solutions.adoc:22
 msgid "`�tre, ou ne pas �tre, c�est l� la question.`"
-msgstr ""
+msgstr "`�tre, ou ne pas �tre, c�est l� la question.`"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:54
@@ -119,7 +119,10 @@ msgid "- [ ] Nothing\n"
 "- [ ] It is corrupt\n"
 "- [x] The wrong encoding was used to open the file\n"
 "- [ ] The sender used a weird font\n"
-msgstr ""
+msgstr "- [ ] Rien\n"
+"- [ ] Il est corrompu\n"
+"- [x] Le mauvais encodage a été utilisé pour ouvrir le fichier\n"
+"- [ ] L'expéditeur a utilisé une police bizarre\n"
 
 #.  Question 5
 #. type: Plain text
@@ -311,7 +314,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:188
 msgid "Which of these terms describes a \"field/column name\"?"
-msgstr ""
+msgstr "Lesquels de ces termes décrivent un \"nom de champ/colonne\" ?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:197
@@ -322,13 +325,18 @@ msgid "- [x] Assigned\n"
 "- [ ] Readable\n"
 "- [x] Unique\n"
 "- [ ] User-interface\n"
-msgstr ""
+msgstr "- [x] Assigné\n"
+"- [ ] Descriptif\n"
+"- [x] Identifiant\n"
+"- [ ] Lisible\n"
+"- [x] Unique\n"
+"- [ ] Interface utilisateur\n"
 
 #.  Question 17
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:200
 msgid "Which of these terms describes a \"field label\"?"
-msgstr ""
+msgstr "Lesquels de ces termes décrivent une \"étiquette du champ\" ?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:209
@@ -339,7 +347,12 @@ msgid "- [ ] Assigned\n"
 "- [x] Readable\n"
 "- [ ] Unique\n"
 "- [x] User-interface\n"
-msgstr ""
+msgstr "- [ ] Assigné\n"
+"- [x] Descriptif\n"
+"- [ ] Identifiant\n"
+"- [x] Lisible\n"
+"- [ ] Unique\n"
+"- [x] Interface utilisateur\n"
 
 #.  Question 18
 #. type: Plain text
@@ -387,7 +400,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:239
 msgid "Who determines the fitness for use of your data?"
-msgstr ""
+msgstr "Qui détermine l'adéquation à l'usage de vos données ?"
 
 #.  Question 22
 #. type: Plain text
@@ -544,7 +557,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:365
 msgid "Metadata is important because (select the TRUE statements):"
-msgstr ""
+msgstr "Les métadonnées sont importantes car (sélectionnez les affirmations vraies) :"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:373
@@ -554,5 +567,9 @@ msgid "- [x] it allows users to determine if a dataset is fit for their use.\n"
 "- [x] it allows you to know under which legal terms the reuse of data is permitted.\n"
 "- [ ] it also applies to all supplemental and associated materials, including images, video, and other media.\n"
 "- [ ] it allows you know about the institution's next exhibition/opening hours.\n"
-msgstr ""
+msgstr "- [x] elles permettent aux utilisateurs de déterminer si un jeu de données convient à leur usage.\n"
+"- [ ] elles vous permettent de partager des coordonnées exactes pour chaque occurrence.\n"
+"- [x] elles vous permettent de savoir sous quelles conditions légales la réutilisation des données est autorisée.\n"
+"- [ ] cela s'applique également à tous le matériel supplémentaires et associés, y compris les images, les vidéos et autres média.\n"
+"- [ ] elles vous permettent de connaître les prochaines heures d'exposition/d'ouverture de l'institution.\n"
 
