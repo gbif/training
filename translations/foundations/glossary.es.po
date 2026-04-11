@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-10 14:23+0000\n"
+"PO-Revision-Date: 2026-04-10 16:59\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/translations/foundations/glossary.pot\n"
+"X-Crowdin-File-ID: 45040\n"
+
+#. type: Title =
+#: en/foundations/modules/ROOT/pages/glossary.adoc:2
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:2
+#, no-wrap
+msgid "Glossary"
+msgstr "Glosario"
+
+#. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:7
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:7
+#, no-wrap
+msgid "[[API]]API"
+msgstr "[[API]]API"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:9
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:9
+msgid "Application Programming Interface.  A set of clearly defined methods of communication between various software components."
+msgstr "Interfaz de programación de aplicaciones (Application Programming Interface). Un conjunto de métodos de comunicación claramente definidos entre varios componentes de software."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:10
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:10
+#, no-wrap
+msgid "[[BID]]BID"
+msgstr "[[BID]]BID"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:12
+msgid "Biodiversity Information for Development.  An EU funded project co-ordinated by GBIF whose aim is to increase data mobilization capacity in the Africa, Caribbean and Pacific regions."
+msgstr "Información sobre biodiversidad para el desarrollo (Biodiversity Information for Development). Un proyecto financiado por la UE y coordinado por GBIF cuyo objetivo es aumentar la capacidad de movilización de datos en las regiones de África, el Caribe y el Pacífico."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:13
+#, no-wrap
+msgid "[[CC]]CC Licences"
+msgstr "[[CC]]Licencias CC"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:16
+msgid "Creative Commons.  These are a series of licenses set up by the Creative Commons organization that enable sharing and reuse of creativity and knowledge through the provision of free legal tools.  Three of them can be assigned to GBIF-shared datasets: CC0, CC BY and CC BY-NC."
+msgstr "Creative Commons. Se trata de una serie de licencias establecidas por la organización Creative Commons que permiten compartir y reutilizar la creatividad y el conocimiento mediante la provisión de herramientas legales gratuitas. Tres de ellas se pueden asignar a conjuntos de datos compartidos por GBIF: CC0, CC BY y CC BY-NC."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:17
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:17
+#, no-wrap
+msgid "[[DwC]]DwC"
+msgstr "[[DwC]]DwC"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:19
+msgid "Darwin Core is a biodiversity data standard, maintained by TDWG & widely used within the GBIF community and partners.  It is a set of standardized terms (or field names) and their definitions, which are used to share biodiversity information."
+msgstr "Darwin Core es un estándar de datos sobre biodiversidad, mantenido por TDWG y ampliamente utilizado dentro de la comunidad de GBIF. Es un conjunto de términos estandarizados (o nombres de campos) y sus definiciones, que se utilizan para compartir información sobre biodiversidad."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:20
+#, no-wrap
+msgid "[[DOI]]DOI"
+msgstr "[[DOI]]DOI"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:22
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:22
+msgid "Digital Object Identifier.  A persistent identifier or handle used to uniquely identify objects. DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports and data sets, and official publications."
+msgstr "Identificador de Objetos Digitales. Un identificador persistente usado para identificar objetos de forma única. Los DOI se utilizan en gran medida principalmente para identificar información académica, profesional y gubernamental, como artículos de revistas, informes de investigación y conjuntos de datos, y publicaciones oficiales."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:23
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:23
+#, no-wrap
+msgid "[[DwC-A]]DwC-A"
+msgstr "[[DwC-A]]DwC-A"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:26
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:26
+msgid "Darwin Core Archive.  A compressed (zipped) file containing all the information needed to share with GBIF, for a particular resource.  Each zip contains three types of files:"
+msgstr "Archivo Darwin Core. Un archivo comprimido (zip) que contiene toda la información necesaria para compartir datos con GBIF. Cada archivo zip contiene tres tipos de archivos:"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:27
+msgid "the actual data, in one or more text files: occurrence.txt/event.txt/measurmentoffact.txt etc"
+msgstr "los datos, en uno o más archivos de texto: ooccurrence.txt/event.txt/measurmentoffact.txt, etc"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:28
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:28
+msgid "a mapping file: rtf.xml"
+msgstr "un archivo de mapeo: rtf.xml"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:31
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:31
+msgid "a metadata (EML) file: eml.xml When you publish using the IPT, it creates a Darwin Core Archive, which is shared with GBIF.  Also, when you download data from the GBIF website you can choose a DwC-A format as well."
+msgstr "archivo de metadatos (EML): eml.xml Cuando se utiliza el IPT, se crea un Archivo Darwin Core, que se comparte con GBIF. Además, cuando se descargan datos del sitio web de GBIF, también se puede elegir un formato DwC-A."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:32
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:32
+#, no-wrap
+msgid "[[IPT]]IPT"
+msgstr "[[IPT]]IPT"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:36
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:36
+msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
+msgstr "Integrated Publishing Toolkit. Es una aplicación web (software) gratuita y de código abierto para publicar datos de biodiversidad. El software en sí existe en un servidor (ya sea en su institución o en otro lugar) que debe tener acceso a Internet las 24 horas del día, los 7 días de la semana. Se utiliza para crear y gestionar archivos de Darwin Core que pueden ser compartidos y utilizados por cualquier persona, incluido GBIF."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:37
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:37
+#, no-wrap
+msgid "[[DP]]Data Publishing"
+msgstr "[[DP]]Publicación de datos"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:39
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:39
+msgid "With regards to GBIF we have a very specific definition of data publishing.  It refers to making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL)."
+msgstr "En lo que respecta a GBIF, tenemos una definición muy específica de publicación de datos. Se refiere a lograr que los conjuntos de datos de biodiversidad sean accesibles y descubribles públicamente, en una forma estandarizada, a través de un punto de acceso, generalmente una dirección web (una URL)."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:40
+#, no-wrap
+msgid "[[resource]]Resource"
+msgstr "[[resource]]Recurso"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:41
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:41
+msgid "A Resource is the collective term used to refer to a particular dataset and its metadata once it has been uploaded to an IPT instance."
+msgstr "Un Recurso es el término colectivo que se utiliza para referirse a un conjunto de datos en particular y sus metadatos una vez que se ha cargado a una instancia de IPT."
+
+#. type: Labeled list
+#: en/foundations/modules/ROOT/pages/glossary.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:42
+#, no-wrap
+msgid "[[TDWG]]TDWG"
+msgstr "[[TDWG]]TDWG"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:43
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:43
+msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
+msgstr "Taxonomic Databases Working Group, ahora renombrado Biodiversity Information Standards."
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/glossary.adoc:44
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:44
+msgid "<<<"
+msgstr ""
+

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 08:34+0000\n"
-"PO-Revision-Date: 2026-04-10 12:55\n"
+"POT-Creation-Date: 2026-04-10 14:23+0000\n"
+"PO-Revision-Date: 2026-04-10 17:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -32,6 +32,10 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:23
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/navigation.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:24
+#: en/foundations/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:25
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
@@ -42,6 +46,12 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/home/modules/ROOT/pages/index.adoc:37
+#: en/home/modules/ROOT/pages/index.adoc:38
+#: en/home/modules/ROOT/pages/index.adoc:45
+#: en/home/modules/ROOT/pages/index.adoc:46
+#: en/home/modules/ROOT/pages/index.adoc:48
+#: en/home/modules/ROOT/pages/index.adoc:49
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -248,6 +258,26 @@ msgstr "&nbsp;"
 #, no-wrap
 msgid "Review"
 msgstr "Révision"
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
 
 #. type: Block title
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
@@ -882,130 +912,130 @@ msgstr "Dans cette vidéo, nous allons explorer le rôle important que joue des 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:299
 msgid "GBIF is both a data infrastructure and an international network that exists to enable free and open access to biodiversity data from all sources. "
-msgstr ""
+msgstr "Le GBIF est à la fois une infrastructure de données et un réseau international qui existe pour permettre un accès libre et gratuit aux données sur la biodiversité provenant de toutes les sources."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:301
 msgid "Here, we’ll focus on one key part of this network: the role of GBIF Participant nodes."
-msgstr ""
+msgstr "Nous nous concentrerons ici sur un élément clé de ce réseau : le rôle des nœuds participants du GBIF."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:302
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide2.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:305
 #, no-wrap
 msgid "*Slide 2 - Establishing a node is a commitment made by GBIF Participants*\n"
-msgstr ""
+msgstr "*Diapositive 2 - L'établissement d'un nœud est un engagement pris par les participants au GBIF*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:307
 msgid "GBIF is an intergovernmental initiative and its members—formally known as Participants consist of countries, economies, and international organizations working together to promote open access to biodiversity data."
-msgstr ""
+msgstr "Le GBIF est une initiative intergouvernementale et ses membres - formellement connus sous le nom de participants - sont des pays, des économies et des organisations internationales qui travaillent ensemble pour promouvoir le libre accès aux données sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:309
 msgid "To join, Participants sign a https://www.gbif.org/mou[Memorandum of Understanding^], confirming their commitment to share biodiversity data openly."
-msgstr ""
+msgstr "Pour adhérer, les participants signent un https://www.gbif.org/mou[protocole d'accord^], confirmant leur engagement à partager ouvertement les données relatives à la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:311
 msgid "In signing the MOU, each Participant also commits to establishing a national or organizational node."
-msgstr ""
+msgstr "En signant le protocole d'accord, chaque participant s'engage également à créer un nœud national ou organisationnel."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:312
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide3.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide3.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:315
 #, no-wrap
 msgid "*Slide 3 - What is a GBIF Participant node?*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Qu'est-ce qu'un nœud participant au GBIF ?*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:317
 msgid "A node is a team designated by a country or organization participating in GBIF. Its role is to coordinate a network of people and institutions that produce, manage, and use biodiversity data."
-msgstr ""
+msgstr "Un nœud est une équipe désignée par un pays ou une organisation participant au GBIF. Son rôle est de coordonner un réseau de personnes et d'institutions qui produisent, gèrent et utilisent des données sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:319
 msgid "Together, they build and support the infrastructure needed to deliver biodiversity information. "
-msgstr ""
+msgstr "Ensemble, ils construisent et soutiennent l'infrastructure nécessaire pour fournir des informations sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:321
 msgid "Nodes work to improve both the availability and the usefulness of biodiversity data—for research, policy, and decision-making."
-msgstr ""
+msgstr "Les nœuds travaillent à l'amélioration de la disponibilité et de l'utilité des données sur la biodiversité pour la recherche, la politique et la prise de décision."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:323
 msgid "And by participating in GBIF, they connect their national or organizational efforts to a global network."
-msgstr ""
+msgstr "En participant au GBIF, ils relient leurs efforts nationaux ou organisationnels à un réseau mondial."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:324
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide4.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide4.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:327
 #, no-wrap
 msgid "*Slide 4 - National and organizational nodes*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Nœuds nationaux et organisationnels*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:329
 msgid "GBIF nodes fall into two main categories: national and organizational."
-msgstr ""
+msgstr "Les nœuds du GBIF se répartissent en deux catégories principales : les nœuds nationaux et les nœuds organisationnels."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:331
 msgid "National nodes are established by countries. They coordinate biodiversity data sharing at the national level, often under a formal mandate and governance structure, such as a board or steering committee."
-msgstr ""
+msgstr "Les nœuds nationaux sont établis par les pays. Ils coordonnent le partage des données sur la biodiversité au niveau national, souvent dans le cadre d'un mandat formel et d'une structure de gouvernance, telle qu'un conseil ou un comité directeur."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:333
 msgid "This allows data holders, researchers, policymakers, and other partners to work together and set priorities for how the country participates in the GBIF network."
-msgstr ""
+msgstr "Cela permet aux détenteurs de données, aux chercheurs, aux décideurs politiques et aux autres partenaires de travailler ensemble et de fixer des priorités pour la participation du pays au réseau GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:335
 msgid "Organizational nodes, on the other hand, are established by the international organizations that participate in GBIF."
-msgstr ""
+msgstr "D'autre part, les nœuds organisationnels sont établis par les organisations internationales qui participent au GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:337
 msgid "They often focus on specific themes or regions, and help extend the reach of the GBIF network."
-msgstr ""
+msgstr "Ils se concentrent souvent sur des thèmes ou des régions spécifiques et contribuent à étendre la portée du réseau GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:339
 msgid "These two types of nodes complement each other, strengthening collaboration across countries, regions, and thematic areas."
-msgstr ""
+msgstr "Ces deux types de nœuds se complètent et renforcent la collaboration entre les pays, les régions et les domaines thématiques."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:340
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide5.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide5.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:343
 #, no-wrap
 msgid "*Slide 5 - Nodes provide services in four key areas*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Les nœuds fournissent des services dans quatre domaines clés*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:345
 msgid "Broadly, the services and responsibilities of all nodes can be grouped into four main categories:"
-msgstr ""
+msgstr "D'une manière générale, les services et les responsabilités de tous les nœuds peuvent être regroupés en quatre catégories principales :"
 
 #. *** Monitoring progress at the node level
 #. type: Plain text
@@ -1042,291 +1072,292 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:352
 msgid "We will now look at the benefits that nodes provide in each of these areas."
-msgstr ""
+msgstr "Nous allons maintenant examiner les avantages que les nœuds apportent dans chacun de ces domaines."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:353
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide6.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:356
 #, no-wrap
 msgid "*Slide 6 - Benefits of establishing a node: Supporting science & research*\n"
-msgstr ""
+msgstr "*Diapositive 6 - Avantages de l'établissement d'un nœud : Soutenir la science et la recherche*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:358
 msgid "Nodes help Participants get more value from their investments in biodiversity research and data collection—past, present, and future."
-msgstr ""
+msgstr "Les nœuds aident les participants à mieux rentabiliser leurs investissements dans la recherche et la collecte de données sur la biodiversité - passées, présentes et futures."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:360
 msgid "They support biodiversity data holders in publishing and sharing data using common standards, making it easier to discover, combine, and reuse across studies."
-msgstr ""
+msgstr "Ils aident les détenteurs de données sur la biodiversité à publier et à partager leurs données en utilisant des normes communes, ce qui facilite la découverte, la combinaison et la réutilisation des données dans le cadre d'études."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:362
 msgid "They help make the publication of primary data - and the citation of its reuse -  part of the scientific mainstream. "
-msgstr ""
+msgstr "Ils contribuent à faire de la publication des données primaires - et de la citation de leur réutilisation - un élément du courant scientifique dominant."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:364
 msgid "This supports both basic and applied research, and advances our understanding of biodiversity at local, national, and global scales."
-msgstr ""
+msgstr "Elle soutient la recherche fondamentale et appliquée et fait progresser notre compréhension de la biodiversité à l'échelle locale, nationale et mondiale."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:365
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide7.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide7.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:368
 #, no-wrap
 msgid "*Slide 7 - Benefits of establishing a node: Supporting policy & decision-making*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Avantages de l'établissement d'un nœud : Soutenir la politique et la prise de décision*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:370
 msgid "Nodes promote open data practices and help establish the data flows that allow biodiversity data to inform policy and decision-making."
-msgstr ""
+msgstr "Les nœuds promeuvent les pratiques en matière de données ouvertes et contribuent à établir les flux de données qui permettent aux données sur la biodiversité d'éclairer la politique et la prise de décision."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:372
 msgid "This includes supporting information needs for biodiversity strategies, conventions, and sustainable development goals."
-msgstr ""
+msgstr "Il s'agit notamment de répondre aux besoins d'information pour les stratégies en matière de biodiversité, les conventions et les objectifs de développement durable."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:374
 msgid "Participant nodes and biodiversity information facilities are therefore instrumental in helping Participants achieve their own biodiversity data-related goals and targets."
-msgstr ""
+msgstr "Les nœuds des participants et les centres d'information sur la biodiversité contribuent donc à aider les participants à atteindre leurs propres objectifs en matière de données sur la biodiversité."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:375
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide8.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide8.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:378
 #, no-wrap
 msgid "*Slide 8 - Benefits of establishing a node: Engaging and enabling the community*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Avantages de la création d'un nœud : Engager et habiliter la communauté*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:380
 msgid "Nodes play a key role in building and supporting a strong biodiversity data community."
-msgstr ""
+msgstr "Les nœuds jouent un rôle clé dans la construction et le soutien d'une communauté solide de données sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:382
 msgid "Through training and outreach, nodes help grow the network and develop skills across the community."
-msgstr ""
+msgstr "Grâce à la formation et à la sensibilisation, les nœuds contribuent à la croissance du réseau et au développement des compétences au sein de la communauté."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:384
 msgid "Nodes also connect with other nodes to share knowledge and experience. This increases the efficiency of establishing biodiversity data sharing networks."
-msgstr ""
+msgstr "Les nœuds se connectent également à d'autres nœuds pour partager leurs connaissances et leur expérience. L'efficacité de la mise en place de réseaux de partage de données sur la biodiversité s'en trouve accrue."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:385
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide9.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide9.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:388
 #, no-wrap
 msgid "*Slide 9 - Benefits of establishing a node: Providing technical services & infrastructure*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Avantages de l'établissement d'un nœud : Fournir des services techniques et des infrastructures*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:390
 msgid "Finally, nodes provide the technical foundation for managing and sharing biodiversity data."
-msgstr ""
+msgstr "Enfin, les nœuds fournissent la base technique pour la gestion et le partage des données sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:392
 msgid "They offer tools, infrastructure, and helpdesk support to enable data publication and access."
-msgstr ""
+msgstr "Ils proposent des outils, une infrastructure et un service d'assistance pour permettre la publication et l'accès aux données."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:394
 msgid "By making the connection to GBIF, nodes enable the integration of data mobilized their networks with relevant data published by other countries and organizations. "
-msgstr ""
+msgstr "En se connectant au GBIF, les nœuds permettent l'intégration des données mobilisées par leurs réseaux avec les données pertinentes publiées par d'autres pays et organisations."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:396
 msgid "Data mobilized to serve national or organizational needs therefore also become available for reuse by the broader international audience. This raises the visibility of the Participant’s data publishing institutions and mobilization efforts."
-msgstr ""
+msgstr "Les données mobilisées pour répondre à des besoins nationaux ou organisationnels deviennent donc également disponibles pour être réutilisées par un public international plus large. La visibilité des institutions de publication de données et des efforts de mobilisation du participant s'en trouve accrue."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:397
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide10.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide10.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:400
 #, no-wrap
 msgid "*Slide 10 - Participant roles*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Rôles des participants*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:402
 msgid "Two main roles are assigned when a Participant joins GBIF: the Head of Delegation and the node manager. "
-msgstr ""
+msgstr "Deux rôles principaux sont attribués lorsqu'un participant rejoint le GBIF : le chef de délégation et le responsable de nœud."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:404
 msgid "The Head of Delegation represents the country, economy or organization on the GBIF Governing Board, and acts as the Participant’s primary focal point for all GBIF-related activity. "
-msgstr ""
+msgstr "Le chef de délégation représente le pays, l'économie ou l'organisation au sein du conseil d'administration du GBIF et agit en tant que principal point de contact du participant pour toutes les activités liées au GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:406
 msgid "The node manager leads the operational activities of the country or organization in coordinating the mobilization and use of open-access biodiversity data, and also represents the Participant on the GBIF Participant Node Managers Committee."
-msgstr ""
+msgstr "Le responsable de nœud dirige les activités opérationnelles du pays ou de l'organisation en coordonnant la mobilisation et l'utilisation de données sur la biodiversité en libre accès, et représente également le participant au sein du comité des responsables de nœuds des participants au GBIF."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:407
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide11.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide11.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:410
 #, no-wrap
 msgid "*Slide 11 - Governance role*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Rôle de la gouvernance*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:412
 msgid "Nodes therefore also play a role in GBIF’s governance."
-msgstr ""
+msgstr "Les nœuds jouent donc également un rôle dans la gouvernance du GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:414
 msgid "The https://www.gbif.org/contact-us/directory?group=nodesCommittee[Nodes Committee^], which brings together node managers from across the network, provides guidance to the governing board on the implementation of GBIF’s work."
-msgstr ""
+msgstr "Le https://www.gbif.org/contact-us/directory?group=nodesCommittee[Comité des nœuds^], qui réunit les responsables des nœuds de l'ensemble du réseau, conseille le conseil d'administration sur la mise en œuvre des travaux du GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:416
 msgid "This committee also provides a space for nodes to share experiences, develop best practices, and strengthen collaboration."
-msgstr ""
+msgstr "Ce comité offre également aux nœuds un espace pour partager leurs expériences, développer les meilleures pratiques et renforcer la collaboration."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:418
 msgid "The Nodes committee meets in a global nodes meeting every second year. Regional nodes meetings are organized in years in between the global meetings.  These dynamic meetings help keep the network connected and aligned."
-msgstr ""
+msgstr "Le comité des nœuds se réunit tous les deux ans dans le cadre d'une réunion mondiale des nœuds. Des réunions régionales sont organisées entre les réunions mondiales.  \n"
+"Ces réunions dynamiques permettent au réseau de rester connecté et aligné."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:419
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide12.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide12.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:422
 #, no-wrap
 msgid "*Slide 12 - Recommendations on node staffing*\n"
-msgstr ""
+msgstr "*Diapositive 12 - Recommandations sur la dotation en personnel des nœuds*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:424
 msgid "Running a node requires a broad mix of skills."
-msgstr ""
+msgstr "La gestion d'un nœud nécessite un large éventail de compétences."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:426
 msgid "GBIF’s https://doi.org/10.35035/doc-d601-d695[guidance on establishing an effective Participant node^] includes suggestions on staff roles within nodes, which includes a minimum of four roles as you see here."
-msgstr ""
+msgstr "Les https://doi.org/10.35035/doc-d601-d695[conseils pour la mise en place d'un nœud de participant efficace^] du GBIF contient des suggestions sur les rôles du personnel au sein des nœuds, dont un minimum de quatre rôles, comme vous le voyez ici."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:428
 msgid "The node manager will lead the team and will serve as the main point of contact with the GBIF network and Secretariat, including participation in the Node Managers’ Committee."
-msgstr ""
+msgstr "Le responsable du nœud dirigera l'équipe et sera le principal point de contact avec le réseau et le secrétariat du GBIF, et participera notamment au comité des responsables de nœuds."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:430
 msgid "Nodes also benefit from a scientific expert who understands research communities and can motivate and communicate with data holders and users."
-msgstr ""
+msgstr "Les nœuds bénéficient également d'un expert scientifique qui comprend les communautés de recherche et peut motiver et communiquer avec les détenteurs et les utilisateurs de données."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:432
 msgid "Nodes also need a person with skills in data management, to provide technical assistance and maintain databases"
-msgstr ""
+msgstr "Les nœuds ont également besoin d'une personne ayant des compétences en gestion de données, pour fournir une assistance technique et maintenir les bases de données"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:434
 msgid "And finally, a person with an informatics background to develop and maintain the infrastructure needed for publishing and accessing biodiversity data."
-msgstr ""
+msgstr "Enfin, une personne ayant une formation en informatique pour développer et maintenir l'infrastructure nécessaire à la publication et à l'accès aux données sur la biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:436
 msgid "Deciding how to staff a node will, of course, depend on its expected roles, the level of financial support and the hosting agreement or institutional location of the node."
-msgstr ""
+msgstr "La décision de doter un nœud en personnel dépendra bien sûr des rôles attendus, du niveau de soutien financier et de la convention d'hébergement ou de l'emplacement institutionnel du nœud."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:437
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide13.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide13.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:440
 #, no-wrap
 msgid "*Slide 13 - Nodes connect audiences*\n"
-msgstr ""
+msgstr "*Diapositive 13 - Les nœuds relient les publics*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:442
 msgid "In summary, Nodes play an essential role in GBIF’s network and governance."
-msgstr ""
+msgstr "En résumé, les nœuds jouent un rôle essentiel dans le réseau et la gouvernance du GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:444
 msgid "They connect GBIF’s audiences: people, data, and systems—linking local efforts to a global network."
-msgstr ""
+msgstr "Ils relient les publics du GBIF : les personnes, les données et les systèmes - reliant les efforts locaux à un réseau mondial."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:446
 msgid "By supporting data sharing, collaboration, and capacity development, nodes enable both national and international communities to contribute to and benefit from participation in the GBIF network."
-msgstr ""
+msgstr "En soutenant le partage des données, la collaboration et le développement des capacités, les nœuds permettent aux communautés nationales et internationales de contribuer au réseau GBIF et d'en tirer profit."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:447
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide14.png"
-msgstr ""
+msgstr "intro-to-gbif::role-of-nodes-Slide14.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:450
 #, no-wrap
 msgid "*Slide 14 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositive 14 - Conclusion*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:452
 msgid "This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Melianie Raymond. If you have any questions on the course content, you can reach out at training@gbif.org."
-msgstr ""
+msgstr "Cette vidéo fait partie d'une série de présentations développées pour le cours d'introduction au GBIF. Elle a été créée et racontée par moi, Melianie Raymond. Si vous avez des questions sur le contenu du cours, vous pouvez nous contacter à l'adresse training@gbif.org."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:456
 #, no-wrap
 msgid "Further guidance for Nodes"
-msgstr ""
+msgstr "Conseils supplémentaires pour les nœuds"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:459
 msgid "https://doi.org/10.35035/doc-d601-d695[Establishing an effective GBIF Participant Node^]"
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-d601-d695[Établir un nœud participant du GBIF efficace^]"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:460
 msgid "https://www.gbif.org/nodes"
-msgstr ""
+msgstr "https://www.gbif.org/nodes"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:461
@@ -1349,7 +1380,7 @@ msgstr "Le site Web du GBIF comporte des pages consacrées aux pays/économies, 
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:467
 #, no-wrap
 msgid "intro-to-gbif::lookupcountry.png"
-msgstr ""
+msgstr "intro-to-gbif::lookupcountry.png"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:469
@@ -1361,7 +1392,7 @@ msgstr "Les onglets de ces pages fournissent une description générale des donn
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:470
 #, no-wrap
 msgid "intro-to-gbif::countrypage.png"
-msgstr ""
+msgstr "intro-to-gbif::countrypage.png"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:472
@@ -1373,7 +1404,7 @@ msgstr "Une collaboration récente avec le groupe de spécialistes des espèces 
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:473
 #, no-wrap
 msgid "intro-to-gbif::alienspecies.png"
-msgstr ""
+msgstr "intro-to-gbif::alienspecies.png"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:477
@@ -1399,24 +1430,6 @@ msgstr "Une liste d'espèces exotiques envahissantes et introduites est-elle dis
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:481
 msgid "How well does the information available on GBIF reflect what you know about the biodiversity of your country?"
 msgstr "Dans quelle mesure les informations disponibles sur le GBIF reflètent-elles ce que vous savez sur la biodiversité de votre pays ?"
-
-#. type: delimited block =
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr ""
-
-#. type: delimited block =
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr ""
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:507
