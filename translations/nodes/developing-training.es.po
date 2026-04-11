@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-11 15:09\n"
+"POT-Creation-Date: 2026-04-11 20:37+0000\n"
+"PO-Revision-Date: 2026-04-11 20:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -16,7 +16,38 @@ msgstr ""
 "X-Crowdin-File: /main/translations/nodes/developing-training.pot\n"
 "X-Crowdin-File-ID: 41038\n"
 
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:44
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:10
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:10
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:12
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:10
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
+#, no-wrap
+msgid "Learning objectives"
+msgstr "Metas del aprendizaje"
+
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -243,31 +274,18 @@ msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. type: Title ==
-#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
-#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
-#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
-#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:10
-#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:10
-#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:12
-#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:10
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
+#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:84
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:45
+#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:55
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:72
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:14
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:124
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:99
 #, no-wrap
-msgid "Learning objectives"
-msgstr "Metas del aprendizaje"
+msgid "Exercises"
+msgstr ""
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:8
@@ -369,15 +387,6 @@ msgstr ""
 #: en/nodes/modules/ROOT/pages/developing-training.adoc:36
 #: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:38
 msgid "with additional contributions from:"
-msgstr ""
-
-#. type: Title ==
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:106
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:124
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:99
-#, no-wrap
-msgid "Exercises"
 msgstr ""
 
 #. type: Title =
