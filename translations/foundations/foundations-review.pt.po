@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 13:32+0000\n"
-"PO-Revision-Date: 2026-04-11 13:59\n"
+"PO-Revision-Date: 2026-04-11 15:06\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -30,7 +30,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:1
 #, no-wrap
 msgid "Review "
-msgstr ""
+msgstr "Revisão "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
@@ -101,13 +101,13 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:45
 msgid "If you open a data file and see the following, what would you suspect is the issue? +"
-msgstr ""
+msgstr "Se você abrir um ficheiro de dados e ver o seguinte, de qual problema suspeitaria? +"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:47
 #: en/foundations/modules/ROOT/pages/solutions.adoc:22
 msgid "`�tre, ou ne pas �tre, c�est l� la question.`"
-msgstr ""
+msgstr "`�tre, ou ne pas �tre, c�est l� la question.`"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:54
@@ -116,7 +116,10 @@ msgid "- [ ] Nothing\n"
 "- [ ] It is corrupt\n"
 "- [x] The wrong encoding was used to open the file\n"
 "- [ ] The sender used a weird font\n"
-msgstr ""
+msgstr "- [ ] Nenhuma das opções\n"
+"- [ ] Está corrompido\n"
+"- [x] A codificação errada foi utilizada para abrir o ficheiro\n"
+"- [ ] O remetente usou uma fonte estranha\n"
 
 #.  Question 5
 #. type: Plain text
@@ -308,7 +311,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:188
 msgid "Which of these terms describes a \"field/column name\"?"
-msgstr ""
+msgstr "Qual destes termos descreve um nome de \"campo/coluna\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:197
@@ -319,13 +322,18 @@ msgid "- [x] Assigned\n"
 "- [ ] Readable\n"
 "- [x] Unique\n"
 "- [ ] User-interface\n"
-msgstr ""
+msgstr "- [x] Atribuído\n"
+"- [ ] Descritivo\n"
+"- [x] Identificador\n"
+"- [ ] Legível\n"
+"- [x] Único\n"
+"- [ ] Interface de utilizador\n"
 
 #.  Question 17
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:200
 msgid "Which of these terms describes a \"field label\"?"
-msgstr ""
+msgstr "Quais destes termos descreve uma \"etiqueta de campo\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:209
@@ -336,7 +344,12 @@ msgid "- [ ] Assigned\n"
 "- [x] Readable\n"
 "- [ ] Unique\n"
 "- [x] User-interface\n"
-msgstr ""
+msgstr "- [x] Atribuído\n"
+"- [ ] Descritivo\n"
+"- [x] Identificador\n"
+"- [ ] Legível\n"
+"- [x] Único\n"
+"- [ ] Interface de utilizador\n"
 
 #.  Question 18
 #. type: Plain text
@@ -384,7 +397,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:239
 msgid "Who determines the fitness for use of your data?"
-msgstr ""
+msgstr "Quem determina a aptidão para o uso de seus dados?"
 
 #.  Question 22
 #. type: Plain text
@@ -541,7 +554,7 @@ msgstr ""
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:365
 msgid "Metadata is important because (select the TRUE statements):"
-msgstr ""
+msgstr "Metadados são importantes porque (selecione as declarações VERDADEIRAS):"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:373
@@ -551,5 +564,9 @@ msgid "- [x] it allows users to determine if a dataset is fit for their use.\n"
 "- [x] it allows you to know under which legal terms the reuse of data is permitted.\n"
 "- [ ] it also applies to all supplemental and associated materials, including images, video, and other media.\n"
 "- [ ] it allows you know about the institution's next exhibition/opening hours.\n"
-msgstr ""
+msgstr "- [x] permite que os utilizadores determinem se um conjunto de dados é adequado para o seu uso.\n"
+"- [ ] permite que você compartilhe coordenadas exatas para cada ocorrência.\n"
+"- [x] permite que você saiba sob quais termos legais a reutilização de dados é permitida.\n"
+"- [ ] isto também se aplica a todos os materiais suplementares e associados, incluindo imagens, vídeos e outras mídias.\n"
+"- [ ] permite que você saiba sobre a próxima exposição/horário de funcionamento da instituição.\n"
 
