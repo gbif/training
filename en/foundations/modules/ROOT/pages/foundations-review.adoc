@@ -14,18 +14,33 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 // The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 
 // Question 1
-. For the given statement, input the correct term (database, database language, database program)
+. Match the statement, "structured and organized collection of data and/or information held on a computer" to the correct term.
 +
-[question, gap]
+[question, mc]
 ....
-* combines and presents functions and features for manipulating data, together in a unified interface +
-  __database program__
-* structured and organized collection of data and/or information held on a computer +
-  __database__
-* the way by which a human communicates with a computer +
-  __database language__
+- [ ] database language
+- [ ] database program
+- [x] database
 ....
 // Question 2
+. Match the statement, "the way by which a human communicates with a computer" to the correct term.
++
+[question, mc]
+....
+- [x] database language
+- [ ] database program
+- [ ] database
+....
+// Question 3
+. Match the statement, "combines and presents functions and features for manipulating data, together in a unified interface" to the correct term.
++
+[question, mc]
+....
+- [ ] database language
+- [x] database program
+- [ ] database
+....
+// Question 4
 . If you open a data file and see the following, what would you suspect is the issue? +
 +
 `�tre, ou ne pas �tre, c�est l� la question.`
@@ -37,41 +52,138 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [x] The wrong encoding was used to open the file
 - [ ] The sender used a weird font
 ....
-// Question 3
-. For the given software, input the type of software (data capture, data management, data cleaning, data publishing).
-+
-[question, gap]
-....
-* Integrated Publishing Toolkit (IPT) +
-  __data publishing__
-* Specify +
-  __data capture__ AND __data management__
-* iNaturalist +
-  __data capture__
-* OpenRefine +
-  __data cleaning__
-....
-// Question 4
-. For the given example, input the correct data type (binary, boolean, float, integer, long integer, text, unstructured text)
-+
-[question, gap]
-....
-* 1236975 +
-  __long integer__
-* 01101111 +
-  __binary__
-* We walked 5 miles down the road west from the post office in the center of town. We then went 2 miles north on a dirt path to the river. Then we continued west along the river for another 5 miles. +
-  __unstructured text__
-* 1024 +
-  __integer__
-* 29.0 +
-  __float__
-* Yes/No +
-  __boolean__
-* 6 rabbits were observed +
-  __text__
-....
 // Question 5
+. What type of software is the Integrated Publishing Toolkit (IPT)?
++
+[question, mc]
+....
+- [ ] data capture
+- [ ] data cleaning
+- [ ] data management
+- [x] data publishing
+....
+// Question 6
+. What type of software is Specify?
++
+[question, mc]
+....
+- [x] data capture
+- [ ] data cleaning
+- [x] data management
+- [ ] data publishing
+....
+// Question 7
+. What type of software is iNaturalist?
++
+[question, mc]
+....
+- [x] data capture
+- [ ] data cleaning
+- [ ] data management
+- [ ] data publishing
+....
+// Question 8
+. What type of software is OpenRefine?
++
+[question, mc]
+....
+- [ ] data capture
+- [x] data cleaning
+- [ ] data management
+- [ ] data publishing
+....
+// Question 9
+. What data type is "1236975"?
++
+[question, mc]
+....
+- [ ] binary
+- [ ] boolean
+- [ ] float
+- [ ] integer
+- [x] long integer
+- [ ] text
+- [ ] unstructured text
+....
+// Question 10
+. What data type is "01101111"?
++
+[question, mc]
+....
+- [x] binary
+- [ ] boolean
+- [ ] float
+- [ ] integer
+- [ ] long integer
+- [ ] text
+- [ ] unstructured text
+....
+// Question 11
+. What data type is "We walked 5 miles down the road west from the post office in the center of town. We then went 2 miles north on a dirt path to the river. Then we continued west along the river for another 5 miles."?
++
+[question, mc]
+....
+- [ ] binary
+- [ ] boolean
+- [ ] float
+- [ ] integer
+- [ ] long integer
+- [ ] text
+- [x] unstructured text
+....
+// Question 12
+. What data type is "1024"?
++
+[question, mc]
+....
+- [ ] binary
+- [ ] boolean
+- [ ] float
+- [x] integer
+- [ ] long integer
+- [ ] text
+- [ ] unstructured text
+....
+// Question 13
+. What data type is "29.0"?
++
+[question, mc]
+....
+- [ ] binary
+- [ ] boolean
+- [x] float
+- [ ] integer
+- [ ] long integer
+- [ ] text
+- [ ] unstructured text
+....
+// Question 14
+. What data type is "Yes/No"?
++
+[question, mc]
+....
+- [ ] binary
+- [x] boolean
+- [ ] float
+- [ ] integer
+- [ ] long integer
+- [ ] text
+- [ ] unstructured text
+....
+// Question 15
+. What data type is "6 rabbits were observed"?
++
+[question, mc]
+....
+- [ ] binary
+- [ ] boolean
+- [ ] float
+- [ ] integer
+- [ ] long integer
+- [x] text
+- [ ] unstructured text
+....
+// Question 16
 . Which of these terms describes a "field/column name"?
 +
 [question, mc]
@@ -83,7 +195,7 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [x] Unique
 - [ ] User-interface
 ....
-// Question 6
+// Question 17
 . Which of these terms describes a "field label"?
 +
 [question, mc]
@@ -95,19 +207,34 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [ ] Unique
 - [x] User-interface
 ....
-// Question 7
-. For each statement, input the correct structure (row, column, table)
+// Question 18
+. What is the correct structure for this statement, "All data refers to a SINGLE concept"?
 +
-[question, gap]
+[question, mc]
 ....
-* All data refers to a SINGLE concept. +
-  __table__
-* An attribute has the SAME field/data type for every record. +
-  __column__
-* Attributes of a record ALWAYS stay together. +
-  __row__
+- [ ] column
+- [ ] row
+- [x] table
 ....
-// Question 8
+// Question 19
+. What is the correct structure for this statement, "An attribute has the SAME field/data type for every record"?
++
+[question, mc]
+....
+- [x] column
+- [ ] row
+- [ ] table
+....
+// Question 20
+. What is the correct structure for this statement, "Attributes of a record ALWAYS stay together"?
++
+[question, mc]
+....
+- [ ] column
+- [x] row
+- [ ] table
+....
+// Question 21
 . Who determines the fitness for use of your data?
 +
 [question, mc]
@@ -117,40 +244,123 @@ You can read more about the answers in the xref:solutions.adoc[Solutions Appendi
 - [ ] The collector of the data in the field
 - [ ] The person entering the data into the database
 ....
-// Question 9
-. For the given statements, input the matching image. (A, B, C, D)
+// Question 22
+. For the given statement, "High accuracy, low precision", input the matching image.
 image:img/web/accuracyandprecision.png[align=center,width=640,height=360]
 +
-[question, gap]
+[question, mc]
 ....
-* High accuracy, low precision +
-  __C__
-* Low accuracy, high precision +
-  __B__
-* High accuracy, high precision +
-  __D__
-* Low accuracy, low precision +
-  __A__
+- [ ] A
+- [ ] B
+- [x] C
+- [ ] D
 ....
-// Question 10
-. Identify the data relationships where Dataset B needs to be merged into Dataset A (0:1, 1:0, 1:1, 1:∞, ∞:1, ∞:∞). Not all the relationships are used.
+// Question 23
+. For the given statement, "Low accuracy, high precision", input the matching image.
+image:img/web/accuracyandprecision.png[align=center,width=640,height=360]
 +
-[question, gap]
+[question, mc]
 ....
-* Collector field exists in both dataset A and B +
-  __1:1__
-* Country field only exists in dataset B +
-  __0:1__
-* Name field exists in dataset A, but dataset B contains First Name and Last Name fields +
-  __1:∞__
-* ID field exists in both dataset A and B +
-  __1:1__
-* Elevation exists in dataset A, but not in dataset B +
-  __1:0__
-* Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B +
-  __1:∞__
+- [ ] A
+- [x] B
+- [ ] C
+- [ ] D
 ....
-// Question 11
+// Question 24
+. For the given statement, "High accuracy, high precision", input the matching image.
+image:img/web/accuracyandprecision.png[align=center,width=640,height=360]
++
+[question, mc]
+....
+- [ ] A
+- [ ] B
+- [ ] C
+- [x] D
+....
+// Question 25
+. For the given statement, "Low accuracy, low precision", input the matching image.
+image:img/web/accuracyandprecision.png[align=center,width=640,height=360]
++
+[question, mc]
+....
+- [x] A
+- [ ] B
+- [ ] C
+- [ ] D
+....
+// Question 26
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "Collector field exists in both dataset A and B".
++
+[question, mc]
+....
+- [ ] 0:1
+- [ ] 1:0
+- [x] 1:1
+- [ ] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 27
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "Country field only exists in dataset B".
++
+[question, mc]
+....
+- [x] 0:1
+- [ ] 1:0
+- [ ] 1:1
+- [ ] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 28
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "Name field exists in dataset A, but dataset B contains First Name and Last Name fields".
++
+[question, mc]
+....
+- [ ] 0:1
+- [ ] 1:0
+- [ ] 1:1
+- [x] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 29
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "ID field exists in both dataset A and B".
++
+[question, mc]
+....
+- [ ] 0:1
+- [ ] 1:0
+- [x] 1:1
+- [ ] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 30
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "Elevation exists in dataset A, but not in dataset B".
++
+[question, mc]
+....
+- [ ] 0:1
+- [x] 1:0
+- [ ] 1:1
+- [ ] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 31
+. Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, "Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B".
++
+[question, mc]
+....
+- [ ] 0:1
+- [ ] 1:0
+- [ ] 1:1
+- [x] 1:∞
+- [ ] ∞:1
+- [ ] ∞:∞
+....
+// Question 32
 . Metadata is important because (select the TRUE statements):
 +
 [question, mc]
