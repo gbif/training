@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 20:37+0000\n"
-"PO-Revision-Date: 2026-04-11 21:04\n"
+"PO-Revision-Date: 2026-04-11 22:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -86,18 +86,18 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:101
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
 msgid "Use the previously downloaded exercise sheet to provide your answers."
-msgstr ""
+msgstr "使用前面下載的練習表exercise sheet 來提供你的答案。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:6
 msgid "In this module, you will learn about data publishing concepts, including the IPT, cores and extensions, and the importance of licenses, metadata, mandatory fields and hosting of datasets."
-msgstr ""
+msgstr "這個課程模組中，你將學到資料集發布的概念，包含：IPT的使用、核心與衍生資料表單、授權的重要性、後設資料、必填欄位與資料集的擁有管理。"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:8
 #, no-wrap
 msgid "Data publishing concepts"
-msgstr ""
+msgstr "資料發布概念"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:13
@@ -113,7 +113,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:20
 #, no-wrap
 msgid "IPT overview"
-msgstr ""
+msgstr "IPT 介紹"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
@@ -129,33 +129,33 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:32
 #, no-wrap
 msgid "Training IPT installations"
-msgstr ""
+msgstr "Training IPT installations IPT課程訓練測試站"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:35
 msgid "If you have not already been provided a login, please contact training@gbif.org and you will be provided with a login and password on the course IPT."
-msgstr ""
+msgstr "若你沒有拿到登入用的帳號，請聯絡training@gbif.org，你將會拿到一組訓練用的課程帳號密碼。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:37
 msgid "https://training-ipt-a.gbif.org/[^]"
-msgstr ""
+msgstr "https://training-ipt-a.gbif.org/[^]"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:39
 msgid "https://training-ipt-b.gbif.org/[^]"
-msgstr ""
+msgstr "https://training-ipt-b.gbif.org/[^]"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:41
 msgid "https://training-ipt-c.gbif.org/[^]"
-msgstr ""
+msgstr "https://training-ipt-c.gbif.org/[^]"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:42
 #, no-wrap
 msgid "IPT demonstration"
-msgstr ""
+msgstr "IPT 工具示範"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:47
@@ -183,7 +183,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:59
 msgid "In this exercise, you will publish an occurrence dataset using the IPT."
-msgstr ""
+msgstr "此練習中，你將使用IPT工具來發表一個物種出現記錄的資料集。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:64
@@ -195,12 +195,12 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:38
 #, no-wrap
 msgid "*Data publishing*\n"
-msgstr ""
+msgstr "*資料集發布Data publishing*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:66
 msgid "After cleaning the data in the Poales dataset, the team considers that publishing the data online through the GBIF network could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset."
-msgstr ""
+msgstr "在清理完禾本目的資料集後，團隊認為把資料發佈到GBIF上是提升可見度的好方法，因此你被要求主導資料集發布的工作。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:68
@@ -215,7 +215,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:70
 msgid "Use the assigned IPT installation and publish this file."
-msgstr ""
+msgstr "使用對應的IPT測試站，並發布此檔案。"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -240,7 +240,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:97
 msgid "What is an IPT?"
-msgstr ""
+msgstr "什麼是IPT？"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:103
@@ -248,13 +248,15 @@ msgstr ""
 msgid "- [ ] a tool that helps you manage & correct your data\n"
 "- [x] a tool that helps you publish your data to GBIF\n"
 "- [x] a tool that helps you produce a Data paper\n"
-msgstr ""
+msgstr "- [ ] 幫助你管理、更正資料用的工具\n"
+"- [x] 用來發布資料到GBIF上的工具\n"
+"- [x] 協助你撰寫資料論文(Data paper)的工具\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:106
 msgid "Which Creative Commons licences and waivers are recommended by GBIF for data publication?"
-msgstr ""
+msgstr "在資料集發布上，GBIF推薦哪種的創用CC標章(Creative Commons licences)、授權協議呢？"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:112
@@ -262,13 +264,15 @@ msgstr ""
 msgid "- [ ] CC-BY, CC-BY-SA and CC-BY-ND\n"
 "- [x] CC0, CC-BY and CC-BY-NC\n"
 "- [ ] CC0, CC-BY and CC-BY-SA\n"
-msgstr ""
+msgstr "- [ ] CC-BY、 CC-BY-SA、 CC-BY-ND\n"
+"- [x] CC0、 CC-BY 、CC-BY-NC\n"
+"- [ ] CC0、 CC-BY 、CC-BY-SA\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:115
 msgid "What are the three Cores from which you can choose for an IPT resource?"
-msgstr ""
+msgstr "IPT選擇資料來源時，可選的三個核心表單(Core)為哪些？"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:121
@@ -276,13 +280,15 @@ msgstr ""
 msgid "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
 "- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
 "- [x] Occurrence Core, Taxon Core, Event Core\n"
-msgstr ""
+msgstr "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
+"- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
+"- [x] Occurrence Core, Taxon Core, Event Core\n"
 
 #.  Question 5
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:124
 msgid "How many Extensions files can a dataset have?"
-msgstr ""
+msgstr "一個資料集能附有幾個額外表單呢？"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:130
@@ -290,5 +296,7 @@ msgstr ""
 msgid "- [ ] zero\n"
 "- [ ] one\n"
 "- [x] as many as needed\n"
-msgstr ""
+msgstr "- [ ] 零個\n"
+"- [ ] 一個\n"
+"- [x] 皆可，根據需求而定\n"
 
