@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-10 17:01\n"
+"POT-Creation-Date: 2026-04-11 12:37+0000\n"
+"PO-Revision-Date: 2026-04-11 12:56\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Crowdin-File-ID: 45048\n"
 
 #. type: Plain text
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:32
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:47
 #: en/foundations/modules/ROOT/pages/solutions.adoc:22
 msgid "`�tre, ou ne pas �tre, c�est l� la question.`"
 msgstr ""
@@ -34,9 +34,10 @@ msgstr ""
 msgid "This appendix contains the answers and additional information to the review questions."
 msgstr ""
 
-#. type: Plain text
-#: en/foundations/modules/ROOT/pages/solutions.adoc:9
-msgid "=+ Foundations review solutions"
+#. type: Title =
+#: en/foundations/modules/ROOT/pages/solutions.adoc:8
+#, no-wrap
+msgid "Foundations review solutions"
 msgstr ""
 
 #. type: Plain text
@@ -247,10 +248,15 @@ msgid "The users of the data for research or education"
 msgstr ""
 
 #. type: Plain text
-#: en/foundations/modules/ROOT/pages/solutions.adoc:80
+#: en/foundations/modules/ROOT/pages/solutions.adoc:79
 #, no-wrap
 msgid "*For the given statements, input the matching image. (A, B, C, D)*\n"
-"image:img/web/accuracyandprecision.png[align=\"center\",width=\"640\",height=\"360\"]\n"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/solutions.adoc:79
+#, no-wrap
+msgid "accuracyandprecision.png"
 msgstr ""
 
 #. type: Plain text
