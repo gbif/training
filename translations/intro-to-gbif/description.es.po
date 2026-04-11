@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-10 16:59\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
+"PO-Revision-Date: 2026-04-11 20:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,6 +17,7 @@ msgstr ""
 "X-Crowdin-File-ID: 41000\n"
 
 #. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:1
 #: en/data-use/modules/ROOT/pages/description.adoc:1
 #: en/epn/modules/ROOT/pages/description.adoc:1
 #: en/foundations/modules/ROOT/pages/description.adoc:2
@@ -26,7 +27,28 @@ msgstr ""
 msgid "Course description"
 msgstr "Descripción del curso"
 
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:12
+#: en/epn/modules/ROOT/pages/description.adoc:7
+#: en/foundations/modules/ROOT/pages/description.adoc:9
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
+msgid "Topics include:"
+msgstr "Los temas incluyen:"
+
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:65
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "Data publishing"
+msgstr "Publicación de datos"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:23
 #: en/data-use/modules/ROOT/pages/description.adoc:16
 #: en/epn/modules/ROOT/pages/description.adoc:21
 #: en/foundations/modules/ROOT/pages/description.adoc:17
@@ -38,6 +60,7 @@ msgid "Audience"
 msgstr "Audiencia"
 
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:31
 #: en/data-use/modules/ROOT/pages/description.adoc:23
 #: en/epn/modules/ROOT/pages/description.adoc:25
 #: en/foundations/modules/ROOT/pages/description.adoc:24
@@ -47,13 +70,6 @@ msgstr "Audiencia"
 #, no-wrap
 msgid "Prerequisites"
 msgstr "Prerrequisitos"
-
-#. type: delimited block =
-#: en/epn/modules/ROOT/pages/description.adoc:7
-#: en/foundations/modules/ROOT/pages/description.adoc:9
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
-msgid "Topics include:"
-msgstr "Los temas incluyen:"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/description.adoc:32
@@ -68,14 +84,6 @@ msgstr ""
 #, no-wrap
 msgid "Data access"
 msgstr "Acceso a los datos"
-
-#. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
-#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
-#, no-wrap
-msgid "Data publishing"
-msgstr "Publicación de datos"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:7
