@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:75
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -34,6 +37,9 @@ msgid "Review"
 msgstr ""
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -46,6 +52,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:82
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -55,6 +64,38 @@ msgstr ""
 msgid ""
 "You can read more about the answers in the xref:solutions.adoc[Solutions "
 "Appendix]."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:65
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "Data publishing"
+msgstr ""
+
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
+msgid "What does data publishing mean in the context of GBIF?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
+#, no-wrap
+msgid ""
+"- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
+"- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
+"- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
 msgstr ""
 
 #. type: delimited block .
@@ -81,14 +122,6 @@ msgstr ""
 msgid ""
 "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data "
 "quality issues and flags^] are documented in GBIF's technical documentation."
-msgstr ""
-
-#. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
-#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
-#, no-wrap
-msgid "Data publishing"
 msgstr ""
 
 #. type: Plain text
@@ -815,24 +848,6 @@ msgid ""
 "conversion errors, etc. which could affect the quality of the data.  If you "
 "find and correct any error - from a single typo to large systematic problems "
 "- feel free to resubmit your dataset as many times you like."
-msgstr ""
-
-#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
-#.  (. What…) is required, so I have added // comments to help separate them.
-#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
-#.  Question 1
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
-msgid "What does data publishing mean in the context of GBIF?"
-msgstr ""
-
-#. type: delimited block .
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
-#, no-wrap
-msgid ""
-"- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
-"- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
-"- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
 msgstr ""
 
 #.  Question 2

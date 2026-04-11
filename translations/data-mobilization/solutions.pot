@@ -1,0 +1,561 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:91
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:113
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:10
+#, no-wrap
+msgid "OpenRefine"
+msgstr ""
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:1
+#, no-wrap
+msgid "Solutions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:6
+msgid ""
+"This appendix contains the answers and additional information to all of the "
+"review quizzes."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:8
+msgid ""
+"Additionally, this section contains a suggested solution to the practice USE "
+"CASE."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:10
+#, no-wrap
+msgid "Data capture review solutions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:13
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
+#, no-wrap
+msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:18
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:20
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
+#, no-wrap
+msgid ""
+"checklist\n"
+"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:22
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:25
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:27
+#, no-wrap
+msgid ""
+"checklist\n"
+"Invasive species can be tracked and monitored at different scales (regional, national, thematic…); as this type of dataset focuses more on the species and their distribution across a given geographical scope, they are mainly shared as taxonomical datasets within GBIF (https://www.gbif.org/dataset/search?project_id=GRIIS[see GRIIS search results])."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:29
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
+#, no-wrap
+msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
+#, no-wrap
+msgid ""
+"sampling event\n"
+"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:36
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
+#, no-wrap
+msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:39
+#, no-wrap
+msgid ""
+"occurrence\n"
+"These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example])"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:41
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
+#, no-wrap
+msgid "*What dataset type(s) would you choose for insect trap data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:44
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:48
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
+#, no-wrap
+msgid ""
+"sampling event\n"
+"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:50
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
+#, no-wrap
+msgid "*What dataset type(s) would you choose for national park management data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:53
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
+#, no-wrap
+msgid ""
+"occurrence\n"
+"record individuals of species"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:55
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
+#, no-wrap
+msgid ""
+"checklist\n"
+"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:57
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
+#, no-wrap
+msgid ""
+"sampling event\n"
+"check and track the populations"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:59
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:62
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Bioblitz datasets are mainly shared as occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:64
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
+#, no-wrap
+msgid ""
+"sampling event\n"
+"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:66
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a regional species list?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:70
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
+#, no-wrap
+msgid ""
+"checklist\n"
+"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:71
+#, no-wrap
+msgid "Data management review solutions"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:74
+#, no-wrap
+msgid "*Why is it best to clean your data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:76
+msgid "to make them as fit for use as possible"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:77
+msgid "to achieve your data quality goals"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:80
+msgid ""
+"You should always aim to manage and publish data with the highest possible "
+"quality.  This will improve your day-to-day work (it is easier to work with "
+"organized and clean data), as well as the work of potential re-users of your "
+"data, who need to understand them and trust their source before using them."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "*How should you organize your data cleaning workflow?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:84
+msgid "ask your colleagues for expertise"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:85
+msgid "work at an institutional level to harmonize data quality workflows"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:87
+msgid ""
+"Nobody is expected to know everything about biodiversity data; you should "
+"seek help and advice from your colleagues or other knowledgeable people, and "
+"ensure that you're applying the good practices recommended by your "
+"institution as you clean your data."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:89
+#, no-wrap
+msgid "*Which is best:*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:91
+msgid "prevent errors from occurring"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:92
+msgid "correct errors as soon as you find them in your database or spreadsheet"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:94
+msgid ""
+"The best way to avoid spreading errors in your data is to prevent them from "
+"occurring at the start of the data collecting/recording process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:96
+msgid ""
+"Of course, mistakes are unavoidable so you should also clean them as soon as "
+"you find them, and document the cleaning process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:98
+msgid ""
+"If you don't have the time or resources to properly clean your data, it is "
+"best to wait before you can do so instead of publishing erroneous data that "
+"might confuse people."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:100
+#, no-wrap
+msgid "*Whose responsibility is data quality?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:102
+msgid "Everyone involved in the management of data"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:104
+msgid ""
+"Every person involved in your data management workflow is at least partly "
+"responsible for their quality, from the field technicians to the database "
+"manager(s)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:106
+msgid ""
+"People who might later use your data can inform you of any remaining error "
+"in your data, and should use them responsibly for their own research, but "
+"the initial data quality is not their responsibility."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:108
+msgid ""
+"GBIF can perform automatic checks on your data (e.g. detection of missing "
+"values, geographic outliers, unknown scientific names) but should not be "
+"held responsible for errors that occurred earlier in the data management "
+"process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:110
+#, no-wrap
+msgid "*Which tools can be used to clean your data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:112
+msgid "Excel & other spreadsheets management tools"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:114
+msgid "Your database software"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:115
+msgid "Online tools such as Scientific Names Resolver or Google Maps"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:117
+msgid ""
+"All kinds of tools can be used to clean your data, but you should identify "
+"which ones will answer your needs in terms of taxonomic resolving, "
+"georeferencing, deleting duplicates, and so on. You can find <<helpful-tools,"
+"helpful tools>> listed in the data management section."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:118
+#, no-wrap
+msgid "Data publishing review solutions"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:85
+#, no-wrap
+msgid "*What does data publishing mean in the context of GBIF?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:123
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:87
+msgid ""
+"Making your biodiversity dataset(s) publicly accessible and discoverable in "
+"a standardized format"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:125
+msgid ""
+"Data publishing within GBIF means making your biodiversity dataset(s) "
+"publicly accessible in a standardized format (most of the time, Darwin "
+"Core), so that it can be discovered and reused by other people."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:127
+#, no-wrap
+msgid "*What is an IPT?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:129
+msgid "a tool that helps you publish your data to GBIF"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:130
+msgid "a tool that helps you produce a Data paper"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:133
+msgid ""
+"The IPT (Integrated Publishing Toolkit) is a Java-coded software that allows "
+"you to upload and publish data to GBIF.  It is not to be used as a data "
+"management or data cleaning tool."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:135
+msgid ""
+"The IPT can also help you with the process of writing and submitting a data "
+"paper, thanks to the EML file it generates automatically when you fill in "
+"the metadata for your data resource."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:137
+#, no-wrap
+msgid "*Which Creative Commons licences and waivers are recommended by GBIF for data publication?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:139
+msgid "CC0, CC-BY and CC-BY-NC"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:142
+msgid ""
+"The Creative Commons licences and waivers recommended to publish your "
+"dataset(s) to GBIF are CC0, CC-BY and CC-BY-NC.  They are widely recognized "
+"licenses and/or waivers that align with international open-data requirements "
+"for data sharing and re-use."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:144
+msgid ""
+"Please note that you should only choose CC0 or CC-BY waiver/license for your "
+"BID-related dataset(s)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:146
+#, no-wrap
+msgid "*What are the three Cores from which you can choose for an IPT resource?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:148
+msgid "Occurrence Core, Taxon Core, Event Core"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:150
+msgid ""
+"You can choose one of the three following Cores for each of your IPT "
+"resources: Occurrence, Taxon or Event Core."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:152
+msgid ""
+"The Darwin Core standard also allows you to link extensions to your chosen "
+"Core, such as SimpleMultimedia or MeasurementOrFact."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:154
+msgid ""
+"The metadata are filled in a separate section of the IPT and are shared "
+"using the EML standard, not the Darwin Core (which is used for data only)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:156
+#, no-wrap
+msgid "*How many Extensions files can a dataset have?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:158
+msgid "as many as needed"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:161
+msgid ""
+"Once you have chosen a Core for your IPT resource, you can add Darwin core "
+"extensions to it.  You can add only one or several extensions, depending on "
+"the type of Core you chose, and which extensions are compatible with it."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:163
+msgid ""
+"Extensions are not mandatory (you can publish a dataset without any "
+"extension) but can be useful if you want to share additional information "
+"that you could not map with your chosen Core."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:164
+#, no-wrap
+msgid "Practice Use Case suggested solution"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:166
+msgid ""
+"xref:attachment$UC1-Herbarium-Suggested-Solution_EN.pdf[suggested solution,"
+"opts=download] (PDF 144 KB)"
+msgstr ""
