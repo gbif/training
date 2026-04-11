@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-11 15:08\n"
+"POT-Creation-Date: 2026-04-11 20:09+0000\n"
+"PO-Revision-Date: 2026-04-11 20:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,6 +17,9 @@ msgstr ""
 "X-Crowdin-File-ID: 40998\n"
 
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -34,6 +37,9 @@ msgid "Review"
 msgstr "Revisión"
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -44,6 +50,9 @@ msgid "Quiz yourself on the concepts covered in this module. There may be multip
 msgstr ""
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -52,6 +61,38 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
 msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "Data publishing"
+msgstr "Publicación de datos"
+
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
+msgid "What does data publishing mean in the context of GBIF?"
+msgstr "¿Qué significa la publicación de datos en el contexto de GBIF?"
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
+#, no-wrap
+msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
+"- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
+"- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
+msgstr "- [ ] Exportar un archivo csv de sus datos limpios que puede compartir con sus colegas\n"
+"- [ ] Escribir un artículo que describa sus datos, y el/los protocolo(s) que utilizó para recolectarlos, capturarlos y limpiarlos\n"
+"- [x] Hacer públicamente accesibles sus datos de biodiversidad en un formato estandarizado\n"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:61
@@ -75,14 +116,6 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:222
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data quality issues and flags^] are documented in GBIF's technical documentation."
 msgstr ""
-
-#. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
-#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
-#, no-wrap
-msgid "Data publishing"
-msgstr "Publicación de datos"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:5
@@ -614,25 +647,6 @@ msgstr "*Tengo el informe de validación, ¿Ahora qué?*\n"
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:220
 msgid "If the validator finds that your dataset cannot be indexed by GBIF, you should address the issues raised by the validation report before you consider publishing it to GBIF.  Even if your dataset is indexable by GBIF, you should still carefully review any issues that may be the result of e.g. conversion errors, etc. which could affect the quality of the data.  If you find and correct any error - from a single typo to large systematic problems - feel free to resubmit your dataset as many times you like."
 msgstr ""
-
-#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
-#.  (. What…) is required, so I have added // comments to help separate them.
-#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
-#.  Question 1
-#. type: delimited block *
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
-msgid "What does data publishing mean in the context of GBIF?"
-msgstr "¿Qué significa la publicación de datos en el contexto de GBIF?"
-
-#. type: delimited block .
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
-#, no-wrap
-msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
-"- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
-"- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
-msgstr "- [ ] Exportar un archivo csv de sus datos limpios que puede compartir con sus colegas\n"
-"- [ ] Escribir un artículo que describa sus datos, y el/los protocolo(s) que utilizó para recolectarlos, capturarlos y limpiarlos\n"
-"- [x] Hacer públicamente accesibles sus datos de biodiversidad en un formato estandarizado\n"
 
 #.  Question 2
 #. type: Plain text
