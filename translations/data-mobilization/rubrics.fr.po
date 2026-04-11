@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 20:09+0000\n"
-"PO-Revision-Date: 2026-04-11 21:04\n"
+"PO-Revision-Date: 2026-04-11 22:18\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:38
 #, no-wrap
 msgid "*Data publishing*\n"
-msgstr ""
+msgstr "*Publication de données*\n"
 
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:1
@@ -38,7 +38,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:3
 #, no-wrap
 msgid "Data capture rubric"
-msgstr ""
+msgstr "Rubrique de saisie de données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:6
@@ -49,7 +49,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:19
 #, no-wrap
 msgid "*Data capture*\n"
-msgstr ""
+msgstr "*Saisie de données*\n"
 
 #. type: Table
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:36
@@ -78,13 +78,36 @@ msgid "|Skills\n"
 "|Knows some of most generic principles of data quality (e.g. avoid misspellings) but shows limited knowledge on how to apply more specific principles to the data capture process.\n"
 "|Knows all the basic principles of data quality and how to apply these in simple ways to the data capture process. Uses formats consistently during the data capture process (e.g. in dates, country names). Documents all procedures and changes connected to data quality in a simple manner.\n"
 "|Shows good knowledge of all common principles of data quality and how to use them to improve the data capture process. Uses data formats consistently and can use gazetteers, reference lists, or software-specific features to improve quality from the original. Documents clearly all changes and decisions taken in connection to data quality.\n"
-msgstr ""
+msgstr "|Compétences\n"
+"|Performance de départ\n"
+"1\n"
+"|Performance en développement\n"
+"2\n"
+"|Performance atteinte\n"
+"3\n"
+"|Performance exceptionnelle\n"
+"4\n\n"
+"|A. Capacité à identifier les types de données numériques qui peuvent être extraites d'une source de données sur la biodiversité (c'est-à-dire qui peuvent être publiées en utilisant le réseau GBIF)\n"
+"|Peut identifier uniquement les types de données les plus évidents des sources de données de biodiversité les plus communes (p. ex. les occurrences des spécimens de collections d'histoire naturelle).  Montre une faible compréhension du potentiel de publication en ligne à l'aide du GBIF.\n"
+"|Peut fréquemment identifier correctement au moins un type de données numériques pouvant être extraites de sources de données communes. Il a des difficultés à identifier celles qui peuvent être publiées à l'aide du GBIF.\n"
+"|Peut toujours identifier un (ou plusieurs) types de données numériques qui peuvent être extraites de sources de données communes.Peut identifier ceux qui peuvent être publiés à l'aide du GBIF. \n"
+"|Peut toujours identifier un ou plusieurs types de données numériques qui peuvent être extraites de sources de données communes et inhabituelles. Il peut identifier parmi ces types ceux qui peuvent être publiés à l'aide du GBIF et lesquels sont en cours de discussion. Peut identifier les cœurs de données et les extensions utilisés pour la publication de ces types de données.\n\n"
+"|B. Capacité à extraire les informations pertinentes d'une source de données sur la biodiversité vers des structures de données simples (par exemple, des feuilles de calcul) qui respectent les standards internationaux\n"
+"|Peut extraire uniquement des grands éléments d'information évidents (par exemple, toutes les informations géographiques en tant qu'unité unique) qui sont évidents dans la source de données. Montre une faible connaissance des standards courants pour l'enregistrement de données de biodiversité.\n"
+"|Peut extraire plusieurs éléments d'information de la source de données (mais pas tous) et peut les désagréger en éléments significatifs. Montre une certaine connaissance de base des standards les plus courantes (par exemple DwC) et des champs de données les plus utilisés dans ces standards.\n"
+"|Peut identifier toutes les informations utiles dans une source de données et extraire les éléments obligatoires dans une structure de données standard (par exemple, une feuille de calcul basée sur DwC simple). Peut identifier les informations manquantes et en déduire depuis les informations existantes (par exemple, déduire le nom d'un pays à partir d'une province). \n"
+"|Peut identifier toutes les informations utiles dans une source de données complexe, et les diviser en éléments significatifs directement traduis en standards internationaux. Peut identifier les informations capitales manquantes dans la source et les déduire à partir des données existantes ou d'informations supplémentaires sur la source (métadonnées).\n\n"
+"|C. Capacité à comprendre et à appliquer les principes de base de la qualité des données au processus de saisie des données\n"
+"|Ne comprend pas complètement comment l'application de principes simples de qualité des données peut avoir un impact important sur le produit final, en évitant un nettoyage supplémentaire nécessaire par la suite.\n"
+"|Connaît certains des principes les plus généraux de la qualité des données (par exemple, éviter les fautes de frappe), mais ne sait pas vraiment comment appliquer des principes plus spécifiques au processus de saisie des données.\n"
+"|Connaît tous les principes de base de la qualité des données et sait comment les appliquer de manière simple au processus de capture des données. Utilise les formats de manière cohérente au cours du processus de capture des données (par exemple, dans les dates, les noms de pays). Documente de manière simple toutes les procédures et modifications liées à la qualité des données.\n"
+"|Fait preuve d'une bonne connaissance de tous les principes courants de la qualité des données et de la manière de les utiliser pour améliorer le processus de capture des données. Utilise les formats de données de manière cohérente et peut utiliser des répertoires géographiques, des listes de référence ou des fonctions spécifiques du logiciel pour améliorer la qualité par rapport à l'original. Documente clairement tous les changements et toutes les décisions prises en rapport avec la qualité des données.\n"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:38
 #, no-wrap
 msgid "Data management rubric"
-msgstr ""
+msgstr "Rubrique de gestion des données"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:41
@@ -95,7 +118,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:29
 #, no-wrap
 msgid "*Data management*\n"
-msgstr ""
+msgstr "*Gestion des données*\n"
 
 #. type: Table
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:89
@@ -139,13 +162,51 @@ msgid "|Skills\n"
 "|Describes changes made most of the time. Doesn’t describe changes consistently or fully (e.g. describes the change, but not the author).\n"
 "|Always remembers to describe changes made. Always describes changes consistently, so that all edits of the same type can be easily identified.\n"
 "|Can accurately and consistently describe changes made in a repeatable way.\n"
-msgstr ""
+msgstr "|Compétences\n"
+"|Performance de début\n"
+"1\n"
+"|Développement de la performance\n"
+"2\n"
+"|Performance accomplie\n"
+"3\n"
+"|Performance exceptionnelle\n"
+"4\n\n"
+"|A. Capacité à évaluer la qualité (c.-à-d. Identifier les problèmes et leurs types) d'un jeu de données sur la biodiversité.\n"
+"|Utilise seulement des contrôles visuels pour analyser la qualité. Incapable de différencier les types d'erreurs. Peut détecter les valeurs manquantes dans les champs obligatoires et les incohérences graves des données.\n"
+"|Ne peut utiliser que des techniques très basiques (par exemple le tri) pour analyser la qualité des données. Peut détecter les incohérences entre les noms de champs et le contenu. Peut identifier de manière cohérente les erreurs techniques, mais uniquement les erreurs de cohérence les plus courantes dans un jeu de données.\n"
+"|Peut utiliser des outils et des techniques spécifiques pour évaluer la qualité. Reconnaît le niveau minimum de désagrégation/normalisation nécessaire pour une utilisation et une publication courantes. Peut identifier de manière cohérente les erreurs techniques et la plupart des erreurs de cohérence dans un jeu de données.\n"
+"|Utilise une approche systématique de l'analyse des jeux de données couvrant tous les principaux domaines de données. Peut identifier de manière cohérente les erreurs techniques et de cohérence dans un jeu de données. Peut utiliser d'autres sources de données (par exemple des métadonnées ou d'autres jeux de données) pour identifier ou déduire des erreurs de cohérence dans un jeu de données.\n\n"
+"|B. Capacité à effectuer la correction du format des données.\n"
+"|Ne peut apporter des corrections que manuellement dans les tableaux. Montre des connaissances génériques sur l'utilisation des types de format dans les données numériques (par exemple, dates, chaînes, nombres)\n"
+"|Peut identifier au moins un outil spécifique pour corriger automatiquement les erreurs de format, mais ne peut l'utiliser que dans des cas spécifiques. Sinon, utilise des mécanismes simples (par exemple, «rechercher et remplacer») pour résoudre les problèmes.\n"
+"|Peut utiliser au moins un outil pour corriger automatiquement les erreurs de format.\n"
+"|Peut utiliser les fonctionnalités avancées de plusieurs outils pour corriger les erreurs de format.\n\n"
+"|C. Capacité à effectuer des corrections de données nomenclaturales.\n"
+"|Ne peut apporter des corrections que manuellement dans les tableaux. Utilise uniquement les connaissances personnelles des groupes taxonomiques connus.\n"
+"|Peut identifier au moins un outil spécifique pour corriger automatiquement les erreurs de nomenclature, mais ne peut l'utiliser que dans des cas spécifiques. Sinon, utilise des mécanismes simples (par exemple, «rechercher et remplacer») pour résoudre les problèmes.\n"
+"|Peut utiliser au moins un outil pour corriger automatiquement les erreurs de nomenclature. Peut trouver et utiliser des informations nomenclaturales de référence appropriées pour les groupes taxonomiques avec lesquels il travaille habituellement.\n"
+"|Peut utiliser plusieurs outils pour corriger les erreurs de nomenclature. Peut trouver et utiliser des informations nomenclaturales de référence appropriées pour des groupes taxonomiques en dehors de ses domaines d'expertise.\n\n"
+"|D. Capacité à effectuer la correction des données géographiques.\n"
+"|Ne peut apporter des corrections que manuellement dans les tableaux. N'utilise que la connaissance personnelle des zones géographiques connues.\n"
+"|Peut identifier au moins un outil spécifique pour cartographier et/ou corriger automatiquement les erreurs dans les informations géographiques, mais ne peut l'utiliser que dans des cas spécifiques. Sinon, utilise des mécanismes simples (par exemple, «rechercher et remplacer») pour résoudre les problèmes.\n"
+"|Peut utiliser au moins un outil pour cartographier et/ou corriger automatiquement les erreurs dans les informations géographiques. Peut trouver et utiliser des informations géographiques de référence appropriées dans un format adapté aux zones avec lesquelles il travaille habituellement.\n"
+"|Peut utiliser plusieurs outils pour cartographier et/ou corriger automatiquement les erreurs dans les informations géographiques. Peut trouver et utiliser des informations géographiques de référence dans un format approprié pour des domaines en dehors de ses domaines d'expertise.\n\n"
+"|E. Capacité à utiliser des logiciels spécifiques (par exemple OpenRefine) comme outils de nettoyage des données.\n"
+"|Peut identifier au moins un outil de nettoyage de données. Peut identifier les principales fonctionnalités d'un outil de nettoyage de données (par exemple OpenRefine).\n"
+"|Peut identifier plusieurs outils de nettoyage de données. Peut utiliser une ou quelques-unes des fonctionnalités de base d'un logiciel de nettoyage de données pour nettoyer un ensemble de données (par exemple, créer un projet OpenRefine, utiliser la facette, le filtrage, le regroupement ou la réconciliation).\n"
+"|Peut utiliser toutes les fonctionnalités de base d'un logiciel de nettoyage de données pour nettoyer un ensemble de données (par exemple dans OpenRefine: facettage, filtrage, regroupement, réconciliation).\n"
+"|Peut utiliser les fonctionnalités avancées d'un ou plusieurs logiciels de nettoyage de données pour nettoyer les ensembles de données (par exemple dans OpenRefine: utiliser l'API, les expressions régulières, Langue d'Expression de Google Refine).\n\n"
+"|F. Capacité à documenter les procédures de transformation des données.\n"
+"|Décrit rarement les modifications apportées lors de la conservation, du formatage ou de la transformation des données.\n"
+"|Décrit les modifications effectuées la plupart du temps. Ne décrit pas les changements de manière cohérente ou complète (par exemple, décrit le changement, mais pas l'auteur).\n"
+"|Se souvient toujours de décrire les modifications apportées. Décrit toujours les modifications de manière cohérente, de sorte que toutes les modifications du même type puissent être facilement identifiées.\n"
+"|Peut décrire avec précision et cohérence les modifications apportées de manière répétable.\n"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:91
 #, no-wrap
 msgid "Data publishing rubric"
-msgstr ""
+msgstr "Rubrique de publication des données"
 
 #. type: Table
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:136
@@ -184,5 +245,38 @@ msgid "|Skills\n"
 "|Can update an existing, published dataset by uploading a new source file. Can republish the file, error free.\n"
 "|Can successfully publish and register a new dataset. Can understand and act upon publishing error messages in IPT.\n"
 "|Shows understanding of dataset versioning in IPT.\n"
-msgstr ""
+msgstr "|Compétences\n"
+"|Performance de début\n"
+"1\n"
+"|Développement de la Performance\n"
+"2\n"
+"|Performance accomplie\n"
+"3\n"
+"|Performance exceptionnelle\n"
+"4\n\n"
+"|A. Connaissance des standards de données d'information sur la biodiversité (BDI).\n"
+"|Montre une connaissance limitée ou inexistante des standards de données BDI et des standards de données acceptées par le GBIF.\n"
+"|Peut identifier les standards BDI et sait lesquelles sont acceptées par le GBIF, mais ne sait pas où trouver des informations sur la façon de les utiliser. Impossible d'identifier les termes obligatoires.\n"
+"|Connaît les normes BDI acceptées par le GBIF. Peut trouver une liste des cœurs de données et des extensions acceptés. Publie des jeux de données selon les standards GBIF requis et/ou recommandés pour les termes de données et de métadonnées et sait comment trouver les définitions des termes.\n"
+"|Montre une compréhension des caractéristiques et des limites des différentes standards BDI.\n\n"
+"|B. Capacité d'analyser la pertinence d'un jeu de données sur la biodiversité pour la publication via le GBIF.\n"
+"|Montre une connaissance limitée ou inexistante des critères formels auxquels un jeu de données doit répondre pour être publiable via le GBIF.\n"
+"|Connaît les critères formels auxquels un jeu de données doit répondre pour être publiable via le GBIF, mais ne peut pas évaluer si un jeu de données donné les satisfait.\n"
+"|Peut évaluer correctement si un ensemble de données peut être actuellement publié via le GBIF. Peut attribuer au moins un type de données valide (= coeur) à un ensemble de données en fonction de la description fournie par le détenteur des données et après avoir analysé l'ensemble de données.\n"
+"|Peut identifier plusieurs options de publication pour un ensemble de données (si possible).\n\n"
+"|C. Utilisation de l'IPT: capacité à produire / analyser des métadonnées de haute qualité.\n"
+"|Montre une connaissance limitée ou inexistante des caractéristiques des bonnes métadonnées.\n"
+"|Connaît les caractéristiques de bonnes métadonnées, mais a du mal à les reconnaître.\n"
+"|Connaît les caractéristiques des bonnes métadonnées et comment les reconnaître. Peut produire des recommandations sur la façon d'améliorer les métadonnées existantes.\n"
+"|Connaît les caractéristiques des métadonnées de haute qualité et comment les produire.\n\n"
+"|D. IPT use: capacity to upload/connect data and map it to existing cores & extensions.\n"
+"|Utilisation de l'IPT: capacité à télécharger / connecter des données et à les mapper aux cœurs et extensions existants.\n"
+"|Peut uniquement télécharger des ensembles de données à un seul fichier dans IPT et mapper vers un seul type de coeur sans extensions.\n"
+"|Peut télécharger plusieurs fichiers dans un IPT dans le cadre d'un seul jeu de données et les mapper correctement à un coeur et au moins une extension. Peut utiliser la fonction de valeur constante IPT.\n"
+"|Peut télécharger plusieurs fichiers dans un IPT dans le cadre d'un seul jeu de données et les mapper correctement à un coeur et à plusieurs extensions. Peut utiliser la fonction de traduction de données IPT.\n\n"
+"|E. Utilisation de l'IPT: capacité à utiliser l'outil pour publier et enregistrer des jeux de données.\n"
+"|Peut afficher un ensemble de données publié et les métadonnées associées sur un IPT. Peut télécharger un fichier DwC-A à partir d'un IPT. Peut naviguer dans un ensemble de données enregistré de l'IPT vers le portail GBIF. \n"
+"|Peut mettre à jour un ensemble de données publié existant en téléchargeant un nouveau fichier source. Peut republier le fichier, sans erreur.\n"
+"|Peut publier et enregistrer avec succès un nouveau jeu de données. Peut comprendre et agir sur des messages d'erreur dans l’IPT.\n"
+"|Montre une compréhension de la gestion des versions des jeux de données dans l’IPT.\n"
 
