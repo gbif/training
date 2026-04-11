@@ -1,0 +1,572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-11 13:32+0000\n"
+"PO-Revision-Date: 2026-04-11 16:30\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/translations/foundations/foundations-review.pot\n"
+"X-Crowdin-File-ID: 45032\n"
+
+#. type: delimited block .
+#: en/data-use/modules/ROOT/pages/course-review.adoc:38
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:246
+#, no-wrap
+msgid "- [ ] The museum or department director\n"
+"- [x] The users of the data for research or education\n"
+"- [ ] The collector of the data in the field\n"
+"- [ ] The person entering the data into the database\n"
+msgstr ""
+
+#. type: Title =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:1
+#, no-wrap
+msgid "Review "
+msgstr "複習回顧 "
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
+
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:18
+msgid "Match the statement, \"structured and organized collection of data and/or information held on a computer\" to the correct term."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:24
+#, no-wrap
+msgid "- [ ] database language\n"
+"- [ ] database program\n"
+"- [x] database\n"
+msgstr ""
+
+#.  Question 2
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:27
+msgid "Match the statement, \"the way by which a human communicates with a computer\" to the correct term."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:33
+#, no-wrap
+msgid "- [x] database language\n"
+"- [ ] database program\n"
+"- [ ] database\n"
+msgstr ""
+
+#.  Question 3
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:36
+msgid "Match the statement, \"combines and presents functions and features for manipulating data, together in a unified interface\" to the correct term."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:42
+#, no-wrap
+msgid "- [ ] database language\n"
+"- [x] database program\n"
+"- [ ] database\n"
+msgstr ""
+
+#.  Question 4
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:45
+msgid "If you open a data file and see the following, what would you suspect is the issue? +"
+msgstr "若你打開資料檔後看到以下情形，會判斷它為何種情況？"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:47
+#: en/foundations/modules/ROOT/pages/solutions.adoc:22
+msgid "`�tre, ou ne pas �tre, c�est l� la question.`"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:54
+#, no-wrap
+msgid "- [ ] Nothing\n"
+"- [ ] It is corrupt\n"
+"- [x] The wrong encoding was used to open the file\n"
+"- [ ] The sender used a weird font\n"
+msgstr "- [ ] 沒事\n"
+"- [ ] 檔案損毀\n"
+"- [x] 開啟檔案時採用錯誤的編碼\n"
+"- [ ] 寄件者用了奇怪的的字體\n"
+
+#.  Question 5
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:57
+msgid "What type of software is the Integrated Publishing Toolkit (IPT)?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:64
+#, no-wrap
+msgid "- [ ] data capture\n"
+"- [ ] data cleaning\n"
+"- [ ] data management\n"
+"- [x] data publishing\n"
+msgstr ""
+
+#.  Question 6
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:67
+msgid "What type of software is Specify?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:74
+#, no-wrap
+msgid "- [x] data capture\n"
+"- [ ] data cleaning\n"
+"- [x] data management\n"
+"- [ ] data publishing\n"
+msgstr ""
+
+#.  Question 7
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:77
+msgid "What type of software is iNaturalist?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:84
+#, no-wrap
+msgid "- [x] data capture\n"
+"- [ ] data cleaning\n"
+"- [ ] data management\n"
+"- [ ] data publishing\n"
+msgstr ""
+
+#.  Question 8
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:87
+msgid "What type of software is OpenRefine?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:94
+#, no-wrap
+msgid "- [ ] data capture\n"
+"- [x] data cleaning\n"
+"- [ ] data management\n"
+"- [ ] data publishing\n"
+msgstr ""
+
+#.  Question 9
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:97
+msgid "What data type is \"1236975\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:107
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [ ] boolean\n"
+"- [ ] float\n"
+"- [ ] integer\n"
+"- [x] long integer\n"
+"- [ ] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 10
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:110
+msgid "What data type is \"01101111\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:120
+#, no-wrap
+msgid "- [x] binary\n"
+"- [ ] boolean\n"
+"- [ ] float\n"
+"- [ ] integer\n"
+"- [ ] long integer\n"
+"- [ ] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 11
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:123
+msgid "What data type is \"We walked 5 miles down the road west from the post office in the center of town. We then went 2 miles north on a dirt path to the river. Then we continued west along the river for another 5 miles.\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:133
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [ ] boolean\n"
+"- [ ] float\n"
+"- [ ] integer\n"
+"- [ ] long integer\n"
+"- [ ] text\n"
+"- [x] unstructured text\n"
+msgstr ""
+
+#.  Question 12
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:136
+msgid "What data type is \"1024\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:146
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [ ] boolean\n"
+"- [ ] float\n"
+"- [x] integer\n"
+"- [ ] long integer\n"
+"- [ ] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 13
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:149
+msgid "What data type is \"29.0\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:159
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [ ] boolean\n"
+"- [x] float\n"
+"- [ ] integer\n"
+"- [ ] long integer\n"
+"- [ ] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 14
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:162
+msgid "What data type is \"Yes/No\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:172
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [x] boolean\n"
+"- [ ] float\n"
+"- [ ] integer\n"
+"- [ ] long integer\n"
+"- [ ] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 15
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:175
+msgid "What data type is \"6 rabbits were observed\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:185
+#, no-wrap
+msgid "- [ ] binary\n"
+"- [ ] boolean\n"
+"- [ ] float\n"
+"- [ ] integer\n"
+"- [ ] long integer\n"
+"- [x] text\n"
+"- [ ] unstructured text\n"
+msgstr ""
+
+#.  Question 16
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:188
+msgid "Which of these terms describes a \"field/column name\"?"
+msgstr "下面哪些詞彙適合來形容「欄位名稱(field/column name)」？"
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:197
+#, no-wrap
+msgid "- [x] Assigned\n"
+"- [ ] Descriptive\n"
+"- [x] Identifying\n"
+"- [ ] Readable\n"
+"- [x] Unique\n"
+"- [ ] User-interface\n"
+msgstr "- [x] 須被指定Assigned\n"
+"- [ ] 描述性Descriptive\n"
+"- [x] 用來鑑別Identifying\n"
+"- [ ] 可讀Readable\n"
+"- [x] 獨一無二Unique\n"
+"- [ ] 成為使用者的中介User-interface\n"
+
+#.  Question 17
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:200
+msgid "Which of these terms describes a \"field label\"?"
+msgstr "下面哪些詞彙適合來形容「欄位標籤(field label」？"
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:209
+#, no-wrap
+msgid "- [ ] Assigned\n"
+"- [x] Descriptive\n"
+"- [ ] Identifying\n"
+"- [x] Readable\n"
+"- [ ] Unique\n"
+"- [x] User-interface\n"
+msgstr "- [ ] 須被指定Assigned\n"
+"- [x] 描述性Descriptive\n"
+"- [ ] 用來鑑別Identifying\n"
+"- [x] 可讀Readable\n"
+"- [ ] 獨一無二Unique\n"
+"- [x] 成為使用者的中介User-interface\n"
+
+#.  Question 18
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:212
+msgid "What is the correct structure for this statement, \"All data refers to a SINGLE concept\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:218
+#, no-wrap
+msgid "- [ ] column\n"
+"- [ ] row\n"
+"- [x] table\n"
+msgstr ""
+
+#.  Question 19
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:221
+msgid "What is the correct structure for this statement, \"An attribute has the SAME field/data type for every record\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:227
+#, no-wrap
+msgid "- [x] column\n"
+"- [ ] row\n"
+"- [ ] table\n"
+msgstr ""
+
+#.  Question 20
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:230
+msgid "What is the correct structure for this statement, \"Attributes of a record ALWAYS stay together\"?"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:236
+#, no-wrap
+msgid "- [ ] column\n"
+"- [x] row\n"
+"- [ ] table\n"
+msgstr ""
+
+#.  Question 21
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:239
+msgid "Who determines the fitness for use of your data?"
+msgstr "誰決定了你資料的適用度(fitness for use)？"
+
+#.  Question 22
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
+msgid "For the given statement, \"High accuracy, low precision\", input the matching image."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:260
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:271
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
+#, no-wrap
+msgid "foundations::accuracyandprecision.png"
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:257
+#, no-wrap
+msgid "- [ ] A\n"
+"- [ ] B\n"
+"- [x] C\n"
+"- [ ] D\n"
+msgstr ""
+
+#.  Question 23
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:260
+msgid "For the given statement, \"Low accuracy, high precision\", input the matching image."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:268
+#, no-wrap
+msgid "- [ ] A\n"
+"- [x] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
+msgstr ""
+
+#.  Question 24
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:271
+msgid "For the given statement, \"High accuracy, high precision\", input the matching image."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:279
+#, no-wrap
+msgid "- [ ] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [x] D\n"
+msgstr ""
+
+#.  Question 25
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
+msgid "For the given statement, \"Low accuracy, low precision\", input the matching image."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:290
+#, no-wrap
+msgid "- [x] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
+msgstr ""
+
+#.  Question 26
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:293
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Collector field exists in both dataset A and B\"."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:302
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:338
+#, no-wrap
+msgid "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [x] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
+msgstr ""
+
+#.  Question 27
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:305
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Country field only exists in dataset B\"."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:314
+#, no-wrap
+msgid "- [x] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
+msgstr ""
+
+#.  Question 28
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:317
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Name field exists in dataset A, but dataset B contains First Name and Last Name fields\"."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:326
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:362
+#, no-wrap
+msgid "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [x] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
+msgstr ""
+
+#.  Question 29
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:329
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"ID field exists in both dataset A and B\"."
+msgstr ""
+
+#.  Question 30
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:341
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Elevation exists in dataset A, but not in dataset B\"."
+msgstr ""
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:350
+#, no-wrap
+msgid "- [ ] 0:1\n"
+"- [x] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
+msgstr ""
+
+#.  Question 31
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:353
+msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B\"."
+msgstr ""
+
+#.  Question 32
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:365
+msgid "Metadata is important because (select the TRUE statements):"
+msgstr "後設資料的重要是因為......(請選擇正確的敘述):"
+
+#. type: delimited block .
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:373
+#, no-wrap
+msgid "- [x] it allows users to determine if a dataset is fit for their use.\n"
+"- [ ] it allows you to share exact coordinates for each occurrence.\n"
+"- [x] it allows you to know under which legal terms the reuse of data is permitted.\n"
+"- [ ] it also applies to all supplemental and associated materials, including images, video, and other media.\n"
+"- [ ] it allows you know about the institution's next exhibition/opening hours.\n"
+msgstr "- [x] 它讓使用者能判斷是否符合用途\n"
+"- [ ] 它讓你能為每個物種出沒紀錄分享更精準的定位\n"
+"- [x] 它讓人知道資料再利用的合法範圍、條約\n"
+"- [ ] 它能被應用在所有相關的材料，如：圖像、影片、或其他形式媒介上\n"
+"- [ ] 它能讓人知道該機構的展覽、與開放日\n"
+

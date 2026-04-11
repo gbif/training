@@ -1,0 +1,460 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-10 14:23+0000\n"
+"PO-Revision-Date: 2026-04-11 16:28\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/translations/intro-to-gbif/data-access.pot\n"
+"X-Crowdin-File-ID: 40996\n"
+
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/data-use/modules/ROOT/pages/course-review.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:130
+msgid "How can you access GBIF data?"
+msgstr ""
+
+#.  Question 2
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/course-review.adoc:21
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:141
+msgid "Which file formats are available for downloads of data?"
+msgstr ""
+
+#.  Question 3
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/course-review.adoc:69
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:152
+msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-use/modules/ROOT/pages/course-review.adoc:78
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:161
+#, no-wrap
+msgid "- [x] altered\n"
+"- [ ] amended\n"
+"- [ ] translated\n"
+"- [x] excluded\n"
+"- [ ] interpreted\n"
+"- [x] inferred\n"
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:10
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:7
+#, no-wrap
+msgid "How is GBIF-mediated data used?"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:13
+msgid "Both data availability and data use have increased over time."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:17
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:14
+msgid "Data integration facilitates global research and access."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:15
+msgid "Uses of GBIF-mediated data span disciplinary boundaries."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:16
+msgid "The scientific areas using GBIF-mediated data are conceptually diverse and change in prevalence over time."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:17
+msgid "Globally integrated datasets enable researchers to ask both basic and applied questions at taxonomic, temporal and spatial scales that would be otherwise impossible."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:21
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:18
+msgid "The synergistic roles of observation- and specimen-based biodiversity data highlight the value and need for deeper integration with phylogenetic, environmental, phenotypic, ecological and genetic sources of data."
+msgstr ""
+
+#. type: Block title
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:23
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:20
+#, no-wrap
+msgid "Structural topic model results from 4,035 studies that used GBIF-mediated data published between 2003 and 2019."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:28
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:25
+msgid "GBIF-mediated data is also used for monitoring the state of biodiversity and progress towards achieving the targets of the Convention on Biological Diversity.  The increase in availability of GBIF occurrence data is one of the indicators for tracking progress towards the achievement of Aichi Biodiversity target 19 and GBIF is a key data source in the creation of a number of other indicators, including the https://www.bipindicators.net/indicators/species-status-information-index[Species Status Information Index^], https://www.bipindicators.net/indicators/species-habitat-index[Species Habitat Index^] and the https://www.bipindicators.net/indicators/biodiversity-habitat-index[Biodiversity Habitat Index^]."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:31
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:28
+msgid "While the utility of GBIF-mediated data is clear, the wide variety of sources of data accessible through GBIF, spanning museum collections, citizen science, metagenomics, among others, means that not all GBIF-mediated data will be fit for every use.  Key components of using GBIF-mediated data are understanding how to access the specific data that you need from what is available in GBIF and understanding some of the common data quality issues that affect the data so as to facilitate processing of the data before analysis."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:42
+#, no-wrap
+msgid "*What is available to me?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:44
+msgid "Through the search functions on the website, users can access data that can either be directly downloaded through GBIF or accessed from the original sources following links that GBIF provides."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:44
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:46
+msgid "Remember that as a data user you should read and agree with the terms of the GBIF https://www.gbif.org/terms/data-user[Data User Agreement^] that include https://www.gbif.org/citation-guidelines[correctly citing^] the use of GBIF-mediated data."
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:48
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:50
+msgid "The data available to you are:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:50
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:52
+msgid "Primary biodiversity data - occurrence, checklist and sampling event data that is provided to users through the one of the 3 download formats:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:53
+#, no-wrap
+msgid "*Simple*: https://www.gbif.org/faq?question=csv-download[Tab delimited CSV^]. Only contains the data after GBIF interpretation. No multimedia included. \n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:52
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:54
+#, no-wrap
+msgid "*Darwin Core Archive*: The https://www.gbif.org/faq?question=dwc-download[Darwin Core Archive^] (DwC-A) contains both the original data as the publisher provided it and the GBIF interpretation. Links (but not files) to multimedia included.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:53
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:55
+#, no-wrap
+msgid "*Species list*: Tab delimited CSV with the distinct list of names in the search result and as a map visualization of the data.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:54
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:57
+#, no-wrap
+msgid "A range of metrics are provided for https://www.gbif.org/analytics/global[countries and regions^], data publishers, datasets and data searches that provide taxonomic breakdowns, trends in data collection and highlight data quality issues. For countries, these metrics can be also be downloaded in the form of a PDF activity report. \n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:55
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:58
+#, no-wrap
+msgid "https://www.gbif.org/resource/search?contentType=literature&literatureType=journal&relevance=GBIF_USED&peerReview=true[Searchable database of publications^] that have used GBIF-mediated data.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:56
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:60
+msgid "Searches can be performed on the https://www.gbif.org/occurrence/search?occurrence_status=present&q=[occurrences^], https://www.gbif.org/species/search?q=[species^], https://www.gbif.org/dataset/search?q=[datasets^], https://www.gbif.org/publisher/search?q=[publishers] and https://www.gbif.org/resource/search?q=[resources^], and each search function carries a set of filters that allow for more refined searching and additional data associated with the data, for example, https://www.gbif.org/occurrence/gallery?occurrence_status=present[images^], can be found in tabs associated with the search."
+msgstr ""
+
+#. type: Title ==
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
+#, no-wrap
+msgid "Review"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:14
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:106
+#, no-wrap
+msgid "Data access"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:6
+msgid "In this module, you will learn how GBIF's data is used and accessed.  You will also learn about the handling of data quality and GBIF's data quality flags."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:11
+msgid "The GBIF https://www.gbif.org/literature-tracking[literature tracking system^] has identified over 5,000 uses of GBIF mediated data, most of which are in peer-reviewed articles.  The majority of these uses are in the field of ecology, but others relate to climate change, conservation, human health and agriculture.  A systematic review of the use of https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[GBIF-mediated data by Heberling et al. (2020)^] showed:"
+msgstr ""
+
+#. type: Target for macro image
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:21
+#, no-wrap
+msgid "intro-to-gbif::fig3.png"
+msgstr ""
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:29
+#, no-wrap
+msgid "Accessing GBIF-mediated data"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:32
+msgid "There are three points of access to GBIF-mediated data: http://www.gbif.org[GBIF.org^], the https://www.gbif.org/developer/summary[Application Programming Interface (API) services^], and https://www.gbif.org/occurrence-snapshots[cloud-based datasets^]."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:34
+msgid "Using the website requires no programming experience and allows for quick and easy search, filter and download functions for GBIF-mediated data, as well as a range of additional tools and metrics that are not available through API services."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:36
+msgid "API services allow continued access to GBIF-mediated data through other systems and can be the basis for the development of tools that allow for the interrogation of the data."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:38
+msgid "Examples include https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], and https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], as well as, specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:40
+msgid "With regards to cloud-based datasets, GBIF makes data available on the https://planetarycomputer.microsoft.com/dataset/gbif[Microsoft Planetary Computer (Azure)^], as an https://registry.opendata.aws/gbif/[Amazon AWS Open Dataset^] and on a public https://console.cloud.google.com/storage/browser/public-datasets-gbif[Google GCS bucket^] and https://console.cloud.google.com/marketplace/product/bigquery-public-data/gbif-occurrences[BigQuery table^]. When using cloud-based snapshots, we always recommend creating a https://www.gbif.org/citation-guidelines#derivedDatasets[Derived Dataset citation^] for the records that you use. When referring to the full dataset, please use the appropriate citations as listed on the https://www.gbif.org/occurrence-snapshots[cloud-based datasets^] page."
+msgstr ""
+
+#. type: Target for macro image
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:47
+#, no-wrap
+msgid "intro-to-gbif::downloadoptions.png"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:56
+#, no-wrap
+msgid "*Cube*: An occurrence cube is a tab-separated csv file containing species occurrence measures (e.g. a count) summarized by taxonomic, temporal and/or spatial dimensions (e.g. a given year, a specific taxonomic rank, etc.).\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:62
+msgid "https://techdocs.gbif.org/en/data-use/download-formats[Occurrence download formats^] are fully documented in GBIF's technical documentation."
+msgstr ""
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:63
+#, no-wrap
+msgid "Handling data quality "
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:68
+msgid "Determining the precision and accuracy of the data for use is a key step in determining the usefulness of the data for any intended purpose.  While GBIF can support the identification of some quality issues that arise from within the data publishing workflow, handling some quality issues requires additional expert knowledge.  The two most common issues for which this may be required are:"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:70
+#, no-wrap
+msgid "*Data gaps* - sampling across taxonomic groups and geographic regions is not equal and users may need to take into account sampling bias in their analyses before the data can be used effectively. \n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:71
+#, no-wrap
+msgid "*Taxonomic misidentification* - some taxonomic groups may require additional information to ensure that taxa have been correctly identified such as images, videos and audio recordings that accompany data or collector information.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:73
+#, no-wrap
+msgid "*GBIF Flags for Data Quality Issues*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:222
+msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data quality issues and flags^] are documented in GBIF's technical documentation."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:78
+msgid "During the indexation process, GBIF assigns issues and flags to data for https://data-blog.gbif.org/post/issues-and-flags/[common data quality issues^].  These most frequently occur from data entry errors or missing data fields whose interpretation can be automated centrally by GBIF. These interpretations are classified as:"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:80
+#, no-wrap
+msgid "*Excluded* - where the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:81
+#, no-wrap
+msgid "*Altered* - where the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:82
+#, no-wrap
+msgid "*Inferred* - where an empty field is inferred using other record information.\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:84
+msgid "Be aware that if you are filtering for data quality issues, you should reverse the filter to exclude those data that have been flagged with that issue. You can also see the verbatim data i.e. the non-interpreted data in a Darwin Core Archive if you would like to validate the interpretation process."
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:86
+#, no-wrap
+msgid "*How can I improve data quality?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:90
+msgid "Data publishers have the responsibility for improving the quality of the data, and as a user, you play a key role in identifying where there are errors.  If you should find an error in the data, you should contact the publisher directly using the contact details that GBIF provides on the publisher page.  GBIF also provides the ability for users to log data quality issues using the \"Feedback and questions\" button on the menu bar of http://www.gbif.org[GBIF.org^]."
+msgstr ""
+
+#. type: Title ==
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:91
+#, no-wrap
+msgid "Guides and documentation"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:95
+msgid "GBIF supports its global community by offering comprehensive guides and documentation, enabling the mobilization, sharing, and thoughtful application of biodiversity information."
+msgstr ""
+
+#. type: Title ===
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:96
+#, no-wrap
+msgid "Guides"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:99
+msgid "GBIF produces https://www.gbif.org/composition/3NZQV4dMHw154WEwu4TqDw/guides-and-documentation#_gbif-digital-guides[digital guides^] on a range of topics relating to biodiversity informatics and open biodiversity data to support the community of practice."
+msgstr ""
+
+#. type: Title ===
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:100
+#, no-wrap
+msgid "Technical documentation"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:103
+msgid "GBIF's https://techdocs.gbif.org/[technical documentation^] offers guidance on accessing, retrieving, and citing biodiversity data, with insights into data quality, publishing best practices, and resources for tools and standards that support data sharing."
+msgstr ""
+
+#. type: Title ===
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:104
+#, no-wrap
+msgid "GBIF data blog"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:107
+msgid "The GBIF https://data-blog.gbif.org/[data blog^] is a place for GBIF staff and guest bloggers to contribute:"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:109
+msgid "Statistics"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:110
+msgid "Graphs"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:111
+msgid "Tutorials"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:112
+msgid "Ideas"
+msgstr ""
+
+#. type: Plain text
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:113
+msgid "Opinions"
+msgstr ""
+
+#. type: delimited block .
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:138
+#, no-wrap
+msgid "- [x] GBIF.org search interface\n"
+"- [x] GBIF API\n"
+"- [x] rGBIF\n"
+"- [x] pyGBIF\n"
+"- [x] occurrence snapshots in the cloud\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:149
+#, no-wrap
+msgid "- [x] simple\n"
+"- [ ] XML\n"
+"- [x] Darwin Core Archive\n"
+"- [x] species list\n"
+"- [x] cube\n"
+msgstr ""
+
