@@ -39,7 +39,7 @@ NOTE: The latest stable release is OpenRefine 3.4.1, released on September 24, 2
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/win1-save-download.png[width=400]
+image::data-mobilization::win1-save-download.png[width=400]
 Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*].  Choose to save the file rather than open it.
 --
 
@@ -48,7 +48,7 @@ Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/op
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/win2-extract-all.png[width=400]
+image::data-mobilization::win2-extract-all.png[width=400]
 Find the file you downloaded.  Right click it, and choose "Extract All…"
 --
 
@@ -57,7 +57,7 @@ Find the file you downloaded.  Right click it, and choose "Extract All…"
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/win3-extract-location.png[width=400]
+image::data-mobilization::win3-extract-location.png[width=400]
 Click "Extract"
 --
 
@@ -66,7 +66,7 @@ Click "Extract"
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/win4-create-shortcut.png[width=400]
+image::data-mobilization::win4-create-shortcut.png[width=400]
 Find the extracted files.  Optionally, right click "openrefine" and choose "Send to → Desktop (create shortcut)" to create a shortcut on your desktop.  Then double click "openrefine"
 --
 
@@ -75,7 +75,7 @@ Find the extracted files.  Optionally, right click "openrefine" and choose "Send
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/win5-run.png[width=400]
+image::data-mobilization::win5-run.png[width=400]
 A black console window opens, and a short time later the browser opens.  OpenRefine is now ready to use.
 --
 ====
@@ -95,7 +95,7 @@ You do not need to install Java separately.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac01-download-open.png[width=400]
+image::data-mobilization::mac01-download-open.png[width=400]
 Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit], and choose to open it.
 --
 
@@ -104,7 +104,7 @@ Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/op
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac02-unidentified-developer.png[width=400]
+image::data-mobilization::mac02-unidentified-developer.png[width=400]
 A warning is shown. Click "OK".
 --
 
@@ -113,7 +113,7 @@ A warning is shown. Click "OK".
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac03-system-preferences.png[width=150]
+image::data-mobilization::mac03-system-preferences.png[width=150]
 Open System Preferences.
 --
 
@@ -122,7 +122,7 @@ Open System Preferences.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac04-security-and-privacy.png[width=400]
+image::data-mobilization::mac04-security-and-privacy.png[width=400]
 Open Security & Privacy
 --
 
@@ -131,7 +131,7 @@ Open Security & Privacy
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac05-open-anyway.png[width=400]
+image::data-mobilization::mac05-open-anyway.png[width=400]
 Choose "Open Anyway" at the bottom.
 --
 
@@ -140,7 +140,7 @@ Choose "Open Anyway" at the bottom.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac06-yes-really-open.png[width=400]
+image::data-mobilization::mac06-yes-really-open.png[width=400]
 Choose "Open"
 --
 
@@ -149,7 +149,7 @@ Choose "Open"
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac07-copy-to-applications.png[width=400]
+image::data-mobilization::mac07-copy-to-applications.png[width=400]
 Finally, the application archive is opened!  Drag it to your Applications folder.
 --
 
@@ -158,7 +158,7 @@ Finally, the application archive is opened!  Drag it to your Applications folder
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac08-who-owns-this-computer-anyway.png[width=400]
+image::data-mobilization::mac08-who-owns-this-computer-anyway.png[width=400]
 Double-click the OpenRefine icon.  Another security warning appears!
 --
 
@@ -167,7 +167,7 @@ Double-click the OpenRefine icon.  Another security warning appears!
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac09-not-the-user.png[width=400]
+image::data-mobilization::mac09-not-the-user.png[width=400]
 Go back to "Security & Privacy" and click "Open Anyway" — again.
 --
 
@@ -176,7 +176,7 @@ Go back to "Security & Privacy" and click "Open Anyway" — again.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac10-use-linux-instead.png[width=400]
+image::data-mobilization::mac10-use-linux-instead.png[width=400]
 (To avoid these warnings, the OpenRefine developers would need to pay Apple.)
 
 Click "Open".
@@ -187,7 +187,7 @@ Click "Open".
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/mac11-run.png[width=400]
+image::data-mobilization::mac11-run.png[width=400]
 Finally! The application is running.
 --
 
@@ -209,7 +209,7 @@ These instructions are for KDE (e.g. Kubuntu, SuSE), but the process is similar 
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde1-download-open.png[width=400]
+image::data-mobilization::kde1-download-open.png[width=400]
 Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit].  Open it.
 --
 
@@ -218,7 +218,7 @@ Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/op
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde2-extract.png[width=400]
+image::data-mobilization::kde2-extract.png[width=400]
 Click "Extract" to unpack the downloaded application.
 --
 
@@ -227,7 +227,7 @@ Click "Extract" to unpack the downloaded application.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde3-extract-all.png[width=400]
+image::data-mobilization::kde3-extract-all.png[width=400]
 Choose a suitable place.  I also selected "Open destination folder after extraction" and "Close Ark after extraction"
 --
 
@@ -236,7 +236,7 @@ Choose a suitable place.  I also selected "Open destination folder after extract
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde4-open.png[width=400]
+image::data-mobilization::kde4-open.png[width=400]
 Right click "refine" and choose "Run in Konsole".  This is needed so you can safely exit OpenRefine later, by closing the Konsole window.
 --
 
@@ -245,7 +245,7 @@ Right click "refine" and choose "Run in Konsole".  This is needed so you can saf
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde5-execute.png[width=300]
+image::data-mobilization::kde5-execute.png[width=300]
 Confirm that you wish to execute the downloaded application.
 --
 
@@ -254,7 +254,7 @@ Confirm that you wish to execute the downloaded application.
 [.float-group]
 --
 [.left]
-image::img/web/install-openrefine/kde6-run.png[width=400]
+image::data-mobilization::kde6-run.png[width=400]
 OpenRefine is now running.
 --
 
