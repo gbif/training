@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 12:06+0000\n"
-"PO-Revision-Date: 2026-04-12 13:02\n"
+"POT-Creation-Date: 2026-04-12 20:32+0000\n"
+"PO-Revision-Date: 2026-04-12 21:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -82,6 +82,11 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
 #: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:291
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:435
 #: en/foundations/modules/ROOT/pages/navigation.adoc:16
 #: en/foundations/modules/ROOT/pages/navigation.adoc:24
 #: en/foundations/modules/ROOT/pages/navigation.adoc:32
@@ -291,7 +296,29 @@ msgstr ""
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
 #. type: Block title
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:16
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
@@ -312,6 +339,13 @@ msgstr "&nbsp;"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
 #, no-wrap
 msgid "Click to expand"
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:168
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
+#, no-wrap
+msgid "*Slide 12 - Conclusion*\n"
 msgstr ""
 
 #. type: Title =
@@ -381,18 +415,6 @@ msgstr ""
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:35
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$introduction_to_gbif_v1_1080p.mp4[download] it locally (MP4 - 35.8 MB)."
-msgstr ""
-
-#. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
 msgstr ""
 
 #. type: Target for macro image
@@ -591,12 +613,6 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:123
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide12.png"
-msgstr ""
-
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
-#, no-wrap
-msgid "*Slide 12 - Conclusion*\n"
 msgstr ""
 
 #. type: Plain text
