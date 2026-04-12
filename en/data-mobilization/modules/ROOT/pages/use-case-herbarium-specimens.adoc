@@ -10,7 +10,7 @@ Familiarize yourself with the use case scenario.
 
 :figure-caption!:
 .https://www.gbif.org/occurrence/1228493621[Eriocaulon bilobatum Morong] collected in Guatemala by Rapid Reference Collection (RRC) | Field Museum of Natural History - Keller Action Science Center (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])
-image::data-mobilization::use-case-1-Eriocaulon_bilobatum-cropped.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-HS-Eriocaulon_bilobatum-cropped.png[align=center,width=640,height=360]
 
 This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Alberto González-Talaván, Néstor Beltrán, Nicolas Noé, Sharon Grant. The data are from a real dataset, but have been modified for the purposes of these exercises. It is a fictionalized scenario and is meant only for instructional purposes.
 
@@ -31,7 +31,7 @@ The team wants to use this opportunity to establish a permanent digitization and
 
 === Data collection
 
-image::data-mobilization::use-case-1-short-mountain-park.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-HS-short-mountain-park.png[align=center,width=640,height=360]
 
 The herbarium comprises approximately 80,000 specimens collected from 1960 to 2015 concentrated mainly in the biodiversity hot spot -- Short Mountain National Park. 
 The collection is still growing as a result of exchanges, donations and several active research projects. 
@@ -44,20 +44,36 @@ Any images of the specimens that exist are held locally by the individual resear
 
 == Exercises
 
-Download the xref:attachment$UC1-Herbarium-Exercise_EN.docx[exercise sheet,opts=download] (MS Word 345 KB).
+Download the xref:attachment$UC-HS-Exercise_EN.docx[exercise sheet,opts=download] (MS Word 345 KB).
 
 === Exercise 1
 
 *Data capture*
 
+Imagine that you are the person assigned to transcribe the data found on the herbarium sheets.
+
+. Download xref:attachment$UC-HS-1-base-material.zip[UC-HS-1-base-material.zip,opts=download]. (34.4 MB). There are 10 images. Two images per specimen for a total of five specimens. 
+The herbarium sheets are in Spanish (data may come to you in various means and in other languages than your own), but you should be able to recognize the data contained in the fields on the labels. Remember to use both images per record to compile the information.
+. Download the spreadsheet template: xref:attachment$UC-HS-1-occurrence-template.xlsx[UC-HS-1-occurrence-template.xlsx,opts=download] (57.3 KB) to transcribe the information found on each of the images for the five specimens. 
+. Download xref:attachment$UC-HS-Exercise_EN.docx[UC-HS-Exercise_EN.docx,opts=download] to provide your answers.
 
 === Exercise 2
 
 *Data management*
 
+Your institution is part of the “Global Poales Association (GPA)”. This association has secured funding to publish an up-to-date flora on the group and has requested your herbarium to participate and provide any high quality records you may have on this order of plants. The order is well represented in your collection so you think you could contribute substantially to this effort.
+
+. Download xref:attachment$UC-HS-data-cleaning.csv[UC-HS-2-data-cleaning.csv,opts=download]. (207.5 KB)
+. Evaluate the dataset and identify which types of errors are present. 
+. Identify possible ways to correct those issues and perform those corrections for as many of the errors as you can. 
+. Use the exercise sheet to provide your answers and submit the spreadsheet.
 
 === Exercise 3
 
 *Data publishing*
 
+After cleaning the data in the Poales dataset, the team considers that publishing the data online through the GBIF network could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset.
 
+. Download xref:attachment$UC-HS-3-poales-publishing.csv[UC-HS-3-poales-publishing.csv,opts=download]. (233.5 KB)
+. Use the previously provided IPT installation to publish the given dataset.
+. Use the exercise sheet to provide your answers and link to the published dataset.

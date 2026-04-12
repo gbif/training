@@ -10,7 +10,7 @@ Familiarize yourself with the use case scenario.
 
 :figure-caption!:
 .https://upload.wikimedia.org/wikipedia/commons/b/bc/Wikimedia_Rechenbuchdigitalisierung_2006-05-24_01.JPG[High resolution scanner] for book digitization project by Heiko Hornig (licensed under https://creativecommons.org/licenses/by-sa/2.5/deed.en[CC BY-SA 2.5])
-image::data-mobilization::use-case-3-scanner.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-BL-scanner.png[align=center,width=640,height=360]
 
 This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Alberto González-Talaván, Andrea Hahn, Laura Russell and Sharon Grant. 
 It is based upon a previous adaptation by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Russell, Mélianie Raymond and Nicolas Noé. 
@@ -58,13 +58,13 @@ Observations of weather conditions during the nights when birds were observed by
 
 This is an example of the description of a series of species observations from one of the books (in German, except the common name for the species which is provided in Danish).
 
-image::data-mobilization::use-case-3-analogue.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-BL-analogue.png[align=center,width=640,height=360]
 
 === Scanned and translated data description
 
 This is an example of the scanned and translated output from the analogue example above.
 
-image::data-mobilization::use-case-3-scanned.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-BL-scanned.png[align=center,width=640,height=360]
 
 [[birds-digital-data-description]]
 === Digital data description
@@ -83,7 +83,7 @@ Studying the extract from the book, the volunteers from the Copenhagen Ornitholo
 
 == Exercises
 
-Download the xref:attachment$UC3-DL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 342 KB)
+Download the xref:attachment$UC-BL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.8 MB)
 
 === Exercise 1
 
@@ -130,7 +130,7 @@ Additionally, only the scientific name was provided.
 Higher taxonomy can be derived utilizing software tools such as OpenRefine.
 You are also aware that there are typographic errors that were made by the digitizers.
 
-. Download xref:attachment$UC3-DL-3-ForCleaning.zip[UC3-DL-3-ForCleaning.zip,opts=download]. (45 KB)
+. Download xref:attachment$UC3-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 KB)
 . Identify and correct any invalid years.
 . Verify and correct taxonomy.
 . Verify coordinates are correct for the two given localities.
@@ -150,6 +150,6 @@ For this exercise, you will take the role of the person responsible for publishi
 You have been supplied with a multimedia file and an identification history file that should be published along with the observations.
 The staff member in charge of data quality has provided cleaned datasets for you to publish.
 
-. Download xref:attachment$UC3-DL-4-ForPublication.zip[UC3-DL-4-ForPublication.zip,opts=download]. (65 KB)
+. Download xref:attachment$UC3-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 KB)
 . Use the previously provided IPT installation to publish the given dataset.
 . Use the exercise sheet to provide your answers and link to the published dataset.
