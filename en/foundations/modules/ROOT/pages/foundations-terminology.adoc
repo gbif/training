@@ -27,7 +27,7 @@ video::434713168[vimeo]
 [.left]
 &nbsp;
 
-image::foundations::foundations-structures-Slide1.png[align=center]
+image::foundations::foundations-terminology-Slide1.png[align=center]
 
 *Slide 1 - Foundations - Definitions terminology*
 
@@ -37,7 +37,7 @@ Image by Carsten Witzel, obtained via http://www.freeimages.com/photo/root-of-a-
 
 Image by Carsten Witzel, obtained via http://www.freeimages.com/photo/root-of-a-tree-1371557.
 
-image::foundations::foundations-structures-Slide2.png[align=center]
+image::foundations::foundations-terminology-Slide2.png[align=center]
 
 *Slide 2 - Key concepts*
 
@@ -49,7 +49,7 @@ We will then look at the terminology surrounding Fields, Labels and Lists.
 
 And lastly, we will straighten out some concepts around characters and their mappings that will help prevent unwanted data messes.
 
-image::foundations::foundations-structures-Slide3.png[align=center]
+image::foundations::foundations-terminology-Slide3.png[align=center]
 
 *Slide 3 - Definitions*
 
@@ -61,19 +61,19 @@ We will be using these throughout the course and it is important that you be fam
 
 Image by Sharon Grant: https://www.flickr.com/photos/rondls_pics/3629532537/in/album-72157619834323354/
 
-image::foundations::foundations-structures-Slide4.png[align=center]
+image::foundations::foundations-terminology-Slide4.png[align=center]
 
 *Slide 4 - Definitions - a rose by any other name*
 
 Let’s focus for a moment on some common words and phrases that contain the word data.
 
-image::foundations::foundations-structures-Slide5.png[align=center]
+image::foundations::foundations-terminology-Slide5.png[align=center]
 
 *Slide 5 - What's the difference - Database*
 
 All of the phrases here include the word data, but are they all the same, and if not, then what is the difference?
 
-image::foundations::foundations-structures-Slide6.png[align=center]
+image::foundations::foundations-terminology-Slide6.png[align=center]
 
 *Slide 6 - Database*
 
@@ -83,7 +83,7 @@ So, what is a “Database”?
 * Everything else in the list is just a way to help you achieve this data nirvana!
 * Let’s dig a little deeper then into those other terms.
 
-image::foundations::foundations-structures-Slide7.png[align=center]
+image::foundations::foundations-terminology-Slide7.png[align=center]
 
 *Slide 7 - Database language*
 
@@ -98,7 +98,7 @@ Examples that you may have come across are:
 * Java, SPARQL, SQL and Python
 * They are simply methods used to define and create tables, views and queries and also allow users to access, update, store and move data around.
 
-image::foundations::foundations-structures-Slide8.png[align=center]
+image::foundations::foundations-terminology-Slide8.png[align=center]
 
 *Slide 8 - Database program/software*
 
@@ -114,7 +114,7 @@ Microsoft Access, FilemakerPro and Oracle
 
 So, database programs or software are grouped utilities which allow a user, via a database language, to store, manage, query and report data held in the system.
 
-image::foundations::foundations-structures-Slide9.png[align=center]
+image::foundations::foundations-terminology-Slide9.png[align=center]
 
 *Slide 9 - Data cleaning tool*
 
@@ -128,13 +128,13 @@ OpenRefine, MatLab  and spreadsheets
 
 A data cleaning tool should assist the user in the discovery and repair of messy data in order to increase quality.
 
-image::foundations::foundations-structures-Slide10.png[align=center]
+image::foundations::foundations-terminology-Slide10.png[align=center]
 
 *Slide 10 - Definitions - a rose by any other name*
 
 Continuing on with some more terms that you should be familiar with we will look at the differences between the terms Field, Label and List.
 
-image::foundations::foundations-structures-Slide11.png[align=center]
+image::foundations::foundations-terminology-Slide11.png[align=center]
 
 *Slide 11 - Field vs label*
 
@@ -144,7 +144,7 @@ Field or column names refer to the actual column in the database table. They are
 
 Labels and headers on the other hand, refer to the human readable versions of the field names. Most often you will see these in the graphical user interface of your software and on exports and reports. In some software you can in fact have different labels to the same field on a user by user or group basis!
 
-image::foundations::foundations-structures-Slide12.png[align=center]
+image::foundations::foundations-terminology-Slide12.png[align=center]
 
 *Slide 12 - Lists*
 
@@ -154,13 +154,13 @@ A drop-down list, also sometimes called a lookup table is a data entry element t
 
 A controlled vocabulary on the other hand, is a very strictly defined, domain specific set of values that should be applied to a particular field. They are an integral part of a well defined standard. Such values can be used in a drop-down list as mentioned previously.
 
-image::foundations::foundations-structures-Slide13.png[align=center]
+image::foundations::foundations-terminology-Slide13.png[align=center]
 
 *Slide 13 - Definitions - a rose by any other name*
 
 In this section we will look at what the term character means in relation to data and computers.
 
-image::foundations::foundations-structures-Slide14.png[align=center]
+image::foundations::foundations-terminology-Slide14.png[align=center]
 
 *Slide 14 - Characters*
 
@@ -179,7 +179,7 @@ The “character encoding”
 
 Each symbol or glyph is assigned a numeric value and that number is then converted to binary.
 
-image::foundations::foundations-structures-Slide15.png[align=center]
+image::foundations::foundations-terminology-Slide15.png[align=center]
 
 *Slide 15 - Characters example*
 
@@ -193,7 +193,7 @@ and in BINARY 01000001
 
 Try mapping your own name to Binary using the link at the bottom of the screen.
 
-image::foundations::foundations-structures-Slide16.png[align=center]
+image::foundations::foundations-terminology-Slide16.png[align=center]
 
 *Slide 16 - Characters comparison*
 
@@ -201,7 +201,7 @@ In effect what is happening is that when you type into a keyboard and save a fil
 
 When you open that file again the software needs to know which encoding (map) to use to redisplay the information back to you correctly.
 
-image::foundations::foundations-structures-Slide17.png[align=center]
+image::foundations::foundations-terminology-Slide17.png[align=center]
 
 *Slide 17 - Characters*
 
@@ -215,7 +215,7 @@ into French and then save the file with a text editor that uses the encoding Lat
 
 Then you send it to a colleague to check the translation. Voila!
 
-image::foundations::foundations-structures-Slide18.png[align=center]
+image::foundations::foundations-terminology-Slide18.png[align=center]
 
 *Slide 18 - Characters*
 
@@ -231,7 +231,7 @@ MicroSoft Word on their end was set to use the encoding set Unicode UTF-8. The m
 
 Depending on the software the data may be irretrievably corrupted.
 
-image::foundations::foundations-structures-Slide19.png[align=center]
+image::foundations::foundations-terminology-Slide19.png[align=center]
 
 *Slide 19 - Review*
 
@@ -243,7 +243,7 @@ In review we have looked at the differences between the phrases:
 
 And shown that although the terms may seem similar the in fact have very different definitions.
 
-image::foundations::foundations-structures-Slide20.png[align=center]
+image::foundations::foundations-terminology-Slide20.png[align=center]
 
 *Slide 20 - Wrap-up*
 
@@ -254,7 +254,7 @@ Remember that:
 
 We often take for granted that there is a whole language associated with biodiversity informatics that is not commonplace and has to be learned. There is no shame in going back to basics and getting to grips with the vocabulary, grammar and syntax just like with any new language.
 
-image::foundations::foundations-structures-Slide21.png[align=center]
+image::foundations::foundations-terminology-Slide21.png[align=center]
 
 *Slide 21 - Conclusion*
 
@@ -289,7 +289,7 @@ video::434713189[vimeo]
 [.left]
 &nbsp;
 
-image::foundations::foundations-structures-Slide1.png[align=center]
+image::foundations::foundations-software-Slide1.png[align=center]
 
 *Slide 1 - Foundations - Software terminology*
 
@@ -297,7 +297,7 @@ This session is foundation work and part of the Terminology section We will be i
 
 Image by Carsten Witzel, obtained via http://www.freeimages.com/photo/root-of-a-tree-1371557.
 
-image::foundations::foundations-structures-Slide2.png[align=center]
+image::foundations::foundations-software-Slide2.png[align=center]
 
 *Slide 2 - Software for mobilization*
 
@@ -305,7 +305,7 @@ The purpose of this short presentation is to give you some examples of the diffe
 
 Hopefully it will help you to start to think about what uses they may be put too and what types of things might be practical for you.
 
-image::foundations::foundations-structures-Slide3.png[align=center]
+image::foundations::foundations-software-Slide3.png[align=center]
 
 *Slide 3 - Software definition*
 
@@ -320,7 +320,7 @@ We will take a look at software that can be used for:
 * Data Cleaning and
 * Data Publishing
 
-image::foundations::foundations-structures-Slide4.png[align=center]
+image::foundations::foundations-software-Slide4.png[align=center]
 
 *Slide 4 - Software for data capture*
 
@@ -334,7 +334,7 @@ There may even not be a need to create your own system at all. Apps such as iNat
 
 Whichever the choice, it is important to think about the long term preservation of the data that you collect.
 
-image::foundations::foundations-structures-Slide5.png[align=center]
+image::foundations::foundations-software-Slide5.png[align=center]
 
 *Slide 5 - Software for data management*
 
@@ -346,7 +346,7 @@ There are many choices which vary in terms of cost and support and a few are sho
 
 Symbiota, Specify, EMu, Elysia and Brahms.
 
-image::foundations::foundations-structures-Slide6.png[align=center]
+image::foundations::foundations-software-Slide6.png[align=center]
 
 *Slide 6 - Software for data capture and management*
 
@@ -354,7 +354,7 @@ If a home-grown solution is preferred and can be supported, relational database 
 
 Examples incluse MySQL, SQLServer, Access or filemaker
 
-image::foundations::foundations-structures-Slide7.png[align=center]
+image::foundations::foundations-software-Slide7.png[align=center]
 
 *Slide 7 - Software for data cleaning*
 
@@ -366,7 +366,7 @@ OpenRefine originally known as GoogleRefine is a powerful free, open source data
 
 R is another increasing used, sophisticated programming language and environment. With a little practice it can also provide powerful data manipulations.
 
-image::foundations::foundations-structures-Slide8.png[align=center]
+image::foundations::foundations-software-Slide8.png[align=center]
 
 *Slide 8 - Software for data publishing*
 
@@ -378,7 +378,7 @@ You can consider partnering with an existing ipt provider or selecting a databas
 
 Whichever you choose, make sure that your system allows you to export data as csv or txt files and you will ultimately be able to publish your data.
 
-image::foundations::foundations-structures-Slide9.png[align=center]
+image::foundations::foundations-software-Slide9.png[align=center]
 
 *Slide 9 - Other software to handle data*
 
@@ -388,7 +388,7 @@ The link and reference to more details of each section, is at the bottom of the 
 
 Reference: https://docs.google.com/spreadsheets/d/1IWBsL4r-LsJRdYYPy9q4eLOAa1nzZYBwTdwk3Kd8cV8/
 
-image::foundations::foundations-structures-Slide10.png[align=center]
+image::foundations::foundations-software-Slide10.png[align=center]
 
 *Slide 10 - Wrap-up*
 
@@ -398,7 +398,7 @@ Remember that:
 
 Your choice of solution should make your life easier but it should also not sacrifice the long term viability of the data that it is meant to work with.
 
-image::foundations::foundations-structures-Slide11.png[align=center]
+image::foundations::foundations-software-Slide11.png[align=center]
 
 *Slide 11 - Conclusion*
 
