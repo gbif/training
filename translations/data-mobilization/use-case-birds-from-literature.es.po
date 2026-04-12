@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 20:37+0000\n"
-"PO-Revision-Date: 2026-04-11 22:19\n"
+"POT-Creation-Date: 2026-04-12 17:40+0000\n"
+"PO-Revision-Date: 2026-04-12 17:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -22,7 +22,8 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:49
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:59
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:76
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:62
 #: en/data-use/modules/ROOT/pages/exercise1.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:8
 #: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
@@ -34,10 +35,11 @@ msgstr "Ejercicio 1"
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:59
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:100
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:35
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:108
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:88
 #: en/data-use/modules/ROOT/pages/exercise3.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:25
 #, no-wrap
@@ -48,10 +50,11 @@ msgstr "Ejercicio 3"
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:64
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:148
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:62
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:74
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:87
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:103
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:38
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:111
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:91
 #, no-wrap
 msgid "*Data publishing*\n"
 msgstr "*Publicación de datos*\n"
@@ -62,7 +65,8 @@ msgstr "*Publicación de datos*\n"
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:52
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:62
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:79
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:19
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:93
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:65
 #, no-wrap
 msgid "*Data capture*\n"
 msgstr "*Captura de datos*\n"
@@ -70,10 +74,11 @@ msgstr "*Captura de datos*\n"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:41
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:123
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:57
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:63
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:75
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:90
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:102
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:76
 #, no-wrap
 msgid "*Data management*\n"
 msgstr "*Gestión de datos*\n"
@@ -99,6 +104,7 @@ msgstr "Familiarícese con el escenario del caso de uso."
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:12
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:8
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:12
 #: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:14
 #, no-wrap
 msgid "Scenario"
@@ -119,7 +125,7 @@ msgstr "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wikimedia_Rechenbuch
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:13
 #, no-wrap
-msgid "data-mobilization::use-case-3-scanner.png"
+msgid "data-mobilization::use-case-BL-scanner.png"
 msgstr ""
 
 #. type: Plain text
@@ -137,7 +143,8 @@ msgstr "Es un escenario ficticio basado en un proyecto y en un conjunto de datos
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:17
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:21
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:23
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:10
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:20
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:24
 #: en/grscicoll/modules/ROOT/pages/description.adoc:3
 #: en/project-planning/modules/ROOT/pages/description.adoc:3
 #, no-wrap
@@ -191,6 +198,7 @@ msgstr "El administrador de nodo de DanBIF se asegurará de que la institución 
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:49
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:40
 #, no-wrap
 msgid "Original data collection"
 msgstr "Recopilación de datos originales"
@@ -214,7 +222,7 @@ msgstr "Este es un ejemplo de la descripción de una serie de observaciones de e
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:61
 #, no-wrap
-msgid "data-mobilization::use-case-3-analogue.png"
+msgid "data-mobilization::use-case-BL-analogue.png"
 msgstr ""
 
 #. type: Title ===
@@ -231,13 +239,14 @@ msgstr "Este es un ejemplo de la salida escaneada y traducida del ejemplo análo
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:67
 #, no-wrap
-msgid "data-mobilization::use-case-3-scanned.png"
+msgid "data-mobilization::use-case-BL-scanned.png"
 msgstr ""
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:70
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:48
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:63
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:48
 #, no-wrap
 msgid "Digital data description"
 msgstr "Descripción de datos digitales"
@@ -297,7 +306,8 @@ msgstr "URL de la página del libro digitalizado en la que se proporciona el reg
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:45
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:55
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:72
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:14
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:86
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
 #: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
 #: en/nodes/modules/ROOT/pages/developing-training.adoc:106
 #: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:124
@@ -308,7 +318,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:87
-msgid "Download the xref:attachment$UC3-DL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 342 KB)"
+msgid "Download the xref:attachment$UC-BL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.8 MB)"
 msgstr ""
 
 #. type: Plain text
@@ -362,7 +372,7 @@ msgstr "Cree una hoja de cálculo utilizando los campos de datos enumerados en l
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:117
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:86
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:98
 msgid "Use the exercise sheet to provide your answers and submit the spreadsheet created in the previous step."
 msgstr "Use la hoja de ejercicios para proporcionar sus respuestas y envíe la hoja de cálculo creada en el paso previo."
 
@@ -373,10 +383,11 @@ msgstr "En los ejemplos utilizados, los registros biológicos individuales no si
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:120
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:60
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:72
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:26
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:99
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:73
 #: en/data-use/modules/ROOT/pages/exercise2.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:16
 #, no-wrap
@@ -395,7 +406,7 @@ msgstr "A través de la georreferenciación retrospectiva, se han agregado coord
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:134
-msgid "Download xref:attachment$UC3-DL-3-ForCleaning.zip[UC3-DL-3-ForCleaning.zip,opts=download]. (45 KB)"
+msgid "Download xref:attachment$UC3-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 KB)"
 msgstr ""
 
 #. type: Plain text
@@ -440,22 +451,26 @@ msgstr "Para este ejercicio, asumirá el rol de la persona responsable de public
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:154
-msgid "Download xref:attachment$UC3-DL-4-ForPublication.zip[UC3-DL-4-ForPublication.zip,opts=download]. (65 KB)"
+msgid "Download xref:attachment$UC3-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 KB)"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:79
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:110
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:42
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:114
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
 msgid "Use the previously provided IPT installation to publish the given dataset."
 msgstr "Utilice la instalación IPT previamente proporcionada para publicar el conjunto de datos dado."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:79
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:110
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:42
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:114
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
 msgid "Use the exercise sheet to provide your answers and link to the published dataset."
 msgstr "Utilice la hoja de ejercicios para proporcionar sus respuestas y el enlace al conjunto de datos publicado."
 
