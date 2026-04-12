@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-11 15:11\n"
+"POT-Creation-Date: 2026-04-11 20:09+0000\n"
+"PO-Revision-Date: 2026-04-11 20:57\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -16,7 +16,183 @@ msgstr ""
 "X-Crowdin-File: /main/translations/project-planning/overview-activities-deliverables.pot\n"
 "X-Crowdin-File-ID: 44414\n"
 
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
+msgid "What dataset type(s) would you choose for an ichthyology collection?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:102
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:115
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
+#, no-wrap
+msgid "- [x] occurrence\n"
+"- [x] checklist\n"
+"- [ ] sampling event\n"
+msgstr ""
+
+#.  Question 2
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:105
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
+msgid "What dataset type(s) would you choose for a list of invasive species?"
+msgstr ""
+
+#.  Question 3
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:118
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
+msgid "What dataset type(s) would you choose for the flora and fauna of an environmental impact study?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:122
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
+#, no-wrap
+msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:130
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:158
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:190
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
+#, no-wrap
+msgid "- [x] occurrence\n"
+"- [ ] checklist\n"
+"- [x] sampling event\n"
+msgstr ""
+
+#.  Question 4
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:133
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
+msgid "What dataset type(s) would you choose for bird tracking data?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:137
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
+#, no-wrap
+msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:145
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
+#, no-wrap
+msgid "- [x] occurrence\n"
+"- [ ] checklist\n"
+"- [ ] sampling event\n"
+msgstr ""
+
+#.  Question 5
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:148
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
+msgid "What dataset type(s) would you choose for insect trap data?"
+msgstr ""
+
+#.  Question 6
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:161
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
+msgid "What dataset type(s) would you choose for national park management data?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:165
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
+#, no-wrap
+msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:173
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
+#, no-wrap
+msgid "- [x] occurrence\n"
+"- [x] checklist\n"
+"- [x] sampling event\n"
+msgstr ""
+
+#.  Question 7
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:176
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
+msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:180
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
+#, no-wrap
+msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:182
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
+#, no-wrap
+msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
+msgstr ""
+
+#.  Question 8
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:193
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
+msgid "What dataset type(s) would you choose for a regional species list?"
+msgstr ""
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:203
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
+#, no-wrap
+msgid "- [ ] occurrence\n"
+"- [x] checklist\n"
+"- [ ] sampling event\n"
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:44
+#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
+#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
+#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
+#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:10
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:10
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:12
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:10
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
+#, no-wrap
+msgid "Learning objectives"
+msgstr ""
+
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -242,31 +418,164 @@ msgstr ""
 msgid "&nbsp;"
 msgstr ""
 
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
-#: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module1.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module2.adoc:3
-#: en/grscicoll/modules/ROOT/pages/module3.adoc:3
-#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:12
-#: en/nodes/modules/ROOT/pages/business-sector.adoc:12
-#: en/nodes/modules/ROOT/pages/case-for-participation.adoc:3
-#: en/nodes/modules/ROOT/pages/collections-communities.adoc:12
-#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:12
-#: en/nodes/modules/ROOT/pages/developing-training.adoc:12
-#: en/nodes/modules/ROOT/pages/establishing-a-node.adoc:3
-#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:10
-#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:10
-#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:12
-#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:10
-#: en/nodes/modules/ROOT/pages/research-communities.adoc:12
-#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:13
-#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:12
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:3
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:3
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:13
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
 #, no-wrap
-msgid "Learning objectives"
+msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:18
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
+#, no-wrap
+msgid "occurrence\n"
+"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:20
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
+#, no-wrap
+msgid "checklist\n"
+"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:22
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:25
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
+#, no-wrap
+msgid "occurrence\n"
+"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:29
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
+#, no-wrap
+msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
+#, no-wrap
+msgid "occurrence\n"
+"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
+#, no-wrap
+msgid "sampling event\n"
+"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:36
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
+#, no-wrap
+msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:41
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
+#, no-wrap
+msgid "*What dataset type(s) would you choose for insect trap data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:44
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
+#, no-wrap
+msgid "occurrence\n"
+"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:48
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
+#, no-wrap
+msgid "sampling event\n"
+"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:50
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
+#, no-wrap
+msgid "*What dataset type(s) would you choose for national park management data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:53
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
+#, no-wrap
+msgid "occurrence\n"
+"record individuals of species"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:55
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
+#, no-wrap
+msgid "checklist\n"
+"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:57
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
+#, no-wrap
+msgid "sampling event\n"
+"check and track the populations"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:59
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:62
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
+#, no-wrap
+msgid "occurrence\n"
+"Bioblitz datasets are mainly shared as occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:64
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
+#, no-wrap
+msgid "sampling event\n"
+"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:66
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a regional species list?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:70
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
+#, no-wrap
+msgid "checklist\n"
+"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
 msgstr ""
 
 #. type: delimited block =
@@ -878,15 +1187,6 @@ msgstr ""
 msgid "Check your understanding of the dataset types with published records. Rationale is provided below the quiz. If you need assistance choosing your own dataset type, review the blog post on https://data-blog.gbif.org/post/choose-dataset-type/[Choosing a dataset type^]."
 msgstr ""
 
-#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
-#.  (. What…) is required, so I have added // comments to help separate them.
-#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
-#.  Question 1
-#. type: delimited block *
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
-msgid "What dataset type(s) would you choose for an ichthyology collection?"
-msgstr ""
-
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:235
 #, no-wrap
@@ -896,38 +1196,11 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
-#, no-wrap
-msgid "- [x] occurrence\n"
-"- [x] checklist\n"
-"- [ ] sampling event\n"
-msgstr ""
-
-#.  Question 2
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
-msgid "What dataset type(s) would you choose for a list of invasive species?"
-msgstr ""
-
-#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:249
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".Water hyacinth (Eichhornia crassipes) observed in Bourail, New Caledonia, where it is an introduced and invasive species by GRIIS. Photo by gérard (2016) licensed under CC BY-SA 2.0\n"
 "image::project-planning::QDataTypes-plant.png[align=center,width=640,height=360]\n"
-msgstr ""
-
-#.  Question 3
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
-msgid "What dataset type(s) would you choose for the flora and fauna of an environmental impact study?"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
-#, no-wrap
-msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
 msgstr ""
 
 #. type: delimited block .
@@ -939,28 +1212,6 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
-#, no-wrap
-msgid "- [x] occurrence\n"
-"- [ ] checklist\n"
-"- [x] sampling event\n"
-msgstr ""
-
-#.  Question 4
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
-msgid "What dataset type(s) would you choose for bird tracking data?"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
-#, no-wrap
-msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
-msgstr ""
-
-#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:279
 #, no-wrap
 msgid ":figure-caption!:\n"
@@ -969,37 +1220,11 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
-#, no-wrap
-msgid "- [x] occurrence\n"
-"- [ ] checklist\n"
-"- [ ] sampling event\n"
-msgstr ""
-
-#.  Question 5
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
-msgid "What dataset type(s) would you choose for insect trap data?"
-msgstr ""
-
-#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:292
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://www.flickr.com/photos/miheco/215305679/[Insect trap] by miheco (CC-BY-SA)\n"
 "image::project-planning::QDataTypes-traps.png[align=\"center\",width=640,height=360]\n"
-msgstr ""
-
-#.  Question 6
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
-msgid "What dataset type(s) would you choose for national park management data?"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
-#, no-wrap
-msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
 msgstr ""
 
 #. type: delimited block .
@@ -1011,43 +1236,11 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
-#, no-wrap
-msgid "- [x] occurrence\n"
-"- [x] checklist\n"
-"- [x] sampling event\n"
-msgstr ""
-
-#.  Question 7
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
-msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
-#, no-wrap
-msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
-#, no-wrap
-msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
-msgstr ""
-
-#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:324
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)\n"
 "image::project-planning::QDataTypes-citizen.png[align=center,width=640,height=360]\n"
-msgstr ""
-
-#.  Question 8
-#. type: Plain text
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
-msgid "What dataset type(s) would you choose for a regional species list?"
 msgstr ""
 
 #. type: delimited block .
@@ -1056,14 +1249,6 @@ msgstr ""
 msgid ":figure-caption!:\n"
 ".https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300\n"
 "image::project-planning::QDataTypes-threatened.png[align=center,width=640,height=360]\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
-#, no-wrap
-msgid "- [ ] occurrence\n"
-"- [x] checklist\n"
-"- [ ] sampling event\n"
 msgstr ""
 
 #. type: Title ==
@@ -1078,39 +1263,6 @@ msgid "If you need assistance choosing your own dataset type, review the blog po
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
-#, no-wrap
-msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
-#, no-wrap
-msgid "occurrence\n"
-"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
-#, no-wrap
-msgid "checklist\n"
-"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
-#, no-wrap
-msgid "occurrence\n"
-"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
-msgstr ""
-
-#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:373
 #, no-wrap
 msgid "checklist\n"
@@ -1118,115 +1270,9 @@ msgid "checklist\n"
 msgstr ""
 
 #. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
-#, no-wrap
-msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
-#, no-wrap
-msgid "occurrence\n"
-"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
-#, no-wrap
-msgid "sampling event\n"
-"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
-#, no-wrap
-msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
-msgstr ""
-
-#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:385
 #, no-wrap
 msgid "occurrence\n"
 "These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example^])"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
-#, no-wrap
-msgid "*What dataset type(s) would you choose for insect trap data?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
-#, no-wrap
-msgid "occurrence\n"
-"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
-#, no-wrap
-msgid "sampling event\n"
-"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
-#, no-wrap
-msgid "*What dataset type(s) would you choose for national park management data?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
-#, no-wrap
-msgid "occurrence\n"
-"record individuals of species"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
-#, no-wrap
-msgid "checklist\n"
-"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
-#, no-wrap
-msgid "sampling event\n"
-"check and track the populations"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
-#, no-wrap
-msgid "occurrence\n"
-"Bioblitz datasets are mainly shared as occurrence datasets."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
-#, no-wrap
-msgid "sampling event\n"
-"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a regional species list?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
-#, no-wrap
-msgid "checklist\n"
-"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 13:32+0000\n"
-"PO-Revision-Date: 2026-04-11 15:04\n"
+"POT-Creation-Date: 2026-04-11 20:09+0000\n"
+"PO-Revision-Date: 2026-04-11 20:50\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -15,6 +15,32 @@ msgstr ""
 "X-Crowdin-Language: fr\n"
 "X-Crowdin-File: /main/translations/foundations/foundations-review.pot\n"
 "X-Crowdin-File-ID: 45032\n"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:38
@@ -34,26 +60,6 @@ msgstr "- [ ] Le directeur du musée ou de département\n"
 #, no-wrap
 msgid "Review "
 msgstr "Révision "
-
-#. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr ""
-
-#. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr ""
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-10 16:59\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
+"PO-Revision-Date: 2026-04-11 20:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,6 +17,7 @@ msgstr ""
 "X-Crowdin-File-ID: 40958\n"
 
 #. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:1
 #: en/data-use/modules/ROOT/pages/description.adoc:1
 #: en/epn/modules/ROOT/pages/description.adoc:1
 #: en/foundations/modules/ROOT/pages/description.adoc:2
@@ -26,7 +27,16 @@ msgstr ""
 msgid "Course description"
 msgstr "Descripción del curso"
 
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:12
+#: en/epn/modules/ROOT/pages/description.adoc:7
+#: en/foundations/modules/ROOT/pages/description.adoc:9
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
+msgid "Topics include:"
+msgstr "Los temas incluyen:"
+
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:23
 #: en/data-use/modules/ROOT/pages/description.adoc:16
 #: en/epn/modules/ROOT/pages/description.adoc:21
 #: en/foundations/modules/ROOT/pages/description.adoc:17
@@ -38,6 +48,7 @@ msgid "Audience"
 msgstr "Audiencia"
 
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:31
 #: en/data-use/modules/ROOT/pages/description.adoc:23
 #: en/epn/modules/ROOT/pages/description.adoc:25
 #: en/foundations/modules/ROOT/pages/description.adoc:24
@@ -59,13 +70,6 @@ msgstr "https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF c
 #: en/epn/modules/ROOT/pages/description.adoc:5
 msgid "This course aims to support teams working on GBIF funded projects, observers and other interested participants in the first stages of building a case for formal Participation in GBIF and establishing a Participant node."
 msgstr "Este curso tiene como objetivo apoyar a los equipos que trabajan en proyectos financiados por GBIF, a observadores y a otros participantes que estén interesados en defender la participación formal en GBIF y en establecer un nodo participante."
-
-#. type: delimited block =
-#: en/epn/modules/ROOT/pages/description.adoc:7
-#: en/foundations/modules/ROOT/pages/description.adoc:9
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:9
-msgid "Topics include:"
-msgstr "Los temas incluyen:"
 
 #. type: delimited block *
 #: en/epn/modules/ROOT/pages/description.adoc:9

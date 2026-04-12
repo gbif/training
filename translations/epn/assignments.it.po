@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-11 15:11\n"
+"POT-Creation-Date: 2026-04-11 20:37+0000\n"
+"PO-Revision-Date: 2026-04-11 20:57\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -16,7 +16,45 @@ msgstr ""
 "X-Crowdin-File: /main/translations/epn/assignments.pot\n"
 "X-Crowdin-File-ID: 40946\n"
 
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/assignments.adoc:1
+#: en/epn/modules/ROOT/pages/assignments.adoc:1
+#, no-wrap
+msgid "Final assignments"
+msgstr "Compiti finali"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/assignments.adoc:22
+#: en/epn/modules/ROOT/pages/assignments.adoc:33
+#, no-wrap
+msgid "Assignment submission"
+msgstr "Consegna del compito"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/assignments.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:54
+msgid "Assignments can be submitted from the online (HTML) version of the course."
+msgstr "I compiti possono essere consegnati dalla versione online (HTML) del corso."
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
+#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:49
+#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:59
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:16
+#: en/data-use/modules/ROOT/pages/exercise1.adoc:1
+#: en/epn/modules/ROOT/pages/assignments.adoc:8
+#: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
+#: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:13
+#, no-wrap
+msgid "Exercise 1"
+msgstr ""
+
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -243,33 +281,29 @@ msgid "&nbsp;"
 msgstr ""
 
 #. type: Title ==
-#: en/data-use/modules/ROOT/pages/exercise1.adoc:1
-#: en/epn/modules/ROOT/pages/assignments.adoc:8
-#: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
-#: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:13
-#, no-wrap
-msgid "Exercise 1"
-msgstr ""
-
-#. type: Title ==
-#: en/data-use/modules/ROOT/pages/exercise2.adoc:1
-#: en/epn/modules/ROOT/pages/assignments.adoc:16
-#, no-wrap
-msgid "Exercise 2"
-msgstr ""
-
-#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:59
+#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:100
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:35
 #: en/data-use/modules/ROOT/pages/exercise3.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:25
 #, no-wrap
 msgid "Exercise 3"
 msgstr ""
 
-#. type: Title =
-#: en/epn/modules/ROOT/pages/assignments.adoc:1
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:120
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:72
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:87
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:26
+#: en/data-use/modules/ROOT/pages/exercise2.adoc:1
+#: en/epn/modules/ROOT/pages/assignments.adoc:16
 #, no-wrap
-msgid "Final assignments"
-msgstr "Compiti finali"
+msgid "Exercise 2"
+msgstr ""
 
 #. type: delimited block =
 #: en/epn/modules/ROOT/pages/assignments.adoc:6
@@ -313,12 +347,6 @@ msgstr "registrazione di gruppo (solo una persona del gruppo deve caricare la re
 msgid "*Scoping a Participant node*\n"
 msgstr "*Esame di un nodo partecipante*\n"
 
-#. type: Title ==
-#: en/epn/modules/ROOT/pages/assignments.adoc:33
-#, no-wrap
-msgid "Assignment submission"
-msgstr "Consegna del compito"
-
 #. type: delimited block *
 #: en/epn/modules/ROOT/pages/assignments.adoc:37
 msgid "Please *submit your assignment files using the form below*.  If you do not see a form, you can also visit the https://gbif.app.box.com/f/8435157e5a574b5487b5ef087f575328:[submission site^] in a new window."
@@ -359,11 +387,6 @@ msgstr "Group1-Russell-Exercise3.docx"
 #: en/epn/modules/ROOT/pages/assignments.adoc:48
 msgid "Contact training@gbif.org if you have any questions."
 msgstr "Per qualsiasi domanda, contattare training@gbif.org."
-
-#. type: Plain text
-#: en/epn/modules/ROOT/pages/assignments.adoc:54
-msgid "Assignments can be submitted from the online (HTML) version of the course."
-msgstr "I compiti possono essere consegnati dalla versione online (HTML) del corso."
 
 #. type: delimited block +
 #: en/epn/modules/ROOT/pages/assignments.adoc:62

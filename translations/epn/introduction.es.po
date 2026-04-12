@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-10 14:23+0000\n"
-"PO-Revision-Date: 2026-04-11 15:08\n"
+"POT-Creation-Date: 2026-04-11 20:09+0000\n"
+"PO-Revision-Date: 2026-04-11 20:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -16,7 +16,35 @@ msgstr ""
 "X-Crowdin-File: /main/translations/epn/introduction.pot\n"
 "X-Crowdin-File-ID: 40970\n"
 
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:9
+#: en/data-use/modules/ROOT/pages/navigation.adoc:3
+#: en/epn/modules/ROOT/pages/introduction.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:9
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:9
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:9
+#: en/nodes/modules/ROOT/pages/navigation.adoc:5
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:9
+#, no-wrap
+msgid "Left navigation"
+msgstr "Navegación izquierda"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:12
+#: en/data-use/modules/ROOT/pages/navigation.adoc:6
+#: en/epn/modules/ROOT/pages/introduction.adoc:19
+#: en/foundations/modules/ROOT/pages/navigation.adoc:12
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:8
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:12
+msgid "You will find the course navigation on the left side of the page. Some of the menu items expand/collapse."
+msgstr "Encontrará la navegación del curso en la parte izquierda de la página. Algunos de los elementos del menú se expanden/contraen."
+
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -243,29 +271,7 @@ msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. type: Title ==
-#: en/data-use/modules/ROOT/pages/navigation.adoc:3
-#: en/epn/modules/ROOT/pages/introduction.adoc:16
-#: en/foundations/modules/ROOT/pages/navigation.adoc:9
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:9
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:9
-#: en/nodes/modules/ROOT/pages/navigation.adoc:5
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:9
-#, no-wrap
-msgid "Left navigation"
-msgstr "Navegación izquierda"
-
-#. type: Plain text
-#: en/data-use/modules/ROOT/pages/navigation.adoc:6
-#: en/epn/modules/ROOT/pages/introduction.adoc:19
-#: en/foundations/modules/ROOT/pages/navigation.adoc:12
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:12
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:12
-#: en/nodes/modules/ROOT/pages/navigation.adoc:8
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:12
-msgid "You will find the course navigation on the left side of the page. Some of the menu items expand/collapse."
-msgstr "Encontrará la navegación del curso en la parte izquierda de la página. Algunos de los elementos del menú se expanden/contraen."
-
-#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:17
 #: en/data-use/modules/ROOT/pages/navigation.adoc:11
 #: en/epn/modules/ROOT/pages/introduction.adoc:24
 #: en/foundations/modules/ROOT/pages/navigation.adoc:17
@@ -278,6 +284,7 @@ msgid "Right navigation"
 msgstr "Navegación derecha"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:20
 #: en/data-use/modules/ROOT/pages/navigation.adoc:14
 #: en/epn/modules/ROOT/pages/introduction.adoc:27
 #: en/foundations/modules/ROOT/pages/navigation.adoc:20
@@ -288,15 +295,8 @@ msgstr "Navegación derecha"
 msgid "You will find individual page contents on the right side of the page."
 msgstr "Encontrará el contenido de cada página a la derecha."
 
-#. type: Target for macro image
-#: en/data-use/modules/ROOT/pages/navigation.adoc:15
-#: en/epn/modules/ROOT/pages/introduction.adoc:28
-#: en/nodes/modules/ROOT/pages/navigation.adoc:17
-#, no-wrap
-msgid "epn::course-right-nav.png"
-msgstr "epn::course-right-nav.png"
-
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:25
 #: en/data-use/modules/ROOT/pages/navigation.adoc:19
 #: en/epn/modules/ROOT/pages/introduction.adoc:32
 #: en/foundations/modules/ROOT/pages/navigation.adoc:25
@@ -309,6 +309,7 @@ msgid "Bottom navigation"
 msgstr "Navegación inferior"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:28
 #: en/data-use/modules/ROOT/pages/navigation.adoc:22
 #: en/epn/modules/ROOT/pages/introduction.adoc:35
 #: en/foundations/modules/ROOT/pages/navigation.adoc:28
@@ -319,17 +320,8 @@ msgstr "Navegación inferior"
 msgid "At the bottom of each page you will find forward and back buttons to move you through the content."
 msgstr "En la parte inferior de cada página encontrará botones para avanzar y retroceder por el contenido."
 
-#. type: Target for macro image
-#: en/data-use/modules/ROOT/pages/navigation.adoc:23
-#: en/epn/modules/ROOT/pages/introduction.adoc:36
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:29
-#: en/nodes/modules/ROOT/pages/navigation.adoc:25
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:29
-#, no-wrap
-msgid "epn::course-bottom-nav.png"
-msgstr "epn::course-bottom-nav.png"
-
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:33
 #: en/data-use/modules/ROOT/pages/navigation.adoc:27
 #: en/epn/modules/ROOT/pages/introduction.adoc:40
 #: en/foundations/modules/ROOT/pages/navigation.adoc:33
@@ -342,6 +334,7 @@ msgid "Action icons"
 msgstr "Iconos de acción"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:36
 #: en/data-use/modules/ROOT/pages/navigation.adoc:30
 #: en/epn/modules/ROOT/pages/introduction.adoc:43
 #: en/foundations/modules/ROOT/pages/navigation.adoc:36
@@ -353,6 +346,7 @@ msgid "The course is comprised of modules. Each modules contains a series of act
 msgstr "El curso se compone de módulos. Cada módulo contiene una serie de acciones que debe completar. Puede incluir tareas de lectura, vídeos que ver, notas que tomar y ejercicios que realizar."
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:38
 #: en/data-use/modules/ROOT/pages/navigation.adoc:32
 #: en/epn/modules/ROOT/pages/introduction.adoc:45
 #: en/foundations/modules/ROOT/pages/navigation.adoc:38
@@ -364,6 +358,7 @@ msgid "Look for the following icons indicating you need to take action:"
 msgstr "Busque los siguientes iconos que le indican que debe actuar:"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:41
 #: en/data-use/modules/ROOT/pages/navigation.adoc:35
 #: en/epn/modules/ROOT/pages/introduction.adoc:48
 #: en/foundations/modules/ROOT/pages/navigation.adoc:41
@@ -375,6 +370,7 @@ msgid "Reading assignments"
 msgstr "Tareas de lectura"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:44
 #: en/data-use/modules/ROOT/pages/navigation.adoc:38
 #: en/epn/modules/ROOT/pages/introduction.adoc:51
 #: en/foundations/modules/ROOT/pages/navigation.adoc:44
@@ -386,6 +382,7 @@ msgid "Watch a video"
 msgstr "Ver un vídeo"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:47
 #: en/data-use/modules/ROOT/pages/navigation.adoc:41
 #: en/epn/modules/ROOT/pages/benefits-of-node.adoc:46
 #: en/epn/modules/ROOT/pages/introduction.adoc:54
@@ -401,6 +398,7 @@ msgid "Check your understanding"
 msgstr "Compruebe su comprensión"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:50
 #: en/data-use/modules/ROOT/pages/navigation.adoc:44
 #: en/epn/modules/ROOT/pages/introduction.adoc:57
 #: en/foundations/modules/ROOT/pages/navigation.adoc:50
@@ -412,6 +410,7 @@ msgid "Complete an activity or exercise"
 msgstr "Complete una actividad o ejercicio"
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:52
 #: en/data-use/modules/ROOT/pages/navigation.adoc:46
 #: en/epn/modules/ROOT/pages/introduction.adoc:59
 #: en/foundations/modules/ROOT/pages/navigation.adoc:52
@@ -421,6 +420,24 @@ msgstr "Complete una actividad o ejercicio"
 #: en/project-planning/modules/ROOT/pages/navigation.adoc:52
 msgid "Discuss with your peers"
 msgstr "Debate con sus compañeros"
+
+#. type: Target for macro image
+#: en/data-use/modules/ROOT/pages/navigation.adoc:15
+#: en/epn/modules/ROOT/pages/introduction.adoc:28
+#: en/nodes/modules/ROOT/pages/navigation.adoc:17
+#, no-wrap
+msgid "epn::course-right-nav.png"
+msgstr "epn::course-right-nav.png"
+
+#. type: Target for macro image
+#: en/data-use/modules/ROOT/pages/navigation.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:36
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:29
+#: en/nodes/modules/ROOT/pages/navigation.adoc:25
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:29
+#, no-wrap
+msgid "epn::course-bottom-nav.png"
+msgstr "epn::course-bottom-nav.png"
 
 #. type: Title =
 #: en/epn/modules/ROOT/pages/introduction.adoc:1

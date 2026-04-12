@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 13:32+0000\n"
-"PO-Revision-Date: 2026-04-11 15:05\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
+"PO-Revision-Date: 2026-04-11 20:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,6 +17,7 @@ msgstr ""
 "X-Crowdin-File-ID: 40944\n"
 
 #. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/acknowledgements.adoc:1
 #: en/data-use/modules/ROOT/pages/acknowledgements.adoc:1
 #: en/epn/modules/ROOT/pages/acknowledgements.adoc:1
 #: en/grscicoll/modules/ROOT/pages/acknowledgements.adoc:1
@@ -28,10 +29,26 @@ msgid "Acknowledgements "
 msgstr "Agradecimientos "
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/acknowledgements.adoc:7
 #: en/data-use/modules/ROOT/pages/acknowledgements.adoc:5
 #: en/epn/modules/ROOT/pages/acknowledgements.adoc:5
 msgid "The success of this course depends heavily on the support provided to participants from GBIF's network of capacity enhancement mentors.  Visit the GBIF page on https://www.gbif.org/mentors[capacity enhancement mentoring^] to read more about these individuals and their contributions."
 msgstr "El éxito de este curso depende en gran medida del apoyo prestado a los participantes de la red de mentores de GBIF para la mejora de capacidades. Visite la página de GBIF en https://www.gbif.org/mentors[capacity enhancement mentoring^] para aprender más sobre estas personas y sus contribuciones."
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/acknowledgements.adoc:9
+#: en/epn/modules/ROOT/pages/acknowledgements.adoc:15
+#: en/foundations/modules/ROOT/pages/acknowledgements.adoc:12
+msgid "The following individuals are recognized for their significant contributions to the course design, materials and instruction:"
+msgstr "Se reconoce a las siguientes personas por sus importantes contribuciones al diseño del curso, sus materiales y su enseñanza:"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/acknowledgements.adoc:25
+#: en/epn/modules/ROOT/pages/acknowledgements.adoc:26
+#: en/foundations/modules/ROOT/pages/acknowledgements.adoc:24
+#, no-wrap
+msgid "*Originators of the curriculum\n"
+msgstr "*Creadores del plan de estudios\n"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/acknowledgements.adoc:6
@@ -60,12 +77,6 @@ msgstr "Reunión de los instructores originales de este curso, Copenhague, 2019.
 #, no-wrap
 msgid "epn::Trainers.jfif"
 msgstr "epn::Trainers.jfif"
-
-#. type: Plain text
-#: en/epn/modules/ROOT/pages/acknowledgements.adoc:15
-#: en/foundations/modules/ROOT/pages/acknowledgements.adoc:12
-msgid "The following individuals are recognized for their significant contributions to the course design, materials and instruction:"
-msgstr "Se reconoce a las siguientes personas por sus importantes contribuciones al diseño del curso, sus materiales y su enseñanza:"
 
 #. type: Plain text
 #: en/epn/modules/ROOT/pages/acknowledgements.adoc:17
@@ -111,11 +122,4 @@ msgstr "Maheva Bagard Laursen (Secretariado de GBIF)*"
 #: en/epn/modules/ROOT/pages/acknowledgements.adoc:25
 msgid "Laura Russell (GBIF Secretariat)*"
 msgstr "Laura Russell (Secretariado de GBIF)*"
-
-#. type: Plain text
-#: en/epn/modules/ROOT/pages/acknowledgements.adoc:26
-#: en/foundations/modules/ROOT/pages/acknowledgements.adoc:24
-#, no-wrap
-msgid "*Originators of the curriculum\n"
-msgstr "*Creadores del plan de estudios\n"
 
