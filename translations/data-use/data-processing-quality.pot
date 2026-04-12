@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-11 12:37+0000\n"
+"POT-Creation-Date: 2026-04-12 20:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:23
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:329
 msgid ""
 "Below you will find a selected reading from Arthur Chapman’s guide "
 "“Principles of data quality”.  https://www.gbif.org/document/80509/"
@@ -163,7 +163,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:49
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:26
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:332
 msgid ""
 "Before a detailed discussion on data quality and its application to species-"
 "occurrence data can take place, there are a number of concepts that need to "
@@ -174,14 +174,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:51
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:28
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:334
 #, no-wrap
 msgid "*Species-occurrence data*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:55
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:32
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:338
 msgid ""
 "Species-occurrence data is used here to include specimen label data attached "
 "to specimens or lots housed in museums and herbaria, observational data and "
@@ -198,7 +198,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:58
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:35
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:341
 msgid ""
 "In general the data are also tied to a taxonomic name, but unidentified "
 "collections may also be included.  The term has occasionally been used "
@@ -207,14 +207,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:60
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:37
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:343
 #, no-wrap
 msgid "*Primary species data*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:63
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:40
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:346
 msgid ""
 "“Primary species data” is used to describe raw collection data and data "
 "without any spatial attributes.  It includes taxonomic and nomenclatural "
@@ -224,14 +224,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:65
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:42
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:348
 #, no-wrap
 msgid "*Accuracy and Precision*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:67
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:44
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:350
 msgid ""
 "Accuracy and precision are regularly confused and the differences are not "
 "generally understood."
@@ -239,7 +239,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:46
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:352
 msgid ""
 "Accuracy refers to the closeness of measured values, observations or "
 "estimates to the real or true value (or to a value that is accepted as being "
@@ -248,7 +248,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:76
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:53
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:359
 msgid ""
 "Precision (or Resolution) can be divided into two main types.  Statistical "
 "precision is the closeness with which repeated observations conform to "
@@ -264,7 +264,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:56
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:362
 msgid ""
 "These terms – accuracy and precision – can also be applied to non-spatial "
 "data as well as to spatial data.  For example, a collection may have an "
@@ -275,14 +275,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:81
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:58
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:364
 #, no-wrap
 msgid "*Data quality*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:86
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:63
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:369
 msgid ""
 "Data quality is multidimensional, and involves data management, modelling "
 "and analysis, quality control and assurance, storage and presentation.  As "
@@ -296,7 +296,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:88
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:65
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:371
 msgid ""
 "Redman (2001), suggested that for data to be fit for use they must be "
 "accessible, accurate, timely, complete, consistent with other sources, "
@@ -306,7 +306,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:92
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:69
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:375
 msgid ""
 "One issue that a data custodian may need to consider is what may need to be "
 "done with the database to increase its usability to a wider audience (i.e. "
@@ -319,14 +319,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:94
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:71
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:377
 #, no-wrap
 msgid "*Quality Assurance/ Quality Control*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:98
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:75
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:381
 msgid ""
 "The difference between quality control and quality assurance is not always "
 "clear.  Taulbee (1996) makes the distinction between Quality Control and "
@@ -341,7 +341,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:100
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:77
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:383
 msgid ""
 "In a more business-oriented approach, Redman (2001) defines Quality "
 "Assurance as “those activities that are designed to produce defect-free "
@@ -351,7 +351,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:102
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:79
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:385
 msgid ""
 "How these terms are to be applied in practice is not clear, and in most "
 "cases the terms seem to be largely used synonymously to describe the overall "
@@ -360,14 +360,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:104
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:81
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:387
 #, no-wrap
 msgid "*Uncertainty*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:86
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:392
 msgid ""
 "Uncertainty may be thought of as a “measure of the incompleteness of one’s "
 "knowledge or information about an unknown quantity whose true value could be "
@@ -381,14 +381,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:111
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:88
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:394
 #, no-wrap
 msgid "*Error*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:95
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:401
 msgid ""
 "Error encompasses both the imprecision of data and their inaccuracies.  "
 "There are many factors that contribute to error.  Error is generally seen as "
@@ -402,7 +402,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:98
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:404
 msgid ""
 "An example may be the use of a different geodetic datum1 – where, if used "
 "throughout the analysis, may not cause any major problems.  Problems will "
@@ -414,7 +414,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:125
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:102
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:408
 msgid ""
 "“Because error is inescapable, it should be recognized as a fundamental "
 "dimension of data” (Chrisman 1991).  Only when error is included in a "
@@ -426,14 +426,14 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:127
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:104
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:410
 #, no-wrap
 msgid "*Validation and Cleaning*\n"
 msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:133
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:110
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:416
 msgid ""
 "Validation is a process used to determine if data are inaccurate, "
 "incomplete, or unreasonable.  The process may include format checks, "
@@ -450,7 +450,7 @@ msgstr ""
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:138
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:115
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:421
 msgid ""
 "Data cleaning refers to the process of “fixing” errors in the data that have "
 "been identified during the validation process.  The term is synonymous with "
