@@ -83,15 +83,6 @@ msgstr ""
 msgid "*Data management*\n"
 msgstr ""
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:6
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:6
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:6
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:6
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:6
-msgid "Familiarize yourself with the use case scenario."
-msgstr ""
-
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:8
@@ -196,14 +187,6 @@ msgid "Evaluate the dataset and identify which types of errors are present."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:69
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:82
-msgid ""
-"Identify possible ways to correct those issues and perform those corrections "
-"for as many of the errors as you can."
-msgstr ""
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:70
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:83
@@ -214,197 +197,295 @@ msgid ""
 "Use the exercise sheet to provide your answers and submit the spreadsheet."
 msgstr ""
 
-#. type: Title =
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:1
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:8
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:8
+msgid "A suggested solution will be provided in the solution appendix."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:10
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:10
+msgid "This Use Case is not graded."
+msgstr ""
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:59
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:44
 #, no-wrap
-msgid "Use Case - Invasive species"
+msgid "Analogue data capture example"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:61
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:46
+#, no-wrap
+msgid "data-mobilization::use-case-2-lepidoptera-analogue.png"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:10
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
+msgid ""
+"Download logs 1 and 2 xref:attachment$UC2-LS-2-ForCapture.zip[UC2-LS-2-"
+"ForCapture.zip]. (943 KB)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:84
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
+msgid "What data structure would you use to reflect the data in these logs?"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:85
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:71
+msgid "Create a spreadsheet using this structure and the data from the logs."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:96
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:84
+msgid ""
+"Download xref:attachment$UC2-LS-3-ForCleaning.xlsx[UC2-LS-3-ForCleaning."
+"xlsx]. (44 KB)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:98
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:106
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:86
+msgid ""
+"Identify possible ways to correct those issues, and perform those "
+"corrections for as many of the errors present as you can."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:109
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:97
+msgid ""
+"Download xref:attachment$UC2-LS-4-ForPublication.xlsx[UC2-LS-4-"
+"ForPublication.xlsx]. (58 KB)"
+msgstr ""
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:1
 #, no-wrap
-msgid "*Tracking invasive species*\n"
+msgid "Use Case - Butterfly monitoring"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:6
+msgid "Familiarize yourself with the practice use case scenario."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:15
+#, no-wrap
+msgid "*Butterfly Monitoring*\n"
 msgstr ""
 
 #. type: Block title
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:12
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:17
 #, no-wrap
-msgid "https://www.gbif.org/species/2970418[Leucaena leucocephala (Lam.) de Wit] observed in Hawaii by Sharon Grant (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])"
+msgid "https://www.gbif.org/occurrence/5177352092[Coenonympha pamphilus (Linnaeus, 1758)] Observed in Sweden by Tobias Karlsson (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])"
 msgstr ""
 
 #. type: Target for macro image
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:13
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:18
 #, no-wrap
-msgid "data-mobilization::use-case-invasives-hawaii.png"
+msgid "data-mobilization::Use-Case-Practice-Coenonympha-pamphilus.png"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:21
 msgid ""
 "This narrative was developed as a basis for practical exercises in the "
 "biodiversity data mobilization course and the exercise concept and content "
-"was developed by Sharon Grant, John Wieczorek, David Bloom and Laura Anne "
-"Russell."
+"was developed by Kate Ingenloff and Laura Anne Russell, based on previous "
+"work by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Anne "
+"Russell, Mélianie Raymond and Nicolas Noé."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:20
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:23
 msgid ""
 "It is a fictionalized scenario based on a real dataset and is meant only for "
-"instructional purposes.  The original dataset is attributed to Simpson A "
-"(2016). Big Island Invasive Species Committee - Pest Reports - 2005-2010. "
-"Version 4.1.  United States Geological Survey. https://doi.org/10.15468/"
-"hp7zwr[Occurrence Dataset] accessed via GBIF.org on 2017-07-13."
+"instructional purposes. The original dataset is attributed to Pettersson L B "
+"(2025). Swedish Butterfly Monitoring Scheme (SeBMS). Version 1.12. "
+"Department of Biology, Lund University. Sampling event dataset https://doi."
+"org/10.15468/othndo accessed via GBIF.org on 2026-04-12."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:27
 msgid ""
-"The Hawaii Invasive Species Council (HISC) received a federal grant to "
-"collaborate with high schools as part of Hawaii’s statewide curriculum on "
-"Invasive Species to increase local knowledge about invasive species, "
-"increase data collection and produce annotated checklists for under reported "
-"areas.  A full-time Project Manager is employed to oversee the project.  All "
-"funds and allocations are managed by the HISC Fiscal Associate."
+"The Swedish Butterfly Network (SBN) has been providing a framework for "
+"observational groups to capture data about the occurrence of butterflies "
+"(Lepidoptera) on an annual basis since 2009."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:29
 msgid ""
-"The Manager of each island’s Invasive Species Committee (ISC) received a sub-"
-"award to set up local education programs and collect data.  The programs "
-"trained high school students to become Student Mentors and to facilitate "
-"image and data collection by members of the local community.  The Big Island "
-"Invasive Species Committee (BIISC) received a further sub-award to extend "
-"their central database to accommodate each ISC’s data, provide participating "
-"schools with their own websites, and maintain a single, searchable data "
-"portal to serve government, public, and scholarly research efforts."
+"This network of observers use a standard protocol based on Pollard walks to "
+"capture this information on paper sheets that they send to the national SBN "
+"office. SBN processes the log files and produces an annual report based on "
+"the sightings provided by the observation groups, with updated distribution "
+"maps and analysis of population trends for some key species."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:31
 msgid ""
-"Two schools on each island were selected because they were located in areas "
-"where knowledge and documentation of invasive species assessment was poor or "
-"non-existent.  Teachers worked with their local Invasive Species Council "
-"(ISC) Outreach Associate to create teaching materials detailing 21 important "
-"invasive plant species, including how to identify each species’ life stages "
-"and the most effective control methods."
+"The SBN headquarters is mainly staffed with volunteers. The SBN steering "
+"committee is trying to identify a more efficient workflow for the creation "
+"of digital data because they would like to start publishing these data "
+"online to GBIF. Their ultimate objective is to raise the profile of the "
+"network and strengthen collaborations with national groups like the Swedish "
+"Environmental Protection Agency, the Swedish Transport Administration, and "
+"the Swedish County Administration Boards to influence conservation policies "
+"for Lepidoptera in Sweden."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:35
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:35
 msgid ""
-"The Graduate School of the University of Hawaii in Maui (UHM) runs a course "
-"in community outreach.  Four botany students from the University, as a part "
-"of their final course assessment, are validating the identifications from "
-"the images and descriptions submitted by each high school to their local ISC."
+"Two different recording methods are used by SBN. One is the point site "
+"counts which cover an area with a 25 m radius for 15 min per visit. The "
+"other method is fixed-route Pollard walk transects, typically 0.5-3 km in "
+"length. These two methods enable the monitoring scheme to assess yearly "
+"changes both in the number of butterflies seen and in species composition."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:37
 msgid ""
-"Students from each high school organized a series of day-long community "
-"surveys in their local neighbourhoods.  Participants, guided by local ISC "
-"Early Detection Technicians and Student Mentors, visited various locations "
-"where they were given photo guides and assigned a route to follow during "
-"collection events.  Along each route, they were tasked with identifying the "
-"target species and taking 1-3 photos of them using GPS-enabled mobile phones."
+"These sampling efforts happen April 1st to September 30th annually. Sites "
+"are visited 3-7 times per season."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:45
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:39
 msgid ""
-"Details, describing every observation of the 21 invasive species of "
-"interest, were recorded using a digital data collection form during each "
-"community collection event.  Participants uploaded the images captured on "
-"mobile phones and were encouraged to click their locations using a Google "
-"map, embedded in the form, to assign latitude and longitude to each "
-"observation.  The form’s design was based on the HISC pest reporting form."
+"The data are, for each species, the sum total of all individuals observed "
+"during the visit. For transect sites it is the sum of all individuals from "
+"all segments."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:40
+msgid ""
+"The logs contain observations of species that were actually present at the "
+"surveyed sites, but the surveyor would have looked for all species that are "
+"included in the survey design. For visits to sites where no observations "
+"were made at all, \"SpeciesIncludedInSurvey\" will have a status set to "
+"\"Absent\". Additionally, information about whether a visit is a null visit "
+"(i.e. true = no survey species observed) or not (i.e. false = one or more "
+"survey species were observed) is included (see \"noObservations\")."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:41
+msgid ""
+"Site coordinates represent midpoints for point sites and centroid midpoints "
+"for transect sites."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:42
+msgid ""
+"Values under stateProvince represent 24 of the 25 Swedish provinces (swe "
+"landskap). The 25th province (Lappland) is represented by the 5 areas called "
+"’lappmarker’ (swe)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:43
+msgid ""
+"Event time is reported for each sampling event as starttime/endtime, or "
+"starttime only."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:51
+msgid ""
+"The SBN office uses groups of volunteers to digitize the paper logs and "
+"produce digital spreadsheets. The spreadsheets are very simple and include "
+"three datasheets:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:53
+msgid "the first captures the information linked to the sampling efforts"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:54
+msgid "the second the weather conditions and other noted facts"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:55
+msgid ""
+"the third with the species encountered and the number of individuals observed"
 msgstr ""
 
 #. type: Target for macro image
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:46
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:56
 #, no-wrap
-msgid "data-mobilization::use-case-invasives-data-collection.png"
+msgid "data-mobilization::Use-Case-Practice-Simple-Spreadsheet.jpg"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:61
 msgid ""
-"A database, created and hosted by the Computing Department at UHM, holds the "
-"imagery and data from the online form, but these data are not accessible "
-"publicly.  Data were exported as comma separated value (.csv) files and "
-"given to the four UHM graduate students for taxonomic validation using the "
-"images and descriptions submitted.  The BIISC GIS Analyst used the Google "
-"Maps coordinates and image EXIF data to check observations for quality and "
-"to add any missing georeferences.  Student mentors renamed all image files "
-"to match the observation number for cross referencing later at BIISC."
+"Download the xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise "
+"sheet,opts=download]. (MS Word, 2.9 MB)"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:58
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:67
 msgid ""
-"Download the xref:attachment$UC-IS-exercise-sheet_EN.docx[exercise sheet,"
-"opts=download]. (MS Word, 342 KB)"
+"Imagine you are one of the volunteers digitizing the paper logs received at "
+"the SBN headquarters. You have received two paper logs."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:67
-msgid ""
-"The BIISC is now planning to make all of the data from the project publicly "
-"available by publishing datasets to GBIF.  As the BIISC’s Outreach "
-"Assistant, you must identify the relevant Darwin Core fields to accommodate "
-"the data from the online form.  You’ve noticed that additional data "
-"describing species and locations have been added to the data form by the "
-"graduate students performing validations.  To accommodate this data, you "
-"need to extend the data structure to aggregate the data from the online form "
-"with the added taxonomy and georeferences."
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:72
+msgid "Use the exercise sheet to provide your answers."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:69
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:78
 msgid ""
-"Download xref:attachment$UC-IS-1-ForCapture.csv[UC-IS-1-ForCapture.csv,"
-"opts=download]. (7.1 MB)"
+"Taking the role of one of the volunteers with advanced computer skills, "
+"imagine you have been assigned the responsibility for data quality issues."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:70
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:80
 msgid ""
-"Using the downloaded dataset, produce a spreadsheet as example of the "
-"extended data structure and the fields you’ve identified as relevant for "
-"Darwin Core."
+"Your main task is to reduce the amount of data that is currently discarded "
+"(around a 15%) before processing due to errors and inconsistencies."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:78
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:82
 msgid ""
-"Over the summer, interns at the HISC main office created checklists from the "
-"original occurrence data that were collected and augmented from the online "
-"form.  Taking the role of the HSC Project Leader, you must now carry out "
-"final quality checks prior to publication."
+"You have received a dataset as the raw product of the digitization effort."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:93
 msgid ""
-"Download xref:attachment$UC-IS-2-ForCleaning.xlsx[UC-IS-2-ForCleaning.xlsx,"
-"opts=download]. (156 KB)"
+"For this exercise, you will be responsible for publishing the cleaned data "
+"online through the GBIF network."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:91
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:95
 msgid ""
-"The HISC is now ready to publish the checklist data and associated "
-"occurrences to GBIF.  For this exercise, you will take the role of the "
-"Project Leader.  Your responsibility: publishing the cleaned checklist data "
-"and associated occurrences online through the GBIF network."
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:93
-msgid ""
-"Download xref:attachment$UC-IS-3-ForPublication.xlsx[UC-IS-3-ForPublication."
-"xlsx,opts=download]. (99 KB)"
+"The volunteer in charge of data quality has provided an already cleaned and "
+"standardized dataset to be published."
 msgstr ""
