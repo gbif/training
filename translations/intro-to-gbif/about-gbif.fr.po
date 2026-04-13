@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 20:09+0000\n"
-"PO-Revision-Date: 2026-04-11 20:50\n"
+"POT-Creation-Date: 2026-04-12 20:32+0000\n"
+"PO-Revision-Date: 2026-04-12 21:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -82,6 +82,11 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/introduction.adoc:31
 #: en/epn/modules/ROOT/pages/introduction.adoc:39
 #: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:291
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:435
 #: en/foundations/modules/ROOT/pages/navigation.adoc:16
 #: en/foundations/modules/ROOT/pages/navigation.adoc:24
 #: en/foundations/modules/ROOT/pages/navigation.adoc:32
@@ -291,7 +296,29 @@ msgstr ""
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr "Transcription de la présentation"
+
 #. type: Block title
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:16
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
@@ -313,6 +340,13 @@ msgstr "&nbsp;"
 #, no-wrap
 msgid "Click to expand"
 msgstr "Cliquez pour développer"
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:168
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
+#, no-wrap
+msgid "*Slide 12 - Conclusion*\n"
+msgstr "*Diapositive 12 - Conclusion*\n"
 
 #. type: Title =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:1
@@ -382,18 +416,6 @@ msgstr "Dans cette vidéo (07:40), Kyle Copas, responsable de la communication d
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:35
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$introduction_to_gbif_v1_1080p.mp4[download] it locally (MP4 - 35.8 MB)."
 msgstr "Si vous ne pouvez pas regarder la vidéo Vimeo intégrée, vous pouvez xref:attachment$introduction_to_gbif_v1_1080p-1080p.mp4[la télécharger] localement (MP4 - 35,8 Mo)."
-
-#. type: Title ==
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
-msgstr "Transcription de la présentation"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:52
@@ -594,12 +616,6 @@ msgid "intro-to-gbif::intro-to-gbif_Slide12.png"
 msgstr "intro-to-gbif::intro-to-gbif_Slide12.png"
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
-#, no-wrap
-msgid "*Slide 12 - Conclusion*\n"
-msgstr "*Diapositive 12 - Conclusion*\n"
-
-#. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:128
 msgid "So thanks, best of luck and welcome to the GBIF community—and good luck!"
 msgstr "Merci, bonne chance et bienvenue dans la communauté GBIF - et bonne chance !"
@@ -607,7 +623,7 @@ msgstr "Merci, bonne chance et bienvenue dans la communauté GBIF - et bonne cha
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:130
 msgid "This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Kyle Copas. If you have any questions on the course content, you can reach out at training@gbif.org."
-msgstr "Cette vidéo fait partie d'une série de présentations développées pour le cours d'introduction au GBIF. Elle a été créée et racontée par moi, Kyle Copas. Si vous avez des questions sur le contenu du cours, vous pouvez me contacter à l'adresse training@gbif.org."
+msgstr "Cette vidéo fait partie d'une série de présentations développées pour le cours d'introduction au GBIF. Elle a été créée et racontée par moi, Kyle Copas. Si vous avez des questions sur le contenu du cours, vous pouvez me contacter à l'adresse training@gbif.org. ."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:134
@@ -750,8 +766,8 @@ msgstr "Grâce au https://www.gbif.org/literature-tracking [programme de suivi d
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:205
-msgid "The https://www.gbif.org/science-review[GBIF Science Review^] highlights an annual selection of key research uses drawn from the literature tracking programme. The peer-reviewed articles summarized in the Review offer a partial but instructive view of the wide range of research investigations that are enhanced and supported by free and open access to biodiversity data from the GBIF network of Participants, nodes and publishers."
-msgstr "Le https://www.gbif.org/science-review[GBIF Science Review^] met en lumière une sélection annuelle d'utilisations clés de la recherche tirées du programme de suivi de la littérature. Les articles évalués par des pairs et résumés dans la revue offrent une vue partielle mais instructive du large éventail de recherches qui sont améliorées et soutenues par l'accès libre et gratuit aux données sur la biodiversité du réseau de participants, de nœuds et d'éditeurs du GBIF."
+msgid "The https://www.gbif.org/science-review[GBIF Science Review^] highlights an annual selection of key research uses drawn from the literature tracking programme. The peer-reviewed articles summarized in the Review offer a partial but instructive view of the wide range of research investigations that are enhanced and supported by free and open access to biodiversity data from the GBIF network of Participants, nodes and publishers."
+msgstr ""
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:206
@@ -924,7 +940,7 @@ msgstr "Dans cette vidéo, nous allons explorer le rôle important que joue des 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:299
 msgid "GBIF is both a data infrastructure and an international network that exists to enable free and open access to biodiversity data from all sources. "
-msgstr "Le GBIF est à la fois une infrastructure de données et un réseau international qui existe pour permettre un accès libre et gratuit aux données sur la biodiversité provenant de toutes les sources."
+msgstr "Le GBIF est à la fois une infrastructure de données et un réseau international qui existe pour permettre un accès libre et gratuit aux données sur la biodiversité provenant de toutes les sources. "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:301
@@ -946,7 +962,7 @@ msgstr "*Diapositive 2 - L'établissement d'un nœud est un engagement pris par 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:307
 msgid "GBIF is an intergovernmental initiative and its members—formally known as Participants consist of countries, economies, and international organizations working together to promote open access to biodiversity data."
-msgstr "Le GBIF est une initiative intergouvernementale et ses membres - formellement connus sous le nom de participants - sont des pays, des économies et des organisations internationales qui travaillent ensemble pour promouvoir le libre accès aux données sur la biodiversité."
+msgstr "Le GBIF est une initiative intergouvernementale et ses membres - formellement connus sous le nom de participants - sont des pays, des économies et des organisations internationales qui travaillent ensemble pour promouvoir le libre accès aux données sur la  biodiversité."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:309
@@ -978,7 +994,7 @@ msgstr "Un nœud est une équipe désignée par un pays ou une organisation part
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:319
 msgid "Together, they build and support the infrastructure needed to deliver biodiversity information. "
-msgstr "Ensemble, ils construisent et soutiennent l'infrastructure nécessaire pour fournir des informations sur la biodiversité."
+msgstr "Ensemble, ils construisent et soutiennent l'infrastructure nécessaire pour fournir des informations sur la biodiversité. "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:321
@@ -1015,7 +1031,7 @@ msgstr "Les nœuds nationaux sont établis par les pays. Ils coordonnent le part
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:333
 msgid "This allows data holders, researchers, policymakers, and other partners to work together and set priorities for how the country participates in the GBIF network."
-msgstr "Cela permet aux détenteurs de données, aux chercheurs, aux décideurs politiques et aux autres partenaires de travailler ensemble et de fixer des priorités pour la participation du pays au réseau GBIF."
+msgstr "Cela permet aux détenteurs de données, aux chercheurs, aux décideurs politiques et aux autres partenaires de travailler ensemble et de fixer des priorités pour la participation du pays au réseau GBIF. ."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:335
@@ -1111,7 +1127,7 @@ msgstr "Ils aident les détenteurs de données sur la biodiversité à publier e
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:362
 msgid "They help make the publication of primary data - and the citation of its reuse -  part of the scientific mainstream. "
-msgstr "Ils contribuent à faire de la publication des données primaires - et de la citation de leur réutilisation - un élément du courant scientifique dominant."
+msgstr "Ils contribuent à faire de la publication des données primaires - et de la citation de leur réutilisation - un élément du courant scientifique dominant.  "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:364
@@ -1197,7 +1213,7 @@ msgstr "Ils proposent des outils, une infrastructure et un service d'assistance 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:394
 msgid "By making the connection to GBIF, nodes enable the integration of data mobilized their networks with relevant data published by other countries and organizations. "
-msgstr "En se connectant au GBIF, les nœuds permettent l'intégration des données mobilisées par leurs réseaux avec les données pertinentes publiées par d'autres pays et organisations."
+msgstr "En se connectant au GBIF, les nœuds permettent l'intégration des données mobilisées par leurs réseaux avec les données pertinentes publiées par d'autres pays et organisations. "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:396
@@ -1219,12 +1235,12 @@ msgstr "*Diapositive 10 - Rôles des participants*\n"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:402
 msgid "Two main roles are assigned when a Participant joins GBIF: the Head of Delegation and the node manager. "
-msgstr "Deux rôles principaux sont attribués lorsqu'un participant rejoint le GBIF : le chef de délégation et le responsable de nœud."
+msgstr "Deux rôles principaux sont attribués lorsqu'un participant rejoint le GBIF : le chef de délégation et le responsable de nœud. "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:404
 msgid "The Head of Delegation represents the country, economy or organization on the GBIF Governing Board, and acts as the Participant’s primary focal point for all GBIF-related activity. "
-msgstr "Le chef de délégation représente le pays, l'économie ou l'organisation au sein du conseil d'administration du GBIF et agit en tant que principal point de contact du participant pour toutes les activités liées au GBIF."
+msgstr "Le chef de délégation représente le pays, l'économie ou l'organisation au sein du conseil d'administration du GBIF et agit en tant que principal point de contact du participant pour toutes les activités liées au GBIF. "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:406
@@ -1353,7 +1369,7 @@ msgstr "*Diapositive 14 - Conclusion*\n"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:452
 msgid "This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Melianie Raymond. If you have any questions on the course content, you can reach out at training@gbif.org."
-msgstr "Cette vidéo fait partie d'une série de présentations développées pour le cours d'introduction au GBIF. Elle a été créée et racontée par moi, Melianie Raymond. Si vous avez des questions sur le contenu du cours, vous pouvez nous contacter à l'adresse training@gbif.org."
+msgstr "Cette vidéo fait partie d'une série de présentations développées pour le cours d'introduction au GBIF. Elle a été créée et racontée par moi, Melianie Raymond. Si vous avez des questions sur le contenu du cours, vous pouvez nous contacter à l'adresse training@gbif.org ."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:456

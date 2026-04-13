@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-12 18:34+0000\n"
+"PO-Revision-Date: 2026-04-12 18:53\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/translations/data-mobilization/install-openrefine.pot\n"
+"X-Crowdin-File-ID: 45070\n"
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:1
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:1
+#, no-wrap
+msgid "Install OpenRefine"
+msgstr "安裝 OpenRefine"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:6
+msgid "Install software required for activities later in the course"
+msgstr "安裝後續課程活動所需之軟體工具"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:8
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:8
+#, no-wrap
+msgid "Open Refine Logo"
+msgstr "Open Refine Logo"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:8
+#, no-wrap
+msgid "data-mobilization::open-refine-logo.png"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:13
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:13
+msgid "https://openrefine.org/[OpenRefine^] is a tool with a set of features for working with tabular data that improves the overall quality of a dataset.  It is an application that runs on your own computer as a small web server, and in order to use it your web browser should point at that web server.  So, think of OpenRefine as a personal and private web application."
+msgstr "https://openrefine.org/[OpenRefine^] 是個專門用來改善資料集整體品質的工具，其中含有許多能處理表格資料的功能。這個應用程式能在你的電腦上做為小型伺服器運行，且為了使用它，須將你的網頁瀏覽器連上該伺服器的位址。因此，請將 OpenRefine想做為一個個人、私人的網路應用程式。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:18
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:18
+msgid "We will use OpenRefine during the data management portion of the course, especially during the practical exercises.  It will be necessary to install OpenRefine on your laptop.  If you are a skilled computer user, you can follow these steps to install the software on your computer.  If you are not confident, please ask for help. Refer to the https://openrefine.org/download.html[OpenRefine download page^] for more details."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:20
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:20
+msgid "Administrative passwords may be required to install software."
+msgstr "在安裝時，可能會需要用到系統管理者密碼。"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:21
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:21
+#, no-wrap
+msgid "Installation Requirements"
+msgstr "安裝需求"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:24
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:24
+msgid "Linux users only: Java JRE installed."
+msgstr "Linux 使用者： 需已安裝Java JRE"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:25
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:25
+msgid "Google Chrome, Microsoft Edge or Mozilla Firefox installed.  Internet Explorer is not supported."
+msgstr "已安裝如Google Chrome、 Microsoft Edge 或Mozilla Firefox 等網頁瀏覽器。請注意，它並不支援 Internet Explorer。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:27
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:27
+msgid "The latest stable release is OpenRefine 3.4.1, released on September 24, 2020. Detailed installation instructions are available at https://docs.openrefine.org/manual/installing/[^]."
+msgstr "最新的OpenRefine穩定版本為發布於2020/9/24的3.4.1版。更多安裝說明請見 https://docs.openrefine.org/manual/installing/[^] 。"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:28
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:28
+#, no-wrap
+msgid "Installation on MS Windows"
+msgstr "在微軟Windows上安裝"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:31
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:44
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:31
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:44
+msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*].  Choose to save the file rather than open it."
+msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*] 。選擇保存文件，而非打開它。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:32
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:32
+msgid "Find the downloaded file.  Right click it, and choose \"Extract all…\". Unzip, and double-click on openrefine.exe or refine.bat if the former does not work."
+msgstr "找到下載好的檔案，點選右鍵選擇「解壓縮全部...」。解壓縮，並雙擊openrefine.exe (若打不開，則點選 refine.bat)。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:33
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:33
+msgid "A command window will appear (don't close it) and soon after a new web browser window will show the application."
+msgstr "接著會跳出一個命令視窗(別關掉它)，稍待後，會出現一個新的web瀏覽器視窗，並顯示該應用程式。"
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:34
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:34
+#, no-wrap
+msgid "Detailed instructions for MS Windows (click to expand)"
+msgstr "詳細說明__Windows系統(點選展開)"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:38
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:47
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:56
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:65
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:74
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:94
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:103
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:112
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:121
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:130
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:139
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:148
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:157
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:166
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:175
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:186
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:208
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:217
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:226
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:235
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:244
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:253
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:38
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:47
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:56
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:65
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:74
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:94
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:103
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:112
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:121
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:130
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:139
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:148
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:157
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:166
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:175
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:186
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:208
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:217
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:226
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:235
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:244
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:253
+msgid "{blank}"
+msgstr "{blank}"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:42
+#, no-wrap
+msgid "data-mobilization::win1-save-download.png"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:51
+#, no-wrap
+msgid "data-mobilization::win2-extract-all.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:53
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:53
+msgid "Find the file you downloaded.  Right click it, and choose \"Extract All…\""
+msgstr "找到下載好的檔案，點選右鍵選擇「解壓縮全部...」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:60
+#, no-wrap
+msgid "data-mobilization::win3-extract-location.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:62
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:62
+msgid "Click \"Extract\""
+msgstr "點選「解壓縮」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:69
+#, no-wrap
+msgid "data-mobilization::win4-create-shortcut.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:71
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:71
+msgid "Find the extracted files.  Optionally, right click \"openrefine\" and choose \"Send to → Desktop (create shortcut)\" to create a shortcut on your desktop.  Then double click \"openrefine\""
+msgstr "找到解壓縮完的檔案，你可以點選「openrefine」後右鍵、選擇「傳送到 → 桌面(建立捷徑)」來在桌面上創建捷徑。接著雙擊點選開啟「openrefine」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:78
+#, no-wrap
+msgid "data-mobilization::win5-run.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:80
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:80
+msgid "A black console window opens, and a short time later the browser opens.  OpenRefine is now ready to use."
+msgstr "一個黑色的命令視窗開啟，短時間後瀏覽器會開啟，接著就能使用OpenRefine了。"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:83
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:83
+#, no-wrap
+msgid "Installation on Mac"
+msgstr "在 Mac 上安裝"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:86
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:86
+msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit]."
+msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit] 。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:88
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:88
+msgid "Download, open, drag icon into the Applications folder.  You do not need to install Java separately."
+msgstr "下載且打開後、把圖示拖曳到應用程式資料夾。這裡你不需要額外分開安裝Java。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:89
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:89
+msgid "Double click on it and a new web browser window will show the application."
+msgstr "雙擊點選它，就會跳出新的視窗來顯示應用程式。"
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:90
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:90
+#, no-wrap
+msgid "Detailed instructions for Mac (click to expand)"
+msgstr "詳細說明__Mac系統(點選展開)"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:98
+#, no-wrap
+msgid "data-mobilization::mac01-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:100
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:100
+msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit], and choose to open it."
+msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit] ，並打開它。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:107
+#, no-wrap
+msgid "data-mobilization::mac02-unidentified-developer.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:109
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:109
+msgid "A warning is shown. Click \"OK\"."
+msgstr "會跳出一個警訊，點選「OK」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:116
+#, no-wrap
+msgid "data-mobilization::mac03-system-preferences.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:118
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:118
+msgid "Open System Preferences."
+msgstr "打開系統偏好設置"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:125
+#, no-wrap
+msgid "data-mobilization::mac04-security-and-privacy.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:127
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:127
+msgid "Open Security & Privacy"
+msgstr "打開「安全與隱私性」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:134
+#, no-wrap
+msgid "data-mobilization::mac05-open-anyway.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:136
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:136
+msgid "Choose \"Open Anyway\" at the bottom."
+msgstr "在按鈕上選擇「無論如何開啟」。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:143
+#, no-wrap
+msgid "data-mobilization::mac06-yes-really-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:145
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:145
+msgid "Choose \"Open\""
+msgstr "點選「打開」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:152
+#, no-wrap
+msgid "data-mobilization::mac07-copy-to-applications.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:154
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:154
+msgid "Finally, the application archive is opened! Drag it to your Applications folder."
+msgstr "最終，應用程式存檔便打開了！把它拖曳到應用程式的資料夾中。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:161
+#, no-wrap
+msgid "data-mobilization::mac08-who-owns-this-computer-anyway.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:163
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:163
+msgid "Double-click the OpenRefine icon.  Another security warning appears!"
+msgstr "雙點OpenRefine 圖示，另一個安全性通知會出現。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:170
+#, no-wrap
+msgid "data-mobilization::mac09-not-the-user.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:172
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:172
+msgid "Go back to \"Security & Privacy\" and click \"Open Anyway\" — again."
+msgstr "回到「安全性&隱私」，並再度點選「無論如何開啟」"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:179
+#, no-wrap
+msgid "data-mobilization::mac10-use-linux-instead.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:181
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:181
+msgid "(To avoid these warnings, the OpenRefine developers would need to pay Apple.)"
+msgstr "(若要避免這些警示出現，OpenRefine 的開發者將需要付錢給Apple)"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:183
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:183
+msgid "Click \"Open\"."
+msgstr "點選「開啟」。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:190
+#, no-wrap
+msgid "data-mobilization::mac11-run.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:192
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:192
+msgid "Finally! The application is running."
+msgstr "終於！應用程式開始運作了"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:196
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:196
+#, no-wrap
+msgid "Installation on Linux"
+msgstr "在 Linux 上安裝"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:199
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:199
+msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]."
+msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:201
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:201
+msgid "Download, extract, then type ./refine to start.  This requires Java to be installed on your computer."
+msgstr "下載、解壓縮，接著輸入 ./refine 來開啟。這會需要Java有安裝在電腦上才能運行。"
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:202
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:202
+#, no-wrap
+msgid "Detailed instructions for Linux (click to expand)"
+msgstr "詳細說明__Linux 系統(點選展開)"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:206
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:206
+msgid "These instructions are for KDE (e.g. Kubuntu, SuSE), but the process is similar for Gnome (e.g. Ubuntu, Red Hat, CentOS)."
+msgstr "這些說明是寫給KDE(如： Kubuntu, SuSE)的，但過程與Gnome (如： Ubuntu, Red Hat, CentOS)很相似。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:212
+#, no-wrap
+msgid "data-mobilization::kde1-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:214
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:214
+msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit].  Open it."
+msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]。 並打開它。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:221
+#, no-wrap
+msgid "data-mobilization::kde2-extract.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:223
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:223
+msgid "Click \"Extract\" to unpack the downloaded application."
+msgstr "點選「解壓縮」來把下載的應用程式解壓縮。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:230
+#, no-wrap
+msgid "data-mobilization::kde3-extract-all.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:232
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:232
+msgid "Choose a suitable place.  I also selected \"Open destination folder after extraction\" and \"Close Ark after extraction\""
+msgstr "選擇適當的儲存空間。我這邊也一併選擇了\"解壓縮完成後打開目的資料夾\"及\"在解壓縮後關閉Ark\"。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:239
+#, no-wrap
+msgid "data-mobilization::kde4-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:241
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:241
+msgid "Right click \"refine\" and choose \"Run in Konsole\".  This is needed so you can safely exit OpenRefine later, by closing the Konsole window."
+msgstr "右鍵點選「refine」且選「在命令視窗中運行(Run in Konsole)」。這是必要的步驟，來讓你在之後可以關閉Konsole視窗來安全地關掉OpenRefine 。"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:248
+#, no-wrap
+msgid "data-mobilization::kde5-execute.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:250
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:250
+msgid "Confirm that you wish to execute the downloaded application."
+msgstr "確認你想執行下載的檔案"
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:257
+#, no-wrap
+msgid "data-mobilization::kde6-run.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:259
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:259
+msgid "OpenRefine is now running."
+msgstr "OpenRefine開始運作中"
+
