@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
-"PO-Revision-Date: 2026-04-12 18:53\n"
+"POT-Creation-Date: 2026-04-13 13:03+0000\n"
+"PO-Revision-Date: 2026-04-13 14:13\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -67,25 +67,11 @@ msgstr ""
 msgid "Google Chrome, Microsoft Edge or Mozilla Firefox installed.  Internet Explorer is not supported."
 msgstr ""
 
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:27
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:27
-msgid "The latest stable release is OpenRefine 3.4.1, released on September 24, 2020. Detailed installation instructions are available at https://docs.openrefine.org/manual/installing/[^]."
-msgstr ""
-
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:28
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:28
 #, no-wrap
 msgid "Installation on MS Windows"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:31
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:44
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:31
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:44
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*].  Choose to save the file rather than open it."
 msgstr ""
 
 #. type: Plain text
@@ -187,12 +173,6 @@ msgid "Installation on Mac"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:86
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:86
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit]."
-msgstr ""
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:88
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:88
 msgid "Download, open, drag icon into the Applications folder.  You do not need to install Java separately."
@@ -209,12 +189,6 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:90
 #, no-wrap
 msgid "Detailed instructions for Mac (click to expand)"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:100
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:100
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit], and choose to open it."
 msgstr ""
 
 #. type: delimited block =
@@ -291,12 +265,6 @@ msgid "Installation on Linux"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:199
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:199
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]."
-msgstr ""
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:201
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:201
 msgid "Download, extract, then type ./refine to start.  This requires Java to be installed on your computer."
@@ -313,12 +281,6 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:206
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:206
 msgid "These instructions are for KDE (e.g. Kubuntu, SuSE), but the process is similar for Gnome (e.g. Ubuntu, Red Hat, CentOS)."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:214
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:214
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit].  Open it."
 msgstr ""
 
 #. type: delimited block =
@@ -362,6 +324,17 @@ msgstr ""
 msgid "foundations::open-refine-logo.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:27
+msgid "Remember to look for the most recent stable release. Keep in mind that screenshots below may differ on newer releases. Detailed installation instructions are available at https://docs.openrefine.org/manual/installing/[^]."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:31
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:44
+msgid "Download the https://openrefine.org/download[Windows kit Zip file].  Choose to save the file rather than open it."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:42
 #, no-wrap
@@ -392,10 +365,20 @@ msgstr ""
 msgid "foundations::win5-run.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:86
+msgid "Download the https://openrefine.org/download[Mac kit]."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:98
 #, no-wrap
 msgid "foundations::mac01-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:100
+msgid "Download the https://openrefine.org/download[Mac kit], and choose to open it."
 msgstr ""
 
 #. type: Target for macro image
@@ -458,10 +441,20 @@ msgstr ""
 msgid "foundations::mac11-run.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:199
+msgid "Download the https://openrefine.org/download[Linux kit]."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:212
 #, no-wrap
 msgid "foundations::kde1-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:214
+msgid "Download the https://openrefine.org/download[Linux kit].  Open it."
 msgstr ""
 
 #. type: Target for macro image
