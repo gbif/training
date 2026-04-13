@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 12:37+0000\n"
-"PO-Revision-Date: 2026-04-11 12:56\n"
+"POT-Creation-Date: 2026-04-12 20:50+0000\n"
+"PO-Revision-Date: 2026-04-12 21:03\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -15,6 +15,285 @@ msgstr ""
 "X-Crowdin-Language: it\n"
 "X-Crowdin-File: /main/translations/foundations/foundations-terminology.pot\n"
 "X-Crowdin-File-ID: 45036\n"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:291
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:435
+#: en/foundations/modules/ROOT/pages/navigation.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:24
+#: en/foundations/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/home/modules/ROOT/pages/index.adoc:37
+#: en/home/modules/ROOT/pages/index.adoc:38
+#: en/home/modules/ROOT/pages/index.adoc:45
+#: en/home/modules/ROOT/pages/index.adoc:46
+#: en/home/modules/ROOT/pages/index.adoc:48
+#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:24
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:32
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:79
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:87
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:104
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:130
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:138
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:149
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:157
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:166
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:202
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:210
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:57
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:65
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:74
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:82
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:123
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:131
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:189
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:197
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:216
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:224
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:88
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:127
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:135
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:201
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:209
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:61
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:69
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:144
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:152
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:182
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:273
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:280
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
+#, no-wrap
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
 
 #. type: Title =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:1
@@ -43,35 +322,1688 @@ msgstr ""
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-definitions_v1-720p.mp4[download,opts=download] it locally. (MP4 - 45.8 MB)"
 msgstr ""
 
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:30
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide1.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:33
+#, no-wrap
+msgid "*Slide 1 - Foundations - Definitions terminology*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:35
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:441
+msgid "This session is foundation work and part of the Terminology section. We will be introducing you to the language, terminology and definitions for some of the basic concepts, functions and processes that you are going to be putting into use during the rest of the course."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:37
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:39
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:299
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:443
+msgid "Image by Carsten Witzel, obtained via http://www.freeimages.com/photo/root-of-a-tree-1371557."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:40
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:43
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:447
+#, no-wrap
+msgid "*Slide 2 - Key concepts*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:45
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:449
+msgid "First let’s review the structure of this session."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:47
+msgid "In the section on DEFINITIONS we will first try to clarify the use of the word “Data”."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:49
+msgid "We will then look at the terminology surrounding Fields, Labels and Lists."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:51
+msgid "And lastly, we will straighten out some concepts around characters and their mappings that will help prevent unwanted data messes."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:52
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:55
+#, no-wrap
+msgid "*Slide 3 - Definitions*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:57
+msgid "First definitions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:59
+msgid "In this section we will look at some of the many different terms and phrases that exist within the world of data and information management."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:61
+msgid "We will be using these throughout the course and it is important that you be familiar with, when and how to use them."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:63
+msgid "Image by Sharon Grant: https://www.flickr.com/photos/rondls_pics/3629532537/in/album-72157619834323354/"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:64
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:67
+#, no-wrap
+msgid "*Slide 4 - Definitions - a rose by any other name*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:69
+msgid "Let’s focus for a moment on some common words and phrases that contain the word data."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:70
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:73
+#, no-wrap
+msgid "*Slide 5 - What's the difference - Database*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:75
+msgid "All of the phrases here include the word data, but are they all the same, and if not, then what is the difference?"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:76
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:79
+#, no-wrap
+msgid "*Slide 6 - Database*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:81
+msgid "So, what is a “Database”?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:83
+msgid "There are many definitions, but what they all have in common is the theme that a database is a structured and organized collection of data and/or information held on a computer."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:84
+msgid "Everything else in the list is just a way to help you achieve this data nirvana!"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:85
+msgid "Let’s dig a little deeper then into those other terms."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:86
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:89
+#, no-wrap
+msgid "*Slide 7 - Database language*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:91
+msgid "Let us take a look at the phrase “database language”."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:93
+msgid "According to the Oxford English dictionary “language” is the method of human communication...consisting of the use of words (or symbols) in a structured and conventional way."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:95
+msgid "For our purposes, database languages and their close allies the array languages are the way by which a human communicates with a computer to manipulate and move around data."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:97
+msgid "Examples that you may have come across are:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:99
+msgid "Java, SPARQL, SQL and Python"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:100
+msgid "They are simply methods used to define and create tables, views and queries and also allow users to access, update, store and move data around."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:101
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:104
+#, no-wrap
+msgid "*Slide 8 - Database program/software*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:106
+msgid "Now let’s look at the phrase “database program or software”."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:108
+msgid "Again going to the Oxford English dictionary a “program/programme” is a set of related measures or activities with a particular long-term aim."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:110
+msgid "In this context, a “database program or software” combines and presents functions and features for manipulating data, together is a unified interface."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:112
+msgid "Examples that you may come across are:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:114
+msgid "Microsoft Access, FilemakerPro and Oracle"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:116
+msgid "So, database programs or software are grouped utilities which allow a user, via a database language, to store, manage, query and report data held in the system."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:117
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:120
+#, no-wrap
+msgid "*Slide 9 - Data cleaning tool*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:122
+msgid "The last term is “data cleaning tool”."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:124
+msgid "Data cleaning tools are systems whose utilities focus is on the manipulation of data with the aim of increasing fitness for use."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:126
+msgid "Examples that you may be familiar or will learn about during the course are:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:128
+msgid "OpenRefine, MatLab and spreadsheets"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:130
+msgid "A data cleaning tool should assist the user in the discovery and repair of messy data in order to increase quality."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:131
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide10.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:134
+#, no-wrap
+msgid "*Slide 10 - Definitions - a rose by any other name*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:136
+msgid "Continuing on with some more terms that you should be familiar with we will look at the differences between the terms Field, Label and List."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:137
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide11.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:140
+#, no-wrap
+msgid "*Slide 11 - Field vs label*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:142
+msgid "You will often hear reference made to field or column names and field labels or headings. Often they will be used interchangeably, however they are different things."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:144
+msgid "Field or column names refer to the actual column in the database table. They are a often short, not always in plain language, sometimes computer generated; but in a properly formed database they are ALWAYS unique. Field names are almost always used by database languages, because the avoid ambiguity."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:146
+msgid "Labels and headers on the other hand, refer to the human readable versions of the field names. Most often you will see these in the graphical user interface of your software and on exports and reports. In some software you can in fact have different labels to the same field on a user by user or group basis!"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:147
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide12.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:150
+#, no-wrap
+msgid "*Slide 12 - Lists*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:152
+msgid "As you work with your data you will come across the phrases “drop-down list” and “controlled vocabulary” and on the surface they can appear to be the same. Indeed they are both powerful tools to help you keep your data clean, but they are different."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:154
+msgid "A drop-down list, also sometimes called a lookup table is a data entry element that is created in your database software. It allows to you select a value from a predefined set of options. They can also be generated from the data itself on the fly."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:156
+msgid "A controlled vocabulary on the other hand, is a very strictly defined, domain specific set of values that should be applied to a particular field. They are an integral part of a well defined standard. Such values can be used in a drop-down list as mentioned previously."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:157
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide13.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:160
+#, no-wrap
+msgid "*Slide 13 - Definitions - a rose by any other name*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:162
+msgid "In this section we will look at what the term character means in relation to data and computers."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:163
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide14.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:166
+#, no-wrap
+msgid "*Slide 14 - Characters*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:168
+msgid "As a reminder computers “see” in binary. Everything that you type in, is held in memory as a series of ones and zeros."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:171
+#, no-wrap
+msgid "The computer does not “see” the repertoire of letters and symbols on your keyboard.\n"
+"\\vIt needs a map to translate the character set that you would write or type, into its binary language and then back again to show it to you on the screen or a printer.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:173
+msgid "This map is made up of two parts:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:175
+msgid "The “coded character set”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:177
+msgid "and"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:179
+msgid "The “character encoding”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:181
+msgid "Each symbol or glyph is assigned a numeric value and that number is then converted to binary."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:182
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide15.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:185
+#, no-wrap
+msgid "*Slide 15 - Characters example*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:187
+msgid "In this example we see how character encoding is used to map the capital letter A in the western alphabet."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:189
+msgid "The ASCII value for the capital letter A is the decimal number 65"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:191
+msgid "which in HEXIDECIMAL is 041"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:193
+msgid "and in BINARY 01000001"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:195
+msgid "Try mapping your own name to Binary using the link at the bottom of the screen."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:196
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide16.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:199
+#, no-wrap
+msgid "*Slide 16 - Characters comparison*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:201
+msgid "In effect what is happening is that when you type into a keyboard and save a file the software that you are using will select an encoding to save with it."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:203
+msgid "When you open that file again the software needs to know which encoding (map) to use to redisplay the information back to you correctly."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:204
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide17.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:207
+#, no-wrap
+msgid "*Slide 17 - Characters*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:209
+msgid "So why is this important to you as a data custodian?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:211
+msgid "Let’s say that you translate the start of Hamlet’s soliloquy"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:213
+msgid " ”To be or not to be, that is the question”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:215
+msgid "into French and then save the file with a text editor that uses the encoding Latin-1"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:217
+msgid "Then you send it to a colleague to check the translation. Voila!"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:218
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide18.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:221
+#, no-wrap
+msgid "*Slide 18 - Characters*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:223
+msgid "When they open the file in MicroSoft Word this is what they see."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:225
+msgid "Mon dieu!"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:227
+msgid "There are some unexpected characters."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:229
+msgid "You forgot to tell your colleague that you where using Latin-1 as the encoding."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:231
+msgid "MicroSoft Word on their end was set to use the encoding set Unicode UTF-8. The maps did not match."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:233
+msgid "Depending on the software the data may be irretrievably corrupted."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:234
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide19.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:237
+#, no-wrap
+msgid "*Slide 19 - Review*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:239
+msgid "In review we have looked at the differences between the phrases:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:241
+msgid "Database; database language; database program, data-cleaning tool"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:242
+msgid "Field names & Field labels; Drop-down lists & Controlled vocabularies and between"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:243
+msgid "Repertoires, Coded sets & Encodings"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:245
+msgid "And shown that although the terms may seem similar the in fact have very different definitions."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:246
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide20.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:249
+#, no-wrap
+msgid "*Slide 20 - Wrap-up*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:252
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:396
+msgid "Remember that:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:254
+msgid "“...The first step in wisdom is to know the things themselves; this notion consists in having a true idea of the objects.”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:256
+msgid "We often take for granted that there is a whole language associated with biodiversity informatics that is not commonplace and has to be learned. There is no shame in going back to basics and getting to grips with the vocabulary, grammar and syntax just like with any new language."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:257
+#, no-wrap
+msgid "foundations::foundations-terminology-Slide21.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:260
+#, no-wrap
+msgid "*Slide 21 - Conclusion*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:262
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:406
+msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:264
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:716
+msgid "This presentation was originally created and narrated by Sharon Grant with additional contributions by BID and BIFA Trainers, Mentors and Students."
+msgstr ""
+
 #. type: Title ==
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:268
 #, no-wrap
 msgid "Software"
 msgstr ""
 
 #. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:23
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:273
 msgid "In this video (05:58), you will review examples of the different types of applications and software available in the world of biodiversity mobilization informatics."
 msgstr ""
 
 #. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:25
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:275
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-software_v1-720p.mp4[download,opts=download] it locally. (MP4 - 23.5 MB)"
 msgstr ""
 
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:292
+#, no-wrap
+msgid "foundations::foundations-software-Slide1.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:295
+#, no-wrap
+msgid "*Slide 1 - Foundations - Software terminology*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:297
+msgid "This session is foundation work and part of the Terminology section We will be introducing you to types of software used in data mobilization."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:300
+#, no-wrap
+msgid "foundations::foundations-software-Slide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:303
+#, no-wrap
+msgid "*Slide 2 - Software for mobilization*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:305
+msgid "The purpose of this short presentation is to give you some examples of the different types of applications and software available in the world of biodiversity mobilization informatics."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:307
+msgid "Hopefully it will help you to start to think about what uses they may be put too and what types of things might be practical for you."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:308
+#, no-wrap
+msgid "foundations::foundations-software-Slide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:311
+#, no-wrap
+msgid "*Slide 3 - Software definition*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:313
+msgid "So very briefly, a definition."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:315
+msgid "We are making a distinction here between all software and those applications which have been created for an end-user to carry out a task."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:317
+msgid "We will take a look at software that can be used for:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:319
+msgid "Data Capture"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:320
+msgid "Data Management"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:321
+msgid "Data Cleaning and"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:322
+msgid "Data Publishing"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:323
+#, no-wrap
+msgid "foundations::foundations-software-Slide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:326
+#, no-wrap
+msgid "*Slide 4 - Software for data capture*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:328
+msgid "In the realm of data capture software, there is often no need to go “big” when capturing information initially, especially in the field."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:330
+msgid "You can capture information from collection specimens or live observations in a simple spreadsheet such as:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:332
+msgid "Excel, OpenOffice, LibreOffice or Google Sheets."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:334
+msgid "There may even not be a need to create your own system at all. Apps such as iNaturalist, or eBird are stable, robust and have simple intuitive interfaces."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:336
+msgid "Whichever the choice, it is important to think about the long term preservation of the data that you collect."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:337
+#, no-wrap
+msgid "foundations::foundations-software-Slide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:340
+#, no-wrap
+msgid "*Slide 5 - Software for data management*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:342
+msgid "So, depending on your needs, a more complex data management software might be the right solution for your data. Especially if long term retention and preservation is a priority."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:344
+msgid "More stable management platforms also better support sharing of data to multiple audiences."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:346
+msgid "There are many choices which vary in terms of cost and support and a few are shown here. From left to right:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:348
+msgid "Symbiota, Specify, EMu, Elysia and Brahms."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:349
+#, no-wrap
+msgid "foundations::foundations-software-Slide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:352
+#, no-wrap
+msgid "*Slide 6 - Software for data capture and management*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:354
+msgid "If a home-grown solution is preferred and can be supported, relational database software can provide cheaper alternatives."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:356
+msgid "Examples incluse MySQL, SQLServer, Access or filemaker"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:357
+#, no-wrap
+msgid "foundations::foundations-software-Slide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:360
+#, no-wrap
+msgid "*Slide 7 - Software for data cleaning*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:362
+msgid "Increasingly the lines between languages, programs and tools have blurred, each being capable of many complex and overlapping functions. The common “Find and Replace” function is a good example of a data cleaning tool that is found in almost all database programs and is a command in database languages."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:364
+msgid "You are probably already familiar with spreadsheets such as Excel and indeed these are probably the most common data cleaning tools available. However there are others."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:366
+msgid "OpenRefine originally known as GoogleRefine is a powerful free, open source data cleaning tool with a large support community. You will see more of this program in upcoming sessions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:368
+msgid "R is another increasing used, sophisticated programming language and environment. With a little practice it can also provide powerful data manipulations."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:369
+#, no-wrap
+msgid "foundations::foundations-software-Slide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:372
+#, no-wrap
+msgid "*Slide 8 - Software for data publishing*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:374
+msgid "Planning further ahead to the sharing of your data through GBIF to the international scientific and deciders community you will need to choose a publishing tool."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:376
+msgid "The choice will depend largely on the level of infrastructure support at your institution. If this is high and stable, installing an IPT or BioCASe application may be the right option. But there are others if this is not the case."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:378
+msgid "You can consider partnering with an existing ipt provider or selecting a database management system that includes a publishing pathway of its own."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:380
+msgid "Whichever you choose, make sure that your system allows you to export data as csv or txt files and you will ultimately be able to publish your data."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:381
+#, no-wrap
+msgid "foundations::foundations-software-Slide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:384
+#, no-wrap
+msgid "*Slide 9 - Other software to handle data*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:386
+msgid "This is a summary of the information collected in the course survey of software in use by students, mentors and trainers in the GBIF community."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:388
+msgid "The link and reference to more details of each section, is at the bottom of the slide."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:390
+msgid "Reference: https://docs.google.com/spreadsheets/d/1IWBsL4r-LsJRdYYPy9q4eLOAa1nzZYBwTdwk3Kd8cV8/"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:391
+#, no-wrap
+msgid "foundations::foundations-software-Slide10.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:394
+#, no-wrap
+msgid "*Slide 10 - Wrap-up*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:398
+msgid "“The purpose of software is to help people” and not the other way around."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:400
+msgid "Your choice of solution should make your life easier but it should also not sacrifice the long term viability of the data that it is meant to work with."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:401
+#, no-wrap
+msgid "foundations::foundations-software-Slide11.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:404
+#, no-wrap
+msgid "*Slide 11 - Conclusion*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:408
+msgid "This presentation was narrated by Sharon Grant with additional contributions by BID and BIFA Trainers, Mentors and Students."
+msgstr ""
+
 #. type: Title ==
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:30
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:412
 #, no-wrap
 msgid "Structures"
 msgstr ""
 
 #. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:35
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:417
 msgid "In this video (13:10), you will review the field and data types that hold data, the structures that help to organize and protect that data and what these mean for the integrity and security of your data."
 msgstr ""
 
 #. type: delimited block =
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:37
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:419
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-structures_v1-720p.mp4[download,opts=download] it locally.  (MP4 - 44.4 MB)"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:436
+#, no-wrap
+msgid "foundations::foundations-structures-Slide1.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:439
+#, no-wrap
+msgid "*Slide 1 - Foundations - Structures terminology*\n"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:444
+#, no-wrap
+msgid "foundations::foundations-structures-Slide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:451
+msgid "In the section on STRUCTURES we will be working on understanding the field and data types that hold data, the structures that help to organize and protect that data and lastly look at what these mean for the integrity and security of your data."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:452
+#, no-wrap
+msgid "foundations::foundations-structures-Slide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:455
+#, no-wrap
+msgid "*Slide 3 - Structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:457
+msgid "In this section on basic database Structures we will focus on the different elements that databases, software tools and languages use to handle the data that you enter."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:458
+#, no-wrap
+msgid "foundations::foundations-structures-Slide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:461
+#, no-wrap
+msgid "*Slide 4 - Structures - Planes, trains and automobiles*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:463
+msgid "First, lets look at field types, also known as data types."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:464
+#, no-wrap
+msgid "foundations::foundations-structures-Slide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:467
+#, no-wrap
+msgid "*Slide 5 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:469
+msgid "Data Type lets the computer know what kind of data is expected in a particular field. This then dictates what functions can be performed on it."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:471
+msgid "They can be simple and encompass a single concept or combine concepts depending on the software or language you are using. Either way the essential building blocks are the same."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:473
+msgid "So let’s look at six that you will come across most frequently."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:474
+#, no-wrap
+msgid "foundations::foundations-structures-Slide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:477
+#, no-wrap
+msgid "*Slide 6 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:479
+msgid "First Numeric fields – This data type holds numbers, and there are 2 kinds: "
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:481
+msgid "Integers and long integers, hold whole numbers. For example 1, 2, 3, 99, 2000."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:483
+msgid "The size of the number, depends on the number of bits assigned to the field (more about that later). For now just remember that a long integer field will hold a bigger number than an integer."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:485
+msgid "Floats, also referred to as doubles, hold fractions or parts of whole numbers. For example 4.5, 19.47"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:487
+msgid "The important thing to remember here is that a float always has decimal places so the number 10 will be stored as 10.0. The number of decimal places being an integral element of the type. This has implications when it comes to precision and accuracy."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:488
+#, no-wrap
+msgid "foundations::foundations-structures-Slide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:491
+#, no-wrap
+msgid "*Slide 7 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:493
+msgid "Alphanumeric fields - are also referred to as text, character or string fields."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:495
+msgid "They can hold any letter, number or symbol in the coded character set and usually have a defined character limit. Entering more characters than the character limit can often result in truncation and loss of data on save."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:496
+#, no-wrap
+msgid "foundations::foundations-structures-Slide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:499
+#, no-wrap
+msgid "*Slide 8 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:501
+msgid "Another type of text field that you will come across is the Unstructured text field, also known as memo, long char or blob fields."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:503
+msgid "These types of field are used to hold large amounts of unformatted text and unlike alphanumeric fields may not have an obvious character limit."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:505
+msgid "In simple systems, they are generally less flexible in terms of processing; for example sorting and indexing, than their smaller alphanumeric cousins."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:507
+msgid "With decreased storage costs and the rise of NoSQL document-oriented database programs, such as MongoDB however, this is changing."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:508
+#, no-wrap
+msgid "foundations::foundations-structures-Slide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:511
+#, no-wrap
+msgid "*Slide 9 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:513
+msgid "System Value fields have a double nature and what you see on the screen is not usually the actual value that the software is storing in memory. Date and time fields are the most common example of this type of field."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:515
+msgid "In this example you typed “1 March 1971” into a cell in Excel and hit return."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:517
+msgid "Now it says “1-Mar-71” in the cell AND “3/1/1971” in the functionbar."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:519
+msgid "Excel is applying a display format to the cell, which you can change at will."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:521
+msgid "HOWEVER, if you remove the format you see that what is actually being stored in the field is the number 25993.00!"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:523
+msgid "So you can see that the field is actually a float. You should beware because that system value not be the same from software to software. Exports should to checked to make sure the actual date is exported and not the system value."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:524
+#, no-wrap
+msgid "foundations::foundations-structures-Slide10.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:527
+#, no-wrap
+msgid "*Slide 10 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:529
+msgid "Boolean fields – also known as Binary fields only contain one of two values that represent a one or a zero."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:531
+msgid "They are a special case of a System Value field as mentioned previously in that whilst the software actually saves a number it often displays values such as:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:536
+msgid "Yes/No; Yes/no; Y/N; True/False. "
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:538
+msgid "You should take care to find out which way around the system you are using translates."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:540
+msgid "Is a 1 a yes or no?"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:541
+#, no-wrap
+msgid "foundations::foundations-structures-Slide11.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:544
+#, no-wrap
+msgid "*Slide 11 - Containers – field/data types*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:546
+msgid "Structured Text fields are less common but mentioned here for completeness."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:548
+msgid "They are fields which can be either made up of combinations of the simple data types or even be defined by the data itself."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:550
+msgid "Most often these are used in programming languages to allow flexibility and handling of complex concepts."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:552
+msgid "An example is the factor field used in the R programming language, which is defined as a type vector containing a set of numeric codes with character-valued levels."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:554
+msgid "Ref:  https://www.stat.berkeley.edu/~nolan/stat133/Fall05/lectures/DataTypes4.pdf"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:555
+#, no-wrap
+msgid "foundations::foundations-structures-Slide12.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:558
+#, no-wrap
+msgid "*Slide 12 - Structures - planes, trains and automobiles*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:560
+msgid "Now that you have an understanding of the field types used to represent your data elements let’s talk about the containers or structures, that many database programs and software use collate and display your data."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:562
+msgid "Reference: https://www.geeksforgeeks.org/data-structures/"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:563
+#, no-wrap
+msgid "foundations::foundations-structures-Slide13.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:566
+#, no-wrap
+msgid "*Slide 13 - Containers - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:568
+msgid "First is the cell."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:570
+msgid "This is the smallest data structure, it holds a single value and has a single data type associated with it."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:571
+#, no-wrap
+msgid "foundations::foundations-structures-Slide14.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:574
+#, no-wrap
+msgid "*Slide 14 - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:578
+msgid "There is one concept that you should beware of when it comes to cells and that is the “empty cell”.    “An empty cell doesn’t necessarily mean an empty field.”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:580
+msgid "Some software “fills” an empty field with a System value based on the data type."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:582
+msgid "Examples are “NULL” “N A” or even zero!"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:583
+#, no-wrap
+msgid "foundations::foundations-structures-Slide15.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:586
+#, no-wrap
+msgid "*Slide 15 - Containers - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:588
+msgid "As you start to organize cells you begin to build a grid. Grids have implied structure in the form of"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:590
+msgid "Rows"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:591
+#, no-wrap
+msgid "foundations::foundations-structures-Slide16.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:594
+#, no-wrap
+msgid "*Slide 16 - Containers - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:596
+msgid "And columns."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:597
+#, no-wrap
+msgid "foundations::foundations-structures-Slide17.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:600
+#, no-wrap
+msgid "*Slide 17 - Containers - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:602
+msgid "When you organize cells into rows and columns, obviously, what you get is a grid!"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:604
+msgid "This is looks very much like a spreadsheet right?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:606
+msgid "Well, yes. The difference however between a spreadsheet grid and a table are the strength of the ties that hold the rows and columns together."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:607
+#, no-wrap
+msgid "foundations::foundations-structures-Slide18.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:610
+#, no-wrap
+msgid "*Slide 18 - Structures - planes, trains and automobiles*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:612
+msgid "So let’s now talk about those connections."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:614
+msgid "What the implications for the integrity and security of your data of loose unenforced relationships between rows and columns?"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:615
+#, no-wrap
+msgid "foundations::foundations-structures-Slide19.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:618
+#, no-wrap
+msgid "*Slide 19 - Data structures*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:620
+msgid "What actually makes a table useful are the connections that we create to give the data in the structure meaning."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:622
+msgid "We intrinsically make patterns of attributes that turns data into information."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:624
+msgid "Rows become records and Columns become attributes"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:626
+msgid "In a spreadsheet however, the connections between cells are idiomatic, loose and un-enforced."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:628
+msgid "It is easy for the attributes between the rows to get jumbled up or for the values get changed and then the meaning is lost."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:629
+#, no-wrap
+msgid "foundations::foundations-structures-Slide20.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:632
+#, no-wrap
+msgid "*Slide 20 - Integrity and security*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:634
+msgid "This lack of enforced connections makes a spreadsheet easy to use but these same qualities also cause problems."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:636
+msgid "Errors are easy to make and hard to catch."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:638
+msgid "Connections and relationships are not documentable and so subject to interpretation and mutation."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:640
+msgid "Spreadsheets are not built to scale either in terms of size or numbers of users."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:642
+msgid "So can be slow, crashy and easily corruptible"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:644
+msgid "Spreadsheets are easy to copy and email"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:646
+msgid "So they are hard to version and keep track of"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:648
+msgid "The question is what is the solution?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:650
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:688
+msgid "Reference: https://www.mrc-productivity.com/blog/2014/09/7-dangers-of-spreadsheets-part-1/"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:651
+#, no-wrap
+msgid "foundations::foundations-structures-Slide21.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:654
+#, no-wrap
+msgid "*Slide 21 - Containers - Integrity and security*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:656
+msgid "Let’s look back, at the connections in a bit more detail."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:658
+msgid "We generally understand that the data in each row of a table means something."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:660
+msgid "For example each row can represent a specimen or a taxa that was found at a particular place, at a particular time, by a particular person."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:662
+msgid "It would be odd to have one row in a table that represents a specimen followed by a row that represents a collection site."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:664
+msgid "We also often want to analyse, sort and compare values of particular attributes between rows."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:666
+msgid "For example you may want find the mean weight of all the Kenyan bats."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:668
+msgid "So ideally we want to use a system to store our data that:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:670
+msgid "always holds the rows together"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:671
+msgid "does not mix data types"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:672
+msgid "and segregates data in each table to a single concept or theme"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:674
+msgid "These are functions of a database!"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:675
+#, no-wrap
+msgid "foundations::foundations-structures-Slide22.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:680
+#, no-wrap
+msgid "*Slide 22 - Integrity and security*\n"
+" \n"
+"Functions in a true database inherently bind rows together and columns may only have a single data type.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:682
+msgid "Tables in database are held together by virtual links called keys."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:684
+msgid "These keys are identifiers that match between tables and allow data to be connected efficiently."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:686
+msgid "It is these 2 key concepts that distinguish a spreadsheet from a database."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:689
+#, no-wrap
+msgid "foundations::foundations-structures-Slide23.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:694
+#, no-wrap
+msgid "*Slide 23 - Review*\n"
+" \n"
+"In review then, we have looked at the 6 most common data types, the basic building blocks of data structure and distinguished between a spreadsheet grid and database table.\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:696
+msgid "Understanding these elements and how they interact with one another will allow you to better determine the best ways to manipulate and document the data that falls under your custodianship."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:697
+#, no-wrap
+msgid "foundations::foundations-structures-Slide24.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:702
+#, no-wrap
+msgid "*Slide 24 - Wrap-up*\n"
+" \n"
+"Remember that: \n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:704
+msgid "“When you realize the difference between the container and the content, you will have knowledge.”"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:706
+msgid "Using the correct terms to describe both your data and the structures that you create and use to store it; is the most important way to ensure that it remains relevant and useable."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:708
+msgid "Never underestimate how much damage can be done to priceless information by careless descriptions and storage."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:709
+#, no-wrap
+msgid "foundations::foundations-structures-Slide25.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:714
+#, no-wrap
+msgid "*Slide 25 - Conclusion*\n"
+" \n"
+"This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.\n"
 msgstr ""
 

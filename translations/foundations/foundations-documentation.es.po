@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 12:37+0000\n"
-"PO-Revision-Date: 2026-04-11 15:05\n"
+"POT-Creation-Date: 2026-04-12 20:32+0000\n"
+"PO-Revision-Date: 2026-04-12 21:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -15,6 +15,285 @@ msgstr ""
 "X-Crowdin-Language: es-ES\n"
 "X-Crowdin-File: /main/translations/foundations/foundations-documentation.pot\n"
 "X-Crowdin-File-ID: 45030\n"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:291
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:435
+#: en/foundations/modules/ROOT/pages/navigation.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:24
+#: en/foundations/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/home/modules/ROOT/pages/index.adoc:37
+#: en/home/modules/ROOT/pages/index.adoc:38
+#: en/home/modules/ROOT/pages/index.adoc:45
+#: en/home/modules/ROOT/pages/index.adoc:46
+#: en/home/modules/ROOT/pages/index.adoc:48
+#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:24
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:32
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:79
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:87
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:104
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:130
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:138
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:149
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:157
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:166
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:202
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:210
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:57
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:65
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:74
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:82
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:123
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:131
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:189
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:197
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:216
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:224
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:88
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:127
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:135
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:201
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:209
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:61
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:69
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:144
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:152
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:182
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:273
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:280
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
+#, no-wrap
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. type: Title ==
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
 
 #. type: Title =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:1
@@ -35,5 +314,380 @@ msgstr ""
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:11
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-documentation_v4-720p.mp4[download,opts=download] it locally. (MP4 - 35.2 MB)"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:28
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide1.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:31
+#, no-wrap
+msgid "*Slide 1 - Foundations - Documentation*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:33
+msgid "In this presentation, we will provide an overview of the importance of documentation as it relates to data management and data publishing. You will learn about data mapping, data relationships and metadata."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:34
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:37
+#, no-wrap
+msgid "*Slide 2 - Documentation*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:49
+msgid "In the previous Foundations presentations, we looked at the individual elements that make up both your data and the containers that hold it. Now we’ll look at ways to document those data and what you want to do with it.    According to the director Steven Spielberg,   “People have forgotten how to tell a story. Stories don’t have a middle or an end any more. They usually have a beginning that never stops beginning.” (Steven Spielberg)    Documentation is the story of your project or dataset. There should always be a concrete beginning, middle and end.    In essence you should be able to answer certain questions at specific points:   At the beginning : What did our project aim to do? What was the purpose of creating the dataset?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:51
+msgid "In the middle: What did we actually do? What did we achieve?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:53
+msgid "At the end: What didn’t we achieve? Why? What should happen next?"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:54
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:57
+#, no-wrap
+msgid "*Slide 3 - Key concepts*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:59
+msgid "In order to document your data and render them as fit for use as possible for yourself and future users, you need to follow these three essential steps:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:61
+msgid "Mapping your data to existing formats and standards if necessary"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:62
+msgid "Planning your data moves"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:63
+msgid "Create useful metadata describing your data"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:64
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:67
+#, no-wrap
+msgid "*Slide 4 - Mapping data*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
+msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
+msgid "some integer fields represented by the purple squares,"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:80
+msgid "some boolean fields represented by the red triangles"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:81
+msgid "some date fields represented by blue pentagons"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:82
+msgid "some text fields, green 8 pointed stars"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:83
+msgid "and some complex fields"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:84
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:87
+#, no-wrap
+msgid "*Slide 5 - Mapping data*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:91
+msgid "Dataset B has a different set of fields, 15 in total.    What we need to do is identify which fields in Dataset A match which fields in Dataset B"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:92
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:95
+#, no-wrap
+msgid "*Slide 6 - Mapping A to B*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:97
+msgid "We do that by describing the relationships."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
+msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:110
+#, no-wrap
+msgid "*Slide 7 - Planning data moves - Data relationships*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:112
+msgid "In fact there are six relationships:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:114
+msgid "Some fields will map one-to-one (1:1), meaning that the original column in dataset A exactly matches another one in dataset B"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:115
+msgid "Some fields will map many-to-one (∞:1) , meaning that some columns in dataset A can be merged (or concatenated) to match a single one in dataset B"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:116
+msgid "Some fields will map one-to-many (1:∞), meaning that one column in dataset A will have to be split into two or more fields in order to match the fields in dataset B"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:117
+msgid "Some fields might not exist yet zero-to-one (0:1), meaning that some information are not present in dataset A and need to be added in a new column to match an existing field in dataset B"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:118
+msgid "Some fields might not have a place to go one-to-zero (1:0), meaning that some information present in dataset A does not match any existing field on dataset B"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:119
+msgid "Some fields will map many-to-many (∞ : ∞), meaning that information in dataset A is scattered in different fields, which do not match exactly existing ones in dataset B"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:120
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:123
+#, no-wrap
+msgid "*Slide 8 - Planning data moves - Transformations*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:125
+msgid "Each of the relationship types has its own nuances as to how you are going to have to handle them."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:127
+msgid "one-to-one (1:1) - Beware your field types. If they are the not the same. You will need to do some manipulation."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:128
+msgid "many-to-one (∞:1) - These fields will need to joined together to go into the field."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:129
+msgid "one-to-many (1:∞) - These fields will need to be split apart and put in to different fields"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:130
+msgid "zero-to-one (0:1) - Work out how (or if) you can even fill these in. Is the data mixed into a notes field? If so how do you get it out?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:131
+msgid "one-to-zero (1:0) - Either throw away the data or add a field.You might not even have a home in the other dataset. Do/Can you create a new field?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:132
+msgid "many-to-many (∞ : ∞) - “for the love of a higher being!” This usually means that your incoming data is very messy and will take time to clean before you can map it."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:133
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:136
+#, no-wrap
+msgid "*Slide 9 - Planning data moves - Mapping document*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:138
+msgid "This is an example of what a mapping document looks like. Notice that not only do we document the relationships we also articulate (to the best of our knowledge) what should be done to the data."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:139
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide10.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:142
+#, no-wrap
+msgid "*Slide 10 - Metadata*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:146
+msgid "We’ve talked a lot about documenting the structures that hold your data but you must also document the information that gives context. This is called metadata and is data about your data!   As we mention in the section on data quality your ”Metadata must be rich enough to allow data (re)use by a third party without them having to refer to the data source.”"
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:147
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide11.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:150
+#, no-wrap
+msgid "*Slide 11 - Metadata*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:152
+msgid "We will discuss this in more detail in later sessions but as a quick guide good documentation should include:"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:154
+msgid "A title – Which should be descriptive, memorable and if possible unique. Dates are good to include in a dataset name for example to allow you to track versions."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:155
+msgid "A narrative – Should describe the rationale for the creation of the dataset. It should include at least general information about spatial, temporal and taxonomic coverage and give the potential user a broad picture of uses that may be appropriate for the data without further transformation."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:156
+msgid "Source information – If you did not collect or measure the data yourself, where or who did you get if from?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:157
+msgid "Lineage – Does the dataset have a history? Have any of the fields been transformed in any way from the original?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:158
+msgid "Statement of accuracy – Using the concepts of accuracy, precision, errors and uncertainty that we discussed previously, are there any issues with the dataset that should be known to a user?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:159
+msgid "Dates and life expectancy – When will the dataset be available? How long is it valid for? When if ever will it be updated?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:160
+msgid "Field Definitions – Describing the format of fields and what kind of data each contains. Was any cleaning or transformation down to the original data? This is important for you to know if you are mapping it to a standard such as Darwin Core."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:161
+msgid "Collection methodology – How was the data collected? Where there protocols used which will affect its fitness for use?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:162
+msgid "Statement of completeness – What is missing from the data and why?"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:163
+msgid "Conditions of use and constraints – Where and how can you use the data? For most portals and GBIF in particular data must use very open licensing, so understanding the requirements of data owners and their institutions is very important."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:164
+msgid "Custodianship/Contact information – This should be the institution responsible for the dataset as presented to you, as well as (if possible) the individual who created the dataset. There should also be a technical contact who is responsible for the publication of the dataset."
+msgstr ""
+
+#. type: Target for macro image
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:165
+#, no-wrap
+msgid "foundations::foundations-documentation-Slide12.png"
+msgstr ""
+
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:168
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
+#, no-wrap
+msgid "*Slide 12 - Conclusion*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:172
+msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sharon Grant and has been narrated by Sophie Pamerlon."
 msgstr ""
 

@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-12 17:40+0000\n"
+"PO-Revision-Date: 2026-04-12 17:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /main/translations/data-mobilization/management.pot\n"
+"X-Crowdin-File-ID: 45074\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:66
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:40
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
+msgid "Read the Practice Use Case (if you haven't already)."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
+#, no-wrap
+msgid "Review"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:15
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:1
+#, no-wrap
+msgid "Data management"
+msgstr "資料管理"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:6
+msgid "In this module, you will review the main concepts, related tools and best practices for data management, particularly, data cleaning and standardization."
+msgstr "在這個模組中，你將回顧資料管理(尤其是資料清理與標準化)的主要概念、最佳操作以及相關工具。"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:8
+#, no-wrap
+msgid "Principles of data management"
+msgstr "資料管理的原則"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:13
+msgid "In this video (09:49), you will review an important set of principles necessary to improve data through the processes of data cleaning."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:15
+msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_Management.mp4[download,opts=download] it locally. (MP4 - 16.6 MB)"
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:20
+#, no-wrap
+msgid "Data management tools"
+msgstr "資料管理工具"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
+msgid "In this video (06:42), you will learn about a variety of tools that you can use to improve the quality of your data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
+msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_Management_Tools.mp4[download,opts=download] it locally. (MP4 - 10.3 MB)"
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:32
+#, no-wrap
+msgid "Exercise 2a-c"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:37
+msgid "For these exercises, you will perform technical and consistency validation checks, improve data with different tools, and learn how to use https://openrefine.org/[OpenRefine^]."
+msgstr "這個練習中，你將進行技術性驗證與一致性檢查，以不同工具來增進資料集外，且學習如何使用 https://openrefine.org/[OpenRefine^] 。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:42
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:65
+msgid "Your institution is part of the “Global Poales Association (GPA)”. This association has secured funding to publish an up-to-date flora on the group and has requested your herbarium to participate and provide any high quality records you may have on this order of plants. The order is well represented in your collection so you think you could contribute substantially to this effort."
+msgstr ""
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:43
+#, no-wrap
+msgid "Exercise 2a"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:46
+#, no-wrap
+msgid "*Validation checks*\n"
+msgstr "*資料驗證檢查*\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:49
+msgid "In this exercise we will focus on technical errors and perform a basic validation check to identify technical errors.  Refer to <<Validation checks>> for information on the types of errors."
+msgstr "此練習中，我們將專注在技術性錯誤，並練習執行基本的驗證檢查來找出技術性錯誤。請參考  <<Validation checks>> 來得到更多關於錯誤的種類資訊。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:51
+msgid "Download xref:attachment$UC1-3ab-data-cleaning.csv[UC1-2ab-data-cleaning.csv,opts=download]. (207.5 KB)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:52
+msgid "Import the CSV file in Excel using the Excel wizard. See xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf^,opts=download] (PDF, 7 MB) for import instructions for your operating system (Windows, Mac, Linux)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:53
+msgid "Find and correct the errors manually."
+msgstr "找到、手動更正錯誤。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
+msgid "Use the previously downloaded exercise sheet to provide your answers."
+msgstr "使用前面下載的練習表exercise sheet 來提供你的答案。"
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:55
+#, no-wrap
+msgid "Exercise 2b"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:58
+#, no-wrap
+msgid "*Other data management tools*\n"
+msgstr "*其他資料管理工具*\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:60
+msgid "The GPA association has given you a checklist of data quality elements to verify:"
+msgstr "GPA協會給了一份資料品質的要求清單要你驗證："
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:62
+msgid "All plant names (full name) are correctly spelled"
+msgstr "所有植物名稱(全名)都拼寫正確"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:63
+msgid "All plant names belong to the order"
+msgstr "所有植物名都屬於該目"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:64
+msgid "All records have coordinates"
+msgstr "所有紀錄都有座標"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:65
+msgid "All coordinates are inside the country stated and converted to decimal format"
+msgstr "所有座標都在上面表示的國家內、並轉換至十進位制"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:66
+msgid "All dates are in the proper column and in the format YYYY-MM-DD"
+msgstr "所有日期資料都在適當的欄位內，並且格式為YYYY-MM-DD"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:68
+msgid "The three categories of errors are:"
+msgstr "錯誤的三種種類分別是："
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:70
+msgid "Nomenclatural errors"
+msgstr "命名錯誤"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:71
+msgid "Format errors"
+msgstr "格式錯誤"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:72
+msgid "Geographic errors / outliers"
+msgstr "地理資訊錯誤/離群值"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:75
+msgid "Refer to <<Helpful tools>> in order to complete the exercise.  You are not limited to these tools, you may use any tools you like."
+msgstr "請參考 <<Helpful tools>> 來完成整個練習。可以使用的工具不受限於這些，您可以使用任何想要的工具。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:76
+msgid "Use the same file from the previous exercise."
+msgstr "使用上個練習中的相同檔案"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:77
+msgid "Make the correction ONLY for the Eriocaulaceae family (so you may want to filter the data)"
+msgstr "只對 Eriocaulaceae (穀精草科)的紀錄進行更正(對此你可能會要篩選資料)"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:78
+msgid "Correct the errors found in the dataset used in exercise 3a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet."
+msgstr "更正那些在前個練習中(exercise 3a)找到的資料集錯誤，使用你選擇的工具，並將你做出的變更在練習表中記錄成檔。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:79
+msgid "Correct the entire file if you have time."
+msgstr "若您有空的話，把整個檔案都做一遍。"
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:81
+#, no-wrap
+msgid "Exercise 2c"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:86
+msgid "In this video (03:27), you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:88
+msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_Management_OpenRefine.mp4[download,opts=download] it locally. (MP4 - 3.8 MB)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:94
+#, no-wrap
+msgid "*OpenRefine*\n"
+msgstr "*OpenRefine*\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:96
+msgid "In this exercise we use OpenRefine to improve the quality of a dataset by using the default features, existing web services and regular expressions."
+msgstr "在此練習中，我們使用OpenRefine 來改善資料集的品質。將使用的是內建的基本功能、既存的網路服務、及正規表示式。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:98
+msgid "Download lxref:attachment$UC1-3c-open-refine.csv[UC1-2c-open-refine.csv,opts=download]. (207.5 KB)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:100
+msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise3c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 1.1 MB)  Also available in xref:attachment$OpenRefine-Exercise3c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise3c-ES.pdf[Spanish,opts=download]."
+msgstr ""
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:102
+#, no-wrap
+msgid "Exercise tips"
+msgstr "練習的小技巧"
+
+#. type: Title ====
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:104
+#, no-wrap
+msgid "Validation checks"
+msgstr "資料驗證檢查"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:109
+#, no-wrap
+msgid "*Technical errors*\n"
+"Relatively simple, often able to be automated, *checks against the integrity of the data*. \n"
+"These may indicate incorrect exports, data mapping, field slippage (e.g. moving 1 column to the right) or data missing at the source.\n"
+msgstr "*技術性錯誤Technical errors*\n"
+"相對簡單、容易被自動化地檢查出來，*檢查資料的完整性*。 \n"
+"這也指那些錯誤的輸出格式、資料映射、欄位滑動(如：整行向右滑動一行)、及來源的資料缺失。\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:112
+#, no-wrap
+msgid "*Completeness*: \n"
+"Whether all the data and metadata is available – are all fields present, are all fields filled out?\n"
+msgstr "*完整性Completeness*: \n"
+"所有的資料與後設資料是否齊全──是否所有欄位都在、且無缺失？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:114
+#, no-wrap
+msgid "*Bounds*: \n"
+"For example, are days given in the range 1-31 (depending on month)\n"
+msgstr "*該有的限制Bounds*: \n"
+"比如日期應當於1至31之間(依月份而定)\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:116
+#, no-wrap
+msgid "*Data type*: \n"
+"For example, does the Date field contain a date or a number?\n"
+msgstr "*資料類型Data type*: \n"
+"舉例來說，填在日期欄位中的是否是單一日期、或數字呢？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:118
+#, no-wrap
+msgid "*Data format*: \n"
+"For example, are Dates provided as 01/01/2010 or 01/Jan/10?\n"
+msgstr "*資料格式Data format*: \n"
+"舉例來說，日期格式會是如 01/01/2010 還是 01/Jan/10？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:120
+#, no-wrap
+msgid "*Consistency errors*\n"
+msgstr "*一致性錯誤Consistency errors*\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:126
+msgid "Application of real-world rules to the data.  These may indicate incorrect data entry from older records, transcription errors or post processing.  Some are complex to implement and *require reference data sets to check against*.  E.g. a list of known collectors and collecting habits.  These rules can be gathered from data users and analysts."
+msgstr "把真實世界的規則套用在資料上。這可能代表有些錯誤是來自於舊紀錄的資料輸入、過去的錯誤轉錄、或後處理；而有些規則應用上十分複雜、且 *需要參考資料集才能檢驗* ───如：一份關於已知的蒐集者及其蒐集習慣的清單。這些規則可以從資料使用者、分析師中得到。"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:129
+#, no-wrap
+msgid "*Taxonomic*: \n"
+"For example, if identified to species level, have a binomial scientific name and entries in genus and species fields been provided?\n"
+msgstr "*分類上的Taxonomic*: \n"
+"如，若鑑定至種，則得有屬名+種小名等完整的學名。\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:131
+#, no-wrap
+msgid "*Currency*: \n"
+"Are dates of collection, identification, update and digitization consistent?\n"
+msgstr "*流通性Currency*: \n"
+"檢查採集、鑑定、更新及數位化的日期是否一致？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:134
+#, no-wrap
+msgid "*Outliers*: \n"
+"Detect outliers, but remember that not all outliers are necessarily errors. \n"
+"For example, compare against a known species range, or known environmental range (but remember that outliers may be misidentifications, rather than incorrect coordinates).\n"
+msgstr "*異常值Outliers*: \n"
+"去找出異常值，但記住不是所有的異常值都一定是錯誤。\n"
+"比如：不同於已知的物種分布區域、或已知的環境範圍(但請記住，比起是座標的錯誤異常，這個異常值更可能是被錯誤鑑定至此而產生的結果)。\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:137
+#, no-wrap
+msgid "*Geographic*: \n"
+"Are the coordinates within the identified locality or region? \n"
+"For example, are there any terrestrial occurrences in the sea or marine occurrences on land?\n"
+msgstr "*地理上的Geographic*: \n"
+"這些座標有落於對應的地點、地區內嗎？ 比如：是否有任何出現在海上的陸生紀錄、或出現在陸地上的海洋紀錄？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:141
+#, no-wrap
+msgid "*Collecting patterns*: \n"
+"Does the occurrence detail match the known collecting patterns of the organization or collector?\n"
+"Do any records appear to have been created after a collector has died (could this possibly be a different collector with a similar name)?\n"
+"For example, are any mammal records attributed to a bird watching group?\n"
+msgstr "*採集模式Collecting patterns*: \n"
+"此筆出現紀錄的細節是否符合這個組織、採集者他們已知的採集模式呢？\n"
+"是否有任何紀錄是在採集者死亡後新增的(或者，這可能是另一位有著同名的不同採集者)？\n"
+"舉例如：是否有任何哺乳類紀錄出現在賞鳥團體的紀錄當中？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:143
+#, no-wrap
+msgid "*Accuracy and precision*: \n"
+"For example, are any georeferenced records indicating very high precision or accuracy from a pre-GPS (or pre-accurate GPS) collecting period?\n"
+msgstr "*正確性與精準度Accuracy and precision*: \n"
+"具體來說，是否有任何具地理參照的紀錄在精確的定位之前，就有著非常高的GPS精準度、正確性？\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:146
+#, no-wrap
+msgid "*Collecting methods*: \n"
+"Different survey methods (e.g. transects and area surveys) have particular characteristics. \n"
+"Are the records consistent with the method provided?\n"
+msgstr "*採集方法Collecting methods*: \n"
+"不同採集方法(如：穿越線法、區域調查法)具有特定的特徵。這些記錄呈現出來與提供出來的方法是一致的嗎？\n"
+
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:147
+#, no-wrap
+msgid "Helpful tools"
+msgstr "實用工具"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:150
+#, no-wrap
+msgid "*GBIF Name Parser*: https://www.gbif.org/tools/name-parser\n"
+msgstr "*GBIF Name Parser*: https://www.gbif.org/tools/name-parser\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:151
+#, no-wrap
+msgid "*Global Names Resolver*: http://resolver.globalnames.org\n"
+msgstr "*Global Names Resolver*: http://resolver.globalnames.org\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:152
+#, no-wrap
+msgid "*Catalogue of Life name match*: https://data.catalogueoflife.org/tools/name-match\n"
+msgstr "*Catalogue of Life name match*: https://data.catalogueoflife.org/tools/name-match\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:153
+#, no-wrap
+msgid "*TNRS*: https://tnrs.biendata.org/\n"
+msgstr "*TNRS*: https://tnrs.biendata.org/\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:154
+#, no-wrap
+msgid "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
+msgstr "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:155
+#, no-wrap
+msgid "*InfoXY*: http://splink.cria.org.br/infoxy?criaLANG=en\n"
+msgstr "*InfoXY*: http://splink.cria.org.br/infoxy?criaLANG=en\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:156
+#, no-wrap
+msgid "*Georeferencing Calculator*: http://georeferencing.org/georefcalculator/gc.html\n"
+msgstr "*Georeferencing Calculator*: http://georeferencing.org/georefcalculator/gc.html\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:157
+#, no-wrap
+msgid "*Canadensys coordinate conversion*: http://data.canadensys.net/tools/coordinates\n"
+msgstr "*Canadensys coordinate conversion*: http://data.canadensys.net/tools/coordinates\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:158
+#, no-wrap
+msgid "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
+msgstr "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:159
+#, no-wrap
+msgid "*Google Maps*: https://maps.google.com/\n"
+msgstr "*Google Maps*: https://maps.google.com/\n"
+
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:176
+msgid "Why is it best to clean your data?"
+msgstr "為什麼最好要清理你的資料呢？"
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:182
+#, no-wrap
+msgid "- [x] to make them as fit for use as possible\n"
+"- [x] to achieve your data quality goals\n"
+"- [ ] data should be cleaned by the users, not the providers\n"
+msgstr "- [x] 讓它們盡可能的方便使用\n"
+"- [x] 達到你對資料品質的目標\n"
+"- [ ] 資料應該由使用者自己清，而非提供者\n"
+
+#.  Question 2
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:185
+msgid "How should you organize your data cleaning workflow?"
+msgstr "如何建構自己資料清理的工作流呢？"
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:191
+#, no-wrap
+msgid "- [ ] work alone, you know your data best\n"
+"- [x] ask your colleagues for expertise\n"
+"- [x] work at an institutional level to harmonize data quality workflows\n"
+msgstr "- [ ] 自己工作，只有自己最了解資料集\n"
+"- [x] 詢問你的專家同事們\n"
+"- [x] 以機構的等級切入，對焦建立資料品質的工作流\n"
+
+#.  Question 3
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:194
+msgid "Which is best:"
+msgstr "下列何者是最好的："
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:200
+#, no-wrap
+msgid "- [x] prevent errors from occurring\n"
+"- [x] correct errors as soon as you find them in your database or spreadsheet\n"
+"- [ ] not cleaning errors but documenting them as you go, so people who reuse your data know where they are\n"
+msgstr "- [x] 預防錯誤發生\n"
+"- [x] 盡速更正你在資料集、資料庫中找到的錯誤\n"
+"- [ ] 不清理錯誤但將它們記錄下來，因此使用你資料的人們可以知道錯誤在哪裡\n"
+
+#.  Question 4
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:203
+msgid "Whose responsibility is data quality?"
+msgstr "資料品質是誰的責任？"
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:212
+#, no-wrap
+msgid "- [ ] The person(s) who record data on the field\n"
+"- [ ] The data transcribers\n"
+"- [ ] The database manager\n"
+"- [x] Everyone involved in the management of data\n"
+"- [ ] The people who use your data\n"
+"- [ ] GBIF\n"
+msgstr "- [ ] 記錄此筆資料的人\n"
+"- [ ] 資料抄寫員\n"
+"- [ ] 資料庫管理者\n"
+"- [x] 所有參與到資料管理的人\n"
+"- [ ] 用你資料的人\n"
+"- [ ] GBIF\n"
+
+#.  Question 5
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:215
+msgid "Which tools can be used to clean your data ?"
+msgstr "下列哪些工具可以用來清理你的資料？"
+
+#. type: delimited block .
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:222
+#, no-wrap
+msgid "- [x] Excel & other spreadsheets management tools\n"
+"- [x] OpenRefine\n"
+"- [x] Your database software\n"
+"- [x] Online tools such as Scientific Names Resolver or Google Maps\n"
+msgstr "- [x] Excel 和其他 spreadsheets的管理工具 \n"
+"- [x] OpenRefine\n"
+"- [x] 你的資料庫軟體\n"
+"- [x] 線上工具，如：Scientific Names Resolver 、 Google Maps\n"
+
