@@ -61,8 +61,9 @@ asciidoc:
     page-toctitle: 'TRADITIONAL CHINESE TRANSLATION NEEDED 頁面內容'
     language: zh-tw
     null: ␀
-antora:
-  extensions:
-  - require: '@antora/lunr-extension'
-    index_latest_only: true
-    languages: [zh]
+#Not yet supported, node required during the build.
+#antora:
+#  extensions:
+#  - require: '@antora/lunr-extension'
+#    index_latest_only: true
+#    languages: [zh]
