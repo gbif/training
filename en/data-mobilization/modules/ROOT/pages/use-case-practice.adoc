@@ -1,0 +1,98 @@
+= Use Case - Butterfly monitoring
+
+[NOTE.activity]
+====
+Familiarize yourself with the practice use case scenario.
+
+A suggested solution will be provided in the solution appendix. 
+
+This Use Case is not graded.
+====
+
+== Scenario
+
+*Butterfly Monitoring*
+
+:figure-caption!:
+.https://www.gbif.org/occurrence/5177352092[Coenonympha pamphilus (Linnaeus, 1758)] Observed in Sweden by Tobias Karlsson (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])
+image::data-mobilization::Use-Case-Practice-Coenonympha-pamphilus.png[align=center,width=640,height=360]
+
+This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Kate Ingenloff and Laura Anne Russell, based on previous work by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Anne Russell, Mélianie Raymond and Nicolas Noé.
+
+It is a fictionalized scenario based on a real dataset and is meant only for instructional purposes. The original dataset is attributed to Pettersson L B (2025). Swedish Butterfly Monitoring Scheme (SeBMS). Version 1.12. Department of Biology, Lund University. Sampling event dataset https://doi.org/10.15468/othndo accessed via GBIF.org on 2026-04-12.
+
+=== Description
+
+The Swedish Butterfly Network (SBN) has been providing a framework for observational groups to capture data about the occurrence of butterflies (Lepidoptera) on an annual basis since 2009.
+
+This network of observers use a standard protocol based on Pollard walks to capture this information on paper sheets that they send to the national SBN office. SBN processes the log files and produces an annual report based on the sightings provided by the observation groups, with updated distribution maps and analysis of population trends for some key species.
+
+The SBN headquarters is mainly staffed with volunteers. The SBN steering committee is trying to identify a more efficient workflow for the creation of digital data because they would like to start publishing these data online to GBIF. Their ultimate objective is to raise the profile of the network and strengthen collaborations with national groups like the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden.
+
+=== Data collection
+
+Two different recording methods are used by SBN. One is the point site counts which cover an area with a 25 m radius for 15 min per visit. The other method is fixed-route Pollard walk transects, typically 0.5-3 km in length. These two methods enable the monitoring scheme to assess yearly changes both in the number of butterflies seen and in species composition.
+
+These sampling efforts happen April 1st to September 30th annually. Sites are visited 3-7 times per season.
+
+* The data are, for each species, the sum total of all individuals observed during the visit. For transect sites it is the sum of all individuals from all segments.
+* The logs contain observations of species that were actually present at the surveyed sites, but the surveyor would have looked for all species that are included in the survey design. For visits to sites where no observations were made at all, "SpeciesIncludedInSurvey" will have a status set to "Absent". Additionally, information about whether a visit is a null visit (i.e. true = no survey species observed) or not (i.e. false = one or more survey species were observed) is included (see "noObservations").
+* Site coordinates represent midpoints for point sites and centroid midpoints for transect sites.
+* Values under stateProvince represent 24 of the 25 Swedish provinces (swe landskap). The 25th province (Lappland) is represented by the 5 areas called ’lappmarker’ (swe).
+* Event time is reported for each sampling event as starttime/endtime, or starttime only.
+
+=== Analogue data capture example
+
+image::data-mobilization::use-case-2-lepidoptera-analogue.png[align=center,width=640,height=360]
+
+=== Digital data description
+
+The SBN office uses groups of volunteers to digitize the paper logs and produce digital spreadsheets. The spreadsheets are very simple and include three datasheets: 
+
+* the first captures the information linked to the sampling efforts
+* the second the weather conditions and other noted facts
+* the third with the species encountered and the number of individuals observed
+
+image::data-mobilization::Use-Case-Practice-Simple-Spreadsheet.jpg[align=center,width=640,height=360]
+
+== Exercises
+
+Download the xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.9 MB)
+
+=== Exercise 1
+
+*Data capture*
+
+Imagine you are one of the volunteers digitizing the paper logs received at the SBN headquarters. You have received two paper logs.
+
+. Download logs 1 and 2 xref:attachment$UC2-LS-2-ForCapture.zip[UC2-LS-2-ForCapture.zip]. (943 KB)
+. What data structure would you use to reflect the data in these logs?
+. Create a spreadsheet using this structure and the data from the logs.
+. Use the exercise sheet to provide your answers.
+
+=== Exercise 2
+
+*Data management*
+
+Taking the role of one of the volunteers with advanced computer skills, imagine you have been assigned the responsibility for data quality issues.
+
+Your main task is to reduce the amount of data that is currently discarded (around a 15%) before processing due to errors and inconsistencies.
+
+You have received a dataset as the raw product of the digitization effort.
+
+. Download xref:attachment$UC2-LS-3-ForCleaning.xlsx[UC2-LS-3-ForCleaning.xlsx]. (44 KB)
+. Evaluate the dataset and identify which types of errors are present. 
+. Identify possible ways to correct those issues, and perform those corrections for as many of the errors present as you can. 
+. Use the exercise sheet to provide your answers and submit the spreadsheet.
+
+=== Exercise 3
+
+*Data publishing*
+
+For this exercise, you will be responsible for publishing the cleaned data online through the GBIF network.
+
+The volunteer in charge of data quality has provided an already cleaned and standardized dataset to be published.
+
+. Download xref:attachment$UC2-LS-4-ForPublication.xlsx[UC2-LS-4-ForPublication.xlsx]. (58 KB) 
+. Use the previously provided IPT installation to publish the given dataset.
+. Use the exercise sheet to provide your answers and link to the published dataset.

@@ -7,18 +7,88 @@ Familiarize yourself with the use case scenario.
 
 == Scenario
 
+:figure-caption!:
+.https://www.gbif.org/occurrence/6133453758[Calliostoma canaliculatum (Lightfoot) 1786^] observed in United States of America by Sheldon Logan (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])
+image::data-mobilization::UC-MS-Calliostoma-canaliculatum.png[align=center,width=640,height=360]
+
+This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed initially by David Bloom and Amanda Whitmire for use in CESP2022-009 (Expanding the Network: Bringing marine research stations and library collections into the data-sharing community).
+
+This is a partially fictionalized scenario based on a real project and datasets. It is intended for instructional purposes only. Use case data may not be reproduced for any other purpose without the permission of the Harold A. Miller Library at Hopkins Marine Station (HMS-Library@lists.stanford.edu).
+
 === Description
 
-=== Data collection
+Hopkins Marine Station (HMS) is the marine laboratory for Stanford University. The station is located two-hours south of the main Stanford campus on the western coast of California. With one of the oldest marine laboratories in the United States, the library at HMS houses an extensive collection of historical marine data in the form of ship manifests, logs, fieldbooks, academic papers (including student papers), and other analog materials.
+
+While contributing to several large-scale digitization and online repository projects, the Head Librarian met a local GBIF Node Manager who encouraged HMS to begin the process of digitizing and publishing the library’s extensive collection of biodiversity data to GBIF and other data aggregators. Recently, the Librarian has made it a priority to begin the process to transfer the data from field books, note cards, and into a new collection of image files (.jpg), pdf documents and spreadsheets containing event and occurrence data. The new files, and the data contained within them, will be organized into the library’s new content management system.publications, and images in the library’s archive into a content management system.
+
+The process of digitizing and publishing HMS data will take time. The library budget is allocated annually and does not include funds for digitization or to hire new staff for the project. Human resources are also limited to the Head Librarian (who has a PhD in Oceanography), a Library Assistant with an MS in Library and Information Science, an undergraduate work-study student who is paid for 10 hours per week, and two local retirees who volunteer at the library twice weekly in four-hour blocks. 
+
+The Librarian and Assistant already possess a large-format scanner and the necessary software to scan the library’s wide variety of documents, including materials with bindings. Together, they have determined that digitization should begin with the work of one of HMS’ best known collectors, Willis G. Hewatt. They have also developed a preliminary workflow for the job:
+
+Identify a specific locality or transect within the Hewatt archive and then identify any associated historic or modern faculty or student papers, journal articles, books, and associated resources (e.g., index cards, maps, field books).
+
+The Library Assistant will pull all of the analogue resources from the HMS archives and then scan them into appropriate digital formats, using optical character recognition (OCR) whenever possible. Data formatted as tables will be converted and imported into a common spreadsheet.
+
+The volunteers will review the OCR’d files for conversion errors and to confirm that the tables match the analogue source materials. Any living authors will be consulted when questions arise in regard to their work.
+
+Under the supervision of the Library Assistant and Head Librarian (indirectly), the work-study student will map the  tables to GBIF Event Core and Occurrence Core fields, adding information from associated papers and other written resources (e.g., journal articles, manuscripts). The Head Librarian will provide a final review to confirm the accuracy and completeness of the data.
+
+All tables will be sent to a local GBIF Node Manager who will provide access to the Node IPT and who will register the HMS with GBIF and ensure that the datasets are published correctly to both GBIF and the Ocean Biodiversity Information System (OBIS).
+
+=== Original data collection
+
+The first collection of data selected by the Head Librarian is the “Hewatt Transect”, a qualitative observational record of the intertidal zone directly adjacent to the HMS facility. These observations were recorded continuously from 1931 to 1933, with additional observations added in 19341. A student paper in 1993 (Gilman & Sagarin2) sought to resurvey the same transect, although only part of the original transect was observed. Both projects entered into the survey with a list of species expected to be present within the transect. Hewatt’s dissertation and Gilman & Sagarin’s student paper were preserved by the library, along with related published peer-reviewed papers. The data necessary to publish to GBIF and other data aggregators is spread across all of the resources in the library archive.
+
+:figure-caption!:
+.Figure 1. Table X from Willis G. Hewatt’s 1934 thesis showing the abundance of the 90 most common taxa across a 105-yard intertidal transect at Hopkins Marine Station. 
+image::data-mobilization::MS-Figure1.png[align=center,width=640,height=360]
+
+:figure-caption!:
+.Figure 2. Data tables from Gilman and Sagarin (1993) showing counts of 97 species across 19 quadrats that were sampled along Hewatt’s transect. The tables show Hewatt’s data (white) and their data (shaded), with totals at the right. 
+image::data-mobilization::MS-Figure2a.png[align=center,width=640,height=360]
+image::data-mobilization::MS-Figure2b.png[align=center,width=640,height=360]
+
+=== Data conversion and aggregation
+
+Both Hewatt and Gilman/Sagarin recorded data in a table format for species for each transect. These “lists” were converted into a format aligned to an occurrence dataset.
+
+:figure-caption!:
+.Figure 3. Hewatt’s data transcribed into a spreadsheet. This is a critical first step, but this is not a data layout that will work for upload to taxonomic databases.
+image::data-mobilization::MS-Figure3.png[align=center,width=640,height=360]
+
+:figure-caption!:
+.Figure 4. Hewatt’s data converted to a format aligned to an occurrence dataset. Some information has been pulled from the thesis to start to build out each occurrence record.
+image::data-mobilization::MS-Figure4.png[align=center,width=640,height=360]
+
+=== Data Assessment
+
+As a part of the Head Librarian’s review the converted and aggregated tables included special attention to specific data which describe:
+
+* Observation depth
+* Date and time
+* Geographic coordinates
+* Locality descriptions
+* Research methods
+* Species Identifiers
+
+:figure-caption!:
+.Figure 5. Hewatt’s data converted to a format aligned to an occurrence dataset and Darwin Core standard metadata. After more metadata terms are added, each quadrat observation has become a row with over 65 columns of information.
+image::data-mobilization::MS-Figure5.png[align=center,width=640,height=360]
+
+=== References
+
+. Hewatt, Willis Gilliland. “Ecological Studies on Selected Marine Intertidal Communities of Monterey Bay.” Ph.D., Stanford University, 1934. https://purl.stanford.edu/wr792fj0469.
+. Gilman, Sarah E., and Raphael D. Sagarin. “Temperature Correlated Long-Term Faunal Changes in the Rocky Intertidal.” Hopkins Marine Station Student Papers. Stanford (Calif.), 1993. Stanford Digital Repository. https://purl.stanford.edu/jd254tq7230.
 
 == Exercises
+
+Download the xref:attachment$UC-MS-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.8 MB)
 
 === Exercise 1
 
 *Data capture*
 
-
-. Download l
+. Download 
 . What data structure would you use to reflect the data?
 . Create a spreadsheet using this structure and the data.
 . Use the exercise sheet to provide your answers and submit the spreadsheet created in the previous step.
@@ -27,7 +97,7 @@ Familiarize yourself with the use case scenario.
 
 *Data management*
 
-. Download 
+. Download xref:attachment$UC-MS-2-ForCleaning.csv[UC-MS-2-ForCleaning.csv,opts=download]. (82 KB)
 . Evaluate the dataset and identify which types of errors are present. 
 . Identify possible ways to correct those issues, and perform those corrections for as many of the errors present as you can. 
 . Use the exercise sheet to provide your answers and submit the spreadsheet.
@@ -36,7 +106,6 @@ Familiarize yourself with the use case scenario.
 
 *Data publishing*
 
-
-. Download 
+. Download xref:attachment$UC-MS-3-ForPublication.csv[UC-MS-3-ForPublication.csv,opts=download]. (402 KB) 
 . Use the previously provided IPT installation to publish the given dataset.
 . Use the exercise sheet to provide your answers and link to the published dataset.

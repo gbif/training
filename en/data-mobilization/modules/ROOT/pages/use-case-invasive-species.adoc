@@ -10,7 +10,7 @@ Familiarize yourself with the use case scenario.
 
 :figure-caption!:
 .https://www.gbif.org/species/2970418[Leucaena leucocephala (Lam.) de Wit] observed in Hawaii by Sharon Grant (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])
-image::data-mobilization::use-case-2-invasive-hawaii.png[align=center,width=640,height=360]
+image::data-mobilization::use-case-invasives-hawaii.png[align=center,width=640,height=360]
 
 This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Sharon Grant, John Wieczorek, David Bloom and Laura Anne Russell. 
 
@@ -43,7 +43,7 @@ Details, describing every observation of the 21 invasive species of interest, we
 Participants uploaded the images captured on mobile phones and were encouraged to click their locations using a Google map, embedded in the form, to assign latitude and longitude to each observation.
 The form’s design was based on the HISC pest reporting form.
 
-image::data-mobilization::use-case-2-invasives-data-collection.png[align=center,width=640]
+image::data-mobilization::use-case-invasives-data-collection.png[align=center,width=640]
 
 === Digital data description
 
@@ -54,7 +54,7 @@ Student mentors renamed all image files to match the observation number for cros
 
 == Exercises
 
-Download the xref:attachment$UC2-IS-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 342 KB)
+Download the xref:attachment$UC-IS-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 342 KB)
 
 === Exercise 1
 
@@ -65,7 +65,7 @@ As the BIISC’s Outreach Assistant, you must identify the relevant Darwin Core 
 You’ve noticed that additional data describing species and locations have been added to the data form by the graduate students performing validations.
 To accommodate this data, you need to extend the data structure to aggregate the data from the online form with the added taxonomy and georeferences.
 
-. Download xref:attachment$UC2-IS-2-ForCapture.csv[UC2-IS-2-ForCapture.csv,opts=download]. (7.1 MB)
+. Download xref:attachment$UC-IS-1-ForCapture.csv[UC-IS-1-ForCapture.csv,opts=download]. (81 KB)
 . Using the downloaded dataset, produce a spreadsheet as example of the extended data structure and the fields you’ve identified as relevant for Darwin Core.
 . Use the exercise sheet to provide your answers and submit the spreadsheet.
 
@@ -76,7 +76,7 @@ To accommodate this data, you need to extend the data structure to aggregate the
 Over the summer, interns at the HISC main office created checklists from the original occurrence data that were collected and augmented from the online form.
 Taking the role of the HSC Project Leader, you must now carry out final quality checks prior to publication.
 
-. Download xref:attachment$UC2-IS-3-ForCleaning.xlsx[UC2-IS-3-ForCleaning.xlsx,opts=download]. (156 KB)
+. Download xref:attachment$UC-IS-2-ForCleaning.xlsx[UC-IS-2-ForCleaning.xlsx,opts=download]. (156 KB)
 . Evaluate the dataset and identify which types of errors are present. 
 . Identify possible ways to correct those issues and perform those corrections for as many of the errors as you can. 
 . Use the exercise sheet to provide your answers and submit the spreadsheet.
@@ -89,6 +89,6 @@ The HISC is now ready to publish the checklist data and associated occurrences t
 For this exercise, you will take the role of the Project Leader.
 Your responsibility: publishing the cleaned checklist data and associated occurrences online through the GBIF network.
 
-. Download xref:attachment$UC2-IS-4-ForPublication.xlsx[UC2-IS-4-ForPublication.xlsx,opts=download]. (99 KB) 
+. Download xref:attachment$UC-IS-3-ForPublication.xlsx[UC-IS-3-ForPublication.xlsx,opts=download]. (99 KB) 
 . Use the previously provided IPT installation to publish the given dataset.
 . Use the exercise sheet to provide your answers and link to the published dataset.
