@@ -34,7 +34,7 @@ content:
       branches: HEAD
     - url: .
       start_path: ./zh-tw/foundations
-      branches: HEAD      
+      branches: HEAD
 output:
   clean: false
   dir: ./output/zh-tw
@@ -65,4 +65,4 @@ antora:
   extensions:
   - require: '@antora/lunr-extension'
     index_latest_only: true
-    languages: [zh-tw]
+    languages: [zh]
