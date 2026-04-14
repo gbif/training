@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
+"POT-Creation-Date: 2026-04-14 19:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,14 +225,6 @@ msgid "data-mobilization::use-case-2-lepidoptera-analogue.png"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:83
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
-msgid ""
-"Download logs 1 and 2 xref:attachment$UC2-LS-2-ForCapture.zip[UC2-LS-2-"
-"ForCapture.zip]. (943 KB)"
-msgstr ""
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:84
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
 msgid "What data structure would you use to reflect the data in these logs?"
@@ -245,28 +237,12 @@ msgid "Create a spreadsheet using this structure and the data from the logs."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:96
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:84
-msgid ""
-"Download xref:attachment$UC2-LS-3-ForCleaning.xlsx[UC2-LS-3-ForCleaning."
-"xlsx]. (44 KB)"
-msgstr ""
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:98
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:103
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:86
 msgid ""
 "Identify possible ways to correct those issues, and perform those "
 "corrections for as many of the errors present as you can."
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:109
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:97
-msgid ""
-"Download xref:attachment$UC2-LS-4-ForPublication.xlsx[UC2-LS-4-"
-"ForPublication.xlsx]. (58 KB)"
 msgstr ""
 
 #. type: Title =
@@ -321,41 +297,39 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:27
 msgid ""
-"The Swedish Butterfly Network (SBN) has been providing a framework for "
-"observational groups to capture data about the occurrence of butterflies "
-"(Lepidoptera) on an annual basis since 2009."
+"The Swedish Butterfly Network (SBN) has been monitoring the occurrence of "
+"butterflies (Lepidoptera) at a series of fixed sites 3-7 times per season on "
+"an annual basis since 2009."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:29
 msgid ""
-"This network of observers use a standard protocol based on Pollard walks to "
-"capture this information on paper sheets that they send to the national SBN "
-"office. SBN processes the log files and produces an annual report based on "
-"the sightings provided by the observation groups, with updated distribution "
-"maps and analysis of population trends for some key species."
+"The observers use one of two standard protocols—-Pollard walks where the "
+"site is a transect and point counts at stationary point sites—-to capture "
+"this information on paper sheets that they send to the national SBN office. "
+"SBN processes the log files and produces an annual report based on the "
+"sightings."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:31
 msgid ""
-"The SBN headquarters is mainly staffed with volunteers. The SBN steering "
-"committee is trying to identify a more efficient workflow for the creation "
-"of digital data because they would like to start publishing these data "
-"online to GBIF. Their ultimate objective is to raise the profile of the "
-"network and strengthen collaborations with national groups like the Swedish "
-"Environmental Protection Agency, the Swedish Transport Administration, and "
-"the Swedish County Administration Boards to influence conservation policies "
-"for Lepidoptera in Sweden."
+"The SBN steering committee would like to start publishing these data online "
+"to GBIF in order to strengthen collaborations the Swedish Environmental "
+"Protection Agency, the Swedish Transport Administration, and the Swedish "
+"County Administration Boards to influence conservation policies for "
+"Lepidoptera in Sweden."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:35
 msgid ""
-"Two different recording methods are used by SBN. One is the point site "
-"counts which cover an area with a 25 m radius for 15 min per visit. The "
+"Two different recording methods are used by SBN. One method is the point "
+"site counts which cover an area with a 25 m radius for 15 min per visit. The "
 "other method is fixed-route Pollard walk transects, typically 0.5-3 km in "
-"length. These two methods enable the monitoring scheme to assess yearly "
+"length. These methods are described in Pollard and Yates (1993) and "
+"Pettersson et al. (2010) and enable the monitoring scheme to assess yearly "
 "changes both in the number of butterflies seen and in species composition."
 msgstr ""
 
@@ -369,7 +343,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:39
 msgid ""
-"The data are, for each species, the sum total of all individuals observed "
+"The data are, for each species, the summed total of all individuals observed "
 "during the visit. For transect sites it is the sum of all individuals from "
 "all segments."
 msgstr ""
@@ -377,13 +351,14 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:40
 msgid ""
-"The logs contain observations of species that were actually present at the "
-"surveyed sites, but the surveyor would have looked for all species that are "
-"included in the survey design. For visits to sites where no observations "
-"were made at all, \"SpeciesIncludedInSurvey\" will have a status set to "
-"\"Absent\". Additionally, information about whether a visit is a null visit "
-"(i.e. true = no survey species observed) or not (i.e. false = one or more "
-"survey species were observed) is included (see \"noObservations\")."
+"Each log contain observations of species that were actually present and "
+"observed at the surveyed sites, but the surveyor would have looked for all "
+"species that are included in the survey design. For visits to sites where no "
+"observations were made at all, \"SpeciesIncludedInSurvey\" will have a "
+"status set to \"Absent\". Additionally, information about whether a visit is "
+"a null visit (i.e. true = no survey species observed) or not (i.e. false = "
+"one or more survey species were observed) is included (see "
+"\"noObservations\")."
 msgstr ""
 
 #. type: Plain text
@@ -418,18 +393,21 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:53
-msgid "the first captures the information linked to the sampling efforts"
+msgid ""
+"the first captures the information linked to the sampling efforts including "
+"survey date, location, and weather conditions"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:54
-msgid "the second the weather conditions and other noted facts"
+msgid "the second captures information about individual transect sections"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:55
 msgid ""
-"the third with the species encountered and the number of individuals observed"
+"the third captures the species encountered and the number of individuals "
+"observed"
 msgstr ""
 
 #. type: Target for macro image
@@ -450,6 +428,13 @@ msgstr ""
 msgid ""
 "Imagine you are one of the volunteers digitizing the paper logs received at "
 "the SBN headquarters. You have received two paper logs."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
+msgid ""
+"Download logs 1 and 2 xref:attachment$UC2-LS-2-ForCapture.zip[UC2-LS-2-"
+"ForCapture.zip]. (943 KB)"
 msgstr ""
 
 #. type: Plain text
@@ -478,6 +463,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:84
+msgid ""
+"Download xref:attachment$UC2-LS-3-ForCleaning.xlsx[UC2-LS-3-ForCleaning."
+"xlsx]. (44 KB)"
+msgstr ""
+
+#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:93
 msgid ""
 "For this exercise, you will be responsible for publishing the cleaned data "
@@ -489,4 +481,11 @@ msgstr ""
 msgid ""
 "The volunteer in charge of data quality has provided an already cleaned and "
 "standardized dataset to be published."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:97
+msgid ""
+"Download xref:attachment$UC2-LS-4-ForPublication.xlsx[UC2-LS-4-"
+"ForPublication.xlsx]. (58 KB)"
 msgstr ""
