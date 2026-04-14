@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
-"PO-Revision-Date: 2026-04-12 18:53\n"
+"POT-Creation-Date: 2026-04-13 13:03+0000\n"
+"PO-Revision-Date: 2026-04-13 14:13\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -67,26 +67,12 @@ msgstr "Linux 使用者： 需已安裝Java JRE"
 msgid "Google Chrome, Microsoft Edge or Mozilla Firefox installed.  Internet Explorer is not supported."
 msgstr "已安裝如Google Chrome、 Microsoft Edge 或Mozilla Firefox 等網頁瀏覽器。請注意，它並不支援 Internet Explorer。"
 
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:27
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:27
-msgid "The latest stable release is OpenRefine 3.4.1, released on September 24, 2020. Detailed installation instructions are available at https://docs.openrefine.org/manual/installing/[^]."
-msgstr "最新的OpenRefine穩定版本為發布於2020/9/24的3.4.1版。更多安裝說明請見 https://docs.openrefine.org/manual/installing/[^] 。"
-
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:28
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:28
 #, no-wrap
 msgid "Installation on MS Windows"
 msgstr "在微軟Windows上安裝"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:31
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:44
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:31
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:44
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*].  Choose to save the file rather than open it."
-msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip[Windows kit *with embedded Java*] 。選擇保存文件，而非打開它。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:32
@@ -187,12 +173,6 @@ msgid "Installation on Mac"
 msgstr "在 Mac 上安裝"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:86
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:86
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit]."
-msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit] 。"
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:88
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:88
 msgid "Download, open, drag icon into the Applications folder.  You do not need to install Java separately."
@@ -210,12 +190,6 @@ msgstr "雙擊點選它，就會跳出新的視窗來顯示應用程式。"
 #, no-wrap
 msgid "Detailed instructions for Mac (click to expand)"
 msgstr "詳細說明__Mac系統(點選展開)"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:100
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:100
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit], and choose to open it."
-msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg[Mac kit] ，並打開它。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:109
@@ -291,12 +265,6 @@ msgid "Installation on Linux"
 msgstr "在 Linux 上安裝"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:199
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:199
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]."
-msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]"
-
-#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:201
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:201
 msgid "Download, extract, then type ./refine to start.  This requires Java to be installed on your computer."
@@ -314,12 +282,6 @@ msgstr "詳細說明__Linux 系統(點選展開)"
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:206
 msgid "These instructions are for KDE (e.g. Kubuntu, SuSE), but the process is similar for Gnome (e.g. Ubuntu, Red Hat, CentOS)."
 msgstr "這些說明是寫給KDE(如： Kubuntu, SuSE)的，但過程與Gnome (如： Ubuntu, Red Hat, CentOS)很相似。"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:214
-#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:214
-msgid "Download the https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit].  Open it."
-msgstr "下載 https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz[Linux kit]。 並打開它。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/install-openrefine.adoc:223
@@ -362,6 +324,17 @@ msgstr ""
 msgid "foundations::open-refine-logo.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:27
+msgid "Remember to look for the most recent stable release. Keep in mind that screenshots below may differ on newer releases. Detailed installation instructions are available at https://docs.openrefine.org/manual/installing/[^]."
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:31
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:44
+msgid "Download the https://openrefine.org/download[Windows kit Zip file].  Choose to save the file rather than open it."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:42
 #, no-wrap
@@ -392,10 +365,20 @@ msgstr ""
 msgid "foundations::win5-run.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:86
+msgid "Download the https://openrefine.org/download[Mac kit]."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:98
 #, no-wrap
 msgid "foundations::mac01-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:100
+msgid "Download the https://openrefine.org/download[Mac kit], and choose to open it."
 msgstr ""
 
 #. type: Target for macro image
@@ -458,10 +441,20 @@ msgstr ""
 msgid "foundations::mac11-run.png"
 msgstr ""
 
+#. type: Plain text
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:199
+msgid "Download the https://openrefine.org/download[Linux kit]."
+msgstr ""
+
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/install-openrefine.adoc:212
 #, no-wrap
 msgid "foundations::kde1-download-open.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/foundations/modules/ROOT/pages/install-openrefine.adoc:214
+msgid "Download the https://openrefine.org/download[Linux kit].  Open it."
 msgstr ""
 
 #. type: Target for macro image
