@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
-"PO-Revision-Date: 2026-04-12 21:13\n"
+"POT-Creation-Date: 2026-04-14 21:22+0000\n"
+"PO-Revision-Date: 2026-04-14 22:15\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -16,9 +16,10 @@ msgstr ""
 "X-Crowdin-File: /main/translations/data-mobilization/capture.pot\n"
 "X-Crowdin-File-ID: 45056\n"
 
-#. type: delimited block =
+#. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:1
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:14
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:62
 #, no-wrap
 msgid "Data capture"
 msgstr ""
@@ -55,116 +56,140 @@ msgstr ""
 msgid "If you are unable to watch the embedded video, you can xref:attachment$Foundations_Standards_Darwin_Core.mp4[download,opts=download] it locally. (MP4 - 27 MB)"
 msgstr ""
 
-#. type: Title ==
+#. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:25
+#, no-wrap
+msgid "Exercise 1a"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
+msgid "For this activity, you will examine verbatim field names and match them to Darwin Core terms"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:33
+msgid "Find the Darwin Core term at https://dwc.tdwg.org/terms/ that best matches the field names."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:34
+msgid "Download xref:attachment$UC-Practice-exercise-sheet_EN.docx[UC-Practice-exercise-sheet_EN.docx,opts=download] to provide your answers."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:35
 #, no-wrap
 msgid "Data origins and types"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:40
 msgid "In this video (10:45), you will review https://www.gbif.org/dataset-classes[primary biodiversity data^] that can be shared within GBIF."
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:42
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_origins_types.mp4[download,opts=download] it locally. (MP4 - 19 MB)"
 msgstr ""
 
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:39
-#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:127
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:47
 #, no-wrap
-msgid "*Questions*\n"
+msgid "Exercise 1b"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:52
+msgid "For this activity, consider your data that you plan to share with GBIF."
 msgstr ""
 
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:56
+#, no-wrap
+msgid "*Discussion*\n"
+msgstr ""
+
+#. type: delimited block *
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:58
 msgid "Is your data type different than you originally thought?"
 msgstr ""
 
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:42
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:59
 msgid "With what kind of data do you work?"
 msgstr ""
 
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:43
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:60
 msgid "How would you publish your data to GBIF (using which Core and/or extension)?"
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:45
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:62
 #, no-wrap
 msgid "Data capture, processing and quality"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:50
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:67
 msgid "In this video (09:11), you will explore the principles of data quality applied to data capture, specifically when capturing data from collection labels, fieldwork notebooks, spreadsheets, etc."
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:52
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:69
 msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_capture_processing_quality.mp4[download,opts=download] it locally. (MP4 - 19 MB)"
 msgstr ""
 
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
-#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:88
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:49
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:59
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:76
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:62
-#: en/data-use/modules/ROOT/pages/exercise1.adoc:1
-#: en/epn/modules/ROOT/pages/assignments.adoc:8
-#: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
-#: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:13
+#. type: Title ===
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:74
 #, no-wrap
-msgid "Exercise 1"
+msgid "Exercise 1c"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:63
-msgid "For this activity, you will complete an exercise simulating data capture.  You will begin to work with https://dwc.tdwg.org/terms/[Darwin Core terms^] and make decisions on data that is needed for your organization/project and you will consider which of that data will be shared later during publication."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:80
+msgid "For this activity, you will complete an exercise simulating data capture.  Use the https://dwc.tdwg.org/terms/[Darwin Core terms^] to help make decisions on the supllied data that is needed for the project and what could be shared later in publication."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:66
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:40
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
 msgid "Read the Practice Use Case (if you haven't already)."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:68
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:54
-msgid "Imagine that you are the person assigned to transcribe the data found on the herbarium sheets."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:85
+msgid "Imagine that you are the person assigned to transcribe the data supplied by network volunteers."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:71
-msgid "Download xref:attachment$UC1-2-base-material.zip[UC1-2-base-material.zip,opts=download]. (34.4 MB). There are 10 images. Two images per specimen for a total of five specimens.  The herbarium sheets are in Spanish (data may come to you in various means and in other languages than your own), but you should be able to recognize the data contained in the fields on the labels. Remember to use both images per record to compile the information."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:87
+msgid "Download xref:attachment$UC-Practice-1-ForCapture.pdf[UC-Practice-1-ForCapture.pdf,opts=download]. (34.4 MB). There ..."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:72
-msgid "Download the spreadsheet template: xref:attachment$UC1-2-occurrence-template.xlsx[UC1-2-occurrence-template.xlsx,opts=download] (57.3 KB) to transcribe the information found on each of the images for the five specimens."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:88
+msgid "Download the spreadsheet template: xref:attachment$UC-Practice-1-template.xlsx[UC-Practice-1-template.xlsx,opts=download] (??.?? KB) to transcribe the observations recorded."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:73
-msgid "Download xref:attachment$UC1-Herbarium-Exercise_EN.docx[UC1-Herbarium-Exercise_EN.docx,opts=download] to provide your answers."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:89
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
+msgid "Use the previously downloaded exercise sheet to provide your answers."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:75
-msgid "you may need to add fields to the spreadsheet as you may be able to capture more information from the labels than was planned for in the template."
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:91
+msgid "you may need to add fields to the spreadsheet as you may be able to capture more information than was planned for in the template."
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:160
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
@@ -184,7 +209,7 @@ msgid "Review"
 msgstr "Revisione"
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:165
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
@@ -197,7 +222,7 @@ msgid "Quiz yourself on the concepts covered in this module. There may be multip
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:167
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
@@ -214,13 +239,13 @@ msgstr ""
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:108
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
 msgid "What dataset type(s) would you choose for an ichthyology collection?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:98
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:114
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://www.gbif.org/occurrence/441867173[Eutrigla gurnardus (Linnaeus, 1758)] | Muséum d’histoire naturelle de Nice\n"
@@ -228,8 +253,8 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:102
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:115
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:118
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:131
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
 #, no-wrap
@@ -240,13 +265,13 @@ msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:105
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:121
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
 msgid "What dataset type(s) would you choose for a list of invasive species?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:111
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:127
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".Water hyacinth (Eichhornia crassipes) observed in Bourail, New Caledonia, where it is an introduced and invasive species by GRIIS. Photo by gérard (2016) licensed under CC BY-SA 2.0\n"
@@ -255,20 +280,20 @@ msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:118
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:134
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
 msgid "What dataset type(s) would you choose for the flora and fauna of an environmental impact study?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:122
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:138
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
 #, no-wrap
 msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:126
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:142
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://upload.wikimedia.org/wikipedia/commons/6/64/Entomologist_chasing_buterflies.jpg[Entomologist chasing butterflies] by Matthieu Gauvain (CC-BY-SA)\n"
@@ -276,9 +301,9 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:130
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:158
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:190
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:146
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:174
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:206
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
@@ -290,20 +315,20 @@ msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:133
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:149
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
 msgid "What dataset type(s) would you choose for bird tracking data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:137
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:153
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
 #, no-wrap
 msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:141
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:157
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://commons.wikimedia.org/wiki/File:Griffon_vulture_at_Gamla_nature_reserve.jpg[Griffin vulture] observed at Gamla Nature Reserve by מינוזיג - MinoZig (CC0) \n"
@@ -311,7 +336,7 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:145
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:161
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
 #, no-wrap
 msgid "- [x] occurrence\n"
@@ -321,13 +346,13 @@ msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:148
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:164
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
 msgid "What dataset type(s) would you choose for insect trap data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:154
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:170
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://www.flickr.com/photos/miheco/215305679/[Insect trap] by miheco (CC-BY-SA)\n"
@@ -336,20 +361,20 @@ msgstr ""
 
 #.  Question 6
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:161
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:177
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
 msgid "What dataset type(s) would you choose for national park management data?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:181
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
 #, no-wrap
 msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:169
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:185
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://pixabay.com/photos/%C3%A9l%C3%A9phant-%C3%A9l%C3%A9phant-d-asie-4037451/[Sri Lankan elephants] observed by pen_ash.\n"
@@ -357,7 +382,7 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:173
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:189
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
 #, no-wrap
 msgid "- [x] occurrence\n"
@@ -367,27 +392,27 @@ msgstr ""
 
 #.  Question 7
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:176
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:192
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
 msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:180
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:196
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
 #, no-wrap
 msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:182
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:198
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
 #, no-wrap
 msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:186
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:202
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)\n"
@@ -396,13 +421,13 @@ msgstr ""
 
 #.  Question 8
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:193
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:209
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
 msgid "What dataset type(s) would you choose for a regional species list?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:199
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:215
 #, no-wrap
 msgid ":figure-caption!:\n"
 ".https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300\n"
@@ -410,7 +435,7 @@ msgid ":figure-caption!:\n"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:203
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:219
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
 #, no-wrap
 msgid "- [ ] occurrence\n"

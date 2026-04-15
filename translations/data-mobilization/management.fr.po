@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 17:40+0000\n"
-"PO-Revision-Date: 2026-04-12 17:58\n"
+"POT-Creation-Date: 2026-04-14 20:53+0000\n"
+"PO-Revision-Date: 2026-04-14 21:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -17,14 +17,23 @@ msgstr ""
 "X-Crowdin-File-ID: 45074\n"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:66
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:40
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
 msgid "Read the Practice Use Case (if you haven't already)."
 msgstr ""
 
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:89
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
+msgid "Use the previously downloaded exercise sheet to provide your answers."
+msgstr "Utilisez la feuille d'exercice précédemment téléchargée pour donner vos réponses."
+
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:160
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
@@ -44,7 +53,7 @@ msgid "Review"
 msgstr "Révision"
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:165
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
@@ -57,7 +66,7 @@ msgid "Quiz yourself on the concepts covered in this module. There may be multip
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:167
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
@@ -149,7 +158,7 @@ msgstr "Dans cet exercice, nous nous concentrerons sur les erreurs techniques et
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:51
-msgid "Download xref:attachment$UC1-3ab-data-cleaning.csv[UC1-2ab-data-cleaning.csv,opts=download]. (207.5 KB)"
+msgid "Download xref:attachment$UC-Practice-2ab-data-cleaning.csv[UC-Practice-2ab-data-cleaning.csv,opts=download]. (?? KB)"
 msgstr ""
 
 #. type: Plain text
@@ -161,14 +170,6 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:53
 msgid "Find and correct the errors manually."
 msgstr "Trouvez et corrigez les erreurs manuellement."
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
-msgid "Use the previously downloaded exercise sheet to provide your answers."
-msgstr "Utilisez la feuille d'exercice précédemment téléchargée pour donner vos réponses."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:55
@@ -184,18 +185,18 @@ msgstr "*Autres outils de gestion des données*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:60
-msgid "The GPA association has given you a checklist of data quality elements to verify:"
-msgstr "L'association GPA vous a donné une liste d'éléments de contrôle de qualité des données à vérifier :"
+msgid "SBN has given you a checklist of data quality elements to verify:"
+msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:62
-msgid "All plant names (full name) are correctly spelled"
-msgstr "Tous les noms de plantes (nom complet) sont correctement orthographiés"
+msgid "All names (full name) are correctly spelled"
+msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:63
-msgid "All plant names belong to the order"
-msgstr "Tous les noms de plantes appartiennent à cet ordre"
+msgid "All names belong to the order"
+msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:64
@@ -244,13 +245,13 @@ msgstr "Utilisez le même fichier que pour l'exercice précédent."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:77
-msgid "Make the correction ONLY for the Eriocaulaceae family (so you may want to filter the data)"
-msgstr "Effectuez la correction SEULEMENT pour la famille Eriocaulaceae (vous devrez sans doute filtrer les données)"
+msgid "Make the correction ONLY for the ?? family (so you may want to filter the data)"
+msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:78
-msgid "Correct the errors found in the dataset used in exercise 3a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet."
-msgstr "Corrigez les erreurs trouvées dans le jeu de données utilisé dans l'exercice 3a (exercice précédent), en utilisant les outils de votre choix et documentez les changements que vous effectuez dans la feuille d'exercice."
+msgid "Correct the errors found in the dataset used in exercise 2a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet."
+msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:79
@@ -286,12 +287,12 @@ msgstr "Dans cet exercice, nous utilisons OpenRefine pour améliorer la qualité
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:98
-msgid "Download lxref:attachment$UC1-3c-open-refine.csv[UC1-2c-open-refine.csv,opts=download]. (207.5 KB)"
+msgid "Download lxref:attachment$UC-Practice-2c-open-refine.csv[UC-Practice-2c-open-refine.csv,opts=download]. (?? KB)"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:100
-msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise3c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 1.1 MB)  Also available in xref:attachment$OpenRefine-Exercise3c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise3c-ES.pdf[Spanish,opts=download]."
+msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 1.1 MB)  Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download]."
 msgstr ""
 
 #. type: Title ===
