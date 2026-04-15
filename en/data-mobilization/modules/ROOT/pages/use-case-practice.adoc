@@ -36,7 +36,7 @@ Two different recording methods are used by SBN. One method is the point site co
 These sampling efforts happen April 1st to September 30th annually. Sites are visited 3-7 times per season.
 
 * The data are, for each species, the summed total of all individuals observed during the visit. For transect sites it is the sum of all individuals from all segments.
-* Each log contain observations of species that were actually present and observed at the surveyed sites, but the surveyor would have looked for all species that are included in the survey design. For visits to sites where no observations were made at all, "SpeciesIncludedInSurvey" will have a status set to "Absent". Additionally, information about whether a visit is a null visit (i.e. true = no survey species observed) or not (i.e. false = one or more survey species were observed) is included (see "noObservations").
+* Each log contain observations of species that were actually present and observed at the surveyed sites.
 * Site coordinates represent midpoints for point sites and centroid midpoints for transect sites.
 * Values under stateProvince represent 24 of the 25 Swedish provinces (swe landskap). The 25th province (Lappland) is represented by the 5 areas called ’lappmarker’ (swe).
 * Event time is reported for each sampling event as starttime/endtime, or starttime only.
