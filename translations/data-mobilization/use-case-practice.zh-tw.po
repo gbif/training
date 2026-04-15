@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-14 21:22+0000\n"
-"PO-Revision-Date: 2026-04-14 22:16\n"
+"POT-Creation-Date: 2026-04-15 13:23+0000\n"
+"PO-Revision-Date: 2026-04-15 13:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -127,13 +127,6 @@ msgstr "資料收集"
 msgid "Analogue data capture example"
 msgstr "類比（紙本）資料收集範例："
 
-#. type: Target for macro image
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:57
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:46
-#, no-wrap
-msgid "data-mobilization::use-case-2-lepidoptera-analogue.png"
-msgstr ""
-
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:1
 #, no-wrap
@@ -190,7 +183,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:29
-msgid "The observers use one of two standard protocols—-Pollard walks where the site is a transect and point counts at stationary point sites—-to capture this information on paper sheets that they send to the national SBN office. SBN processes the log files and produces an annual report based on the sightings."
+msgid "This network of observers implements one of two standard protocols at each site: Pollard walks where the site is an established transect or point counts at stationary point sites. Observation information is captured by observers on paper data capture sheets that they send to the national SBN office."
 msgstr ""
 
 #. type: Plain text
@@ -215,7 +208,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:40
-msgid "Each log contain observations of species that were actually present and observed at the surveyed sites, but the surveyor would have looked for all species that are included in the survey design. For visits to sites where no observations were made at all, \"SpeciesIncludedInSurvey\" will have a status set to \"Absent\". Additionally, information about whether a visit is a null visit (i.e. true = no survey species observed) or not (i.e. false = one or more survey species were observed) is included (see \"noObservations\")."
+msgid "Each log contain observations of species that were actually present and observed at the surveyed sites."
 msgstr ""
 
 #. type: Plain text
@@ -231,6 +224,12 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:43
 msgid "Event time is reported for each sampling event as starttime/endtime, or starttime only."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:46
+#, no-wrap
+msgid "data-mobilization::UC-practice-log.jpeg"
 msgstr ""
 
 #. type: Plain text
