@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
-"PO-Revision-Date: 2026-04-12 21:13\n"
+"POT-Creation-Date: 2026-04-14 20:53+0000\n"
+"PO-Revision-Date: 2026-04-14 21:12\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -17,14 +17,23 @@ msgstr ""
 "X-Crowdin-File-ID: 45076\n"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:66
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:40
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
 msgid "Read the Practice Use Case (if you haven't already)."
 msgstr ""
 
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:89
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
+msgid "Use the previously downloaded exercise sheet to provide your answers."
+msgstr ""
+
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:160
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
@@ -44,7 +53,7 @@ msgid "Review"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:165
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
@@ -57,7 +66,7 @@ msgid "Quiz yourself on the concepts covered in this module. There may be multip
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:167
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
@@ -78,14 +87,6 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
 #, no-wrap
 msgid "Data publishing"
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
-msgid "Use the previously downloaded exercise sheet to provide your answers."
 msgstr ""
 
 #. type: delimited block =
@@ -172,8 +173,8 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:100
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:105
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:96
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:106
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:88
 #: en/data-use/modules/ROOT/pages/exercise3.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:25
@@ -192,8 +193,8 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:148
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:74
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:103
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:108
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:99
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:109
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:91
 #, no-wrap
 msgid "*Data publishing*\n"
@@ -201,8 +202,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:66
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:76
-msgid "After cleaning the data in the Poales dataset, the team considers that publishing the data online through the GBIF network could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset."
+msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset."
 msgstr ""
 
 #. type: Plain text
@@ -212,7 +212,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:69
-msgid "Download xref:attachment$UC1-4-poales-publishing.csv[UC1-3-poales-publishing.csv,opts=download]. (233.5 KB)"
+msgid "Download xref:attachment$UC-Practice-3-ForPublication.csv[UC-Practice-3-ForPublication.csv,opts=download]. (233.5 KB)"
 msgstr ""
 
 #. type: Plain text
