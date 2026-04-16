@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-14 20:53+0000\n"
-"PO-Revision-Date: 2026-04-15 10:37\n"
+"PO-Revision-Date: 2026-04-15 17:16\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -259,7 +259,7 @@ msgstr "Le https://www.gbif.org/literature-tracking[système de suivi de la litt
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:21
 #, no-wrap
 msgid "intro-to-gbif::fig3.png"
-msgstr ""
+msgstr "intro-to-gbif::fig3.png"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:29
@@ -270,44 +270,44 @@ msgstr "Accéder aux données du GBIF"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:32
 msgid "There are three points of access to GBIF-mediated data: http://www.gbif.org[GBIF.org^], the https://www.gbif.org/developer/summary[Application Programming Interface (API) services^], and https://www.gbif.org/occurrence-snapshots[cloud-based datasets^]."
-msgstr ""
+msgstr "Il existe trois points d'accès aux données du GBIF : http://www.gbif.org[GBIF.org^], https://www.gbif.org/developer/summary[les services d'Application Programming Interface (API)^], et https://www.gbif.org/occurrence-snapshots[ensembles de données hébergés dans le cloud^]."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:34
 msgid "Using the website requires no programming experience and allows for quick and easy search, filter and download functions for GBIF-mediated data, as well as a range of additional tools and metrics that are not available through API services."
-msgstr ""
+msgstr "L'utilisation du site web ne nécessite aucune expérience en programmation et permet des fonctions de recherche, de filtrage et de téléchargement rapides et faciles pour les données du GBIF, ainsi qu'une série d'outils et de mesures supplémentaires qui ne sont pas disponibles par le biais des services API."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:36
 msgid "API services allow continued access to GBIF-mediated data through other systems and can be the basis for the development of tools that allow for the interrogation of the data."
-msgstr ""
+msgstr "Les services API permettent un accès continu aux données du GBIF par le biais d'autres systèmes et peuvent servir de base au développement d'outils permettant d'interroger les données."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:38
 msgid "Examples include https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], and https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], as well as, specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments."
-msgstr ""
+msgstr "Les exemples incluent https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], et https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], ainsi que des outils spécialisés qui permettent des cas d'utilisation plus spécifiques, tels que http://geocat.kew.org/[GeoCat^] pour les évaluations de la Liste rouge."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:40
 msgid "With regards to cloud-based datasets, GBIF makes data available on the https://planetarycomputer.microsoft.com/dataset/gbif[Microsoft Planetary Computer (Azure)^], as an https://registry.opendata.aws/gbif/[Amazon AWS Open Dataset^] and on a public https://console.cloud.google.com/storage/browser/public-datasets-gbif[Google GCS bucket^] and https://console.cloud.google.com/marketplace/product/bigquery-public-data/gbif-occurrences[BigQuery table^]. When using cloud-based snapshots, we always recommend creating a https://www.gbif.org/citation-guidelines#derivedDatasets[Derived Dataset citation^] for the records that you use. When referring to the full dataset, please use the appropriate citations as listed on the https://www.gbif.org/occurrence-snapshots[cloud-based datasets^] page."
-msgstr ""
+msgstr "En ce qui concerne les jeux de données basés sur le cloud, le GBIF met des données à disposition sur https://planetarycomputer.microsoft.com/dataset/gbif[Microsoft Planetary Computer (Azure)^], en tant que https://registry.opendata.aws/gbif/[Amazon AWS Open Dataset^] et sur un https://console.cloud.google.com/storage/browser/public-datasets-gbif[Google GCS bucket^] public et https://console.cloud.google.com/marketplace/product/bigquery-public-data/gbif-occurrences[BigQuery table^]. Lorsque vous utilisez des instantanés basés sur le cloud, nous recommandons toujours de créer une https://www.gbif.org/citation-guidelines#derivedDatasets[Derived Dataset citation^] pour les enregistrements que vous utilisez. Lorsque vous faites référence à l'ensemble de données complet, veuillez utiliser les citations appropriées indiquées sur la page https://www.gbif.org/occurrence-snapshots[ensembles de données hébergés dans le cloud^]."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:47
 #, no-wrap
 msgid "intro-to-gbif::downloadoptions.png"
-msgstr ""
+msgstr "intro-to-gbif::downloadoptions.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:56
 #, no-wrap
 msgid "*Cube*: An occurrence cube is a tab-separated csv file containing species occurrence measures (e.g. a count) summarized by taxonomic, temporal and/or spatial dimensions (e.g. a given year, a specific taxonomic rank, etc.).\n"
-msgstr ""
+msgstr "*Cube* : Un cube d'occurrence est un fichier csv séparé par des tabulations contenant des mesures d'occurrence d'espèces (par exemple un comptage) résumées par des dimensions taxonomiques, temporelles et/ou spatiales (par exemple une année donnée, un rang taxonomique spécifique, etc.).\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:62
 msgid "https://techdocs.gbif.org/en/data-use/download-formats[Occurrence download formats^] are fully documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/download-formats[Formats de téléchargement des occurrences^] sont entièrement décrits dans la documentation technique du GBIF."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:63
@@ -342,12 +342,12 @@ msgstr "*Les signaux GBIF pour les problèmes de qualité des données*\n"
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:222
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data quality issues and flags^] are documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Les problèmes de qualité des données et les signaux^] sont décrits dans la documentation technique du GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:78
 msgid "During the indexation process, GBIF assigns issues and flags to data for https://data-blog.gbif.org/post/issues-and-flags/[common data quality issues^].  These most frequently occur from data entry errors or missing data fields whose interpretation can be automated centrally by GBIF. These interpretations are classified as:"
-msgstr ""
+msgstr "Pendant le processus d'indexation, le GBIF assigne des problèmes et des signaux aux données pour les https://data-blog.gbif.org/post/issues-and-flags/[problèmes courants de qualité des données^]. Ceux-ci se produisent le plus souvent à partir d'erreurs de saisie de données ou de champs de données manquants dont l'interprétation peut être automatisée centralement par GBIF. Ces interprétations sont classées comme :"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:80
@@ -387,12 +387,12 @@ msgstr "Les fournisseurs de données ont la responsabilité d'améliorer la qual
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:91
 #, no-wrap
 msgid "Guides and documentation"
-msgstr ""
+msgstr "Guides et documentation"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:95
 msgid "GBIF supports its global community by offering comprehensive guides and documentation, enabling the mobilization, sharing, and thoughtful application of biodiversity information."
-msgstr ""
+msgstr "Le GBIF soutient sa communauté mondiale en offrant des guides et de la documentation complets, permettant la mobilisation, le partage et l'application réfléchie des informations sur la biodiversité."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:96
