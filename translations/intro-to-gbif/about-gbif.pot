@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-14 20:53+0000\n"
+"POT-Creation-Date: 2026-04-18 02:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:614
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
@@ -38,7 +38,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:619
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
@@ -53,7 +53,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:621
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
@@ -66,7 +66,61 @@ msgid ""
 "Appendix]."
 msgstr ""
 
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:20
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:221
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:461
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:22
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:223
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:463
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
+
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:31
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:232
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:472
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
@@ -300,49 +354,11 @@ msgstr ""
 msgid "&nbsp;"
 msgstr ""
 
-#. type: Title ==
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:391
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:450
 #, no-wrap
-msgid "Presentation transcript"
-msgstr ""
-
-#. type: Block title
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#, no-wrap
-msgid "Click to expand"
+msgid "*Slide 14 - Conclusion*\n"
 msgstr ""
 
 #. type: Plain text
@@ -1725,12 +1741,6 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:447
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide14.png"
-msgstr ""
-
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:450
-#, no-wrap
-msgid "*Slide 14 - Conclusion*\n"
 msgstr ""
 
 #. type: Plain text
