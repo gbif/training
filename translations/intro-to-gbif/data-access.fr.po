@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-18 02:13+0000\n"
-"PO-Revision-Date: 2026-04-18 14:57\n"
+"POT-Creation-Date: 2026-04-19 11:29+0000\n"
+"PO-Revision-Date: 2026-04-19 14:49\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,10 +16,22 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/data-access.pot\n"
 "X-Crowdin-File-ID: 40996\n"
 
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:44
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:600
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
+
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:614
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:593
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -37,9 +49,8 @@ msgid "Review"
 msgstr "Révision"
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:619
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -48,19 +59,6 @@ msgstr "Révision"
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
 msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
 msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:621
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -460,7 +458,11 @@ msgid "- [x] GBIF.org search interface\n"
 "- [x] rGBIF\n"
 "- [x] pyGBIF\n"
 "- [x] occurrence snapshots in the cloud\n"
-msgstr ""
+msgstr "- [x] Interface de recherche GBIF.org\n"
+"- [x] API GBIF\n"
+"- [x] rGBIF\n"
+"- [x] pyGBIF\n"
+"- [x] instantanés d'occurrences dans le cloud\n"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:149
@@ -470,5 +472,9 @@ msgid "- [x] simple\n"
 "- [x] Darwin Core Archive\n"
 "- [x] species list\n"
 "- [x] cube\n"
-msgstr ""
+msgstr "- [x] simple\n"
+"- [ ] XML\n"
+"- [x] Darwin Core Archive\n"
+"- [x] liste des espèces\n"
+"- [x] cube\n"
 
