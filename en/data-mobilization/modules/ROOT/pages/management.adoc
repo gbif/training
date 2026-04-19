@@ -9,9 +9,7 @@ In this module, you will review the main concepts, related tools and best practi
 
 [NOTE.presentation]
 ====
-In this video (09:49), you will review an important set of principles necessary to improve data through the processes of data cleaning.
-
-If you are unable to watch the embedded video, you can xref:attachment$Data_Management.mp4[download,opts=download] it locally. (MP4 - 16.6 MB)
+In this presentation, you will review an important set of principles necessary to improve data through the processes of data cleaning.
 ====
 
 &nbsp;
@@ -227,7 +225,7 @@ In this exercise we will focus on technical errors and perform a basic validatio
 Refer to <<Validation checks>> for information on the types of errors.
 
 . Download xref:attachment$UC-Practice-2ab-data-cleaning.csv[UC-Practice-2ab-data-cleaning.csv,opts=download]. (?? KB)
-. Import the CSV file in Excel using the Excel wizard. See xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf^,opts=download] (PDF, 7 MB) for import instructions for your operating system (Windows, Mac, Linux).
+. Import the CSV file in Excel using the Excel wizard. See xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf,opts=download] (PDF, 7 MB) for import instructions for your operating system (Windows, Mac, Linux).
 . Find and document the technical errors (indicating the subtype: completeness, bounds, data type, or data format).
 . Use the previously downloaded exercise sheet to provide your answers.
 
@@ -235,9 +233,7 @@ Refer to <<Validation checks>> for information on the types of errors.
 
 [NOTE.presentation]
 ====
-In this video (06:42), you will learn about a variety of tools that you can use to improve the quality of your data.
-
-If you are unable to watch the embedded video, you can xref:attachment$Data_Management_Tools.mp4[download,opts=download] it locally. (MP4 - 10.3 MB)
+In this presentation, you will learn about a variety of tools that you can use to improve the quality of your data.
 ====
 
 &nbsp;
@@ -268,7 +264,7 @@ image::data-mobilization::management-tools-Slide1.png[align=center]
 
 In this presentation, we are going to explore the importance of software tools that can help to maintain, clean and standardize your data.
 
-Image by Mudassar Iqbal from Pixabay https://pixabay.com/illustrations/developer-programmer-technology-3461405/
+Image by https://pixabay.com/illustrations/developer-programmer-technology-3461405/[Mudassar Iqbal^] from Pixabay 
 
 image::data-mobilization::management-tools-Slide2.png[align=center]
 
@@ -278,12 +274,7 @@ Data Quality happens at every step in the data mobilization process. Within the 
 
 When transforming data (for example merging columns, converting coordinates, changing datum, etc), make sure that you document changes and that you have an original copy that you can revert to if necessary.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2550021583
-Anas crecca subsp. crecca
-Rights holder: YK
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/58969540
+Photo:  Anas crecca subsp. crecca Observed in Japan by Yoshi.K. http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]
 
 image::data-mobilization::management-tools-Slide3.png[align=center]
 
@@ -291,12 +282,7 @@ image::data-mobilization::management-tools-Slide3.png[align=center]
 
 As was covered in the foundations course, in the software section, in choosing tools, some things you should consider include, price, ease of use, documentation and support and any technical requirements to run the tool. No tool is perfect. The importance is to find the right balance and the tool that fits your requirement.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2550075106
-Asota egens confinis
-Rights holder: Takaaki Hattori
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/59263982
+Photo: Asota egens subsp. confinis Rothschild, 1897 Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]
 
 image::data-mobilization::management-tools-Slide4.png[align=center]
 
@@ -304,12 +290,7 @@ image::data-mobilization::management-tools-Slide4.png[align=center]
 
 The tools you choose may not be the tools that others use within your institution – and that’s just fine, unless your organization places mandates on the tools you can use.  You need to find and use the tools that help you to achieve the goals of your institution. So, you need to build a palette of tools that will help you and the people with whom you work to do their work as effectively as possible.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2557763752
-Crepidiastrum lanceolatum Nakai
-Rights holder: Takaaki Hattori
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/59465935
+Photo: Crepidiastrum lanceolatum (Houtt.) Nakai Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]
 
 image::data-mobilization::management-tools-Slide5.png[align=center]
 
@@ -321,12 +302,7 @@ Does it allow for importing and exporting standardized delimited files?
 
 Can you select encoding (for example UTF-8) when opening or saving files to avoid encoding issues with special characters. 
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2563581359
-Conus ebraeus Linnaeus, 1758
-Rights holder: Robert Guralnick
-License: http://creativecommons.org/licenses/by/4.0/
-Reference: https://www.inaturalist.org/photos/60202919
+Photo: Conus (Virroconus) ebraeus Linnaeus, 1758 Observed in Japan by Robert Guralnick http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]
 
 image::data-mobilization::management-tools-Slide6.png[align=center]
 
@@ -334,12 +310,7 @@ image::data-mobilization::management-tools-Slide6.png[align=center]
 
 In the Foundations course, we introduced you to a list of software tools compiled by previous trainers, mentors and students of this course. For the remainder of this presentation, we will review some of the tools that will be useful to complete the data management exercises in this course.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2573970545
-Chelonia mydas (Linnaeus, 1758)
-Rights holder: Michael Barth
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/60577305
+Photo: Chelonia mydas (Linnaeus, 1758) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]
 
 image::data-mobilization::management-tools-Slide7.png[align=center]
 
@@ -347,12 +318,7 @@ image::data-mobilization::management-tools-Slide7.png[align=center]
 
 When working with data files, you will often need a text editor that is able to do more than the default text editor that came with your operating system, particularly with Windows and Mac. Some good options include BBEdit, Notepad++ and Sublime. When creating files, you should be consistent and document your local settings and options. When opening and editing files, try different options and check the results to make sure there aren’t any issues before your proceed.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2576413947
-Microporus xanthopus (Fr.) Kuntze
-Rights holder: robodocjacky
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/60705742
+Photo: Microporus xanthopus (Fr.) Kuntze Observed in Thailand by Jacky http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]
 
 image::data-mobilization::management-tools-Slide8.png[align=center]
 
@@ -410,12 +376,7 @@ image::data-mobilization::management-tools-Slide13.png[align=center]
 
 Remember there are many, many sources for validating, cleaning and standardizing your data. Until you develop your preferred list of tried and trusted tools, remember to explore many options.
 
-Photo:
-GBIF: https://www.gbif.org/occurrence/2574063630
-Cheilinus fasciatus (Bloch, 1791) 
-Rights holder: Michael Barth
-License: http://creativecommons.org/licenses/by-nc/4.0/
-Reference: https://www.inaturalist.org/photos/60576967
+Photo: Cheilinus fasciatus (Bloch, 1791) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]
 
 image::data-mobilization::management-tools-Slide14.png[align=center]
 
@@ -463,9 +424,7 @@ You are not limited to these tools, you may use any tools you like.
 
 [NOTE.presentation]
 ====
-In this video (03:27), you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data.
-
-If you are unable to watch the embedded video, you can xref:attachment$Data_Management_OpenRefine.mp4[download,opts=download] it locally. (MP4 - 3.8 MB)
+In this presentation, you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data.
 ====
 
 &nbsp;
