@@ -36,7 +36,7 @@ For this activity, you will examine verbatim field names and match them to Darwi
 
 [NOTE.presentation]
 ====
-In this video (10:45), you will review https://www.gbif.org/dataset-classes[primary biodiversity data^] that can be shared within GBIF. 
+In this presentation (10:45), you will review https://www.gbif.org/dataset-classes[primary biodiversity data^] that can be shared within GBIF. 
 
 If you are unable to watch the embedded video, you can xref:attachment$data_origins_types.mp4[download,opts=download] it locally. (MP4 - 19 MB)
 ====
@@ -44,58 +44,15 @@ If you are unable to watch the embedded video, you can xref:attachment$data_orig
 [.responsive-video]
 video::wKeOveydjsw[youtube]
 
-=== Exercise 1b
-
-[NOTE.speak]
-====
-For this activity, consider your data that you plan to share with GBIF.
-====
-
-****
-*Discussion*
-
-* Is your data type different than you originally thought?
-* With what kind of data do you work?
-* How would you publish your data to GBIF (using which Core and/or extension)?
-****
-
-== Data capture, processing and quality
-
-[NOTE.presentation]
-====
-In this video (09:11), you will explore the principles of data quality applied to data capture, specifically when capturing data from collection labels, fieldwork notebooks, spreadsheets, etc.
-
-If you are unable to watch the embedded video, you can xref:attachment$Data_capture_processing_quality.mp4[download,opts=download] it locally. (MP4 - 19 MB)
-====
-
-[.responsive-video]
-video::QkDJIkmwBMA[youtube]
-
-=== Exercise 1c
-
-[NOTE.activity]
-====
-For this activity, you will complete an exercise simulating data capture.
-Use the https://dwc.tdwg.org/terms/[Darwin Core terms^] to help make decisions on the supllied data that is needed for the project and what could be shared later in publication.
-====
-
-Read the Practice Use Case (if you haven't already).
-
-Imagine that you are the person assigned to transcribe the data supplied by network volunteers.
-
-. Download xref:attachment$UC-Practice-1-ForCapture.pdf[UC-Practice-1-ForCapture.pdf,opts=download]. (34.4 MB). There ...
-. Download the spreadsheet template: xref:attachment$UC-Practice-1-template.xlsx[UC-Practice-1-template.xlsx,opts=download] (??.?? KB) to transcribe the observations recorded. 
-. Use the previously downloaded exercise sheet to provide your answers.
-
-NOTE: you may need to add fields to the spreadsheet as you may be able to capture more information than was planned for in the template.
-
-== Review
+== Exercise 1b
 
 [NOTE.quiz]
 ====
-Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions.
+Quiz yourself on the concepts covered in the dataset types presentation. There may be multiple correct answers for some questions.
 
 You can read more about the answers in the xref:solutions.adoc[Solutions Appendix].
+
+Following the quiz, you will consider the data type of your own data.
 ====
 
 // Note the lack of empty lines between the end of the question (....) and the start of the next question
@@ -218,3 +175,45 @@ image::data-mobilization::QDataTypes-threatened.png[align=center,width=640,heigh
 - [ ] sampling event
 ....
 ****
+
+[NOTE.speak]
+====
+For this activity, consider your data that you plan to share with GBIF.
+====
+
+****
+*Discussion*
+
+* With what kind of data do you work?
+* Is your dataset type different than you originally thought?
+* How would you publish your data to GBIF (using which Core and/or extension)?
+
+. Use the previously downloaded exercise sheet to provide your answers.
+****
+
+== Data capture, processing and quality
+
+[NOTE.presentation]
+====
+In this video (09:11), you will explore the principles of data quality applied to data capture, specifically when capturing data from collection labels, fieldwork notebooks, spreadsheets, etc.
+
+If you are unable to watch the embedded video, you can xref:attachment$Data_capture_processing_quality.mp4[download,opts=download] it locally. (MP4 - 19 MB)
+====
+
+[.responsive-video]
+video::QkDJIkmwBMA[youtube]
+
+=== Exercise 1c
+
+[NOTE.activity]
+====
+For this activity, you will complete an exercise simulating data capture.
+Use the https://dwc.tdwg.org/terms/[Darwin Core terms^] to help make decisions on the supllied data that is needed for the project and what could be shared later in publication.
+====
+
+.Read the <<Practice use case>>. Imagine that you are the person assigned to transcribe the data supplied by network volunteers.
+. Download xref:attachment$UC-Practice-1-ForCapture-logs.zip[UC-Practice-1-ForCapture-logs.zip,opts=download]. (1.1 MB). There are three logs files contained in the compressed file.
+. Download the spreadsheet template: xref:attachment$UC-Practice-1-ForCapture-template.xlsx[UC-Practice-1-ForCapture-template.xlsx,opts=download] (37 KB) to transcribe the observations recorded. 
+. Use the previously downloaded exercise sheet to provide your answers.
+
+NOTE: you can add fields to the template if you think you may be able to capture more information than was planned for in the template.
