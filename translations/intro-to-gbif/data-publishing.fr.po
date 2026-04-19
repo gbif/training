@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-14 21:22+0000\n"
-"PO-Revision-Date: 2026-04-15 17:16\n"
+"POT-Creation-Date: 2026-04-19 11:29+0000\n"
+"PO-Revision-Date: 2026-04-19 11:38\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,43 +16,10 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/data-publishing.pot\n"
 "X-Crowdin-File-ID: 40998\n"
 
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
-#: en/epn/modules/ROOT/pages/participant-process.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
-#, no-wrap
-msgid "Review"
-msgstr "Révision"
-
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:44
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:600
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -74,18 +41,73 @@ msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc
 msgid "Data publishing"
 msgstr "Publication de données"
 
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:593
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
+#, no-wrap
+msgid "Review"
+msgstr "Révision"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:211
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
+msgid "The endorsement procedure aims to ensure that:"
+msgstr "La procédure d'endossement vise à garantir que :"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:213
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
+msgid "Published data are relevant to GBIF’s scope and objectives"
+msgstr "Les données publiées sont pertinentes pour la portée et les objectifs du GBIF"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:215
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
+msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
+msgstr "La publication et l'utilisation des données sont soutenues par un engagement fort, national, régional et thématique"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:217
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
+msgid "Data publishers can respond to feedback and improve data quality"
+msgstr "Les éditeurs de données peuvent répondre aux commentaires et améliorer la qualité des données"
+
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr "Que signifie la publication de données dans le contexte du GBIF ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
@@ -398,34 +420,14 @@ msgid "Before GBIF indexes datasets, an institution must receive endorsement as 
 msgstr "Avant que le GBIF n'indexe des jeux de données, une institution doit être approuvée en tant qu'éditeur de données par l'un des nœuds de participants qui coordonnent les activités des participants nationaux et organisationnels du réseau GBIF.  Si le pays ne participe pas encore au GBIF, le parrainage est demandé au nom de l'éditeur au sein de la communauté GBIF."
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
-msgid "The endorsement procedure aims to ensure that:"
-msgstr "La procédure d'endossement vise à garantir que :"
-
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
-msgid "Published data are relevant to GBIF’s scope and objectives"
-msgstr "Les données publiées sont pertinentes pour la portée et les objectifs du GBIF"
-
-#. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:123
 msgid "Data hosting arrangements are stable and persistent"
 msgstr "Les arrangements d'hébergement de données sont stables et persistants"
 
 #. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
-msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
-msgstr "La publication et l'utilisation des données sont soutenues par un engagement fort, national, régional et thématique"
-
-#. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:125
 msgid "Data are as open as possible, and available for sharing and reuse"
 msgstr "Les données sont aussi ouvertes que possible et disponibles pour le partage et la réutilisation"
-
-#. type: Plain text
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
-msgid "Data publishers can respond to feedback and improve data quality"
-msgstr "Les éditeurs de données peuvent répondre aux commentaires et améliorer la qualité des données"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:128
