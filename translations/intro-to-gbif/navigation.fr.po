@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-04-12 21:02\n"
+"POT-Creation-Date: 2026-04-19 17:09+0000\n"
+"PO-Revision-Date: 2026-04-20 17:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,64 +16,31 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/navigation.pot\n"
 "X-Crowdin-File-ID: 45016\n"
 
-#. type: Title =
-#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:1
-#: en/data-use/modules/ROOT/pages/navigation.adoc:1
-#: en/foundations/modules/ROOT/pages/navigation.adoc:1
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:1
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:1
-#, no-wrap
-msgid "Navigating this course"
-msgstr ""
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:3
-#: en/foundations/modules/ROOT/pages/navigation.adoc:3
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:3
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:3
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:3
-#, no-wrap
-msgid "Content"
-msgstr "Contenu"
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:6
-#: en/foundations/modules/ROOT/pages/navigation.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:6
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:6
-msgid "You can obtain the content of each module in a written format. You will find the transcript below each presentation. Click to expand the transcript."
-msgstr "Vous pouvez obtenir le contenu de chaque module sous forme écrite. Vous trouverez la transcription sous chaque présentation. Cliquez pour développer la transcription."
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:9
-#: en/data-use/modules/ROOT/pages/navigation.adoc:3
-#: en/epn/modules/ROOT/pages/introduction.adoc:16
-#: en/foundations/modules/ROOT/pages/navigation.adoc:9
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:9
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:9
-#: en/nodes/modules/ROOT/pages/navigation.adoc:5
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:9
-#, no-wrap
-msgid "Left navigation"
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:12
-#: en/data-use/modules/ROOT/pages/navigation.adoc:6
-#: en/epn/modules/ROOT/pages/introduction.adoc:19
-#: en/foundations/modules/ROOT/pages/navigation.adoc:12
-#: en/grscicoll/modules/ROOT/pages/navigation.adoc:12
-#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:12
-#: en/nodes/modules/ROOT/pages/navigation.adoc:8
-#: en/project-planning/modules/ROOT/pages/navigation.adoc:12
-msgid "You will find the course navigation on the left side of the page. Some of the menu items expand/collapse."
-msgstr ""
-
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:388
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:396
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:727
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:735
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:747
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -108,12 +75,12 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/home/modules/ROOT/pages/index.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:38
-#: en/home/modules/ROOT/pages/index.adoc:45
-#: en/home/modules/ROOT/pages/index.adoc:46
-#: en/home/modules/ROOT/pages/index.adoc:48
-#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -304,6 +271,60 @@ msgstr ""
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:1
+#: en/data-use/modules/ROOT/pages/navigation.adoc:1
+#: en/foundations/modules/ROOT/pages/navigation.adoc:1
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:1
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:1
+#, no-wrap
+msgid "Navigating this course"
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:3
+#: en/foundations/modules/ROOT/pages/navigation.adoc:3
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:3
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:3
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:3
+#, no-wrap
+msgid "Content"
+msgstr "Contenu"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:6
+#: en/foundations/modules/ROOT/pages/navigation.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:6
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:6
+msgid "You can obtain the content of each module in a written format. You will find the transcript below each presentation. Click to expand the transcript."
+msgstr "Vous pouvez obtenir le contenu de chaque module sous forme écrite. Vous trouverez la transcription sous chaque présentation. Cliquez pour développer la transcription."
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:9
+#: en/data-use/modules/ROOT/pages/navigation.adoc:3
+#: en/epn/modules/ROOT/pages/introduction.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:9
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:9
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:9
+#: en/nodes/modules/ROOT/pages/navigation.adoc:5
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:9
+#, no-wrap
+msgid "Left navigation"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:12
+#: en/data-use/modules/ROOT/pages/navigation.adoc:6
+#: en/epn/modules/ROOT/pages/introduction.adoc:19
+#: en/foundations/modules/ROOT/pages/navigation.adoc:12
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:8
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:12
+msgid "You will find the course navigation on the left side of the page. Some of the menu items expand/collapse."
+msgstr ""
+
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:17
 #: en/data-use/modules/ROOT/pages/navigation.adoc:11
@@ -459,23 +480,23 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:7
 #, no-wrap
 msgid "intro-to-gbif::transcript.png"
-msgstr ""
+msgstr "intro-to-gbif::transcript.png"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:13
 #, no-wrap
 msgid "intro-to-gbif::left-nav.png"
-msgstr ""
+msgstr "intro-to-gbif::left-nav.png"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:21
 #, no-wrap
 msgid "intro-to-gbif::right-nav.png"
-msgstr ""
+msgstr "intro-to-gbif::right-nav.png"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:29
 #, no-wrap
 msgid "intro-to-gbif::course-bottom-nav.png"
-msgstr ""
+msgstr "intro-to-gbif::course-bottom-nav.png"
 
