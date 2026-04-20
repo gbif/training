@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-19 17:09+0000\n"
-"PO-Revision-Date: 2026-04-19 20:33\n"
+"PO-Revision-Date: 2026-04-20 12:27\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -802,7 +802,7 @@ msgstr "Vous obtiendrez ainsi une description générale de l'espèce et la rép
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:67
 msgid "In this case, I'm saying I only want records that are from 2020 to 2022, I think. And I also say that it has to be in the continent of Europe."
-msgstr "Dans ce cas, je dis que je ne veux que des entrées datant de 2020 à 2022, je pense. Je précise également qu'ils doivent se situer sur le continent européen."
+msgstr "Dans ce cas, je dis que je ne veux que des enregistrements datant de 2020 à 2022, je pense. Je précise également qu'ils doivent se situer sur le continent européen."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:69
@@ -881,81 +881,81 @@ msgstr "Si nous entrons un peu plus dans le détail du contenu que vous pouvez a
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:97
 msgid "The GBIF ID, which we apply to the record that is shared with GBIF, is always 100%. You always get all the GBIF IDs for your data. But if you are looking for habitat information, if you look across all occurrence records on GBIF, only around 7% have data in that field."
-msgstr ""
+msgstr "L'identifiant GBIF, que nous appliquons à l'enregistrement partagé avec le GBIF, est toujours de 100 %. Vous obtenez toujours tous les identifiants GBIF pour vos données. Mais si vous recherchez des informations sur l'habitat, si vous regardez tous les enregistrements d'occurrence du GBIF, seuls 7 % environ contiennent des données dans ce champ."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:99
 msgid "Individual counts have quite high numbers, as well as state and province, but be mindful that this is because of birds. The biggest group of data we have on GBIF is coming from birds, so they really up how much data we actually have available. So it can be quite group specific."
-msgstr ""
+msgstr "Les nombres d'individus présentent des chiffres assez élevés, de même que l'état et la province, mais il faut garder à l'esprit que cela est dû aux oiseaux. Le plus grand groupe de données que nous ayons sur le GBIF provient des oiseaux, ce qui fait qu'ils augmentent vraiment la quantité de données dont nous disposons. Les données peuvent donc être très spécifiques à un groupe."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:101
 msgid "So if you're looking for insects, you might find that the percentage of values that are actually covered is quite low."
-msgstr ""
+msgstr "Ainsi, si vous recherchez des insectes, vous constaterez peut-être que le pourcentage de valeurs réellement couvertes est assez faible."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:103
 msgid "With scientific name, it's pretty good."
-msgstr ""
+msgstr "Avec le nom scientifique, c'est plutôt bien."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:105
 msgid "For the depth, if you're looking into marine occurrences, very few publishers actually share that data."
-msgstr ""
+msgstr "En ce qui concerne la profondeur, si vous voulez rechercher des occurrences marins, très peu d'éditeurs partagent réellement ces données."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:107
 msgid "The same for elevation, and life stage is only 9%."
-msgstr ""
+msgstr "Il en va de même pour l'élévation, et l'étape de la vie ne représente que 9 %."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:109
 msgid "Most of our publishers do provide some sort of temporal data, but that could be just in the form of year."
-msgstr ""
+msgstr "La plupart de nos éditeurs fournissent effectivement des données temporelles, mais celles-ci peuvent se limiter à l'année."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:111
 msgid "So just be mindful of that when you use your data."
-msgstr ""
+msgstr "Il faut donc en tenir compte lorsque vous utilisez vos données."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:112
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide7.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide7.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:115
 #, no-wrap
 msgid "*Slide 7 - Data standards*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Normes de données*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:117
 msgid "So I'm going to talk a bit about the data standards that are behind what you see on GBIF. As you noticed, the columns have quite specific names. These names and fields are defined by data standards, which are maintained by a global biodiversity community."
-msgstr ""
+msgstr "Je vais donc vous parler des normes de données qui sous-tendent ce que vous voyez sur le GBIF. Comme vous l'avez remarqué, les colonnes ont des noms assez spécifiques. Ces noms et ces champs sont définis par des normes de données, qui sont maintenues par une communauté mondiale de la biodiversité."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:118
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide8.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide8.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:121
 #, no-wrap
 msgid "*Slide 8 - Darwin Core Archive (DwC-A)*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Darwin Core Archive (DwC-A)*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:123
 msgid "So most of the data shared with GBIF is usually within a Darwin Core archive, as I also mentioned earlier. And the publishers sharing data with GBIF have to map their data to this Darwin Core standard."
-msgstr ""
+msgstr "Ainsi, la plupart des données partagées avec le GBIF se trouvent généralement dans une archive Darwin Core, comme je l'ai mentionné précédemment. Les éditeurs qui partagent leurs données avec le GBIF doivent les faire correspondre à cette norme Darwin Core."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:125
 msgid "It's maintained by the Biodiversity Information Standards, also called TDWG."
-msgstr ""
+msgstr "Il est géré par les normes d'information sur la biodiversité, également appelées TDWG."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:127
