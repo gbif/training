@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-14 20:53+0000\n"
-"PO-Revision-Date: 2026-04-15 15:36\n"
+"POT-Creation-Date: 2026-04-19 17:09+0000\n"
+"PO-Revision-Date: 2026-04-19 20:33\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,56 +16,31 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/gbif-mediated-data.pot\n"
 "X-Crowdin-File-ID: 41002\n"
 
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
-#: en/epn/modules/ROOT/pages/participant-process.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
-#, no-wrap
-msgid "Review"
-msgstr "Révision"
-
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
-
-#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:388
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:396
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:727
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:735
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:747
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -100,12 +75,12 @@ msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/home/modules/ROOT/pages/index.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:38
-#: en/home/modules/ROOT/pages/index.adoc:45
-#: en/home/modules/ROOT/pages/index.adoc:46
-#: en/home/modules/ROOT/pages/index.adoc:48
-#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -295,6 +270,109 @@ msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc
 #, no-wrap
 msgid "&nbsp;"
 msgstr "&nbsp;"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:736
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr "Transcription de la présentation"
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:399
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:738
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr "Cliquez pour développer"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:600
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:593
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
+#, no-wrap
+msgid "Review"
+msgstr "Révision"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:1
@@ -559,51 +637,6 @@ msgstr ""
 msgid "Callaway (2011) Reports finds massive fraud at Dutch universities. Nature 479, 15 (1 November 2011) doi:10.1038/479015a"
 msgstr ""
 
-#. type: Title ==
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
-msgstr "Transcription de la présentation"
-
-#. type: Block title
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#, no-wrap
-msgid "Click to expand"
-msgstr "Cliquez pour développer"
-
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:43
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:52
@@ -650,7 +683,7 @@ msgstr "Les données obtenues via le GBIF "
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:5
 msgid "In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information. You will also have a chance to review the various metrics that are available for the data within the portal."
-msgstr ""
+msgstr "Dans ce module, vous découvrirez les données primaires sur la biodiversité et les principes que le GBIF suit en matière de données. Vous apprendrez comment le GBIF rend les données primaires sur la biodiversité accessibles, quels sont les types de données acceptés et comment le GBIF utilise l'épine dorsale taxonomique pour fournir des informations taxonomiques. Vous aurez également l'occasion de passer en revue les différentes métriques disponibles pour les données du portail."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:6
@@ -661,35 +694,35 @@ msgstr "Données primaires sur la biodiversité"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:11
 msgid "In this video (12:03), Cecilie Svenningsen, GBIF Data Product Manager, shares how data is shared with GBIF and how that data might be used, along with describing biodiversity standards and GBIF dataset types."
-msgstr ""
+msgstr "Dans cette vidéo (12:03), Cecilie Svenningsen, chef de produit des données du GBIF, explique comment les données sont partagées avec le GBIF et comment elles peuvent être utilisées, tout en décrivant les normes de biodiversité et les types d'ensembles de données du GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:13
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[download] it locally (MP4 - 73.1 MB)."
-msgstr ""
+msgstr "Si vous ne pouvez pas regarder la vidéo Vimeo intégrée, vous pouvez xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[la télécharger] localement (MP4 - 73,1 Mo)."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:30
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide1.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide1.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:33
 #, no-wrap
 msgid "*Slide 1 - How is data shared on GBIF.org?*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Comment les données sont-elles partagées sur GBIF.org ?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:35
 msgid "One thing to be mindful of is that data publishers on GBIF own and maintain their data, and then they share that with GBIF."
-msgstr ""
+msgstr "Il convient de garder à l'esprit que les éditeurs de données du GBIF possèdent et conservent leurs données, qu'ils partagent ensuite avec le GBIF."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:36
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide2.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:39
@@ -759,91 +792,91 @@ msgstr "*Diapositive 4 - Accéder aux données et les télécharger*\n"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:63
 msgid "So just to show you how such an aggregated search can look for you as a user, if you go and you want to look at a species, in this case, I'm showing you the orange tip butterfly. So if you, as most of our users, go into our portal and search for the species, the first thing you would encounter is the species page."
-msgstr ""
+msgstr "Pour vous montrer comment une telle recherche agrégée peut se présenter à vous en tant qu'utilisateur, si vous allez voir une espèce, dans ce cas, je vous montre le papillon à pointe orange. Si, comme la plupart de nos utilisateurs, vous vous rendez sur notre portail et recherchez l'espèce, la première chose que vous verrez sera la page des espèces."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:65
 msgid "That will show you an overall description of the species and the GBIF occurrence distribution. But you would usually go to the occurrence record page, where you would apply further filters."
-msgstr ""
+msgstr "Vous obtiendrez ainsi une description générale de l'espèce et la répartition des occurrences du GBIF. Mais en général, vous devriez aller à la page d'enregistrement des occurrences, où vous pourriez appliquer d'autres filtres."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:67
 msgid "In this case, I'm saying I only want records that are from 2020 to 2022, I think. And I also say that it has to be in the continent of Europe."
-msgstr ""
+msgstr "Dans ce cas, je dis que je ne veux que des entrées datant de 2020 à 2022, je pense. Je précise également qu'ils doivent se situer sur le continent européen."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:69
 msgid "So I've narrowed down my search and I click download, where I have to choose different options. In this case, I'm choosing the simple option."
-msgstr ""
+msgstr "J'ai donc réduit ma recherche et je clique sur télécharger, où je dois choisir différentes options. Dans ce cas, je choisis l'option simple."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:71
 msgid "But you can also see other information, such as known issues for the data, which might be something you should look into if you want to apply further filters for your download, if you don't want that data included."
-msgstr ""
+msgstr "Mais vous pouvez également voir d'autres informations, telles que les problèmes connus pour les données, ce qui pourrait être quelque chose que vous devriez examiner si vous voulez appliquer des filtres supplémentaires pour votre téléchargement, si vous ne voulez pas que ces données soient incluses."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:73
 msgid "So in your GBIF user profile, you can see all the downloads you ever created."
-msgstr ""
+msgstr "Ainsi, dans votre profil d'utilisateur GBIF, vous pouvez voir tous les téléchargements que vous avez créés."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:75
 msgid "In this case, I'm showing you the one I just created, the filters. But you will also see that 927 data sets contributed to this aggregated search."
-msgstr ""
+msgstr "Dans ce cas, je vous montre celui que je viens de créer, les filtres. Mais vous verrez aussi que 927 ensembles de données ont contribué à cette recherche agrégée."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:77
 msgid "So quite a varied source contributed with data. This matters because that has an impact of what will actually be in the data you download."
-msgstr ""
+msgstr "Les sources de données sont donc très variées. C'est important car cela a un impact sur ce qui sera réellement dans les données que vous téléchargez."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:78
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide5.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide5.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:81
 #, no-wrap
 msgid "*Slide 5 - Reviewing a download*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Examen d'un téléchargement*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:83
 msgid "So this is an example of that simple download I just created, where in the simple download, you have less fields available, less columns. But if you did the full Darwin Core archive download, you would have many fields to search from. But you will notice that there's some of these fields that appear to be empty, where we don't have any values. But as you can see, as I'm showing you now, you do actually do have some locality information shared by some publishers."
-msgstr ""
+msgstr "Voici donc un exemple du téléchargement simple que je viens de créer, dans lequel il y a moins de champs disponibles, moins de colonnes. Mais si vous téléchargez l'archive Darwin Core complète, vous disposerez de nombreux champs pour effectuer des recherches. Mais vous remarquerez que certains de ces champs semblent être vides, c'est-à-dire qu'il n'y a pas de valeurs. Mais comme vous pouvez le voir, comme je vous le montre maintenant, vous avez en fait des informations sur la localité partagées par certains éditeurs."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:85
 msgid "So that means that some publishers might be sharing data while others don't. And that can matter for your analysis."
-msgstr ""
+msgstr "Cela signifie que certains éditeurs peuvent partager leurs données et d'autres non. Et cela peut avoir une incidence sur votre analyse."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:87
 msgid "So for example, individual count, which can give you an idea about the abundance of the species, might not necessarily be filled out by some publishers, but is filled out by others."
-msgstr ""
+msgstr "Ainsi, par exemple, le compte individuel, qui peut vous donner une idée de l'abondance de l'espèce, n'est pas nécessairement rempli par certains éditeurs, mais l'est par d'autres."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:89
 msgid "And as I mentioned, if you have the full Darwin Core archive download, where you have many more columns, you will see a much more patchy data set, which matters for how you post-process your data."
-msgstr ""
+msgstr "Et comme je l'ai mentionné, si vous téléchargez l'archive Darwin Core complète, où vous avez beaucoup plus de colonnes, vous verrez un ensemble de données beaucoup plus inégal, ce qui a une incidence sur la façon dont vous post-traitez vos données."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:90
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide6.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:93
 #, no-wrap
 msgid "*Slide 6 - To which extent is there content in the fields you download?*\n"
-msgstr ""
+msgstr "*Diapositive 6 - Dans quelle mesure les champs que vous téléchargez contiennent-ils du contenu ?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:95
 msgid "If we go to a little more into detail of which content you can expect from the data you download on GBIF, I just give you some general ideas of some of the fields that you could download."
-msgstr ""
+msgstr "Si nous entrons un peu plus dans le détail du contenu que vous pouvez attendre des données que vous téléchargez sur GBIF, je vous donne juste quelques idées générales de certains des champs que vous pouvez télécharger."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:97
