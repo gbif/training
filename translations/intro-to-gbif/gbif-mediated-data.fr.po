@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-19 17:09+0000\n"
-"PO-Revision-Date: 2026-04-20 14:11\n"
+"PO-Revision-Date: 2026-04-20 15:07\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1029,74 +1029,74 @@ msgstr "intro-to-gbif::how-data-is-shared_Slide10.png"
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:153
 #, no-wrap
 msgid "*Slide 10 - Dataset cores*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Ensembles de données principales*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:155
 msgid "Now, those dataset classes are core tables. So if you have a dataset table that is either a taxon, occurrence, or event table those tables have a specific set of fields you can share. But you might want to share even more information."
-msgstr ""
+msgstr "Ces classes d'ensembles de données sont des tables principales. Ainsi, si vous avez une table d'ensemble de données qui est soit une table de taxons, d'occurrences ou d'événements, ces tables ont un ensemble spécifique de champs que vous pouvez partager. Mais il se peut que vous souhaitiez partager encore plus d'informations."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:157
 msgid "For example, if you have an event dataset, you might want to share individual occurrences."
-msgstr ""
+msgstr "Par exemple, si vous disposez d'un ensemble de données relatives à un événement, vous pouvez souhaiter partager des occurrences individuelles."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:159
 msgid "You did a BioBlitz from start of Saturday to the end of Saturday, but at that range, you found that butterfly or that beetle at a specific time during that."
-msgstr ""
+msgstr "Vous avez fait un BioBlitz du début du samedi à la fin du samedi, mais à cette distance, vous avez trouvé ce papillon ou ce coléoptère à un moment précis."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:161
 msgid "That's an occurrence within the event of the BioBlitz."
-msgstr ""
+msgstr "Il s'agit d'une occurrence dans l'événement du BioBlitz."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:163
 msgid "Or you might have media associated. You took pictures of the different insects you found during that time, or you might even have taken samples for DNA, and then you have identifications based on DNA."
-msgstr ""
+msgstr "Ou vous avez peut-être des fichiers multimédias associés. Vous avez pris des photos des différents insectes que vous avez trouvés pendant cette période, ou vous avez peut-être même prélevé des échantillons pour l'ADN, et ensuite vous avez des identifications basées sur l'ADN."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:165
 msgid "And you might have a taxon core or a checklist, as I mentioned, where you have the distribution of the species covered."
-msgstr ""
+msgstr "Et vous avez peut-être un noyau de taxons ou d'une liste de contrôle, comme je l'ai mentionné, où vous avez la répartition des espèces abordées."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:166
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide11.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide11.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:169
 #, no-wrap
 msgid "*Slide 11 - Missing fields?*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Champs manquants*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:171
 msgid "Now, we have a lot of fields available on GBIF in which you can filter down and narrow your search for. But in some cases, you might not find the fields that you need for your analysis."
-msgstr ""
+msgstr "Le GBIF propose un grand nombre de champs que vous pouvez filtrer et pour lesquels vous pouvez réduire votre recherche. Mais dans certains cas, il se peut que vous ne trouviez pas les champs dont vous avez besoin pour votre analyse."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:173
 msgid "If you would ever need such a field, the correct way of getting, well, at least starting the discussion of getting that field into GBIF would to be to go through TDWG and the Darwin Core standard."
-msgstr ""
+msgstr "Si vous avez besoin d'un tel champ, la bonne façon de l'obtenir, ou du moins d'entamer la discussion pour l'inclure dans le GBIF, serait de passer par le TDWG et la norme Darwin Core."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:175
 msgid "You can propose new terms and changes to Darwin Core, but you have to be mindful that changing data standards is a community-driven process which requires a lot of engagement and patience because you need to discuss it with your peers, and you need to find a common ground for adding those data. So you have to consider whether the term already exists but would require an update, where the new term would best be placed. Is it taxon specific? Is it occurrence specific or event specific? Is it something to do with locations?"
-msgstr ""
+msgstr "Vous pouvez proposer de nouveaux termes et des modifications au Darwin Core, mais vous devez garder à l'esprit que la modification des normes de données est un processus communautaire qui nécessite beaucoup d'engagement et de patience, car vous devez en discuter avec vos pairs et trouver un terrain d'entente pour l'ajout de ces données. Vous devez donc vous demander si le terme existe déjà mais nécessite une mise à jour, et où le nouveau terme serait le mieux placé. Est-il spécifique à un taxon ? Est-il spécifique à une occurrence ou à un événement ? Est-ce lié aux lieux ?"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:177
 msgid "And you also have to think about whether the term is better suited in an extension or in one of the core tables."
-msgstr ""
+msgstr "Vous devez également vous demander si le terme est mieux adapté à une extension ou à l'un des tableaux principaux."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:179
 msgid "So many people are maybe not that aware of extensions to these core tables, but there's a lot of extensions out there to serve the community who wants to share data or use data."
-msgstr ""
+msgstr "Beaucoup de gens ne sont peut-être pas au courant des extensions de ces tableaux principaux, mais il y a beaucoup d'extensions pour servir la communauté qui veut partager ou utiliser des données."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:181
