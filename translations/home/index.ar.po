@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-04-12 21:02\n"
+"POT-Creation-Date: 2026-04-19 11:29+0000\n"
+"PO-Revision-Date: 2026-04-19 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -18,14 +18,26 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:24
+#: en/home/modules/ROOT/pages/index.adoc:22
 msgid "xref:foundations::index.adoc[Biodiversity data mobilization foundations]"
 msgstr ""
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -60,12 +72,12 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/home/modules/ROOT/pages/index.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:38
-#: en/home/modules/ROOT/pages/index.adoc:45
-#: en/home/modules/ROOT/pages/index.adoc:46
-#: en/home/modules/ROOT/pages/index.adoc:48
-#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -267,93 +279,88 @@ msgstr ""
 msgid "The GBIF Secretariat, in collaboration with our community of trainers and mentors, develops curricula on biodiversity data mobilization and use. These courses are available online for self-paced use or can be adapted for onsite or virtual workshops. Contact us at training@gbif.org with questions."
 msgstr ""
 
-#. * https://docs.gbif.org/course-introduction-to-gbif[image:Courses-01.png[]^]
-#. ** https://docs.gbif.org/course-introduction-to-gbif[Introduction to GBIF^]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:11
+#: en/home/modules/ROOT/pages/index.adoc:9
 msgid "xref:intro-to-gbif::index.adoc[image:Courses-01.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:12
+#: en/home/modules/ROOT/pages/index.adoc:10
 msgid "xref:intro-to-gbif::index.adoc[Introduction to GBIF]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:14
+#: en/home/modules/ROOT/pages/index.adoc:12
 msgid "xref:data-use::index.adoc[image:Courses-03.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:15
+#: en/home/modules/ROOT/pages/index.adoc:13
 msgid "xref:data-use::index.adoc[Introduction to using GBIF-mediated data]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:17
+#: en/home/modules/ROOT/pages/index.adoc:15
 msgid "xref:epn::index.adoc[image:Courses-06.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:18
+#: en/home/modules/ROOT/pages/index.adoc:16
 msgid "xref:epn::index.adoc[Formal engagement and establishing Participant nodes]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:20
+#: en/home/modules/ROOT/pages/index.adoc:18
 msgid "xref:project-planning::index.adoc[image:Courses-07.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:21
+#: en/home/modules/ROOT/pages/index.adoc:19
 msgid "xref:project-planning::index.adoc[Biodiversity data mobilization project planning]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:23
+#: en/home/modules/ROOT/pages/index.adoc:21
 msgid "xref:foundations::index.adoc[image:Courses-09.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:26
-msgid "https://docs.gbif.org/course-data-mobilization[image:Courses-02.png[]^]"
+#: en/home/modules/ROOT/pages/index.adoc:24
+msgid "xref:data-mobilization::index.adoc[image:Courses-02.png[]]"
 msgstr ""
 
-#. * xref:data-mobilization::index.adoc[image:Courses-02.png[]]
+#. type: Plain text
+#: en/home/modules/ROOT/pages/index.adoc:25
+msgid "xref:data-mobilization::index.adoc[Biodiversity data mobilization]"
+msgstr ""
+
 #. type: Plain text
 #: en/home/modules/ROOT/pages/index.adoc:27
-msgid "https://docs.gbif.org/course-data-mobilization[Biodiversity data mobilization^]"
-msgstr ""
-
-#. ** xref:data-mobilization::index.adoc[Biodiversity data mobilization]
-#. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:31
 msgid "xref:nodes::index.adoc[image:Courses-05.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:32
+#: en/home/modules/ROOT/pages/index.adoc:28
 msgid "xref:nodes::index.adoc[Nodes development]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:30
 msgid "xref:grscicoll::index.adoc[image:Courses-08.png[]]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:35
+#: en/home/modules/ROOT/pages/index.adoc:31
 msgid "xref:grscicoll::index.adoc[Editing GRSciColl]"
 msgstr ""
 
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:36
 msgid "https://docs.gbif.org/course-dna-barcoding[image:Courses-04.png[]^]"
 msgstr ""
 
-#. * xref:dna-barcoding::index.adoc[image:Courses-04.png[]]
 #. type: Plain text
-#: en/home/modules/ROOT/pages/index.adoc:41
+#: en/home/modules/ROOT/pages/index.adoc:37
 msgid "https://docs.gbif.org/course-dna-barcoding[Accelerating biodiversity research through DNA barcodes, collection and observation data^]"
 msgstr ""
 
@@ -372,13 +379,13 @@ msgstr ""
 #. xref:global-nodes::index.adoc[View all of this]
 #. --
 #. type: Title ==
-#: en/home/modules/ROOT/pages/index.adoc:69
+#: en/home/modules/ROOT/pages/index.adoc:63
 #, no-wrap
 msgid "What are you looking for?"
 msgstr ""
 
 #. type: delimited block +
-#: en/home/modules/ROOT/pages/index.adoc:75
+#: en/home/modules/ROOT/pages/index.adoc:69
 #, no-wrap
 msgid "<div id=\"search-field\" class=\"main-page-search\">\n"
 "  <input id=\"search-input\" type=\"text\" placeholder=\"Search\" style=\"display: block; width: 100%; font-size: 2rem; background: #f2f2f2; padding: 0.25rem 1rem; border: none; margin: 1rem 0;\">\n"

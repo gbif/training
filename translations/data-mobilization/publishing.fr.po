@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-14 21:22+0000\n"
-"PO-Revision-Date: 2026-04-15 10:37\n"
+"POT-Creation-Date: 2026-04-19 11:29+0000\n"
+"PO-Revision-Date: 2026-04-19 11:39\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -16,26 +16,343 @@ msgstr ""
 "X-Crowdin-File: /main/translations/data-mobilization/publishing.pot\n"
 "X-Crowdin-File-ID: 45076\n"
 
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:40
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
-msgid "Read the Practice Use Case (if you haven't already)."
-msgstr ""
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:44
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:600
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:89
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:54
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:80
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:101
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:71
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:182
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:203
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:231
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:422
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:529
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:254
 msgid "Use the previously downloaded exercise sheet to provide your answers."
 msgstr "Utilisez la feuille d'exercice précédemment téléchargée pour donner vos réponses."
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:160
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
+#: en/data-mobilization/modules/ROOT/pages/description.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
+#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
+#, no-wrap
+msgid "Data publishing"
+msgstr "Publication de données"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
+#: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
+#: en/data-use/modules/ROOT/pages/navigation.adoc:10
+#: en/data-use/modules/ROOT/pages/navigation.adoc:18
+#: en/data-use/modules/ROOT/pages/navigation.adoc:26
+#: en/epn/modules/ROOT/pages/assignments.adoc:59
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/epn/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/epn/modules/ROOT/pages/introduction.adoc:23
+#: en/epn/modules/ROOT/pages/introduction.adoc:31
+#: en/epn/modules/ROOT/pages/introduction.adoc:39
+#: en/foundations/modules/ROOT/pages/course-complete.adoc:13
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:29
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:291
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:435
+#: en/foundations/modules/ROOT/pages/navigation.adoc:16
+#: en/foundations/modules/ROOT/pages/navigation.adoc:24
+#: en/foundations/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:25
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:25
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:25
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:25
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:25
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:16
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:24
+#: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:29
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:24
+#: en/intro-to-gbif/modules/ROOT/pages/navigation.adoc:32
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:53
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:59
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:82
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:90
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:97
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:105
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:112
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:120
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:127
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:135
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:141
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:145
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:149
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:161
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:169
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:176
+#: en/nodes/modules/ROOT/pages/biodiversity-commitments.adoc:183
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:68
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:75
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:83
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:90
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:98
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:105
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:113
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:122
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:130
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:137
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:145
+#: en/nodes/modules/ROOT/pages/business-sector.adoc:152
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:65
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:73
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:80
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:88
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:93
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:101
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:109
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:117
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:126
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:134
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:141
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:149
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:156
+#: en/nodes/modules/ROOT/pages/collections-communities.adoc:163
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:52
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:60
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:69
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:77
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:81
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:89
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:93
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:101
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:105
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:113
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:124
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:132
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:141
+#: en/nodes/modules/ROOT/pages/communications-strategy.adoc:148
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:54
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:62
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:73
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:81
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:85
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:93
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:97
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:105
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:116
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:124
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:133
+#: en/nodes/modules/ROOT/pages/developing-training.adoc:140
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:37
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:43
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:50
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:56
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:60
+#: en/nodes/modules/ROOT/pages/estimating-gbif-value.adoc:66
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:79
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:87
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:104
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:130
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:138
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:149
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:157
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:166
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:202
+#: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:210
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:57
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:65
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:74
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:82
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:123
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:131
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:189
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:197
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:216
+#: en/nodes/modules/ROOT/pages/gnt-emerging-publishing-models.adoc:224
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:62
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:70
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:88
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:96
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:127
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:135
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:201
+#: en/nodes/modules/ROOT/pages/gnt-gbif-hosted-portals.adoc:209
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:61
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:69
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:144
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:152
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:174
+#: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:182
+#: en/nodes/modules/ROOT/pages/navigation.adoc:12
+#: en/nodes/modules/ROOT/pages/navigation.adoc:20
+#: en/nodes/modules/ROOT/pages/navigation.adoc:28
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:67
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:74
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:82
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:89
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:96
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:114
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:122
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:129
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:137
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:144
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:151
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:159
+#: en/nodes/modules/ROOT/pages/research-communities.adoc:166
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:57
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:65
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:69
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:77
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:81
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:89
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:98
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:106
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:115
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:123
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:134
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:142
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:151
+#: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:159
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:47
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:55
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:66
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:74
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:78
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:86
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:90
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:98
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:115
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:123
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:134
+#: en/nodes/modules/ROOT/pages/strategic-planning.adoc:141
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:31
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:37
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:44
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:52
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:60
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:76
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:137
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:153
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:273
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:280
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:24
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:32
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:44
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:175
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:181
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:193
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:16
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:24
+#: en/project-planning/modules/ROOT/pages/navigation.adoc:32
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:26
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:34
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:46
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
+#, no-wrap
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr "Transcription de la présentation"
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr "Cliquez pour développer"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:593
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -53,9 +370,8 @@ msgid "Review"
 msgstr "Révision"
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -64,31 +380,6 @@ msgstr "Révision"
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
 msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
 msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certaines questions peuvent comporter plusieurs réponses correctes."
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Vous pouvez en savoir plus sur les réponses dans le xref:solutions.adoc[Annexe des solutions]."
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/description.adoc:16
-#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
-#: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
-#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
-#, no-wrap
-msgid "Data publishing"
-msgstr "Publication de données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:6
@@ -103,74 +394,571 @@ msgstr "Concepts de publication de données"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:13
-msgid "In this video (11:45), you will learn about data publishing concepts and will receive an introduction to the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT^])."
+msgid "In this presentation, you will learn about data publishing concepts and will receive an introduction to the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT^])."
 msgstr ""
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:15
-msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_publishing_concepts.mp4[download,opts=download] it locally. (MP4 - 20 MB)"
-msgstr ""
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:20
+#. type: delimited block +
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:21
 #, no-wrap
-msgid "IPT overview"
-msgstr "Présentation générale de l'IPT"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
-msgid "In this video (06:56), you will receive an overview of the IPT data publishing interface."
+msgid "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQrNEQjUnffHH6eEYxLz8gq5v8PIhBd4mZ1Jxd0oHRPbbPM_HDppuDuJZ8hrn2Ung/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 msgstr ""
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
-msgid "If you are unable to watch the embedded video, you can xref:attachment$Data_publishing_IPT.mp4[download,opts=download] it locally. (MP4 - 8.7 MB)"
-msgstr ""
-
-#. type: Title ===
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:32
-#, no-wrap
-msgid "Training IPT installations"
-msgstr "Installations IPT pour la formation"
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:35
-msgid "If you have not already been provided a login, please contact training@gbif.org and you will be provided with a login and password on the course IPT."
-msgstr "Si vous n'avez pas encore reçu d'identifiant, veuillez contacter training@gbif.org et vous recevrez un identifiant et un mot de passe pour vous connecter sur l'IPT de la formation."
-
-#. type: Plain text
+#. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:37
-msgid "https://training-ipt-a.gbif.org/[^]"
-msgstr "https://training-ipt-a.gbif.org/[^]"
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:39
-msgid "https://training-ipt-b.gbif.org/[^]"
-msgstr "https://training-ipt-b.gbif.org/[^]"
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:41
-msgid "https://training-ipt-c.gbif.org/[^]"
-msgstr "https://training-ipt-c.gbif.org/[^]"
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:42
 #, no-wrap
-msgid "IPT demonstration"
-msgstr "Démonstration de l'IPT"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:47
-msgid "In this video (24:16), you will learn how to publish an occurrence dataset using an IPT."
+msgid "data-mobilization::publishing-concepts-Slide1.png"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:49
-msgid "If you are unable to watch the embedded video, you can xref:attachment$IPT_demo.mp4[download,opts=download] it locally. (MP4 - 52.6 MB)"
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:40
+#, no-wrap
+msgid "*Slide 1 - Data publishing concepts*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:42
+msgid "In this presentation, we will introduce you to the concept of Data Publishing. We will also introduce you to GBIF’s Integrated Publishing Toolkit."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:44
+msgid "Photo: Euphorbia royleana Boiss. Observed in Nepal by Yaling Lin http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:45
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide2.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:48
+#, no-wrap
+msgid "*Slide 2 - Sharing your data*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:50
+msgid "At this point in the course, you have moved through all the sections of a mobilization project. Now you are ready to share your data. You’ve produced a cleaned and standardized dataset and you want to share and see that data on the GBIF data portal."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:51
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide3.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
+#, no-wrap
+msgid "*Slide 3 - Data publishing*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
+msgid "But there is more to it than simply handing over a spreadsheet or a text file to GBIF. You must publish the data.    Data publishing is the act of making biodiversity datasets publicly accessible, discoverable and as open as possible, in a standardized form (i.e. Darwin Core), via an access point. This access point is a URL – a web address.    Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the Integrated Publishing Toolkit, to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally they prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node or through an established thematic group like VertNet. Or, an another option, might be to make use of one of the GBIF regional IPTs.    If you are part of groups like Symbiota or the Living Atlases Communities, they have other means to assist you with publishing your data to GBIF."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:63
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide4.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:66
+#, no-wrap
+msgid "*Slide 4 - Creative Commons waiver and licenses*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:68
+msgid "The previous slide mentions the act of not only making the data accessible, but making it as open as possible."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:70
+msgid "In an effort to document the level of openness of a dataset, GBIF maintains, in keeping with a 2014 decision by the GBIF governing board, that all data published and registered for use in the GBIF portal, must be issued with one of three Creative Commons options:"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
+msgid "CC0, a waiver for data made available for any use without any restrictions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:73
+msgid "CC BY, a license for data made available for any use with appropriate attribution"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:74
+msgid "CC BY-NC, a license for data made available for any non-commercial use with appropriate attribution."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:76
+msgid "INFORMATION: CC-BY-NC licences have a significant effect on the reusability of data."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:78
+msgid "GBIF encourages data publishers to choose the most open option they can wherever possible."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:80
+msgid "Projects supported through GBIF-led funding must use either the CC0 or CC BY options."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:81
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide5.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:84
+#, no-wrap
+msgid "*Slide 5 - Integrated Publishing Toolkit*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:86
+msgid "The Integrated Publishing Toolkit (IPT) is a free, open-source software tool written in Java that is used to publish and share biodiversity datasets through the GBIF network. The first version of IPT was released in 2009. It was redesigned and rereleased in 2011. Since that time, the IPT has been updated continuously updated with new features, bug fixes and security improvements."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
+msgid "While the IPT is maintained at GBIF, the community of biodiversity informatics developers are able to contribute to its development."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:90
+msgid "Some of the features include:"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:92
+msgid "Main (but not only) publishing tool for GBIF."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:93
+msgid "One IPT can host many datasets, on behalf of several institutions, each clearly represented"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
+msgid "Test mode and production mode"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:95
+msgid "Multilingual – it has been translated into 7 languages."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:97
+msgid "It is a server-side software, so it needs a stable connection and requires technical administration. This is why many institutions choose to publish their data on hosted IPTs."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:99
+msgid "You can find more information on data hosting on the GBIF website."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:101
+msgid "For the remainder of our course, we’ll be demonstrating and completing exercises using the IPT."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:102
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide6.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:105
+#, no-wrap
+msgid "*Slide 6 - Choosing a publishing core*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:112
+msgid "We’re now putting together what you learned in the first two presentations in the Data Capture section on Standards and Darwin Core and Data Types.    At its heart, the IPT is based on Darwin Core and the Darwin Core text guide and its recommendations for sharing data in a Darwin Core Archive. The Darwin Core contains three distinct data cores which match up to three of the dataset types that GBIF accepts.    Keep in mind:  "
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:113
+msgid "Each dataset has one and only one Core file"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:114
+msgid "Each Core file corresponds to a dataset type: occurrence, checklist or sampling event."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:115
+msgid "Each dataset can have one or more extensions file"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:116
+msgid "The aim of an extension is to add new data fields not present in the core."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:117
+msgid "Each entry in the core file is linked to zero, one or several rows in an extension file."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:118
+msgid "Each row in an extension file reference one and only one row in the core file."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:120
+msgid "Some examples:"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:122
+msgid "Core is Occurrence, no extensions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:123
+msgid "Core is Occurrence, with “multimedia” extension"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:124
+msgid "Core is Occurrence, with simple multimedia and measurementorfact extensions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:125
+msgid "Core is Taxon, no extensions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:126
+msgid "Core is Taxon, with species distribution extension"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:127
+msgid "Core is Event with occurrence and measurementorfact extensions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:129
+msgid "Photo: Pieris formosa (Wall.) D.Don Observed in Nepal by Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0]"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:130
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide7.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:133
+#, no-wrap
+msgid "*Slide 7 - Occurrence Core*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:135
+msgid "The first core is the Occurrence Core. As a reminder, an occurrence dataset contains one individual or one group of individuals. Each row has a unique identifier, an occurrenceID. Other fields for occurrence data include where, when, how and by whom was each occurrence observed and/or collected in the field."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:136
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide8.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:139
+#, no-wrap
+msgid "*Slide 8 - Taxon Core*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:141
+msgid "The next option is the Taxon core. As a reminder, a checklist dataset contains taxonomic concepts, not individuals. It is a “A catalogue or list of named organisms, or taxa.” Each row will have a taxonID. Each taxon must be unique."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:142
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide9.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:145
+#, no-wrap
+msgid "*Slide 9 - Event Core*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:147
+msgid "The last option is the Event core. As a reminder, sampling event datasets allow data publishers to provide greater detail, not only offering evidence that a species occurred at a given location and date, but also making it possible to assess community composition for broader taxonomic groups or even the abundance of species at multiple times and places. By indicating the methods, events and relative abundance of species recorded in a sample, these datasets improve comparisons with data collected using the same protocols at different times and places—in some cases, even leading researchers to infer the absence of particular species from particular sites."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:149
+msgid "Each row will have an EventID. Each event must be unique."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:150
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide10.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:153
+#, no-wrap
+msgid "*Slide 10 - Data quality requirement*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:155
+msgid "This is a good point to review all of the fields required by GBIF. If required fields are not supplied, GBIF will have difficult indexing your dataset."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:157
+msgid "Each core has its own set of required and recommended fields for the dataset and for the associated dataset metadata. As you now know, metadata is the data about your data and it enables users to know if your dataset will be fit for their use."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:159
+msgid "Don’t stop at the required and recommended fields. The more data you are able to share, the more useful your dataset can be to end users."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:161
+msgid "You can find the data quality requirments on the GBIF website."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:162
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide11.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:165
+#, no-wrap
+msgid "*Slide 11 - Extensions in the IPT*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:167
+msgid "Extensions were introduced in the Standards presentation. Publishing a dataset is now where you will put them into use. As mentioned previously, GBIF maintains the list of approved and draft extensions on its tools subsite. The approved extensions can be enabled by an IPT administrator on a Production IPT. Draft extensions can be enabled by an IPT administrator on a Test IPT. If you know you have data that cannot be shared with Simple Darwin Core, it is worth reviewing the list of available extensions."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:169
+msgid "If you think an extension doesn’t exist, try reaching out to members of the TDWG community or posting on the Darwin Core issues site. Community members will help guide you."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:170
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide12.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:173
+#, no-wrap
+msgid "*Slide 12 - Darwin Core Archive with extensions*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:175
+msgid "Also, in the standards presentation, you were introduced to Darwin Core Archives."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:177
+msgid "This is an example of a Darwin Core archive with extensions."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:179
+msgid "It’s an occurrence dataset that has been published with images, determination history and genebank information."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:180
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide13.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:183
+#, no-wrap
+msgid "*Slide 13 - A core and extension relationship*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:185
+msgid "Until now, it may have been difficult to imagine how two single files can be related. A core with an extension can represent the following relationships."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:187
+msgid "1:0"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:188
+msgid "1:1"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:189
+msgid "1:many"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:191
+msgid "The core file will always contain unique records. In this example using the Taxon Core, each taxon is unique and is represented by a taxonID. In Vernacular Names extension file, each vernacular name is unique. The first three represent common names for the species Struthio camelus (1:many relationship). The fourth name represents the common name for the species Alectoris chukar (1:1 relationship)."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:193
+msgid "In this example the third and fourth taxons in the core file, do not have a match in the extension file. (1:0 relationship)."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:194
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide14.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:197
+#, no-wrap
+msgid "*Slide 14 - Registering as a data publisher with GBIF*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:199
+msgid "As we finish up this presentation, we’d like like to discuss registering as a data publisher at GBIF.  The steps for registering were covered in the https://training.gbif.org/en/intro-to-gbif/data-publishing#how-to-become-a-data-publisher[Introduction to GBIF course^]."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:201
+msgid "Data holding institutions are listed as the data publisher when their data is shared with GBIF.  This allows users to properly provide credit and attribution for the data/datasets that they intend to use for research. And once users begin to site the dataset, the publishers page on GBIF.org will link back to literature citing the dataset."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:202
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide15.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:205
+#, no-wrap
+msgid "*Slide 15 - Aims of the publisher endorsement process*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:207
+msgid "Before GBIF indexes a new publisher's datasets, the institution must receive endorsement as a data publisher from one of the Participant nodes that coordinate activities of the national and organizational Participants in the GBIF network. If your country is not yet a participant, GBIF will coordinate the endorsement request through the GBIF Nodes Steering Group (NSG)."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:209
+msgid "It is important to complete this step early in the publishing process as it could take up to a month for your publisher record to be endorsed by a Participant Node or the Nodes Steering Group."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:211
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
+msgid "The endorsement procedure aims to ensure that:"
+msgstr "La procédure d'endossement vise à garantir que :"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:213
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
+msgid "Published data are relevant to GBIF’s scope and objectives"
+msgstr "Les données publiées sont pertinentes pour la portée et les objectifs du GBIF"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
+msgid "Arrangements for data hosting are stable and persistent"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:215
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
+msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
+msgstr "La publication et l'utilisation des données sont soutenues par un engagement fort, national, régional et thématique"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:216
+msgid "Data are as open as possible and available for sharing and reuse"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:217
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
+msgid "Data publishers can respond to feedback and improve data quality"
+msgstr "Les éditeurs de données peuvent répondre aux commentaires et améliorer la qualité des données"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:219
+msgid "Once a publisher receives endorsement, they can begin registering their published datasets with GBIF.  You’ll hear more about this during the IPT demonstration."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:220
+#, no-wrap
+msgid "data-mobilization::publishing-concepts-Slide16.png"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:223
+#, no-wrap
+msgid "*Slide 16 - Conclusion*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:227
+msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sophie Pamerlon with additional contributions by Nicolas Noe, Laura Anne Russell and Dag Endresen, BID and BIFA Trainers, Mentors and students."
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:231
+#, no-wrap
+msgid "IPT overview and demonstration"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
+msgid "During this demonstration, you will receive an overview of the IPT data publishing interface and you will learn how to publish an occurrence dataset using an IPT."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:239
+msgid "A live demonstration will be provided. Visit the https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] for full documentation."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:240
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
@@ -183,12 +971,12 @@ msgid "Exercise 3"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:59
-msgid "In this exercise, you will publish an occurrence dataset using the IPT."
-msgstr "Dans cet exercice, vous publierez un jeu de données d'occurrence en utilisant l'IPT."
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:245
+msgid "In this exercise, you will publish an event dataset using the IPT."
+msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:64
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:248
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:148
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:74
@@ -200,37 +988,37 @@ msgid "*Data publishing*\n"
 msgstr "*Publication de données*\n"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:66
-msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset."
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250
+msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. You have been requested to lead that publishing work."
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:68
-msgid "At this point, you need an account on one of the <<Training IPT installations,course IPTs>>. If you have not already been provided a login, please contact training@gbif.org and you will be provided with a login and password on one of the course IPTs."
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:252
+msgid "Download xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (57 KB)"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:69
-msgid "Download xref:attachment$UC-Practice-3-ForPublication.csv[UC-Practice-3-ForPublication.csv,opts=download]. (233.5 KB)"
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:70
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:253
 msgid "Use the assigned IPT installation and publish this file."
 msgstr "Utilisez l'installation IPT assignée et publiez ce fichier."
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
+msgid "You might want to export each tab in the spreadsheet to csv (three resulting csv files) for upload into the IPT. Alternatively, if you stay with Excel, you will need to upload the Excel file three times into the IPT (once for each tab in the spreadsheet)."
+msgstr ""
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr "Que signifie la publication de données dans le contexte du GBIF ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
@@ -242,12 +1030,12 @@ msgstr "- [ ] Exporter un fichier csv de vos données nettoyées que vous pouvez
 
 #.  Question 2
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:97
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:282
 msgid "What is an IPT?"
 msgstr "Qu'est-ce qu'un IPT ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:103
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:288
 #, no-wrap
 msgid "- [ ] a tool that helps you manage & correct your data\n"
 "- [x] a tool that helps you publish your data to GBIF\n"
@@ -258,12 +1046,12 @@ msgstr "- [ ] un outil qui vous aide à gérer & corriger vos données\n"
 
 #.  Question 3
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:106
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:291
 msgid "Which Creative Commons licences and waivers are recommended by GBIF for data publication?"
 msgstr "Quelles licences ou dérogations Creative Commons sont recommandées par le GBIF pour la publication de données ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:112
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:297
 #, no-wrap
 msgid "- [ ] CC-BY, CC-BY-SA and CC-BY-ND\n"
 "- [x] CC0, CC-BY and CC-BY-NC\n"
@@ -274,12 +1062,12 @@ msgstr "- [ ] CC-BY, CC-BY-SA et CC-BY-ND\n"
 
 #.  Question 4
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:115
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:300
 msgid "What are the three Cores from which you can choose for an IPT resource?"
 msgstr "Quels sont les trois noyaux (cores) que vous pouvez choisir pour une ressource sur l'IPT ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:121
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:306
 #, no-wrap
 msgid "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
 "- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
@@ -290,12 +1078,12 @@ msgstr "- [ ] Métadonnées, Occurrence, Multimédia\n"
 
 #.  Question 5
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:124
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:309
 msgid "How many Extensions files can a dataset have?"
 msgstr "Combien de fichiers d'extensions un jeu de données peut-il avoir ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:130
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:315
 #, no-wrap
 msgid "- [ ] zero\n"
 "- [ ] one\n"
