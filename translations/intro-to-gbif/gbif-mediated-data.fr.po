@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-19 17:09+0000\n"
-"PO-Revision-Date: 2026-04-20 12:27\n"
+"PO-Revision-Date: 2026-04-20 14:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -960,70 +960,70 @@ msgstr "Il est géré par les normes d'information sur la biodiversité, égalem
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:127
 msgid "And those data standards define the field name, as I mentioned, and they also sometimes define the value content that could be like a controlled vocabulary or some sort of normalized value that people should use when they share their data."
-msgstr ""
+msgstr "Ces normes de données définissent le nom du champ, comme je l'ai mentionné, et elles définissent aussi parfois le contenu de la valeur qui pourrait être comme un vocabulaire contrôlé ou une sorte de valeur normalisée que les gens devraient utiliser lorsqu'ils partagent leurs données."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:129
 msgid "So let's say you're a publisher, you're completely new to data standards and publishing on GBIF. You might have a spreadsheet saying that you have a name, you have a count of how many of that species you saw, and some general notes about what you found."
-msgstr ""
+msgstr "Supposons que vous soyez un éditeur, que vous soyez totalement novice en matière de normes de données et de publication sur le GBIF. Vous avez peut-être une feuille de calcul indiquant un nom, le nombre d'individus de cette espèce que vous avez observés et quelques notes générales sur ce que vous avez trouvé."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:131
 msgid "Those fields have to be called scientific name for the name, for example, individual count for the counts, and for the notes, you might want to put those in occurrence remarks or event remarks."
-msgstr ""
+msgstr "Ces champs doivent être désignés par un nom scientifique, par exemple, nombre d'individus pour les comptages, et pour les notes, vous voudrez peut-être les placer dans les remarques sur l'occurrence ou sur l'événement."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:133
 msgid "The point is that you have specific fields to capture specific information."
-msgstr ""
+msgstr "Le but est de disposer de champs spécifiques pour capturer des informations spécifiques."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:134
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide9.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide9.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:137
 #, no-wrap
 msgid "*Slide 9 - Available fields*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Champs disponibles*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:139
 msgid "Now, the fields available for sharing on GBIF, it's dependent on the dataset class."
-msgstr ""
+msgstr "Les champs disponibles pour le partage sur GBIF dépendent de la classe de l'ensemble de données."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:141
 msgid "As I mentioned, you have occurrence records. Those occurrence records is one type of dataset class on GBIF."
-msgstr ""
+msgstr "Comme je l'ai mentionné, vous avez des enregistrements d'occurrences. Ces enregistrements d'occurrences sont un type de classe d'ensembles de données dans le GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:143
 msgid "So the most simple one is the metadata-only dataset, which doesn't really have any data. It's just a description of the dataset. So that could be a description of a collection or description of a field study, but where you haven't been able to digitize the data just yet."
-msgstr ""
+msgstr "Le plus simple est donc l'ensemble contenant uniquement des métadonnées, qui ne contient pas vraiment de données. Il s'agit simplement d'une description de l'ensemble de données. Il peut s'agir de la description d'une collection ou d'une étude de terrain, mais les données n'ont pas encore été numérisées."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:145
 msgid "Then we also have checklist datasets, which is a list of taxon names. There could be more information included, but generally, it's sharing scientific names of a given area or within a different specific scope."
-msgstr ""
+msgstr "Nous avons également des ensembles de données de listes de contrôle, qui sont des listes de noms de taxons. Il peut y avoir plus d'informations, mais en général, il s'agit de partager les noms scientifiques d'une zone donnée ou au sein d'un champ spécifique différent."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:147
 msgid "And then you have occurrences, which I mentioned before, which is the evidence of a species present or a taxon present at a given date and place."
-msgstr ""
+msgstr "Ensuite, il y a les occurrences, que j'ai déjà mentionnées, qui sont la preuve de la présence d'une espèce ou d'un taxon à une date et à un endroit donnés."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:149
 msgid "Now, the last type of dataset class we have is the sampling events, which has a little more information because usually people have to share sampling effort and protocol, and it can allow users to assess community composition and abundance of species."
-msgstr ""
+msgstr "Le dernier type de la class de l'ensemble de données dont nous disposons est celui des événements d'échantillonnage, qui contient un peu plus d'informations parce que les gens doivent généralement partager l'effort et le protocole d'échantillonnage, et qui peut permettre aux utilisateurs d'évaluer la composition de la communauté et l'abondance des espèces."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:150
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide10.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide10.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:153
