@@ -406,13 +406,13 @@ In this presentation, you will review https://www.gbif.org/dataset-classes[prima
 [.left]
 &nbsp;
 
-image::data-mobilization::capture-standards-dwc-Slide1.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide1.png[align=center]
 
 *Slide 1 - GBIF dataset types for primary biodiversity data*
 
 In this presentation, we’ll have a look at the different types of data that can be called ‘primary biodiversity data’ and shared within GBIF. These data can be complex and have different origins ; we’ll see how they can be structured into one of the three data classes accepted by GBIF, based on the Darwin Core data sharing standard that is used within the GBIF community.
 
-image::data-mobilization::capture-standards-dwc-Slide2.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide2.png[align=center]
 
 *Slide 2 - Data richness levels supported by GBIF*
 
@@ -426,13 +426,13 @@ The third type  is for occurrence-only data.  This is data for species that incl
 
 The last type is Sampling-event data. This allows you to share even more data. You can share species with dates, coordinates, methods, abundance and even absence.
 
-image::data-mobilization::capture-standards-dwc-Slide3.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide3.png[align=center]
 
 *Slide 3 - Checklists and taxonomical resources*
 
 The first type of dataset that can be published within GBIF is the checklist, aka a list of species or higher taxa. In a checklist, the main unit is the taxon, not the occurrence (individual).
 
-image::data-mobilization::capture-standards-dwc-Slide4.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide4.png[align=center]
 
 *Slide 4 - Checklists and other taxonomical resources*
 
@@ -442,97 +442,97 @@ a list of species present in a protected area is a checklist,
 a national or thematic list of taxa (e.g. Butterflies of Laos, or the Flora of Malaysia), which sometimes provide more info on the distribution, taxonomical hierarchy and synonyms of the taxa is a checklist.
 IUCN red lists (at the international, national or regional levels) also are checklists and can give more information about the vulnerability status of the listed taxa.
 
-image::data-mobilization::capture-standards-dwc-Slide5.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide5.png[align=center]
 
 *Slide 5 - GBIF template for taxon data*
 
 GBIF provides data publishers with templates for each class of dataset. The GBIF template for checklists (taxon Data) allows you to share information linked to each species or taxa : its id, full name and authorship, relationship to other taxa, geographical details and so on. In this template, one line represents one taxon and a taxon can only appear once in the dataset (otherwise it will create a duplicate).
 
-image::data-mobilization::capture-standards-dwc-Slide6.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide6.png[align=center]
 
 *Slide 6 - Specimens and natural history collections materials*
 
 the second type of data that can be published within GBIF is data coming from natural history or scientific collections, also known as specimens. Unlike checklists, the main unit in a specimen collection will be the specimen (a single organism or group of organisms), and you can have multiple specimens from the same species or taxon group.
 
-image::data-mobilization::capture-standards-dwc-Slide7.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide7.png[align=center]
 
 *Slide 7 - Specimens and collections materials*
 
 collections and specimens vastly differ in numbers, size and preservation methods. However, any kind of collection that holds preserved living organisms can be captured and shared within GBIF ; herbarium or zoological collections (including fossils) for example, but geology or human artifacts collections do not fall under the GBIF scope.
 
-image::data-mobilization::capture-standards-dwc-Slide8.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide8.png[align=center]
 
 *Slide 8 - Literature*
 
  Biodiversity data can also be found in technical and scientific literature : it is possible to compile and share this kind of data within GBIF, but you should be extra-cautious not to share duplicate data (for example, a specimen described in a scientific article might already be present on GBIF.org in the dataset of its collection).
 
-image::data-mobilization::capture-standards-dwc-Slide9.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide9.png[align=center]
 
 *Slide 9 - Examples of literature documents*
 
 In the absence of digitized datasets, biodiversity data can be extracted and compiled from scientific articles, phD or master theses, reports and other documents. ALWAYS contact the data owner first when compiling literature data to ask for permission to publish them to GBIF.
 
-image::data-mobilization::capture-standards-dwc-Slide10.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide10.png[align=center]
 
 *Slide 10 - Fieldwork records and notes*
 
 A large majority of the data available on GBIF.org now comes from fieldwork records. These data can be observed and/or collected using different protocols in the field, by scientists, naturalists or amateur citizen-scientists via programmes and apps.
 
-image::data-mobilization::capture-standards-dwc-Slide11.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide11.png[align=center]
 
 *Slide 11 - Fieldwork records and notes*
 
  These field data can be compiled in survey reports, environmental impact assessment studies, field notes and other logs. They can be linked to other types of data, such as checklists, which are complementary to occurrence data observed or collected in the wilderness.
 
-image::data-mobilization::capture-standards-dwc-Slide12.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide12.png[align=center]
 
 *Slide 12 - GBIF template for occurrence data*
 
 Occurrence data represents the GBIF class of datasets with the largest number of records on GBIF.org. Collection (aka specimens), literature and fieldwork data can be shared within GBIF using this template, which focuses on the observed individual or collected specimen. In this kind of dataset, multiple individuals or specimens can be recorded for a single taxon, as long as they each have a unique identifier. Other fields for occurrence data include where, when, how and by whom was each occurrence observed and/or collected in the field.
 
-image::data-mobilization::capture-standards-dwc-Slide13.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide13.png[align=center]
 
 *Slide 13 - Event data*
 
 Event data is a class of datasets that was added on GBIF.org in 2015.  They allow data publishers to share more information about the context of the observation or collection of specimens, and to group occurrences linked to the same event.
 
-image::data-mobilization::capture-standards-dwc-Slide14.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide14.png[align=center]
 
 *Slide 14 - GBIF template for event data*
 
 The GBIF template for Event data allows data publishers to share more information about the context of a biodiversity data collecting/recording event such as camera traps, insect traps, botanical relevés, birding sites and so on. Its structure is a bit more complex than the Taxonomical datasets and Occurrence datasets as it involves two files (e.g., two tabs in a spreadsheet) : one for describing the ‘events’ (e.g. each trap) and the other one to describe the specimens or occurrences linked to each event.
 
-image::data-mobilization::capture-standards-dwc-Slide15.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide15.png[align=center]
 
 *Slide 15 - Other origins of data*
 
 Sometimes, additional information or data can be found using other source materials than those previously mentioned in this video.
 
-image::data-mobilization::capture-standards-dwc-Slide16.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide16.png[align=center]
 
 *Slide 16 - Other origins of data*
 
 These other sources include remote sensing tools, maps and satellite data, and other information supports such as pictures, audio and video recordings of wildlife. Most of the time, the information retrieved this way is supplemental to existing data but can provide valuable information about individuals and their location, habitat, migratory routes, etc.
 
-image::data-mobilization::capture-standards-dwc-Slide17.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide17.png[align=center]
 
 *Slide 17 - Origins of data and Darwin Core concepts*
 
 In the following slides, we will see how the Darwin Core standard works with different types of data, and how to choose the dataset class that best fits a given dataset.
 
-image::data-mobilization::capture-standards-dwc-Slide18.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide18.png[align=center]
 
 *Slide 18 - Darwin Core standard: cores and extensions*
 
 As you learned in the Darwin Core presentation, Darwin Core is a data sharing standard developed by the Biodiversity Information Standards (TDWG) organization, and is widely used to publish data within the extended GBIF community. Depending on the type of dataset with which you work, you’ll have to choose one of its three Cores (Occurrence, Taxon or Event Core), which can be linked to one or more Extensions to share more information (such as multimedia links, variables, identification history and so on). In some cases, a core can be used as an extension linked to another core: that is the case when publishing Event data, where one can use the Event Core to describe the sampled areas and then use the Occurrence Core as an Extension to share the specimens or individuals recorded.
 
-image::data-mobilization::capture-standards-dwc-Slide19.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide19.png[align=center]
 
 *Slide 19 - Darwin Core standard: cores and extensions*
 
 Once the data has been standardized using the Darwin Core standard, each class of dataset (metadata-only, sampling event, taxonomic or occurrence datasets) can be published on GBIF.org using one of the tools mentioned on this figure. The most frequently used tool within the GBIF community is the GBIF-developed Integrated Publishing Toolkit (IPT), which transforms the source data into Darwin Core archives that are then harvested and indexed by GBIF. The data are then searchable and downloadable via GBIF.org.
 
-image::data-mobilization::capture-standards-dwc-Slide20.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide20.png[align=center]
 
 *Slide 20 - Data quality requirements associated with each class*
 
@@ -540,13 +540,13 @@ GBIF’s data quality requirements describe what you should provide for each dat
 
 Some requirements are required (such as the occurrenceID, taxonID or eventID, depending on the type of dataset), others are optional but strongly recommended (such as coordinates in decimal degrees). You can find these requirements on GBIF.org.
 
-image::data-mobilization::capture-standards-dwc-Slide21.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide21.png[align=center]
 
 *Slide 21 - How to choose a dataset type?*
 
 Choosing a dataset class can take some time, especially if you’re new to data publishing within GBIF. The GBIF helpdesk team created this useful flowchart which can be found on the GBIF Data Blog if you need further support to decide.
 
-image::data-mobilization::capture-standards-dwc-Slide22.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide22.png[align=center]
 
 *Slide 22 - Discussion*
 
@@ -558,7 +558,7 @@ Is your data type different than you originally thought?
 
 How would you publish them to GBIF? (using which Core and/or extension?)
 
-image::data-mobilization::capture-standards-dwc-Slide23.png[align=center]
+image::data-mobilization::capture-dataset-types-Slide23.png[align=center]
 
 *Slide 23 - Conclusion*
 
