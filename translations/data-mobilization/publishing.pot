@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-21 06:17+0000\n"
+"POT-Creation-Date: 2026-04-21 21:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -333,7 +333,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:603
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -368,7 +368,7 @@ msgstr ""
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:596
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:261
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -387,7 +387,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:601
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:266
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -1190,6 +1190,21 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
+msgid "https://training-ipt-a.gbif.org/ \t"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+msgid "https://training-ipt-b.gbif.org/\t"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:258
+msgid "https://training-ipt-c.gbif.org/\t"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:260
 msgid ""
 "You might want to export each tab in the spreadsheet to csv (three resulting "
 "csv files) for upload into the IPT. Alternatively, if you stay with Excel, "
@@ -1202,13 +1217,13 @@ msgstr ""
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:277
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:283
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid ""
@@ -1219,12 +1234,12 @@ msgstr ""
 
 #.  Question 2
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:282
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:286
 msgid "What is an IPT?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:288
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:292
 #, no-wrap
 msgid ""
 "- [ ] a tool that helps you manage & correct your data\n"
@@ -1234,14 +1249,14 @@ msgstr ""
 
 #.  Question 3
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:291
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:295
 msgid ""
 "Which Creative Commons licences and waivers are recommended by GBIF for data "
 "publication?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:297
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:301
 #, no-wrap
 msgid ""
 "- [ ] CC-BY, CC-BY-SA and CC-BY-ND\n"
@@ -1251,12 +1266,12 @@ msgstr ""
 
 #.  Question 4
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:300
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:304
 msgid "What are the three Cores from which you can choose for an IPT resource?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:306
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:310
 #, no-wrap
 msgid ""
 "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
@@ -1266,12 +1281,12 @@ msgstr ""
 
 #.  Question 5
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:309
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:313
 msgid "How many Extensions files can a dataset have?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:315
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:319
 #, no-wrap
 msgid ""
 "- [ ] zero\n"
