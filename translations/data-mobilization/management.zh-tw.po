@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-19 17:09+0000\n"
-"PO-Revision-Date: 2026-04-19 17:28\n"
+"POT-Creation-Date: 2026-04-20 18:28+0000\n"
+"PO-Revision-Date: 2026-04-20 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -339,7 +339,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:600
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:603
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
@@ -353,7 +353,6 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:717
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:955
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:231
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:422
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:529
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:254
@@ -748,7 +747,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:228
-msgid "Download xref:attachment$UC-Practice-2ab-data-cleaning.csv[UC-Practice-2ab-data-cleaning.csv,opts=download]. (?? KB)"
+msgid "Download xref:attachment$UC-Practice-2ab-ForCleaning.csv[UC-Practice-2ab-ForCleaning.csv,opts=download]. (138 KB)"
 msgstr ""
 
 #. type: Plain text
@@ -759,6 +758,11 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:230
 msgid "Find and document the technical errors (indicating the subtype: completeness, bounds, data type, or data format)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:231
+msgid "Use the previously downloaded xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download] (PDF, 2.9 MB) to provide your answers."
 msgstr ""
 
 #. type: Title ==
@@ -1407,7 +1411,7 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:526
-msgid "Download lxref:attachment$UC-Practice-2c-open-refine.csv[UC-Practice-2c-open-refine.csv,opts=download]. (?? KB)"
+msgid "Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (133 KB)"
 msgstr ""
 
 #. Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download].
@@ -1590,7 +1594,7 @@ msgstr "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:586
 #, no-wrap
-msgid "*Georeferencing\n"
+msgid "*Georeferencing*\n"
 msgstr ""
 
 #. type: Plain text
@@ -1614,17 +1618,23 @@ msgstr "*Canadensys coordinate conversion*: http://data.canadensys.net/tools/coo
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:591
 #, no-wrap
-msgid "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
-msgstr "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:592
-#, no-wrap
 msgid "*Google Maps*: https://maps.google.com/\n"
 msgstr "*Google Maps*: https://maps.google.com/\n"
 
-#. type: Title ==
+#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:593
+#, no-wrap
+msgid "*Dates*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:595
+#, no-wrap
+msgid "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
+msgstr "*Canadensys date parsing*: http://data.canadensys.net/tools/dates\n"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:596
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
@@ -1643,7 +1653,7 @@ msgid "Review"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:601
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
@@ -1659,12 +1669,12 @@ msgstr ""
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:609
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:612
 msgid "Why is it best to clean your data?"
 msgstr "為什麼最好要清理你的資料呢？"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:615
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:618
 #, no-wrap
 msgid "- [x] to make them as fit for use as possible\n"
 "- [x] to achieve your data quality goals\n"
@@ -1675,12 +1685,12 @@ msgstr "- [x] 讓它們盡可能的方便使用\n"
 
 #.  Question 2
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:618
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:621
 msgid "How should you organize your data cleaning workflow?"
 msgstr "如何建構自己資料清理的工作流呢？"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:624
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:627
 #, no-wrap
 msgid "- [ ] work alone, you know your data best\n"
 "- [x] ask your colleagues for expertise\n"
@@ -1691,12 +1701,12 @@ msgstr "- [ ] 自己工作，只有自己最了解資料集\n"
 
 #.  Question 3
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:627
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:630
 msgid "Which is best:"
 msgstr "下列何者是最好的："
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:633
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:636
 #, no-wrap
 msgid "- [x] prevent errors from occurring\n"
 "- [x] correct errors as soon as you find them in your database or spreadsheet\n"
@@ -1707,12 +1717,12 @@ msgstr "- [x] 預防錯誤發生\n"
 
 #.  Question 4
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:636
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:639
 msgid "Whose responsibility is data quality?"
 msgstr "資料品質是誰的責任？"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:645
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:648
 #, no-wrap
 msgid "- [ ] The person(s) who record data on the field\n"
 "- [ ] The data transcribers\n"
@@ -1729,12 +1739,12 @@ msgstr "- [ ] 記錄此筆資料的人\n"
 
 #.  Question 5
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:648
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:651
 msgid "Which tools can be used to clean your data ?"
 msgstr "下列哪些工具可以用來清理你的資料？"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:655
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:658
 #, no-wrap
 msgid "- [x] Excel & other spreadsheets management tools\n"
 "- [x] OpenRefine\n"
