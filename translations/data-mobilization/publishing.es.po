@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-04-21 23:06\n"
+"PO-Revision-Date: 2026-05-03 23:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -409,7 +409,7 @@ msgstr "Conceptos de publicación de datos"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:13
 msgid "In this presentation, you will learn about data publishing concepts and will receive an introduction to the Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT^])."
-msgstr ""
+msgstr "En esta presentación, conocerá los conceptos de publicación de datos y recibirá una introducción al Integrated Publishing Toolkit (https://www.gbif.org/ipt[IPT^])."
 
 #. type: delimited block +
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:21
@@ -417,487 +417,494 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQrNEQjUnffHH6eEYxLz8gq5v8PIhBd4mZ1Jxd0oHRPbbPM_HDppuDuJZ8hrn2Ung/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQrNEQjUnffHH6eEYxLz8gq5v8PIhBd4mZ1Jxd0oHRPbbPM_HDppuDuJZ8hrn2Ung/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:37
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:40
 #, no-wrap
 msgid "*Slide 1 - Data publishing concepts*\n"
-msgstr ""
+msgstr "*Diapositiva 1 - Conceptos de publicación de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:42
 msgid "In this presentation, we will introduce you to the concept of Data Publishing. We will also introduce you to GBIF’s Integrated Publishing Toolkit."
-msgstr ""
+msgstr "En esta presentación, lo introduciremos a el concepto de Publicación de Datos. También le presentaremos la Herramientas de Integrada de Publicación de GBIF (IPT)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:44
 msgid "Photo: Euphorbia royleana Boiss. Observed in Nepal by Yaling Lin http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Foto: Euphorbia royleana Boiss. Observado en Nepal por Yaling Lin http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:45
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:48
 #, no-wrap
 msgid "*Slide 2 - Sharing your data*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - Compartir tus datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:50
 msgid "At this point in the course, you have moved through all the sections of a mobilization project. Now you are ready to share your data. You’ve produced a cleaned and standardized dataset and you want to share and see that data on the GBIF data portal."
-msgstr ""
+msgstr "Llegados a este punto del curso, ya ha completado todas las secciones de un proyecto de movilización. Ahora está listo para compartir tus datos. Ha generado un conjunto de datos limpio y estandarizado, y desea compartirlo y visualizarlo en el portal de datos de GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:51
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
 #, no-wrap
 msgid "*Slide 3 - Data publishing*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - Publicación de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:62
 msgid "But there is more to it than simply handing over a spreadsheet or a text file to GBIF. You must publish the data.    Data publishing is the act of making biodiversity datasets publicly accessible, discoverable and as open as possible, in a standardized form (i.e. Darwin Core), via an access point. This access point is a URL – a web address.    Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the Integrated Publishing Toolkit, to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally they prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node or through an established thematic group like VertNet. Or, an another option, might be to make use of one of the GBIF regional IPTs.    If you are part of groups like Symbiota or the Living Atlases Communities, they have other means to assist you with publishing your data to GBIF."
-msgstr ""
+msgstr "Pero no se trata solo de entregar una hoja de cálculo o un archivo de texto a GBIF. Hay que publicar los datos.    La publicación de datos consiste en hacer que los conjuntos de datos de biodiversidad sean accesibles al público, localizables y lo más abiertos posible, en un formato estandarizado (por ejemplo, Darwin Core), a través de un punto de acceso. Este punto de acceso es una URL, una dirección web.    La mayoría de las organizaciones dentro de la Red GBIF, también conocidas como publicadoras, utilizan un IPT (Integrated Publishing Toolkit) para publicar sus datos. Estos publicadores pueden optar por alojar su propia instalación de un IPT, como el Museo Field, pero generalmente prefieren encontrar un proveedor adecuado para sus actividades de publicación de datos. Esto podría ser a través de un Nodo Participante GBIF establecido o a través de un grupo temático establecido como VertNet. Otra opción podría ser utilizar uno de los IPT regionales de GBIF.   Si formas parte de grupos como las Comunidades de Symbiota o  Living Atlases, disponen de otros medios para ayudarle a publicar sus datos en GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:63
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:66
 #, no-wrap
 msgid "*Slide 4 - Creative Commons waiver and licenses*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Exención de responsabilidad y licencias de Creative Commons*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:68
 msgid "The previous slide mentions the act of not only making the data accessible, but making it as open as possible."
-msgstr ""
+msgstr "La diapositiva anterior menciona el acto no solo de hacer que los datos sean accesibles, sino de hacerlos lo más abiertos posible."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:70
 msgid "In an effort to document the level of openness of a dataset, GBIF maintains, in keeping with a 2014 decision by the GBIF governing board, that all data published and registered for use in the GBIF portal, must be issued with one of three Creative Commons options:"
-msgstr ""
+msgstr "En un esfuerzo por documentar el nivel de apertura de un conjunto de datos, GBIF mantiene, de acuerdo con una decisión de 2014 del consejo de gobierno de GBIF, que todos los datos publicados y registrados para su uso en el portal de GBIF, deben ser emitidos con una de las tres opciones de Creative Commons:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
 msgid "CC0, a waiver for data made available for any use without any restrictions"
-msgstr ""
+msgstr "CC0, una exención para los datos disponibles para cualquier uso sin restricciones"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:73
 msgid "CC BY, a license for data made available for any use with appropriate attribution"
-msgstr ""
+msgstr "CC BY, una licencia para datos disponibles para cualquier uso con la atribución apropiada"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:74
 msgid "CC BY-NC, a license for data made available for any non-commercial use with appropriate attribution."
-msgstr ""
+msgstr "CC BY-NC, una licencia para datos disponibles para cualquier uso no comercial con la debida atribución."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:76
 msgid "INFORMATION: CC-BY-NC licences have a significant effect on the reusability of data."
-msgstr ""
+msgstr "INFORMACIÓN: Las licencias CC-BY-NC tienen un efecto significativo en la reutilización de los datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:78
 msgid "GBIF encourages data publishers to choose the most open option they can wherever possible."
-msgstr ""
+msgstr "GBIF anima a los editores de datos a elegir la opción más abierta posible siempre que sea posible."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:80
 msgid "Projects supported through GBIF-led funding must use either the CC0 or CC BY options."
-msgstr ""
+msgstr "Los proyectos financiados mediante fondos gestionados por GBIF deben utilizar las opciones CC0 o CC BY."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:81
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:84
 #, no-wrap
 msgid "*Slide 5 - Integrated Publishing Toolkit*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Integrated Publishing Toolkit*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:86
 msgid "The Integrated Publishing Toolkit (IPT) is a free, open-source software tool written in Java that is used to publish and share biodiversity datasets through the GBIF network. The first version of IPT was released in 2009. It was redesigned and rereleased in 2011. Since that time, the IPT has been updated continuously updated with new features, bug fixes and security improvements."
-msgstr ""
+msgstr "El Integrated Publishing Toolkit (IPT) es una herramienta de software libre y de código abierto escrita en Java que se utiliza para publicar y compartir conjuntos de datos de biodiversidad a través de la red GBIF. La primera versión de IPT se lanzó en 2009. Fue rediseñada y relanzada en 2011. Desde entonces, IPT se ha actualizado continuamente con nuevas funciones, correcciones de errores y mejoras de seguridad."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:88
 msgid "While the IPT is maintained at GBIF, the community of biodiversity informatics developers are able to contribute to its development."
-msgstr ""
+msgstr "Aunque el IPT es mantenido en GBIF, la comunidad de desarrolladores informáticos de biodiversidad puede contribuir a su desarrollo."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:90
 msgid "Some of the features include:"
-msgstr ""
+msgstr "Algunas de las características incluyen:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:92
 msgid "Main (but not only) publishing tool for GBIF."
-msgstr ""
+msgstr "Principal (pero no única) herramienta de publicación de GBIF."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:93
 msgid "One IPT can host many datasets, on behalf of several institutions, each clearly represented"
-msgstr ""
+msgstr "Un IPT puede albergar muchos conjuntos de datos, en nombre de varias instituciones, cada una de ellas claramente representada"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:94
 msgid "Test mode and production mode"
-msgstr ""
+msgstr "Modo de prueba y modo de producción"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:95
 msgid "Multilingual – it has been translated into 7 languages."
-msgstr ""
+msgstr "Multilingüe: se ha traducido a 7 idiomas."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:97
 msgid "It is a server-side software, so it needs a stable connection and requires technical administration. This is why many institutions choose to publish their data on hosted IPTs."
-msgstr ""
+msgstr "Es un software de servidor, por lo que necesita una conexión estable y requiere administración técnica. Por eso muchas instituciones optan por publicar sus datos en IPT alojados."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:99
 msgid "You can find more information on data hosting on the GBIF website."
-msgstr ""
+msgstr "Encontrará más información sobre el alojamiento de datos en la página web de GBIF."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:101
 msgid "For the remainder of our course, we’ll be demonstrating and completing exercises using the IPT."
-msgstr ""
+msgstr "Durante el resto de nuestro curso, demostraremos y completaremos ejercicios usando el IPT."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:102
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:105
 #, no-wrap
 msgid "*Slide 6 - Choosing a publishing core*\n"
-msgstr ""
+msgstr "*Diapositiva 6 - Elección de un núcleo de publicación*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:112
 msgid "We’re now putting together what you learned in the first two presentations in the Data Capture section on Standards and Darwin Core and Data Types.    At its heart, the IPT is based on Darwin Core and the Darwin Core text guide and its recommendations for sharing data in a Darwin Core Archive. The Darwin Core contains three distinct data cores which match up to three of the dataset types that GBIF accepts.    Keep in mind:  "
-msgstr ""
+msgstr "Ahora estamos recopilando lo que aprendiste en las dos primeras presentaciones de la sección Captura de datos sobre estándares, Darwin Core y tipos de datos.   En esencia, el IPT se basa en Darwin Core y su guía de texto, así como en sus recomendaciones para compartir datos en un archivo Darwin Core. Darwin Core contiene tres núcleos de datos distintos que se corresponden con hasta tres de los tipos de conjuntos de datos que acepta GBIF.   Tener en mente:  "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:113
 msgid "Each dataset has one and only one Core file"
-msgstr ""
+msgstr "Cada conjunto de datos tiene uno y sólo un archivo Núcleo (core)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:114
 msgid "Each Core file corresponds to a dataset type: occurrence, checklist or sampling event."
-msgstr ""
+msgstr "Cada archivo del Núcleo (core) corresponde a un tipo de conjunto de datos: registro biológico, listado taxonómico o evento de muestreo."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:115
 msgid "Each dataset can have one or more extensions file"
-msgstr ""
+msgstr "Cada conjunto de datos puede tener uno o más archivos de extensiones"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:116
 msgid "The aim of an extension is to add new data fields not present in the core."
-msgstr ""
+msgstr "El objetivo de una extensión es añadir nuevos campos de datos no presentes en el núcleo (core)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:117
 msgid "Each entry in the core file is linked to zero, one or several rows in an extension file."
-msgstr ""
+msgstr "Cada entrada del archivo núcleo (core) está vinculada a cero, una o varias filas de un archivo de extensión."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:118
 msgid "Each row in an extension file reference one and only one row in the core file."
-msgstr ""
+msgstr "Cada fila de un archivo de extensión hace referencia a una y sólo una fila del archivo núcleo (core)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:120
 msgid "Some examples:"
-msgstr ""
+msgstr "Algunos ejemplos:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:122
 msgid "Core is Occurrence, no extensions"
-msgstr ""
+msgstr "El Núcleo (core) es Registro Biológico (Occurrence), no hay extensiones"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:123
 msgid "Core is Occurrence, with “multimedia” extension"
-msgstr ""
+msgstr "El Núcleo (core) es Registro Biológico (Occurrence), con la extensión \"multimedia\""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:124
 msgid "Core is Occurrence, with simple multimedia and measurementorfact extensions"
-msgstr ""
+msgstr "El Núcleo (core) es Registro Biológico (Occurrence), con extensiones multimedia sencillas y las extensiones de medición o hechos (measurementorfact)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:125
 msgid "Core is Taxon, no extensions"
-msgstr ""
+msgstr "El Núcleo (core) es Listado de Especies (Taxon), no hay extensiones"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:126
 msgid "Core is Taxon, with species distribution extension"
-msgstr ""
+msgstr "El Núcleo (core) es Listado de Especies (Taxon), con la extensión de distribución de especies"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:127
 msgid "Core is Event with occurrence and measurementorfact extensions"
-msgstr ""
+msgstr "El Núcleo (core) es Evento de Muestreo (Event) con la extensión de Medición o hechos (measurementorfact)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:129
 msgid "Photo: Pieris formosa (Wall.) D.Don Observed in Nepal by Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0]"
-msgstr ""
+msgstr "Foto: Pieris formosa (Wall.) D.Don Observado en Nepal por Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:130
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:133
 #, no-wrap
 msgid "*Slide 7 - Occurrence Core*\n"
-msgstr ""
+msgstr "*Diapositiva 7 - Núcleo de Registro Biológico*"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:135
 msgid "The first core is the Occurrence Core. As a reminder, an occurrence dataset contains one individual or one group of individuals. Each row has a unique identifier, an occurrenceID. Other fields for occurrence data include where, when, how and by whom was each occurrence observed and/or collected in the field."
-msgstr ""
+msgstr "El primer Núcleo (core) es el Núcleo de Registro Biológico (Occurrence Core). Como recordatorio, es el conjunto de datos de sucesos contiene un individuo o un grupo de individuos. Cada fila tiene un identificador único, un occurrenceID. Otros campos para los datos de registro biológico incluyen dónde, cuándo, cómo y por quién se observó y / o recopiló cada registro en el campo."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:136
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:139
 #, no-wrap
 msgid "*Slide 8 - Taxon Core*\n"
-msgstr ""
+msgstr "*Diapositiva 8 - Núcleo de Taxon*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:141
 msgid "The next option is the Taxon core. As a reminder, a checklist dataset contains taxonomic concepts, not individuals. It is a “A catalogue or list of named organisms, or taxa.” Each row will have a taxonID. Each taxon must be unique."
-msgstr ""
+msgstr "La siguiente opción es el núcleo (core) Listado de Especies (Taxon). Como recordatorio, un conjunto de datos de listadp de especies contiene conceptos taxonómicos, no individuos.\n"
+"Es un \"catálogo o lista de organismos o taxones con nombre\". Cada fila tendrá un taxonID.\n"
+"Cada taxón debe ser único."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:142
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:145
 #, no-wrap
 msgid "*Slide 9 - Event Core*\n"
-msgstr ""
+msgstr "*Diapositiva 9 - Datos de Evento de Muestreo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:147
 msgid "The last option is the Event core. As a reminder, sampling event datasets allow data publishers to provide greater detail, not only offering evidence that a species occurred at a given location and date, but also making it possible to assess community composition for broader taxonomic groups or even the abundance of species at multiple times and places. By indicating the methods, events and relative abundance of species recorded in a sample, these datasets improve comparisons with data collected using the same protocols at different times and places—in some cases, even leading researchers to infer the absence of particular species from particular sites."
-msgstr ""
+msgstr "La última opción es el núcleo (core) del Evento de muestro (Event). Como recordatorio, los conjuntos de datos de eventos de muestreo permiten a los publicadores de datos proporcionar más detalles, no solo ofreciendo evidencia de que una especie ocurrió en un lugar y fecha determinados, sino también haciendo posible evaluar la composición de la comunidad para grupos taxonómicos más amplios o incluso la abundancia de especies en múltiples tiempos y lugares. Al indicar los métodos, los eventos y la abundancia relativa de especies registradas en una muestra, estos conjuntos de datos mejoran las comparaciones con los datos recopilados utilizando los mismos protocolos en diferentes momentos y lugares; en algunos casos, incluso llevan a los investigadores a inferir la ausencia de especies particulares en sitios particulares."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:149
 msgid "Each row will have an EventID. Each event must be unique."
-msgstr ""
+msgstr "Cada fila tendrá un EventID. Cada evento debe ser único."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:150
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:153
 #, no-wrap
 msgid "*Slide 10 - Data quality requirement*\n"
-msgstr ""
+msgstr "*Diapositiva 10 - Requisitos de calidad de los datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:155
 msgid "This is a good point to review all of the fields required by GBIF. If required fields are not supplied, GBIF will have difficult indexing your dataset."
-msgstr ""
+msgstr "Este es un buen punto para revisar todos los campos requeridos por GBIF. Si no se proporcionan los campos obligatorios, GBIF tendrá dificultades para indexar su conjunto de datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:157
 msgid "Each core has its own set of required and recommended fields for the dataset and for the associated dataset metadata. As you now know, metadata is the data about your data and it enables users to know if your dataset will be fit for their use."
-msgstr ""
+msgstr "Cada núcleo (core) tiene su propio conjunto de campos obligatorios y recomendados para el conjunto de datos y para los metadatos del conjunto de datos asociados. Como ya sabe, los metadatos son los datos sobre sus datos y permiten a los usuarios saber si su conjunto de datos será apto para su uso."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:159
 msgid "Don’t stop at the required and recommended fields. The more data you are able to share, the more useful your dataset can be to end users."
-msgstr ""
+msgstr "No se detenga en los campos requeridos y recomendados. Cuantos más datos pueda compartir, más útil puede ser su conjunto de datos para los usuarios finales."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:161
 msgid "You can find the data quality requirments on the GBIF website."
-msgstr ""
+msgstr "Encontrará los requisitos de calidad de los datos en la página web de GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:162
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:165
 #, no-wrap
 msgid "*Slide 11 - Extensions in the IPT*\n"
-msgstr ""
+msgstr "*Diapositiva 11 - Extensiones en el IPT*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:167
 msgid "Extensions were introduced in the Standards presentation. Publishing a dataset is now where you will put them into use. As mentioned previously, GBIF maintains the list of approved and draft extensions on its tools subsite. The approved extensions can be enabled by an IPT administrator on a Production IPT. Draft extensions can be enabled by an IPT administrator on a Test IPT. If you know you have data that cannot be shared with Simple Darwin Core, it is worth reviewing the list of available extensions."
-msgstr ""
+msgstr "Se presentaron las extensiones en la presentación de Estándares. La publicación de un conjunto de datos es ahora donde los pondrá en uso. Como se mencionó anteriormente, GBIF mantiene la lista de extensiones aprobadas y en borrador en su subsitio de herramientas.\n"
+"Un administrador de IPT puede habilitar las extensiones aprobadas en un IPT de producción.\n"
+"Un administrador de IPT puede habilitar las extensiones de borrador en una IPT de prueba.\n"
+"Si conoce que tiene datos que no se pueden compartir con Simple Darwin Core, vale la pena revisar la lista de extensiones disponibles.\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:169
 msgid "If you think an extension doesn’t exist, try reaching out to members of the TDWG community or posting on the Darwin Core issues site. Community members will help guide you."
-msgstr ""
+msgstr "Si cree que no existe una extensión, intente comunicarse con miembros de la comunidad TDWG o publique en el sitio de asuntos de Darwin Core. Los miembros de la comunidad lo guiarán."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:170
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:173
 #, no-wrap
 msgid "*Slide 12 - Darwin Core Archive with extensions*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Archivo Darwin Core con extensiones*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:175
 msgid "Also, in the standards presentation, you were introduced to Darwin Core Archives."
-msgstr ""
+msgstr "Además, en la presentación de las normas, se le presentaron los Archivos Darwin Core."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:177
 msgid "This is an example of a Darwin Core archive with extensions."
-msgstr ""
+msgstr "Este es un ejemplo de un Archivo de Darwin Core con extensiones."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:179
 msgid "It’s an occurrence dataset that has been published with images, determination history and genebank information."
-msgstr ""
+msgstr "Es un conjunto de datos de registros biológicos que ha sido publicado con imágenes, historial de determinación e información sobre GenBank."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:180
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:183
 #, no-wrap
 msgid "*Slide 13 - A core and extension relationship*\n"
-msgstr ""
+msgstr "*Diapositiva 13 - Una relación entre núcleo y extensión*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:185
 msgid "Until now, it may have been difficult to imagine how two single files can be related. A core with an extension can represent the following relationships."
-msgstr ""
+msgstr "Hasta ahora, puede que haya sido difícil imaginar cómo se pueden relacionar dos archivos individuales. Un núcleo (core) con una extensión puede representar las siguientes relaciones."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:187
 msgid "1:0"
-msgstr ""
+msgstr "1:0"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:188
 msgid "1:1"
-msgstr ""
+msgstr "1:1"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:189
 msgid "1:many"
-msgstr ""
+msgstr "1:muchos"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:191
 msgid "The core file will always contain unique records. In this example using the Taxon Core, each taxon is unique and is represented by a taxonID. In Vernacular Names extension file, each vernacular name is unique. The first three represent common names for the species Struthio camelus (1:many relationship). The fourth name represents the common name for the species Alectoris chukar (1:1 relationship)."
-msgstr ""
+msgstr "El núcleo (core) siempre contendrá registros únicos. En este ejemplo que utiliza Núcleo de Lista de Especies (Taxon Core), cada taxón es único y está representado por un taxonID. En el archivo de extensión de nombres vernáculos, cada nombre vernáculo es único. Los tres primeros representan nombres comunes para la especie Struthio camelus (relación 1: muchos). El cuarto nombre representa el nombre común de la especie Alectoris chukar (relación 1: 1)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:193
 msgid "In this example the third and fourth taxons in the core file, do not have a match in the extension file. (1:0 relationship)."
-msgstr ""
+msgstr "En este ejemplo, los taxones tercero y cuarto del archivo núcleo (core) no coinciden en el fichero de extensión. (relación 1:0)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:194
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:197
 #, no-wrap
 msgid "*Slide 14 - Registering as a data publisher with GBIF*\n"
-msgstr ""
+msgstr "*Diapositiva 14 - Registro como publicador de datos en GBIF*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:199
 msgid "As we finish up this presentation, we’d like like to discuss registering as a data publisher at GBIF.  The steps for registering were covered in the https://training.gbif.org/en/intro-to-gbif/data-publishing#how-to-become-a-data-publisher[Introduction to GBIF course^]."
-msgstr ""
+msgstr "Para terminar esta presentación, nos gustaría hablar del registro como publicador de datos en GBIF.  Los pasos para registrarse fueron cubiertos en el curso https://training.gbif.org/en/intro-to-gbif/data-publishing#how-to-become-a-data-publisher[Introducción a GBIF^]."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:201
 msgid "Data holding institutions are listed as the data publisher when their data is shared with GBIF.  This allows users to properly provide credit and attribution for the data/datasets that they intend to use for research. And once users begin to site the dataset, the publishers page on GBIF.org will link back to literature citing the dataset."
-msgstr ""
+msgstr "Las instituciones poseedoras de datos son listadas como publicadoras de datos cuando sus datos son compartidos con GBIF.  Esto permite a los usuarios dar crédito y atribución a los datos/conjuntos de datos que pretenden utilizar para la investigación. Y una vez que los usuarios comiencen a utilizar el conjunto de datos, la página de publicadores en GBIF.org enlazará con la literatura que cite el conjunto de datos."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:202
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:205
 #, no-wrap
 msgid "*Slide 15 - Aims of the publisher endorsement process*\n"
-msgstr ""
+msgstr "*Diapositiva 15 - Objetivos del proceso de endoso de los publicación*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:207
 msgid "Before GBIF indexes a new publisher's datasets, the institution must receive endorsement as a data publisher from one of the Participant nodes that coordinate activities of the national and organizational Participants in the GBIF network. If your country is not yet a participant, GBIF will coordinate the endorsement request through the GBIF Nodes Steering Group (NSG)."
-msgstr ""
+msgstr "Antes de que GBIF indexe los conjuntos de datos, la institución debe  recibir apoyo como publicadora de datos  de uno de los nodos Participantes que coordine las actividades de los participantes  nacionales y organizacionales de la red GBIF. Si su país aún no participa, GBIF coordinará la solicitud de aprobación a través del  Grupo Directivo de Nodos de GBIF  (NSG)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:209
 msgid "It is important to complete this step early in the publishing process as it could take up to a month for your publisher record to be endorsed by a Participant Node or the Nodes Steering Group."
-msgstr ""
+msgstr "Es importante realizar este paso en una fase temprana del proceso de publicación, ya que el endoso del publicador puede tardar hasta un mes en ser aprobado por un nodo participante o por el Grupo Director de Nodos (NSG)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:211
@@ -914,7 +921,7 @@ msgstr "Los datos publicados son relevantes para el alcance y los objetivos de G
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
 msgid "Arrangements for data hosting are stable and persistent"
-msgstr ""
+msgstr "Los acuerdos para el alojamiento de datos son estables y persistentes"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:215
@@ -925,7 +932,7 @@ msgstr "La publicación y el uso de datos están respaldados por un fuerte compr
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:216
 msgid "Data are as open as possible and available for sharing and reuse"
-msgstr ""
+msgstr "Los datos son lo más abiertos posible y están disponibles para ser compartidos y reutilizados"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:217
@@ -936,40 +943,40 @@ msgstr "Los editores de datos pueden responder a comentarios y mejorar la calida
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:219
 msgid "Once a publisher receives endorsement, they can begin registering their published datasets with GBIF.  You’ll hear more about this during the IPT demonstration."
-msgstr ""
+msgstr "Una vez que un publicador recibe el endoso, puede comenzar a registrar sus conjuntos de datos publicados en GBIF.  Tendrá más información al respecto durante la demostración del IPT."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:220
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:223
 #, no-wrap
 msgid "*Slide 16 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositiva 16 - Conclusión*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:227
 msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sophie Pamerlon with additional contributions by Nicolas Noe, Laura Anne Russell and Dag Endresen, BID and BIFA Trainers, Mentors and students."
-msgstr ""
+msgstr "Este vídeo forma parte de una serie de presentaciones utilizadas en el curso de Movilización de Datos de Biodiversidad de GBIF. El programa de estudios de movilización de datos de biodiversidad se desarrolló originalmente como parte del Programa de Desarrollo de Información sobre Biodiversidad, financiado por la Unión Europea.    Esta presentación fue creada originalmente por Sophie Pamerlon, con contribuciones adicionales de Nicolas Noe, Laura Anne Russell y Dag Endresen, entrenadores, mentores y participantes de BID y BIFA."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:231
 #, no-wrap
 msgid "IPT overview and demonstration"
-msgstr ""
+msgstr "Presentación y demostración de IPT"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
 msgid "During this demonstration, you will receive an overview of the IPT data publishing interface and you will learn how to publish an occurrence dataset using an IPT."
-msgstr ""
+msgstr "Durante esta demostración, recibirá una visión general de la interfaz de publicación de datos IPT y aprenderá a publicar un conjunto de datos de sucesos utilizando un IPT."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:239
 msgid "A live demonstration will be provided. Visit the https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] for full documentation."
-msgstr ""
+msgstr "Se realizará una demostración en directo. Visite https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] para consultar la documentación completa."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:240
@@ -987,7 +994,7 @@ msgstr "Ejercicio 3"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:245
 msgid "In this exercise, you will publish an event dataset using the IPT."
-msgstr ""
+msgstr "En este ejercicio, publicará un conjunto de datos de eventos utilizando el IPT."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:248
@@ -1004,12 +1011,12 @@ msgstr "*Publicación de datos*\n"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250
 msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. You have been requested to lead that publishing work."
-msgstr ""
+msgstr "Tras limpiar los datos del conjunto de datos, el equipo considera que publicarlos en línea a través de GBIF podría ser una buena manera de dar visibilidad a este trabajo. Se le ha solicitado que lidere dicha publicación."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:252
 msgid "Download xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (57 KB)"
-msgstr ""
+msgstr "Descargar xref:attachment$UC-IS-3-ForPublication.xlsx[UC-IS-3-ForPublication.xlsx,opts=download]. (57 KB)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:253
@@ -1019,22 +1026,22 @@ msgstr "Utilice la instalación IPT asignada y publique este archivo."
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
 msgid "https://training-ipt-a.gbif.org/ \t"
-msgstr ""
+msgstr "https://training-ipt-a.gbif.org/ \t"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 msgid "https://training-ipt-b.gbif.org/\t"
-msgstr ""
+msgstr "https://training-ipt-b.gbif.org/\t"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:258
 msgid "https://training-ipt-c.gbif.org/\t"
-msgstr ""
+msgstr "https://training-ipt-c.gbif.org/\t"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:260
 msgid "You might want to export each tab in the spreadsheet to csv (three resulting csv files) for upload into the IPT. Alternatively, if you stay with Excel, you will need to upload the Excel file three times into the IPT (once for each tab in the spreadsheet)."
-msgstr ""
+msgstr "Es posible que desee exportar cada pestaña de la hoja de cálculo a csv (tres archivos csv resultantes) para cargarlos en el IPT. Alternativamente, si sigue utilizando Excel, tendrá que cargar el archivo Excel tres veces en el IPT (una vez por cada pestaña de la hoja de cálculo)."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
