@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-21 20:28+0000\n"
-"PO-Revision-Date: 2026-04-21 20:33\n"
+"POT-Creation-Date: 2026-04-21 21:56+0000\n"
+"PO-Revision-Date: 2026-05-03 15:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -27,17 +27,17 @@ msgstr "Captura de datos"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:6
 msgid "In this module, you will learn about the concept of standards, in particular, the Darwin Core Standard and its components."
-msgstr ""
+msgstr "En este módulo, aprenderá sobre el concepto de estándares, en particular, el Estándar Darwin Core y sus componentes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:8
 msgid "You will also learn the types of primary biodiversity data and how to best share that information within GBIF."
-msgstr ""
+msgstr "También aprenderá los tipos de datos primarios sobre biodiversidad y la mejor manera de compartir esa información dentro de GBIF."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:10
 msgid "Lastly, you will review principles of data quality in the context of data capture and will learn about data quality and coherence (especially on subjects such as georeferencing, dates, names and taxa cross-checking)."
-msgstr ""
+msgstr "Por último, revisará los principios de calidad de los datos en el contexto de la captura de datos y aprenderá sobre la calidad y la coherencia de los datos (especialmente en temas como la georreferenciación, las fechas, los nombres y la verificación cruzada de taxones)."
 
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:12
@@ -49,7 +49,7 @@ msgstr "Estándares y Darwin Core"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:18
 msgid "In this presentation, you will learn how you interact with standards every day.  Then you will be introduced to https://www.tdwg.org/[Biodiversity Information Standards^], including the https://www.tdwg.org/standards/dwc/[Darwin Core Standard^] with which you will continue to use throughout this course."
-msgstr ""
+msgstr "En esta presentación, aprenderá cómo interactúa con los estándares a diario. A continuación, se le presentarán los Estándares de Información sobre Biodiversidad (https://www.tdwg.org/standards/dwc/[Estándar Darwin Core]), que seguirá utilizando a lo largo de este curso."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
@@ -312,7 +312,9 @@ msgstr "&nbsp;"
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR-OvbcnThBLQMjMtHxm7ECmrPTierNDuuRd_8qnfqClA6XCcPOeK2121l0xoTpIA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR-OvbcnThBLQMjMtHxm7ECmrPTierNDuuRd_8qnfqClA6XCcPOeK2121l0xoTpIA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
@@ -377,62 +379,62 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:42
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:45
 #, no-wrap
 msgid "*Slide 1 - Standards and Darwin Core*\n"
-msgstr ""
+msgstr "*Diapositiva 1 - Estándares y el Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:47
 msgid "In this presentation, we will introduce you to data standards as they relate to biodiversity data. In particular, we will focus on the Darwin Core standard."
-msgstr ""
+msgstr "En esta presentación, les presentaremos los estándares de datos relacionados con la biodiversidad. En particular, nos centraremos en el estándar Darwin Core."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:48
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:51
 #, no-wrap
 msgid "*Slide 2 - Standards: Let's agree to agree*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - Estándares: Pongámonos de acuerdo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:53
 msgid "The engineer and industrialist W. Edwards Deming said:"
-msgstr ""
+msgstr "El ingeniero e industrial W. Edwards Deming dijo:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:55
 msgid "“Standardisation does not mean that we all wear the same colour and weave of cloth, eat standard sandwiches, or live in standard rooms with standard furnishing. Homes of infinite variety of design are built with a few types of bricks, and with lumber of standard sizes, and with water and heating pipes and fitting of standard dimensions.”"
-msgstr ""
+msgstr "“La estandarización no significa que todos vistamos ropa del mismo color y tipo, comamos sándwiches estándar o vivamos en habitaciones estándar con muebles estándar. Las casas, con una infinita variedad de diseños, se construyen con unos pocos tipos de ladrillos, con madera de tamaños estándar y con tuberías y accesorios de agua y calefacción de dimensiones estándar.”"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
 msgid "What he was trying to say is that using standardization does not prevent us from being creative. He was also showing us that we already live with standards all around us."
-msgstr ""
+msgstr "Lo que intentaba decir es que el uso de la estandarización no nos impide ser creativos. También nos estaba mostrando que ya vivimos rodeados de estándares."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:59
 msgid "As we move forward, we will define the term “Standard” and we’ll look at how we interact with standards every day. We will then introduce you to biodiversity information standards, including the Darwin Core Standard with which you will continue to use throughout this course."
-msgstr ""
+msgstr "A medida que avancemos, definiremos el término «estándar» y analizaremos cómo interactuamos con los estándares a diario. Posteriormente, les presentaremos los estándares de información sobre biodiversidad, incluido el Estándar Darwin Core, que seguirán utilizando a lo largo de este curso."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:60
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:63
 #, no-wrap
 msgid "*Slide 3 - What is a standard?*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - ¿Qué es un estándar?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:65
@@ -1619,7 +1621,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:603
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
