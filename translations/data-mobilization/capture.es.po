@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-03 18:29\n"
+"PO-Revision-Date: 2026-05-03 19:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1177,284 +1177,284 @@ msgstr "*Diapositiva 1 - Tipos de datos de GBIF para datos primarios sobre biodi
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:414
 msgid "In this presentation, we’ll have a look at the different types of data that can be called ‘primary biodiversity data’ and shared within GBIF. These data can be complex and have different origins ; we’ll see how they can be structured into one of the three data classes accepted by GBIF, based on the Darwin Core data sharing standard that is used within the GBIF community."
-msgstr ""
+msgstr "En esta presentación, veremos los diferentes tipos de datos que pueden denominarse \"datos primarios de biodiversidad\" y compartirse dentro de GBIF. Estos datos pueden ser complejos y tener diferentes orígenes; veremos cómo se pueden estructurar en una de las tres clases de datos aceptadas por GBIF, según el estándar de intercambio de datos Darwin Core que se utiliza en la comunidad de GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:415
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:418
 #, no-wrap
 msgid "*Slide 2 - Data richness levels supported by GBIF*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - Niveles de riqueza de datos soportados por GBIF*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:420
 msgid "GBIF currently supports four types of dataset:"
-msgstr ""
+msgstr "GBIF admite actualmente cuatro tipos de conjuntos de datos:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:422
 msgid "The first is dataset metadata – this is a dataset that allows you to provide descriptive information about a dataset.  You may use this type when you have not yet digitized your collection."
-msgstr ""
+msgstr "El primero son los metadatos de conjunto de datos, que permiten proporcionar información descriptiva sobre un conjunto de datos.  Puede utilizar este tipo cuando aún no haya digitalizado su colección."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:424
 msgid "The second type are species checklists. This allows you to share information on species including the countries and areas where they are found."
-msgstr ""
+msgstr "El segundo tipo son las listas de especies. Permiten compartir información sobre especies, incluidos los países y zonas donde se encuentran."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:426
 msgid "The third type is for occurrence-only data.  This is data for species that includes names, dates and coordinates – the what, when and where of your data."
-msgstr ""
+msgstr "El tercer tipo se refiere a los datos de presencia.  Se trata de datos de especies que incluyen nombres, fechas y coordenadas: el qué, el cuándo y el dónde de los datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:428
 msgid "The last type is Sampling-event data. This allows you to share even more data. You can share species with dates, coordinates, methods, abundance and even absence."
-msgstr ""
+msgstr "El último tipo son los datos de eventos de muestreo. Esto le permite compartir aún más datos. Puede compartir especies con fechas, coordenadas, métodos, abundancia e incluso ausencia."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:429
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:432
 #, no-wrap
 msgid "*Slide 3 - Checklists and taxonomical resources*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - Listados y recursos taxonómicos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:434
 msgid "The first type of dataset that can be published within GBIF is the checklist, aka a list of species or higher taxa. In a checklist, the main unit is the taxon, not the occurrence (individual)."
-msgstr ""
+msgstr "El primer tipo de conjunto de datos que se puede publicar dentro de GBIF es la lista de especies, o de taxones superiores. En una lista de especies, la unidad principal es el taxón, no el registro biológico (individuo)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:435
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:438
 #, no-wrap
 msgid "*Slide 4 - Checklists and other taxonomical resources*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Listados y otros recursos taxonómicos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:440
 msgid "Checklists, and more generally, taxonomical datasets can vary in scope:"
-msgstr ""
+msgstr "Listados de especies, y más generalmente, los conjuntos de datos taxonómicos pueden variar en el alcance:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:444
 msgid "a list of species present in a protected area is a checklist, a national or thematic list of taxa (e.g. Butterflies of Laos, or the Flora of Malaysia), which sometimes provide more info on the distribution, taxonomical hierarchy and synonyms of the taxa is a checklist.  IUCN red lists (at the international, national or regional levels) also are checklists and can give more information about the vulnerability status of the listed taxa."
-msgstr ""
+msgstr "una lista de especies presentes en un área protegida se denomina listado taxonómico (checklist), una lista nacional o temática de taxones (por ejemplo, Mariposas de Laos o Flora de Malasia), que a veces proporciona más información sobre la distribución, la jerarquía taxonómica y los sinónimos de los taxones, también se denomina listado taxonómico (checklist). Las listas rojas de la UICN (a nivel internacional, nacional o regional) también son listados taxonómicos (checklist) y pueden brindar más información sobre el estado de vulnerabilidad de los taxones incluidos."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:445
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:448
 #, no-wrap
 msgid "*Slide 5 - GBIF template for taxon data*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Plantilla GBIF para datos de taxones*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:450
 msgid "GBIF provides data publishers with templates for each class of dataset. The GBIF template for checklists (taxon Data) allows you to share information linked to each species or taxa : its id, full name and authorship, relationship to other taxa, geographical details and so on. In this template, one line represents one taxon and a taxon can only appear once in the dataset (otherwise it will create a duplicate)."
-msgstr ""
+msgstr "GBIF proporciona a los editores de datos plantillas para cada tipo de conjunto de datos. La plantilla de GBIF para listados taxonómicos (datos de taxones) permite compartir información vinculada a cada especie o taxón: su identificador, nombre completo y autoría, relación con otros taxones, detalles geográficos, etc. En esta plantilla, una línea representa un taxón y este solo puede aparecer una vez en el conjunto de datos (de lo contrario, se creará un duplicado)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:451
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:454
 #, no-wrap
 msgid "*Slide 6 - Specimens and natural history collections materials*\n"
-msgstr ""
+msgstr "*Diapositiva 6 - Especímenes y materiales de colecciones de historia natural*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:456
 msgid "the second type of data that can be published within GBIF is data coming from natural history or scientific collections, also known as specimens. Unlike checklists, the main unit in a specimen collection will be the specimen (a single organism or group of organisms), and you can have multiple specimens from the same species or taxon group."
-msgstr ""
+msgstr "el segundo tipo de datos que se pueden publicar en GBIF son los procedentes de colecciones científicas o de historia natural, también conocidos como especímenes. A diferencia de las listados taxonómicos, la unidad principal en una colección de especímenes es el espécimen (un organismo o grupo de organismos), y se pueden tener varios especímenes de la misma especie o grupo taxonómico."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:457
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:460
 #, no-wrap
 msgid "*Slide 7 - Specimens and collections materials*\n"
-msgstr ""
+msgstr "*Diapositiva 7 - Especímenes y materiales de colección*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:462
 msgid "collections and specimens vastly differ in numbers, size and preservation methods. However, any kind of collection that holds preserved living organisms can be captured and shared within GBIF ; herbarium or zoological collections (including fossils) for example, but geology or human artifacts collections do not fall under the GBIF scope."
-msgstr ""
+msgstr "las colecciones y los especímenes varían enormemente en cantidad, tamaño y métodos de conservación. Sin embargo, cualquier tipo de colección que contenga organismos vivos conservados puede ser catalogada y compartida dentro de GBIF; por ejemplo, las colecciones de herbario o zoológicas (incluidos los fósiles), pero las colecciones de geología o de artefactos humanos no entran dentro del ámbito de GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:463
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:466
 #, no-wrap
 msgid "*Slide 8 - Literature*\n"
-msgstr ""
+msgstr "*Diapositiva 8 - Literatura*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:468
 #, no-wrap
 msgid " Biodiversity data can also be found in technical and scientific literature : it is possible to compile and share this kind of data within GBIF, but you should be extra-cautious not to share duplicate data (for example, a specimen described in a scientific article might already be present on GBIF.org in the dataset of its collection).\n"
-msgstr ""
+msgstr " Los datos sobre biodiversidad también pueden encontrarse en la literatura técnica y científica: es posible recopilar y compartir este tipo de datos dentro de GBIF, pero se debe tener especial cuidado de no compartir datos duplicados (por ejemplo, un espécimen descrito en un artículo científico podría estar ya presente en GBIF.org en el conjunto de datos de su colección).\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:469
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:472
 #, no-wrap
 msgid "*Slide 9 - Examples of literature documents*\n"
-msgstr ""
+msgstr "*Diapositiva 9 - Ejemplos de documentos literarios*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:474
 msgid "In the absence of digitized datasets, biodiversity data can be extracted and compiled from scientific articles, phD or master theses, reports and other documents. ALWAYS contact the data owner first when compiling literature data to ask for permission to publish them to GBIF."
-msgstr ""
+msgstr "En ausencia de conjuntos de datos digitalizados, los datos de biodiversidad pueden extraerse y recopilarse de artículos científicos, tesis doctorales o de maestría, informes y otros documentos. SIEMPRE contacte primero con el propietario de los datos al recopilar información bibliográfica para solicitar permiso para publicarla en GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:475
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:478
 #, no-wrap
 msgid "*Slide 10 - Fieldwork records and notes*\n"
-msgstr ""
+msgstr "*Diapositiva 10 - Registros y notas del trabajo de campo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:480
 msgid "A large majority of the data available on GBIF.org now comes from fieldwork records. These data can be observed and/or collected using different protocols in the field, by scientists, naturalists or amateur citizen-scientists via programmes and apps."
-msgstr ""
+msgstr "La gran mayoría de los datos disponibles en GBIF.org provienen de registros de trabajo de campo. Estos datos pueden ser observados y/o recopilados mediante diferentes protocolos en el terreno, por científicos, naturalistas o científicos aficionados a través de programas y aplicaciones."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:481
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:484
 #, no-wrap
 msgid "*Slide 11 - Fieldwork records and notes*\n"
-msgstr ""
+msgstr "*Diapositiva 11 - Registros y notas del trabajo de campo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:486
 #, no-wrap
 msgid " These field data can be compiled in survey reports, environmental impact assessment studies, field notes and other logs. They can be linked to other types of data, such as checklists, which are complementary to occurrence data observed or collected in the wilderness.\n"
-msgstr ""
+msgstr " Estos datos de campo pueden recopilarse en informes de monitoreos, estudios de evaluación de impacto ambiental, notas de campo y otros registros. Pueden vincularse con otros tipos de datos, como listados taxonómicos, que complementan los datos biológicos observados o recopilados en áreas silvestres.\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:487
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:490
 #, no-wrap
 msgid "*Slide 12 - GBIF template for occurrence data*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Plantilla GBIF para datos de registros biológicos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:492
 msgid "Occurrence data represents the GBIF class of datasets with the largest number of records on GBIF.org. Collection (aka specimens), literature and fieldwork data can be shared within GBIF using this template, which focuses on the observed individual or collected specimen. In this kind of dataset, multiple individuals or specimens can be recorded for a single taxon, as long as they each have a unique identifier. Other fields for occurrence data include where, when, how and by whom was each occurrence observed and/or collected in the field."
-msgstr ""
+msgstr "Los datos de registros biológicos representan la clase de conjuntos de datos de GBIF con el mayor número de registros en GBIF.org. Los datos de recolección (también conocidos como especímenes), literatura y trabajo de campo se pueden compartir dentro de GBIF utilizando esta plantilla, que se centra en el individuo observado o el espécimen recolectado. En este tipo de conjunto de datos, se pueden registrar varios individuos o especímenes para un mismo taxón, siempre que cada uno tenga un identificador único. Otros campos para los datos de ocurrencia incluyen dónde, cuándo, cómo y por quién se observó o recolectó cada registro en el campo."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:493
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:496
 #, no-wrap
 msgid "*Slide 13 - Event data*\n"
-msgstr ""
+msgstr "*Diapositiva 13 - Datos de Evento  de Muestreo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:498
 msgid "Event data is a class of datasets that was added on GBIF.org in 2015.  They allow data publishers to share more information about the context of the observation or collection of specimens, and to group occurrences linked to the same event."
-msgstr ""
+msgstr "Los datos de eventos de muestreo es un tipo de conjuntos de datos que fue incluído en GBIF.org en 2015. Permiten que los publicadores de datos compartan más información acerca del contexto de la observación o de la colecta de especímenes, y agrupa a los registros vinculados al mismo evento."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:499
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:502
 #, no-wrap
 msgid "*Slide 14 - GBIF template for event data*\n"
-msgstr ""
+msgstr "*Diapositiva 14 - Plantilla GBIF para datos de eventos de muestreo*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:504
 msgid "The GBIF template for Event data allows data publishers to share more information about the context of a biodiversity data collecting/recording event such as camera traps, insect traps, botanical relevés, birding sites and so on. Its structure is a bit more complex than the Taxonomical datasets and Occurrence datasets as it involves two files (e.g., two tabs in a spreadsheet) : one for describing the ‘events’ (e.g. each trap) and the other one to describe the specimens or occurrences linked to each event."
-msgstr ""
+msgstr "La plantilla GBIF para datos de eventos de muestreo permite a los publicadores de datos compartir más información sobre el contexto de un evento de colecta / registro de datos de biodiversidad, como trampas cámaras, trampas para insectos, relevés botánicos, sitios de observación de aves, etc. Su estructura es un poco más compleja que los conjuntos de datos taxonómicos y los conjuntos de datos de registros biológicos, ya que involucra dos archivos (por ejemplo, dos pestañas en una hoja de cálculo): uno para describir los 'eventos' (por ejemplo, cada trampa) y el otro para describir los especímenes o sucesos vinculados a cada evento."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:505
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:508
 #, no-wrap
 msgid "*Slide 15 - Other origins of data*\n"
-msgstr ""
+msgstr "*Diapositiva 15 - Otros orígenes de los datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:510
 msgid "Sometimes, additional information or data can be found using other source materials than those previously mentioned in this video."
-msgstr ""
+msgstr "A veces, se puede encontrar información o datos adicionales utilizando otros materiales de origen distintos a los mencionados anteriormente en este video."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:511
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:514
 #, no-wrap
 msgid "*Slide 16 - Other origins of data*\n"
-msgstr ""
+msgstr "*Diapositiva 16 - Otros orígenes de los datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:516
@@ -1950,66 +1950,66 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:767
 msgid "Each person involved in the data capture has a share of responsibility regarding the data quality, but most decisions on this topic have to be taken at the institutional level."
-msgstr ""
+msgstr "Cada persona implicada en la captura de datos tiene su parte de responsabilidad en lo que respecta a la calidad de los datos, pero la mayoría de las decisiones sobre este tema deben tomarse a nivel institucional."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:769
 msgid "The keywords here are: planning and documentation!"
-msgstr ""
+msgstr "Las palabras clave aquí son: ¡planificación y documentación!"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:772
 msgid "As mentioned in the Foundations documentation presentation, use existing standards and plan your workflows to match your goals; document everything you can, at every step, and share or re-use documents, data, tools and standards as much as possible."
-msgstr ""
+msgstr "Como se mencionó en la presentación de la documentación de Fundamentos, utilice los estándares existentes y planifique sus flujos de trabajo para que coincidan con sus objetivos; documente todo lo que pueda, en cada paso, y comparta o reutilice documentos, datos, herramientas y estándares tanto como sea posible."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:773
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:776
 #, no-wrap
 msgid "*Slide 4 - Data processing and quality workflow*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Flujo de trabajo de procesamiento y calidad de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:778
 msgid "This is an example of a data quality workflow."
-msgstr ""
+msgstr "Este es un ejemplo de un flujo de trabajo de calidad de datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:780
 msgid "In this workflow, it begins with the collection of specimens, moves to data capture, then quality control, publishing and finally use."
-msgstr ""
+msgstr "En este flujo de trabajo, se comienza con la recolección de muestras, se pasa a la captura de datos, luego al control de calidad, la publicación y, finalmente, al uso."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:782
 msgid "Data quality isn’t the sole responsibility of the first person in the process (here, the collector) -- it is shared at every step and every person in the process should have a responsibility for quality."
-msgstr ""
+msgstr "La calidad de los datos no es responsabilidad exclusiva de la primera persona que interviene en el proceso (en este caso, el recolector); es una responsabilidad compartida en cada etapa, y todas las personas que participan en el proceso deben tener una responsabilidad en cuanto a la calidad."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:784
 msgid "A functioning feedback loop needs to be in place in order to check, complete, update or correct data."
-msgstr ""
+msgstr "Es necesario contar con un sistema de retroalimentación que funcione correctamente para verificar, completar, actualizar o corregir los datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:786
 msgid "This is where documentation is essential: you need to know who was responsible for each step in the process in order to validate changes that have been made to the data (or need to be made to the data)."
-msgstr ""
+msgstr "Aquí es donde la documentación resulta esencial: es necesario saber quién fue el responsable de cada paso del proceso para poder validar los cambios que se han realizado en los datos (o que deben realizarse)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:787
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:790
 #, no-wrap
 msgid "*Slide 5 - Data processing and quality responsibilities*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Responsabilidades en materia de procesamiento y calidad de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:792
