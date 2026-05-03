@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-11 20:09+0000\n"
-"PO-Revision-Date: 2026-04-11 20:51\n"
+"POT-Creation-Date: 2026-04-21 21:56+0000\n"
+"PO-Revision-Date: 2026-05-03 17:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,22 +17,9 @@ msgstr ""
 "X-Crowdin-File-ID: 45032\n"
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:165
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:167
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:603
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -40,6 +27,18 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:601
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:266
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
 msgstr ""
 
 #. type: delimited block .
@@ -68,7 +67,7 @@ msgstr "Revisión "
 #. type: delimited block *
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:18
 msgid "Match the statement, \"structured and organized collection of data and/or information held on a computer\" to the correct term."
-msgstr ""
+msgstr "Relaciona la afirmación \"colección estructurada y organizada de datos y/o información almacenada en una computadora\" con el término correcto."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:24
@@ -76,13 +75,15 @@ msgstr ""
 msgid "- [ ] database language\n"
 "- [ ] database program\n"
 "- [x] database\n"
-msgstr ""
+msgstr "- [ ] lenguaje de base de datos\n"
+"- [ ] programa de base de datos\n"
+"- [x] base de datos\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:27
 msgid "Match the statement, \"the way by which a human communicates with a computer\" to the correct term."
-msgstr ""
+msgstr "Relaciona la afirmación \"la forma en que un ser humano se comunica con una computadora\" con el término correcto."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:33
@@ -90,13 +91,15 @@ msgstr ""
 msgid "- [x] database language\n"
 "- [ ] database program\n"
 "- [ ] database\n"
-msgstr ""
+msgstr "- [x] lenguaje de base de datos\n"
+"- [ ] programa de base de datos\n"
+"- [ ] base de datos\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:36
 msgid "Match the statement, \"combines and presents functions and features for manipulating data, together in a unified interface\" to the correct term."
-msgstr ""
+msgstr "Relaciona la afirmación \"combina y presenta funciones y características para manipular datos, juntas en una interfaz unificada\" con el término correcto."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:42
@@ -104,7 +107,9 @@ msgstr ""
 msgid "- [ ] database language\n"
 "- [x] database program\n"
 "- [ ] database\n"
-msgstr ""
+msgstr "- [ ] lenguaje de base de datos\n"
+"- [x] programa de base de datos\n"
+"- [ ] base de datos\n"
 
 #.  Question 4
 #. type: Plain text
@@ -134,7 +139,7 @@ msgstr "- [ ] Nada\n"
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:57
 msgid "What type of software is the Integrated Publishing Toolkit (IPT)?"
-msgstr ""
+msgstr "¿Qué tipo de software es el Integrated Publishing Toolkit (IPT)?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:64
@@ -143,13 +148,16 @@ msgid "- [ ] data capture\n"
 "- [ ] data cleaning\n"
 "- [ ] data management\n"
 "- [x] data publishing\n"
-msgstr ""
+msgstr "- [ ] Captura de datos\n"
+"- [ ] Limpieza de datos\n"
+"- [ ] Gestión de datos\n"
+"- [x] Publicación de datos\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:67
 msgid "What type of software is Specify?"
-msgstr ""
+msgstr "¿Qué tipo de software es Specify?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:74
@@ -158,13 +166,16 @@ msgid "- [x] data capture\n"
 "- [ ] data cleaning\n"
 "- [x] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [x] Captura de datos\n"
+"- [ ] Limpieza de datos\n"
+"- [x] Gestión de datos\n"
+"- [ ] Publicación de datos\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:77
 msgid "What type of software is iNaturalist?"
-msgstr ""
+msgstr "¿Qué tipo de software es iNaturalist?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:84
@@ -173,13 +184,16 @@ msgid "- [x] data capture\n"
 "- [ ] data cleaning\n"
 "- [ ] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [x] Captura de datos\n"
+"- [ ] Limpieza de datos\n"
+"- [ ] Gestión de datos\n"
+"- [ ] Publicación de datos\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:87
 msgid "What type of software is OpenRefine?"
-msgstr ""
+msgstr "¿Qué tipo de software es OpenRefine?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:94
@@ -188,13 +202,16 @@ msgid "- [ ] data capture\n"
 "- [x] data cleaning\n"
 "- [ ] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [ ] Captura de datos\n"
+"- [x] Limpieza de datos\n"
+"- [ ] Gestión de datos\n"
+"- [ ] Publicación de datos\n"
 
 #.  Question 9
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:97
 msgid "What data type is \"1236975\"?"
-msgstr ""
+msgstr "¿Qué tipo de datos es \"1236975\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:107
@@ -206,13 +223,19 @@ msgid "- [ ] binary\n"
 "- [x] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [ ] booleano\n"
+"- [ ] flotante\n"
+"- [ ] entero\n"
+"- [x] entero largo\n"
+"- [ ] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 10
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:110
 msgid "What data type is \"01101111\"?"
-msgstr ""
+msgstr "¿Qué tipo de datos es \"01101111\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:120
@@ -224,13 +247,19 @@ msgid "- [x] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [x] binario\n"
+"- [ ] booleano\n"
+"- [ ] flotante\n"
+"- [ ] entero\n"
+"- [ ] entero largo\n"
+"- [ ] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 11
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:123
 msgid "What data type is \"We walked 5 miles down the road west from the post office in the center of town. We then went 2 miles north on a dirt path to the river. Then we continued west along the river for another 5 miles.\"?"
-msgstr ""
+msgstr "¿Qué tipo de datos representa \"Caminamos 5 millas por la carretera hacia el oeste desde la oficina de correos en el centro de la ciudad. Luego fuimos 2 millas hacia el norte por un sendero de tierra hasta el río. Después continuamos hacia el oeste a lo largo del río durante otras 5 millas\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:133
@@ -242,13 +271,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [x] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [ ] booleano\n"
+"- [ ] flotante\n"
+"- [ ] entero\n"
+"- [ ] entero largo\n"
+"- [ ] texto\n"
+"- [x] texto no estructurado\n"
 
 #.  Question 12
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:136
 msgid "What data type is \"1024\"?"
-msgstr ""
+msgstr "¿Qué tipo de dato es \"1024\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:146
@@ -260,13 +295,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [ ] booleano\n"
+"- [ ] flotante\n"
+"- [x] entero\n"
+"- [ ] entero largo\n"
+"- [ ] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 13
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:149
 msgid "What data type is \"29.0\"?"
-msgstr ""
+msgstr "¿Qué tipo de dato es \"29.0\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:159
@@ -278,13 +319,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [ ] booleano\n"
+"- [x] flotante\n"
+"- [ ] entero\n"
+"- [ ] entero largo\n"
+"- [ ] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 14
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:162
 msgid "What data type is \"Yes/No\"?"
-msgstr ""
+msgstr "¿Qué tipo de datos es \"Sí/No\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:172
@@ -296,13 +343,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [x] booleano\n"
+"- [ ] flotante\n"
+"- [ ] entero\n"
+"- [ ] entero largo\n"
+"- [ ] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 15
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:175
 msgid "What data type is \"6 rabbits were observed\"?"
-msgstr ""
+msgstr "¿Qué tipo de datos es \"Se observaron 6 conejos\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:185
@@ -314,7 +367,13 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [x] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] binario\n"
+"- [ ] booleano\n"
+"- [ ] flotante\n"
+"- [ ] entero\n"
+"- [ ] entero largo\n"
+"- [x] texto\n"
+"- [ ] texto no estructurado\n"
 
 #.  Question 16
 #. type: Plain text
@@ -364,7 +423,7 @@ msgstr "- [ ] Asignado\n"
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:212
 msgid "What is the correct structure for this statement, \"All data refers to a SINGLE concept\"?"
-msgstr ""
+msgstr "¿Cuál es la estructura correcta de esta afirmación: \"Todos los datos se refieren a un ÚNICO concepto\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:218
@@ -372,13 +431,15 @@ msgstr ""
 msgid "- [ ] column\n"
 "- [ ] row\n"
 "- [x] table\n"
-msgstr ""
+msgstr "- [ ] columna\n"
+"- [ ] fila\n"
+"- [x] tabla\n"
 
 #.  Question 19
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:221
 msgid "What is the correct structure for this statement, \"An attribute has the SAME field/data type for every record\"?"
-msgstr ""
+msgstr "¿Cuál es la estructura correcta para esta afirmación: \"Un atributo tiene el MISMO tipo de campo/dato para cada registro\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:227
@@ -386,13 +447,15 @@ msgstr ""
 msgid "- [x] column\n"
 "- [ ] row\n"
 "- [ ] table\n"
-msgstr ""
+msgstr "- [x] columna\n"
+"- [ ] fila\n"
+"- [ ] tabla\n"
 
 #.  Question 20
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:230
 msgid "What is the correct structure for this statement, \"Attributes of a record ALWAYS stay together\"?"
-msgstr ""
+msgstr "¿Cuál es la estructura correcta para esta afirmación: \"Los atributos de un registro SIEMPRE permanecen juntos\"?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:236
@@ -400,7 +463,9 @@ msgstr ""
 msgid "- [ ] column\n"
 "- [x] row\n"
 "- [ ] table\n"
-msgstr ""
+msgstr "- [ ] columna\n"
+"- [x] fila\n"
+"- [ ] tabla\n"
 
 #.  Question 21
 #. type: Plain text
@@ -412,7 +477,7 @@ msgstr "¿Quién determina la aptitud para el uso (\"fitness for use\") de sus d
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
 msgid "For the given statement, \"High accuracy, low precision\", input the matching image."
-msgstr ""
+msgstr "Para la afirmación dada, \"Alta exactitud, baja precisión\", introduzca la imagen correspondiente."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
@@ -421,7 +486,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
 #, no-wrap
 msgid "foundations::accuracyandprecision.png"
-msgstr ""
+msgstr "foundations::accuracyandprecision.png"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:257
@@ -430,13 +495,16 @@ msgid "- [ ] A\n"
 "- [ ] B\n"
 "- [x] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [ ] B\n"
+"- [x] C\n"
+"- [ ] D\n"
 
 #.  Question 23
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:260
 msgid "For the given statement, \"Low accuracy, high precision\", input the matching image."
-msgstr ""
+msgstr "Para la afirmación dada, \"Baja precisión, alta exactitud\", introduzca la imagen correspondiente."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:268
@@ -445,13 +513,16 @@ msgid "- [ ] A\n"
 "- [x] B\n"
 "- [ ] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [x] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
 
 #.  Question 24
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:271
 msgid "For the given statement, \"High accuracy, high precision\", input the matching image."
-msgstr ""
+msgstr "Para la afirmación dada, \"Alta exactitud, alta precisión\", introduzca la imagen correspondiente."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:279
@@ -460,13 +531,16 @@ msgid "- [ ] A\n"
 "- [ ] B\n"
 "- [ ] C\n"
 "- [x] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [x] D\n"
 
 #.  Question 25
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
 msgid "For the given statement, \"Low accuracy, low precision\", input the matching image."
-msgstr ""
+msgstr "Para la afirmación dada, \"Baja precisión, baja exactitud\", introduzca la imagen correspondiente."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:290
@@ -475,13 +549,16 @@ msgid "- [x] A\n"
 "- [ ] B\n"
 "- [ ] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [x] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
 
 #.  Question 26
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:293
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Collector field exists in both dataset A and B\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la afirmación \"El campo Coleccionista existe tanto en el conjunto de datos A como en el B\"."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:302
@@ -493,13 +570,18 @@ msgid "- [ ] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [x] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 27
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:305
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Country field only exists in dataset B\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la afirmación \"El campo País solo existe en el conjunto de datos B\"."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:314
@@ -510,13 +592,18 @@ msgid "- [x] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [x] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 28
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:317
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Name field exists in dataset A, but dataset B contains First Name and Last Name fields\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la declaración: \"El campo Nombre existe en el Conjunto de datos A, pero el Conjunto de datos B contiene los campos Nombre y Apellido\"."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:326
@@ -528,19 +615,24 @@ msgid "- [ ] 0:1\n"
 "- [x] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [x] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 29
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:329
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"ID field exists in both dataset A and B\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la afirmación \"El campo ID existe tanto en el conjunto de datos A como en el B\"."
 
 #.  Question 30
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:341
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Elevation exists in dataset A, but not in dataset B\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la afirmación: \"La elevación existe en el Conjunto de datos A, pero no en el Conjunto de datos B\"."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:350
@@ -551,13 +643,18 @@ msgid "- [ ] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [x] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 31
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:353
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B\"."
-msgstr ""
+msgstr "Identifique las relaciones de datos donde el Conjunto de datos B debe fusionarse con el Conjunto de datos A para la afirmación: \"La fecha existe en el Conjunto de datos A, pero el día, el mes y el año son campos separados en el Conjunto de datos B\"."
 
 #.  Question 32
 #. type: Plain text
