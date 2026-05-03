@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-03 21:53\n"
+"PO-Revision-Date: 2026-05-03 23:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -675,61 +675,61 @@ msgstr "Una de las mejores maneras de lograr el éxito en la limpieza de datos e
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:189
 #, no-wrap
 msgid "data-mobilization::management-concepts-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::management-concepts-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:192
 #, no-wrap
 msgid "*Slide 12 - Principles of data cleaning*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Principios de limpieza de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:194
 msgid "Documentation is one of the most important principles of data cleaning. This is true in two key ways."
-msgstr ""
+msgstr "La documentación es uno de los principios más importantes de la limpieza de datos. Esto es cierto de dos maneras claves."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:196
 msgid "First, whatever processes you use to maintain your data, it is important to be transparent about how errors are discovered and corrected. This transparency can be truly successful when the data cleaning process is well documented. Without clear and accessible documentation, you run the risk of losing best practices, building redundant processes and losing optimization. Good documentation will help you to avoid recurring errors."
-msgstr ""
+msgstr "En primer lugar, independientemente de los procesos que utilice para mantener sus datos, es fundamental ser transparente sobre cómo se detectan y corrigen los errores. Esta transparencia resulta realmente eficaz cuando el proceso de limpieza de datos está bien documentado. Sin una documentación clara y accesible, se corre el riesgo de perder buenas prácticas, crear procesos redundantes y perder la optimización. Una buena documentación le ayudará a evitar errores recurrentes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:198
 msgid "Documentation is also key to good data quality. Good documentation, in metadata, for example, allows data users to determine the fitness for use of your data. Your documentation should not only include good metadata, it should also include the best practices, standardized vocabularies, and taxonomic and geographic authorities used. Documenting what data was cleaned by whom will help you to improve your optimization, reach performance measures, and ultimately, tell a more complete story of where your data came from and how it was improved over time."
-msgstr ""
+msgstr "La documentación también es clave para una buena calidad de datos. Una buena documentación, por ejemplo, en los metadatos, permite a los usuarios determinar si los datos son adecuados para su uso. Su documentación no solo debe incluir metadatos de calidad, sino también las mejores prácticas, vocabularios estandarizados y las autoridades taxonómicas y geográficas utilizadas. Documentar quién limpió los datos le ayudará a optimizar su proceso, alcanzar los objetivos de rendimiento y, en definitiva, a comprender mejor el origen de sus datos y cómo se han ido mejorando con el tiempo."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:201
 #, no-wrap
 msgid "data-mobilization::management-concepts-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::management-concepts-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:204
 #, no-wrap
 msgid "*Slide 13 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositiva 13 - Conclusión*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:208
 msgid "This presentation was originally created by Nestor Beltran with additional contributions by David Bloom, BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Esta presentación fue creada originalmente por Néstor Beltrán, con contribuciones adicionales de David Bloom, entrenadores, mentores y participantes de BID y BIFA."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:212
 #, no-wrap
 msgid "Exercise 2a"
-msgstr ""
+msgstr "Ejercicio 2a"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:217
 msgid "For this exercise, you will open a csv file in Excel (using the UTF-8 encoding) and then you will perform a series of validation checks to evaluate the file for errors."
-msgstr ""
+msgstr "Para este ejercicio, abrirá un archivo csv en Excel (utilizando la codificación UTF-8) y, a continuación, realizará una serie de comprobaciones de validación para evaluar el archivo en busca de errores."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:220
 msgid "The Swedish Butterfly Network has decided to begin sharing their data with GBIF. You have received the occurrence data from the data capture team and have been asked to validate and correct the data in the file."
-msgstr ""
+msgstr "La Red Sueca de Mariposas ha decidido empezar a compartir sus datos con GBIF. Ha recibido los datos de ocurrencia del equipo de captura de datos y se le ha pedido que valide y corrija los datos del fichero."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:222
@@ -740,32 +740,32 @@ msgstr "*Controles de validación*\n"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:224
 msgid "In this exercise we will focus on technical errors and perform a basic validation check to identify technical errors."
-msgstr ""
+msgstr "En este ejercicio nos centraremos en los errores técnicos y realizaremos una comprobación de validación básica para identificar errores técnicos."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:226
 msgid "Refer to <<Validation checks>> for information on the types of errors."
-msgstr ""
+msgstr "Consulte <<Validation checks>> para obtener información sobre los tipos de errores."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:228
 msgid "Download xref:attachment$UC-Practice-2ab-ForCleaning.csv[UC-Practice-2ab-ForCleaning.csv,opts=download]. (138 KB)"
-msgstr ""
+msgstr "Download xref:attachment$UC-Practice-2ab-ForCleaning.csv[UC-Practice-2ab-ForCleaning.csv,opts=download]. (138 KB)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:229
 msgid "Import the CSV file in Excel using the Excel wizard. See xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf,opts=download] (PDF, 7 MB) for import instructions for your operating system (Windows, Mac, Linux)."
-msgstr ""
+msgstr "Importa el archivo CSV en Excel usando el asistente de Excel. Consulta xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf,opts=download] (PDF, 7 MB) para obtener instrucciones de importación para tu sistema operativo (Windows, Mac, Linux)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:230
 msgid "Find and document the technical errors (indicating the subtype: completeness, bounds, data type, or data format)."
-msgstr ""
+msgstr "Encontrar y documentar los errores técnicos (indicando el subtipo: integridad, límites, tipo de datos o formato de datos)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:231
 msgid "Use the previously downloaded xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download] (PDF, 2.9 MB) to provide your answers."
-msgstr ""
+msgstr "Utilice la hoja de ejercicios descargada anteriormente xref:attachment$UC-Practice-exercise-sheet_EN.docx[hoja de ejercicios,opts=download] (PDF, 2,9 MB) para proporcionar sus respuestas."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:232
@@ -776,7 +776,7 @@ msgstr "Herramientas de gestión de datos"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:237
 msgid "In this presentation, you will learn about a variety of tools that you can use to improve the quality of your data."
-msgstr ""
+msgstr "En esta presentación, aprenderá sobre diversas herramientas que puede utilizar para mejorar la calidad de sus datos."
 
 #. type: delimited block +
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:245
@@ -784,176 +784,178 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSUp82spo2AXg8HwxYITBWETcY19lS55yWIc677MexvYVTB1r7pvAGCLGhmYKnzug/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSUp82spo2AXg8HwxYITBWETcY19lS55yWIc677MexvYVTB1r7pvAGCLGhmYKnzug/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:261
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:264
 #, no-wrap
 msgid "*Slide 1 - Data management - Tools*\n"
-msgstr ""
+msgstr "*Diapositiva 1 - Gestión de datos - Herramientas*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:266
 msgid "In this presentation, we are going to explore the importance of software tools that can help to maintain, clean and standardize your data."
-msgstr ""
+msgstr "En esta presentación, vamos a explorar la importancia de las herramientas de software que pueden ayudar a mantener, limpiar y estandarizar sus datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:268
 msgid "Image by https://pixabay.com/illustrations/developer-programmer-technology-3461405/[Mudassar Iqbal^] from Pixabay"
-msgstr ""
+msgstr "Imagen de https://pixabay.com/illustrations/developer-programmer-technology-3461405/[Mudassar Iqbal^] de Pixabay"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:269
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:272
 #, no-wrap
 msgid "*Slide 2 - Importance of data maintenance*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - Importancia del mantenimiento de datos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:274
 msgid "Data Quality happens at every step in the data mobilization process. Within the roles on your team, you should ensure that someone is responsible and skilled with data maintenance and manipulation. We know that real-world data are messy and transformation and standardization is needed to make the data easily understandable and fit for use."
-msgstr ""
+msgstr "La Calidad de los Datos se produce en cada paso del proceso de movilización de datos. Dentro de las funciones de su equipo, debe asegurarse de que haya alguien responsable y capacitado para el mantenimiento y la manipulación de los datos. Sabemos que los datos del mundo real son confusos y que es necesario transformarlos y normalizarlos para que sean fácilmente comprensibles y aptos para su uso."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:276
 msgid "When transforming data (for example merging columns, converting coordinates, changing datum, etc), make sure that you document changes and that you have an original copy that you can revert to if necessary."
-msgstr ""
+msgstr "Cuando transformes datos (por ejemplo, fusionando columnas, convirtiendo coordenadas, cambiando el datum, etc.), asegúrate de documentar los cambios y de tener una copia original a la que pueda volver en caso necesario."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:278
 msgid "Photo: Anas crecca subsp. crecca Observed in Japan by Yoshi.K. http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Foto: Anas crecca subsp. crecca Observada en Japón por Yoshi.K. http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:279
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:282
 #, no-wrap
 msgid "*Slide 3 - What to consider when choosing a tool*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - Qué hay que tener en cuenta al elegir una herramienta*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:284
 msgid "As was covered in the foundations course, in the software section, in choosing tools, some things you should consider include, price, ease of use, documentation and support and any technical requirements to run the tool. No tool is perfect. The importance is to find the right balance and the tool that fits your requirement."
-msgstr ""
+msgstr "Como ya se explicó en el curso de fundamentos, en la sección de software, a la hora de elegir herramientas hay que tener en cuenta el precio, la facilidad de uso, la documentación y el soporte, así como los requisitos técnicos necesarios para utilizar la herramienta. Ninguna herramienta es perfecta. Lo importante es encontrar el equilibrio adecuado y la herramienta que se adapte a tus necesidades."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:286
 msgid "Photo: Asota egens subsp. confinis Rothschild, 1897 Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Foto: Asota egens subsp. confinis Rothschild, 1897 Observada en Japón por Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:287
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:290
 #, no-wrap
 msgid "*Slide 4 - What to consider when choosing a tool*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Qué hay que tener en cuenta al elegir una herramienta*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:292
 msgid "The tools you choose may not be the tools that others use within your institution – and that’s just fine, unless your organization places mandates on the tools you can use.  You need to find and use the tools that help you to achieve the goals of your institution. So, you need to build a palette of tools that will help you and the people with whom you work to do their work as effectively as possible."
-msgstr ""
+msgstr "Las herramientas que elijas pueden no ser las mismas que usan otros en tu institución, y eso está bien, a menos que tu organización imponga restricciones sobre las herramientas que puedes usar. Debes encontrar y usar las herramientas que te ayuden a alcanzar los objetivos de tu institución. Por lo tanto, necesitas crear un conjunto de herramientas que te ayuden a ti y a tus compañeros a realizar su trabajo de la manera más eficaz posible."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:294
 msgid "Photo: Crepidiastrum lanceolatum (Houtt.) Nakai Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Foto: Crepidiastrum lanceolatum (Houtt.) Nakai observado en Japón por Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:295
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:298
 #, no-wrap
 msgid "*Slide 5 - Basic technical considerations*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Consideraciones técnicas básicas*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:300
 msgid "Some of the technical considerations when choosing tools should include the inputs and outputs that the tool uses for files."
-msgstr ""
+msgstr "Algunas de las consideraciones técnicas a la hora de elegir herramientas deben incluir las entradas y salidas que la herramienta utiliza para los archivos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:302
 msgid "Does it allow for importing and exporting standardized delimited files?"
-msgstr ""
+msgstr "¿Permite importar y exportar ficheros delimitados normalizados?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:304
 msgid "Can you select encoding (for example UTF-8) when opening or saving files to avoid encoding issues with special characters."
-msgstr ""
+msgstr "Puede seleccionar la codificación (por ejemplo UTF-8) al abrir o guardar archivos para evitar problemas de codificación con caracteres especiales."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:306
 msgid "Photo: Conus (Virroconus) ebraeus Linnaeus, 1758 Observed in Japan by Robert Guralnick http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Foto: Conus (Virroconus) ebraeus Linnaeus, 1758 Observado en Japón por Robert Guralnick http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:307
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:310
 #, no-wrap
 msgid "*Slide 6 - Tools - biodiversity data*\n"
-msgstr ""
+msgstr "* Diapositiva 6 - Herramientas - datos sobre biodiversidad*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:312
 msgid "In the Foundations course, we introduced you to a list of software tools compiled by previous trainers, mentors and students of this course. For the remainder of this presentation, we will review some of the tools that will be useful to complete the data management exercises in this course."
-msgstr ""
+msgstr "En el curso Fundamentos, le presentamos una lista de herramientas de software recopilada por anteriores entrenadores, mentores y participantes de este curso. En el resto de esta presentación, repasaremos algunas de las herramientas que serán útiles para completar los ejercicios de gestión de datos de este curso."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:314
 msgid "Photo: Chelonia mydas (Linnaeus, 1758) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Foto: Chelonia mydas (Linnaeus, 1758) observada en Tailandia por Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:315
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:318
 #, no-wrap
 msgid "*Slide 7 - Tools - text editors*\n"
-msgstr ""
+msgstr "*Diapositiva 7 - Herramientas - editores de texto*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:320
 msgid "When working with data files, you will often need a text editor that is able to do more than the default text editor that came with your operating system, particularly with Windows and Mac. Some good options include BBEdit, Notepad++ and Sublime. When creating files, you should be consistent and document your local settings and options. When opening and editing files, try different options and check the results to make sure there aren’t any issues before your proceed."
-msgstr ""
+msgstr "Cuando trabaje con archivos de datos, a menudo necesitará un editor de texto que sea capaz de hacer más que el editor de texto por defecto que viene con su sistema operativo, particularmente con Windows y Mac. Algunas buenas opciones son BBEdit, Notepad++ y Sublime. Al crear archivos, debe ser coherente y documentar su configuración y opciones locales. Al abrir y editar archivos, pruebe diferentes opciones y compruebe los resultados para asegurarse de que no hay ningún problema antes de continuar."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:322
 msgid "Photo: Microporus xanthopus (Fr.) Kuntze Observed in Thailand by Jacky http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Foto: Microporus xanthopus (Fr.) Kuntze observado en Tailandia por Jacky http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:323
@@ -1054,69 +1056,69 @@ msgstr "Además, también puede resultarle útil Google Maps o Google Earth. Goo
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:360
 msgid "As we do not teach georeferencing in this course, it is recommended that you review the Georeferencing documentation, available on the GBIF website before completing any large scale georeferencing project."
-msgstr ""
+msgstr "Dado que en este curso no se enseña georreferenciación, se recomienda que revise la documentación sobre georreferenciación, disponible en el sitio web de GBIF, antes de realizar cualquier proyecto de georreferenciación a gran escala."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:361
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:364
 #, no-wrap
 msgid "*Slide 11 - Coordinate and date conversion*\n"
-msgstr ""
+msgstr "*Diapositiva 11 - Conversión de coordenadas y fechas*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:366
 msgid "Canadensys offers two tools that can help with both Coordinate and Date conversion."
-msgstr ""
+msgstr "Canadensys ofrece dos herramientas que pueden ayudar tanto en la Conversión de Coordenadas como Conversión de Fechas."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:367
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:370
 #, no-wrap
 msgid "*Slide 12 - Command line tools*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Herramientas de línea de comandos*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:372
 msgid "Operating systems come with their own set of command line consoles. Additionally, many desktop tools provide command line functionality to be used within those consoles. Command line tools are great for scripting to automate processes."
-msgstr ""
+msgstr "Los sistemas operativos incluyen sus propias consolas de línea de comandos. Además, muchas herramientas de escritorio ofrecen funcionalidades de línea de comandos para usar dentro de dichas consolas. Las herramientas de línea de comandos son excelentes para crear scripts y automatizar procesos."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:373
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:376
 #, no-wrap
 msgid "*Slide 13 - Review*\n"
-msgstr ""
+msgstr "*Diapositiva 13 - Repaso*"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:378
 msgid "Remember there are many, many sources for validating, cleaning and standardizing your data. Until you develop your preferred list of tried and trusted tools, remember to explore many options."
-msgstr ""
+msgstr "Recuerde que existen muchísimas fuentes para validar, limpiar y normalizar sus datos. Hasta que elabore su lista preferida de herramientas probadas y fiables, recuerde explorar muchas opciones."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:380
 msgid "Photo: Cheilinus fasciatus (Bloch, 1791) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Foto: Cheilinus fasciatus (Bloch, 1791) Observado en Tailandia por Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:381
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide14.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:384
@@ -1128,39 +1130,39 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:388
 msgid "This is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Nestor Beltran with additional contributions by Sophie Pamerlon and David Bloom, BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Esto forma parte de una serie de presentaciones utilizadas en el curso de Movilización de Datos de Biodiversidad del GBIF. El programa de estudios sobre movilización de datos de biodiversidad se desarrolló originalmente como parte del Programa de Desarrollo de Información sobre Biodiversidad, financiado por la Unión Europea.    Esta presentación fue creada originalmente por Néstor Beltrán, con contribuciones adicionales de Sophie Pamerlon y David Bloom, entrenadores, mentores y participantes de BID y BIFA."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:392
 #, no-wrap
 msgid "Exercise 2b"
-msgstr ""
+msgstr "Ejercicio 2b"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:397
 msgid "For this exercise, you will practice cleaning data using Excel and other helpful tools."
-msgstr ""
+msgstr "En este ejercicio, practicará la limpieza de datos utilizando Excel y otras herramientas útiles."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:400
 #, no-wrap
 msgid "*Data cleaning with Excel*\n"
-msgstr ""
+msgstr "*Limpieza de datos con Excel*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:402
 msgid "SBN has given you a checklist of data quality elements to verify:"
-msgstr ""
+msgstr "SBN te ha proporcionado una lista de verificación de elementos de calidad de datos para comprobar:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:404
 msgid "All names (full name) are correctly spelled"
-msgstr ""
+msgstr "Todos los nombres (nombre completo) están escritos correctamente"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:405
 msgid "All names belong to the order"
-msgstr ""
+msgstr "Todos los nombres pertenecen al orden"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:406
@@ -1210,12 +1212,12 @@ msgstr "Utilice el mismo archivo del ejercicio anterior."
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:419
 msgid "Make the correction ONLY for the ?? family (so you may want to filter the data)"
-msgstr ""
+msgstr "Realice la corrección SÓLO para la familia ?? (por lo que es posible que desee filtrar los datos)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:420
 msgid "Correct the errors found in the dataset used in exercise 2a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet."
-msgstr ""
+msgstr "Corrija los errores encontrados en el conjunto de datos usado en el ejercicio 2a (ejercicio anterior), usando las herramientas de su elección, y documente los cambios que realiza en la hoja de ejercicio."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:421
@@ -1225,7 +1227,7 @@ msgstr "Corrija todo el archivo si tiene tiempo."
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:428
 msgid "In this presentation, you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data."
-msgstr ""
+msgstr "En esta presentación, aprenderá sobre https://openrefine.org/[OpenRefine^]. Puede utilizar OpenRefine para normalizar y mejorar la calidad de sus datos."
 
 #. type: delimited block +
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:436
@@ -1233,200 +1235,202 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVDaNu7f19oZEZKfaUqqYKsHoSBgtegqHtvwW7l4TalCyDtzUeiLhGAKsoDOVuEA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSVDaNu7f19oZEZKfaUqqYKsHoSBgtegqHtvwW7l4TalCyDtzUeiLhGAKsoDOVuEA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:452
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:455
 #, no-wrap
 msgid "*Slide 1 - Data management - OpenRefine*\n"
-msgstr ""
+msgstr "*Diapositiva 1 - Gestión de datos - OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:457
 msgid "In this presentation, we are going to introduce OpenRefine as a tool for data cleaning."
-msgstr ""
+msgstr "En esta presentación, vamos a presentar OpenRefine como herramienta para la limpieza de datos."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:458
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:461
 #, no-wrap
 msgid "*Slide 2 - OpenRefine*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:463
 msgid "Previously known as Google Refine; it is now Open access and open sourced. OpenRefine can be used for data cleaning and standardization. You can find it at openrefine.org."
-msgstr ""
+msgstr "Anteriormente conocido como Google Refine, ahora es de acceso abierto y de código abierto. OpenRefine puede utilizarse para la limpieza y normalización de datos. Puede encontrarlo en openrefine.org."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:464
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:467
 #, no-wrap
 msgid "*Slide 3 - What is OpenRefine?*\n"
-msgstr ""
+msgstr "*Diapositiva 3: ¿Qué es OpenRefine?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:469
 msgid "OpenRefine is a powerful tool for working with messy data."
-msgstr ""
+msgstr "OpenRefine es una potente herramienta para trabajar con datos desordenados."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:471
 msgid "OpenRefine supports faceted browsing as a mechanism for seeing a big picture of your data, and filtering down to just the subset of rows that you want to change in bulk."
-msgstr ""
+msgstr "OpenRefine admite la navegación por facetas como mecanismo para ver un panorama general de los datos y filtrar sólo el subconjunto de filas que desea modificar en bloque."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:473
 msgid "The clustering feature works by trying to group the choices in the text facet, so that choices that \"look similar\" get grouped together."
-msgstr ""
+msgstr "La función de agrupación intenta agrupar las opciones en la faceta de texto, de modo que las opciones que \"parecen similares\" se agrupen."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:475
 msgid "Reconciliation is a semi-automated process of matching text names to database IDs or keys."
-msgstr ""
+msgstr "La conciliación es un proceso semiautomatizado de cotejo de nombres de texto con identificadores o claves de bases de datos."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:477
 msgid "You can use OpenRefine to perform reconciliation of names in your data against any database that exposes a web service following the Reconciliation Service API specification."
-msgstr ""
+msgstr "Puede utilizar OpenRefine para conciliar los nombres de sus datos con los de cualquier base de datos que ofrezca un servicio web conforme a la especificación Reconciliation Service API."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:478
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:481
 #, no-wrap
 msgid "*Slide 4 - What OpenRefine is not*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Lo que OpenRefine no es*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:483
 msgid "OpenRefine, however, is not like other tools you’ve used. OpenRefine CANNOT be used for storing or managing data; it is strictly a cleaning and/or standardizing tool."
-msgstr ""
+msgstr "OpenRefine, sin embargo, no es como otras herramientas que haya utilizado. OpenRefine NO puede utilizarse para almacenar o gestionar datos; es estrictamente una herramienta de limpieza y/o normalización."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:484
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:487
 #, no-wrap
 msgid "*Slide 5 - Feature comparison*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Comparación de características*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:489
 msgid "As OpenRefine is a different kind of tool, you should consider when it is appropriate to use it versus other tools."
-msgstr ""
+msgstr "Dado que OpenRefine es un tipo de herramienta diferente, debe considerar cuándo es apropiado utilizarla frente a otras herramientas."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:491
 msgid "A database provides infrastructure for storage and indexing of data. Generally, it requires programming skills to edit and is absent of easy visualization."
-msgstr ""
+msgstr "Una base de datos proporciona infraestructura para el almacenamiento y la indexación de datos. Por lo general, requiere conocimientos de programación para su edición y carece de una visualización sencilla."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:493
 msgid "Excel is a spreadsheet application. It is useful for documenting data and performing operations. And while you can manage your data and have limited ability to clean and standardize your data, it is usually restricted to editing cell by cell. Data is not always visible and it lacks powerful visualization tools."
-msgstr ""
+msgstr "Excel es una aplicación de hoja de cálculo. Es útil para documentar datos y realizar operaciones. Y aunque puede gestionar los datos y tiene una capacidad limitada para limpiarlos y normalizarlos, suele limitarse a editar celda por celda. Los datos no siempre son visibles y carece de potentes herramientas de visualización."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:495
 msgid "OpenRefine in contrast offers multi-cell editing, easy exploration and transformation and interactive visualization. But as mentioned previously, it is not for storing and managing data."
-msgstr ""
+msgstr "OpenRefine, en cambio, ofrece edición multicelda, exploración y transformación sencillas y visualización interactiva. Pero, como ya se ha dicho, no sirve para almacenar y gestionar datos."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:496
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:499
 #, no-wrap
 msgid "*Slide 6 - OpenRefine features*\n"
-msgstr ""
+msgstr "*Diapositiva 6 - Características de OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:501
 msgid "So now that you understand the differences, here is a list of useful features that you will find within OpenRefine. You will soon have an opportunity to complete a tutorial to try all the features."
-msgstr ""
+msgstr "Ahora que ya conoce las diferencias, aquí tiene una lista de funciones útiles que encontrará en OpenRefine. Pronto tendrá la oportunidad de completar un tutorial para probar todas las funciones."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:503
 msgid "OpenRefine is a software that you install on your computer. It requires the JAVA JRE/JDK to run. It works on Windows, Mac and Linux."
-msgstr ""
+msgstr "OpenRefine es un software que se instala en la computadora. Requiere JAVA JRE/JDK para funcionar. Funciona en Windows, Mac y Linux."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:505
 msgid "As OpenRefine is free and open source, it is supported by a large community of developers and users. It easy to find tutorials online on how to use the tool."
-msgstr ""
+msgstr "Como OpenRefine es gratuito y de código abierto, cuenta con el apoyo de una gran comunidad de desarrolladores y usuarios. Es fácil encontrar tutoriales en línea sobre cómo utilizar la herramienta."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:506
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:509
 #, no-wrap
 msgid "*Slide 7 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositiva 7 - Conclusión*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:513
 msgid "This is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Nestor Beltran with additional contributions by Sharon Grant, David Bloom, BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Esto forma parte de una serie de presentaciones utilizadas en el curso de Movilización de Datos de Biodiversidad del GBIF. El programa de estudios sobre movilización de datos de biodiversidad se desarrolló originalmente como parte del Programa de Desarrollo de Información sobre Biodiversidad, financiado por la Unión Europea.    Esta presentación fue creada originalmente por Néstor Beltrán, con contribuciones adicionales de Sharon Grant, David Bloom, entrenadores, mentores y participantes de BID y BIFA."
 
 #. type: Title ====
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:516
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:523
 #, no-wrap
 msgid "Exercise 2c"
-msgstr ""
+msgstr "Ejercicio 2c"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:521
 msgid "In this exercise you will use OpenRefine to improve the quality of a dataset by using the default features, existing web services and regular expressions."
-msgstr ""
+msgstr "En este ejercicio utilizará OpenRefine para mejorar la calidad de un conjunto de datos utilizando las funciones predeterminadas, los servicios web existentes y expresiones regulares."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:526
 msgid "Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (133 KB)"
-msgstr ""
+msgstr "Descargar xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=descargar]. (133 KB)"
 
 #. Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download].
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:527
 msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 1.1 MB)"
-msgstr ""
+msgstr "Descargue y complete los ejercicios en xref:attachment$OpenRefine-Ejercicio2c-ES.pdf[OpenRefine-Ejercicio2c-ES.pdf,opts=download]. (PDF, 1,1 MB)"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:530
 #, no-wrap
 msgid "Exercise resources"
-msgstr ""
+msgstr "Recursos para el ejercicio"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:532
@@ -1563,7 +1567,7 @@ msgstr "Herramientas útiles"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:578
 #, no-wrap
 msgid "*Taxonomy*\n"
-msgstr ""
+msgstr "*Taxonomía*"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:580
@@ -1581,13 +1585,13 @@ msgstr "*Global Names Resolver*: http://resolver.globalnames.org\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:582
 #, no-wrap
 msgid "*Catalogue of Life checklist bank name match*: https://www.checklistbank.org/tools/name-match\n"
-msgstr ""
+msgstr "*Catalogue of Life checklist bank name match*: https://www.checklistbank.org/tools/name-match\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:583
 #, no-wrap
 msgid "*iPlant TNRS*: http://tnrs.iplantcollaborative.org/\n"
-msgstr ""
+msgstr "*iPlant TNRS*: http://tnrs.iplantcollaborative.org/\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:584
@@ -1599,7 +1603,7 @@ msgstr "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:586
 #, no-wrap
 msgid "*Georeferencing*\n"
-msgstr ""
+msgstr "*Georeferenciación*"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:588
@@ -1611,7 +1615,7 @@ msgstr "*InfoXY*: http://splink.cria.org.br/infoxy?criaLANG=en\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:589
 #, no-wrap
 msgid "*Georeferencing Calculator*: https://georeferencing.org/calculator/\n"
-msgstr ""
+msgstr "*Calculadora de Georreferenciación*: https://georeferencing.org/calculator\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:590
@@ -1629,7 +1633,7 @@ msgstr "*Google Maps*: https://maps.google.com/\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:593
 #, no-wrap
 msgid "*Dates*\n"
-msgstr ""
+msgstr "*Fechas*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:595
