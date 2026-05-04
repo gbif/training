@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-18 02:13+0000\n"
-"PO-Revision-Date: 2026-04-18 02:31\n"
+"POT-Creation-Date: 2026-04-21 21:56+0000\n"
+"PO-Revision-Date: 2026-05-04 13:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -16,110 +16,31 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/about-gbif.pot\n"
 "X-Crowdin-File-ID: 40988\n"
 
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:92
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:614
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:72
-#: en/epn/modules/ROOT/pages/participant-process.adoc:6
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
-#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
-#, no-wrap
-msgid "Review"
-msgstr "Revisión"
-
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:619
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:77
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
-msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:621
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:79
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr ""
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:20
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:221
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:461
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
-msgstr ""
-
-#. type: Block title
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:22
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:223
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:463
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#, no-wrap
-msgid "Click to expand"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:31
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:232
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:472
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:388
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:396
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:727
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:735
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:747
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -154,12 +75,12 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/home/modules/ROOT/pages/index.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:38
-#: en/home/modules/ROOT/pages/index.adoc:45
-#: en/home/modules/ROOT/pages/index.adoc:46
-#: en/home/modules/ROOT/pages/index.adoc:48
-#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -350,19 +271,122 @@ msgstr ""
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:736
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:399
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:738
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:603
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr "Puede leer más sobre las respuestas en el xref:solutions.adoc[Apéndice de Soluciones]."
+
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:391
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:384
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:450
 #, no-wrap
 msgid "*Slide 14 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositiva 14 - Conclusión*\n"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:596
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:261
+#: en/epn/modules/ROOT/pages/participant-process.adoc:6
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:79
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
+#: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:27
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:129
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:136
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:140
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:483
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:167
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:114
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:223
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:406
+#, no-wrap
+msgid "Review"
+msgstr "Revisión"
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:601
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:266
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:119
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
+msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
+msgstr "Pon a prueba tus conocimientos sobre los conceptos tratados en este módulo. Algunas preguntas pueden tener varias respuestas correctas."
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:168
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
 #, no-wrap
 msgid "*Slide 12 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Conclusión*\n"
 
 #. type: Title =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:1
@@ -373,17 +397,17 @@ msgstr "Acerca de GBIF "
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:6
 msgid "The Global Biodiversity Information Facility (GBIF) is an international network of country and organizational Participants that exists to enable free and open access to biodiversity data from all sources and to support biodiversity science, environmental research, and evidence based decision-making."
-msgstr ""
+msgstr "El Sistema Global de Información sobre Biodiversidad–GBIF por sus siglas en inglés–es una red internacional de países y organizaciones participantes que existe para dar a cualquiera acceso gratis y abierto a datos sobre biodiversidad provenientes de todas las fuentes y darle soporte a la ciencia de la biodiversidad, investigación medioambiental y evidencia basada en datos."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:8
 msgid "GBIF operates as a federated system of distributed data publishing efforts, coordinated through a global informatics infrastructure and collaborative network."
-msgstr ""
+msgstr "GBIF opera como un sistema federado de esfuerzos distribuidos para la publicación de datos y es coordinado a través de una infraestructura informática global y una red colaborativa."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:10
 msgid "In this module, you will learn more about GBIF."
-msgstr ""
+msgstr "En este módulo aprenderá más sobre GBIF."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -399,17 +423,17 @@ msgstr "¿Qué es GBIF?"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:17
 msgid "Can you imagine how much knowledge could be generated, if people could find and use the Earth's biodiversity data, in an organized and accessible way?"
-msgstr ""
+msgstr "¿Te imaginas cuánto conocimiento podría ser generado, si las personas pudieran encontrar y usar los datos sobre biodiversidad de la Tierra, de una manera organizada y accesible?"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:19
 msgid "This video (03:19) was originally co-produced in https://vimeo.com/236573907[Spanish^] by SiB Colombia and GBIF Spain, both national nodes of GBIF, and Go Visual with co-financing from GBIF Spain and the Alexander von Humboldt Biological Resources Research Institute (IAvH), the host institution of SiB Colombia."
-msgstr ""
+msgstr "Este video (03:19) fue originalmente coproducido en https://vimeo.com/236573907[Español^] por SiB Colombia y GBIF España, ambos nodos nacionales de GBIF, y Go Visual con el cofinanciamiento de GBIF España y el Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH), la institución sede del SiB Colombia."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:21
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$gbif__the_library_of_life_v1-1080p.mp4[download] it locally (MP4 - 39.5 MB)."
-msgstr ""
+msgstr "Si no puede ver el video de Vimeo embebido, puede xref:attachment$gbif__the_library_of_life_v1-1080p.mp4[descargarlo] localmente (MP4 - 39,5 MB)."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:27
@@ -426,103 +450,103 @@ msgstr "Introducción a GBIF"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:33
 msgid "In this video (07:40), Kyle Copas, GBIF Head of Communications, provides a brief introduction to GBIF—who we are, what we do, and why we do it."
-msgstr ""
+msgstr "En este video (07:40) Kyle Copas, director de comunicaciones de GBIF, brinda una breve introducción a GBIF—Quiénes somos, qué hacemos y por qué lo hacemos."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:35
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$introduction_to_gbif_v1_1080p.mp4[download] it locally (MP4 - 35.8 MB)."
-msgstr ""
+msgstr "Si no puede ver el vídeo de Vimeo embebido, puede xref:attachment$introduction_to_gbif_v1_1080p.mp4[descargarlo] localmente (MP4 - 35,8 MB)."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:52
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide1.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide1.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:55
 #, no-wrap
 msgid "*Slide 1 - Introduction to GBIF*\n"
-msgstr ""
+msgstr "*Diapositiva 1 - Introducción a GBIF*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:57
 msgid "Hi! My name is Kyle Copas, and I’m head of communications at GBIF, the Global Biodiversity Information Facility. I’m pleased to offer this brief introduction to GBIF—who we are, what we do, and why we do it—in hope of providing some context for your training course and encourage you to apply the skills you will acquire to promote GBIF's vision for “A world in which the best possible biodiversity data underpins research, policy and decisions.”"
-msgstr ""
+msgstr "Hola, mi nombre es Kyle Copas y soy el director de comunicaciones de GBIF, el Sistema Global de Información sobre Biodiversidad (GBIF). Me complace ofrecerles esta breve introducción a GBIF —quiénes somos, qué hacemos y por qué lo hacemos— con la esperanza de proporcionarles algo de contexto para su curso de formación y animarlos a aplicar las habilidades que adquirirán para promover la visión de GBIF de \"Un mundo en el que los mejores datos posibles sobre biodiversidad sustenten la investigación, las políticas y las decisiones.\""
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:58
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide2.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:61
 #, no-wrap
 msgid "*Slide 2 - What is GBIF?*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - ¿Qué es GBIF?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:63
 msgid "So what is GBIF? We are an international network and data infrastructure, whose purpose is to provide anyone, anywhere, free and open access to data about all types of life on earth.  This data provides an essential source of evidence for open science that is used across science and policy, supported and advanced by a worldwide community of experts, partners and collaborators."
-msgstr ""
+msgstr "Entonces ¿Qué es GBIF? Somos una red internacional e infraestructura de datos, cuyo propósito es proporcionar a cualquier persona, en cualquier lugar, acceso libre y abierto a datos sobre todos los tipos de vida en la Tierra.  Estos datos proporcionan una recurso esencial para la ciencia abierta que es utilizada en toda la ciencia y la política, con el apoyo y el avance de una comunidad mundial de expertos, socios y colaboradores."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:64
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide3.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide3.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:67
 #, no-wrap
 msgid "*Slide 3 - GBIF governance and structure*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - Gobernanza y estructura de GBIF*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:69
 msgid "Established in 2001, GBIF operates on the basis of a voluntary Memorandum of Understanding between the governments and transnational organizations that collaborate as GBIF’s formal Participants. The MOU sets out the basic governance and principles for a coordinated international scientific effort to mobilize the data, skills and technologies needed to make comprehensive biodiversity information freely available for science and decision-making. Under the MoU, Participants agree to establish a formal delegation that represents them in GBIF’s governance and also to set up a node, which serves as the focal point for coordinating data sharing and use in their country or organization. The GBIF Secretariat based in Copenhagen, Denmark, manages the technical infrastructure and supports collaborations that keep GBIF going and growing as a global community."
-msgstr ""
+msgstr "Establecido en 2001, GBIF opera sobre la base de un Memorando de Entendimiento voluntario entre los gobiernos y las organizaciones transnacionales que colaboran como Participantes formales de GBIF. El MdeE establece la gobernanza y los principios básicos de un esfuerzo científico internacional coordinado para movilizar datos, habilidades y tecnologías necesarias para hacer que la información exhaustiva sobre biodiversidad esté disponible libremente para la ciencia y la toma de decisiones. Bajo el MdeE, los Participantes acuerdan establecer una delegación formal que les represente en la gobernanza de GBIF y también establecer un nodo, que sirva como punto focal para coordinar la publicación y uso de datos en su país u organización. La Secretaría de GBIF, con sede en Copenhague (Dinamarca), gestiona la infraestructura técnica y apoya las colaboraciones que hacen que GBIF siga funcionando y creciendo como una comunidad global."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:70
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide4.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide4.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:73
 #, no-wrap
 msgid "*Slide 4 - Why do countries join GBIF?*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - ¿Por qué se unen los países a GBIF?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:75
 msgid "Governments around the world join GBIF to build on and benefit from the community-based tools, standards, and practices developed and supported the network. This provides an efficient and effective means for Participants to build capacity and address data needs around biodiversity. GBIF helps its participants increase the returns on investment in research, data collection and digitization, create and coordinate partnerships aligned with national efforts, and guide efforts to provide data needed to fulfil national policy goals and global commitments."
-msgstr ""
+msgstr "Gobiernos al rededor del mundo se unen a GBIF para seguir construyendo y beneficiarse de las herramientas, estándares y mejores prácticas desarrolladas y apoyadas por la red. Esto proporciona un medio eficiente y efectivo para que los participantes desarrollen capacidades y aborden las necesidades de datos en torno a la biodiversidad. GBIF ayuda a sus participantes a aumentar el retorno de la inversión en investigación, toma de datos y digitalización, a crear y coordinar asociaciones alineadas con los esfuerzos nacionales, y a guiar los esfuerzos para proporcionar los datos necesarios para cumplir los objetivos de políticas nacionales y los compromisos globales."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:76
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide5.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide5.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:79
 #, no-wrap
 msgid "*Slide 5 - Governance and structure overview*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Perspectiva general de la Gobernanza y estructura*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:81
 msgid "The GBIF governing board meets annually to approve a work programme and make decisions that guide the direction of the network. Board members consist of Participant heads of delegation who represent their countries and organizations. Only Voting Participant Countries that make financial contributions to GBIF's annual budget have the right to vote. Associate Country Participants do not yet make financial contributions and can maintain this temporary status for up to five years, while Associate Organizational Participants are not required to make financial contributions. While Associate Participants cannot vote, delegations from all Participants take part in Governing Board discussions, endorse data publishers, and collaborate in meetings, programmes and other network activities. In between governing board meetings, and under the direction of an elected board chair, the elected members of standing committees for budget, science, nodes and the executive provide oversight and decision-making on operational activities led by the respective teams in the Secretariat."
-msgstr ""
+msgstr "El Governing Board de GBIF se reúne anualmente para aprobar un programa de trabajo y tomar decisiones que guíen la dirección de la red. Los miembros del Governing Board son los jefes de delegación de las entidades participantes que representan a sus países u organizaciones. Sólo los Países Participantes Votantes que hacen contribuciones financieras al presupuesto anual de GBIF tienen derecho a voto. Los Países Asociados Participantes que todavía no hacen contribuciones financieras y pueden mantener este estatus temporal hasta por cinco años, mientras que los Otros Participante Asociados no están obligados a hacer contribuciones financieras. Aunque los Otros Participantes Asociados no pueden votar, las delegaciones de todos los Participantes toman parte en los debates del Governing Board, respaldan a los publicadores de datos y colaboran en reuniones, programas y otras actividades de la red. Entre las reuniones del Governing Board, y bajo la dirección de un presidente electo, los miembros electos de los comités permanentes de presupuesto, ciencia, nodos y ejecutivo supervisan y toman decisiones sobre las actividades operativas lideradas por los respectivos equipos de la Secretaría."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:82
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide6.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:85

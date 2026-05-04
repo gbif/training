@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-04-08 16:29\n"
+"PO-Revision-Date: 2026-05-04 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:1
 #, no-wrap
 msgid "Handling taxonomic uncertainty"
-msgstr ""
+msgstr "Gestión de la incertidumbre taxonómica"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:4
@@ -32,7 +32,7 @@ msgstr "La incertidumbre en torno a la taxonomía de un punto de datos puede sur
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:9
 #, no-wrap
 msgid "Species misidentification"
-msgstr ""
+msgstr "Identificación errónea de especies"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:7
@@ -47,7 +47,7 @@ msgstr "Nombres nuevos"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:14
 msgid "Species identification is a complex process with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification.  Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise not possesed by data publishers may lead to a species misidentification.  As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:"
-msgstr ""
+msgstr "La identificación de especies es un proceso complejo. Las especies se describen generalmente a partir de un conjunto de caracteres identificados en una descripción publicada y vinculados a un espécimen tipo conservado en una colección científica, el cual se utiliza para validar dicha identificación. Cuando los taxones son muy similares o se requiere un conjunto de rasgos complejos para una identificación correcta, la falta de conocimientos taxonómicos específicos por parte de quienes publican los datos puede llevar a una identificación errónea. Como usuarios, deben comprender claramente cómo se realizan las determinaciones taxonómicas para su grupo de interés:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:16
@@ -67,7 +67,7 @@ msgstr "¿Existen especies relacionadas que podrían confundirse fácilmente con
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:21
 msgid "If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources.  Another approach may be to use associated data, such as collector information, media, DNA sequences, etc., to validate the taxonomic determination."
-msgstr ""
+msgstr "Si considera que existe el riesgo de que las especies se identifiquen incorrectamente, puede adoptar un enfoque conservador con los datos que utilice y usar únicamente aquellos vinculados a especímenes de colecciones donde sea posible la validación taxonómica, eliminando otras fuentes de datos. Otra opción es utilizar datos asociados, como información del recolector, medios de cultivo, secuencias de ADN, etc., para validar la determinación taxonómica."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:22
@@ -78,18 +78,18 @@ msgstr "Sinonimia "
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:29
 msgid "Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another.  Only one species name can be accepted, and other names are what we call synonyms.  These synonyms may still be in use to a lesser or greater extent, and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys.  https://www.gbif.org/species/search[Species search^] allows for filtering for accepted names and synonyms, and taxon keys can be used for programmatic searches of GBIF."
-msgstr ""
+msgstr "La sinonimia surge cuando una misma especie ha sido descrita varias veces y se le asigna un nombre diferente en cada descripción, o cuando se produce un cambio en su taxonomía; por ejemplo, cuando una especie pasa de un género a otro. Solo se acepta un nombre de especie, y los demás se denominan sinónimos. Estos sinónimos pueden seguir utilizándose en mayor o menor medida, por lo que al obtener datos de GBIF debe asegurarse de obtener la información correspondiente al nombre taxonómico que necesita. La estructura taxonómica de GBIF distingue entre nombres científicos aceptados y sinónimos, así como identificadores únicos en forma de claves taxonómicas. La búsqueda de especies en https://www.gbif.org/species/search permite filtrar por nombres aceptados y sinónimos, y las claves taxonómicas pueden utilizarse para realizar búsquedas programáticas en GBIF."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:30
 #, no-wrap
 msgid "Taxon Keys"
-msgstr ""
+msgstr "Claves de taxones"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:37
 msgid "Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr ""
+msgstr "Los nombres científicos pueden resultar confusos. Si accede a los datos de GBIF mediante programación, en lugar de a través del sitio web, las claves taxonómicas son una forma eficaz de definir búsquedas basadas en la taxonomía. Estas claves se emiten a nivel de especie, género, familia, orden, filo y reino. Se asignan identificadores únicos a los nombres aceptados, y sus sinónimos reciben el mismo identificador. Por lo tanto, puede ser útil ordenar las especies según sus claves taxonómicas únicas, proporcionadas durante la indexación del conjunto de datos por GBIF."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:38
@@ -100,5 +100,5 @@ msgstr "Nombres nuevos"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:43
 msgid "There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described or is not within a checklist used by GBIF to construct its backbone.  These names are flagged with the TAXON_MATCH_HIGHERRANK flag, indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level, e.g., genus or family.  This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non-exact match."
-msgstr ""
+msgstr "Puede haber casos en los que el nombre científico no coincida con ningún nombre en la base de datos de GBIF, quizás porque la especie se ha descrito recientemente o no figura en una lista de verificación utilizada por GBIF para construir su base de datos. Estos nombres se marcan con la bandera TAXON_MATCH_HIGHERRANK, que indica que el nombre científico no se ha reconocido, pero que el dato coincide a un nivel taxonómico superior, por ejemplo, género o familia. Esta bandera se puede utilizar para identificar y filtrar estos datos. Cuando los nombres están mal escritos o tienen un formato incorrecto, también existe la bandera TAXON_MATCH_FUZZY, que se puede utilizar para identificar y filtrar nombres que solo coinciden con la base de datos taxonómica mediante una coincidencia aproximada, no exacta."
 

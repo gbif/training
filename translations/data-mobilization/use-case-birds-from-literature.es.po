@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 18:34+0000\n"
-"PO-Revision-Date: 2026-04-12 18:53\n"
+"POT-Creation-Date: 2026-04-21 06:17+0000\n"
+"PO-Revision-Date: 2026-05-03 16:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,29 +17,12 @@ msgstr ""
 "X-Crowdin-File-ID: 45084\n"
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
-#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:88
-#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:49
-#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:59
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:76
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:62
-#: en/data-use/modules/ROOT/pages/exercise1.adoc:1
-#: en/epn/modules/ROOT/pages/assignments.adoc:8
-#: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
-#: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:13
-#, no-wrap
-msgid "Exercise 1"
-msgstr "Ejercicio 1"
-
-#. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:54
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:240
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:100
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:105
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:96
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:109
 #: en/data-use/modules/ROOT/pages/exercise3.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:25
 #, no-wrap
@@ -47,14 +30,13 @@ msgid "Exercise 3"
 msgstr "Ejercicio 3"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:64
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:248
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:148
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:74
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:103
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:108
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:91
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:99
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:112
 #, no-wrap
 msgid "*Data publishing*\n"
 msgstr "*Publicación de datos*\n"
@@ -64,9 +46,8 @@ msgstr "*Publicación de datos*\n"
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:91
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:52
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:62
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:79
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:90
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:65
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:75
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:93
 #, no-wrap
 msgid "*Data capture*\n"
 msgstr "*Captura de datos*\n"
@@ -76,9 +57,8 @@ msgstr "*Captura de datos*\n"
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:123
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:63
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:75
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:90
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:99
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:86
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:103
 #, no-wrap
 msgid "*Data management*\n"
 msgstr "*Gestión de datos*\n"
@@ -87,7 +67,7 @@ msgstr "*Gestión de datos*\n"
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:1
 #, no-wrap
 msgid "Use Case - Birds from literature"
-msgstr ""
+msgstr "Caso de Uso - Aves de la literatura"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:6
@@ -102,7 +82,7 @@ msgstr "Familiarícese con el escenario del caso de uso."
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:8
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:12
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:8
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:12
 #: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:14
@@ -126,7 +106,7 @@ msgstr "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wikimedia_Rechenbuch
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:13
 #, no-wrap
 msgid "data-mobilization::use-case-BL-scanner.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-scanner.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:17
@@ -142,7 +122,7 @@ msgstr "Es un escenario ficticio basado en un proyecto y en un conjunto de datos
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:21
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:17
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:21
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:23
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:19
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:18
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:24
 #: en/grscicoll/modules/ROOT/pages/description.adoc:3
@@ -223,7 +203,7 @@ msgstr "Este es un ejemplo de la descripción de una serie de observaciones de e
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:61
 #, no-wrap
 msgid "data-mobilization::use-case-BL-analogue.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-analogue.png"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:63
@@ -240,12 +220,12 @@ msgstr "Este es un ejemplo de la salida escaneada y traducida del ejemplo análo
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:67
 #, no-wrap
 msgid "data-mobilization::use-case-BL-scanned.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-scanned.png"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:70
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:48
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:63
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:59
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:48
 #, no-wrap
 msgid "Digital data description"
@@ -305,8 +285,8 @@ msgstr "URL de la página del libro digitalizado en la que se proporciona el reg
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:84
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:45
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:55
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:72
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:68
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:86
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
 #: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
 #: en/nodes/modules/ROOT/pages/developing-training.adoc:106
@@ -319,7 +299,21 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:87
 msgid "Download the xref:attachment$UC-BL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.8 MB)"
-msgstr ""
+msgstr "Descargue el archivo adjunto xref:attachment$UC-BL-exercise-sheet_EN.docx[ejercicio,opts=descargar]. (MS Word, 2,8 MB)"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:88
+#: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:49
+#: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:59
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:72
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:90
+#: en/data-use/modules/ROOT/pages/exercise1.adoc:1
+#: en/epn/modules/ROOT/pages/assignments.adoc:8
+#: en/epn/modules/ROOT/pages/engaging-stakeholders.adoc:13
+#: en/nodes/modules/ROOT/pages/engaging-stakeholders.adoc:13
+#, no-wrap
+msgid "Exercise 1"
+msgstr "Ejercicio 1"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:94
@@ -336,27 +330,27 @@ msgstr "Los datos originales estaban en alemán y, para facilitar su uso cuando 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:101
 msgid "{empty}2. Cerchneis tinnunculus, Linn. ( \"Taarnfalk\") nests in several steeples around Viborg."
-msgstr ""
+msgstr "{empty}2. Cerchneis tinnunculus, Linn. (\"Taarnfalk\") anida en varios campanarios de los alrededores de Viborg."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:103
 msgid "At the churches of Mönsted and Daubjerg there were several family groups in 1880, each of 7 individuals, suggesting a particularly abundant source of food on the surrounding heather (lizards). In the area of Thisted, where the tower falcon broods very often, young were always present in broods of 6, only once did I find a group of 7 on Egebäksande (H.)"
-msgstr ""
+msgstr "En las iglesias de Mönsted y Daubjerg había en 1880 varios grupos familiares, cada uno de 7 individuos, lo que sugiere una fuente de alimento especialmente abundante en los brezos de los alrededores (lagartijas). En la zona de Thisted, donde el halcón de torre empolla muy a menudo, los jóvenes estaban siempre presentes en nidadas de 6, sólo una vez encontré un grupo de 7 en Egebäksande (H.)"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:105
 msgid "In Horsens I found kestrels brooding on the churches of Vähr, Hansted, Hundslund, Thyrsted and Oelsted. In the steeple of Vähr I found a nest with 6 eggs on 6 May 1875, 6 eggs on 30 April 1876, 4 eggs on 28 April 1878; in 1877 and 1879 there were none, on 2 May 1880 they had 5 eggs, in 1882 also 5 eggs, and in 1883 seven."
-msgstr ""
+msgstr "En Horsens encontré cernícalos empollando en las iglesias de Vähr, Hansted, Hundslund, Thyrsted y Oelsted. En el campanario de Vähr encontré un nido con 6 huevos el 6 de mayo de 1875, 6 huevos el 30 de abril de 1876, 4 huevos el 28 de abril de 1878; en 1877 y 1879 no había ninguno, el 2 de mayo de 1880 tenían 5 huevos, en 1882 también 5 huevos, y en 1883 siete."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:107
 msgid "In Oelsted 5 eggs on 3 May 1879, in 1882 also 5, and in 1883 6 eggs."
-msgstr ""
+msgstr "En Oelsted 5 huevos el 3 de mayo de 1879, en 1882 también 5, y en 1883 6 huevos."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:109
 msgid "On the churches (Our Lady’s and St. Peter’s) of Copenhagen, I have often seen it in the autumn and winter of 1879; in spring 1880, it brooded on Our Lady’s church, the \"round tower\" and the law firm building (in a valve) and certainly also on St. Peter's Church. (F.)"
-msgstr ""
+msgstr "En las iglesias (de Nuestra Señora y de San Pedro) de Copenhague, lo he visto a menudo en el otoño y el invierno de 1879; en la primavera de 1880, se posó sobre la iglesia de Nuestra Señora, la \"torre redonda\" y el edificio del bufete de abogados (en una válvula) y, sin duda, también sobre la iglesia de San Pedro. (F.)"
 
 #. End block - Begin translation again
 #. type: Plain text
@@ -371,8 +365,8 @@ msgstr "Cree una hoja de cálculo utilizando los campos de datos enumerados en l
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:117
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:86
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:95
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:82
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:99
 msgid "Use the exercise sheet to provide your answers and submit the spreadsheet created in the previous step."
 msgstr "Use la hoja de ejercicios para proporcionar sus respuestas y envíe la hoja de cálculo creada en el paso previo."
 
@@ -385,9 +379,8 @@ msgstr "En los ejemplos utilizados, los registros biológicos individuales no si
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:120
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:60
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:72
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:87
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:96
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:73
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:83
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:100
 #: en/data-use/modules/ROOT/pages/exercise2.adoc:1
 #: en/epn/modules/ROOT/pages/assignments.adoc:16
 #, no-wrap
@@ -407,7 +400,7 @@ msgstr "A través de la georreferenciación retrospectiva, se han agregado coord
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:134
 msgid "Download xref:attachment$UC-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 KB)"
-msgstr ""
+msgstr "Descargar xref:attachment$UC-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 KB)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:135
@@ -452,15 +445,14 @@ msgstr "Para este ejercicio, asumirá el rol de la persona responsable de public
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:154
 msgid "Download xref:attachment$UC-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 KB)"
-msgstr ""
+msgstr "Descargar xref:attachment$UC-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 KB)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:79
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:94
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:110
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:111
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:106
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:115
 msgid "Use the previously provided IPT installation to publish the given dataset."
 msgstr "Utilice la instalación IPT previamente proporcionada para publicar el conjunto de datos dado."
 
@@ -468,9 +460,8 @@ msgstr "Utilice la instalación IPT previamente proporcionada para publicar el c
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:79
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:94
-#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:110
-#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:111
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
+#: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:106
+#: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:115
 msgid "Use the exercise sheet to provide your answers and link to the published dataset."
 msgstr "Utilice la hoja de ejercicios para proporcionar sus respuestas y el enlace al conjunto de datos publicado."
 

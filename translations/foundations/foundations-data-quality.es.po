@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-04-12 21:02\n"
+"POT-Creation-Date: 2026-04-19 17:09+0000\n"
+"PO-Revision-Date: 2026-05-04 13:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -17,9 +17,30 @@ msgstr ""
 "X-Crowdin-File-ID: 45028\n"
 
 #. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:388
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:396
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:727
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:735
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:747
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -54,12 +75,12 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/navigation.adoc:32
 #: en/grscicoll/modules/ROOT/pages/recommendations.adoc:25
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:25
-#: en/home/modules/ROOT/pages/index.adoc:37
-#: en/home/modules/ROOT/pages/index.adoc:38
-#: en/home/modules/ROOT/pages/index.adoc:45
-#: en/home/modules/ROOT/pages/index.adoc:46
-#: en/home/modules/ROOT/pages/index.adoc:48
-#: en/home/modules/ROOT/pages/index.adoc:49
+#: en/home/modules/ROOT/pages/index.adoc:33
+#: en/home/modules/ROOT/pages/index.adoc:34
+#: en/home/modules/ROOT/pages/index.adoc:39
+#: en/home/modules/ROOT/pages/index.adoc:40
+#: en/home/modules/ROOT/pages/index.adoc:42
+#: en/home/modules/ROOT/pages/index.adoc:43
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:157
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:291
@@ -249,6 +270,65 @@ msgstr ""
 #, no-wrap
 msgid "&nbsp;"
 msgstr "&nbsp;"
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:736
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:399
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:738
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
@@ -441,7 +521,7 @@ msgstr "Calidad de (los) datos "
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:5
 msgid "This module provides an introduction to data quality."
-msgstr ""
+msgstr "Este módulo ofrece una introducción a la calidad de los datos."
 
 #. type: Title ==
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:6
@@ -452,549 +532,504 @@ msgstr "Calidad de (los) datos"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:11
 msgid "In this video (12:26), you will review terminology used in this course."
-msgstr ""
+msgstr "En este vídeo (12:26), repasará la terminología utilizada en este curso."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:13
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-data_quality_v1-720p.mp4[download,opts=download] it locally. (MP4 - 56.4 MB)"
-msgstr ""
-
-#. type: Title ==
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
-msgstr ""
-
-#. type: Block title
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#, no-wrap
-msgid "Click to expand"
-msgstr ""
+msgstr "Si no puede ver el vídeo incrustado, puede xref:attachment$foundations-data_quality_v1-720p.mp4[download,opts=download] hacerlo localmente. (MP4 - 56,4 MB)"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:30
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide1.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide1.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:33
 #, no-wrap
 msgid "*Slide 1 - Foundations - Data Quality*\n"
-msgstr ""
+msgstr "*Página 1 - Fundamentos - Calidad de los datos*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:35
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:48
 msgid "The two primary concepts that we will explore are Fitness for Use and Measures of Quality.  These two ideas will lay the foundation for more detailed data quality concepts and techniques in the future."
-msgstr ""
+msgstr "Los dos conceptos principales que exploraremos son Aptitud para el Uso (Fitness for Use) y Medidas de Calidad. Estas dos ideas sentarán las bases para conceptos y técnicas de calidad de datos más detallados en el futuro."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:42
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:55
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2550045989 Ictinaetus malayesnsis (Temminck, 1822)  Rights holder: cupag_kelley License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/58972976"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/2550045989 Ictinaetus malayesnsis (Temminck, 1822) Titular de los derechos: cupag_kelley Licencia: http://creativeco...censes/by-nc/4.0/ Referencia: https://www.inatu...g/photos/58972976"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:43
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide2.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide2.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:46
 #, no-wrap
 msgid "*Slide 2 - Key concepts of data quality*\n"
-msgstr ""
+msgstr "*Diapositiva 2 - Conceptos clave de calidad de datos*\n"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:56
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide3.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide3.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:59
 #, no-wrap
 msgid "*Slide 3 - Data quality*\n"
-msgstr ""
+msgstr "*Diapositiva 3 - Calidad de datos*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:63
 msgid "Before we begin, I’d like to take a moment to explain why data quality is important. Cleanliness is next to Godliness is an expression that we sometimes use to describe the importance of data quality. In this case, Godliness can be understood as holiness, and when something is holy it is considered by many to be worthy of our trust.    So, in the case of data quality, we are more likely to trust and to use data that has been cleaned and cared for."
-msgstr ""
+msgstr "Antes de comenzar, me gustaría tomarme un momento para explicar por qué la calidad de los datos es importante. La Limpieza está al lado de lo Divino, es una expresión que a veces usamos para describir la importancia de la calidad de los datos. En este caso, lo Divino puede entenderse como santidad, y cuando algo es santo, muchos lo consideran digno de nuestra confianza.    Entonces, en el caso de la calidad de los datos, es más probable que confiemos y usemos los datos que se han limpiado y cuidado."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:70
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2611012759 Rhododendron kasangiae D.G. Long & Rushforth Rights holder: Sangay Wangchuk License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/68350578"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/2611012759 Rhododendron kasangiae D.G. Long & Rushforth Titular de los derechos: Sangay Wangchuk Licencia: http://creativeco...censes/by-nc/4.0/ Referencia: https://www.inatu...g/photos/68350578"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:71
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide4.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide4.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:74
 #, no-wrap
 msgid "*Slide 4 - Data quality*\n"
-msgstr ""
+msgstr "*Diapositiva 4 - Calidad de datos*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:80
 msgid "Stepping back into the domain of biodiversity informatics, the classic definition of data quality was coined in 2005 by Arthur Chapman. He wrote:   “data quality is related to use and cannot be assessed independently of the user. In a database, the data have no actual quality or value (Dalcin 2004); they only have potential value that is realized when someone uses the data to do something useful. Information quality relates to its ability to satisfy its customers and to meet customers’ needs (English 1999).” Arthur Chapman”   And so, for us, as individuals who are responsible for maintaining data, we want the data we publish to be as satisfying to all of our potential users as possible. To do this, we seek to provide the highest quality data."
-msgstr ""
+msgstr "Volviendo al ámbito de la informática de la biodiversidad, la definición clásica de calidad de los datos fue acuñada en 2005 por Arthur Chapman. Escribió:  \"La calidad de los datos está relacionada con el uso y no puede evaluarse independientemente del usuario. En una base de datos, los datos no tienen calidad ni valor real (Dalcin 2004); sólo tienen un valor potencial que se materializa cuando alguien utiliza los datos para hacer algo útil. La calidad de la información está relacionada con su capacidad para satisfacer a sus clientes y satisfacer sus necesidades (English 1999)\". Arthur Chapman\"  Y así, para nosotros, como responsables del mantenimiento de los datos, queremos que los datos que publicamos sean lo más satisfactorios posible para todos nuestros usuarios potenciales. Para ello, tratamos de ofrecer datos de la máxima calidad."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:87
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2634451942 Dendrochirus zebra (Cuvier, 1829)  Rights holder: Ryan Yue Wah Chan License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/76358738"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/2634451942 Dendrochirus zebra (Cuvier, 1829)  Titular de los derechos: Ryan Yue Wah Chan Licencia: http://creativeco...censes/by-nc/4.0/ Referencia: https://www.inatu...g/photos/76358738"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:88
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide5.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide5.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:91
 #, no-wrap
 msgid "*Slide 5 - Data quality*\n"
-msgstr ""
+msgstr "*Diapositiva 5 - Calidad de datos*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:95
 msgid "To help you to accomplish this task, we will explore Fitness for Use. We will also explore the Measures of Quality, specifically, Correctness and Consistency.    These are important concepts that you will need to know and be able to articulate about your own data or data that you maintain."
-msgstr ""
+msgstr "Para ayudarle a llevar a cabo esta tarea, exploraremos la Adecuación para el Uso. También exploraremos las Medidas de Calidad, en concreto, la Corrección y la Coherencia.       Se trata de conceptos importantes que deberá conocer y ser capaz de articular sobre sus propios datos o los datos que mantiene."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:102
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2238803261 Papilio paris Linnaeus, 1758 Rights holder: CheongWeei Gan License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/35832506"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/2238803261 Papilio paris Linnaeus, 1758 Titular de los derechos: CheongWeei Gan Licencia: http://creativeco...censes/by-nc/4.0/ Referencia: https://www.inatu...g/photos/35832506"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:103
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide6.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide6.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:106
 #, no-wrap
 msgid "*Slide 6 - Fitness for use in the real world*\n"
-msgstr ""
+msgstr "*Diapositiva 6 - Aptitud para el uso en el mundo real*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:108
 msgid "Let’s begin with an example of Fitness for Use. A shoemaker creates a pair of clogs for the purpose of covering a person’s feet, just like those at the top of this image."
-msgstr ""
+msgstr "Comencemos con un ejemplo de Aptitud para el Uso.Un zapatero crea un par de zuecos con el fin de cubrir los pies de una persona, como los que aparecen en la parte superior de esta imagen."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:110
 msgid "Image Reference: https://commons.wikimedia.org/wiki/File:Schuhmacher-1568.png"
-msgstr ""
+msgstr "Referencia de la imagen: https://commons.wikimedia.org/wiki/File:Schuhmacher-1568.png"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:111
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide7.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide7.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:114
 #, no-wrap
 msgid "*Slide 7 - Fitness for use in the real world*\n"
-msgstr ""
+msgstr "*Diapositiva 7 - Aptitud para el uso en el mundo real*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:118
 msgid "When the shoemaker made these shoes, did he know that this girl would use them for dancing?   Maybe."
-msgstr ""
+msgstr "Cuando el zapatero hizo estos zapatos, ¿sabía que esta chica los usaría para bailar?   Tal vez."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:120
 msgid "Image Reference: https://www.publicdomainpictures.net/en/view-image.php?image=157723&picture=&jazyk=CN"
-msgstr ""
+msgstr "Referencia de la imagen: https://www.publicdomainpictures.net/en/view-image.php?image=157723&picture=&jazyk=CN"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:121
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide8.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide8.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:124
 #, no-wrap
 msgid "*Slide 8 - Fitness for use in the real world*\n"
-msgstr ""
+msgstr "*Diapositiva 8 - Aptitud para el uso en el mundo real*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:130
 msgid "Do you think that the same shoemaker knew that a gardener might one day use the shoes as plant pots?   Maybe not.    Image Reference: Sharon Grant [https://www.flickr.com/photos/rondls_pics/4941594970/in/album-72157616943444786/]"
-msgstr ""
+msgstr "¿Cree que el mismo zapatero sabía que un jardinero podría utilizar algún día los zapatos como macetas?    Quizás no    Imagen de referencia: Sharon Grant [https://www.flickr.com/photos/rondls_pics/4941594970/in/album-72157616943444786/]"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:131
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide9.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide9.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:134
 #, no-wrap
 msgid "*Slide 9 - Fitness for use*\n"
-msgstr ""
+msgstr "*Diapositiva 9 - Aptitud para el uso*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:138
 msgid "We often hear people talk about data’s Fitness for Use in the ecological sciences, but what we need to remember is that data is not inherently good or bad. Rather it is the user of the data who gives data its value.    For example, for one person, data identified to the level of Genus may be sufficient to run predictive models of ecological niches. For a person studying a particular taxon, that same genus-level data will be much less useful than more detailed occurrences with subspecies information."
-msgstr ""
+msgstr "A menudo oímos hablar de la idoneidad de los datos para su uso en las ciencias ecológicas, pero lo que debemos recordar es que los datos no son intrínsecamente buenos o malos. Más bien es el usuario de los datos quien les da su valor.     Por ejemplo, para una persona, los datos identificados a nivel de género pueden ser suficientes para ejecutar modelos predictivos de nichos ecológicos. Para una persona que estudie un taxón concreto, esos mismos datos a nivel de género serán mucho menos útiles que ocurrencias más detalladas con información sobre subespecies."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:145
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/1621797237 Calotes mystaceus Duméril & Bibron, 1837 Rights holder: robbythai License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...rg/photos/9949104"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/1621797237 Calotes mystaceus Duméril & Bibron, 1837 Titular de los derechos: robbythai Licencia: http://creativeco...censes/by-nc/4.0/ Referencia: https://www.inatu...rg/photos/9949104"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:146
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide10.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide10.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:149
 #, no-wrap
 msgid "*Slide 10 - Fitness for use*\n"
-msgstr ""
+msgstr "*Diapositiva 10 - Aptitud para el uso*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:156
 msgid "So, what is Fitness for Use and how does it relate to data?   When Chapman discusses Fitness for Use, he says that once a dataset has been created and shared there are two primary perspectives on how those data might be used; the perspective of the creator and the perspective of the user.    To help somebody to decide if your data is trustworthy or useful enough for them to use, you have to understand your data and how to convey those data to the potential user. These are some of the important questions about the metadata, or characteristics of your data, that you should be able to answer and share with others:  "
-msgstr ""
+msgstr "Entonces, ¿qué es la adecuación para el uso y cómo se relaciona con los datos?    Cuando Chapman habla de la adecuación para el uso, dice que una vez que se ha creado y compartido un conjunto de datos, existen dos perspectivas principales sobre cómo se pueden utilizar esos datos: la perspectiva del creador y la perspectiva del usuario.    Para ayudar a alguien a decidir si tus datos son fiables o lo suficientemente útiles, debes comprenderlos y saber cómo transmitirlos al usuario potencial. Estas son algunas de las preguntas importantes sobre los metadatos, o características de tus datos, que deberías poder responder y compartir con los demás:  "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:157
 msgid "How Accessible are your data? How easily can someone access your data? People can’t use the data if they can’t find the data."
-msgstr ""
+msgstr "¿Qué tan Accesibles son sus datos?¿Con qué facilidad puede alguien acceder a sus datos?Las personas no pueden usar los datos si no pueden encontrarlos."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:158
 msgid "How Accurate are your data? Can your data be trusted? For example, are your identifications current and were they made by known experts?"
-msgstr ""
+msgstr "¿Qué tan Exactos son sus datos?¿Se puede confiar en sus datos? Por ejemplo, ¿sus identificaciones están actualizadas y fueron realizadas por expertos conocidos?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:159
 msgid "How Timely are they? When will the data be made available? How often are they updated?"
-msgstr ""
+msgstr "¿Cuán Oportunos son?¿Cuándo estarán disponibles los datos?¿Con qué frecuencia se actualizan?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:160
 msgid "How Complete or Comprehensive are the data? Which parts of your dataset are documented fully? How well do the data cover a particular time, place, or domain?"
-msgstr ""
+msgstr "¿Qué tan Completos o Exhaustivos son los datos?¿Qué partes de su conjunto de datos están completamente documentadas?¿Cuán bien cubren los datos un momento, lugar o dominio en particular?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:161
 msgid "How Consistent are they? Is the data in each field always of the same type? Was the data collected using the same documented protocols?"
-msgstr ""
+msgstr "¿Qué tan Consistentes son?¿Los datos de cada campo son siempre del mismo tipo?¿Se recopilaron los datos utilizando los mismos protocolos documentados?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:162
 msgid "How Relevant are they? How similar is this dataset to others that have been used successfully for the same purpose?"
-msgstr ""
+msgstr "¿Qué tan Relevantes son?¿Qué tan similar es este conjunto de datos a otros que se han utilizado con éxito para el mismo propósito?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:163
 msgid "How Detailed are the data? How much resolution is there in your data? At what scale can they be used for mapping?"
-msgstr ""
+msgstr "¿Qué tan Detallados son los datos? ¿Cuánta resolución hay en tus datos? ¿En qué escala se pueden utilizar para el mapeo?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:164
 msgid "Is the data Easy to interpret? Is the dataset documented in a clear and concise way? If your documents are handwritten, are they legible?"
-msgstr ""
+msgstr "¿Los datos son Fáciles de interpretar? ¿Está el conjunto de datos documentado de una manera clara y concisa? Si tus documentos están escritos a mano, ¿son legibles?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:171
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/1932569869 Amphidromus goldbergi Thach & F. Huber, 2018 Rights holder: Manual Caballer License: http://creativeco.../licenses/by/4.0/ Identifier: https://mediaphoto.mnhn.fr/media/1546617441086USKcRv3tfQkB8mZo"
-msgstr ""
+msgstr "Foto: GBIF: https://www.gbif.org/occurrence/1932569869 Amphidromus goldbergi Thach & F. Huber, 2018 Titular de los derechos: Manual Caballer Licencia: http://creativeco.../licenses/by/4.0/ Identificador: https://mediaphoto.mnhn.fr/media/1546617441086USKcRv3tfQkB8mZo"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:172
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide11.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide11.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:175
 #, no-wrap
 msgid "*Slide 11 - Measures of quality*\n"
-msgstr ""
+msgstr "*Diapositiva 11 - Medidas de calidad*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:177
 msgid "While Fitness for Use is subjective, measures of data quality are much less so. Chapman states that:"
-msgstr ""
+msgstr "Mientras que la adecuación para el uso es subjetiva, las medidas de calidad de los datos lo son mucho menos. Chapman afirma que:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:179
 msgid "\"All data include error – there is no escaping it! It is knowing what the error is that is important, and knowing if the error is within acceptable limits for the purpose to which the data are to be put. (Chapman 2005)”"
-msgstr ""
+msgstr "\"Todos los datos contienen errores: ¡no hay escapatoria! Lo importante es saber cuál es el error, y saber si el error está dentro de los límites aceptables para el fin al que se destinan los datos. (Chapman 2005)\""
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:180
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide12.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide12.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:183
 #, no-wrap
 msgid "*Slide 12 - Measures of quality*\n"
-msgstr ""
+msgstr "*Diapositiva 12 - Medidas de calidad*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:187
 msgid "We can use two measures of quality, Correctness and Consistency, to help us to document these inherent errors in data.    Correctness, sometimes called accuracy, is “How close the recorded value is to the actual, real-world value”. "
-msgstr ""
+msgstr "Podemos utilizar dos medidas de calidad, la corrección y la consistencia, para ayudarnos a documentar estos errores inherentes en los datos.    La corrección, a veces llamada precisión, es \"qué tan cerca está el valor registrado del valor real\". "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:191
 msgid "In this diagram accuracy is how close a given dot is to the centre of the target.    Consistency, sometimes called precision, is “How often you get it right”"
-msgstr ""
+msgstr "En este diagrama, la precisión es lo cerca que está un punto determinado del centro del blanco.        La consistencia, a veces llamada precisión, es \"la frecuencia con la que aciertas\""
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:195
 msgid "In this diagram, precision is how close the dots are together irrespective of how close they are to the centre of the target.    These are measures of how well the data gatherer was able to capture the true value being investigated. Knowing these properties of your data will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "En este diagrama, la precisión es lo cerca que están los puntos entre sí, independientemente de lo cerca que estén del centro del objetivo.        Son medidas de la capacidad del recopilador de datos para captar el verdadero valor investigado. Conocer estas propiedades de los datos te ayudará a comprender las formas en que puedes y no puedes limpiar, validar y procesar los datos."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:196
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide13.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide13.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:199
 #, no-wrap
 msgid "*Slide 13 - Measures of quality - Accuracy vs precision*\n"
-msgstr ""
+msgstr "*Diapositiva 13 - Medidas de calidad - Exactitud frente a precisión*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:201
 msgid "This image provides a clear set of illustrations of accuracy and precision. This may be a good image to keep with you when you have to explain these concepts to others."
-msgstr ""
+msgstr "Esta imagen proporciona un conjunto claro de ilustraciones de exactitud y precisión. Esta puede ser una buena imagen para tenerla con usted cuando tenga que explicar estos conceptos a otras personas."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:203
 msgid "Image source: https://kaiserscience.files.wordpress.com/2015/09/precision_accuracy.png"
-msgstr ""
+msgstr "Fuente de la imagen: https://kaiserscience.files.wordpress.com/2015/09/precision_accuracy.png"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:204
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide14.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide14.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:207
 #, no-wrap
 msgid "*Slide 14 - Measures of quality correctness*\n"
-msgstr ""
+msgstr "* Diapositiva 14 - Medidas de corrección de la calidad*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:211
 msgid "Let’s look at some examples of Correctness, or accuracy, and how it can help us think about the practicalities of data cleaning. Remember that Correctness is how close you are to the center of a target.    Let’s look at an example."
-msgstr ""
+msgstr "Veamos algunos ejemplos de corrección o precisión, y cómo puede ayudarnos a pensar en los aspectos prácticos de la limpieza de datos. Recuerda que la corrección se refiere a qué tan cerca estás del centro de un objetivo.     Veamos un ejemplo"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:212
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide15.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide15.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:215
 #, no-wrap
 msgid "*Slide 15 - Measures of quality correctness - Example 1*\n"
-msgstr ""
+msgstr "*Diapositiva 15 - Medidas de corrección de la calidad - Ejemplo 1*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:221
 msgid "For this example let’s imagine your dataset contains records of fossil bird specimens from the Early Triassic Period. The taxonomic name for a number of specimens in your dataset is recorded as Thismia.    Do you know if Thismia is a taxon of ancient birds?   Image reference: https://commons.wikimedia.org/wiki/File:Archaeopteryx_fossil.jpg"
-msgstr ""
+msgstr "Para este ejemplo, imaginemos que su conjunto de datos contiene registros de especímenes fósiles de aves del período Triásico Temprano. El nombre taxonómico de varios especímenes en su conjunto de datos es Thismia.    ¿Sabe si Thismia es un taxón de aves antiguas?    Referencia de la imagen: https://commons.wikimedia.org/wiki/File:Archaeopteryx_fossil.jpg"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:222
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide16.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide16.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:225
 #, no-wrap
 msgid "*Slide 16 - Measures of quality correctness - Example 1*\n"
-msgstr ""
+msgstr "*Diapositiva 16 - Medidas de corrección de la calidad - Ejemplo 1*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:238
 msgid "In this case, the answer is no!    Thismia is a very rare plant from the State of Illinois in the United States.    As a result, the correctness, or accuracy, of the taxonomic name is low. Perhaps because the data entry technician was not a paleontologist. As a result, all of the names in the dataset might need to be checked and corrected by an expert before the data could be used.    Photo: GBIF: (n/a)  Thismia rodwayi Rights holder: Tindo2 License: http://creativeco...censes/by-nc/4.0/ Reference(n/a): https://www.inaturalist.org/photos/596775?size=large"
-msgstr ""
+msgstr "En este caso, ¡la respuesta es no!    Thismia es una planta muy rara del estado de Illinois en los Estados Unidos.      Por lo tanto, la exactitud del nombre taxonómico es baja. Quizás porque el técnico de entrada de datos no era paleontólogo. En consecuencia, es posible que todos los nombres en el conjunto de datos deban ser revisados ​​y corregidos por un experto antes de que los datos puedan utilizarse.    Foto: GBIF: (n/a)  Thismia rodwayi Titular de los derechos: Tindo2 Licencia: http://creativeco...censes/by-nc/4.0/ Referencia(n/a): https://www.inaturalist.org/photos/596775?size=large"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:239
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide17.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide17.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:242
 #, no-wrap
 msgid "*Slide 17 - Measures of quality correctness - Example 2*\n"
-msgstr ""
+msgstr "*Diapositiva 17 - Medidas de corrección de la calidad - Ejemplo 2*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:246
 msgid "Let’s look at another example. Here, your dataset contains specimens collected in a place called Kalamazoo by a scientist named Richard Spruce.    We must ask ourselves:"
-msgstr ""
+msgstr "Veamos otro ejemplo. En este caso, su conjunto de datos contiene especímenes recolectados en un lugar llamado Kalamazoo por un científico llamado Richard Spruce.    Debemos preguntarnos:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:248
 msgid "Is 49007 the right postal code for Kalamazoo?"
-msgstr ""
+msgstr "¿Es 49007 el código postal correcto para Kalamazoo?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:250
 msgid "Did Richard Spruce collect in Michigan?"
-msgstr ""
+msgstr "¿Coleccionó Richard Spruce en Michigan?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:251
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide18.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide18.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:254
 #, no-wrap
 msgid "*Slide 18 - Measures of quality correctness - Example 2*\n"
-msgstr ""
+msgstr "*Diapositiva 18 - Medidas de corrección de la calidad - Ejemplo 2*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:256
 msgid "In this case, the answer is yes to our first question, 49007 is a postal code for Kalamazoo, so the accuracy of the locality is good, but what about the collector, Richard Spruce?"
-msgstr ""
+msgstr "En este caso, la respuesta es sí a nuestra primera pregunta, 49007 es un código postal para Kalamazoo, por lo que la precisión de la localidad es buena, pero ¿qué pasa con el coleccionista, Richard Spruce?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:260
 msgid "Image references: https://en.wikipedia.org/wiki/Richard_Spruce#/media/File:Spruce_Richard.jpg https://archive.org/details/notesofbotanisto21908spru"
-msgstr ""
+msgstr "Referencias de imágenes: https://en.wikipedia.org/wiki/Richard_Spruce#/media/File:Spruce_Richard.jpg https://archive.org/details/notesofbotanisto21908spru"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:261
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide19.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide19.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:264
 #, no-wrap
 msgid "*Slide 19 - Measures of quality correctness - Example 2*\n"
-msgstr ""
+msgstr "*Diapositiva 19 - Medidas de corrección de la calidad - Ejemplo 2*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:270
 msgid "There is, in fact, a famous botanist named Richard Spruce. He was born in 1817 and died in 1893, but he conducted his collecting in the Amazon Basin and Andes mountains in South America. Something is not quite right, so we need to find out more about the collector before we can be confident in the correctness of these data.    Image references: https://en.wikipedia.org/wiki/Richard_Spruce#/media/File:Spruce_Richard.jpg https://archive.org/details/notesofbotanisto21908spru"
-msgstr ""
+msgstr "De hecho, existió un famoso botánico llamado Richard Spruce. Nació en 1817 y murió en 1893, pero realizó sus expediciones en la cuenca del Amazonas y la cordillera de los Andes en Sudamérica. Algo no cuadra del todo, así que necesitamos averiguar más sobre el recolector antes de poder estar seguros de la veracidad de estos datos.    Referencias de imágenes: https://en.wikipedia.org/wiki/Richard_Spruce#/media/File:Spruce_Richard.jpg https://archive.org/details/notesofbotanisto21908spru"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:271
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide20.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide20.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:274
 #, no-wrap
 msgid "*Slide 20 - Measures of quality consistency*\n"
-msgstr ""
+msgstr "*Diapositiva 20 - Medidas de consistencia de la calidad*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:280
 msgid "Let’s take a look now at what Consistency, or precision, means to data.    Consistency represents how many times you get the same answer, regardless of where the center of the target lies.    For example, your dataset contains botanical occurrences including a field, or column, named “Full Name”. This field contains the name of the specimen collector. As you can see there are five different names, but how many unique collectors are there? Can you tell just by looking at the names?"
-msgstr ""
+msgstr "Veamos ahora qué significa consistencia o precisión en los datos.    La consistencia representa cuántas veces se obtiene la misma respuesta, independientemente de dónde se encuentre el centro del objetivo.     Por ejemplo, su conjunto de datos contiene registros botánicos, incluyendo un campo o columna llamado \"Nombre completo\". Este campo contiene el nombre del recolector de especímenes. Como puede ver, hay cinco nombres diferentes, pero ¿cuántos recolectores únicos hay? ¿Puede determinarlo solo con mirar los nombres?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:281
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide21.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide21.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:284
 #, no-wrap
 msgid "*Slide 21 - Measures of quality consistency*\n"
-msgstr ""
+msgstr "*Diapositiva 21 - Medidas de consistencia de la calidad*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:296
 msgid "Sometimes, if you are familiar with the dataset, you might know how many collectors are represented just by looking at the data, but if you don’t know these data well, you might need to do some research, ask some questions or look at the original field notes.    In this example, if you guessed that these five names represent two or three unique collectors, you would be right:   In blue, Joseph Dalton Hooker AND Hook.f. are the same person. Hook.f. is the abbreviation used for Joseph Dalton Hooker (1817-1911).    In green, W. J. Hooker and Hook. are the same person.  Hook. is the abbreviation for William Jackson Hooker (1785-1865). William was actually Joseph’s father.    Finally, in the red, there is “Hooker, J.” This entry could be an error or typo of either Joseph or William Hooker, OR it could be a third person with a similar name. Thus, more research would be needed to clarify these data.    Reference: http://www.ipni.org/ipni/advAuthorSearch.do;jsessionid=087C235AF7757EF21CA33FF5325C94C7?find_forename=&find_surname=Hooker&find_abbreviation=&find_isoCountry=&output_format=normal&back_page=authorsearch&query_type=by_query"
-msgstr ""
+msgstr "A veces, si estás familiarizado con el conjunto de datos, es posible que sepas cuántos recolectores están representados con solo mirar los datos, pero si no conoces bien estos datos, es posible que necesites investigar un poco, hacer algunas preguntas o consultar las notas de campo originales.   En este ejemplo, si adivinaste que estos cinco nombres representan a dos o tres coleccionistas únicos, estarías en lo cierto:   En azul, Joseph Dalton Hooker y Hook.f. son la misma persona. Hook.f. es la abreviatura utilizada para Joseph Dalton Hooker (1817-1911).   En verde, W. J. Hooker y Hook. son la misma persona. Hook. es la abreviatura de William Jackson Hooker (1785-1865). William era en realidad el padre de Joseph.    Finalmente, en rojo, aparece “Hooker, J.”. Esta entrada podría ser un error o una errata de Joseph o William Hooker, o bien podría tratarse de una tercera persona con un nombre similar. Por lo tanto, se necesitaría más investigación para aclarar estos datos.   Referencia: http://www.ipni.org/ipni/advAuthorSearch.do;jsessionid=087C235AF7757EF21CA33FF5325C94C7?find_forename=&find_surname=Hooker&find_abbreviation=&find_isoCountry=&output_format=normal&back_page=authorsearch&query_type=by_query"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:297
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide22.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide22.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:300
 #, no-wrap
 msgid "*Slide 22 - Data cleaning*\n"
-msgstr ""
+msgstr "*Diapositiva 22 - Limpieza de datos*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:312
 msgid "We have just discussed several simple illustrations of two measures of data quality. These examples should give you a basic understanding about how to identify the inaccuracies and imprecisions in data.    How we document and fix these issues or errors is a process that we call data cleaning.  More specifically:   Data cleaning is the process of correcting or removing dirty data caused by contradictions, disparities, keying mistakes, missing bits, and more. It also includes validation of the changes made, and may require normalization.    Our data cleaning, or lack thereof, will affect how data users perceive your data’s fitness for use.    It is not necessary for you to do all the data cleaning yourself, in fact, a common misconception is that all errors MUST be fixed before you can share your data.    The truth is that you can only clean as much data as your time, knowledge, and resources permit. As a result, it is essential to document what you know and what you do not know about your data so that when you do share them, data users will know the level of the quality of your data."
-msgstr ""
+msgstr "Acabamos de analizar varios ejemplos sencillos de dos medidas de calidad de datos. Estos ejemplos deberían proporcionarle una comprensión básica de cómo identificar las inexactitudes e imprecisiones en los datos.   La forma en que documentamos y corregimos estos problemas o errores es un proceso que llamamos limpieza de datos. Más específicamente:   La limpieza de datos es el proceso de corregir o eliminar datos erróneos causados ​​por contradicciones, discrepancias, errores de introducción de datos, bits faltantes, entre otros. También incluye la validación de los cambios realizados y puede requerir la normalización.  La limpieza de nuestros datos, o la falta de ella, afectará a la percepción que tengan los usuarios sobre la adecuación de sus datos para su uso.   No es necesario que usted mismo realice toda la limpieza de datos; de hecho, una idea errónea común es que todos los errores DEBEN corregirse antes de poder compartir sus datos.    Lo cierto es que solo puedes limpiar la cantidad de datos que te permitan tu tiempo, conocimiento y recursos. Por lo tanto, es fundamental documentar lo que sabes y lo que desconoces sobre tus datos para que, cuando los compartas, los usuarios conozcan su nivel de calidad."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:313
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide23.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide23.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:320
@@ -1004,11 +1039,15 @@ msgid "*Slide 23 - Conclusion*\n"
 "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union. \n"
 " \n"
 "This presentation was originally created by Sharon Grant with additional contributions by Dag Endresen and David Bloom. This presentation has been narrated by David Bloom.\n"
-msgstr ""
+msgstr "*Diapositiva 23 - Conclusión*\n"
+" \n"
+"Este vídeo forma parte de una serie de presentaciones utilizadas en el curso de Movilización de Datos de Biodiversidad del GBIF. El programa de estudios sobre movilización de datos de biodiversidad se desarrolló originalmente como parte del Programa de Desarrollo de Información sobre Biodiversidad, financiado por la Unión Europea. \n"
+" \n"
+"Esta presentación fue creada originalmente por Sharon Grant, con contribuciones adicionales de Dag Endresen y David Bloom. La narración estuvo a cargo de David Bloom.\n"
 
 #. type: Title ==
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:324
 #, no-wrap
 msgid "Principles of data quality"
-msgstr ""
+msgstr "Principios de calidad de datos"
 
