@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-04-08 16:29\n"
+"PO-Revision-Date: 2026-05-04 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -67,51 +67,61 @@ msgid "```{r, message = FALSE}\n"
 "library(tidyverse)          #for tidy analysis\n"
 "library(CoordinateCleaner)  #for quality checking of occurrence data\n"
 "```\n"
-msgstr ""
+msgstr "```{r, message = FALSE}\n"
+"                            #notas\n"
+"library(rgbif)              #para descargar conjuntos de datos de gbif\n"
+"library(countrycode)        #para obtener nombres de países en función del código de país importante\n"
+"library(sf)                 #para manipular mapas descargados\n"
+"library(terra)              #para análisis de datos espaciales\n"
+"library(rnaturalearth)      #para descargar mapas\n"
+"library(rnaturalearthdata)  #datos vectoriales de mapas\n"
+"library(tidyverse)          #para un análisis ordenado\n"
+"library(CoordinateCleaner)  #para la verificación de calidad de los registros biológicos\n"
+"```\n"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:26
 #, no-wrap
 msgid "The scenario"
-msgstr ""
+msgstr "El escenario"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:29
 msgid "We are interested in a species of a country (Madagascar) and want to learn about its presence in the GBIF data space. We will first prepare maps for presentation. We will then download data and plot them on the maps. We will also try to adjust the data (cleaning) and see the difference plotted."
-msgstr ""
+msgstr "Nos interesa una especie de un país (Madagascar) y queremos conocer su presencia en el espacio de datos GBIF. Primero prepararemos mapas para la presentación. Luego descargaremos los datos y los representaremos en los mapas. También intentaremos ajustar los datos (limpiarlos) y observar la diferencia representada."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:31
 msgid "Through the process, you will learn the techniques for examining the downloaded data and ways to tweak them."
-msgstr ""
+msgstr "Durante este proceso, aprenderá las técnicas para examinar los datos descargados y las maneras de modificarlos."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:32
 #, no-wrap
 msgid "Preparing variables for plotting"
-msgstr ""
+msgstr "Preparación de variables para la representación gráfica"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:35
 msgid "These will return the variables you will need for plotting your data later."
-msgstr ""
+msgstr "Estas funciones te devolverán las variables que necesitarás para graficar tus datos posteriormente."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:36
 #, no-wrap
 msgid "Downloading the world map"
-msgstr ""
+msgstr "Descargando el mapa del mundo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:41
 msgid "```{r} world_map <- ne_countries(returnclass = \"sf\")  ```"
-msgstr ""
+msgstr "```{r} world_map <- ne_countries(returnclass = \"sf\")  ```"
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:42
 #, no-wrap
 msgid "Downloading the map of Madagascar"
-msgstr ""
+msgstr "Descargar el mapa de Madagascar"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:49
@@ -131,60 +141,60 @@ msgstr "```{r}\n"
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:50
 #, no-wrap
 msgid "Downloading data from GBIF"
-msgstr ""
+msgstr "Descarga de datos de GBIF"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:52
 msgid "Now we are going to download data of a species from GBIF. Here we want the data about the Ring-Tailed Lemur (_Lemur catta_). We need to first determine the ID of the species in the GBIF index, as names alone can sometimes be ambiguous."
-msgstr ""
+msgstr "Ahora vamos a descargar datos de una especie del GBIF. En este caso, necesitamos los datos del lémur de cola anillada (Lemur catta). Para ello, primero debemos determinar el identificador de la especie en el índice GBIF, ya que los nombres por sí solos a veces pueden resultar ambiguos."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:53
 #, no-wrap
 msgid "Looking up species name usage to determine the taxonKey"
-msgstr ""
+msgstr "Consultar el uso de nombres de especies para determinar la taxonKey"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:55
 msgid "The following line calls https://www.gbif.org/developer/species[GBIF Species API] and retrieve possible matches."
-msgstr ""
+msgstr "La siguiente línea llama a https://www.gbif.org/developer/species[GBIF Species API] y recupera las posibles coincidencias."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:59
 msgid "```{r, message = FALSE} name_backbone(name = \"Lemur catta\", rank = \"species\")  ```"
-msgstr ""
+msgstr "```{r, message = FALSE} name_backbone(name = \"Lemur catta\", rank = \"species\")  ```"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:59
 #, no-wrap
 msgid "data-use::Taxon_key.png"
-msgstr ""
+msgstr "data-use::Taxon_key.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:62
 msgid "Looks like we have a good matched accepted name here. The `usageKey` is the key that identify the usage of a name in the https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF Taxonomy Backbone]. Once we decide which 'usage' is what we are looking for, We will use the key as the `taxonKey` for specifying the taxon for its occurrence data."
-msgstr ""
+msgstr "Parece que tenemos un nombre aceptado que coincide bien. La clave `usageKey` identifica el uso de un nombre en https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF Taxonomy Backbone]. Una vez que decidimos qué \"uso\" es el que buscamos, usaremos la clave como `taxonKey` para especificar el taxón para sus datos de registros biológicos."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:64
 msgid "The following code block store the usageKey of _Lemur catta_ in a variable `usageKey`."
-msgstr ""
+msgstr "El siguiente bloque de código almacena la usageKey de _Lemur catta_ en una variable `usageKey`."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:70
 msgid "```{r} usageKey <- 2436412 # Alternatively, since we know there is only one match, the following line will store the key in the variable, too.  # usageKey <- name_backbone(name = \"Lemur catta\", rank = \"species\") %>% pull(usageKey)  ```"
-msgstr ""
+msgstr "```{r} usageKey <- 2436412 # Alternativamente, como sabemos que sólo hay una coincidencia, la siguiente línea almacenará también la clave en la variable.  # usageKey <- name_backbone(name = \"Lemur catta\", rank = \"species\") %>% pull(usageKey) ```"
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:71
 #, no-wrap
 msgid "Use the taxonKey to generate the occurrence download of the species of interest"
-msgstr ""
+msgstr "Utilice la taxonKey para generar la descarga de registros biológicos de la especie de interés"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:73
 msgid "The following code block sends a request for download to the GBIF Occurrence API. A successful request will return a download key and initiate the preparing of the requested data. Note that as we've stored the key in the `usageKey` variable, for the required `taxonKey` for occ_download(), we simply supply the variable. Also, we need to supply our GBIF.org login credentials to request a download."
-msgstr ""
+msgstr "El siguiente bloque de código envía una petición de descarga a la API de Registros Biológicos de GBIF. Una petición exitosa devolverá una clave de descarga e iniciará la preparación de los datos solicitados. Observe que como hemos almacenado la clave en la variable `usageKey`, para la `taxonKey` requerida para occ_download(), simplemente suministramos la variable. Además, necesitamos proporcionar nuestras credenciales de acceso a GBIF.org para solicitar una descarga."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:85
@@ -200,67 +210,78 @@ msgid "```{r}\n"
 ")\n"
 "```\n"
 "Note that, with \"pred(\"hasCoordinate\", TRUE),\", we only want data with coordinates, which are required for our plotting. But you can test run the block with the line commented and see some errors would appear in later steps.\n"
-msgstr ""
+msgstr "```{r}\n"
+"gd_key <- occ_download(\n"
+"    pred(\"taxonKey\", usageKey),\n"
+"# pred(\"hasCoordinate\", TRUE),\n"
+"    format = \"SIMPLE_CSV\",\n"
+"    user = \"USERNAME\",\n"
+"    pwd = \"PASSWORD\",\n"
+"    email = \"EMAIL_ADDRESS\"\n"
+")\n"
+"```\n"
+"Tenga en cuenta que, con \"pred(\"hasCoordinate\", TRUE),\", sólo queremos datos con coordenadas, que son necesarios para nuestro trazado. Pero puede probar a ejecutar el bloque con la línea comentada y ver que algunos errores aparecerán en pasos posteriores.\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:87
 msgid "Once the download request is accepted, GBIF API will return a message with a download ID, which is then stored in gd_key."
-msgstr ""
+msgstr "Una vez aceptada la solicitud de descarga, la API de GBIF devolverá un mensaje con un ID de descarga, que se almacena en gd_key."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:88
 #, no-wrap
 msgid "Actually downloading the file"
-msgstr ""
+msgstr "Descargando el archivo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:90
 msgid "The download may take some time to prepare depending on the size. So it's always good to fine tune the previous call to download only needed records. Once it's ready, the download key can be used to retrieve the ZIP file and load the records, hence the following code block."
-msgstr ""
+msgstr "La descarga puede tardar algún tiempo en prepararse dependiendo del tamaño. Así que siempre es bueno afinar la llamada anterior para descargar sólo los registros necesarios. Una vez lista, la clave de descarga puede utilizarse para recuperar el archivo ZIP y cargar los registros, de ahí el siguiente bloque de código."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:93
 msgid "```{r} occ_download_wait(gd_key)"
-msgstr ""
+msgstr "```{r} occ_download_wait(gd_key)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:96
 #, no-wrap
 msgid "gd <- occ_download_get(gd_key, overwrite = TRUE) %>%\n"
 "    occ_download_import()\n"
-msgstr ""
+msgstr "gd <- occ_download_get(gd_key, overwrite = TRUE) %>%\n"
+"    occ_download_import()\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:99
 msgid "head(gd, 10) # view first ten rows ```"
-msgstr ""
+msgstr "head(gd, 10) # ver las diez primeras filas ```"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:99
 #, no-wrap
 msgid "data-use::download.png"
-msgstr ""
+msgstr "data-use::download.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:103
 msgid "### Citing GBIF data Always cite the downloaded dataset in your report. The following code helps generate the citation."
-msgstr ""
+msgstr "### Citando datos de GBIF Cite siempre el conjunto de datos descargado en su informe. El siguiente código ayuda a generar la cita."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:107
 msgid "```{r} print(gbif_citation(occ_download_meta(gbif_download_key))$download)  ```"
-msgstr ""
+msgstr "```{r} print(gbif_citation(occ_download_meta(gbif_download_key))$download)  ```"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:108
 #, no-wrap
 msgid "Data Visualization"
-msgstr ""
+msgstr "Visualización de Datos"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:110
 msgid "_Lemur catta_ is native to Madagascar; but just to make sure, let's verify the data by plotting occurrences on a map."
-msgstr ""
+msgstr "Lemur catta_ es nativo de Madagascar, pero para asegurarnos, verifiquemos los datos representando su presencia en un mapa."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:121
@@ -275,59 +296,68 @@ msgid "```{r, message = FALSE, error = FALSE}\n"
 "             color = \"red\") +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r, message = FALSE, error = FALSE}\n"
+"ggplot() +\n"
+"  geom_sf(data = world_map) +\n"
+"  geom_point(data = gd,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:121
 #, no-wrap
 msgid "data-use::lemur_map.png"
-msgstr ""
+msgstr "data-use::lemur_map.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:124
 msgid "From the first look, is there anything unusual with the distribution of the Lemur species?"
-msgstr ""
+msgstr "A primera vista, ¿hay algo inusual en la distribución de las especies de lémures?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:126
 msgid "Whoops! It seems like there are unusual occurrences outside its native range. There are red dots dropped in other countries. We need to look into the data."
-msgstr ""
+msgstr "¡Vaya! Parece que hay casos inusuales fuera de su área de distribución nativa. Hay puntos rojos caídos en otros países. Tenemos que investigar los datos."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:128
 msgid "Also, we have a warning saying that some hundred rows of records contain missing values and are removed from the map. We should remove those first."
-msgstr ""
+msgstr "Además, tenemos una advertencia que dice que algunos cientos de filas de registros contienen valores que faltan y se eliminan del mapa. Deberíamos eliminarlos primero."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:130
 msgid "The following code block filters away records without decimallatitude or decimallongitude, then store the result as a new data frame `gdf`."
-msgstr ""
+msgstr "El siguiente bloque de código filtra los registros sin decimallatitud o decimallongitude y almacena el resultado como un nuevo marco de datos `gdf`."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:135
 msgid "```{r} gdf <- gd %>% filter(!is.na(decimalLatitude), !is.na(decimalLongitude))  ``` We will from now on use `gdf` for our plotting. Let's get back to the previous map and look at countries that have our data points."
-msgstr ""
+msgstr "```{r} gdf <- gd %>% filter(!is.na(decimalLatitude), !is.na(decimalLongitude)) ``` A partir de ahora usaremos `gdf` para nuestros trazados. Volvamos al mapa anterior y veamos los países que tienen nuestros puntos de datos."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:139
 msgid "```{r} table(gdf$countryCode)  ```"
-msgstr ""
+msgstr "```{r} table(gdf$countryCode)  ```"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:139
 #, no-wrap
 msgid "data-use::countries.png"
-msgstr ""
+msgstr "data-use::countries.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:142
 msgid "It appears that many records have coordinates outside Madagascar. Let's also have a look at the nature of these records."
-msgstr ""
+msgstr "Parece que muchos registros tienen coordenadas fuera de Madagascar. Veamos también la naturaleza de estos registros."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:148
 msgid "```{r} gdf %>% distinct(basisOfRecord)  gdf %>% distinct(establishmentMeans)  ``` There are 5 distinct values for https://dwc.tdwg.org/terms/#dwc:basisOfRecord[DwC:basisOfRecord]. We also looked at https://dwc.tdwg.org/list/#dwc_establishmentMeans[dwc:establishmentMeans], where only `NATIVE` is noted for some records."
-msgstr ""
+msgstr "```{r} gdf %>% distinct(basisOfRecord) gdf %>% distinct(establishmentMeans) ``` Hay 5 valores distintos para https://dwc.tdwg.org/terms/#dwc:basisOfRecord[DwC:basisOfRecord]. También hemos mirado https://dwc.tdwg.org/list/#dwc_establishmentMeans[dwc:establishmentMeans], donde sólo aparece `NATIVE` en algunos registros."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:149
@@ -338,7 +368,7 @@ msgstr "Limpieza de datos"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:152
 msgid "After some exploring of our data, we know that there are potential quality issues in our download. Apparently points outside Madagascar are suspicious, and we have just looked at basisOfRecord and establishmentMeans columns for cues of needed data actions."
-msgstr ""
+msgstr "Después de explorar un poco nuestros datos, sabemos que hay posibles problemas de calidad en nuestra descarga. Al parecer, los puntos fuera de Madagascar son sospechosos, y acabamos de mirar las columnas basisOfRecord y establishmentMeans en busca de indicios de acciones necesarias en los datos."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:154
