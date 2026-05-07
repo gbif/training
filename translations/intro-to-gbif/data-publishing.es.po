@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-04 13:03\n"
+"PO-Revision-Date: 2026-05-04 20:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -138,7 +138,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:222
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data quality issues and flags^] are documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Problemas y banderas de calidad de datos^] están documentados en la documentación técnica de GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:5
@@ -165,12 +165,12 @@ msgstr "En términos sencillos, la publicación de datos consiste en hacer a su(
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:13
 #, no-wrap
 msgid "intro-to-gbif::datapublishing.png"
-msgstr ""
+msgstr "intro-to-gbif::datapublishing.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:16
 msgid "Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the https://www.gbif.org/ipt[Integrated Publishing Toolkit^], to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node like GBIF France or through an established thematic group like VertNet. Or, a another option, might be to make use of one of the GBIF cloud-hosted IPTs."
-msgstr ""
+msgstr "La mayoría de las organizaciones de la red GBIF, también conocidas como publicadores, utilizan una herramienta integrada de publicación (IPT, por sus siglas en inglés), como https://www.gbif.org/ipt[Integrated Publishing Toolkit^], para publicar sus datos. Estos publicadores pueden optar por alojar su propia instalación de una IPT, como el Field Museum, pero generalmente prefieren encontrar un proveedor adecuado para sus actividades de publicación de datos. Esto podría ser a través de un nodo participante de GBIF ya establecido, como GBIF Francia, o a través de un grupo temático consolidado, como VertNet. Otra opción sería utilizar uno de los IPT alojados en la nube de GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:18
@@ -249,7 +249,7 @@ msgstr "GBIF es una iniciativa multilateral establecida por un acuerdo intergube
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:45
 #, no-wrap
 msgid "intro-to-gbif::GBIF_MoU.jpg"
-msgstr ""
+msgstr "intro-to-gbif::GBIF_MoU.jpg"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:48
@@ -327,7 +327,7 @@ msgstr "Los textos de las citas y derechos se generan automáticamente para los 
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:80
 #, no-wrap
 msgid "intro-to-gbif::11_citations.png"
-msgstr ""
+msgstr "intro-to-gbif::11_citations.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:83
@@ -359,19 +359,19 @@ msgstr "Cada vez que se publica una nueva versión de un conjunto de datos utili
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:95
 msgid "As mentioned before, you can resolve DOIs into websites like doi.org/10.xxx which will always redirect to the original source, in this case, the dataset page. You can also search for DOI using a normal web search, which will normally reveal any other resource citing use of the same DOI such as articles or public reports."
-msgstr ""
+msgstr "Como se mencionó anteriormente, usted puede asignar un DOI mediante sitios web como doi.org/10.xxx: que siempre redireccionará a la fuente original, en este caso, la página del conjuntos de datos. También puede buscar un DOI usando una búsqueda web normal que normalmente mostrará cualquier otro recurso que cite el uso del mismo DOI como artículos o informes públicos."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:96
 #, no-wrap
 msgid "intro-to-gbif::datasetdoiimage3_withcallouts.png"
-msgstr ""
+msgstr "intro-to-gbif::datasetdoiimage3_withcallouts.png"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:98
 #, no-wrap
 msgid "intro-to-gbif::datasetcitationsimage4.png"
-msgstr ""
+msgstr "intro-to-gbif::datasetcitationsimage4.png"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:100
@@ -400,7 +400,7 @@ msgstr "Haga clic en el menú _How-to_ en el sitio web de GBIF para navegar a la
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:146
 #, no-wrap
 msgid "intro-to-gbif::register.png"
-msgstr ""
+msgstr "intro-to-gbif::register.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:113
@@ -411,7 +411,7 @@ msgstr "Se solicita a los futuros publicadores que diligencien un formulario en 
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:114
 #, no-wrap
 msgid "intro-to-gbif::Register3.png"
-msgstr ""
+msgstr "intro-to-gbif::Register3.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:118
@@ -437,7 +437,7 @@ msgstr "Actualmente, GBIF y sus participantes sólo publican datos de organizaci
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:129
 #, no-wrap
 msgid "intro-to-gbif::register4.png"
-msgstr ""
+msgstr "intro-to-gbif::register4.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:132
@@ -448,7 +448,7 @@ msgstr "Las respuestas proporcionadas también ayudarán a los usuarios a entend
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:133
 #, no-wrap
 msgid "intro-to-gbif::register5.png"
-msgstr ""
+msgstr "intro-to-gbif::register5.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:136
@@ -515,12 +515,12 @@ msgstr "En la práctica, animamos a los responsables de publicar datos a que se 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:166
 msgid "https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations[Data quality requirements^] are fully documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations[Los requisitos de calidad de los datos^] están plenamente documentados en la documentación técnica de GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:168
 msgid "Datasets published by BID projects may have https://www.gbif.org/article/3NNEFbAK2Olyfpo91mEAN6/requirements-for-data-deliverables-of-bid-projects[different or additional data quality requirements^]."
-msgstr ""
+msgstr "Los conjuntos de datos publicados por los proyectos BID pueden tener https://www.gbif.org/article/3NNEFbAK2Olyfpo91mEAN6/requirements-for-data-deliverables-of-bid-projects[requisitos de calidad de datos diferentes o adicionales^]."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:169
@@ -548,7 +548,7 @@ msgstr "Haga clic en el menú _Herramientas_ del sitio web de GBIF para ir a la 
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:179
 #, no-wrap
 msgid "intro-to-gbif::datavalidator.png"
-msgstr ""
+msgstr "intro-to-gbif::datavalidator.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:182
@@ -565,7 +565,7 @@ msgstr "Para empezar, cargue el archivo del conjunto de datos en el validador: 1
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:188
 #, no-wrap
 msgid "intro-to-gbif::quality11.png"
-msgstr ""
+msgstr "intro-to-gbif::quality11.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:194
@@ -638,7 +638,7 @@ msgstr "También podrá ver los metadatos como una versión preliminar de la pá
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:213
 #, no-wrap
 msgid "intro-to-gbif::quality12.png"
-msgstr ""
+msgstr "intro-to-gbif::quality12.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:216
@@ -649,13 +649,13 @@ msgstr "*Tengo el informe de validación, ¿Ahora qué?*\n"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:220
 msgid "If the validator finds that your dataset cannot be indexed by GBIF, you should address the issues raised by the validation report before you consider publishing it to GBIF.  Even if your dataset is indexable by GBIF, you should still carefully review any issues that may be the result of e.g. conversion errors, etc. which could affect the quality of the data.  If you find and correct any error - from a single typo to large systematic problems - feel free to resubmit your dataset as many times you like."
-msgstr ""
+msgstr "Si el validador encuentra que su conjunto de datos no puede ser indexado por GBIF, debería solucionar los problemas planteados por el informe de validación antes de considerar su publicación en GBIF.  Por otro lado, si obtiene luz verde y su conjunto de datos es indexable por GBIF, debe revisar cuidadosamente cualquier problema que pueda ser el resultado de, por ejemplo, errores de conversión, etc. que puedan afectar a la calidad de los datos.  Si encuentra y corrige cualquier error (desde un simple error tipográfico hasta grandes problemas sistemáticos) no dude en volver a enviar su conjunto de datos tantas veces como quiera."
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:248
 msgid "What are the reasons for publishing data?"
-msgstr ""
+msgstr "¿Cuáles son las razones para publicar datos?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:255

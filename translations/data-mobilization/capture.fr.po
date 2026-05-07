@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-04 13:03\n"
+"PO-Revision-Date: 2026-05-06 14:22\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -27,17 +27,17 @@ msgstr "Capture de données"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:6
 msgid "In this module, you will learn about the concept of standards, in particular, the Darwin Core Standard and its components."
-msgstr ""
+msgstr "Dans ce module, vous découvrirez le concept de normes, et plus particulièrement la norme Darwin Core et ses composantes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:8
 msgid "You will also learn the types of primary biodiversity data and how to best share that information within GBIF."
-msgstr ""
+msgstr "Vous découvrirez également les différents types de données primaires sur la biodiversité et comment partager au mieux ces informations au sein du GBIF."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:10
 msgid "Lastly, you will review principles of data quality in the context of data capture and will learn about data quality and coherence (especially on subjects such as georeferencing, dates, names and taxa cross-checking)."
-msgstr ""
+msgstr "Enfin, vous passerez en revue les principes de qualité des données dans le contexte de la capture des données et vous en apprendrez davantage sur la qualité et la cohérence des données (en particulier sur des sujets tels que le géoréférencement, les dates, les noms et la vérification croisée des taxons)."
 
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:12
@@ -49,7 +49,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:18
 msgid "In this presentation, you will learn how you interact with standards every day.  Then you will be introduced to https://www.tdwg.org/[Biodiversity Information Standards^], including the https://www.tdwg.org/standards/dwc/[Darwin Core Standard^] with which you will continue to use throughout this course."
-msgstr ""
+msgstr "Dans cette présentation, vous découvrirez comment vous utilisez les normes au quotidien. Vous serez ensuite initiés aux https://www.tdwg.org/[Normes d'Information sur la Biodiversité^], notamment aux https://www.tdwg.org/standards/dwc/[Normes Darwin Core^], que vous utiliserez tout au long de ce cours."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
@@ -312,7 +312,9 @@ msgstr "&nbsp;"
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR-OvbcnThBLQMjMtHxm7ECmrPTierNDuuRd_8qnfqClA6XCcPOeK2121l0xoTpIA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vR-OvbcnThBLQMjMtHxm7ECmrPTierNDuuRd_8qnfqClA6XCcPOeK2121l0xoTpIA/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
@@ -377,149 +379,149 @@ msgstr "Cliquez pour développer"
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:42
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:45
 #, no-wrap
 msgid "*Slide 1 - Standards and Darwin Core*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Normes et Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:47
 msgid "In this presentation, we will introduce you to data standards as they relate to biodiversity data. In particular, we will focus on the Darwin Core standard."
-msgstr ""
+msgstr "Dans cette présentation, nous vous présenterons les normes de données relatives à la biodiversité. Nous nous concentrerons plus particulièrement sur la norme Darwin Core."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:48
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:51
 #, no-wrap
 msgid "*Slide 2 - Standards: Let's agree to agree*\n"
-msgstr ""
+msgstr "*Diapositive 2 - Normes : Mettons-nous d'accord pour être d'accord*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:53
 msgid "The engineer and industrialist W. Edwards Deming said:"
-msgstr ""
+msgstr "L'ingénieur et industriel W. Edwards Deming a dit :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:55
 msgid "“Standardisation does not mean that we all wear the same colour and weave of cloth, eat standard sandwiches, or live in standard rooms with standard furnishing. Homes of infinite variety of design are built with a few types of bricks, and with lumber of standard sizes, and with water and heating pipes and fitting of standard dimensions.”"
-msgstr ""
+msgstr "\"La standardisation ne signifie pas que nous portions tous des vêtements de la même couleur et du même tissage, que nous mangions des sandwichs standardisés ou que nous vivions dans des pièces standardisées avec un mobilier standardisé. Des maisons d'une variété infinie de styles sont construites avec quelques types de briques, du bois de dimensions standardisées, et des canalisations d'eau et de chauffage ainsi que des accessoires aux dimensions standardisées.\""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
 msgid "What he was trying to say is that using standardization does not prevent us from being creative. He was also showing us that we already live with standards all around us."
-msgstr ""
+msgstr "Ce qu'il essayait de dire, c'est que la standardisation ne nous empêche pas d'être créatifs. Il nous montrait aussi que les normes sont déjà omniprésentes dans notre quotidien."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:59
 msgid "As we move forward, we will define the term “Standard” and we’ll look at how we interact with standards every day. We will then introduce you to biodiversity information standards, including the Darwin Core Standard with which you will continue to use throughout this course."
-msgstr ""
+msgstr "Au fil de cette formation, nous définirons le terme \"norme\" et examinerons comment nous interagissons quotidiennement avec les normes. Nous vous présenterons ensuite les normes d’information sur la biodiversité, notamment la norme Darwin Core que vous utiliserez tout au long de ce cours."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:60
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:63
 #, no-wrap
 msgid "*Slide 3 - What is a standard?*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Qu'est-ce qu'une norme ?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:65
 msgid "So what is a Standard?"
-msgstr ""
+msgstr "Qu'est-ce qu'une norme ?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:67
 msgid "At its simplest, it is:"
-msgstr ""
+msgstr "Dans sa forme la plus simple, c'est :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:69
 msgid "“An agreed way of doing something.”"
-msgstr ""
+msgstr "\"Une façon convenue de faire quelque chose.\""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:71
 msgid "Standards are combinations of norms, conventions, specifications, requirements, restrictions, and rules."
-msgstr ""
+msgstr "Les normes sont une combinaison de règles, de conventions, de spécifications, d'exigences et de restrictions."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:72
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:75
 #, no-wrap
 msgid "*Slide 4 - Everyday standards*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Normes quotidiennes*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:77
 msgid "The main purpose for standards is to create a framework of “mutual understanding”. They should provide clarity and help communication."
-msgstr ""
+msgstr "L’objectif principal des normes est de créer un cadre de \"compréhension mutuelle\". Elles doivent apporter de la clarté et faciliter la communication."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:79
 msgid "Examples of everyday things that we encounter which make use of standards to aid communication of information are:"
-msgstr ""
+msgstr "Voici quelques exemples de choses du quotidien qui utilisent des normes pour faciliter la communication d'informations :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
 msgid "Units of Measurement"
-msgstr ""
+msgstr "Unités de mesure"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:82
 msgid "Numeral Systems"
-msgstr ""
+msgstr "Systèmes numériques"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
 msgid "Alphabets"
-msgstr ""
+msgstr "Alphabets"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:84
 msgid "Languages"
-msgstr ""
+msgstr "Langues"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:85
 msgid "Emojis"
-msgstr ""
+msgstr "Émojis"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:86
 msgid "Postal Addressing"
-msgstr ""
+msgstr "Adresses postales"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:87
 msgid "Morse Code"
-msgstr ""
+msgstr "Code Morse"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:88
 msgid "Barcoding"
-msgstr ""
+msgstr "Codes-barres"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:90
 msgid "Source: https://www.cencenelec.eu/research/tools/ImportanceENs/Pages/default.aspx"
-msgstr ""
+msgstr "Source : https://www.cencenelec.eu/research/tools/ImportanceENs/Pages/default.aspx"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
