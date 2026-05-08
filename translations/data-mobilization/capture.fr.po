@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-06 14:22\n"
+"PO-Revision-Date: 2026-05-07 14:33\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -526,268 +526,268 @@ msgstr "Source : https://www.cencenelec.eu/research/tools/ImportanceENs/Pages/de
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:99
 msgid "Measurement Image by Arek Socha from Pixabay https://pixabay.com/photos/measurement-millimeter-centimeter-1476913/ Numerals Image by Clker-Free-Vector-Images from Pixabay https://pixabay.com/vectors/numerals-roman-number-blocks-35937/ Alphabet Image by https://en.wikipedia.org/wiki/Alphabet#/media/File:Historical_Writing_Systems_Template_Image.jpg Languages Image by Christopher Kuszajewski from Pixabay https://pixabay.com/photos/source-code-code-programming-c-583537/ Morse Code Image by https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg Mail Image by Image by OpenClipart-Vectors from Pixabay https://pixabay.com/vectors/airmail-mail-envelope-post-postal-145212/ Emojis Image by https://en.wikipedia.org/wiki/Emoticon#/media/File:Emoticon_Smile_Face.svg Barcoding Image by IBOL https://ibol.org/site/wp-content/uploads/2018/12/bookmark-vectors.png"
-msgstr ""
+msgstr "Image de Mesure par Arek Socha depuis Pixabay https://pixabay.com/photos/measurement-millimeter-centimeter-1476913/ Image de Nombres par Clker-Free-Vector-Images depuis Pixabay https://pixabay.com/vectors/numerals-roman-number-blocks-35937/ Image d'Alphabet par https://en.wikipedia.org/wiki/Alphabet#/media/File:Historical_Writing_Systems_Template_Image.jpg Image de Langues par Christopher Kuszajewski depuis Pixabay https://pixabay.com/photos/source-code-code-programming-c-583537/ Image de Code Morse par https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg Image de Courrier par OpenClipart-Vectors depuis Pixabay https://pixabay.com/vectors/airmail-mail-envelope-post-postal-145212/ Image d'Emojis par https://en.wikipedia.org/wiki/Emoticon#/media/File:Emoticon_Smile_Face.svg Image de Code-barre par IBOL https://ibol.org/site/wp-content/uploads/2018/12/bookmark-vectors.png"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:100
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:103
 #, no-wrap
 msgid "*Slide 5 - Everyday standard - An example*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Norme quotidienne - Un exemple*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:105
 msgid "Let’s take a very specific example and break it down. Here in order to communicate accurately and repeatedly a position on the earth – a latitude and longitude – is actually a combination of at least 8 standards."
-msgstr ""
+msgstr "Prenons un exemple très précis et analysons-le. Ici, pour communiquer avec précision et de manière répétable une position sur Terre – une latitude et une longitude – il faut en fait combiner au moins 8 normes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:114
 msgid "measurement - geographic coordinates format - degrees, minutes, seconds numeric system - sexagesimal numbers - Indo-Arabic language - English alphabet - Latin symbols - typography font - Roboto"
-msgstr ""
+msgstr "mesure - format des coordonnées géographiques - système numérique degrés, minutes, secondes - nombres sexagésimaux - langue indo-arabe - alphabet anglais - symboles latins - police de caractères typographiques - Roboto"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:115
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:118
 #, no-wrap
 msgid "*Slide 6 - Rules and restrictions*\n"
-msgstr ""
+msgstr "*Diapositive 6 - Règles et restrictions*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:120
 msgid "Standards provide ways of constraining the array of possibilities. In the earlier Foundations presentations, you learned about types of data, schemas, formats and character encodings. Each of these can be used to constrain the array of possibilities within the terms of a Standard."
-msgstr ""
+msgstr "Les normes permettent de restreindre l'éventail des possibilités. Dans les présentations précédentes sur les fondements du traitement de données, vous avez découvert les types de données, les schémas, les formats et les encodages de caractères. Chacun de ces éléments peut être utilisé pour restreindre l'éventail des possibilités dans le cadre d'une norme."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:122
 msgid "Types of data can restrict the values of a field. So alphanumeric text in a text field, decimals in a float. Yes/No in a Boolean."
-msgstr ""
+msgstr "Les types de données peuvent restreindre les valeurs d'un champ. Ainsi, le texte alphanumérique va dans un champ de texte, les nombres décimaux dans un champ de nombre à virgule flottante. Oui/Non dans un booléen."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:124
 msgid "An encoding schema can restrict the range of values in a field. For example, the list of possible latitude values have a range: between -90 and 90."
-msgstr ""
+msgstr "Un schéma d'encodage peut restreindre la plage de valeurs dans un champ. Par exemple, la liste de valeurs de latitude est possible dans une certaine plage : entre -90 et 90."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:126
 msgid "A format can restrict the representation of a data in a field. For example, whether a data appears as year month day, or day month year, or month day year."
-msgstr ""
+msgstr "Un format peut restreindre la représentation d'une donnée dans un champ. Par exemple, une donnée peut apparaître comme année mois jour, jour mois année, ou mois jour année."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:128
 msgid "And then, character encoding provides the rules for interpreting bytes of data. For our purposes, we’ll use UTF-8."
-msgstr ""
+msgstr "Finalement, le codage des caractères fournit les règles d'interprétation des octets de données. Pour nos besoins, nous utiliserons UTF-8."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:130
 msgid "Photo: Eurema blanda (Boisduval, 1836) Observed in Nepal by Bird Explorers (http://creativecommons.org/licenses/by-nc/4.0/)"
-msgstr ""
+msgstr "Photo : Eurema blanda (Boisduval, 1836) Observé au Nepal par Bird Explorers (http://creativecommons.org/licenses/by-nc/4.0/)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:131
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:134
 #, no-wrap
 msgid "*Slide 7 - Standards for data transfer*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Normes pour le transfert de données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:136
 msgid "During this course, you will be learning how to share your data. As such, you will encounter standards for transferring data."
-msgstr ""
+msgstr "Au cours de cette formation, vous apprendrez à partager vos données. A ce titre, vous rencontrerez des normes de transfert de données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:138
 msgid "An application schema, allows for the combination of data standards for a specific purpose. For example, using Darwin Core terms within Darwin Core Archives. We’ll delve more into both in just a few moments."
-msgstr ""
+msgstr "Un schéma d'application permet de combiner des normes de données dans un but spécifique. Par exemple, utiliser les termes du Darwin Core dans les archives du Darwin Core. Nous allons approfondir ces deux types de schémas dans quelques instants."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:140
 msgid "Again, you will make use of format, but this time the format restricts dataset structures. A dataset may make use of csv, xml, json and rdf."
-msgstr ""
+msgstr "Une fois de plus, vous utiliserez un format, mais cette fois le format limite les structures du jeu de données. Un jeu de données peut utiliser csv, xml, json et rdf."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:142
 msgid "And lastly, you will have a transfer protocol, which provides information on how and where to send information. These might include http (hypertext transfer protocol), ftp (file transfer protocol), and smtp (simple mail transfer protocol or if you like, send mail to people)."
-msgstr ""
+msgstr "Enfin, vous disposerez d'un protocole de transfert, qui fournit des informations sur la manière et l'endroit où envoyer des informations. Il peut s'agir de http (protocole de transfert hypertexte), ftp (protocole de transfert de fichier) et smtp (protocole simple de transfert de courrier ou, si vous préférez : envoyer du courrier à des personnes)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:145
 msgid "Image by Gerd Altmann from Pixabay https://pixabay.com/illustrations/web-network-computer-digital-5371553/"
-msgstr ""
+msgstr "Image par Gerd Altmann depuis Pixabay https://pixabay.com/illustrations/web-network-computer-digital-5371553/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:146
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:149
 #, no-wrap
 msgid "*Slide 8 - Biodiversity Information Standards*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Normes d'information sur la biodiversité*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:151
 msgid "In the domain of biodiversity informatics there are many standards already available that can help you work with your data. The USGS has a very specific definition of these:"
-msgstr ""
+msgstr "Dans le domaine de l'informatique de la biodiversité, il existe déjà de nombreuses normes qui peuvent vous aider à travailler avec vos données. L'USGS en donne une définition très précise :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:153
 msgid "“Data standards are the rules by which data are described and recorded. In order to share, exchange, and understand data, we must standardize the format as well as the meaning."
-msgstr ""
+msgstr "\"Les normes de données sont les règles selon lesquelles les données sont décrites et enregistrées. Afin de partager, d'échanger et de comprendre les données, nous devons standardiser leur format et leur signification."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:155
 msgid "The result of using these standards, where appropriate, is that you will increase data integrity, accuracy and consistency by clarifying ambiguous meaning and minimizing redundant data."
-msgstr ""
+msgstr "Le résultat de l'utilisation de ces normes, lorsque approprié, permet d'augmenter l'intégrité, la précision et la cohérence des données en clarifiant les significations ambiguës et en minimisant les données redondantes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:157
 msgid "Those that you are likely to encounter or use on a regular basis may include:"
-msgstr ""
+msgstr "Celles que vous êtes susceptible de rencontrer ou d'utiliser régulièrement peuvent inclure :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:162
 msgid "Ecological Metadata Language Standard (EML)  Humboldt Ecological Inventory (Humboldt extension)  Global Genome Biodiversity Network(GGBN)  Ocean Data Standards and Best Practices Project (ODSBP)"
-msgstr ""
+msgstr "Ecological Metadata Language Standard (EML)  Humboldt Ecological Inventory (Humboldt extension)  Global Genome Biodiversity Network (GGBN)  Ocean Data Standards and Best Practices Project (ODSBP)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:164
 msgid "And last, but not least, we’ll spend the rest of this discussion on Darwin Core. The Darwin Core standard will allow you to share your occurrence, taxonomic, and event datasets."
-msgstr ""
+msgstr "Enfin, nous consacrerons le reste de cette discussion au Darwin Core. La norme Darwin Core vous permettra de partager vos jeux de données d'occurrences, taxonomiques et d'événements."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:171
 msgid "References: EML - https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon - https://terms.tdwg.org/wiki/Audubon_Core GGBN - http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP - https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC - http://rs.tdwg.org/dwc/"
-msgstr ""
+msgstr "Références : EML - https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon - https://terms.tdwg.org/wiki/Audubon_Core GGBN - http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP - https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC - http://rs.tdwg.org/dwc/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:172
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:175
 #, no-wrap
 msgid "*Slide 9 - What is Darwin Core*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Qu'est-ce que le Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:177
 msgid "Darwin Core is a biodiversity standard developed by the Biodiversity Informatics community. It was originally developed under the Taxonimic Databases Working Group or T D W G, pronounced TDWG. In recent years, the group has been renamed, Biodiversity Information Standards. But the acronym persists as the community is quite fond of the name TDWG."
-msgstr ""
+msgstr "Le Darwin Core est une norme de biodiversité développée par la communauté de l'Informatique de la Biodiversité. Il a été initialement développé sous le Taxonomic Databases Working Group ou T D W G, prononcé TDWG. Ces dernières années, le groupe a été renommé Biodiversity Information Standards. Mais l'acronyme persiste car la communauté est très attachée au nom TDWG."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:179
 msgid "“The standard includes a glossary of terms (in other contexts these might be called properties, elements, fields, columns, attributes, or concepts) intended to facilitate the sharing of information about biological diversity by providing identifiers, labels, and definitions. Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, samples, and related information.”"
-msgstr ""
+msgstr "\"La norme comprend un glossaire de termes (dans d'autres contextes, ces termes pourraient être appelés propriétés, éléments, champs, colonnes, attributs ou concepts) destinés à faciliter le partage d'informations sur la diversité biologique en fournissant des identificateurs, des étiquettes et des définitions. Le Darwin Core est principalement basé sur les taxons, leur présence dans la nature telle que documentée par des observations, des spécimens, des échantillons et des informations connexes\"."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:181
 msgid "So in short, Darwin Core is a"
-msgstr ""
+msgstr "En résumé, le Darwin Core est une"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:183
 msgid "“List of fields and their definitions, as they relate to biodiversity data.”"
-msgstr ""
+msgstr "\"Liste des champs et de leurs définitions, relatifs aux données sur la biodiversité.\""
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:184
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:187
 #, no-wrap
 msgid "*Slide 10 - Simple Darwin Core*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Simple Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:189
 msgid "As we dive deeper into Darwin Core or as it is abbreviated, DwC, you’ll learn it is more than JUST a list of fields. We will use Simple Darwin Core which is a predefined subset of the terms that have common use across a wide variety of biodiversity applications."
-msgstr ""
+msgstr "Au fur et à mesure que nous approfondissons le Darwin Core ou, en abrégé, le DwC, vous apprendrez qu'il s'agit de bien plus que JUSTE une liste de champs. Nous utiliserons le Simple Darwin Core, qui est un sous-ensemble prédéfini de termes d'usage courant dans une grande variété d'applications de biodiversité."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:191
 msgid "This subset contains greater than 150 fields, that are placed into a set of field classes comprised of:"
-msgstr ""
+msgstr "Ce sous-ensemble contient plus de 150 champs, qui sont placés dans un ensemble de classes comprenant :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:202
 msgid "Record & Dataset Occurrence Organism Material Entity Material Sample Event Location Geological Context Identification Taxon"
-msgstr ""
+msgstr "Enregistrement et Jeux de Données d'Occurrence Organisme Matériel d'Entité Matériel d'Échantillon Événement Lieu Contexte géologique Identification Taxon"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:204
 msgid "Additionally, there are two auxiliary classes called:"
-msgstr ""
+msgstr "De plus, il existe deux classes auxiliaires appelées :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:207
 msgid "ResourceRelationship MeasurementOrFact"
-msgstr ""
+msgstr "ResourceRelationship MeasurementOrFact"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:209
 msgid "From the Simple Darwin Core User Guide, “Simple Darwin Core is simple in that it assumes (and allows) no structure beyond the concept of rows and columns, which might be thought of as attributes and their values, or fields and records.”"
-msgstr ""
+msgstr "D'après le guide de l'utilisateur du Simple Darwin Core, \"le Simple Darwin Core est simple en ce sens qu'il ne suppose (et n'autorise) aucune structure au-delà du concept de lignes et de colonnes, que l'on peut considérer comme des attributs et leurs valeurs, ou des champs et des enregistrements\"."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:211
 msgid "Photo: Macaca mulatta (Zimmermann, 1780) Observed in Nepal by Vladimir Tkalčić (http://creativecommons.org/licenses/by-nc/4.0/)"
-msgstr ""
+msgstr "Photo : Macaca mulatta (Zimmermann, 1780) Observé au Népal par Vladimir Tkalčić (http://creativecommons.org/licenses/by-nc/4.0/)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:212
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:215
 #, no-wrap
 msgid "*Slide 11 - Darwin Core Quick Reference Guide*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Guide de référence rapide du Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:217
 msgid "The DwC Quick Reference Guide will soon become your go to resource. This page provides a list of all currently recommended terms of the Darwin Core standard. Categories such as Occurrence or Event correspond to Darwin Core classes which group other terms."
-msgstr ""
+msgstr "Le guide de référence rapide du DwC deviendra bientôt votre ressource préférée. Cette page fournit une liste de tous les termes actuellement recommandés dans la norme Darwin Core. Les catégories telles que Occurrence ou Event correspondent aux classes Darwin Core qui regroupent d'autres termes."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:218
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:221
 #, no-wrap
 msgid "*Slide 12 - DwC terms country and countryCode*\n"
-msgstr ""
+msgstr "*Diapositive 12 - Termes du DwC relatifs au pays et au code de pays*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:223
 msgid "We now will look at some examples of Darwin Core terms. The quick reference guide, consistently displays each term with the identifier name, definition, comments and examples. The first terms we’ll review are Country and CountryCode within the Location category."
-msgstr ""
+msgstr "Nous allons maintenant examiner quelques exemples de termes du Darwin Core. Le guide de référence rapide présente chaque terme de manière cohérente avec le nom de l'identifiant, la définition, les commentaires et les exemples. Les premiers termes que nous examinerons sont Country et CountryCode dans la catégorie Location."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:225
@@ -1063,7 +1063,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:341
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide23.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide23.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:344
