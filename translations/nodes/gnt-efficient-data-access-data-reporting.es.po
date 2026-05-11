@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-19 17:09+0000\n"
-"PO-Revision-Date: 2026-05-11 22:16\n"
+"PO-Revision-Date: 2026-05-11 23:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -429,85 +429,85 @@ msgstr "Completar las siguientes actividades para preparar las sesiones in situ:
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:1
 #, no-wrap
 msgid "Efficient data access for data reporting"
-msgstr ""
+msgstr "Acceso eficaz a los datos para la elaboración de informes"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:8
 msgid "This topic relates to approaches to efficiently access GBIF-mediated data for the purpose of generating data reports. Recent developments at GBIF include the availability of GBIF snapshots on cloud computing infrastructures and the ability to query GBIF using SQL allowing for e.g. data metrics and custom data reports rather than downloading individual records. Additionally, emerging data cube formats will provide an opportunity to efficiently analyze biodiversity trends on spatiotemporal data."
-msgstr ""
+msgstr "Este tema se refiere a los enfoques para acceder de manera eficiente a los datos de GBIF con el fin de generar informes de datos. Los últimos avances en GBIF incluyen la disponibilidad de instantáneas de GBIF en infraestructuras de computación en la nube y la capacidad de consultar GBIF utilizando SQL permitiendo, por ejemplo, métricas de datos e informes de datos personalizados en lugar de descargar registros individuales. Además, los nuevos formatos de cubos de datos ofrecerán la oportunidad de analizar de forma eficiente las tendencias de la biodiversidad en datos espaciotemporales."
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:17
 msgid "Identify the data access landscape (i.e, what tools are available and how they are used)"
-msgstr ""
+msgstr "Identificar el panorama de acceso a los datos (es decir, qué herramientas están disponibles y cómo se utilizan)"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:18
 msgid "Identify appropriate solutions for given data access use cases"
-msgstr ""
+msgstr "Identificar soluciones adecuadas para determinados casos de acceso a datos"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:19
 msgid "Gain insight into coding and rGBIF"
-msgstr ""
+msgstr "Obtenga información sobre codificación y rGBIF"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:20
 msgid "Explore scripting reproducible workflows"
-msgstr ""
+msgstr "Explore los flujos de trabajo reproducibles mediante secuencias de comandos"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:29
 msgid "Dag Endresen, Node Manager, Norway"
-msgstr ""
+msgstr "Dag Endresen, Administrador del Nodo, Noruega"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:31
 msgid "Will Morris, Node Manager, Finland"
-msgstr ""
+msgstr "Will Morris, Administrador del Nodo, Finlandia"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:33
 msgid "Secretariat consultants: Andrew Rodrigues and John Waller"
-msgstr ""
+msgstr "Consultores del Secretariado: Andrew Rodrigues y John Waller"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:44
 msgid "xref:gnt-sharingexperience.adoc[Propose a data use case/data reporting example] to share as a subject for group discussion."
-msgstr ""
+msgstr "xref:gnt-sharingexperience.adoc[Proponer un caso de uso de datos/ejemplo de informe de datos] para compartir como tema de debate en grupo."
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:45
 #: en/nodes/modules/ROOT/pages/gnt-metabarcoding-data.adoc:51
 msgid "https://www.gbif.org/user/profile[Create an account^] on GBIF.org (if you don’t already have one)."
-msgstr ""
+msgstr "https://www.gbif.org/user/profile[Crear una cuenta^] en GBIF.org (si aún no tiene una)."
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:46
 msgid "Install software"
-msgstr ""
+msgstr "Instalar software"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:50
 msgid "xref:attachment$Install-R-RStudio.pdf[Download installation instructions] (846 KB)"
-msgstr ""
+msgstr "xref:attachment$Install-R-RStudio.pdf[Descargar instrucciones de instalación] (846 KB)"
 
 #. type: Title ==
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:53
 #, no-wrap
 msgid "Data access landscape"
-msgstr ""
+msgstr "Panorama del acceso a los datos"
 
 #. type: Title ===
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:55
 #, no-wrap
 msgid "Introduction and data types"
-msgstr ""
+msgstr "Introducción y tipos de datos"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:60
 msgid "This presentation introduces the training topic and provides an overview of the data types found in GBIF."
-msgstr ""
+msgstr "Esta presentación introduce el tema de la formación y proporciona una visión general de los tipos de datos que se encuentran en GBIF."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:67
@@ -523,12 +523,12 @@ msgstr "div class=\"responsive-slides\">\n"
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:72
 #, no-wrap
 msgid "Access methods"
-msgstr ""
+msgstr "Métodos de acceso"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:77
 msgid "This presentation provides an overview of the various methods that can be used to access GBIF-mediated data."
-msgstr ""
+msgstr "Esta presentación ofrece una visión general de los diversos métodos que pueden utilizarse para acceder a los datos mediados por GBIF."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:84
@@ -544,12 +544,12 @@ msgstr "div class=\"responsive-slides\">\n"
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:89
 #, no-wrap
 msgid "Shared examples from nodes"
-msgstr ""
+msgstr "Ejemplos compartidos desde los nodos"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:94
 msgid "Please review the examples shared by nodes on data uses cases. You can refer to these during the group activity for inspiration."
-msgstr ""
+msgstr "Revise los ejemplos compartidos por los nodos sobre casos de uso de datos. Puede consultarlos durante la actividad de grupo para inspirarse."
 
 #. type: delimited block +
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:101
@@ -565,17 +565,17 @@ msgstr "<div class=\"responsive-slides\">\n"
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:106
 #, no-wrap
 msgid "Exploring data access and use cases"
-msgstr ""
+msgstr "Exploración del acceso a los datos y casos de uso"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:111
 msgid "For this activity, each group should: (a) explore and discuss possible data access and reporting use cases and (b) select a data access use case to work on during the hands-on section."
-msgstr ""
+msgstr "Para esta actividad, cada grupo deberá (a) explorar y discutir posibles casos de uso de acceso a datos e informes y (b) seleccionar un caso de uso de acceso a datos para trabajar durante la sección práctica."
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:113
 msgid "Each group should answer/discuss the following:"
-msgstr ""
+msgstr "Cada grupo debe responder/debatir lo siguiente:"
 
 #. type: delimited block =
 #: en/nodes/modules/ROOT/pages/gnt-efficient-data-access-data-reporting.adoc:115
