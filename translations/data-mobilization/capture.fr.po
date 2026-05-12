@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-11 12:52\n"
+"PO-Revision-Date: 2026-05-12 13:54\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -797,143 +797,143 @@ msgstr "En général, les détenteurs de données disposent d'un champ pour le p
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:227
 msgid "CountryCode is a term that is generally not present in holder data. But again, it is another field that can easily be supplied with data due to the recommendation in the comments to use an ISO 3166-1-alpha-2 country code."
-msgstr ""
+msgstr "CountryCode est un terme qui n'est généralement pas présent dans les données sources. Mais il s'agit là encore d'un champ qui peut facilement être alimenté en données grâce à la recommandation formulée dans les commentaires d'utiliser un code de pays ISO 3166-1-alpha-2."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:229
 msgid "GBIF strongly recommends the sharing of CountryCode within occurrence datasets. Sharing of Country is also encouraged."
-msgstr ""
+msgstr "Le GBIF recommande fortement le partage du champ CountryCode dans les jeux de données d'occurrence. Le partage du champ Country est également encouragé."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:231
 msgid "You will learn more about the GBIF requirements and recommendations in later sessions."
-msgstr ""
+msgstr "Vous en apprendrez davantage sur les exigences et les recommandations du GBIF dans les prochaines sessions."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:232
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:235
 #, no-wrap
 msgid "*Slide 13 - DwC terms basisOfRecord*\n"
-msgstr ""
+msgstr "*Diapositive 13 - Termes du DwC basisOfRecord*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:237
 msgid "The next term is basisOfRecord. basisOfRecord defines the nature of each record in a dataset. BasisOfRecord follows a controlled vocabulary. You can choose from PreservedSpecimen, FossilSpecimen, LivingSpecimen, MaterialSample, Event, HumanObservation, MachineObservation, Taxon, or Occurrence. GBIF requires basisOfRecord with published occurrence datasets."
-msgstr ""
+msgstr "Le terme suivant est basisOfRecord. basisOfRecord définit la nature de chaque enregistrement dans un jeu de données. BasisOfRecord suit un vocabulaire contrôlé. Vous pouvez choisir entre PreservedSpecimen, FossilSpecimen, LivingSpecimen, MaterialSample, Event, HumanObservation, MachineObservation, Taxon ou Occurrence. Le GBIF exige basisOfRecord pour les jeux de données d'occurrences publiés."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:238
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:241
 #, no-wrap
 msgid "*Slide 14 - DwC terms occurrenceID*\n"
-msgstr ""
+msgstr "*Diapositive 14 - Termes du DwC occurrenceID*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:243
 msgid "The last term we will review is occurrenceID. When publishing occurrence records, GBIF requires an occurrenceID. An occurrenceID is an identifier for the occurrence itself, not the digital record of the occurrence. Recommended best practice is to use a globally unique identifier otherwise known as a GUID. In the absence of a GUID, a unique identifier can be comprised of other identifiers within the dataset. There are tools on the internet that can help you to generate GUIDs for your records. If you use this method, these GUIDs should become a permanent field within your source data identifying each record. For the practice done in this course, you will create an occurrenceID with a format similar to the third example here in the blue box."
-msgstr ""
+msgstr "Le dernier terme que nous allons examiner est occurrenceID. Lors de la publication d'enregistrements d'occurrence, le GBIF exige un identifiant d'occurrence (occurrenceID). Un occurrenceID est un identifiant pour l'occurrence elle-même, et non pour l'enregistrement numérique de l'occurrence. La meilleure pratique recommandée est d'utiliser un identifiant global unique, également connu sous le nom de GUID. En l'absence de GUID, un identifiant unique peut être composé d'autres identifiants dans le jeu de données. Il existe des outils sur Internet qui peuvent vous aider à générer des GUIDs pour vos enregistrements. Si vous utilisez cette méthode, ces GUIDs devraient devenir un champ permanent dans vos données sources identifiant chaque enregistrement. Pour l'exercice réalisé dans ce cours, vous créerez un occurrenceID avec un format similaire au troisième exemple dans la boîte bleue."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:244
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:247
 #, no-wrap
 msgid "*Slide 15 - Darwin Core extensions*\n"
-msgstr ""
+msgstr "*Diapositive 15 - Extensions du Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:249
 msgid "In using Simple Darwin Core, you may discover that you have more data to share but you cannot find corresponding terms in DwC. This data could be image or sound files or perhaps you are responsible for a collection of vertebrates and you have extensive data compiled on the weights and size of the specimens. Or even detailed historical information on the identification of a taxon. When this occurs, you will look to Darwin Core extensions so that you can extend the base data by providing additional files that correspond to the base data. Extensions that would meet your needs in these three examples are:"
-msgstr ""
+msgstr "En utilisant le Simple Darwin Core, vous découvrirez peut-être que vous avez d'autres données à partager mais que vous ne pouvez pas trouver les termes correspondants dans le DwC. Ces données peuvent être des images ou des fichiers sonores, ou peut-être êtes-vous responsable d'une collection de vertébrés et avez-vous compilé de nombreuses données sur le poids et la taille des spécimens. Ou même des informations historiques détaillées sur l'identification d'un taxon. Dans ce cas, vous vous tournerez vers les extensions du Darwin Core afin d'étendre les données de base en fournissant des fichiers supplémentaires qui correspondent aux données de base. Les extensions qui répondraient à vos besoins dans ces trois exemples sont les suivantes :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:253
 msgid "Simple Multimedia Measurements or Facts Identification History"
-msgstr ""
+msgstr "Simple Multimedia Measurements or Facts Identification History"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:255
 msgid "There are many more extensions. GBIF maintains a list of all approved and draft extensions on its tools subsite."
-msgstr ""
+msgstr "Il existe de nombreuses autres extensions. Le GBIF tient à jour une liste de toutes les extensions approuvées et en projet sur son sous-site consacré aux outils."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:258
 msgid "Photo: Aleuria aurantia (Pers.) Fuckel Observed in Nepal by Elizabeth Byers http://creativecommons.org/licenses/by-nc/4.0/"
-msgstr ""
+msgstr "Photo : Aleuria aurantia (Pers.) Fuckel Observé au Népal par Elizabeth Byers http://creativecommons.org/licenses/by-nc/4.0/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:259
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:262
 #, no-wrap
 msgid "*Slide 16 - Community and standards relationships*\n"
-msgstr ""
+msgstr "*Diapositive 16 - Relations entre la communauté et les normes*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:264
 msgid "There are many layers in our biodiversity informatics community. The image here shows the relationships between these layers and where they intersect with the Darwin Core and where extensions maybe necessary in order to fully share data."
-msgstr ""
+msgstr "Il existe de nombreuses couches dans notre communauté de l'informatique de la biodiversité. L'image montre ici les relations entre ces couches et où elles se recoupent avec le Darwin Core, ainsi que les extensions qui pourraient s'avérer nécessaires pour un partage complet des données."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:265
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide17.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide17.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:268
 #, no-wrap
 msgid "*Slide 17 - Darwin Core Achives (DwC-A)*\n"
-msgstr ""
+msgstr "*Diapositive 17 - Archive Darwin Core (DwC-A)*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:270
 msgid "Data shared to GBIF is currently submitted via a Darwin Core Archive or DwCA."
-msgstr ""
+msgstr "Les données partagées avec le GBIF sont actuellement soumises via une archive Darwin Core ou DwCA."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:272
 msgid "A DwCA is an expression of the Darwin Core text guide. It is a compressed file containing a minimum of three files. It is encoded as UTF-8."
-msgstr ""
+msgstr "Un DwCA est une expression du guide textuel Darwin Core. Il s'agit d'un fichier compressé contenant au minimum trois fichiers. Il est encodé en UTF-8."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:274
 msgid "In this example, these three files are:"
-msgstr ""
+msgstr "Dans cet exemple, ces trois fichiers sont :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:278
 msgid "A data file (occurrence.txt) conforming to the SIMPLEDWC in a CSV format where the first row includes Darwin Core standard term names.  A meta file (meta.xml) in XML format containing technical details to instruct a computer in how to use the data file.  A meta file (eml.xml) in an XML format containing explanatory details about the records contained within the data file to instruct a user if the data will be fit for their use."
-msgstr ""
+msgstr "Un fichier de données (occurrence.txt) conforme à la norme SIMPLEDWC au format CSV, dont la première ligne contient les noms des termes standard Darwin Core. Un fichier de métadonnées (meta.xml) au format XML contenant les informations techniques nécessaires à un ordinateur pour utiliser le fichier de données. Un fichier de métadonnées (eml.xml) au format XML contenant des informations explicatives sur les enregistrements contenus dans le fichier de données, afin d'indiquer à l'utilisateur si les données sont adaptées à son usage."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:280
 msgid "A more complex structure can be obtained by sharing multiple related csv files to extend the data. They are related to the core file by way of a unique id. In an occurrence dataset, these related csv files are related by the occurrenceID."
-msgstr ""
+msgstr "On peut obtenir une structure plus complexe en partageant plusieurs fichiers CSV liés afin d'enrichir les données. Ces fichiers sont liés au fichier principal par un identifiant unique. Dans un jeu de données d'occurrences, ces fichiers CSV sont liés par l'identifiant d'occurrence (occurrenceID)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:281
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide18.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide18.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:284
