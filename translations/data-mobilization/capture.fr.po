@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-13 16:28\n"
+"PO-Revision-Date: 2026-05-14 13:56\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1037,27 +1037,27 @@ msgstr "data-mobilization::capture-standards-dwc-Slide22.png"
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:332
 #, no-wrap
 msgid "*Slide 22 - Do I have to do all that?*\n"
-msgstr ""
+msgstr "*Diapositive 22 - Dois-je vraiment faire tout ça ?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:334
 msgid "All of this might be overwhelming, when you are just learning about data mobilization, but we want you to know that changes are coming which depending on your data might be very exciting for you."
-msgstr ""
+msgstr "Tout cela peut paraître déroutant lorsque l'on découvre la mobilisation des données, mais nous tenons à vous informer que des changements sont à venir qui, selon la nature de vos données, pourraient s'avérer très intéressants pour vous."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:336
 msgid "We also recognize that not everyone needs to do all of that, especially all within one dataset and publishers will be able to use only what they need."
-msgstr ""
+msgstr "Nous reconnaissons également que tout le monde n'a pas besoin de faire tout cela, surtout au sein d'un seul ensemble de données, et que les éditeurs pourront n'utiliser que ce dont ils ont besoin."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:338
 msgid "For the time being with regards to this course we are focusing on training using the event core which you will learn more about in the coming sessions."
-msgstr ""
+msgstr "Pour le moment, concernant ce cours, nous nous concentrons sur la formation utilisant le noyau événement (event core), à propos duquel vous découvrirez plus de détails lors des prochaines sessions."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:340
 msgid "When the ratification process has completed and we are ready for publishers to begin using the Darwin Core Data Package, we will organize virtual community events to supplement training."
-msgstr ""
+msgstr "Une fois le processus de ratification terminé et lorsque nous serons prêts à ce que les éditeurs commencent à utiliser le Darwin Core Data Package, nous organiserons des événements communautaires virtuels pour compléter la formation."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:341
@@ -1177,95 +1177,95 @@ msgstr "*Diapositive 1 - Types de jeux de données GBIF pour les données primai
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:414
 msgid "In this presentation, we’ll have a look at the different types of data that can be called ‘primary biodiversity data’ and shared within GBIF. These data can be complex and have different origins ; we’ll see how they can be structured into one of the three data classes accepted by GBIF, based on the Darwin Core data sharing standard that is used within the GBIF community."
-msgstr ""
+msgstr "Dans cette présentation, nous examinerons les différents types de données qualifiées de \"données primaires sur la biodiversité\" et partagées au sein du GBIF. Ces données peuvent être complexes et d'origines diverses ; nous verrons comment les structurer selon l'une des trois classes de données acceptées par le GBIF, conformément à la norme de partage de données Darwin Core utilisée au sein de la communauté GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:415
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:418
 #, no-wrap
 msgid "*Slide 2 - Data richness levels supported by GBIF*\n"
-msgstr ""
+msgstr "*Diapositive 2 - Niveaux de richesse des données pris en charge par le GBIF*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:420
 msgid "GBIF currently supports four types of dataset:"
-msgstr ""
+msgstr "GBIF prend actuellement en charge quatre types de jeux de données :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:422
 msgid "The first is dataset metadata – this is a dataset that allows you to provide descriptive information about a dataset.  You may use this type when you have not yet digitized your collection."
-msgstr ""
+msgstr "Le premier type est celui des métadonnées ; il s’agit d’un ensemble de données qui vous permet de fournir des informations descriptives sur un jeu de données. Vous pouvez utiliser ce type de données si vous n’avez pas encore numérisé votre collection."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:424
 msgid "The second type are species checklists. This allows you to share information on species including the countries and areas where they are found."
-msgstr ""
+msgstr "Le deuxième type est constitué des listes d'espèces. Celles-ci permettent de partager des informations sur les espèces, notamment les pays et les régions où elles se trouvent."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:426
 msgid "The third type is for occurrence-only data.  This is data for species that includes names, dates and coordinates – the what, when and where of your data."
-msgstr ""
+msgstr "Le troisième type concerne les données d'occurrence uniquement. Il s'agit de données relatives aux espèces qui comprennent leurs noms, dates et coordonnées – le quoi, le quand et le où de vos données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:428
 msgid "The last type is Sampling-event data. This allows you to share even more data. You can share species with dates, coordinates, methods, abundance and even absence."
-msgstr ""
+msgstr "Le dernier type est celui des données d'échantillonnage. Il permet de partager encore plus de données : espèces, dates, coordonnées, méthodes, abondance et même absence."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:429
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:432
 #, no-wrap
 msgid "*Slide 3 - Checklists and taxonomical resources*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Listes d'espèces et ressources taxonomiques*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:434
 msgid "The first type of dataset that can be published within GBIF is the checklist, aka a list of species or higher taxa. In a checklist, the main unit is the taxon, not the occurrence (individual)."
-msgstr ""
+msgstr "Le premier type de jeu de données pouvant être publié dans le GBIF est la checklist, c'est-à-dire une liste d'espèces ou de taxons de niveau supérieur. Dans une liste d'espèce, l'unité principale est le taxon, et non l'occurrence (individu)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:435
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:438
 #, no-wrap
 msgid "*Slide 4 - Checklists and other taxonomical resources*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Listes d'espèces et autres ressources taxonomiques*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:440
 msgid "Checklists, and more generally, taxonomical datasets can vary in scope:"
-msgstr ""
+msgstr "Les checklists, et plus généralement les jeux de données taxonomiques, peuvent varier en portée :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:444
 msgid "a list of species present in a protected area is a checklist, a national or thematic list of taxa (e.g. Butterflies of Laos, or the Flora of Malaysia), which sometimes provide more info on the distribution, taxonomical hierarchy and synonyms of the taxa is a checklist.  IUCN red lists (at the international, national or regional levels) also are checklists and can give more information about the vulnerability status of the listed taxa."
-msgstr ""
+msgstr "une liste des espèces présentes dans une aire protégée est une liste de référence (checklist). Une liste nationale ou thématique de taxons (par exemple, les papillons du Laos ou la flore de Malaisie), qui fournit parfois des informations complémentaires sur la distribution, la hiérarchie taxonomique et les synonymes des taxons, est également une liste de référence. Les listes rouges de l'UICN (aux niveaux international, national ou régional) sont aussi des listes de référence et peuvent fournir des informations supplémentaires sur le statut de vulnérabilité des taxons répertoriés."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:445
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:448
 #, no-wrap
 msgid "*Slide 5 - GBIF template for taxon data*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Modèle GBIF pour les données taxonomiques*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:450
