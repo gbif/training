@@ -15,7 +15,7 @@ This Use Case is not graded.
 
 :figure-caption!:
 .https://www.gbif.org/occurrence/5177352092[Coenonympha pamphilus (Linnaeus, 1758)] Observed in Sweden by Tobias Karlsson (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])
-image::data-mobilization::Use-Case-Practice-Coenonympha-pamphilus.png[align=center,width=640,height=360]
+image::data-mobilization::Use-Case-Practice-Coenonympha-pamphilus.png[align=center]
 
 This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Kate Ingenloff and Laura Anne Russell, based on previous work by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Anne Russell, Mélianie Raymond and Nicolas Noé.
 
@@ -25,35 +25,92 @@ It is a fictionalized scenario based on a real dataset and is meant only for ins
 
 The Swedish Butterfly Network (SBN) has been monitoring the occurrence of butterflies (Lepidoptera) at a series of fixed sites 3-7 times per season on an annual basis since 2009.
 
-This network of observers implements one of two standard protocols at each site: Pollard walks where the site is an established transect or point counts at stationary point sites. Observation information is captured by observers on paper data capture sheets that they send to the national SBN office.
+This network of observers implements one of two standard protocols at each site: fixed-route Pollard walks or point counts. Butterfly observation information is captured by observers on paper data capture sheets that they send to the national SBN office.
 
-The SBN steering committee would like to start publishing these data online to GBIF in order to strengthen collaborations the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden.
+The SBN steering committee would like to start publishing these data online to GBIF in order to strengthen collaborations with the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden.
 
 === Data collection
 
-Two different recording methods are used by SBN. One method is the point site counts which cover an area with a 25 m radius for 15 min per visit. The other method is fixed-route Pollard walk transects, typically 0.5-3 km in length. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2010) and enable the monitoring scheme to assess yearly changes both in the number of butterflies seen and in species composition.
+Butterfly monitoring surveys are conducted annually at more than 500 sites by volunteers from 1 April through 30 September. Sites are visited 3-7 times per season. The program does not dictate when sites are surveyed but they provide recommendations (see table below). 
 
-These sampling efforts happen April 1st to September 30th annually. Sites are visited 3-7 times per season.
+:figure-caption!:
+.Dates and phenological “visit indicators” that you can use to know when it is appropriate to visit your premises. Visits marked with an asterisk (*) can be omitted if the premises are visited on fewer than seven occasions. Source: Table A1, Appendix 1, Pettersson et al. 2010. Note: the table was translated using GoogleTranslate.
+image::data-mobilization::uc-practice-visit-indicators.png[align=center]
 
-* The data are, for each species, the summed total of all individuals observed during the visit. For transect sites it is the sum of all individuals from all segments.
-* Each log contain observations of species that were actually present and observed at the surveyed sites.
-* Site coordinates represent midpoints for point sites and centroid midpoints for transect sites.
-* Values under stateProvince represent 24 of the 25 Swedish provinces (swe landskap). The 25th province (Lappland) is represented by the 5 areas called ’lappmarker’ (swe).
-* Event time is reported for each sampling event as starttime/endtime, or starttime only.
+The monitoring scheme implements two established methods: fixed-route Pollard walk transects and point site counts. The same method is used at a site each year. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2011 and 2022) and enable the monitoring scheme to assess yearly changes in (1) the number of butterflies seen and (2) species composition. 
+
+*Fixed-route Pollard walk transects*
+
+Fixed-route Pollard walk transects are pre-defined routes typically 0.5-3 km in length. Recorders follow the transect at a steady pace and identify all the butterflies observed up to 5 m in front, 5 m above, and 2.5 m to each side (see the figure below).
+
+A transect can be any shape, including a loop. Each transect is inventoried once per visit. Some transects are divided into segments that typically represent a change in habitat. For example, a loop that follows a forest road, over a clearing, and then out onto a bog will have three segments. Each segment is inventoried once per visit.
+
+:figure-caption!:
+.A butterfly monitor walking its loop. While walking at a slow walking pace, they identify and count all the butterflies observed in the zone identified by the dashed gray lines: 2.5 m on each side, 5 m ahead, and 5 m above the observer. Illustration: Måns Sjöberg. Source: Figures A1, Appendix 1, Pettersson et al. 2011 and  3, Appendix 1, Pettersson et al. 2022.
+image::data-mobilization::uc-practice-pollard-walks.png[align=center]
+
+Each survey log from a fixed-route Pollard walk survey will include the following information:
+
+* Survey date
+* Site coordinates in EPSG:3857 representing the center point of the site
+* Start time/end time for each segment (if applicable) otherwise for the full survey 
+* Weather conditions during each segment (if applicable) otherwise for the full survey 
+* A list of species observed and the total number of each species observed in each segment (if applicable) otherwise for the full survey. Surveys or segments  where no butterflies were observed will include a note that zero butterflies were observed.
+
+NOTE: Unusual or difficult to identify species are marked on survey logs with an asterisk (*) and a photo is submitted by the surveyor for identification assistance. If the surveyor was unable to get a photo, the butterfly is reported as an ‘indeterminate butterfly’.
+
+*Point site counts*
+
+Point site counts cover an area with a 25 m radius and a height of 5 m that are surveyed for 15 minutes per visit. A point location may be completely circular with a radius of 25 meters OR it may have other shapes. Regardless of shape, the same area must be inventoried on each occasion to ensure the inventory is comparable across surveys.
+
+For a *circular point site*, the surveyor moves about the circular site for the full 15-minute period and records all butterflies that come within the circle up to 5 m above the ground. See figure below.
+
+:figure-caption!:
+.A circular point location (denoted by a gray dashed line) with the observer sitting in the center and a 25 m radius around it. Illustration: Måns Sjöberg. Source: Figure A3, Appendix 1, Pettersson et al. 2011.
+image::data-mobilization::uc-practice-circular-point-site.png[align=center]
+
+For a *non-circular point site*, the surveyor walks about the site for the full 15-minute period and records all butterflies they observe within the area up to 5 m above the ground. See figure below.
+
+:figure-caption!:
+.A non-circular point location with a 25 m radius (denoted as the brighter green areas with a small area of water) around a defined center point and a butterfly monitor taking inventory. Source: Figure 1, Appendix 1, Pettersson et al. 2022.
+image::data-mobilization::uc-practice-non-circular-point-site.png[align=center]
+
+Each point site survey will report the following information:
+
+* Survey date
+* Site coordinates in EPSG:3857 representing the center point of the site
+* Start only (point site counts) 
+* Weather conditions at the time of the survey
+* A list of species observed and the number of each species observed during the survey. Surveys where no butterflies were observed will include a note that zero butterflies were observed.
+
+NOTE: Unusual or difficult to identify species are marked on survey logs with an asterisk (*) and a photo is submitted by the surveyor for identification assistance. If the surveyor was unable to get a photo, the butterfly is reported as an ‘indeterminate butterfly’.
+
+*Weather conditions*
+
+General weather data are collected at each site at the beginning of each survey. Observers are asked to record information about air temperature, percent sunshine, and wind strength and direction.
+
+* Air temperature in the shade is reported in ℃. 
+* Percent (%) sunshine, the proportion of time that was sunny during the survey, is reported as decimal and rounded to the nearest tenth.
+* Wind strength is reported using the Beaufort scale (see the table below for more information). 
+* Wind direction is also reported.
+
+:figure-caption!:
+.Wind strength according to the Beaufort scale. Adapted from Table 2, Appendix 1, Pettersson et al. 2022.
+image::data-mobilization::uc-practice-weather-conditions.png[align=center]
 
 === Analogue data capture example
 
-image::data-mobilization::UC-practice-log.jpeg[align=center,width=75%,height=75%]
+image::data-mobilization::UC-practice-log.jpg[align=center,width=75%,height=75%]
 
 === Digital data description
 
 The SBN office uses groups of volunteers to digitize the paper logs and produce digital spreadsheets. The spreadsheets are very simple and include three datasheets: 
 
-* the first captures the information linked to the sampling efforts including survey date, location, and weather conditions
-* the second captures information about individual transect sections 
-* the third captures the species encountered and the number of individuals observed
+* the first captures the information linked to the sampling efforts including surveyors, site names, survey date, and location 
+* the second captures the species encountered and the number of individuals observed
+* the third captures the location type and weather conditions
 
-image::data-mobilization::Use-Case-Practice-Simple-Spreadsheet.jpg[align=center,width=640,height=360]
+image::data-mobilization::Use-Case-Practice-Simple-Spreadsheet.png[align=center,width=640,height=360]
 
 == Exercises
 
