@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-21 06:17+0000\n"
-"PO-Revision-Date: 2026-05-04 13:19\n"
+"POT-Creation-Date: 2026-05-27 19:27+0000\n"
+"PO-Revision-Date: 2026-05-27 19:44\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -18,26 +18,26 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/nav.adoc:10
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:65
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:122
 msgid "xref:capture.adoc[Data capture]"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/nav.adoc:11
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:126
 msgid "xref:management.adoc[Data management]"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/nav.adoc:12
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:73
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:130
 msgid "xref:publishing.adoc[Data publishing]"
 msgstr ""
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:1
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:14
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:62
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:119
 #, no-wrap
 msgid "Data capture"
 msgstr ""
@@ -45,7 +45,7 @@ msgstr ""
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:15
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:1
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:66
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:123
 #, no-wrap
 msgid "Data management"
 msgstr ""
@@ -54,7 +54,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:127
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
 #: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
@@ -91,7 +91,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:70
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:48
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:59
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:48
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:105
 #, no-wrap
 msgid "Digital data description"
 msgstr ""
@@ -102,7 +102,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:55
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:68
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:86
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:115
 #: en/nodes/modules/ROOT/pages/communications-strategy.adoc:114
 #: en/nodes/modules/ROOT/pages/developing-training.adoc:106
 #: en/nodes/modules/ROOT/pages/resourcing-collaborative-projects.adoc:124
@@ -122,7 +122,7 @@ msgstr ""
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:55
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:44
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:101
 #, no-wrap
 msgid "Analogue data capture example"
 msgstr ""
@@ -183,95 +183,256 @@ msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:29
-msgid "This network of observers implements one of two standard protocols at each site: Pollard walks where the site is an established transect or point counts at stationary point sites. Observation information is captured by observers on paper data capture sheets that they send to the national SBN office."
+msgid "This network of observers implements one of two standard protocols at each site: fixed-route Pollard walks or point counts. Butterfly observation information is captured by observers on paper data capture sheets that they send to the national SBN office."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:31
-msgid "The SBN steering committee would like to start publishing these data online to GBIF in order to strengthen collaborations the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden."
+msgid "The SBN steering committee would like to start publishing these data online to GBIF in order to strengthen collaborations with the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:35
-msgid "Two different recording methods are used by SBN. One method is the point site counts which cover an area with a 25 m radius for 15 min per visit. The other method is fixed-route Pollard walk transects, typically 0.5-3 km in length. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2010) and enable the monitoring scheme to assess yearly changes both in the number of butterflies seen and in species composition."
+msgid "Butterfly monitoring surveys are conducted annually at more than 500 sites by volunteers from 1 April through 30 September. Sites are visited 3-7 times per season. The program does not dictate when sites are surveyed but they provide recommendations (see table below)."
 msgstr ""
 
-#. type: Plain text
+#. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:37
-msgid "These sampling efforts happen April 1st to September 30th annually. Sites are visited 3-7 times per season."
+#, no-wrap
+msgid "Dates and phenological “visit indicators” that you can use to know when it is appropriate to visit your premises. Visits marked with an asterisk (*) can be omitted if the premises are visited on fewer than seven occasions. Source: Table A1, Appendix 1, Pettersson et al. 2010. Note: the table was translated using GoogleTranslate."
 msgstr ""
 
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:39
-msgid "The data are, for each species, the summed total of all individuals observed during the visit. For transect sites it is the sum of all individuals from all segments."
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:40
-msgid "Each log contain observations of species that were actually present and observed at the surveyed sites."
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:38
+#, no-wrap
+msgid "data-mobilization::uc-practice-visit-indicators.png"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:41
-msgid "Site coordinates represent midpoints for point sites and centroid midpoints for transect sites."
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:42
-msgid "Values under stateProvince represent 24 of the 25 Swedish provinces (swe landskap). The 25th province (Lappland) is represented by the 5 areas called ’lappmarker’ (swe)."
+msgid "The monitoring scheme implements two established methods: fixed-route Pollard walk transects and point site counts. The same method is used at a site each year. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2011 and 2022) and enable the monitoring scheme to assess yearly changes in (1) the number of butterflies seen and (2) species composition."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:43
-msgid "Event time is reported for each sampling event as starttime/endtime, or starttime only."
-msgstr ""
-
-#. type: Target for macro image
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:46
 #, no-wrap
-msgid "data-mobilization::UC-practice-log.jpeg"
+msgid "*Fixed-route Pollard walk transects*\n"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:51
-msgid "The SBN office uses groups of volunteers to digitize the paper logs and produce digital spreadsheets. The spreadsheets are very simple and include three datasheets:"
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:45
+msgid "Fixed-route Pollard walk transects are pre-defined routes typically 0.5-3 km in length. Recorders follow the transect at a steady pace and identify all the butterflies observed up to 5 m in front, 5 m above, and 2.5 m to each side (see the figure below)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:47
+msgid "A transect can be any shape, including a loop. Each transect is inventoried once per visit. Some transects are divided into segments that typically represent a change in habitat. For example, a loop that follows a forest road, over a clearing, and then out onto a bog will have three segments. Each segment is inventoried once per visit."
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:49
+#, no-wrap
+msgid "A butterfly monitor walking its loop. While walking at a slow walking pace, they identify and count all the butterflies observed in the zone identified by the dashed gray lines: 2.5 m on each side, 5 m ahead, and 5 m above the observer. Illustration: Måns Sjöberg. Source: Figures A1, Appendix 1, Pettersson et al. 2011 and  3, Appendix 1, Pettersson et al. 2022."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:50
+#, no-wrap
+msgid "data-mobilization::uc-practice-pollard-walks.png"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:53
-msgid "the first captures the information linked to the sampling efforts including survey date, location, and weather conditions"
-msgstr ""
-
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:54
-msgid "the second captures information about individual transect sections"
+msgid "Each survey log from a fixed-route Pollard walk survey will include the following information:"
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:55
-msgid "the third captures the species encountered and the number of individuals observed"
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:81
+msgid "Survey date"
 msgstr ""
 
-#. type: Target for macro image
+#. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:56
-#, no-wrap
-msgid "data-mobilization::Use-Case-Practice-Simple-Spreadsheet.jpg"
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:82
+msgid "Site coordinates in EPSG:3857 representing the center point of the site"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:57
+msgid "Start time/end time for each segment (if applicable) otherwise for the full survey"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
+msgid "Weather conditions during each segment (if applicable) otherwise for the full survey"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:59
+msgid "A list of species observed and the total number of each species observed in each segment (if applicable) otherwise for the full survey. Surveys or segments where no butterflies were observed will include a note that zero butterflies were observed."
 msgstr ""
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:61
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:87
+msgid "Unusual or difficult to identify species are marked on survey logs with an asterisk (*) and a photo is submitted by the surveyor for identification assistance. If the surveyor was unable to get a photo, the butterfly is reported as an ‘indeterminate butterfly’."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:63
+#, no-wrap
+msgid "*Point site counts*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:65
+msgid "Point site counts cover an area with a 25 m radius and a height of 5 m that are surveyed for 15 minutes per visit. A point location may be completely circular with a radius of 25 meters OR it may have other shapes. Regardless of shape, the same area must be inventoried on each occasion to ensure the inventory is comparable across surveys."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:67
+msgid "For a *circular point site*, the surveyor moves about the circular site for the full 15-minute period and records all butterflies that come within the circle up to 5 m above the ground. See figure below."
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
+#, no-wrap
+msgid "A circular point location (denoted by a gray dashed line) with the observer sitting in the center and a 25 m radius around it. Illustration: Måns Sjöberg. Source: Figure A3, Appendix 1, Pettersson et al. 2011."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
+#, no-wrap
+msgid "data-mobilization::uc-practice-circular-point-site.png"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:73
+msgid "For a *non-circular point site*, the surveyor walks about the site for the full 15-minute period and records all butterflies they observe within the area up to 5 m above the ground. See figure below."
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:75
+#, no-wrap
+msgid "A non-circular point location with a 25 m radius (denoted as the brighter green areas with a small area of water) around a defined center point and a butterfly monitor taking inventory. Source: Figure 1, Appendix 1, Pettersson et al. 2022."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:76
+#, no-wrap
+msgid "data-mobilization::uc-practice-non-circular-point-site.png"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:79
+msgid "Each point site survey will report the following information:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:83
+msgid "Start only (point site counts)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:84
+msgid "Weather conditions at the time of the survey"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:85
+msgid "A list of species observed and the number of each species observed during the survey. Surveys where no butterflies were observed will include a note that zero butterflies were observed."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:89
+#, no-wrap
+msgid "*Weather conditions*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:91
+msgid "General weather data are collected at each site at the beginning of each survey. Observers are asked to record information about air temperature, percent sunshine, and wind strength and direction."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:93
+msgid "Air temperature in the shade is reported in ℃."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:94
+msgid "Percent (%) sunshine, the proportion of time that was sunny during the survey, is reported as decimal and rounded to the nearest tenth."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:95
+msgid "Wind strength is reported using the Beaufort scale (see the table below for more information)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:96
+msgid "Wind direction is also reported."
+msgstr ""
+
+#. type: Block title
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
+#, no-wrap
+msgid "Wind strength according to the Beaufort scale. Adapted from Table 2, Appendix 1, Pettersson et al. 2022."
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:99
+#, no-wrap
+msgid "data-mobilization::uc-practice-weather-conditions.png"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:103
+#, no-wrap
+msgid "data-mobilization::UC-practice-log.jpg"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:108
+msgid "The SBN office uses groups of volunteers to digitize the paper logs and produce digital spreadsheets. The spreadsheets are very simple and include three datasheets:"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:110
+msgid "the first captures the information linked to the sampling efforts including surveyors, site names, survey date, and location"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:111
+msgid "the second captures the species encountered and the number of individuals observed"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:112
+msgid "the third captures the location type and weather conditions"
+msgstr ""
+
+#. type: Target for macro image
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:113
+#, no-wrap
+msgid "data-mobilization::Use-Case-Practice-Simple-Spreadsheet.png"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:118
 msgid "The individual exercises for this use case are located in the corresponding modules."
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:74
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:131
 #: en/data-use/modules/ROOT/pages/exercise1.adoc:6
 #, no-wrap
 msgid "Exercise sheet"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:76
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:133
 msgid "Download xref:attachment$UC-Practice-exercise-sheet_EN.docx[UC-Practice-exercise-sheet_EN.docx,opts=download] to provide your answers. (2.9 MB)"
 msgstr ""
 
