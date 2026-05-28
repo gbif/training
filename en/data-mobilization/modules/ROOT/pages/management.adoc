@@ -213,21 +213,22 @@ This presentation was originally created by Nestor Beltran with additional contr
 
 [NOTE.activity]
 ====
-For this exercise, you will open a csv file in Excel (using the UTF-8 encoding) and then you will perform a series of validation checks to evaluate the file for errors.
+For this exercise, you will perform a series of validation checks to evaluate the provided file for errors.
 ====
 
-The Swedish Butterfly Network has decided to begin sharing their data with GBIF. You have received the occurrence data from the data capture team and have been asked to validate and correct the data in the file.
+The Swedish Butterfly Network has decided to begin sharing their data with GBIF. You have received an Excel file from the data capture team and have been asked to validate and correct the data in the file.
 
 *Validation checks*
 
-In this exercise we will focus on technical errors and perform a basic validation check to identify technical errors.
+In this exercise we will focus on technical and consistency errors and perform a basic validation check to identify the errors.
 
 Refer to <<Validation checks>> for information on the types of errors.
 
-. Download xref:attachment$UC-Practice-2ab-ForCleaning.csv[UC-Practice-2ab-ForCleaning.csv,opts=download]. (138 KB)
-. Import the CSV file in Excel using the Excel wizard. See xref:attachment$Excel-tips-EN.pdf[Excel-tips-EN.pdf,opts=download] (PDF, 7 MB) for import instructions for your operating system (Windows, Mac, Linux).
-. Find and document the technical errors (indicating the subtype: completeness, bounds, data type, or data format).
-. Use the previously downloaded xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download] (PDF, 2.9 MB) to provide your answers.
+. Download xref:attachment$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 KB)
+. Open the file in Excel and examine the three tabs.
+. Find and document the errors (indicating the technical or consistency subtype).
+. Manually fix the errors if you have time.
+. Use the previously downloaded xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download] (PDF, 4 MB) to provide your answers.
 
 == Data management tools
 
@@ -400,24 +401,14 @@ For this exercise, you will practice cleaning data using Excel and other helpful
 
 SBN has given you a checklist of data quality elements to verify:
 
-* All names (full name) are correctly spelled
-* All names belong to the order
-* All records have coordinates
+* All names are correctly spelled and are butterflies
+* All names are complete
 * All coordinates are inside the country stated and converted to decimal format
 * All dates are in the proper column and in the format YYYY-MM-DD
 
-The three categories of errors are:
-
-* Nomenclatural errors
-* Format errors
-* Geographic errors / outliers
-
-. Refer to <<Helpful tools>> in order to complete the exercise.
-You are not limited to these tools, you may use any tools you like.
-. Use the same file from the previous exercise.
-. Make the correction ONLY for the ?? family (so you may want to filter the data)
-. Correct the errors found in the dataset used in exercise 2a (previous exercise), using the tools of your choice, and document the changes you perform in the exercise sheet.
-. Correct the entire file if you have time.
+. Refer to <<Helpful tools>> in order to complete the exercise. It is suggested to use the https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], the http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] and https://maps.google.com/[Google Maps^]. You are not limited to these tools, you may use any tools you like.
+. Continue using the same file from the previous exercise.
+. Correct any additional errors found in the dataset and document the changes you perform in the exercise sheet.
 . Use the previously downloaded exercise sheet to provide your answers.
 
 == OpenRefine
@@ -523,8 +514,8 @@ In this exercise you will use OpenRefine to improve the quality of a dataset by 
 
 ==== Exercise 2c
 
-. Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (133 KB)
-. Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 1.1 MB)
+. Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 KB)
+. Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2.2 MB)
 //Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download].
 . Use the previously downloaded exercise sheet to provide your answers.
 
@@ -577,6 +568,7 @@ Are the records consistent with the method provided?
 
 *Taxonomy*
 
+* *GBIF Species Matching: https://www.gbif.org/tools/species-lookup
 * *GBIF Name Parser*: https://www.gbif.org/tools/name-parser
 * *Global Names Resolver*: http://resolver.globalnames.org
 * *Catalogue of Life checklist bank name match*: https://www.checklistbank.org/tools/name-match

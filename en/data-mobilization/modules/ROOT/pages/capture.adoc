@@ -528,7 +528,7 @@ image::data-mobilization::capture-dataset-types-Slide19.png[align=center]
 
 *Slide 19 - Darwin Core standard: cores and extensions*
 
-Once the data has been standardized using the Darwin Core standard, each class of dataset (metadata-only, sampling event, taxonomic or occurrence datasets) can be published on GBIF.org using one of the tools mentioned on this figure. The most frequently used tool within the GBIF community is the GBIF-developed Integrated Publishing Toolkit (IPT), which transforms the source data into Darwin Core archives that are then harvested and indexed by GBIF. The data are then searchable and downloadable via GBIF.org.
+Once the data has been standardized using the Darwin Core standard, each class of dataset (metadata-only, sampling-event, taxonomic or occurrence datasets) can be published on GBIF.org using one of the tools mentioned on this figure. The most frequently used tool within the GBIF community is the GBIF-developed Integrated Publishing Toolkit (IPT), which transforms the source data into Darwin Core archives that are then harvested and indexed by GBIF. The data are then searchable and downloadable via GBIF.org.
 
 image::data-mobilization::capture-dataset-types-Slide20.png[align=center]
 
@@ -567,137 +567,7 @@ This presentation was originally created and narrated by Sophie Pamerlon with ad
 --
 ====
 
-== Exercise 1b
-
-[NOTE.quiz]
-====
-Quiz yourself on the concepts covered in the dataset types presentation. There may be multiple correct answers for some questions.
-
-You can read more about the answers in the xref:solutions.adoc[Solutions Appendix].
-
-Following the quiz, you will consider the data type of your own data.
-====
-
-// Note the lack of empty lines between the end of the question (....) and the start of the next question
-// (. What…) is required, so I have added // comments to help separate them.
-// The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
-
-****
-// Question 1
-. What dataset type(s) would you choose for an ichthyology collection?
-+
-[question, mc]
-....
-:figure-caption!:
-.https://www.gbif.org/occurrence/441867173[Eutrigla gurnardus (Linnaeus, 1758)] | Muséum d’histoire naturelle de Nice
-image::data-mobilization::QDataTypes-specimen.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [x] checklist
-- [ ] sampling event
-....
-// Question 2
-. What dataset type(s) would you choose for a list of invasive species?
-+
-[question, mc]
-....
-:figure-caption!:
-.Water hyacinth (Eichhornia crassipes) observed in Bourail, New Caledonia, where it is an introduced and invasive species by GRIIS. Photo by gérard (2016) licensed under CC BY-SA 2.0
-image::data-mobilization::QDataTypes-plant.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [x] checklist
-- [ ] sampling event
-....
-// Question 3
-. What dataset type(s) would you choose for the flora and fauna of an environmental impact study?
-+
-[question, mc]
-....
-Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).
-
-:figure-caption!:
-.https://upload.wikimedia.org/wikipedia/commons/6/64/Entomologist_chasing_buterflies.jpg[Entomologist chasing butterflies] by Matthieu Gauvain (CC-BY-SA)
-image::data-mobilization::QDataTypes-field.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [ ] checklist
-- [x] sampling event
-....
-// Question 4
-. What dataset type(s) would you choose for bird tracking data?
-+
-[question, mc]
-....
-Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.
-
-:figure-caption!:
-.https://commons.wikimedia.org/wiki/File:Griffon_vulture_at_Gamla_nature_reserve.jpg[Griffin vulture] observed at Gamla Nature Reserve by מינוזיג - MinoZig (CC0) 
-image::data-mobilization::QDataTypes-tracking.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [ ] checklist
-- [ ] sampling event
-....
-// Question 5
-. What dataset type(s) would you choose for insect trap data?
-+
-[question, mc]
-....
-:figure-caption!:
-.https://www.flickr.com/photos/miheco/215305679/[Insect trap] by miheco (CC-BY-SA)
-image::data-mobilization::QDataTypes-traps.png[align="center",width=640,height=360]
-
-- [x] occurrence
-- [ ] checklist
-- [x] sampling event
-....
-// Question 6
-. What dataset type(s) would you choose for national park management data?
-+
-[question, mc]
-....
-Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.
-
-:figure-caption!:
-.https://pixabay.com/photos/%C3%A9l%C3%A9phant-%C3%A9l%C3%A9phant-d-asie-4037451/[Sri Lankan elephants] observed by pen_ash.
-image::data-mobilization::QDataTypes-Observations.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [x] checklist
-- [x] sampling event
-....
-// Question 7
-. What dataset type(s) would you choose for a citizen science bioblitz?
-+
-[question, mc]
-....
-Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.
-
-Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.
-
-:figure-caption!:
-.https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)
-image::data-mobilization::QDataTypes-citizen.png[align=center,width=640,height=360]
-
-- [x] occurrence
-- [ ] checklist
-- [x] sampling event
-....
-// Question 8
-. What dataset type(s) would you choose for a regional species list?
-+
-[question, mc]
-....
-:figure-caption!:
-.https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300
-image::data-mobilization::QDataTypes-threatened.png[align=center,width=640,height=360]
-
-- [ ] occurrence
-- [x] checklist
-- [ ] sampling event
-....
-****
+=== Exercise 1b
 
 [NOTE.speak]
 ====
