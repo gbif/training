@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-27 19:27+0000\n"
+"POT-Creation-Date: 2026-05-28 17:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,18 +23,18 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:386
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:394
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:406
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:725
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:733
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:745
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:595
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:603
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:615
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:36
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:241
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:261
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:422
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:430
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
@@ -274,10 +274,10 @@ msgstr ""
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:395
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:734
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:604
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:25
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:250
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
@@ -298,10 +298,10 @@ msgstr ""
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:736
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:606
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:27
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:252
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:433
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
@@ -330,31 +330,16 @@ msgstr ""
 msgid "Click to expand"
 msgstr ""
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:577
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:604
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid ""
-"You can read more about the answers in the xref:solutions.adoc[Solutions "
-"Appendix]."
-msgstr ""
-
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:384
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:385
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:450
 #, no-wrap
 msgid "*Slide 14 - Conclusion*\n"
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:597
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:261
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:589
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:260
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -372,8 +357,8 @@ msgid "Review"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:602
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:266
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:594
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:265
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -383,6 +368,20 @@ msgstr ""
 msgid ""
 "Quiz yourself on the concepts covered in this module. There may be multiple "
 "correct answers for some questions."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:596
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:267
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid ""
+"You can read more about the answers in the xref:solutions.adoc[Solutions "
+"Appendix]."
 msgstr ""
 
 #. type: Plain text
