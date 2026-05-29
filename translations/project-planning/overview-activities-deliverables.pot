@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-27 19:27+0000\n"
+"POT-Creation-Date: 2026-05-28 17:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,18 +23,18 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:386
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:394
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:406
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:725
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:733
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:745
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:595
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:603
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:615
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:36
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:240
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:248
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:260
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:439
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:451
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:241
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:261
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:422
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:430
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
@@ -274,10 +274,10 @@ msgstr ""
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:395
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:734
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:604
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:25
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:249
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:440
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:250
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
@@ -298,10 +298,10 @@ msgstr ""
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:736
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:606
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:27
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:251
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:252
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:433
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
@@ -328,159 +328,6 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
 #, no-wrap
 msgid "Click to expand"
-msgstr ""
-
-#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
-#.  (. What…) is required, so I have added // comments to help separate them.
-#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
-#.  Question 1
-#. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:588
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
-msgid "What dataset type(s) would you choose for an ichthyology collection?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:598
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:611
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
-#, no-wrap
-msgid ""
-"- [x] occurrence\n"
-"- [x] checklist\n"
-"- [ ] sampling event\n"
-msgstr ""
-
-#.  Question 2
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:601
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
-msgid "What dataset type(s) would you choose for a list of invasive species?"
-msgstr ""
-
-#.  Question 3
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:614
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
-msgid ""
-"What dataset type(s) would you choose for the flora and fauna of an "
-"environmental impact study?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:618
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
-#, no-wrap
-msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:626
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:654
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:686
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
-#, no-wrap
-msgid ""
-"- [x] occurrence\n"
-"- [ ] checklist\n"
-"- [x] sampling event\n"
-msgstr ""
-
-#.  Question 4
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:629
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
-msgid "What dataset type(s) would you choose for bird tracking data?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:633
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
-#, no-wrap
-msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:641
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
-#, no-wrap
-msgid ""
-"- [x] occurrence\n"
-"- [ ] checklist\n"
-"- [ ] sampling event\n"
-msgstr ""
-
-#.  Question 5
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:644
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
-msgid "What dataset type(s) would you choose for insect trap data?"
-msgstr ""
-
-#.  Question 6
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:657
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
-msgid ""
-"What dataset type(s) would you choose for national park management data?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:661
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
-#, no-wrap
-msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:669
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
-#, no-wrap
-msgid ""
-"- [x] occurrence\n"
-"- [x] checklist\n"
-"- [x] sampling event\n"
-msgstr ""
-
-#.  Question 7
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:672
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
-msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:676
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
-#, no-wrap
-msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:678
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
-#, no-wrap
-msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
-msgstr ""
-
-#.  Question 8
-#. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:689
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
-msgid "What dataset type(s) would you choose for a regional species list?"
-msgstr ""
-
-#. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:699
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
-#, no-wrap
-msgid ""
-"- [ ] occurrence\n"
-"- [x] checklist\n"
-"- [ ] sampling event\n"
 msgstr ""
 
 #. type: Title ==
@@ -1435,6 +1282,15 @@ msgid ""
 "choose-dataset-type/[Choosing a dataset type^]."
 msgstr ""
 
+#.  Note the lack of empty lines between the end of the question (....) and the start of the next question
+#.  (. What…) is required, so I have added // comments to help separate them.
+#.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
+#.  Question 1
+#. type: delimited block *
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:229
+msgid "What dataset type(s) would you choose for an ichthyology collection?"
+msgstr ""
+
 #. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:235
 #, no-wrap
@@ -1445,12 +1301,42 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:240
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:253
+#, no-wrap
+msgid ""
+"- [x] occurrence\n"
+"- [x] checklist\n"
+"- [ ] sampling event\n"
+msgstr ""
+
+#.  Question 2
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:243
+msgid "What dataset type(s) would you choose for a list of invasive species?"
+msgstr ""
+
+#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:249
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
 ".Water hyacinth (Eichhornia crassipes) observed in Bourail, New Caledonia, where it is an introduced and invasive species by GRIIS. Photo by gérard (2016) licensed under CC BY-SA 2.0\n"
 "image::project-planning::QDataTypes-plant.png[align=center,width=640,height=360]\n"
+msgstr ""
+
+#.  Question 3
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:256
+msgid ""
+"What dataset type(s) would you choose for the flora and fauna of an "
+"environmental impact study?"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:260
+#, no-wrap
+msgid "Environmental impact assessment studies are done by experts in order to assess the biodiversity and biotopes of a given area, before, during and after it is affected by human activities (road works, wind turbines, mining, building construction, etc.).\n"
 msgstr ""
 
 #. type: delimited block .
@@ -1463,6 +1349,29 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:268
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:296
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:328
+#, no-wrap
+msgid ""
+"- [x] occurrence\n"
+"- [ ] checklist\n"
+"- [x] sampling event\n"
+msgstr ""
+
+#.  Question 4
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:271
+msgid "What dataset type(s) would you choose for bird tracking data?"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:275
+#, no-wrap
+msgid "Bird-tracking data are recorded using specific devices, such as GPS trackers mounted on live birds, thus allowing scientists to track their migratory routes or breeding sites.\n"
+msgstr ""
+
+#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:279
 #, no-wrap
 msgid ""
@@ -1472,12 +1381,40 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:283
+#, no-wrap
+msgid ""
+"- [x] occurrence\n"
+"- [ ] checklist\n"
+"- [ ] sampling event\n"
+msgstr ""
+
+#.  Question 5
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:286
+msgid "What dataset type(s) would you choose for insect trap data?"
+msgstr ""
+
+#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:292
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
 ".https://www.flickr.com/photos/miheco/215305679/[Insect trap] by miheco (CC-BY-SA)\n"
 "image::project-planning::QDataTypes-traps.png[align=\"center\",width=640,height=360]\n"
+msgstr ""
+
+#.  Question 6
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:299
+msgid ""
+"What dataset type(s) would you choose for national park management data?"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:303
+#, no-wrap
+msgid "Data acquired in the context of protected areas management (such as national parks but also smaller nature reserves) can be diverse and have different origins: botanical surveys, tagged animals tracking, observations from rangers and guards, and even ‘citizen science’ data or data inferred from pictures shared on social medias.\n"
 msgstr ""
 
 #. type: delimited block .
@@ -1490,12 +1427,45 @@ msgid ""
 msgstr ""
 
 #. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:311
+#, no-wrap
+msgid ""
+"- [x] occurrence\n"
+"- [x] checklist\n"
+"- [x] sampling event\n"
+msgstr ""
+
+#.  Question 7
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:314
+msgid "What dataset type(s) would you choose for a citizen science bioblitz?"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:318
+#, no-wrap
+msgid "Citizen science data are often collected through thematic fieldwork days known as a “bioblitz.” Volunteers typically gather in a given area and spend the day trying to observe and identify as many species as they can in this area.\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:320
+#, no-wrap
+msgid "Data from each participant are captured and merged into the citizen science programme’s data capture or data management tool.\n"
+msgstr ""
+
+#. type: delimited block .
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:324
 #, no-wrap
 msgid ""
 ":figure-caption!:\n"
 ".https://www.nps.gov/experiences/citizen-scientists-bioblitz.htm?fullweb=1[Looking for birds with park staff] by US National Park Service (authorized reuse on google image search)\n"
 "image::project-planning::QDataTypes-citizen.png[align=center,width=640,height=360]\n"
+msgstr ""
+
+#.  Question 8
+#. type: Plain text
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:331
+msgid "What dataset type(s) would you choose for a regional species list?"
 msgstr ""
 
 #. type: delimited block .
@@ -1505,6 +1475,15 @@ msgid ""
 ":figure-caption!:\n"
 ".https://pixabay.com/photos/zoo-de-magdebourg-makibo-2876837/[Black rhino] observed at the Magdeburg Zoo in Germany by Mani300\n"
 "image::project-planning::QDataTypes-threatened.png[align=center,width=640,height=360]\n"
+msgstr ""
+
+#. type: delimited block .
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:341
+#, no-wrap
+msgid ""
+"- [ ] occurrence\n"
+"- [x] checklist\n"
+"- [ ] sampling event\n"
 msgstr ""
 
 #. type: Title ==
