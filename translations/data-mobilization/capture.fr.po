@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-05-28 17:13+0000\n"
-"PO-Revision-Date: 2026-05-28 18:20\n"
+"PO-Revision-Date: 2026-05-30 02:29\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1118,7 +1118,7 @@ msgstr "*Diapositive 25 - Conclusion*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:364
 msgid "This is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Paula Zermoglio and John Wieczorek with additional contributions by Sharon Grant, Sophie Pamerlon, Laura Anne Russell, Cecilie Svenningsen and Dag Endresen. Narration is by me, Vijay Barve."
-msgstr ""
+msgstr "Ce document fait partie d'une série de présentations utilisées dans le cadre du cours sur la mobilisation des données sur la biodiversité du GBIF. Le programme de mobilisation des données sur la biodiversité a été développé à l'origine dans le cadre du programme de développement de l'information sur la biodiversité financé par l'Union européenne. Cette présentation a été créée par Paula Zermoglio et John Wieczorek avec des contributions supplémentaires de Sharon Grant, Sophie Pamerlon, Laura Anne Russell, Cecilie Svenningsen et Dag Endresen. Cette présentation a été narrée par Vijay Barve."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:368
@@ -1521,7 +1521,9 @@ msgstr "*Diapositive 19 - Darwin Core standard : noyaux et extensions*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:532
 msgid "Once the data has been standardized using the Darwin Core standard, each class of dataset (metadata-only, sampling-event, taxonomic or occurrence datasets) can be published on GBIF.org using one of the tools mentioned on this figure. The most frequently used tool within the GBIF community is the GBIF-developed Integrated Publishing Toolkit (IPT), which transforms the source data into Darwin Core archives that are then harvested and indexed by GBIF. The data are then searchable and downloadable via GBIF.org."
-msgstr ""
+msgstr "Une fois que les données ont été standardisées en utilisant la norme Darwin Core, chaque classe de jeu de données (métadonnées seulement, jeux de données d'événements d'échantillonnage, listes taxonomiques ou d'occurrences) peut être publiée sur GBIF.org en utilisant l'un des outils présentés sur cette figure.\n"
+"L'outil le plus fréquemment utilisé au sein de la communauté GBIF est la boîte à outils intégré de publication (IPT; Integrated Publishing Toolkit), développé par GBIF, et qui transforme les données sources en archives Darwin Core qui sont ensuite récoltées et indexées par GBIF.\n"
+"Les données sont ensuite interrogeables et téléchargeables via GBIF.org."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:533
@@ -1589,24 +1591,24 @@ msgstr "Avec quel type de données travaillez-vous ?"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:556
 msgid "Is your data type different than you originally thought?"
-msgstr ""
+msgstr "Votre type de données est-il différent de ce que vous pensiez initialement ?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:558
 msgid "How would you publish them to GBIF? (using which Core and/or extension?)"
-msgstr ""
+msgstr "Comment les publieriez-vous sur GBIF? (à l'aide de quel classe [Core] et/ou extension ?)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:559
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide23.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide23.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:562
 #, no-wrap
 msgid "*Slide 23 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositive 23 - Conclusion*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:564
@@ -1618,29 +1620,29 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:566
 msgid "This presentation was originally created and narrated by Sophie Pamerlon with additional contributions by BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Cette présentation a été créée et narrée par Sophie Pamerlon avec des contributions supplémentaires des Coachs, Mentors et Étudiants du BID et du BIFA."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:570
 #, no-wrap
 msgid "Exercise 1b"
-msgstr ""
+msgstr "Exercice 1b"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:575
 msgid "For this activity, consider your data that you plan to share with GBIF."
-msgstr ""
+msgstr "Pour cette activité, considérez vos données que vous envisagez de partager avec le GBIF."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
 #, no-wrap
 msgid "*Discussion*\n"
-msgstr ""
+msgstr "*Discussion*\n"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:582
 msgid "Is your dataset type different than you originally thought?"
-msgstr ""
+msgstr "Votre type de données est-il différent de ce que vous pensiez initialement ?"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:583
@@ -1665,7 +1667,7 @@ msgstr "Saisie, traitement et qualité des données"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:592
 msgid "In this presentation), you will explore the principles of data quality applied to data capture, specifically when capturing data from collection labels, fieldwork notebooks, spreadsheets, etc."
-msgstr ""
+msgstr "Au cours de cette présentation, nous allons explorer les principes de la qualité des données appliqués à la saisie des données, spécifiquement lors de la capture de données à partir des étiquettes de collecte, des cahiers de travail, des feuilles de calcul, etc."
 
 #. type: delimited block +
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:600
@@ -1673,535 +1675,537 @@ msgstr ""
 msgid "<div class=\"responsive-slides\">\n"
 "  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTa0Qu8dPHAIu_U0oHDURfdX8UzvipRJ9gOtAS7qDIBBaIUfrS0zDzk6NviXoplvQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
 "</div>\n"
-msgstr ""
+msgstr "<div class=\"responsive-slides\">\n"
+"  <iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTa0Qu8dPHAIu_U0oHDURfdX8UzvipRJ9gOtAS7qDIBBaIUfrS0zDzk6NviXoplvQ/embed?start=false&loop=false\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n"
+"</div>\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:616
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:619
 #, no-wrap
 msgid "*Slide 1 - Data capture, processing and quality*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Saisie, traitement et qualité des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:621
 msgid "This presentation is based on “Principles for data quality” by Arthur Chapman"
-msgstr ""
+msgstr "Cette présentation est basée sur les « Principes de qualité des données » de Arthur Chapman"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:622
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:625
 #, no-wrap
 msgid "*Slide 2 - Structure*\n"
-msgstr ""
+msgstr "*Diapositive 2 - Structure*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:627
 msgid "During this presentation, we will explore the principles of data quality applied to data capture, specifically when capturing data from collection labels, fieldwork notebooks, spreadsheets, etc."
-msgstr ""
+msgstr "Au cours de cette présentation, nous allons explorer les principes de la qualité des données appliqués à la saisie des données, spécifiquement lors de la capture de données à partir des étiquettes de collecte, des cahiers de travail, des feuilles de calcul, etc."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:628
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:631
 #, no-wrap
 msgid "*Slide 3 - Develop a data processing and quality workflow*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Développer un flux de travail pour le traitement et la qualité des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:633
 msgid "Data quality is essential at every step of the data mobilization process, especially in the data capture steps."
-msgstr ""
+msgstr "La qualité des données est essentielle à chaque étape du processus de mobilisation des données, en particulier lors des étapes de saisie des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:635
 msgid "Each person involved in the data capture has a share of responsibility regarding the data quality, but most decisions on this topic have to be taken at the institutional level."
-msgstr ""
+msgstr "Chaque personne impliquée dans la saisie des données a sa part de responsabilité en ce qui concerne la qualité des données, mais la plupart des décisions à ce sujet doivent être prises au niveau institutionnel."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:637
 msgid "The keywords here are: planning and documentation!"
-msgstr ""
+msgstr "Les mots clés sont : planification et documentation !"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:640
 msgid "As mentioned in the Foundations documentation presentation, use existing standards and plan your workflows to match your goals; document everything you can, at every step, and share or re-use documents, data, tools and standards as much as possible."
-msgstr ""
+msgstr "Comme indiqué dans la présentation de la documentation sur les fondements, utilisez les normes existantes et planifiez vos flux de travail en fonction de vos objectifs ; documentez tout ce que vous pouvez, à chaque étape, et partagez ou réutilisez autant que possible les documents, les données, les outils et les normes."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:641
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:644
 #, no-wrap
 msgid "*Slide 4 - Data processing and quality workflow*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Développer un flux de travail pour le traitement et la qualité des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:646
 msgid "This is an example of a data quality workflow."
-msgstr ""
+msgstr "Il s'agit d'un exemple de flux de travail relatif à la qualité des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:648
 msgid "In this workflow, it begins with the collection of specimens, moves to data capture, then quality control, publishing and finally use."
-msgstr ""
+msgstr "Ce flux de travail commence par la collecte des spécimens, passe à la saisie des données, puis au contrôle de la qualité, à la publication et enfin à l'utilisation."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:650
 msgid "Data quality isn’t the sole responsibility of the first person in the process (here, the collector) -- it is shared at every step and every person in the process should have a responsibility for quality."
-msgstr ""
+msgstr "La qualité des données n'est pas la seule responsabilité de la première personne du processus (ici, le collecteur) - elle est partagée à chaque étape et chaque personne du processus devrait être responsable de la qualité."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:652
 msgid "A functioning feedback loop needs to be in place in order to check, complete, update or correct data."
-msgstr ""
+msgstr "Une boucle de rétroaction fonctionnelle doit être mise en place pour vérifier, compléter, mettre à jour ou corriger les données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:654
 msgid "This is where documentation is essential: you need to know who was responsible for each step in the process in order to validate changes that have been made to the data (or need to be made to the data)."
-msgstr ""
+msgstr "C'est là que la documentation est essentielle : vous devez savoir qui était responsable de chaque étape du processus afin de valider les changements qui ont été apportés aux données (ou qui doivent être apportés aux données)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:655
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:658
 #, no-wrap
 msgid "*Slide 5 - Data processing and quality responsibilities*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Développer un flux de travail pour le traitement et la qualité des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:660
 msgid "In this simplified view of the data flow, you can see some of the data quality responsibilities of each group of people involved."
-msgstr ""
+msgstr "Dans cette vue simplifiée du flux de données, vous pouvez voir certaines des responsabilités en matière de qualité des données de chaque groupe de personnes impliquées."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:662
 msgid "In this example, the team in charge of the mobilization can be split into the ‘transcribers’ and ‘curator’ roles."
-msgstr ""
+msgstr "Dans cet exemple, l'équipe chargée de la mobilisation peut être divisée entre les rôles de \"transcripteurs\" et de \"conservateurs\"."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:664
 msgid "The transcribers team needs to ensure data is captured and saved as best as possible, while the ‘curator’ role has the ultimate responsibility for ensuring that each team is fulfilling their roles in the process."
-msgstr ""
+msgstr "L'équipe de transcripteurs doit s'assurer que les données sont saisies et sauvegardées le mieux possible, tandis que le \"conservateur\" a la responsabilité ultime de veiller à ce que chaque équipe remplisse son rôle dans le processus."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:666
 msgid "Collector picture: https://pixabay.com/fr/photos/d%C3%A9tective-loupe-regarde-un-788592/"
-msgstr ""
+msgstr "Image du collectionneur : https://pixabay.com/fr/photos/d%C3%A9tective-loupe-regarde-un-788592/"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:668
 msgid "User picture: www,gbif.org (WSC Cambodia camera trap dataset search results)"
-msgstr ""
+msgstr "Image de l'utilisateur : www.gbif.org (Résultat de la recherche du jeu de données WSC Cambodia camera trap dataset)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:670
 msgid "Curator pictures: https://pixabay.com/fr/photos/livres-livres-anciens-ordinateur-4802412/ & https://pixabay.com/fr/photos/donn%C3%A9es-ordinateur-internet-2899901/"
-msgstr ""
+msgstr "Photos du conservateur : https://pixabay.com/fr/photos/livres-livres-anciens-ordinateur-4802412/ & https://pixabay.com/fr/photos/donn%C3%A9es-ordinateur-internet-2899901/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:671
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:674
 #, no-wrap
 msgid "*Slide 6 - Structure*\n"
-msgstr ""
+msgstr "*Diapositive 6 - Structure*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:676
 msgid "Once the data workflow is in place, the data capture itself can begin."
-msgstr ""
+msgstr "Une fois le flux de données mis en place, la saisie des données proprement dite peut commencer."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:678
 msgid "In the following slides, we will explore the different types of information that can be captured from specimens or field observations, and see what are the most common mistakes that should be avoided when dealing with each kind of information."
-msgstr ""
+msgstr "Dans les diapositives suivantes, nous allons explorer les différents types d'informations qui peuvent être obtenues à partir de spécimens ou d'observations sur le terrain, et nous verrons quelles sont les erreurs les plus courantes à éviter lorsque l'on traite chaque type d'information."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:680
 msgid "The main topics will be as follows: taxonomic information, spatial information, collection information, descriptive information."
-msgstr ""
+msgstr "Les principaux thèmes abordés seront les suivants : informations taxonomiques, informations spatiales, informations sur les collections, informations descriptives."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:682
 msgid "Please note that each occurrence (each row in your database or spreadsheet) should have information linked to these 4 main topics in order to be shared and reused accordingly."
-msgstr ""
+msgstr "Veuillez noter que chaque occurrence (chaque ligne de votre base de données ou de votre feuille de calcul) doit contenir des informations liées à ces quatre thèmes principaux afin d'être partagée et réutilisée en conséquence."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:683
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:686
 #, no-wrap
 msgid "*Slide 7 - Taxonomic information: vocabularies and concepts*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Information taxonomique : vocabulaires et concepts*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:688
 msgid "Taxonomic information is an essential part of the data capture process."
-msgstr ""
+msgstr "L'information taxonomique est un élément essentiel du processus de saisie des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:690
 msgid "Without it, a digitized specimen is useless and cannot be properly interpreted or reused."
-msgstr ""
+msgstr "Sans information taxonomique, un spécimen numérisé est inutile et ne peut être correctement interprété ou réutilisé."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:692
 msgid "Note that the species name is not the only type of taxonomic information that can be exploited in the data capture process: sometimes the specimen hasn’t been identified to the species, and higher taxonomic levels such as the genus or family are still useful for data managers and users."
-msgstr ""
+msgstr "Il convient de noter que le nom de l'espèce n'est pas le seul type d'information taxonomique pouvant être exploité dans le processus de saisie des données : parfois, le spécimen n'a pas été identifié jusqu'à l'espèce, et des niveaux taxonomiques plus élevés, tels que le genre ou la famille, sont toujours utiles pour les gestionnaires et les utilisateurs de données."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:693
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:696
 #, no-wrap
 msgid "*Slide 8 - Taxonomic information -- be careful with names!*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Informations taxonomiques -- attention aux noms!*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:698
 msgid "Most of the time, the scientific name is the main way of retrieving data in a database, portal, website, browser, etc."
-msgstr ""
+msgstr "La plupart du temps, le nom scientifique est le principal moyen de retrouver des données dans une base de données, un portail, un site web, un navigateur, etc."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:700
 msgid "Any error in the spelling or authority can lead to wrong or null queries, thus impeding the management and potential reuse of the data."
-msgstr ""
+msgstr "Toute erreur d'orthographe ou d'autorité peut conduire à des requêtes erronées ou nulles, entravant ainsi la gestion et la réutilisation potentielle des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:702
 msgid "This is why it’s very important to check all categories of scientific names to fix errors and/or omissions."
-msgstr ""
+msgstr "C'est pourquoi il est très important de vérifier toutes les catégories de noms scientifiques afin de corriger les erreurs et/ou les omissions."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:703
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:706
 #, no-wrap
 msgid "*Slide 9 - Taxonomic information: common mistakes to avoid*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Informations taxonomiques : erreurs communes à éviter*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:708
 msgid "The most common issues occurring with taxon information are missing or inconsistent information, incorrect or non-atomic values, duplicates and uncertainty."
-msgstr ""
+msgstr "Les problèmes les plus courants concernant les informations sur les taxons sont les informations manquantes ou incohérentes, les valeurs incorrectes ou non atomiques, les doublons et l'incertitude."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:710
 msgid "Always check the definitions and examples of taxonomic Darwin Core terms to avoid nomenclatural mistakes: http://rs.tdwg.org/dwc/terms/index.htm"
-msgstr ""
+msgstr "Vérifiez toujours les définitions et les exemples des termes taxonomiques du Darwin Core pour éviter les erreurs de nomenclature : http://rs.tdwg.org/dwc/terms/index.htm"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:711
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:714
 #, no-wrap
 msgid "*Slide 10 - Spatial information: vocabulary and concepts*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Information taxonomique : vocabulaires et concepts*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:716
 msgid "Geographic information proves to be valuable in a lot of data re-use contexts, such as niche modelling or studies about species distribution."
-msgstr ""
+msgstr "Les informations géographiques s'avèrent précieuses dans de nombreux contextes de réutilisation des données, tels que la modélisation des niches ou les études sur la répartition des espèces."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:718
 msgid "While ‘old’ collections or specimens can be understandably difficult, if not impossible, to geolocate precisely, it is recommended to share precise coordinates or textual information when possible."
-msgstr ""
+msgstr "Bien qu'il soit difficile, voire impossible, de géolocaliser avec précision les collections ou les spécimens « anciens », il est recommandé de partager des coordonnées précises ou des informations textuelles lorsque cela est possible."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:721
 msgid "Coordinates should be recorded directly on the field when possible, along with the uncertainty and the geodetic datum used.  Otherwise use relevant and verified sources to geolocate your data."
-msgstr ""
+msgstr "Les coordonnées doivent être enregistrées directement sur le terrain lorsque cela est possible, avec l'incertitude et le système de référence géodésique utilisé. Dans le cas contraire, utilisez des sources pertinentes et vérifiées pour géolocaliser vos données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:723
 msgid "You should note that coordinates or other geographic information can be generalized or not even shared at all in some contexts, such as with the conservation of sensitive species."
-msgstr ""
+msgstr "Il convient de noter que les coordonnées ou autres informations géographiques peuvent être généralisées ou ne pas être partagées du tout dans certains contextes, par exemple dans le cadre de la conservation d'espèces sensibles."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:724
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:727
 #, no-wrap
 msgid "*Slide 11 - Spatial information: what are we talking about?*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Information spatiale : de quoi parlons-nous ?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:729
 msgid "Spatial information can be found in numerous formats, not only geographic coordinates: examples include (but are not limited to) grid data, point+radius, or polygons."
-msgstr ""
+msgstr "Les informations spatiales peuvent se présenter sous de nombreux formats, et pas seulement sous la forme de coordonnées géographiques : les exemples incluent (mais ne sont pas limités à) des données de grille, des points+rayons ou des polygones."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:731
 msgid "Each of them is useful to share in order to check the consistency of the geographical elements (for example coordinates vs country code, or to ensure a given locality is consistent with a collector’s travels)"
-msgstr ""
+msgstr "Chacun d'entre eux est utile à partager afin de vérifier la cohérence des éléments géographiques (par exemple les coordonnées par rapport au code du pays, ou pour s'assurer qu'une localité donnée est cohérente avec les voyages d'un collectionneur)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:733
 msgid "Point+radius image: https://live.staticflickr.com/5820/23736048306_35dfd89c05_b.jpg"
-msgstr ""
+msgstr "Image de Point avec rayon : https://live.staticflickr.com/5820/23736048306_35dfd89c05_b.jpg"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:734
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:737
 #, no-wrap
 msgid "*Slide 12 - Spatial information: a few more definitions*\n"
-msgstr ""
+msgstr "*Diapositive 12 - Information spatiale : quelques définitions supplémentaires*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:739
 msgid "Within GBIF, it is recommended to share the geodetic Datum that was used to derive the coordinates that were shared (decimal latitude and longitude)."
-msgstr ""
+msgstr "Au sein du GBIF, il est recommandé de partager le système de référence géodésique utilisé pour dériver les coordonnées partagées (latitude et longitude décimales)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:741
 msgid "In the absence of a specific geodetic datum, GBIF will infer WGS84 as default."
-msgstr ""
+msgstr "En l'absence d'un datum géodésique spécifique, GBIF déduira WGS84 par défaut."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:742
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:745
 #, no-wrap
 msgid "*Slide 13 - Spatial information: common mistakes to avoid*\n"
-msgstr ""
+msgstr "*Diapositive 13 - Informations taxonomiques : erreurs communes à éviter*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:747
 msgid "This slide shows an old GBIF map with different types of geographical issues: the most obvious one is a mirror effect between the USA and China (reversed coordinates),"
-msgstr ""
+msgstr "Cette diapositive montre une ancienne carte du GBIF présentant différents types de problèmes géographiques : le plus évident est un effet miroir entre les États-Unis et la Chine (coordonnées inversées),"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:750
 msgid "You can also notice an artificial line along the Greenwich meridian where ‘0’ values were put in the ‘decimalLongitude’ field, as well as another one on the Equator where ‘0’ values were put in the ‘decimalLatitude’ field."
-msgstr ""
+msgstr "Vous pouvez également remarquer une ligne artificielle le long du méridien de Greenwich où des valeurs '0' ont été mises dans le champ 'decimalLongitude', ainsi qu'une autre sur l'Équateur où des valeurs '0' ont été mises dans le champ 'decimalLatitude'."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:753
 msgid "GBIF indexing now includes automatic geographical checks between the coordinates and countryCode shared within the dataset.  Coordinates can be automatically reversed to match the country."
-msgstr ""
+msgstr "L'indexation GBIF inclut désormais des vérifications géographiques automatiques entre les coordonnées et le code pays partagés dans le jeu de données. Les coordonnées peuvent être automatiquement inversées pour correspondre au pays."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:754
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:757
 #, no-wrap
 msgid "*Slide 14 - Collection information: vocabularies and concepts*\n"
-msgstr ""
+msgstr "*Diapositive 14 - Information taxonomique : vocabulaires et concepts*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:759
 msgid "Information about the context of the data collection or observation are very useful to share in order to give as much detail as possible regarding each occurrence."
-msgstr ""
+msgstr "Les informations sur le contexte de la collecte de données ou de l'observation sont très utiles à partager afin de donner autant de détails que possible sur chaque événement."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:761
 msgid "Information such as the collector name, collection or observation protocol, habitat and other factors can prove to be important when reusing data for example with ecological niche modelling."
-msgstr ""
+msgstr "Des informations telles que le nom du collecteur, le protocole de collecte ou d'observation, l'habitat et d'autres facteurs peuvent s'avérer importantes lors de la réutilisation des données, par exemple dans le cadre de la modélisation des niches écologiques."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:763
 msgid "Depending on the dataset type, other information might also become relevant."
-msgstr ""
+msgstr "Selon le type d'ensemble de données, d'autres informations peuvent également s'avérer pertinentes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:765
 msgid "Image credit: https://pixabay.com/fr/photos/tige-afrique-jumelles-bush-safari-863823/"
-msgstr ""
+msgstr "Crédit photo : https://pixabay.com/fr/photos/tige-afrique-jumelles-bush-safari-863823/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:766
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:769
 #, no-wrap
 msgid "*Slide 15 - Collection information: things to keep in mind*\n"
-msgstr ""
+msgstr "*Diapositive 15 - Informations sur la collecte : ce qu'il faut garder à l'esprit*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:771
 msgid "Data quality factors regarding collection information are mainly along the lines of exactitude like the correct collector name, consistency for example using the same vocabulary for describing soils, habitats, and completeness as in providing all existing information about the description of a given species including the flowering period, colour of the leaves, and medicinal uses."
-msgstr ""
+msgstr "Les facteurs de qualité des données concernant les informations collectées sont principalement l'exactitude, comme le nom correct du collecteur, la cohérence, par exemple l'utilisation du même vocabulaire pour décrire les sols et les habitats, et l'exhaustivité, comme la fourniture de toutes les informations existantes sur la description d'une espèce donnée, y compris la période de floraison, la couleur des feuilles et les utilisations médicinales."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:774
 #, no-wrap
 msgid "Within the Darwin Core and within the IPT you can find recommended controlled vocabularies for some fields such as the ‘lifeStage’.\n"
 " The TDWG vocabularies task group works to promote and make better the ease of use across vocabularies.\n"
-msgstr ""
+msgstr "Dans le Darwin Core et dans l'IPT, vous trouverez des vocabulaires contrôlés recommandés pour certains domaines tels que le \"lifeStage\". Le groupe de travail sur les vocabulaires du TDWG s'efforce de promouvoir et d'améliorer la facilité d'utilisation des vocabulaires.\n"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:775
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:778
 #, no-wrap
 msgid "*Slide 16 - Descriptive information: vocabularies and concepts*\n"
-msgstr ""
+msgstr "*Diapositive 16 - Information taxonomique : vocabulaires et concepts*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:780
 msgid "Keep in mind that descriptive information are often incomplete due to a whole array of factors."
-msgstr ""
+msgstr "Gardez à l'esprit que les informations descriptives sont souvent incomplètes en raison d'une panoplie de facteurs."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:784
 msgid "Depending on the collection state, some labels can be incomplete or lacking crucial information; Completeness (for example of a species description) is often impossible to achieve with a single individual; and you should always check for consistency in your database or spreadsheet, for example in the terms used for describing colours, in order to avoid redundant information."
-msgstr ""
+msgstr "Selon l'état de la collection, certaines étiquettes peuvent être incomplètes ou manquer d'informations essentielles ; l'exhaustivité (par exemple de la description d'une espèce) est souvent impossible à atteindre avec un seul individu ; et vous devez toujours vérifier la cohérence de votre base de données ou de votre feuille de calcul, par exemple dans les termes utilisés pour décrire les couleurs, afin d'éviter les informations redondantes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:786
 msgid "Image credit: Dataset Taiwan Moth Occurrence Data Collected From Social Network"
-msgstr ""
+msgstr "Crédit image : Ensemble de données sur les occurrences de papillons de nuit à Taïwan recueillies sur les réseaux sociaux"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:788
 msgid "https://api.gbif.org/v1/image/unsafe/http%3A%2F%2Fmothimage.mauchiuan.com%2F%2Fimages%2Ftwmoth006%2Ftwmoth028104.jpg"
-msgstr ""
+msgstr "https://api.gbif.org/v1/image/unsafe/http%3A%2F%2Fmothimage.mauchiuan.com%2F%2Fimages%2Ftwmoth006%2Ftwmoth028104.jpg"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:789
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide17.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide17.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:792
 #, no-wrap
 msgid "*Slide 17 - Summary*\n"
-msgstr ""
+msgstr "*Diapositive 17 - Résumé*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:794
 msgid "This presentation has focused on the topic of data quality applied to data capture; indeed, these are the steps where it is crucial to ensure that all information related to each record is correctly and completely captured, in order for the data to be as clear and understandable as possible for future users."
-msgstr ""
+msgstr "Cette présentation s'est concentrée sur le thème de la qualité des données appliquée à la saisie des données ; en effet, il s'agit des étapes où il est crucial de s'assurer que toutes les informations relatives à chaque enregistrement sont correctement et complètement saisies, afin que les données soient aussi claires et compréhensibles que possible pour les futurs utilisateurs."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:796
 msgid "This can only be done if consistent decisions are made at the institutional level in order to create a solid workflow for data capture and data management."
-msgstr ""
+msgstr "Cela n'est possible que si des décisions cohérentes sont prises au niveau institutionnel afin de créer un flux de travail solide pour la saisie et la gestion des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:798
 msgid "The chain of responsibility regarding data quality is then split between the persons involved at each step of the process, but keep in mind that data can always be improved and fixed if errors or omissions are detected at later stages."
-msgstr ""
+msgstr "La chaîne de responsabilité concernant la qualité des données est alors répartie entre les personnes impliquées à chaque étape du processus, mais n'oubliez pas que les données peuvent toujours être améliorées et corrigées si des erreurs ou des omissions sont détectées à des stades ultérieurs."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:799
 #, no-wrap
 msgid "data-mobilization::capture-quality-Slide18.png"
-msgstr ""
+msgstr "data-mobilization::capture-quality-Slide18.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:802
 #, no-wrap
 msgid "*Slide 18 - Conclusion*\n"
-msgstr ""
+msgstr "*Diapositive 18 - Conclusion*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:806
 msgid "This presentation was originally created and narrated by Sophie Pamerlon with additional contributions by BID and BIFA Trainers, Mentors and Students. Narration is by me, Lily Shrestha."
-msgstr ""
+msgstr "Cette présentation a été créée et narrée par Sophie Pamerlon avec des contributions supplémentaires des Coachs du BID et du BIFA, Mentors et Étudiants. La narration est par moi, Lily Shrestha."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:810
 #, no-wrap
 msgid "Exercise 1c"
-msgstr ""
+msgstr "Exercice 1c"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:815
 msgid "For this activity, you will complete an exercise simulating data capture from analogue to digital."
-msgstr ""
+msgstr "Pour cette activité, vous réaliserez un exercice simulant la capture de données de l'analogique au numérique."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:817
 msgid "Use the https://dwc.tdwg.org/terms/[Darwin Core terms^] to help make decisions on the supllied data that is needed for the project and what could be shared later in publication."
-msgstr ""
+msgstr "Utilisez le site https://dwc.tdwg.org/terms/[Darwin Core terms^] pour vous aider à prendre des décisions sur les données complémentaires nécessaires au projet et sur celles qui pourraient être partagées ultérieurement dans le cadre d'une publication."
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:819
 #, no-wrap
 msgid "Read the <<Practice use case>>. Imagine that you are the person assigned to transcribe the data supplied by network volunteers."
-msgstr ""
+msgstr "Lisez le <<Practice use case>>. Imaginez que vous êtes la personne chargée de transcrire les données fournies par les volontaires du réseau."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:821
 msgid "Download xref:attachment$UC-Practice-1-ForCapture-logs.zip[UC-Practice-1-ForCapture-logs.zip,opts=download]. (939 KB). There are three logs files contained in the compressed file."
-msgstr ""
+msgstr "Télécharger xref:attachment$UC-Practice-1-ForCapture-logs.zip[UC-Practice-1-ForCapture-logs.zip,opts=download]. (939 KB). Le fichier compressé contient trois fichiers journaux de bord."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:822
 msgid "Download the spreadsheet template: xref:attachment$UC-Practice-1-ForCapture-template.xlsx[UC-Practice-1-ForCapture-template.xlsx,opts=download] (27 KB) to transcribe the observations recorded."
-msgstr ""
+msgstr "Téléchargez le modèle de feuille de calcul : xref:attachment$UC-Practice-1-ForCapture-template.xlsx[UC-Practice-1-ForCapture-template.xlsx,opts=download] (27 KB) pour transcrire les observations enregistrées."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:824
 msgid "you can add fields to the template if you think you may be able to capture more information than was planned for in the template."
-msgstr ""
+msgstr "vous devrez peut-être ajouter des champs à la feuille de calcul, car vous pourrez peut-être capturer plus d'informations à partir des étiquettes que ce qui était prévu dans le modèle."
 
