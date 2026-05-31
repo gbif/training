@@ -5,22 +5,19 @@
 In this module, you will review the main concepts, related tools and best practices for data management, particularly, data cleaning and standardization.
 ====
 
-== Principles of data management
+== Principles of data cleaning
 
 [NOTE.presentation]
 ====
-In this presentation, you will review an important set of principles necessary to improve data through the processes of data cleaning.
+In this video (09:49), you will review an important set of principles necessary to improve data through the processes of data cleaning based on the https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality^], Chapman AD (2005). Subtitles for this video are available in French and Spanish.
+
+If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_concepts_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 27.9 MB)
+
+If you prefer to read, you will find the transcript below the embedded video.
 ====
 
-&nbsp;
-
-++++
-<div class="responsive-slides">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_gy0LdmnE1Pi-bbuAjBQzdSVlSrV8snykQY0q8G0aVjx76fiMiSJtPaHYCqNhGg/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
-</div>
-++++
-
-&nbsp;
+[.responsive-video]
+video::438251769[vimeo]
 
 === Presentation transcript
 
@@ -34,9 +31,9 @@ In this presentation, you will review an important set of principles necessary t
 [.left]
 &nbsp;
 
-image::data-mobilization::management-concepts-Slide1.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide1.png[align=center]
 
-*Slide 1 - Data management*
+*Slide 1 - Data cleaning*
 
 In this presentation, we are going to explore the key principles and processes important to effective data management.
  
@@ -47,7 +44,7 @@ Rights holder: Gee (Gerard Chartier)
 License: http://creativecommons.org/licenses/by/4.0/
 Reference: https://www.flickr.com/photos/33212211@N00/49747811713/
 
-image::data-mobilization::management-concepts-Slide2.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide2.png[align=center]
 
 *Slide 2 - Key concepts*
 
@@ -60,7 +57,7 @@ Rights holder: onidiras
 License: http://creativecommons.org/licenses/by-nc/4.0/
 Reference: https://www.inaturalist.org/photos/60268318
 
-image::data-mobilization::management-concepts-Slide3.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide3.png[align=center]
 
 *Slide 3 - What is data cleaning?*
 
@@ -79,7 +76,7 @@ Rights holder: benjamynwell
 License: http://creativecommons.org/licenses/by-nc/4.0/
 Reference: https://www.inaturalist.org/photos/61712704
 
-image::data-mobilization::management-concepts-Slide4.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide4.png[align=center]
 
 *Slide 4 - The data cleaning framework*
 
@@ -100,7 +97,7 @@ Rights holder: onidiras
 License: http://creativecommons.org/licenses/by-nc/4.0/
 Reference: https://www.inaturalist.org/photos/60365988
 
-image::data-mobilization::management-concepts-Slide5.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide5.png[align=center]
 
 *Slide 5 - Why data cleaning*
 
@@ -115,7 +112,7 @@ Rights holder: Brieuc Fertard
 License: http://creativecommons.org/licenses/by-nc-nd/4.0/
 Reference: https://www.inaturalist.org/photos/65219025
 
-image::data-mobilization::management-concepts-Slide6.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide6.png[align=center]
 
 *Slide 6 - Principles of data cleaning*
 
@@ -130,7 +127,7 @@ Rights holder: Ondřej Radosta
 License: http://creativeco...ses/by-nc-sa/4.0/
 Reference: https://www.inaturalist.org/photos/43974229
 
-image::data-mobilization::management-concepts-Slide7.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide7.png[align=center]
 
 *Slide 7 - Principles of data cleaning*
 
@@ -142,7 +139,7 @@ One of the first steps of your plan should be to organize the data. For example,
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide8.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide8.png[align=center]
 
 *Slide 8 - Principles of data cleaning*
 
@@ -152,7 +149,7 @@ Be sure that everyone in your organization understands that data quality is ever
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide9.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide9.png[align=center]
 
 *Slide 9 - Principles of data cleaning*
 
@@ -162,7 +159,7 @@ Prioritize your cleaning to take advantage of the resources and knowledge that y
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide10.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide10.png[align=center]
 
 *Slide 10 - Principles of data cleaning*
 
@@ -176,7 +173,7 @@ In an ideal world, you will have developed a data maintenance plan that has been
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide11.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide11.png[align=center]
 
 *Slide 11 - Principles of data cleaning*
 
@@ -186,7 +183,7 @@ One of the best ways to achieve success with data cleaning is to provide trainin
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide12.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide12.png[align=center]
 
 *Slide 12 - Principles of data cleaning*
 
@@ -198,7 +195,7 @@ Documentation is also key to good data quality. Good documentation, in metadata,
 
 Image: Open License from Pixabay
 
-image::data-mobilization::management-concepts-Slide13.png[align=center]
+image::data-mobilization::management-cleaning-conceptsSlide13.png[align=center]
 
 *Slide 13 - Conclusion*
 
@@ -406,7 +403,7 @@ SBN has given you a checklist of data quality elements to verify:
 * All coordinates are inside the country stated and converted to decimal format
 * All dates are in the proper column and in the format YYYY-MM-DD
 
-. Refer to <<Helpful tools>> in order to complete the exercise. It is suggested to use the https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], the http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] and https://maps.google.com/[Google Maps^]. You are not limited to these tools, you may use any tools you like.
+. Refer to <<Helpful tools>> in order to complete the exercise. It is suggested to use the https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], the http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] and http://splink.cria.org.br/infoxy?criaLANG=en[InfoXY^]. You are not limited to these tools, you may use any tools you like.
 . Continue using the same file from the previous exercise.
 . Correct any additional errors found in the dataset and document the changes you perform in the exercise sheet.
 . Use the previously downloaded exercise sheet to provide your answers.
@@ -415,18 +412,15 @@ SBN has given you a checklist of data quality elements to verify:
 
 [NOTE.presentation]
 ====
-In this presentation, you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data.
+In this video (03:27), you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data. Subtitles for this video are available in French and Spanish.
+
+If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 7.7 MB)
+
+If you prefer to read, you will find the transcript below the embedded video.
 ====
 
-&nbsp;
-
-++++
-<div class="responsive-slides">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVDaNu7f19oZEZKfaUqqYKsHoSBgtegqHtvwW7l4TalCyDtzUeiLhGAKsoDOVuEA/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
-</div>
-++++
-
-&nbsp;
+[.responsive-video]
+video::549887717[vimeo]
 
 === Presentation transcript
 
