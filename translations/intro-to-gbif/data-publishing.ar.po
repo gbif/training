@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-04-21 21:56+0000\n"
-"PO-Revision-Date: 2026-05-04 13:09\n"
+"POT-Creation-Date: 2026-06-01 01:16+0000\n"
+"PO-Revision-Date: 2026-06-01 14:19\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -16,24 +16,11 @@ msgstr ""
 "X-Crowdin-File: /main/translations/intro-to-gbif/data-publishing.pot\n"
 "X-Crowdin-File-ID: 40998\n"
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:579
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:603
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:268
-#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
-#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
-#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
-msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr ""
-
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:17
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:1
-#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
+#: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:127
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:1
 #: en/intro-to-gbif/modules/ROOT/pages/description.adoc:13
 #: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
@@ -42,8 +29,8 @@ msgid "Data publishing"
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:596
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:261
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:580
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -61,8 +48,8 @@ msgid "Review"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:601
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:266
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:585
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -72,26 +59,38 @@ msgstr ""
 msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
 msgstr ""
 
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:587
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
+#: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:121
+#: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
+msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
+msgstr ""
+
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:211
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:208
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
 msgid "The endorsement procedure aims to ensure that:"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:213
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:210
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
 msgid "Published data are relevant to GBIF’s scope and objectives"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:215
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:212
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
 msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
 msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:217
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
 msgid "Data publishers can respond to feedback and improve data quality"
 msgstr ""
@@ -101,13 +100,13 @@ msgstr ""
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:277
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr ""
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:283
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
