@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-28 17:13+0000\n"
+"POT-Creation-Date: 2026-05-31 23:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,80 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:21
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:27
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:392
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:598
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:22
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:247
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:425
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:22
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
+#, no-wrap
+msgid "Presentation transcript"
+msgstr ""
+
+#. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:41
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:386
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:394
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:406
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:595
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:603
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:615
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:16
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:600
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:24
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:36
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:241
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:249
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:261
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:422
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:430
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:442
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:427
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
+#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
+#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
+#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
+#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
+#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
+#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
+#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
+#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
+#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
+#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
+#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
+#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
+#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
+#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
+#, no-wrap
+msgid "Click to expand"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:38
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:383
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:391
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:403
+#: en/data-mobilization/modules/ROOT/pages/capture.adoc:609
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:33
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:238
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:246
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:258
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:436
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:16
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:24
 #: en/data-mobilization/modules/ROOT/pages/navigation.adoc:32
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:16
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:24
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:36
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:33
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:6
 #: en/data-use/modules/ROOT/pages/course-evaluation.adoc:11
 #: en/data-use/modules/ROOT/pages/navigation.adoc:10
@@ -272,65 +321,6 @@ msgid "&nbsp;"
 msgstr ""
 
 #. type: Title ==
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:30
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:395
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:604
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:25
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:250
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:431
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:25
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:16
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:280
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:424
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:40
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:146
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:280
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:18
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:18
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:33
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
-#, no-wrap
-msgid "Presentation transcript"
-msgstr ""
-
-#. type: Block title
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:32
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:397
-#: en/data-mobilization/modules/ROOT/pages/capture.adoc:606
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:27
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:252
-#: en/data-mobilization/modules/ROOT/pages/management.adoc:433
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:27
-#: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:18
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:20
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:282
-#: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:426
-#: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:16
-#: en/grscicoll/modules/ROOT/pages/entities.adoc:16
-#: en/grscicoll/modules/ROOT/pages/external-sources.adoc:16
-#: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:16
-#: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:16
-#: en/grscicoll/modules/ROOT/pages/recommendations.adoc:16
-#: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:16
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:42
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:148
-#: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:282
-#: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:20
-#: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:20
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:67
-#: en/project-planning/modules/ROOT/pages/documenting-proposal.adoc:144
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:35
-#: en/project-planning/modules/ROOT/pages/measuring-progress.adoc:184
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:37
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
-#, no-wrap
-msgid "Click to expand"
-msgstr ""
-
-#. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/description.adoc:44
 #: en/epn/modules/ROOT/pages/case-for-participation.adoc:3
 #: en/epn/modules/ROOT/pages/establishing-a-node.adoc:3
@@ -356,179 +346,6 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:3
 #, no-wrap
 msgid "Learning objectives"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:13
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
-#, no-wrap
-msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:18
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
-#, no-wrap
-msgid ""
-"occurrence\n"
-"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:20
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
-#, no-wrap
-msgid ""
-"checklist\n"
-"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:22
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:25
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
-#, no-wrap
-msgid ""
-"occurrence\n"
-"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:29
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
-#, no-wrap
-msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:32
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
-#, no-wrap
-msgid ""
-"occurrence\n"
-"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:34
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
-#, no-wrap
-msgid ""
-"sampling event\n"
-"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:36
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
-#, no-wrap
-msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:41
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
-#, no-wrap
-msgid "*What dataset type(s) would you choose for insect trap data?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:44
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
-#, no-wrap
-msgid ""
-"occurrence\n"
-"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:48
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
-#, no-wrap
-msgid ""
-"sampling event\n"
-"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:50
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
-#, no-wrap
-msgid "*What dataset type(s) would you choose for national park management data?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:53
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
-#, no-wrap
-msgid ""
-"occurrence\n"
-"record individuals of species"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:55
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
-#, no-wrap
-msgid ""
-"checklist\n"
-"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:57
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
-#, no-wrap
-msgid ""
-"sampling event\n"
-"check and track the populations"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:59
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:62
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
-#, no-wrap
-msgid ""
-"occurrence\n"
-"Bioblitz datasets are mainly shared as occurrence datasets."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:64
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
-#, no-wrap
-msgid ""
-"sampling event\n"
-"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:66
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
-#, no-wrap
-msgid "*What dataset type(s) would you choose for a regional species list?*\n"
-msgstr ""
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:70
-#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
-#, no-wrap
-msgid ""
-"checklist\n"
-"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
 msgstr ""
 
 #. type: delimited block =
@@ -1501,6 +1318,42 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:359
+#, no-wrap
+msgid "*What dataset type(s) would you choose for an ichthyology collection?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:364
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Most of the time, specimens from collection databases are shared as occurrence data. Each occurrence (specimen or group of specimens) has its own unique identifier (sometimes derived from its catalogue number in the source collection) and the Darwin Core fields used to share them within GBIF describe each specimen: scientific name, the date it was collected on the field, who collected and/or identified it, where, etc. Each collection can have more than one specimen from a same species, as long as each specimen is identified by a unique ID.  "
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:366
+#, no-wrap
+msgid ""
+"checklist\n"
+"It is also possible to create and share a taxonomical checklist derived from a collection database; in this case, it is recommended to share the checklist as a taxonomical dataset, with the occurrence (specimen) list associated with it by using the Occurrence core as an extension to the Taxon Core on the GBIF IPT."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:368
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a list of invasive species?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:371
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Some data publishers will share occurrence datasets coming from studies or programs tracking specimens from some specific invasive species; when the data focuses on individuals instead of the invasive species, in general, they can be shared as occurrence data."
+msgstr ""
+
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:373
 #, no-wrap
 msgid ""
@@ -1509,9 +1362,125 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:375
+#, no-wrap
+msgid "*What dataset type(s) would you choose for the flora and fauna of an environmental impact study?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:378
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Data are recorded by naturalists on the field and can be shared as simple occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:380
+#, no-wrap
+msgid ""
+"sampling event\n"
+"They can also be shared as event datasets if standardized protocols (such as vegetation plots, transects, traps…) are used to collect the data."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:382
+#, no-wrap
+msgid "*What dataset type(s) would you choose for bird tracking data?*\n"
+msgstr ""
+
+#. type: delimited block =
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:385
 #, no-wrap
 msgid ""
 "occurrence\n"
 "These data are shared as occurrence datasets: ideally, each bird is identified with its organismID, and each occurrence (GPS ping) has its own occurrenceID, which is useful to track the different GPS locations of the same bird over the scope of the tracking programme or project. (See https://www.gbif.org/dataset/2fc1d8b5-9c99-4e03-8c3c-11a6e51a298f[example^])"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:387
+#, no-wrap
+msgid "*What dataset type(s) would you choose for insect trap data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:390
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Although such data can be shared as simple occurrence datasets, it is best if they’re shared as event datasets, where the location, identifier and contents of each trap can be better detailed."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:394
+#, no-wrap
+msgid ""
+"sampling event\n"
+"Insect traps (as well as other traps such as pitfall traps, malaise traps…) are typically used in monitoring programmes to check the presence (or absence) of some species and/or assess their specific abundance.  Using the “eventID” field to identify each trap allows the users to get all of the specimens collected within each trap. The same logic applies to other field protocols such as transects, plots, remote cameras, etc.: by using the Event Core instead of the Occurrence core, you’ll be able to share much more information about the context of the data collection, and allow users to better understand (and even replicate) your work."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:396
+#, no-wrap
+msgid "*What dataset type(s) would you choose for national park management data?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:399
+#, no-wrap
+msgid ""
+"occurrence\n"
+"record individuals of species"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:401
+#, no-wrap
+msgid ""
+"checklist\n"
+"It is important to know how many species are present in the park/reserve perimeter and their conservation status."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:403
+#, no-wrap
+msgid ""
+"sampling event\n"
+"check and track the populations"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:405
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a citizen science bioblitz?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:408
+#, no-wrap
+msgid ""
+"occurrence\n"
+"Bioblitz datasets are mainly shared as occurrence datasets."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:410
+#, no-wrap
+msgid ""
+"sampling event\n"
+"Depending on the citizen science programme, specific sampling protocols might be used by the volunteers, in which case, the data can be shared as an event dataset."
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:412
+#, no-wrap
+msgid "*What dataset type(s) would you choose for a regional species list?*\n"
+msgstr ""
+
+#. type: delimited block =
+#: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:416
+#, no-wrap
+msgid ""
+"checklist\n"
+"Geographical or thematic species lists are often used to share information about the species present in a given area; most of the time, these lists also mention the distribution of each species as well as their conservation status in this area.  Regional species lists can give a useful insight into a region’s biodiversity and habitats, and need to be shared as taxonomical datasets, with or without associated occurrences."
 msgstr ""
