@@ -1,0 +1,228 @@
+//
+This script begins at line 11 and is adapted from a script developed by SiB Colombia. https://github.com/SIB-Colombia/data-quality-open-refine/blob/master/ValTaxonomicAPIWoRMS_ValTaxonomicaAPIWoRMS.txt
+
+After creating your project in openrefine with your species data, click on the Undo/Redo tab and click the Apply button.  A new window will open. Copy lines 11 - 228 into the window in OpenRefine. Click the button to perform the operations.
+
+After the script completes, complete a custom facet to evaluate whether the data in the scientificName field matches the data in the acceptedScientificName that was inserted by the script.
+
+Use the returned information to edit any of the species names in your source data. Consider using additional fields from the returned data to become part of your source data.
+//
+
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column scientificName",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "scientificName",
+    "expression": "grel:value.replace(/\\s+/,' ').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "scientificName",
+    "expression": "grel:value.replace(' ','%20')",
+    "onError": "set-to-blank",
+    "newColumnName": "NomAPIw",
+    "columnInsertIndex": 2,
+    "description": "Create column NomAPIw at index 4 based on column scientificName using expression grel:value.replace(' ','%20')"
+  },
+ {
+    "op": "core/column-addition-by-fetching-urls",
+    "description": "Create column c at index 3 by fetching URLs based on column NomAPIw",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "callAPIworms",
+    "columnInsertIndex": 3,
+    "baseColumnName": "NomAPIw",
+    "urlExpression": "grel:'http://www.marinespecies.org/rest/AphiaRecordsByMatchNames?scientificnames%5B%5D='+value+'&marine_only=false'",
+    "onError": "set-to-blank",
+    "delay": 0,
+    "cacheResponses": true,
+    "httpHeadersJson": [
+      {
+        "name": "authorization",
+        "value": ""
+      },
+      {
+        "name": "user-agent",
+        "value": "OpenRefine 3.1 [b90e413]"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "callAPIworms",
+    "expression": "grel:value.replace('[','').replace(']','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column specificEpithet at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "specificEpithet",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:split(value.parseJson().get(\"scientificname\"),' ')[1]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column specificEpithet to position 2",
+    "columnName": "specificEpithet",
+    "index": 2
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column genus at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "genus",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('genus')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column family at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "family",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('family')",
+    "onError": "set-to-blank"
+  },
+     {
+    "op": "core/column-addition",
+    "description": "Create column order at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "order",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('order')",
+    "onError": "set-to-blank"
+  },
+   {
+    "op": "core/column-addition",
+    "description": "Create column class at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "class",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('class')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column phylum at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "phylum",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('phylum')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column kingdom at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "kingdom",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('kingdom')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column taxonRank at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "taxonRank",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('rank')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column acceptedScientificName at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "acceptedScientificName",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('valid_name')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column scientificName to position 2",
+    "columnName": "scientificName",
+    "index": 2
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column previousIdentifications to position 4",
+    "columnName": "previousIdentifications",
+    "index": 4
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column scientificNameID at index 2 based on column callAPIworms",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "scientificNameID",
+    "columnInsertIndex": 2,
+    "baseColumnName": "callAPIworms",
+    "expression": "grel:value.parseJson().get('lsid')",
+    "onError": "set-to-blank"
+  }
+]

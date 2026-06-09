@@ -13,7 +13,7 @@ image::data-mobilization::UC-MS-Calliostoma-canaliculatum.png[align=center,width
 
 This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed initially by David Bloom and Amanda Whitmire for use in CESP2022-009 (Expanding the Network: Bringing marine research stations and library collections into the data-sharing community).
 
-This is a partially fictionalized scenario based on a real project and datasets. It is intended for instructional purposes only. Use case data may not be reproduced for any other purpose without the permission of the Harold A. Miller Library at Hopkins Marine Station (HMS-Library@lists.stanford.edu).
+This is fictionalized scenario based on a real project and datasets. It is intended for instructional purposes only. The use case data may not be reproduced for any other purpose without the permission of the Harold A. Miller Library at Hopkins Marine Station (HMS-Library@lists.stanford.edu).
 
 === Description
 
@@ -25,15 +25,11 @@ The process of digitizing and publishing HMS data will take time. The library bu
 
 The Librarian and Assistant already possess a large-format scanner and the necessary software to scan the library’s wide variety of documents, including materials with bindings. Together, they have determined that digitization should begin with the work of one of HMS’ best known collectors, Willis G. Hewatt. They have also developed a preliminary workflow for the job:
 
-Identify a specific locality or transect within the Hewatt archive and then identify any associated historic or modern faculty or student papers, journal articles, books, and associated resources (e.g., index cards, maps, field books).
-
-The Library Assistant will pull all of the analogue resources from the HMS archives and then scan them into appropriate digital formats, using optical character recognition (OCR) whenever possible. Data formatted as tables will be converted and imported into a common spreadsheet.
-
-The volunteers will review the OCR’d files for conversion errors and to confirm that the tables match the analogue source materials. Any living authors will be consulted when questions arise in regard to their work.
-
-Under the supervision of the Library Assistant and Head Librarian (indirectly), the work-study student will map the data tables to Darwin Core fields adding information from associated papers and other written resources (e.g., journal articles, manuscripts). The Head Librarian will provide a final review to confirm the accuracy and completeness of the data.
-
-All standardized tables will be sent to the GBIF Node Manager who will provide access to the Node IPT and who will register the Hopkins Marine Station with GBIF and ensure that the datasets are published correctly to both GBIF and the Ocean Biodiversity Information System (OBIS).
+. Identify a specific locality or transect within the Hewatt archive and then identify any associated historic or modern faculty or student papers, journal articles, books, and associated resources (e.g., index cards, maps, field books).
+. The Library Assistant will pull all of the analogue resources from the HMS archives and then scan them into appropriate digital formats, using optical character recognition (OCR) whenever possible. Data formatted as tables will be converted and imported into a common spreadsheet.
+. The volunteers will review the OCR’d files for conversion errors and to confirm that the tables match the analogue source materials. Any living authors will be consulted when questions arise in regard to their work.
+. Under the supervision of the Library Assistant and Head Librarian (indirectly), the work-study student will map the data tables to Darwin Core fields adding information from associated papers and other written resources (e.g., journal articles, manuscripts). The Head Librarian will provide a final review to confirm the accuracy and completeness of the data.
+. All standardized tables will be sent to the GBIF Node Manager who will provide access to the Node IPT and who will register the Hopkins Marine Station with GBIF and ensure that the datasets are published correctly to both GBIF and the Ocean Biodiversity Information System (OBIS). Care must be taken to ensure data quality requirements are met for both GBIF and OBIS.
 
 === Original data collection
 
@@ -53,30 +49,23 @@ image::data-mobilization::MS-Figure2b.png[align=center,width=640,height=360]
 
 === Data conversion and aggregation
 
-Both Hewatt and Gilman/Sagarin recorded data in a table format for species for each transect. These “lists” were converted into a format aligned to an occurrence dataset(Figures 3 and 4).
+Both Hewatt and Gilman/Sagarin recorded data in a table format for species for each transect. These “lists” were converted into an initial spreadsheet format (Figures 3).
 
 :figure-caption!:
-.Figure 3. Hewatt’s data transcribed into a spreadsheet. This is a critical first step, but this is not a data layout that will work for upload to taxonomic databases.
+.Figure 3. Hewatt’s data transcribed into a spreadsheet. This is a critical first step, but this is not a data layout that will work for upload to GBIF or OBIS.
 image::data-mobilization::MS-Figure3.png[align=center,width=640,height=360]
-
-:figure-caption!:
-.Figure 4. Hewatt’s data converted to a format aligned to an occurrence dataset. Some information has been pulled from the thesis to start to build out each occurrence record.
-image::data-mobilization::MS-Figure4.png[align=center,width=640,height=360]
 
 === Data Assessment
 
-As a part of the Head Librarian’s review the converted and aggregated tables included special attention to specific data which describe (see Figure 5):
+As a part of the Head Librarian’s review the following data is available for 270 records collected by Willis G. Hewitt is available for sharing:
 
-* Observation depth
-* Date and time
+* Date
+* Depth
 * Geographic coordinates
 * Locality descriptions
 * Research methods
-* Species Identifiers
-
-:figure-caption!:
-.Figure 5. Hewatt’s data converted to a format aligned to an occurrence dataset and Darwin Core standard metadata. After more metadata terms are added, each quadrat observation has become a row with over 65 columns of information.
-image::data-mobilization::MS-Figure5.png[align=center,width=640,height=360]
+* Taxonomic information for individual species
+* Species counts
 
 === References
 
@@ -91,25 +80,29 @@ Download the xref:attachment$UC-MS-exercise-sheet_EN.docx[exercise sheet,opts=do
 
 *Data capture*
 
-. Download xref:attachment$UC-MS-2-ForCapture.pdf[UC-MS-2-ForCapture.pdf,opts=download]. (?? KB)
-. Download xref:attachment$UC-MS-2-template.xlsx[UC-MS-2-template.xlsx,opts=download]. (82 KB)
+. You have been charged with creating a template to format the available data for sharing with GBIF and OBIS.
 . What data structure would you use to reflect the data?
-. Create a spreadsheet using this structure and the data.
+. What required fields should be included?
+. What additional data could be included or derived from the collected data?
+. What format will you use to uniquely identify records?
+. Create a spreadsheet using this structure.
 . Use the exercise sheet to provide your answers and submit the spreadsheet created in the previous step.
 
 === Exercise 2
 
 *Data management*
 
-. Download xref:attachment$UC-MS-2-ForCleaning.csv[UC-MS-2-ForCleaning.csv,opts=download]. (82 KB)
+. You have been charged with cleaning the dataset. For the species records, you have been given a script that can be used in OpenRefine to assess the validity of species names against the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) using their API.
+. Download xref:attachment$UC-MS-2-ForCleaning.xlsx[UC-MS-2-ForCleaning.xlsx,opts=download]. (36)
+. Download xref:attachment$UC-MS-2-OpenRefineScript.txt[UC-MS-2-OpenRefineScript.txt,opts=download]. (7 KB)
 . Evaluate the dataset and identify which types of errors are present. 
-. Identify possible ways to correct those issues, and perform those corrections for as many of the errors present as you can. 
+. Identify possible ways to correct those issues, and perform those corrections.
 . Use the exercise sheet to provide your answers and submit the spreadsheet.
 
 === Exercise 3
 
 *Data publishing*
 
-. Download xref:attachment$UC-MS-3-ForPublication.csv[UC-MS-3-ForPublication.csv,opts=download]. (402 KB) 
+. Download xref:attachment$UC-MS-3-ForPublication.xlsx[UC-MS-3-ForPublication.xlsx,opts=download]. (51 KB) 
 . Use the previously provided IPT installation to publish the given dataset.
 . Use the exercise sheet to provide your answers and link to the published dataset.
