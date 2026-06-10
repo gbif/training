@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-06-09 12:53\n"
+"PO-Revision-Date: 2026-06-10 01:42\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1147,7 +1147,7 @@ msgstr "Dans cette vidéo (08:16), vous découvrirez https://www.gbif.org/datase
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:382
 msgid "If you are unable to watch the embedded video, you can xref:attachment$gbif_dataset_types_for_primary_biodiversity_data_v3-720p.mp4[download,opts=download] it locally. (MP4 - 28.8 MB)"
-msgstr ""
+msgstr "Si vous ne pouvez pas regarder la vidéo intégrée, vous pouvez xref:attachment$gbif_dataset_types_for_primary_biodiversity_data_v3-720p.mp4[la télécharger,opts=download] localement (MP4 - 28.8 Mo)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:401
@@ -1164,7 +1164,7 @@ msgstr "*Diapositive 1 - Types de jeux de données GBIF pour les données primai
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:406
 msgid "In this presentation, we will have a look at the different types of data that can be called ‘primary biodiversity data’ and shared within GBIF. These data can be complex and have different origins. We’ll see how they can be structured into one of the dataset classes accepted by GBIF."
-msgstr ""
+msgstr "Dans cette présentation, nous examinerons les différents types de données qualifiées de « données primaires sur la biodiversité » et partagées au sein du GBIF. Ces données peuvent être complexes et d'origines diverses. Nous verrons comment les structurer selon l'une des différentes classes de données acceptées par le GBIF, conformément à la norme de partage de données Darwin Core utilisée au sein de la communauté GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:407
@@ -1181,52 +1181,52 @@ msgstr "*Diapositive 2 - Niveaux de richesse des données pris en charge par le 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:412
 msgid "GBIF currently supports four types of datasets:"
-msgstr ""
+msgstr "GBIF prend actuellement en charge quatre types de jeux de données :"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:414
 msgid "The first is dataset metadata."
-msgstr ""
+msgstr "Il s'agit tout d'abord des métadonnées des ensembles de données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:416
 msgid "This is a dataset that allows you to provide descriptive information about a dataset.  You may use this type when you have not yet digitized your data. No data files are published with this type of dataset only descriptive metadata."
-msgstr ""
+msgstr "Il s'agit d'un ensemble de données qui vous permet de fournir des informations descriptives sur un ensemble de données. Vous pouvez utiliser ce type lorsque vos données n'ont pas encore été numérisées. Aucun fichier de données n'est publié avec ce type d'ensemble de données ; seules des métadonnées descriptives sont fournies."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:418
 msgid "The second type are species checklists."
-msgstr ""
+msgstr "Le deuxième type est celui des listes d'espèces."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:420
 msgid "This allows you to share information on species including the countries and areas where they are found."
-msgstr ""
+msgstr "Cela vous permet de partager des informations sur les espèces, notamment les pays et les régions où elles sont présentes."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:422
 msgid "The third type is occurrence-only data."
-msgstr ""
+msgstr "Le troisième type est celui des données de type occurrence uniquement."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:424
 msgid "This dataset type is for data that include names, dates and coordinates – the what, when and where of your data."
-msgstr ""
+msgstr "Ce type de jeu de données concerne les données qui comprennent des noms, des dates et des coordonnées – c'est-à-dire le quoi, le quand et le où de vos données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:426
 msgid "The last type is Sampling-event data."
-msgstr ""
+msgstr "Le dernier type est celui des données d'événements d'échantillonnage."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:428
 msgid "This type allows you to share even more data. You can share species with dates, coordinates, methods, abundance and even absence."
-msgstr ""
+msgstr "Ce type vous permet de partager encore plus de données. Vous pouvez partager des informations sur les espèces, avec les dates, les coordonnées, les méthodes, l'abondance et même l'absence."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:430
 msgid "We will now further explore the checklist, occurrence and sampling-event dataset types."
-msgstr ""
+msgstr "Nous allons maintenant examiner plus en détail les types de jeux de données que sont les listes d'espèces, les occurrences et les événements d'échantillonnage."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:431
@@ -1238,12 +1238,12 @@ msgstr "data-mobilization::capture-dataset-types-Slide3.png"
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:434
 #, no-wrap
 msgid "*Slide 3 - Checklist data*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Données de liste d'espèces*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:436
 msgid "Checklist datasets provide a catalogue or list of named organisms, or taxa. While they may include additional details like local species names or specimen citations, these ‘checklists’ typically categorize information along taxonomic, geographic, and thematic lines, or some combination of the three. For example, a dataset that catalogues the Red Listed molluscs of Seychelles has distinct elements of taxonomy (the phylum Mollusca), geography (the island nation of Seychelles) and theme (species deemed imperiled by IUCN experts). Checklists function as a rapid summary or baseline inventory of taxa in a given context."
-msgstr ""
+msgstr "Les ensembles de données de type « liste d'espèces » fournissent un catalogue ou une liste d'organismes identifiés, ou taxons. Bien qu'ils puissent inclure des détails supplémentaires tels que les noms locaux des espèces ou les références des spécimens, ces « listes d'espèces » classent généralement les informations selon des critères taxonomiques, géographiques et thématiques, ou une combinaison de ces trois aspects. Par exemple, un ensemble de données répertoriant les mollusques des Seychelles inscrits sur la Liste rouge comporte des éléments distincts de taxonomie (le phylum Mollusca), de géographie (l'archipel des Seychelles) et de thème (les espèces jugées menacées par les experts de l'UICN). Les listes de contrôle servent de résumé rapide ou d’inventaire de référence des taxons dans un contexte donné."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:437
@@ -1255,7 +1255,7 @@ msgstr "data-mobilization::capture-dataset-types-Slide4.png"
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:440
 #, no-wrap
 msgid "*Slide 4 - GBIF template for taxon data*\n"
-msgstr ""
+msgstr "*Diapositive 4 - Modèle GBIF pour les données taxonomiques*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:442
