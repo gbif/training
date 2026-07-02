@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-06-22 10:59\n"
+"PO-Revision-Date: 2026-06-28 04:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -413,7 +413,7 @@ msgstr "你能夠想像如果我們可以找到、取得並有組織地使用地
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:19
 msgid "This video (03:19) was originally co-produced in https://vimeo.com/236573907[Spanish^] by SiB Colombia and GBIF Spain, both national nodes of GBIF, and Go Visual with co-financing from GBIF Spain and the Alexander von Humboldt Biological Resources Research Institute (IAvH), the host institution of SiB Colombia."
-msgstr ""
+msgstr "這段影片（03:19）https://vimeo.com/236573907 最初由 GBIF 的兩個國家節點——哥倫比亞生物多樣性資訊系統與 GBIF 西班牙節點——以及 Go Visual 共同製作，並由 GBIF Spain 與哥倫比亞亞歷山大·馮·洪堡生物資源研究所（IAvH，SiB Colombia 的主辦機構）共同資助完成。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:21
@@ -440,7 +440,7 @@ msgstr "在這段影片（07:40）中，GBIF 公關主管Kyle Copas 將簡要介
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:35
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$introduction_to_gbif_v1_1080p.mp4[download] it locally (MP4 - 35.8 MB)."
-msgstr ""
+msgstr "若你無法觀看內嵌的 Vimeo 影片，可透過 xref:attachment$introduction_to_gbif_v1_1080p-1080p.mp4[下載] 將其下載至本機（MP4 格式 - 35.8 MB）觀看。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:52
@@ -457,7 +457,7 @@ msgstr "*投影片 1 - GBIF 簡介*\n"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:57
 msgid "Hi! My name is Kyle Copas, and I’m head of communications at GBIF, the Global Biodiversity Information Facility. I’m pleased to offer this brief introduction to GBIF—who we are, what we do, and why we do it—in hope of providing some context for your training course and encourage you to apply the skills you will acquire to promote GBIF's vision for “A world in which the best possible biodiversity data underpins research, policy and decisions.”"
-msgstr ""
+msgstr "大家好！我是 Kyle Copas，目前擔任GBIF公關主管。很高興透過這段簡短的介紹，向各位說明 GBIF 是什麼樣的組織、我們的工作內容，以及我們為何投入這些工作。我希望這段介紹能為你接下來的培訓課程提供一些背景脈絡，並鼓勵你運用在課程中所學到的知識與技能，共同推動 GBIF 的願景：「建立一個以最完善的生物多樣性資料為基礎，支持科學研究、政策制定與各項決策的世界」。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:58
@@ -491,7 +491,7 @@ msgstr "*投影片 3 — GBIF 的治理與架構*\n"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:69
 msgid "Established in 2001, GBIF operates on the basis of a voluntary Memorandum of Understanding between the governments and transnational organizations that collaborate as GBIF’s formal Participants. The MOU sets out the basic governance and principles for a coordinated international scientific effort to mobilize the data, skills and technologies needed to make comprehensive biodiversity information freely available for science and decision-making. Under the MoU, Participants agree to establish a formal delegation that represents them in GBIF’s governance and also to set up a node, which serves as the focal point for coordinating data sharing and use in their country or organization. The GBIF Secretariat based in Copenhagen, Denmark, manages the technical infrastructure and supports collaborations that keep GBIF going and growing as a global community."
-msgstr ""
+msgstr "GBIF 成立於 2001 年，其運作建立在各國政府與跨國組織之間自願簽署的合作備忘錄（MoU）之上，這些合作方構成 GBIF 的正式參與成員。該備忘錄規範了基本治理架構與原則，旨在推動一項國際協作的科學計畫，整合資料、技術與專業能力，使生物多樣性資訊得以自由開放，並支援科學研究與決策應用。依據 MoU，各參與方設立代表團參與 GBIF 治理，並建立國家節點，作為協調資料共享與應用的主要據點。GBIF 秘書處設於丹麥哥本哈根，負責管理技術基礎設施，並促進全球合作，使 GBIF 作為國際社群持續運作與成長。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:70
@@ -525,399 +525,420 @@ msgstr "*投影片 5 — 治理與架構概覽*\n"
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:81
 msgid "The GBIF governing board meets annually to approve a work programme and make decisions that guide the direction of the network. Board members consist of Participant heads of delegation who represent their countries and organizations. Only Voting Participant Countries that make financial contributions to GBIF's annual budget have the right to vote. Associate Country Participants do not yet make financial contributions and can maintain this temporary status for up to five years, while Associate Organizational Participants are not required to make financial contributions. While Associate Participants cannot vote, delegations from all Participants take part in Governing Board discussions, endorse data publishers, and collaborate in meetings, programmes and other network activities. In between governing board meetings, and under the direction of an elected board chair, the elected members of standing committees for budget, science, nodes and the executive provide oversight and decision-making on operational activities led by the respective teams in the Secretariat."
-msgstr ""
+msgstr "GBIF 治理委員會每年召開會議，負責核准年度工作計畫，並決定網絡發展方向。委員會成員由各參與成員的代表團團長組成，代表其所屬國家或組織。在參與成員中，僅有「具投票權的參與國」因對 GBIF 年度預算提供財務支持而擁有投票權；「準參與國」尚未提供財務支持，可維持此臨時身份最長五年；「準組織參與者」則不需提供財務支持。雖然準組織參與者無投票權，但所有參與成員皆可參與治理委員會討論、推薦資料發布者，並參與會議與各項網絡活動。在治理委員會年度會議期間之外，由選任主席領導的各常設委員會，包括預算、科學、節點及執行委員會，持續監督秘書處各團隊所推動的業務，並就相關營運事項作出決策。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:82
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide6.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:85
 #, no-wrap
 msgid "*Slide 6 - What is a GBIF Participant node?*\n"
-msgstr ""
+msgstr "*投影片 6 — 什麼是 GBIF 參與節點？*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:87
 msgid "Participant nodes act as focal points for coordinating networks of people and institutions that share and use biodiversity data in their countries and organizations. Supported by their organizational arrangements and GBIF’s common set of informatics solutions, nodes work to improve the availability and quality of biodiversity data. Effective nodes serve as knowledge hubs for both biodiversity data and wider related activities, guiding their audiences toward relevant sources of data and sharing expertise on open data and open science, data standards and digitization, and other biodiversity tools and initiatives."
-msgstr ""
+msgstr "參與成員所設立的節點是其國家或組織中生物多樣性資料共享與應用工作的協調中心，負責串聯相關人員與機構所形成的網絡。\n\n"
+"在其所屬機構的支持以及 GBIF 共同資訊系統與工具的協助下，各節點致力於提升生物多樣性資料的可取得性與品質。\n\n"
+"運作良好的節點不僅是生物多樣性資料的知識樞紐，也是相關活動的重要交流中心。他們協助使用者尋找合適的資料來源，並分享開放資料與開放科學、資料標準、資料數位化，以及其他生物多樣性工具與倡議相關的專業知識。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:88
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide7.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide7.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:91
 #, no-wrap
 msgid "*Slide 7 - Providing biodiversity evidence for research and policy*\n"
-msgstr ""
+msgstr "*投影片 7 — 為研究與政策提供生物多樣性證據*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:93
 msgid "This diagramme charts the flows and processes by which GBIF brings together data from disparate sources and thousands of institutions using shared tools, common data standards and open licences. The underlying evidence can take many different forms—from museum specimens and field observations from surveys and monitoring programmes, including citizen science projects, to sensor-based sources like camera traps, acoustic recorders, and barcodes sampled from environmental DNA. Taken together, these combined sources provide a more complete view of where and when species have been observed. Users access the resulting index through various methods and formats, which they then apply across a full spectrum of biodiversity-related research and policy."
-msgstr ""
+msgstr "本圖說明 GBIF 如何透過共享工具、共同資料標準及開放授權機制，整合來自不同來源及數千個機構的資料。\n\n"
+"這些基礎資料的形式相當多元，包括博物館標本、調查與監測計畫所蒐集的野外觀測紀錄，包含公民科學計畫，以及來自相機陷阱、聲學記錄設備等感測器的資料，甚至是從環境 DNA樣本取得的 DNA 條碼資訊。\n\n"
+"將這些不同來源的資料整合後，可以更全面地呈現物種在何時、何地被觀測到的資訊。\n"
+"使用者則可透過多種方式與格式存取 GBIF 所建立的資料索引，並將其應用於各類與生物多樣性相關的研究、政策制定與決策工作。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:94
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide8.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide8.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:97
 #, no-wrap
 msgid "*Slide 8 - GBIF is used across all domains and disciplines of science*\n"
-msgstr ""
+msgstr "*投影片 8 — GBIF 廣泛應用於科學的所有領域與學科*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:99
 msgid "Today, GBIF is a mature network and infrastructure used across all domains and disciplines of science. The data that the network integrates not only facilitates global research and access, but also enables researchers to explore both basic and applied questions at taxonomic, temporal and spatial scales that would be otherwise impossible."
-msgstr ""
+msgstr "如今，GBIF 已發展成為一個成熟的國際網絡與資料基礎設施，廣泛應用於各個科學領域與學科。\n\n"
+"GBIF 所整合的資料不僅促進了全球研究合作與資料共享，也讓研究人員得以從分類群、時間及空間等不同尺度，探討原本難以進行的基礎研究與應用研究問題。"
 
 #. type: delimited block _
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:102
 msgid "Heberling JM et al. (2021) Data integration enables global biodiversity synthesis. PNAS 118(6): e2018093118. https://doi.org/10.1073/pnas.2018093118."
-msgstr ""
+msgstr "Heberling JM 等（2021）。資料整合促進全球生物多樣性綜合研究（Data integration enables global biodiversity synthesis）。PNAS, 118(6): e2018093118. https://doi.org/10.1073/pnas.2018093118"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:104
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide9.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide9.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:107
 #, no-wrap
 msgid "*Slide 9 - Big data for biodiversity enables scientific research*\n"
-msgstr ""
+msgstr "*投影片 9 — 生物多樣性大數據促進科學研究*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:110
 msgid "The Secretariat maintains a sophisticated https://www.gbif.org/literature-tracking[citation tracking system^] to record dozens of journal articles published every week that rely on GBIF-mediated data. Doing so allows GBIF to credit data publishers and to highlight important and illustrative applications of the data in its annual https://www.gbif.org/science-review [Science Review^]. The examples contained in each issue—which also appear online throughout the year—provide a convenient way to understand how data is used in both basic and applied research."
-msgstr ""
+msgstr "GBIF 秘書處維護一套完善的文獻引用追蹤系統https://www.gbif.org/literature-tracking，用以記錄每週發表、使用 GBIF 所整合資料的數十篇學術論文。\n\n"
+"透過這項工作，GBIF 不僅能夠肯定資料發布者的貢獻，也能在每年出版的《Science Review》中，介紹資料的重要應用案例及具代表性的研究成果。\n\n"
+"《Science Review》收錄的案例同時也會陸續於網站上發布，協助讀者了解生物多樣性資料如何被應用於基礎研究與應用研究之中。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:111
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide10.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide10.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:114
 #, no-wrap
 msgid "*Slide 10 - Data supports GBF indicators & targets*\n"
-msgstr ""
+msgstr "*投影片10 — 資料支持 GBF 指標與目標的制定與評估*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:116
 msgid "GBIF-mediated data is also an essential input for biodiversity-related policy. Thousands of IUCN Red List assessments, which analyse extinction risks to species, cite occurrence data from GBIF. The same data serves both directly and indirectly as a foundation for metrics and indicators that chart progress toward international targets commitments such as the https://www.cbd.int/gbf[Kunming-Montreal Global Biodiversity Framework^]."
-msgstr ""
+msgstr "GBIF 所整合的資料也是生物多樣性相關政策的重要基礎資訊來源。\n\n"
+"用於評估物種滅絕風險的數千筆IUCN 物種紅色名錄，都引用了來自 GBIF 的物種出現紀錄資料。\n\n"
+"這些資料同時直接或間接作為各類指標與衡量方法的基礎，用以追蹤國際目標的達成進展，例如：昆明－蒙特婁全球生物多樣性框架（Kunming-Montreal Global Biodiversity Framework，https://www.cbd.int/gbf）所訂定的各項目標與承諾。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:117
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide11.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide11.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:120
 #, no-wrap
 msgid "*Slide 11 - Capacity building for biodiversity data mobilization and use*\n"
-msgstr ""
+msgstr "*投影片 11 — 生物多樣性資料流通與運用的能力建構*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:122
 msgid "While GBIF delivers many technical solutions, its global community is equally essential, with each individual committed to collaborating and developing skills and best practices for managing, sharing and using biodiversity data. GBIF communities of practice generate, adapt, share and improve freely available tools, guidance documentation, and other learning resources, and then extend their reach further by contributing volunteer translations in multiple languages. Experienced practitioners from GBIF’s nodes and publishers serve as mentors and trainers in courses like the one you're following now, which lie at the heart of GBIF’s work. Today’s trainees soon become tomorrow’s mentors, growing the network through a host of programmes, partnerships and collaborations at many scales."
-msgstr ""
+msgstr "雖然 GBIF 提供多項技術解決方案，但其全球社群一樣很重要，社群中的每一位成員都致力於合作並發展在生物多樣性資料管理、共享與應用方面的技能與最佳實務。\n\n"
+"GBIF 的實務社群會共同產出、調整、分享並持續改進各類免費開放的工具、指南文件及其他學習資源，並透過志願者以多種語言進行翻譯，進一步擴大其影響力。\n\n"
+"來自 GBIF 各節點及資料發布者的資深實務者，也在你目前所參與的課程等活動中擔任導師與講師，而這類課程正是 GBIF 工作的核心之一。\n\n"
+"今日的學員，將成為未來的導師，透過各種規模的計畫、夥伴關係與合作，持續擴展這個全球網絡。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:123
 #, no-wrap
 msgid "intro-to-gbif::intro-to-gbif_Slide12.png"
-msgstr ""
+msgstr "intro-to-gbif::intro-to-gbif_Slide12.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:128
 msgid "So thanks, best of luck and welcome to the GBIF community—and good luck!"
-msgstr ""
+msgstr "謝謝大家，祝一切順利，也歡迎加入 GBIF 社群！"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:130
 msgid "This video is part of a series of presentations developed for the Introduction to GBIF course. It was created and narrated by me, Kyle Copas. If you have any questions on the course content, you can reach out at training@gbif.org."
-msgstr ""
+msgstr "本影片為 GBIF 入門課程系列簡報之一。由我 Kyle Copas 製作並旁白。若你對課程內容有任何疑問，歡迎透過training@gbif.org 與我們聯繫。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:134
 #, no-wrap
 msgid "GBIF for Science"
-msgstr ""
+msgstr "GBIF 與科學研究"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:139
 msgid "In this video (07:52), Dmitry Schigel, GBIF Lead Scientific Officer, illustrates GBIF’s work in building the evidence to advance scientific research and understanding of global biodiversity."
-msgstr ""
+msgstr "在這段影片（07:52）中，GBIF 首席科學官 Dmitry Schigel 介紹 GBIF 如何透過彙整生物多樣性資料，為科學研究及全球生物多樣性認知提供重要的證據基礎。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:141
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$gbif_for_science_v1-1080p.mp4[download] it locally (MP4 - 39.4 MB)."
-msgstr ""
+msgstr "如果你無法觀看內嵌的 Vimeo 影片，也可以將影片下載至本機觀看$gbif_for_science_v1（MP4，39.4 MB）。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:158
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide1.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide1.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:161
 #, no-wrap
 msgid "*Slide 1 - GBIF for Science*\n"
-msgstr ""
+msgstr "*投影片 1 — GBIF 與科學研究*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:163
 msgid "This presentation illustrates GBIF’s work in building the evidence to advance scientific research and understanding of global biodiversity."
-msgstr ""
+msgstr "本簡報介紹 GBIF 如何透過整合生物多樣性資料，為科學研究及全球生物多樣性認知提供重要的證據基礎。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:164
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide2.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:167
 #, no-wrap
 msgid "*Slide 2 - Providing biodiversity evidence for research and policy*\n"
-msgstr ""
+msgstr "*投影片 2 — 為研究與政策提供生物多樣性證據*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:169
 msgid "Let’s take a look at GBIF from the science point of view. Let’s work though this left to right."
-msgstr ""
+msgstr "接下來，我們將從科學研究的觀點認識 GBIF，並依照圖示由左至右逐一介紹。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:171
 msgid "On the left, academic organizations such as museums and universities, as well as, governmental agencies and non-governmental organizations, businesses and amateur communities, all can register as data holders in GBIF and share biodiversity data that are borne under their roofs and affiliations."
-msgstr ""
+msgstr "在圖的左側，博物館與大學等學術機構，以及政府機關、非政府組織、企業和業餘愛好者社群，都可以向 GBIF 註冊成為資料持有者，並分享其所蒐集、管理或保存的生物多樣性資料。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:173
 msgid "Primary biodiversity evidence can have physical objects behind it, like samples and specimens, or it could also be virtual recordings by humans or by automated sensors."
-msgstr ""
+msgstr "生物多樣性的原始證據可以是具體的實體資料，例如樣本與標本；也可以是由人類或自動化感測器所記錄的數位資訊。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:175
 msgid "Some samples undergo chemical processing to reveal biodiversity signals, for instance, through DNA from soil, water, air, or wood. The same method is widely applied to individual or bulk specimens, and together these form eDNA, barcoding, and metabarcoding body of evidence."
-msgstr ""
+msgstr "部分樣本會經過化學分析處理，以揭露其中所包含的生物多樣性訊息。例如，研究人員可從土壤、水體、空氣或木材等樣本中萃取 DNA。相同的方法也廣泛應用於個體標本或混合標本的分析。這些資料共同構成了環境 DNA、DNA 條碼以及高通量分子條碼等重要的生物多樣性證據來源。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:177
 msgid "This variety of sources and methods comes together in the central index at GBIF – this index makes searches, filters and machine queries work across all the datasets shared with GBIF."
-msgstr ""
+msgstr "這些來自不同來源的資料及其蒐集方法，最終都匯集至 GBIF 的整合索引。透過這個索引，使用者得以在所有共享至 GBIF 的資料集中進行搜尋、篩選及自動化查詢。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:179
 msgid "On the right side, you see the meaning of GBIF’s existence: GBIF provides efficiency and time saving for data discovery and data access – but we do not resolve data heterogeneity for you. Like with any other internet search, your science needs – on the right in magenta – or, perhaps, your policy needs, in blue, dictate which data records will be fit for your use."
-msgstr ""
+msgstr "在圖的右側，可以看到 GBIF 存在的核心價值。GBIF 能夠提升資料搜尋與資料取得的效率，為使用者節省大量時間；但 GBIF 並不會替你消除資料本身的差異性與限制。\n\n"
+"如同使用網際網路搜尋引擎一樣，最終哪些資料適合使用，仍取決於你的需求。圖中以洋紅色表示的科學研究需求，以及藍色表示的政策需求，都將決定哪些資料紀錄適合你的應用情境。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:181
 msgid "So here biodiversity science happens on on both sides – on the left, among the data publishers, and on the right – with the users. Biodiversity informatics, computer science with their technical competencies bring the two sides together."
-msgstr ""
+msgstr "因此，生物多樣性科學實際上發生在兩個層面：左邊是資料發布者，右邊是資料使用者。而生物多樣性資訊學與電腦科學，則透過其技術能力把這兩端連接起來。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:182
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide3.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide3.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:185
 #, no-wrap
 msgid "*Slide 3 - Datasets: attribution, credit and affiliation*\n"
-msgstr ""
+msgstr "*投影片 3 — 資料集：資料歸屬、致謝與所屬機構*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:187
 msgid "For anyone in research and academia, the dataset page at GBIF will have familiar elements which focus on credit and attribution:"
-msgstr ""
+msgstr "對於研究與學術界的使用者來說，GBIF 的資料集頁面會包含一些熟悉的內容，主要聚焦在引用與隸屬資訊："
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:189
 msgid "First, is the dataset’s organizational affiliation – which is also a link leading to publisher’s page – in GBIF, datasets are shared by organizations."
-msgstr ""
+msgstr "首先是資料集的機構隸屬資訊，這同時也是一個連結，會連結到資料發布者的頁面。在 GBIF 中，資料集是由各個組織所共享與發布的。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:191
 msgid "Next – are the dataset’s authors in a few key roles – the dataset originators, the creative authors of the recorded biodiversity evidence, and the metadata authors – whose role is to ensure that digital representation and description of the dataset at GBIF is accurate."
-msgstr ""
+msgstr "接下來是資料集的作者資訊，主要包含幾個關鍵角色：資料集的原始創作者、生物多樣性紀錄的主要貢獻者，以及詮釋資料的撰寫者。詮釋資料撰寫者的角色是確保該資料集在 GBIF 上的數位化描述是正確且完整的。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:193
 msgid "Third – every dataset page where at least one record was cited at least once displays an ever-growing number and links to research papers which are powered by this dataset’s use."
-msgstr ""
+msgstr "第三點是：在資料集頁面中，只要該資料集的任一筆紀錄曾被引用過一次，就會顯示一個持續累積的數字，以及相關連結，指向使用該資料集所產出的研究論文。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:195
 msgid "The fourth and final element highlighted here – is the dataset’s DOI, the unique digital object identifier which enables what we call literature tracking. Anytime data is used from a dataset, the DOI of the dataset is meant to be cited by the users of the data."
-msgstr ""
+msgstr "第四個也是最後一個元素，是資料集的 DOI。這是一個唯一的數位物件識別碼，讓我們能夠進行文獻追蹤。\n\n"
+"當任何資料被使用時，使用者都應引用該資料集的 DOI。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:197
 msgid "In this particular example, a https://doi.org/10.15468/ajkhha[dataset on bryophytes^], mosses from Switzerland, has been used in a https://doi.org/10.15468/dl.36wam3[study analyzing climate and distribution of Sphagnum mosses^] by a group of authors based in Sweden. This is only one of over 150 studies that are rooted in this dataset."
-msgstr ""
+msgstr "在這個特定案例中，一筆關於苔蘚植物，亦即來自瑞士的https://doi.org/10.15468/ajkhha[苔蘚資料集]，已被一項由瑞典研究團隊進行的研究所使用，該研究分析了泥炭蘚的氣候與分布關係https://doi.org/10.15468/dl.36wam3。\n\n"
+"而這只是超過 150 項建立在該資料集之上的研究之一。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:198
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide4.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide4.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:201
 #, no-wrap
 msgid "*Slide 4 - Peer-reviewed publications using GBIF-mediated data*\n"
-msgstr ""
+msgstr "*投影片4 — 使用 GBIF 整合資料的同儕審查論文*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:203
 msgid "Through the Secretariat’s https://www.gbif.org/literature-tracking[literature tracking programme^], we are able to see that GBIF-mediated data are used in scientific literature at an increasing rate."
-msgstr ""
+msgstr "透過秘書處的https://www.gbif.org/literature-tracking文獻追蹤計畫，我們可以了解 GBIF 整合資料在科學文獻中的使用情況，並發現其使用量正持續增加。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:205
 msgid "The https://www.gbif.org/science-review[GBIF Science Review^] highlights an annual selection of key research uses drawn from the literature tracking programme. The peer-reviewed articles summarized in the Review offer a partial but instructive view of the wide range of research investigations that are enhanced and supported by free and open access to biodiversity data from the GBIF network of Participants, nodes and publishers."
-msgstr ""
+msgstr "The https://www.gbif.org/science-review[GBIF Science Review^]每年都會從文獻追蹤計畫所蒐集的研究成果中，精選具代表性的案例加以介紹。\n\n"
+"回顧中所摘要的同儕審查論文，雖然僅呈現其中一部分研究成果，卻能幫助我們了解 GBIF 參與者、節點與資料發布者所組成的網絡，如何透過提供自由且開放的生物多樣性資料，支援並促進各類研究工作。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:206
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide5.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide5.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:209
 #, no-wrap
 msgid "*Slide 5 - Systematic reviews of GBIF-enabled science*\n"
-msgstr ""
+msgstr "*投影片5 — GBIF 推動之科學研究的系統性回顧*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:211
 msgid "As more and more researchers cite data using DOIs, GBIF is better able to monitor and to analyze the landscape of GBIF-enabled science. Every five years the corpus of GBIF enabled research is a subject of systematic review, exploring the patterns of GBIF use in research."
-msgstr ""
+msgstr "隨著研究人員愈來愈普遍地透過 DOI 引用資料，GBIF 得以更完整地監測與分析 GBIF 支持之科學研究的發展概況。\n\n"
+"每隔五年，GBIF 都會對相關研究文獻進行系統性回顧，以了解 GBIF 資料在科學研究中的使用模式與趨勢。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:213
 msgid "On the left, you can see diversity of topics in years 2016 to 2019, the topics becoming hotter and cooler with time, topic connections, and topic sizes, and the picture on the right outlines the thematic relevance landscape of GBIF in more recently from 2020 to 2024."
-msgstr ""
+msgstr "在左圖中，你可以看到 2016 至 2019 年間 GBIF 相關研究主題的分布情形，包括各主題的規模、主題之間的關聯性，以及不同主題隨時間變得更加熱門或變冷門的趨勢。\n\n"
+"右圖則呈現 2020 至 2024 年期間的研究主題分布概況。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:215
 msgid "These studies produce two kinds of important fact-based signals for the network: they outline the evolution of the GBIF data outputs for scientific analyses, and the strategic understanding of GBIF position and trends in supporting science."
-msgstr ""
+msgstr "這些研究為 GBIF 網絡帶來兩項重要的實證資訊：一方面，有助於了解 GBIF 資料在科學分析中的應用演變；另一方面，則有助於掌握 GBIF 在推動科學研究上的角色定位與發展趨勢。"
 
 #. type: delimited block _
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:222
 msgid "https://doi.org/10.1073/pnas.2018093118 Heberling et al. 2021 Data integration enables global biodiversity synthesis 2016 – 2019 DOI: 10.1073/pnas.2018093118"
-msgstr ""
+msgstr "https://doi.org/10.1073/pnas.2018093118 Heberling 等人，2021 年，《資料整合促進全球生物多樣性綜合分析2016–2019》，DOI： 10.1073/pnas.2018093118"
 
 #. type: delimited block _
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:227
 msgid "https://doi.org/10.1073/pnas.2519119122 Steinke et al. 2025 Globally aggregated biodiversity data impact predictive and descriptive research 2020 – 2024"
-msgstr ""
+msgstr "https://doi.org/10.1073/pnas.2519119122 Steinke 等人，2025 年《全球彙總生物多樣性資料對 2020–2024 年預測性與描述性研究之影響》"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:229
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide6.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:232
 #, no-wrap
 msgid "*Slide 6 - GBIF-enabled science: research topics over time: 2010 – 2024*\n"
-msgstr ""
+msgstr "*投影片 6 — GBIF 推動的科學：各時期的研究主題：2010 – 2024*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:234
 msgid "What kind of signals and patterns do these systematic reviews reveal? GBIF-powered studies were mostly focuse on ecology in combination with conservation, climate change, agriculture, phylogenetics, evolution, taxonomy, and species distribution. The prevalence of the topics have changed over time — especially ecology in combination with climate change (since 2019), and agriculture (a jump in 2023)."
-msgstr ""
+msgstr "這些系統性回顧顯示了哪些趨勢與模式呢？\n\n"
+"使用 GBIF 資料所進行的研究主要聚焦於生態學，並經常結合保育、、氣候變遷、農業、系統發育學、演化學、分類學以及物種分布等主題。\n\n"
+"這些研究主題的重要性也隨時間而變化，其中以「生態學與氣候變遷」相關研究的成長最為明顯（自 2019 年起持續增加），而「農業」相關研究則在 2023 年出現顯著增長。"
 
 #. type: delimited block _
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:237
 msgid "Steinke D et al. (2025): Globally aggregated biodiversity data impacts predictive and descriptive research. PNAS 122(50): e2519119122. https://doi.org/10.1073/pnas.2519119122"
-msgstr ""
+msgstr "Steinke D 等人（2025）：全球彙總的生物多樣性資料對預測性與描述性研究的影響。PNAS 122(50)：e2519119122。 https://doi.org/10.1073/pnas.2519119122"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:239
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide7.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide7.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:242
 #, no-wrap
 msgid "*Slide 7 - GBIF thematic relevance*\n"
-msgstr ""
+msgstr "*投影片 7 — GBIF 的主題相關性*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:244
 msgid "Data shared through GBIF is https://www.gbif.org/composition/2SEGqoMS8eMVos9T1owEEk[applied across many disciplines and research traditions^]. To name just a few:"
-msgstr ""
+msgstr "透過 GBIF 共享的資料https://www.gbif.org/composition/2SEGqoMS8eMVos9T1owEEk[可應用於眾多學科與研究傳統^]。舉例來說："
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:246
 msgid "CONSERVATION, including conservation biology but also science-based management, such as design of the protect areas and assessment of threats to species, by tracking the actual and predicted spread of invasive alien species."
-msgstr ""
+msgstr "保育，包括保育生物學以及以科學證據為基礎的管理措施，例如保護區的規劃與設計，以及透過追蹤外來入侵種目前及預測的擴散情形，評估其對物種造成的威脅。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:248
 msgid "In relation to Agrobiodiversity, GBIF mediated data help exploring distribution of the crop wild relatives."
-msgstr ""
+msgstr "在農業生物多樣性方面，GBIF 資料有助於研究作物野生近緣種的分布情況。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:250
 msgid "Another human related sector is HUMAN HEALTH where species that act as vectors, hosts and reservoirs of human diseases are discoverable through GBIF."
-msgstr ""
+msgstr "另一個與人類相關的領域是人類健康。在 GBIF 中，可以找到許多作為疾病媒介、宿主與病原儲存庫的物種資訊。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:252
 msgid "As GBIF provides access to both historic and to recent biodiversity data, GBIF powers research on effect of the environmental CHANGE onto species and communities, often using modelling techniques where GBIF mediated data serve as baseline and as inputs."
-msgstr ""
+msgstr "GBIF 提供歷史與近期的生物多樣性資料，因此能推動研究環境變遷對物種與群落的影響。這類研究多半使用模型方法，而 GBIF 資料則作為基準與輸入資料。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:253
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide8.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide8.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:256
 #, no-wrap
 msgid "*Slide 8 - Mision and Vision*\n"
-msgstr ""
+msgstr "*投影片 8 — 使命與願景*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:258
 msgid "GBIF exists to build the evidence to advance scientific research and to support global understanding of biodiversity. GBIF relevance for science and research is the most visible and the best documented thanks for DOI based literature tracking. GBIF coordinates international scientific efforts of GBIF on its mission of making biodiversity data openly available to all countries and individuals."
-msgstr ""
+msgstr "GBIF 的目標是建立證據基礎，推動科學研究，並促進全球對生物多樣性的理解。GBIF 在科學與研究領域的影響力最為明顯，也因基於 DOI 的文獻追蹤機制而有完善的紀錄。同時，GBIF 也透過國際合作協調科學工作，致力於讓國家與個人都能公開獲取生物多樣性資料。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:259
 #, no-wrap
 msgid "intro-to-gbif::GBIF-for-Science-Slide9.png"
-msgstr ""
+msgstr "intro-to-gbif::GBIF-for-Science-Slide9.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:262
 #, no-wrap
 msgid "*Slide 9 - Conclusion*\n"
-msgstr ""
+msgstr "*投影片 9 - 結論*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:264
@@ -1223,49 +1244,49 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:388
 #, no-wrap
 msgid "*Slide 9 - Benefits of establishing a node: Providing technical services & infrastructure*\n"
-msgstr ""
+msgstr "*投影片 9 — 建立節點的好處：提供技術服務與基礎設施*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:390
 msgid "Finally, nodes provide the technical foundation for managing and sharing biodiversity data."
-msgstr ""
+msgstr "最後，各節點提供了管理與共享生物多樣性資料的技術基礎。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:392
 msgid "They offer tools, infrastructure, and helpdesk support to enable data publication and access."
-msgstr ""
+msgstr "他們提供工具、基礎設施與支援服務，協助資料的發布與存取。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:394
 msgid "By making the connection to GBIF, nodes enable the integration of data mobilized their networks with relevant data published by other countries and organizations. "
-msgstr ""
+msgstr "透過與 GBIF 建立連結，各節點讓其網絡所蒐集與整理的資料，能與其他國家及組織所發布的相關資料進行整合。 "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:396
 msgid "Data mobilized to serve national or organizational needs therefore also become available for reuse by the broader international audience. This raises the visibility of the Participant’s data publishing institutions and mobilization efforts."
-msgstr ""
+msgstr "因此，原本為國家或組織需求而整理的資料，也能被更廣泛的國際社群再利用。這也提升了參與者資料發布機構與資料流通工作的能見度。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:397
 #, no-wrap
 msgid "intro-to-gbif::role-of-nodes-Slide10.png"
-msgstr ""
+msgstr "intro-to-gbif::node-roles-Slide10.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:400
 #, no-wrap
 msgid "*Slide 10 - Participant roles*\n"
-msgstr ""
+msgstr "*投影片 10 — 參與者角色*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:402
 msgid "Two main roles are assigned when a Participant joins GBIF: the Head of Delegation and the node manager. "
-msgstr ""
+msgstr "當參與者加入 GBIF 時，會指派兩個主要角色：代表團負責人與節點管理員。 "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:404
 msgid "The Head of Delegation represents the country, economy or organization on the GBIF Governing Board, and acts as the Participant’s primary focal point for all GBIF-related activity. "
-msgstr ""
+msgstr "代表團負責人在 GBIF 管理委員會中代表國家、經濟體或組織，同時也是該參與者在所有GBIF相關事務中的主要聯絡人。 "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:406
