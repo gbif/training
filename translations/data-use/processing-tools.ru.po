@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-06-09 12:38+0000\n"
+"PO-Revision-Date: 2026-07-08 08:18\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /main/translations/data-use/processing-tools.pot\n"
+"X-Crowdin-File-ID: 40924\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:95
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:56
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:10
+#, no-wrap
+msgid "OpenRefine"
+msgstr "OpenRefine"
+
+#. type: Title =
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:1
+#, no-wrap
+msgid "Data processing tools"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:5
+msgid "While GBIF filters will allow you to select and download data that only fulfils specific criteria, it is highly recommended that you perform additional data processing.  Your choice for a data processing tool should be based on personal access, familiarity and utility of that tool(s)."
+msgstr ""
+
+#. type: Title ==
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:6
+#, no-wrap
+msgid "Example tools "
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:9
+msgid "Spreadsheet editing software, e.g. Excel, Google Sheets (smaller datasets)"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:11
+msgid "R packages and scripts, e.g. rgbif, CoordinateCleaner, scrubr and biogeo"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:12
+msgid "Geographical Information Systems (GIS), e.g. ArcGIS, QGIS and MapInfo"
+msgstr ""
+
+#. type: Plain text
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:13
+msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. This can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
+msgstr ""
+
