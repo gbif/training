@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-06-09 12:38+0000\n"
+"PO-Revision-Date: 2026-07-08 08:21\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /main/translations/data-mobilization/solutions.pot\n"
+"X-Crowdin-File-ID: 45080\n"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:95
+#: en/data-mobilization/modules/ROOT/pages/management.adoc:408
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:56
+#: en/data-use/modules/ROOT/pages/processing-tools.adoc:10
+#, no-wrap
+msgid "OpenRefine"
+msgstr "OpenRefine"
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:1
+#, no-wrap
+msgid "Solutions"
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:6
+msgid "This appendix contains the answers and additional information for the review quizzes."
+msgstr ""
+
+#. type: delimited block =
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:8
+msgid "Additionally, this section contains a suggested solution to the Practice Use Case."
+msgstr ""
+
+#. == Data capture review solutions
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:14
+#, no-wrap
+msgid "Data management review solutions"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:17
+#, no-wrap
+msgid "*Why is it best to clean your data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:19
+msgid "to make them as fit for use as possible"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:20
+msgid "to achieve your data quality goals"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:23
+msgid "You should always aim to manage and publish data with the highest possible quality.  This will improve your day-to-day work (it is easier to work with organized and clean data), as well as the work of potential re-users of your data, who need to understand them and trust their source before using them."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:25
+#, no-wrap
+msgid "*How should you organize your data cleaning workflow?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:27
+msgid "ask your colleagues for expertise"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:28
+msgid "work at an institutional level to harmonize data quality workflows"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:30
+msgid "Nobody is expected to know everything about biodiversity data; you should seek help and advice from your colleagues or other knowledgeable people, and ensure that you're applying the good practices recommended by your institution as you clean your data."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:32
+#, no-wrap
+msgid "*Which is best:*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:34
+msgid "prevent errors from occurring"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:35
+msgid "correct errors as soon as you find them in your database or spreadsheet"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:37
+msgid "The best way to avoid spreading errors in your data is to prevent them from occurring at the start of the data collecting/recording process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:39
+msgid "Of course, mistakes are unavoidable so you should also clean them as soon as you find them, and document the cleaning process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:41
+msgid "If you don't have the time or resources to properly clean your data, it is best to wait before you can do so instead of publishing erroneous data that might confuse people."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:43
+#, no-wrap
+msgid "*Whose responsibility is data quality?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:45
+msgid "Everyone involved in the management of data"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:47
+msgid "Every person involved in your data management workflow is at least partly responsible for their quality, from the field technicians to the database manager(s)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:49
+msgid "People who might later use your data can inform you of any remaining error in your data, and should use them responsibly for their own research, but the initial data quality is not their responsibility."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:51
+msgid "GBIF can perform automatic checks on your data (e.g. detection of missing values, geographic outliers, unknown scientific names) but should not be held responsible for errors that occurred earlier in the data management process."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:53
+#, no-wrap
+msgid "*Which tools can be used to clean your data?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:55
+msgid "Excel & other spreadsheets management tools"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:57
+msgid "Your database software"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:58
+msgid "Online tools such as Scientific Names Resolver or Google Maps"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:60
+msgid "All kinds of tools can be used to clean your data, but you should identify which ones will answer your needs in terms of taxonomic resolving, georeferencing, deleting duplicates, and so on. You can find <<helpful-tools,helpful tools>> listed in the data management section."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:61
+#, no-wrap
+msgid "Data publishing review solutions"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:64
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:85
+#, no-wrap
+msgid "*What does data publishing mean in the context of GBIF?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:66
+#: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:87
+msgid "Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:68
+msgid "Data publishing within GBIF means making your biodiversity dataset(s) publicly accessible in a standardized format (most of the time, Darwin Core), so that it can be discovered and reused by other people."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:70
+#, no-wrap
+msgid "*What is an IPT?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:72
+msgid "a tool that helps you publish your data to GBIF"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:73
+msgid "a tool that helps you produce a Data paper"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:76
+msgid "The IPT (Integrated Publishing Toolkit) is a Java-coded software that allows you to upload and publish data to GBIF.  It is not to be used as a data management or data cleaning tool."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:78
+msgid "The IPT can also help you with the process of writing and submitting a data paper, thanks to the EML file it generates automatically when you fill in the metadata for your data resource."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:80
+#, no-wrap
+msgid "*Which Creative Commons licences and waivers are recommended by GBIF for data publication?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:82
+msgid "CC0, CC-BY and CC-BY-NC"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:85
+msgid "The Creative Commons licences and waivers recommended to publish your dataset(s) to GBIF are CC0, CC-BY and CC-BY-NC.  They are widely recognized licenses and/or waivers that align with international open-data requirements for data sharing and re-use."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:87
+msgid "Please note that you should only choose CC0 or CC-BY waiver/license for your BID-related dataset(s)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:89
+#, no-wrap
+msgid "*What are the three Cores from which you can choose for an IPT resource?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:91
+msgid "Occurrence Core, Taxon Core, Event Core"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:93
+msgid "You can choose one of the three following Cores for each of your IPT resources: Occurrence, Taxon or Event Core."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:95
+msgid "The Darwin Core standard also allows you to link extensions to your chosen Core, such as SimpleMultimedia or MeasurementOrFact."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:97
+msgid "The metadata are filled in a separate section of the IPT and are shared using the EML standard, not the Darwin Core (which is used for data only)."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:99
+#, no-wrap
+msgid "*How many Extensions files can a dataset have?*\n"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:101
+msgid "as many as needed"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:104
+msgid "Once you have chosen a Core for your IPT resource, you can add Darwin core extensions to it.  You can add only one or several extensions, depending on the type of Core you chose, and which extensions are compatible with it."
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:106
+msgid "Extensions are not mandatory (you can publish a dataset without any extension) but can be useful if you want to share additional information that you could not map with your chosen Core."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:107
+#, no-wrap
+msgid "Practice Use Case suggested solution"
+msgstr ""
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/solutions.adoc:110
+msgid "xref:attachment$UC-Practice-suggested-solution.docx[Suggested solution,opts=download] (4 MB)  xref:attachment$UC-Practice-1-ForCapture-example.xlsx[Exercise 1c capture example spreadsheet,opts=download] (4 MB)"
+msgstr ""
+
