@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gbif-training-courses\n"
+"POT-Creation-Date: 2026-04-11 19:21+0000\n"
+"PO-Revision-Date: 2026-07-08 08:21\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: gbif-training-courses\n"
+"X-Crowdin-Project-ID: 758779\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /main/translations/data-mobilization/glossary.pot\n"
+"X-Crowdin-File-ID: 45068\n"
+
+#. type: Title =
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:2
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:2
+#, no-wrap
+msgid "Glossary"
+msgstr "Словарь"
+
+#. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:7
+#, no-wrap
+msgid "[[ALA]]ALA"
+msgstr "[[ALA]]ALA"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:9
+msgid "Atlas of Living Australia.  The Australian node of GBIF, who developed an open source data portal now widely used within the GBIF community & partners for biodiversity national portals."
+msgstr "Atlas of Living Australia (Атлас живой природы Австралии). Австралийский узел GBIF, который разработал портал данных с открытым исходным кодом, в настоящее время широко используется в рамках сообщества и партнеров GBIF для национальных порталов биоразнообразия."
+
+#. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:10
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:7
+#, no-wrap
+msgid "[[API]]API"
+msgstr "[[API]]API"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:12
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:9
+msgid "Application Programming Interface.  A set of clearly defined methods of communication between various software components."
+msgstr "Application Programming Interface (Интерфейс прикладного программирования). Набор четко определенных способов связи между различными программными компонентами."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:13
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:10
+#, no-wrap
+msgid "[[BID]]BID"
+msgstr "[[BID]]BID"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:15
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:12
+msgid "Biodiversity Information for Development.  An EU funded project co-ordinated by GBIF whose aim is to increase data mobilization capacity in the Africa, Caribbean and Pacific regions."
+msgstr "Biodiversity Information for Development (Информация о биоразнообразии в целях развития). Финансируемый ЕС проект, координируемый GBIF и направленный на расширение возможностей по мобилизации данных в регионах Африки, Карибского бассейна и Тихого океана."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:16
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:13
+#, no-wrap
+msgid "[[CC]]CC Licences"
+msgstr "Лицензии CC"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:19
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:16
+msgid "Creative Commons.  These are a series of licenses set up by the Creative Commons organization that enable sharing and reuse of creativity and knowledge through the provision of free legal tools.  Three of them can be assigned to GBIF-shared datasets: CC0, CC BY and CC BY-NC."
+msgstr "Creative Commons. Это серия лицензий, созданных организацией Creative Commons, которые позволяют обмениваться и повторно использовать творчество и знания посредством предоставления бесплатных юридических инструментов. Три из них могут быть назначены совместно используемым наборам данных GBIF: CC0, CC BY и CC BY-NC."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:20
+#, no-wrap
+msgid "[[vocab]]Controlled Vocabulary"
+msgstr "[Контролируемый словарь"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:24
+msgid "This is a restricted set of terms that are used as possible values for a given field.  One can think of it as a lookup list or dropdown for a particular field.  For example the DwC field basisOfRecord should only contain one of these values: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\".  We would say that list of values is a controlled vocabulary for that field."
+msgstr "Это ограниченный набор терминов, которые используются в качестве возможных значений для данного поля. Его можно рассматривать как список подстановки или раскрывающийся список для определенного поля. Например, область DwC basisOfRecord должно содержать только одно из этих значений: «PreservedSpecimen», «FossilSpecimen», «LivingSpecimen», «HumanObservation», «MachineObservation». Мы бы сказали, что список значений является контролируемым словарем для этой области."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:25
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:17
+#, no-wrap
+msgid "[[DwC]]DwC"
+msgstr "[[DwC]]DwC"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:27
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:19
+msgid "Darwin Core is a biodiversity data standard, maintained by TDWG & widely used within the GBIF community and partners.  It is a set of standardized terms (or field names) and their definitions, which are used to share biodiversity information."
+msgstr "Darwin Core - это стандарт данных о биоразнообразии, поддерживаемый TDWG и широко используемый в сообществе и партнерах GBIF. Это набор стандартизированных терминов (или названий полей) и их определений, которые используются для обмена информацией о биоразнообразии."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:28
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:20
+#, no-wrap
+msgid "[[DOI]]DOI"
+msgstr "[[DOI]]DOI"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:30
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:22
+msgid "Digital Object Identifier.  A persistent identifier or handle used to uniquely identify objects. DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports and data sets, and official publications."
+msgstr "Digital Object Identifier (Цифровой идентификатор объекта). Постоянный идентификатор или дескриптор, используемый для уникальной идентификации объектов. DOI широко используются в основном для выявления академической, профессиональной и правительственной информации, такой как журнальные статьи, исследовательские отчеты и наборы данных, а также официальных публикаций."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:31
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:23
+#, no-wrap
+msgid "[[DwC-A]]DwC-A"
+msgstr "[[DwC-A]]DwC-A"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:34
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:26
+msgid "Darwin Core Archive.  A compressed (zipped) file containing all the information needed to share with GBIF, for a particular resource.  Each zip contains three types of files:"
+msgstr "Архив Darwin Core. Сжатый (архивированный) файл, содержащий всю информацию, необходимую для совместного использования в GBIF для определенного ресурса. Каждый zip содержит три типа файлов:"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:35
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:27
+msgid "the actual data, in one or more text files: occurrence.txt/event.txt/measurmentoffact.txt etc"
+msgstr "фактические данные в одном или нескольких текстовых файлах: occurrence.txt/event.txt/measurmentoffact.txt и т.д"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:36
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:28
+msgid "a mapping file: rtf.xml"
+msgstr "файл сопоставления: rtf.xml"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:39
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:31
+msgid "a metadata (EML) file: eml.xml When you publish using the IPT, it creates a Darwin Core Archive, which is shared with GBIF.  Also, when you download data from the GBIF website you can choose a DwC-A format as well."
+msgstr "файл метаданных (EML) eml.xml. При публикации с помощью IPT создается архив Darwin Core, совместно используемый в GBIF. Кроме того, при загрузке данных с сайта GBIF можно также выбрать формат DwC-A."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:40
+#, no-wrap
+msgid "[[GUID]]GUID"
+msgstr "[[GUID]]GUID"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:41
+msgid "Globally Unique IDentifier"
+msgstr "Globally Unique Identifier (Глобальный идентификатор уникальных имен)"
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:42
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:32
+#, no-wrap
+msgid "[[IPT]]IPT"
+msgstr "[[IPT]]IPT"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:46
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:36
+msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
+msgstr "Integrated Publishing Toolkit (Интегрированный набор средств публикации). Это бесплатное и открытое веб-приложение (программное обеспечение) для публикации данных о биоразнообразии. Само программное обеспечение находится на сервере (либо в вашем учреждении, либо в другом месте), который должен иметь доступ к интернету 24/7. Он используется для создания и обработки файлов Darwin Core Archive, которые могут совместно использоваться любым пользователем, включая GBIF."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:47
+#, no-wrap
+msgid "[[loan]]Loan"
+msgstr "Заимствование"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:48
+msgid "In the context of natural history collections, this is the procedure of lending specimens between institutions."
+msgstr "В контексте коллекций естественной истории это процедура заимствования образцов между учреждениями."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:49
+#, no-wrap
+msgid "[[LSID]]LSID"
+msgstr "[[LSID]]LSID"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:51
+msgid "Life Sciences Identifier.  They are persistent, globally unique identifiers for biological objects."
+msgstr "Life Sciences Identifier (Естественно-научный идентификатор). Они являются постоянными, уникальными в глобальном масштабе идентификаторами биологических объектов."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:52
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:37
+#, no-wrap
+msgid "[[DP]]Data Publishing"
+msgstr "[Публикация данных"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:54
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:39
+msgid "With regards to GBIF we have a very specific definition of data publishing.  It refers to making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL)."
+msgstr "По отношению к GBIF, у нас есть очень конкретное определение публикации данных. Речь идет о том, чтобы сделать наборы данных о биоразнообразии общедоступными и обнаруживаемыми в стандартизированной форме через точку доступа, как правило, через веб-адрес (URL)."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:55
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:40
+#, no-wrap
+msgid "[[resource]]Resource"
+msgstr "[[resource]]Ресурсы"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:56
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:41
+msgid "A Resource is the collective term used to refer to a particular dataset and its metadata once it has been uploaded to an IPT instance."
+msgstr "Ресурс - это собирательный термин, используемый для ссылки на определенный набор данных и его метаданные после загрузки на конкретный IPT."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:57
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:42
+#, no-wrap
+msgid "[[TDWG]]TDWG"
+msgstr "[[TDWG]]TDWG"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:58
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:43
+msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
+msgstr "Taxonomic Databases Working Group (Рабочая группа по таксономическим базам данных), которая в настоящее время переименована в Biodiversity Information Standards (Стандарты информации о биоразнообразии)."
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:59
+#, no-wrap
+msgid "[[URN]]URN"
+msgstr "[[URN]]URN"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:60
+msgid "Uniform Resource Number"
+msgstr "Uniform Resource Number (Унифицированный номер ресурса)"
+
+#. type: Labeled list
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:61
+#, no-wrap
+msgid "[[UUID]]UUID"
+msgstr "[[UUID]]UUID"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:62
+msgid "Universally Unique Identifier"
+msgstr "Универсальный уникальный идентификатор"
+
+#. type: Plain text
+#: en/data-mobilization/modules/ROOT/pages/glossary.adoc:63
+#: en/intro-to-gbif/modules/ROOT/pages/glossary.adoc:44
+msgid "<<<"
+msgstr ""
+
