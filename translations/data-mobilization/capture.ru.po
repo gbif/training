@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-07-16 10:20\n"
+"PO-Revision-Date: 2026-07-16 12:35\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -872,55 +872,55 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:256
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:259
 #, no-wrap
 msgid "*Slide 16 - Community and standards relationships*\n"
-msgstr ""
+msgstr "*Слайд 16. Взаимосвязь сообщества и стандартов*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:261
 msgid "There are many layers in our biodiversity informatics community. The image here shows the relationships between these layers and where they intersect with the Darwin Core and where extensions maybe necessary in order to fully share data."
-msgstr ""
+msgstr "Сообщество специалистов по информатике биоразнообразия включает множество уровней. На этой схеме показаны взаимосвязи между ними, а также то, как они соотносятся со стандартом Darwin Core и в каких случаях для полноценной публикации данных может потребоваться использование расширений."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:262
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide17.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide17.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:265
 #, no-wrap
 msgid "*Slide 17 - Darwin Core Achives (DwC-A)*\n"
-msgstr ""
+msgstr "*Слайд 17 — Архивы Darwin Core (DwC-A)*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:267
 msgid "Data shared to GBIF is currently submitted via a Darwin Core Archive or DwCA."
-msgstr ""
+msgstr "В настоящее время данные публикуются в GBIF в формате архива Darwin Core (Darwin Core Archive, DwCA)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:269
 msgid "A DwCA is an expression of the Darwin Core text guide. It is a compressed file containing a minimum of three files. It is encoded as UTF-8."
-msgstr ""
+msgstr "DwCA представляет собой реализацию текстового руководства Darwin Core. Для кодирования символов используется UTF-8."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:271
 msgid "In this example, these three files are:"
-msgstr ""
+msgstr "В данном примере архив включает следующие три файла:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:275
 msgid "A data file (occurrence.txt) conforming to the SIMPLEDWC in a CSV format where the first row includes Darwin Core standard term names.  A meta file (meta.xml) in XML format containing technical details to instruct a computer in how to use the data file.  A meta file (eml.xml) in an XML format containing explanatory details about the records contained within the data file to instruct a user if the data will be fit for their use."
-msgstr ""
+msgstr "Файл данных (occurrence.txt), соответствующий стандарту SIMPLEDWC и представленный в формате CSV. Первая строка файла содержит названия терминов стандарта Darwin Core.  Файл метаданных (meta.xml) в формате XML, содержащий техническую информацию, необходимую для того, чтобы компьютер мог правильно обработать файл данных. Файл метаданных (eml.xml) в формате XML, содержащий описание набора данных и поясняющую информацию о записях, включённых в файл данных. Эта информация помогает пользователям определить, подходят ли данные для их задач."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:277
 msgid "A more complex structure can be obtained by sharing multiple related csv files to extend the data. They are related to the core file by way of a unique id. In an occurrence dataset, these related csv files are related by the occurrenceID."
-msgstr ""
+msgstr "Более сложная структура данных может быть создана за счёт использования нескольких связанных CSV-файлов, расширяющих содержание основного файла. Эти файлы связываются с основным файлом с помощью уникального идентификатора. В наборе данных о находках такая связь осуществляется по полю occurrenceID"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:278
