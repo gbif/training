@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 11:49+0000\n"
-"PO-Revision-Date: 2026-08-03 05:09\n"
+"PO-Revision-Date: 2026-08-03 06:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -80,13 +80,16 @@ msgid "- [ ] The museum or department director\n"
 "- [x] The users of the data for research or education\n"
 "- [ ] The collector of the data in the field\n"
 "- [ ] The person entering the data into the database\n"
-msgstr ""
+msgstr "- [ ] 博物館或部門主管\n"
+"- [x] 將資料用於研究或教育之使用者\n"
+"- [ ] 該領域資料的蒐集者\n"
+"- [ ] 將資料輸入資料庫之人\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:41
 msgid "Which of these aspects do you need to consider when assessing if a GBIF-mediated dataset is fit for use?"
-msgstr ""
+msgstr "在評估 GBIF 提供的資料集是否適合使用時，您需要考慮以下哪些方面？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:48
@@ -95,26 +98,30 @@ msgid "- [x] The number of data points\n"
 "- [x] The spatial resolution of the data\n"
 "- [x] Dataset metadata\n"
 "- [x] The species identification\n"
-msgstr ""
+msgstr "- [x] 資料點數量\n"
+"- [x] 資料的空間解析度\n"
+"- [x] 資料集詮釋資料\n"
+"- [x] 物種鑑定\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:51
 msgid "Which of these would you consider to be accurate data?"
-msgstr ""
+msgstr "在以下這些資料中，您認為哪一項是準確的？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:56
 #, no-wrap
 msgid "- [x] Data where the coordinates match the country information\n"
 "- [ ] Data where the higher taxonomy of a species does not reflect the current taxonomy of a species\n"
-msgstr ""
+msgstr "- [x] 座標與國家資訊相符的資料\n"
+"- [ ] 物種的高階分類未反映該物種現行分類學的資料\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:59
 msgid "Which of these are some common GBIF data quality issues?"
-msgstr ""
+msgstr "以下哪些屬於 GBIF 常見的資料品質問題？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:66
@@ -123,14 +130,17 @@ msgid "- [x] Duplicates of occurrence data\n"
 "- [x] Gridded datasets\n"
 "- [x] Country centroids\n"
 "- [x] Coordinate mismatches\n"
-msgstr ""
+msgstr "- [x] 出現紀錄資料重複\n"
+"- [x] 網格化資料集\n"
+"- [x] 國家中心點\n"
+"- [x] 座標不符\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:69
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:152
 msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
-msgstr ""
+msgstr "GBIF 會對資料套用哪些標記，以提醒您注意資料品質？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:78
@@ -142,13 +152,18 @@ msgid "- [x] altered\n"
 "- [x] excluded\n"
 "- [ ] interpreted\n"
 "- [x] inferred\n"
-msgstr ""
+msgstr "- [x] 修改\n"
+"- [ ] 修訂\n"
+"- [ ] 翻譯\n"
+"- [x] 排除\n"
+"- [ ] 詮釋\n"
+"- [x] 推論\n"
 
 #.  Question 9
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:81
 msgid "Which of the following data quality checks cannot be performed automatically by GBIF?"
-msgstr ""
+msgstr "下列哪一項資料品質檢查無法由 GBIF 自動執行？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:88
@@ -157,13 +172,16 @@ msgid "- [ ] Duplicate publication of the same occurrence\n"
 "- [ ] Coordinate inversions\n"
 "- [ ] Missing higher taxonomy\n"
 "- [x] Incorrect identification of a taxon\n"
-msgstr ""
+msgstr "- [ ] 同一記錄的重複發布\n"
+"- [ ] 座標顛倒\n"
+"- [ ] 缺少較高分類\n"
+"- [x] 分類單元鑑定錯誤\n"
 
 #.  Question 10
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:91
 msgid "Which of the following is not an issue flag?"
-msgstr ""
+msgstr "下列哪一項不屬於問題標記？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:98
@@ -172,5 +190,8 @@ msgid "- [ ] Country coordinate mismatch\n"
 "- [ ] Taxon match fuzzy\n"
 "- [ ] Basis of record invalid\n"
 "- [x] Outside native range\n"
-msgstr ""
+msgstr "- [ ] 國家座標不符\n"
+"- [ ] 分類單元匹配不精確\n"
+"- [ ] 記錄依據無效\n"
+"- [x] 超出原生分布範圍\n"
 
