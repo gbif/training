@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-04-11 16:28\n"
+"PO-Revision-Date: 2026-08-04 08:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,85 +20,85 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:1
 #, no-wrap
 msgid "Handling taxonomic uncertainty"
-msgstr ""
+msgstr "處理分類學上的不確定性"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:4
 msgid "Uncertainty surrounding the taxonomy of a data point can arise for several reasons:"
-msgstr ""
+msgstr "資料點的分類所產生的不確定性，可能源於以下幾種原因："
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:6
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:9
 #, no-wrap
 msgid "Species misidentification"
-msgstr ""
+msgstr "物種鑑定錯誤"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:7
 msgid "Synonymy"
-msgstr ""
+msgstr "同種異名"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:8
 msgid "Novel names"
-msgstr ""
+msgstr "新命名"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:14
 msgid "Species identification is a complex process with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification.  Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise not possesed by data publishers may lead to a species misidentification.  As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:"
-msgstr ""
+msgstr "物種鑑定是一個複雜的過程，通常是根據已發表的物種描述中的特定性狀組合來描述物種，並與科學收藏中保存的模式標本相關聯，該模式標本可用於驗證物種鑑定結果。 當分類單元之間極為相似，或正確的鑑定需依靠一組複雜的性狀時，資料發布者若缺乏特定的分類學專業知識，便可能導致物種鑑定錯誤。身為使用者，您必須清楚了解針對您所關注的物種群體，其分類鑑定是如何進行的："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:16
 msgid "What are the characters used for defining the species?"
-msgstr ""
+msgstr "用於界定物種的性狀有哪些？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:17
 msgid "Are these characters easily confused or captured when the species is observed or collected?"
-msgstr ""
+msgstr "在觀察或採集該物種時，這些性狀是否容易被混淆或取得？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:18
 msgid "Are there related species that could be easily confused with the species you are interested in?"
-msgstr ""
+msgstr "是否存在近緣物種會混淆您感興趣的物種？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:21
 msgid "If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources.  Another approach may be to use associated data, such as collector information, media, DNA sequences, etc., to validate the taxonomic determination."
-msgstr ""
+msgstr "若您認為物種可能存在鑑定錯誤的風險，可對所使用的資料採取保守做法，僅採用那些與可執行分類學驗證的收藏標本相關聯的資料，並排除其他資料來源。  另一種方法是利用相關資料，例如採集者資訊、生長介質、DNA 序列等，來驗證分類學鑑定結果。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:22
 #, no-wrap
 msgid "Synonymy "
-msgstr ""
+msgstr "同種異名 "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:29
 msgid "Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another.  Only one species name can be accepted, and other names are what we call synonyms.  These synonyms may still be in use to a lesser or greater extent, and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys.  https://www.gbif.org/species/search[Species search^] allows for filtering for accepted names and synonyms, and taxon keys can be used for programmatic searches of GBIF."
-msgstr ""
+msgstr "當同一物種曾被多次描述，且每次描述時都賦予該物種一個新名稱；或者當物種的分類學發生變化時，例如：某物種從一個屬移至另一個屬，便可能產生同物異名。 一個物種僅能存在一個物種名，其餘名稱即為所謂的同物異名。這些同物異名可能仍在不同程度上被使用，因此當您從 GBIF 取得資料時，應確保取得的是您所需的分類學名稱的資料。  GBIF 的分類學骨幹系統會區分「被接受的學名」與「同物異名」，並採用分類群檢索的形式作為唯一識別碼。 https://www.gbif.org/species/search[物種搜尋^] 允許篩選已接受的學名與同物異名，且可利用分類群檢索進行 GBIF 的程式化搜尋。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:30
 #, no-wrap
 msgid "Taxon Keys"
-msgstr ""
+msgstr "分類群檢索"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:37
 msgid "Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr ""
+msgstr "學名有時會令人感到混亂。若您是透過程式化方式，而非透過網站，來存取 GBIF 提供的資料，分類群檢索便能提供一種有效的途徑，讓您依據分類學來定義搜尋條件。分類群檢索發行於物種、屬、科、目、門及界等層級。 已接受的名稱會被分配唯一識別碼，而該名稱的同物異名亦會獲得相同的識別碼。因此，根據 GBIF 在資料集索引過程中提供的唯一分類群檢所來對物種進行排序，或許是合適的做法。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:38
 #, no-wrap
 msgid "New names"
-msgstr ""
+msgstr "新名稱"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/taxonomic-uncertainty.adoc:43
 msgid "There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described or is not within a checklist used by GBIF to construct its backbone.  These names are flagged with the TAXON_MATCH_HIGHERRANK flag, indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level, e.g., genus or family.  This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non-exact match."
-msgstr ""
+msgstr "在某些情況下，學名可能與 GBIF 骨幹資料庫中的任何名稱都不相符，這可能是因為該物種為新描述物種，或未收錄於 GBIF 用於建構其骨幹資料庫的物種清單中。 這些名稱會被標記為 TAXON_MATCH_HIGHERRANK ，表示該學名尚未被認可，但該資料點已在較高的分類層級，例如屬或科，上匹配成功。  此標記可用於識別和篩選這些資料。當名稱拼寫錯誤或格式不當，亦有 TAXON_MATCH_FUZZY 標記可用於識別和篩選那些僅能透過模糊、非精確匹配與分類學骨幹相符的名稱。"
 
