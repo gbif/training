@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-06-01 05:11\n"
+"POT-Creation-Date: 2026-06-01 21:54+0000\n"
+"PO-Revision-Date: 2026-08-03 05:09\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -27,17 +27,17 @@ msgstr "資料擷取"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:6
 msgid "In this module, you will learn about the concept of standards, in particular, the Darwin Core Standard and its components."
-msgstr ""
+msgstr "在本單元中，您將了解標準的概念，特別是達爾文核心標準及其組成要件。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:8
 msgid "You will also learn the types of primary biodiversity data and how to best share that information within GBIF."
-msgstr ""
+msgstr "您還將了解主要生物多樣性資料的類型，以及如何在 GBIF 內最有效地分享這些資訊。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:10
 msgid "Lastly, you will review principles of data quality in the context of data capture and will learn about data quality and coherence (especially on subjects such as georeferencing, dates, names and taxa cross-checking)."
-msgstr ""
+msgstr "最後，您將回顧資料獲取過程中的資料品質原則，並了解資料品質與一致性（特別是關於地理參照、日期、名稱及分類單元交叉核對等主題）。"
 
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:12
@@ -49,12 +49,12 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:18
 msgid "In this video (23:25), you will learn how you interact with standards every day.  Then you will be introduced to https://www.tdwg.org/[Biodiversity Information Standards^], including the https://www.tdwg.org/standards/dwc/[Darwin Core Standard^] with which you will continue to use throughout this course. Subtitles are not yet available for this video."
-msgstr ""
+msgstr "在這段影片（23:25）中，您將學習自己每天是如何與標準互動的。  接著，您將認識「生物多樣性資訊標準」https://www.tdwg.org/[Biodiversity Information Standards^]，其中包括「達爾文核心標準」https://www.tdwg.org/standards/dwc/[Darwin Core Standard^]，您在整個課程中都將持續使用此標準。 本影片目前尚未提供字幕。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:20
 msgid "If you are unable to watch the embedded video, you can xref:attachment$standards_and_darwin_core_v3-720p.mp4[download,opts=download] it locally. (MP4 - 71.5 MB)"
-msgstr ""
+msgstr "若您無法觀看嵌入的影片，可透過 xref:attachment$standards_and_darwin_core_v3-720p.mp4[download,opts=download] 將其下載至本機。（MP4 - 71.5 MB）"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:22
@@ -65,7 +65,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:417
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:17
 msgid "If you prefer to read, you will find the transcript below the embedded video."
-msgstr ""
+msgstr "如果您比較喜歡閱讀，可以在嵌入的影片下方找到文字稿。"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:27
@@ -365,399 +365,399 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:39
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:42
 #, no-wrap
 msgid "*Slide 1 - Standards and Darwin Core*\n"
-msgstr ""
+msgstr "*投影片 1 - 標準與達爾文核心*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:44
 msgid "In this presentation, we will introduce you to data standards as they relate to biodiversity data. In particular, we will focus on the Darwin Core standard."
-msgstr ""
+msgstr "在本簡報中，我們將向各位介紹與生物多樣性資料相關的資料標準。其中，我們將特別著重於達爾文核心集標準。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:45
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:48
 #, no-wrap
 msgid "*Slide 2 - Standards: Let's agree to agree*\n"
-msgstr ""
+msgstr "*投影片 2 - 標準：讓我們達成共識*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:50
 msgid "The engineer and industrialist W. Edwards Deming said:"
-msgstr ""
+msgstr "工程師同時也是實業家的 W. 愛德華茲·戴明曾說："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:52
 msgid "“Standardisation does not mean that we all wear the same colour and weave of cloth, eat standard sandwiches, or live in standard rooms with standard furnishing. Homes of infinite variety of design are built with a few types of bricks, and with lumber of standard sizes, and with water and heating pipes and fitting of standard dimensions.”"
-msgstr ""
+msgstr "「標準化並不意味著我們都得穿同樣顏色、同樣織法的布料，吃標準化的三明治，或是住在配備標準家具的標準房間裡。設計風格千變萬化的住宅，正是利用幾種磚塊、標準尺寸的木材，以及標準規格的水管、暖氣管和配件所建造而成的」。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:54
 msgid "What he was trying to say is that using standardization does not prevent us from being creative. He was also showing us that we already live with standards all around us."
-msgstr ""
+msgstr "他想表達的是，採用標準化並不妨礙我們發揮創意。他同時也向我們展示，我們的生活中其實早已處處充滿了各種標準。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:56
 msgid "As we move forward, we will define the term “Standard” and we’ll look at how we interact with standards every day. We will then introduce you to biodiversity information standards, including the Darwin Core Standard with which you will continue to use throughout this course."
-msgstr ""
+msgstr "接下來，我們將定義「標準」一詞，並探討我們在日常生活中如何與標準互動。隨後，我們將向各位介紹生物多樣性資訊標準，其中包括「達爾文核心標準」Darwin Core Standard，您在整個課程中都將持續使用此標準。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:57
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:60
 #, no-wrap
 msgid "*Slide 3 - What is a standard?*\n"
-msgstr ""
+msgstr "*投影片3 - 何謂標準？*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:62
 msgid "So what is a Standard?"
-msgstr ""
+msgstr "那麼，什麼是「標準」呢？"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:64
 msgid "At its simplest, it is:"
-msgstr ""
+msgstr "最簡單來說，就是："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:66
 msgid "“An agreed way of doing something.”"
-msgstr ""
+msgstr "「經雙方認可的做事方式」。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:68
 msgid "Standards are combinations of norms, conventions, specifications, requirements, restrictions, and rules."
-msgstr ""
+msgstr "標準是由規範、慣例、規格、要求、限制及規則所組合而成的。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:69
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:72
 #, no-wrap
 msgid "*Slide 4 - Everyday standards*\n"
-msgstr ""
+msgstr "*投影片4 — 日常標準*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:74
 msgid "The main purpose for standards is to create a framework of “mutual understanding”. They should provide clarity and help communication."
-msgstr ""
+msgstr "制定標準的主要目的，在於建立一個「相互理解」的框架。標準應能釐清概念，並促進溝通。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:76
 msgid "Examples of everyday things that we encounter which make use of standards to aid communication of information are:"
-msgstr ""
+msgstr "以下是我們日常生活中常見、並運用標準來協助資訊傳達的例子："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:78
 msgid "Units of Measurement"
-msgstr ""
+msgstr "度量單位"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:79
 msgid "Numeral Systems"
-msgstr ""
+msgstr "計數系統"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:80
 msgid "Alphabets"
-msgstr ""
+msgstr "字母"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:81
 msgid "Languages"
-msgstr ""
+msgstr "語言"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:82
 msgid "Emojis"
-msgstr ""
+msgstr "表情符號"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:83
 msgid "Postal Addressing"
-msgstr ""
+msgstr "郵寄地址"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:84
 msgid "Morse Code"
-msgstr ""
+msgstr "摩斯密碼"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:85
 msgid "Barcoding"
-msgstr ""
+msgstr "條碼"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:87
 msgid "Source: https://www.cencenelec.eu/research/tools/ImportanceENs/Pages/default.aspx"
-msgstr ""
+msgstr "來源：https://www.cencenelec.eu/research/tools/ImportanceENs/Pages/default.aspx"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:96
 msgid "Measurement Image by Arek Socha from Pixabay https://pixabay.com/photos/measurement-millimeter-centimeter-1476913/ Numerals Image by Clker-Free-Vector-Images from Pixabay https://pixabay.com/vectors/numerals-roman-number-blocks-35937/ Alphabet Image by https://en.wikipedia.org/wiki/Alphabet#/media/File:Historical_Writing_Systems_Template_Image.jpg Languages Image by Christopher Kuszajewski from Pixabay https://pixabay.com/photos/source-code-code-programming-c-583537/ Morse Code Image by https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg Mail Image by Image by OpenClipart-Vectors from Pixabay https://pixabay.com/vectors/airmail-mail-envelope-post-postal-145212/ Emojis Image by https://en.wikipedia.org/wiki/Emoticon#/media/File:Emoticon_Smile_Face.svg Barcoding Image by IBOL https://ibol.org/site/wp-content/uploads/2018/12/bookmark-vectors.png"
-msgstr ""
+msgstr "測量圖片由 Arek Socha 提供，來源：Pixabay https://pixabay.com/photos/measurement-millimeter-centimeter-1476913/ 數字圖片由 Clker-Free-Vector-Images 提供，來源：Pixabay https://pixabay.com/vectors/numerals-roman-number-blocks-35937/ 字母圖片由 https://en.wikipedia.org/wiki/Alphabet#/media/File 提供：Historical_Writing_Systems_Template_Image.jpg 語言圖片由  Christopher Kuszajewski  提供 ，來源：Pixabay https://pixabay.com/photos/source-code-code-programming-c-583537/ 摩斯密碼圖片由 https://en.wikipedia.org/wiki/Morse_code#/media/File 提供：International_Morse_Code.svg 郵件圖片由 OpenClipart-Vectors 提供，來源自 Pixabay https://pixabay.com/vectors/airmail-mail-envelope-post-postal-145212/ 表情符號圖片由 https://en.wikipedia.org/wiki/Emoticon#/media/File 提供：Emoticon_Smile_Face.svg 條碼圖片由 IBOL 提供 https://ibol.org/site/wp-content/uploads/2018/12/bookmark-vectors.png"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:97
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:100
 #, no-wrap
 msgid "*Slide 5 - Everyday standard - An example*\n"
-msgstr ""
+msgstr "*投影片 5 — 日常標準 — 範例*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:102
 msgid "Let’s take a very specific example and break it down. Here in order to communicate accurately and repeatedly a position on the earth – a latitude and longitude – is actually a combination of at least 8 standards."
-msgstr ""
+msgstr "讓我們以一個非常具體的例子來逐一剖析。在此，為了精確且反覆地傳達地球上的某個位置——即緯度和經度——實際上需要結合至少 8 項標準。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:111
 msgid "measurement - geographic coordinates format - degrees, minutes, seconds numeric system - sexagesimal numbers - Indo-Arabic language - English alphabet - Latin symbols - typography font - Roboto"
-msgstr ""
+msgstr "度量單位 - 地理座標格式 - 度、分、秒 數值系統 - 六十進位制 - 印阿數字 - 英文字母 - 拉丁字母 - 排版字型 - Roboto"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:112
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:115
 #, no-wrap
 msgid "*Slide 6 - Rules and restrictions*\n"
-msgstr ""
+msgstr "*投影片6 - 規則與限制*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:117
 msgid "Standards provide ways of constraining the array of possibilities. In the earlier Foundations presentations, you learned about types of data, schemas, formats and character encodings. Each of these can be used to constrain the array of possibilities within the terms of a Standard."
-msgstr ""
+msgstr "標準提供了限制各種可能性的方法。在先前的「基礎」系列簡報中，您已學會資料類型、資料結構、格式及字元編碼。這些都可以用來限制標準條款範圍內的各種可能性。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:119
 msgid "Types of data can restrict the values of a field. So alphanumeric text in a text field, decimals in a float. Yes/No in a Boolean."
-msgstr ""
+msgstr "資料類型會限制欄位的取值範圍。例如：文字欄位中只能輸入字母數字文字，浮點數欄位中只能輸入小數，布林欄位中則只能為「是」或「否」。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:121
 msgid "An encoding schema can restrict the range of values in a field. For example, the list of possible latitude values have a range: between -90 and 90."
-msgstr ""
+msgstr "編碼結構可以限制欄位中值的範圍。例如，緯度的可能值範圍介於 -90 至 90 之間。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:123
 msgid "A format can restrict the representation of a data in a field. For example, whether a data appears as year month day, or day month year, or month day year."
-msgstr ""
+msgstr "格式可以限制欄位中資料的呈現方式。例如，資料是以「年、月、日」、還是「日、月、年」、或是「月、日、年」的形式呈現。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:125
 msgid "And then, character encoding provides the rules for interpreting bytes of data. For our purposes, we’ll use UTF-8."
-msgstr ""
+msgstr "此外，字元編碼提供了解讀資料位元組的規則。就本例而言，我們將使用 UTF-8。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:127
 msgid "Photo: Eurema blanda (Boisduval, 1836) Observed in Nepal by Bird Explorers (http://creativecommons.org/licenses/by-nc/4.0/)"
-msgstr ""
+msgstr "照片：Eurema blanda （Boisduval, 1836） 由「鳥類探險家」 （http://creativecommons.org/licenses/by-nc/4.0/）在尼泊爾觀察到"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:128
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:131
 #, no-wrap
 msgid "*Slide 7 - Standards for data transfer*\n"
-msgstr ""
+msgstr "*投影片7 — 資料傳輸標準*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:133
 msgid "During this course, you will be learning how to share your data. As such, you will encounter standards for transferring data."
-msgstr ""
+msgstr "在本課程中，您將學習如何分享您的資料。因此，您將會接觸到資料傳輸的相關標準。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:135
 msgid "An application schema, allows for the combination of data standards for a specific purpose. For example, using Darwin Core terms within Darwin Core Archives. We’ll delve more into both in just a few moments."
-msgstr ""
+msgstr "應用結構可將針對特定目的制定的資料標準整合在一起。例如，在達爾文核心檔案庫中使用達爾文核心術語。我們稍後將更深入探討這兩者。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:137
 msgid "Again, you will make use of format, but this time the format restricts dataset structures. A dataset may make use of csv, xml, json and rdf."
-msgstr ""
+msgstr "同樣地，您將使用格式，但這次該格式會對資料集的結構有所限制。資料集可採用 csv、xml、json 及 rdf 格式。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:139
 msgid "And lastly, you will have a transfer protocol, which provides information on how and where to send information. These might include http (hypertext transfer protocol), ftp (file transfer protocol), and smtp (simple mail transfer protocol or if you like, send mail to people)."
-msgstr ""
+msgstr "最後，您將接觸到傳輸協定，它會說明該如何將資訊傳送至何處。這些協定可能包括 HTTP（超文本傳輸協定）、FTP（檔案傳輸協定）以及 SMTP（簡易郵件傳輸協定，或者說，用來向他人發送郵件）。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:142
 msgid "Image by Gerd Altmann from Pixabay https://pixabay.com/illustrations/web-network-computer-digital-5371553/"
-msgstr ""
+msgstr "圖片由 Gerd Altmann 提供，來源：Pixabay https://pixabay.com/illustrations/web-network-computer-digital-5371553/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:143
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:146
 #, no-wrap
 msgid "*Slide 8 - Biodiversity Information Standards*\n"
-msgstr ""
+msgstr "*投影片8 — 生物多樣性資訊標準*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:148
 msgid "In the domain of biodiversity informatics there are many standards already available that can help you work with your data. The USGS has a very specific definition of these:"
-msgstr ""
+msgstr "在生物多樣性資訊學領域中，已有許多現成的標準可供您處理資料時參考。美國地質調查局USGS對這些標準有非常具體的定義："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:150
 msgid "“Data standards are the rules by which data are described and recorded. In order to share, exchange, and understand data, we must standardize the format as well as the meaning."
-msgstr ""
+msgstr "「資料標準是描述和記錄資料的規則。為了能夠分享、交換和理解資料，我們必須將資料的格式與涵義進行標準化」。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:152
 msgid "The result of using these standards, where appropriate, is that you will increase data integrity, accuracy and consistency by clarifying ambiguous meaning and minimizing redundant data."
-msgstr ""
+msgstr "在適當的情況下採用這些標準，將有助於釐清含糊不清的含義並將冗餘資料減至最低，從而提高資料的完整性、準確性與一致性。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:154
 msgid "Those that you are likely to encounter or use on a regular basis may include:"
-msgstr ""
+msgstr "您可能經常遇到或使用的，可能包括："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:159
 msgid "Ecological Metadata Language Standard (EML)  Humboldt Ecological Inventory (Humboldt extension)  Global Genome Biodiversity Network(GGBN)  Ocean Data Standards and Best Practices Project (ODSBP)"
-msgstr ""
+msgstr "生態詮釋資料語言標準 (EML)、Humboldt生態清查（Humboldt擴充模組）  全球基因組生物多樣性網路（GGBN）  海洋資料標準與最佳實踐計畫（ODSBP）"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:161
 msgid "And last, but not least, we’ll spend the rest of this discussion on Darwin Core. The Darwin Core standard will allow you to share your occurrence, taxonomic, and event datasets."
-msgstr ""
+msgstr "最後，但同樣重要的是，我們將在接下來的討論中聚焦於 達爾文核心Darwin Core。達爾文核心標準將讓您能夠分享您的物種分布、分類及事件資料集。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:168
 msgid "References: EML - https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon - https://terms.tdwg.org/wiki/Audubon_Core GGBN - http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP - https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC - http://rs.tdwg.org/dwc/"
-msgstr ""
+msgstr "參考資料： EML - https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon - https://terms.tdwg.org/wiki/Audubon_Core GGBN - http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP - https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC - http://rs.tdwg.org/dwc/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:169
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:172
 #, no-wrap
 msgid "*Slide 9 - What is Darwin Core*\n"
-msgstr ""
+msgstr "*投影片9 - 何謂達爾文核心集*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:174
 msgid "Darwin Core is a biodiversity standard developed by the Biodiversity Informatics community. It was originally developed under the Taxonimic Databases Working Group or T D W G, pronounced TDWG. In recent years, the group has been renamed, Biodiversity Information Standards. But the acronym persists as the community is quite fond of the name TDWG."
-msgstr ""
+msgstr "達爾文核心集是由生物多樣性資訊學界所制定的生物多樣性標準。 該標準最初是由「分類學資料庫工作組」（Taxonomic Databases Working Group，簡稱 T D W G，發音為 TDWG）所制定。近年來，該工作組已更名為「生物多樣性資訊標準」（Biodiversity Information Standards），但由於社群對「TDWG」這個名稱情有獨鍾，因此該縮寫仍沿用至今。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:176
 msgid "“The standard includes a glossary of terms (in other contexts these might be called properties, elements, fields, columns, attributes, or concepts) intended to facilitate the sharing of information about biological diversity by providing identifiers, labels, and definitions. Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, samples, and related information.”"
-msgstr ""
+msgstr "「該標準包含一個術語表（在其他情境中，這些術語可能被稱為屬性、元素、欄位、欄、特徵或概念），旨在透過提供識別碼、標籤及定義，促進生物多樣性相關資訊的共享。 達爾文核心集以分類群為基礎，並依據觀測、標本、樣本及相關資訊所記錄的分類群在自然界中的分布出現情況。」"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:178
 msgid "So in short, Darwin Core is a"
-msgstr ""
+msgstr "總而言之，達爾文核心集是一種"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:180
 msgid "“List of fields and their definitions, as they relate to biodiversity data.”"
-msgstr ""
+msgstr "「與生物多樣性資料相關的欄位及其定義清單。」"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:181
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:184
 #, no-wrap
 msgid "*Slide 10 - Simple Darwin Core*\n"
-msgstr ""
+msgstr "*投影片 10 - 簡易達爾文核心集*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:186
 msgid "As we dive deeper into Darwin Core or as it is abbreviated, DwC, you’ll learn it is more than JUST a list of fields. We will use Simple Darwin Core which is a predefined subset of the terms that have common use across a wide variety of biodiversity applications."
-msgstr ""
+msgstr "隨著我們更深入探討達爾文核心集（Darwin Core，簡稱 DwC），您將會發現它不僅僅是一份欄位清單。我們將使用「簡易達爾文核心集」（Simple Darwin Core），這是預先定義的術語子集，廣泛使用於各類生物多樣性相關應用之中。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:188
 msgid "This subset contains greater than 150 fields, that are placed into a set of field classes comprised of:"
-msgstr ""
+msgstr "此子集包含超過 150 個欄位，這些欄位被歸入由以下內容組成的欄位類別集："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:199
 msgid "Record & Dataset Occurrence Organism Material Entity Material Sample Event Location Geological Context Identification Taxon"
-msgstr ""
+msgstr "紀錄與資料集　出現記錄　生物體　材料實體　材料樣本　事件　地點　地質背景　鑑定　分類單元"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:201
 msgid "Additionally, there are two auxiliary classes called:"
-msgstr ""
+msgstr "此外，還有兩個輔助類別，名為："
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:204
 msgid "ResourceRelationship MeasurementOrFact"
-msgstr ""
+msgstr "資源關係 測量或事實"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:206
 msgid "From the Simple Darwin Core User Guide, “Simple Darwin Core is simple in that it assumes (and allows) no structure beyond the concept of rows and columns, which might be thought of as attributes and their values, or fields and records.”"
-msgstr ""
+msgstr "摘自 Simple Darwin Core 使用者指南：「Simple Darwin Core 的簡單之處在於，它不假設（也不允許）任何超出『行』與『列』概念的結構，這些概念可被視為屬性及數值，或是欄位與記錄。」"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:208
 msgid "Photo: Macaca mulatta (Zimmermann, 1780) Observed in Nepal by Vladimir Tkalčić (http://creativecommons.org/licenses/by-nc/4.0/)"
-msgstr ""
+msgstr "照片：黑面獼猴（Macaca mulatta，Zimmermann，1780）由Vladimir Tkalčić（Vladimir Tkalčić，http://creativecommons.org/licenses/by-nc/4.0/）於尼泊爾觀察到"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:209
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:212
 #, no-wrap
 msgid "*Slide 11 - Darwin Core Quick Reference Guide*\n"
-msgstr ""
+msgstr "*投影片11 — 達爾文核心集快速參考指南*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:214
@@ -1523,7 +1523,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:546
-msgid "If you are unable to watch the embedded video, you can xref:attachment$data_capture,_processing_and_quality_v2-720p.mp4[download,opts=download] it locally. Subtitles are not yet available for this video. (MP4 - 42 MB)"
+msgid "If you are unable to watch the embedded video, you can xref:attachment$data_capture,_processing_and_quality_v3-720p.mp4[download,opts=download] it locally. Subtitles are not yet available for this video. (MP4 - 42 MB)"
 msgstr ""
 
 #. type: Target for macro image

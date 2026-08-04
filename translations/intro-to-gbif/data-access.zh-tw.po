@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-06-13 07:15\n"
+"PO-Revision-Date: 2026-08-04 10:54\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -67,21 +67,21 @@ msgstr "你可以在 xref:solutions.adoc[解答附錄] 中閱讀更多關於這�
 #: en/data-use/modules/ROOT/pages/course-review.adoc:12
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:130
 msgid "How can you access GBIF data?"
-msgstr ""
+msgstr "你要如何存取 GBIF 資料呢？"
 
 #.  Question 2
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:21
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:141
 msgid "Which file formats are available for downloads of data?"
-msgstr ""
+msgstr "資料下載支援哪些檔案格式？"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:69
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:152
 msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
-msgstr ""
+msgstr "GBIF 會對資料套用哪些標記，以提醒您注意資料品質？"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:78
@@ -93,69 +93,74 @@ msgid "- [x] altered\n"
 "- [x] excluded\n"
 "- [ ] interpreted\n"
 "- [x] inferred\n"
-msgstr ""
+msgstr "- [x] 修改\n"
+"- [ ] 修訂\n"
+"- [ ] 翻譯\n"
+"- [x] 排除\n"
+"- [ ] 詮釋\n"
+"- [x] 推論\n"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:10
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:7
 #, no-wrap
 msgid "How is GBIF-mediated data used?"
-msgstr ""
+msgstr "GBIF 所提供的資料是如何被運用的？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:16
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:13
 msgid "Both data availability and data use have increased over time."
-msgstr ""
+msgstr "隨著時間，資料的可取得性與使用率均有所提升。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:17
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:14
 msgid "Data integration facilitates global research and access."
-msgstr ""
+msgstr "資料整合有助於全球研究與資料存取。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:18
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:15
 msgid "Uses of GBIF-mediated data span disciplinary boundaries."
-msgstr ""
+msgstr "GBIF 所提供的資料應用範圍跨越了學科界限。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:19
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:16
 msgid "The scientific areas using GBIF-mediated data are conceptually diverse and change in prevalence over time."
-msgstr ""
+msgstr "各科學領域使用GBIF所提供之資料的概念各不相同，且其普及程度會隨時間而變化。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:20
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:17
 msgid "Globally integrated datasets enable researchers to ask both basic and applied questions at taxonomic, temporal and spatial scales that would be otherwise impossible."
-msgstr ""
+msgstr "全球整合的資料集使研究人員能夠在分類學、時間與空間層面上探討基礎與應用層面的問題，而若無此類資料集，這些研究將難以實現。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:21
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:18
 msgid "The synergistic roles of observation- and specimen-based biodiversity data highlight the value and need for deeper integration with phylogenetic, environmental, phenotypic, ecological and genetic sources of data."
-msgstr ""
+msgstr "基於觀察與標本的生物多樣性資料所展現的協同作用，凸顯了將這些資料與系統發生學、環境、表型、生態及遺傳等資料來源進行更深入整合的價值與必要性。"
 
 #. type: Block title
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:23
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:20
 #, no-wrap
 msgid "Structural topic model results from 4,035 studies that used GBIF-mediated data published between 2003 and 2019."
-msgstr ""
+msgstr "依據 2003 年至 2019 年間發表、使用 GBIF 提供的資料的 4,035 項研究所得出的結構性主題模型結果。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:28
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:25
 msgid "GBIF-mediated data is also used for monitoring the state of biodiversity and progress towards achieving the targets of the Convention on Biological Diversity.  The increase in availability of GBIF occurrence data is one of the indicators for tracking progress towards the achievement of Aichi Biodiversity target 19 and GBIF is a key data source in the creation of a number of other indicators, including the https://www.bipindicators.net/indicators/species-status-information-index[Species Status Information Index^], https://www.bipindicators.net/indicators/species-habitat-index[Species Habitat Index^] and the https://www.bipindicators.net/indicators/biodiversity-habitat-index[Biodiversity Habitat Index^]."
-msgstr ""
+msgstr "透過 GBIF 提供的資料，亦用於監測生物多樣性的現況，以及在實現生物多樣性公約目標方面的進展。  提升 GBIF 分布資料的可用性，是追蹤實現愛知生物多樣性目標 19 進展的指標之一；此外，GBIF 也是建立多項其他指標的關鍵資料來源，包括https://www.bipindicators.net/indicators/species-status-information-index[物種狀態資訊指數^]、 https://www.bipindicators.net/indicators/species-habitat-index[物種棲地指數^] 以及 https://www.bipindicators.net/indicators/biodiversity-habitat-index[生物多樣性棲地指數^]。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:31
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:28
 msgid "While the utility of GBIF-mediated data is clear, the wide variety of sources of data accessible through GBIF, spanning museum collections, citizen science, metagenomics, among others, means that not all GBIF-mediated data will be fit for every use.  Key components of using GBIF-mediated data are understanding how to access the specific data that you need from what is available in GBIF and understanding some of the common data quality issues that affect the data so as to facilitate processing of the data before analysis."
-msgstr ""
+msgstr "雖然透過 GBIF 提供的資料具有明確價值，但由於可透過 GBIF 存取的資料來源種類繁多，涵蓋博物館館藏、公民科學、總體基因學等領域，這意味著並非所有透過 GBIF 獲取的資料都適合每種用途。  使用 GBIF提供資料的關鍵在於：了解如何從 GBIF 現有資源中取得所需的特定資料，並掌握影響資料品質的常見問題，以便在分析前對資料進行預處理。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:40
