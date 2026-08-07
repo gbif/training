@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-08-07 02:30\n"
+"PO-Revision-Date: 2026-08-07 03:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -191,48 +191,48 @@ msgstr "您可取用的資料如下："
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:50
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:52
 msgid "Primary biodiversity data - occurrence, checklist and sampling event data that is provided to users through the one of the 3 download formats:"
-msgstr ""
+msgstr "基本生物多樣性資料，包括物種出現紀錄、物種清單及採樣活動資料，這些資料將透過以下3種下載格式之一提供給使用者："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:53
 #, no-wrap
 msgid "*Simple*: https://www.gbif.org/faq?question=csv-download[Tab delimited CSV^]. Only contains the data after GBIF interpretation. No multimedia included. \n"
-msgstr ""
+msgstr "*簡單版*：https://www.gbif.org/faq?question=csv-download[以制表符分隔的 CSV 檔案^]。僅包含經 GBIF 解析後的資料。不含多媒體內容。 \n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:52
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:54
 #, no-wrap
 msgid "*Darwin Core Archive*: The https://www.gbif.org/faq?question=dwc-download[Darwin Core Archive^] (DwC-A) contains both the original data as the publisher provided it and the GBIF interpretation. Links (but not files) to multimedia included.\n"
-msgstr ""
+msgstr "*達爾文核心檔案集*：https://www.gbif.org/faq?question=dwc-download[達爾文核心檔案集^]（DwC-A）同時包含發佈者提供的原始資料，以及 GBIF 的解析結果。其中包含多媒體內容的連結（但不包含檔案本身）。\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:53
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:55
 #, no-wrap
 msgid "*Species list*: Tab delimited CSV with the distinct list of names in the search result and as a map visualization of the data.\n"
-msgstr ""
+msgstr "*物種清單*：以制表符分隔的 CSV 檔案，其中包含搜尋結果中各物種名稱的獨特清單，並以地圖形式將資料視覺化呈現。\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:54
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:57
 #, no-wrap
 msgid "A range of metrics are provided for https://www.gbif.org/analytics/global[countries and regions^], data publishers, datasets and data searches that provide taxonomic breakdowns, trends in data collection and highlight data quality issues. For countries, these metrics can be also be downloaded in the form of a PDF activity report. \n"
-msgstr ""
+msgstr "我們提供一系列指標 https://www.gbif.org/analytics/global[國家和區域^]，涵蓋資料發布者、資料集和資料搜索，這些指標提供分類細項、資料收集趨勢並凸顯資料品質問題。對於各國，這些指標也可以 PDF 活動報告的形式下載"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:55
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:58
 #, no-wrap
 msgid "https://www.gbif.org/resource/search?contentType=literature&literatureType=journal&relevance=GBIF_USED&peerReview=true[Searchable database of publications^] that have used GBIF-mediated data.\n"
-msgstr ""
+msgstr "https://www.gbif.org/resource/search?contentType=literature&literatureType=journal&relevance=GBIF_USED&peerReview=true[可搜尋的文獻資料庫^]，收錄了曾使用 GBIF 提供之資料的出版物。\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:56
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:60
 msgid "Searches can be performed on the https://www.gbif.org/occurrence/search?occurrence_status=present&q=[occurrences^], https://www.gbif.org/species/search?q=[species^], https://www.gbif.org/dataset/search?q=[datasets^], https://www.gbif.org/publisher/search?q=[publishers] and https://www.gbif.org/resource/search?q=[resources^], and each search function carries a set of filters that allow for more refined searching and additional data associated with the data, for example, https://www.gbif.org/occurrence/gallery?occurrence_status=present[images^], can be found in tabs associated with the search."
-msgstr ""
+msgstr "可於 https://www.gbif.org/occurrence/search?occurrence_status=present&q=[出現紀錄^]、https://www.gbif.org/species/search?q=[物種^]、 https://www.gbif.org/dataset/search?q=[資料集^]、 https://www.gbif.org/publisher/search?q=[發布者] 以及 https://www.gbif.org/resource/search?q=[資源^] 進行搜尋，每個搜尋功能皆附有一組篩選器，可進行更精確的搜尋，並檢視與資料相關的附加資訊，例如， https://www.gbif.org/occurrence/gallery?occurrence_status=present[images^]，這些篩選條件皆可於搜尋相關的分頁中找到。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:1
