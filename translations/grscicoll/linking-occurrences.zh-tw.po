@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-08-12 08:20\n"
+"PO-Revision-Date: 2026-08-12 10:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -559,7 +559,7 @@ msgstr "| 與該出現記錄相關的資訊 | 與 GRSciColl 條目相關的資�
 "| ownerInstitutionCode | 擁有機構代碼及替代代碼\n"
 "| collectionID | 收藏識別碼、UUID 及 URL(s)\n"
 "| institutionID | 機構識別碼、UUID 及 URL(s)\n"
-"| 資料集索引 | 收藏與機構的出現紀錄對照\n"
+"| 資料集檢索 | 收藏與機構的出現紀錄對照\n"
 "| 發佈國家 | 地址中所列之收藏與機構所在國家\n"
 
 #. type: Block title
@@ -615,7 +615,7 @@ msgstr "grscicoll::module2-section3-Slide11.png"
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:103
 msgid "Any of the codes or alternatives codes of a collection or institution can be used in the collectionCode and institutionCode fields. However, several collections or institutions can have the same codes. This means that matches based on codes only are not always reliable. When two GRSciColl entries have the same code, the algorithm compares the occurrence publishing country with the GRSciColl entry countries to try disambiguating the match. This is why all the occurrences that are matched based on codes are flagged as “fuzzy” on GBIF."
-msgstr ""
+msgstr "在 collectionCode 和 institutionCode 欄位中，可使用任何館藏或機構的代碼或替代代碼。然而，多個館藏或機構可能擁有相同的代碼。這意味著僅基於代碼進行的比對未必總是可靠。 當兩個 GRSciColl 條目具有相同代碼時，演算法會將該出現紀錄的發布國家與 GRSciColl 條目中的國家進行比對，以嘗試消除匹配的差異。這就是為什麼在 GBIF 上，所有基於代碼匹配的出現紀錄資料都會被標記為「模糊」的原因。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:104
@@ -626,7 +626,7 @@ msgstr "grscicoll::module2-section3-Slide12.png"
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:107
 msgid "In order to ensure unambiguous matches, we recommend using identifiers to link occurrences to GRSciColl entries. Any identifier associated with a GRSciColl collection or institution can be used in the collectionID and institutionID fields."
-msgstr ""
+msgstr "為了確保匹配結果明確無誤，我們建議使用識別碼將出現紀錄資料與 GRSciColl 條目建立關聯。任何與 GRSciColl 館藏或機構相關聯的識別碼，皆可套用至 collectionID 及 institutionID 欄位中。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:108
@@ -637,30 +637,30 @@ msgstr "grscicoll::module2-section3-Slide13.png"
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:111
 msgid "In addition to that, the UUID or the URL of a GRSciColl collection or institution can also be used."
-msgstr ""
+msgstr "此外，亦可使用 GRSciColl 收藏或機構的 UUID 或 URL。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:113
 msgid "Currently, the recommended and most declarative way to link data to institutions or collection entities in GRSciColl is to use the full URL for the entity. For example, when using Darwin Core:"
-msgstr ""
+msgstr "目前在 GRSciColl 中將資料與機構或館藏實體建立關聯的建議做法，也是最具聲明性的方式，是使用該館藏實體的完整URL。例如，在使用 Darwin Core 時："
 
 #. type: delimited block -
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:115
 #, no-wrap
 msgid "`dwc:institutionID`: `https://scientific-collections.gbif.org/institution/e3d4dcc4-81e2-444c-8a5c-41d1044b5381`\n"
-msgstr ""
+msgstr "`dwc:institutionID`：`https://scientific-collections.gbif.org/institution/e3d4dcc4-81e2-444c-8a5c-41d1044b5381`\n"
 
 #. type: delimited block -
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:119
 #, no-wrap
 msgid "`dwc:collectionID`: `https://scientific-collections.gbif.org/collection/772f9e37-4643-452b-82b4-a06550283096`\n"
-msgstr ""
+msgstr "`dwc:collectionID`：`https://scientific-collections.gbif.org/collection/772f9e37-4643-452b-82b4-a06550283096`\n"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:122
 #, no-wrap
 msgid "*Explicit mapping with the GRSciColl API*\n"
-msgstr ""
+msgstr "*使用 GRSciColl API 進行明確對照*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:123
@@ -671,7 +671,7 @@ msgstr "grscicoll::module2-section3-Slide14.png"
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:127
 msgid "GRSciColl editors can use the https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[GRSciColl API] to create explicit mappings between GRSciColl collections and occurrences. A mapping can only be associated with a given GRSciColl entry and will be defined by a dataset key and a code used in the occurrence.  For example, a mapping can be added to an entomology collection to specify that all the occurrence records with the collection code “ENT” for a given dataset should be linked to that collection."
-msgstr ""
+msgstr "GRSciColl 編輯者可使用 https://techdocs.gbif.org/en/openapi/v1/registry#/Collections[GRSciColl API]，在 GRSciColl 館藏與物種出現記錄之間建立明確的對應關係。 每個對應關係僅能與特定的 GRSciColl 條目相關聯，並由資料集檢索及該出現記錄中所使用的代碼來定義。例如，可為昆蟲學館藏新增一項對應關係，以指定特定資料集中所有代碼為「ENT」的出現記錄，均應與該館藏集建立連結。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:128
@@ -682,52 +682,52 @@ msgstr "grscicoll::module2-section3-Slide15.png"
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:131
 msgid "https://github.com/ManonGros/Small-scripts-using-GBIF-API/blob/master/map_occ_to_grscicoll.ipynb[Here^] is an example in python of adding occurrence mapping to a GRSciColl entry (see also https://github.com/gbif/collection-mobilization/wiki/How-to-Link-Occurrences-records-or-datasets-to-GRSciColl-entries%3F-Or-vise-versa[this tutorial^])."
-msgstr ""
+msgstr "https://github.com/ManonGros/Small-scripts-using-GBIF-API/blob/master/map_occ_to_grscicoll.ipynb[此處^] 提供了一個 Python 範例，展示如何為 GRSciColl 條目新增出現紀錄資料對應（另請參閱 https://github.com/gbif/collection-mobilization/wiki/How-to-Link-Occurrences-records-or-datasets-to-GRSciColl-entries%3F-Or-vise-versa[本教學^])。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:133
 msgid "Occurrence explicit mapping can be particularly useful when trying to adjust the mapping of datasets published by third party systems like the https://www.gbif.org/publisher/ada9d123-ddb4-467d-8891-806ea8d94230[European Nucleotide Archive^] or https://www.gbif.org/publisher/7ce8aef0-9e92-11dc-8738-b8a03c50a862[PLAZI^]."
-msgstr ""
+msgstr "當嘗試調整由第三方系統，例如 https://www.gbif.org/publisher/ada9d123-ddb4-467d-8891-806ea8d94230[歐洲核苷酸檔案庫^] 或 https://www.gbif.org/publisher/7ce8aef0-9e92-11dc-8738-b8a03c50a862[PLAZI^] 等第三方系統所發布的資料集之對應關係時，出現紀錄資料明確對應，將特別有用處。"
 
 #.  Question 1
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:146
 msgid "Some collection content cannot be shared as occurrences on GBIF, for example meteorites."
-msgstr ""
+msgstr "某些館藏內容無法在 GBIF 上以出現紀錄資料形式分享，例如隕石。"
 
 #.  Question 2
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:155
 msgid "Only occurrences with the basis of record “preserved specimens” can be linked to GRSciColl entries."
-msgstr ""
+msgstr "僅有記錄依據為「保存標本」的出現紀錄資料，才能與 GRSciColl 條目建立關聯。"
 
 #.  Question 3
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:164
 msgid "Occurrences are matched to a live version of GRSciColl data."
-msgstr ""
+msgstr "這些出現記錄資料會與 GRSciColl 資料的即時版本進行比對。"
 
 #.  Question 4
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:173
 msgid "Occurrences shared on GBIF can be aggregated in dashboards on the GRSciColl website."
-msgstr ""
+msgstr "在 GBIF 上分享的出現記錄資料，可彙整至 GRSciColl 網站上的管理看板中。"
 
 #.  Question 5
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:182
 msgid "If two institutions based in the same country have the same code, “MMFG”, an occurrence with the value “MMFG” in the institutionCode field and no value in the institutionID field won’t be matched to any institution."
-msgstr ""
+msgstr "如果兩個位於同一國家的機構擁有相同的代碼「MMFG」，則在 institutionCode 欄位中值為「MMFG」、而 institutionID 欄位為空的記錄，將無法與任何機構進行配對。"
 
 #.  Question 6
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:191
 msgid "If you use the URL of a GRSciColl collection entry in the collectionID field of an occurrence, the occurrence will be matched to the relevant collection in GRSciColl."
-msgstr ""
+msgstr "若您在 collectionID 欄位中使用 GRSciColl 館藏條目的網址，該出現紀錄資料將會與 GRSciColl 中的相關館藏進行配對。"
 
 #.  Question 7
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:200
 msgid "If a GRSciColl **institution** is associated with the code “MMFG” and its collection is associated with the code “ENT”, you can use the code “MMFG” in the **collectionCode** field of an occurrence to match it to the **collection**."
-msgstr ""
+msgstr "若某個 GRSciColl **機構** 對應代碼「MMFG」，而其館藏對應代碼「ENT」，您可在條目的 **collectionCode** 欄位中使用代碼「MMFG」，以將該條目與該 **館藏** 進行配對。"
 
