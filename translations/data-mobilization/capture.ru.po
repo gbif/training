@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-08-16 16:03\n"
+"PO-Revision-Date: 2026-08-16 17:00\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -834,39 +834,39 @@ msgstr "*Слайд 14 — Термин DwC: occurrenceID*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:240
 msgid "The last term we will review is occurrenceID. When publishing occurrence records, GBIF requires an occurrenceID. An occurrenceID is an identifier for the occurrence itself, not the digital record of the occurrence. Recommended best practice is to use a globally unique identifier otherwise known as a GUID. In the absence of a GUID, a unique identifier can be comprised of other identifiers within the dataset. There are tools on the internet that can help you to generate GUIDs for your records. If you use this method, these GUIDs should become a permanent field within your source data identifying each record. For the practice done in this course, you will create an occurrenceID with a format similar to the third example here in the blue box."
-msgstr ""
+msgstr "Последним термином, который мы рассмотрим, является occurrenceID. При публикации записей о находках GBIF требует указания occurrenceID. OccurrenceID — это идентификатор самой находки, а не цифровой записи о ней. Рекомендуется использовать глобально уникальный идентификатор, также известный как GUID. При отсутствии GUID уникальный идентификатор может быть сформирован из других идентификаторов, содержащихся в наборе данных. В Интернете существуют инструменты, позволяющие генерировать GUID для ваших записей. Если вы используете этот способ, сгенерированные GUID следует добавить в исходные данные в качестве постоянного поля, однозначно идентифицирующего каждую запись. В практической части этого курса вы создадите occurrenceID в формате, аналогичном третьему примеру в синем поле."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:241
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:244
 #, no-wrap
 msgid "*Slide 15 - Darwin Core extensions*\n"
-msgstr ""
+msgstr "*Слайд 15 — Расширения Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:246
 msgid "In using Simple Darwin Core, you may discover that you have more data to share but you cannot find corresponding terms in DwC. This data could be image or sound files or perhaps you are responsible for a collection of vertebrates and you have extensive data compiled on the weights and size of the specimens. Or even detailed historical information on the identification of a taxon. When this occurs, you will look to Darwin Core extensions so that you can extend the base data by providing additional files that correspond to the base data. Extensions that would meet your needs in these three examples are:"
-msgstr ""
+msgstr "При использовании Simple Darwin Core вы можете обнаружить, что у вас есть дополнительные данные, которыми вы хотели бы поделиться, но не можете найти для них соответствующих терминов в DwC. Это могут быть изображения или звуковые файлы. Возможно, вы работаете с коллекцией позвоночных и располагаете подробными данными о массе и размерах экземпляров. Или у вас имеется детальная историческая информация об определении таксона. В таких случаях используются расширения Darwin Core, которые позволяют дополнить основные данные, добавив связанные с ними файлы с дополнительной информацией. Для трёх приведённых примеров подойдут следующие расширения:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:250
 msgid "Simple Multimedia Measurements or Facts Identification History"
-msgstr ""
+msgstr "Simple Multimedia Measurements или Facts Identification History"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:252
 msgid "There are many more extensions. GBIF maintains a list of all approved and draft extensions on its tools subsite."
-msgstr ""
+msgstr "Существует множество других расширений. GBIF поддерживает актуальный перечень всех утверждённых расширений и их проектов в разделе инструментов на своём сайте."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:255
 msgid "Photo: Aleuria aurantia (Pers.) Fuckel Observed in Nepal by Elizabeth Byers http://creativecommons.org/licenses/by-nc/4.0/"
-msgstr ""
+msgstr "Фото: Aleuria aurantia (Pers.) Fuckel. Сфотографировано в Непале Elizabeth Byers http://creativecommons.org/licenses/by-nc/4.0/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:256
@@ -926,18 +926,18 @@ msgstr "Более сложная структура данных может б�
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:278
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide18.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide18.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:281
 #, no-wrap
 msgid "*Slide 18 - Updates to DwC and moving to the Darwin Core Data Package (DwC-DP)*\n"
-msgstr ""
+msgstr "*Слайд 18 — Обновления DwC и переход на пакет данных Darwin Core (DwC-DP)*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:283
 msgid "So while Darwin Core Archives has been our preferred method of publishing since 2012, we are approaching a new model called a Darwin Core Data Package."
-msgstr ""
+msgstr "Таким образом, хотя с 2012 года предпочтительным способом публикации данных являются архивы Darwin Core для публикации, сейчас мы переходим к новой модели — пакету данных Darwin Core (Darwin Core Data Package)."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:285
