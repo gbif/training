@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-08-16 12:15\n"
+"PO-Revision-Date: 2026-08-16 16:03\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -763,73 +763,73 @@ msgstr "*Слайд 11 — Краткое руководство по Darwin Cor
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:214
 msgid "The DwC Quick Reference Guide will soon become your go to resource. This page provides a list of all currently recommended terms of the Darwin Core standard. Categories such as Occurrence or Event correspond to Darwin Core classes which group other terms."
-msgstr ""
+msgstr "Краткий справочник по DwC вскоре станет одним из ваших основных рабочих ресурсов. На этой странице представлен перечень всех рекомендуемых в настоящее время терминов стандарта Darwin Core. Такие категории, как Occurrence (находка) или Event (событие), соответствуют классам Darwin Core, объединяющим связанные с ними термины."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:215
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:218
 #, no-wrap
 msgid "*Slide 12 - DwC terms country and countryCode*\n"
-msgstr ""
+msgstr "*Слайд 12 — Термины DwC: «country» и «countryCode»*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:220
 msgid "We now will look at some examples of Darwin Core terms. The quick reference guide, consistently displays each term with the identifier name, definition, comments and examples. The first terms we’ll review are Country and CountryCode within the Location category."
-msgstr ""
+msgstr "Теперь рассмотрим несколько примеров терминов Darwin Core. В кратком справочнике для каждого термина приводятся его идентификатор, определение, комментарии и примеры. Сначала мы рассмотрим термины Country и CountryCode из категории Location."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:222
 msgid "Generally, data holders have a field for country within their source data. But often this data can be quite messy with misspellings, abbreviations, and historical names. However, it is one of the most easily standardized pieces of data. As noted in the comments, the recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. A controlled vocabulary places restriction on the values that should be used for that term."
-msgstr ""
+msgstr "Как правило, исходные данные содержат поле с названием страны. Однако значения в этом поле нередко бывают неоднородными: встречаются опечатки, сокращения и исторические названия. В то же время это один из элементов данных, который проще всего стандартизировать. Как указано в комментариях, рекомендуется использовать контролируемый словарь, например Getty Thesaurus of Geographic Names. Контролируемый словарь ограничивает набор значений, допустимых для данного термина."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:224
 msgid "CountryCode is a term that is generally not present in holder data. But again, it is another field that can easily be supplied with data due to the recommendation in the comments to use an ISO 3166-1-alpha-2 country code."
-msgstr ""
+msgstr "Поле CountryCode, как правило, отсутствует в исходных данных владельца. Однако его также легко заполнить, поскольку в комментариях рекомендуется использовать двухбуквенный код страны в соответствии со стандартом ISO 3166-1 alpha-2."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:226
 msgid "GBIF strongly recommends the sharing of CountryCode within occurrence datasets. Sharing of Country is also encouraged."
-msgstr ""
+msgstr "GBIF настоятельно рекомендует указывать код страны (CountryCode) в наборах данных о находках организмов. Также рекомендуется указывать страну."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:228
 msgid "You will learn more about the GBIF requirements and recommendations in later sessions."
-msgstr ""
+msgstr "Подробнее о требованиях и рекомендациях GBIF вы узнаете в следующих разделах курса."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:229
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:232
 #, no-wrap
 msgid "*Slide 13 - DwC terms basisOfRecord*\n"
-msgstr ""
+msgstr "*Слайд 13 — Термины DwC: basisOfRecord*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:234
 msgid "The next term is basisOfRecord. basisOfRecord defines the nature of each record in a dataset. BasisOfRecord follows a controlled vocabulary. You can choose from PreservedSpecimen, FossilSpecimen, LivingSpecimen, MaterialSample, Event, HumanObservation, MachineObservation, Taxon, or Occurrence. GBIF requires basisOfRecord with published occurrence datasets."
-msgstr ""
+msgstr "Он определяет характер каждой записи в наборе данных. Для basisOfRecord используется контролируемый словарь. Допустимые значения: PreservedSpecimen, FossilSpecimen, LivingSpecimen, MaterialSample, Event, HumanObservation, MachineObservation, Taxon или Occurrence. GBIF требует обязательного указания basisOfRecord при публикации наборов данных о находках организмов."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:235
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:238
 #, no-wrap
 msgid "*Slide 14 - DwC terms occurrenceID*\n"
-msgstr ""
+msgstr "*Слайд 14 — Термин DwC: occurrenceID*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:240
