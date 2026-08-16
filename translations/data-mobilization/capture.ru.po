@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-08-16 09:36\n"
+"PO-Revision-Date: 2026-08-16 11:04\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -657,81 +657,81 @@ msgstr "К стандартам, с которыми вы, скорее всег
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:159
 msgid "Ecological Metadata Language Standard (EML)  Humboldt Ecological Inventory (Humboldt extension)  Global Genome Biodiversity Network(GGBN)  Ocean Data Standards and Best Practices Project (ODSBP)"
-msgstr ""
+msgstr "Стандарт языка экологических метаданных (EML)  Экологический кадастр Гумбольдта (расширение Humboldt)  Глобальная сеть по биоразнообразию геномов (GGBN)  Проект по стандартам и передовым практикам в области океанических данных (ODSBP)"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:161
 msgid "And last, but not least, we’ll spend the rest of this discussion on Darwin Core. The Darwin Core standard will allow you to share your occurrence, taxonomic, and event datasets."
-msgstr ""
+msgstr "И, наконец, что не менее важно, оставшуюся часть этого раздела мы посвятим стандарту Darwin Core. Стандарт Darwin Core позволяет публиковать данные о находках организмов, таксономические данные и данные о событиях отбора проб."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:168
 msgid "References: EML - https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon - https://terms.tdwg.org/wiki/Audubon_Core GGBN - http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP - https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC - http://rs.tdwg.org/dwc/"
-msgstr ""
+msgstr "Ссылки: EML — https://knb.ecoinformatics.org/#external//emlparser/docs/index.html Audubon — https://terms.tdwg.org/wiki/Audubon_Core GGBN — http://wiki.ggbn.org/ggbn/GGBN_Data_Standard ODSBP — https://www.iode.org/index.php?option=com_content&view=article&id=369&Itemid=100083 DwC — http://rs.tdwg.org/dwc/"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:169
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:172
 #, no-wrap
 msgid "*Slide 9 - What is Darwin Core*\n"
-msgstr ""
+msgstr "*Слайд 9 — Что такое Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:174
 msgid "Darwin Core is a biodiversity standard developed by the Biodiversity Informatics community. It was originally developed under the Taxonimic Databases Working Group or T D W G, pronounced TDWG. In recent years, the group has been renamed, Biodiversity Information Standards. But the acronym persists as the community is quite fond of the name TDWG."
-msgstr ""
+msgstr "Darwin Core — это стандарт в области биоразнообразия, разработанный сообществом специалистов по информатике в сфере биоразнообразия. Первоначально он был разработан в рамках Рабочей группы по таксономическим базам данных (Taxonomic Databases Working Group, T D W G), произносимой как TDWG. В последние годы группа была переименована в «Стандарты информации о биоразнообразии» (Biodiversity Information Standards). Однако аббревиатура TDWG сохранилась, поскольку это название прочно закрепилось в сообществе."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:176
 msgid "“The standard includes a glossary of terms (in other contexts these might be called properties, elements, fields, columns, attributes, or concepts) intended to facilitate the sharing of information about biological diversity by providing identifiers, labels, and definitions. Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, samples, and related information.”"
-msgstr ""
+msgstr "«Стандарт включает глоссарий терминов (которые в других контекстах могут называться свойствами, элементами, полями, столбцами, атрибутами или понятиями), предназначенных для облегчения обмена информацией о биологическом разнообразии посредством предоставления идентификаторов, названий и определений. Darwin Core прежде всего ориентирован на таксоны, их нахождение в природе, документированное наблюдениями, экземплярами, пробами, а также на связанную с ними информацию»."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:178
 msgid "So in short, Darwin Core is a"
-msgstr ""
+msgstr "Короче говоря, Darwin Core — это"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:180
 msgid "“List of fields and their definitions, as they relate to biodiversity data.”"
-msgstr ""
+msgstr "«Перечень полей и их определений, относящихся к данным о биоразнообразии»."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:181
 #, no-wrap
 msgid "data-mobilization::capture-standards-dwc-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-standards-dwc-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:184
 #, no-wrap
 msgid "*Slide 10 - Simple Darwin Core*\n"
-msgstr ""
+msgstr "*Слайд 10 — Простой формат Darwin Core*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:186
 msgid "As we dive deeper into Darwin Core or as it is abbreviated, DwC, you’ll learn it is more than JUST a list of fields. We will use Simple Darwin Core which is a predefined subset of the terms that have common use across a wide variety of biodiversity applications."
-msgstr ""
+msgstr "По мере более подробного знакомства с Darwin Core, или сокращенно DwC, вы увидите, что это не ПРОСТО список полей. Мы будем использовать Simple Darwin Core — заранее определённый набор терминов, широко применяемых в самых разных областях работы с данными о биоразнообразии."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:188
 msgid "This subset contains greater than 150 fields, that are placed into a set of field classes comprised of:"
-msgstr ""
+msgstr "Данное подмножество включает более 150 полей, объединённых в следующие классы:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:199
 msgid "Record & Dataset Occurrence Organism Material Entity Material Sample Event Location Geological Context Identification Taxon"
-msgstr ""
+msgstr "Запись и набор данных; Встречаемость; Организм; Материал; Объект; Образец; Событие; Местонахождение; Геологический контекст; Идентификация; Таксон"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:201
 msgid "Additionally, there are two auxiliary classes called:"
-msgstr ""
+msgstr "Кроме того, существуют два вспомогательных класса с названиями:"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:204
