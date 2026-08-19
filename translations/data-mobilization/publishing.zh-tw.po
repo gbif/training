@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-08-19 05:39\n"
+"PO-Revision-Date: 2026-08-19 07:31\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -745,152 +745,152 @@ msgstr "現在正是檢視 GBIF 所要求的所有必填欄位的時間點。若
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:154
 msgid "Each core has its own set of required and recommended fields for the dataset and for the associated dataset metadata. As you now know, metadata is the data about your data and it enables users to know if your dataset will be fit for their use."
-msgstr ""
+msgstr "每個核心集針對資料集及其相關的資料集詮釋資料，都有自己的一套必填與建議填寫欄位。正如您所知，詮釋資料就是關於您資料的資料，它能讓使用者了解您的資料集是否適合他們的用途。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:156
 msgid "Don’t stop at the required and recommended fields. The more data you are able to share, the more useful your dataset can be to end users."
-msgstr ""
+msgstr "不要僅停止於必填和建議填寫的欄位。您能分享的資料越多，您的資料集對終端使用者就越有幫助。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:158
 msgid "You can find the data quality requirments on the GBIF website."
-msgstr ""
+msgstr "您可以在 GBIF 網站上找到資料品質要求。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:159
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:162
 #, no-wrap
 msgid "*Slide 11 - Extensions in the IPT*\n"
-msgstr ""
+msgstr "*投影片11 — IPT 中的擴充功能*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:164
 msgid "Extensions were introduced in the Standards presentation. Publishing a dataset is now where you will put them into use. As mentioned previously, GBIF maintains the list of approved and draft extensions on its tools subsite. The approved extensions can be enabled by an IPT administrator on a Production IPT. Draft extensions can be enabled by an IPT administrator on a Test IPT. If you know you have data that cannot be shared with Simple Darwin Core, it is worth reviewing the list of available extensions."
-msgstr ""
+msgstr "在「資料標準」簡報中已介紹了擴充功能。現在，您將在發佈資料集的過程中實際運用這些擴充功能。如前所述，GBIF 在其工具子網站上維護已核准與草案階段的擴充功能清單。 已核准的擴充功能可由 IPT 管理員在生產模式的 IPT 上啟用；草案階段的擴充功能則可由 IPT 管理員在測試環境的 IPT 上啟用。若您確定手邊有無法透過 Simple Darwin Core 共享的資料，建議您檢視可用的擴充功能清單。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:166
 msgid "If you think an extension doesn’t exist, try reaching out to members of the TDWG community or posting on the Darwin Core issues site. Community members will help guide you."
-msgstr ""
+msgstr "如果您認為某個擴充功能並不存在，可試著聯繫 TDWG 社群的成員，或在 Darwin Core 問題追蹤系統上發文。社群成員將會提供指引。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:167
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:170
 #, no-wrap
 msgid "*Slide 12 - Darwin Core Archive with extensions*\n"
-msgstr ""
+msgstr "*投影片12 — 帶有延伸集的達爾文檔案庫*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:172
 msgid "Also, in the standards presentation, you were introduced to Darwin Core Archives. In the near future we will begin preparing the community to consider or otherwise adopt the Darwin Core Data Package, but for now we will continue with Darwin Core Archives."
-msgstr ""
+msgstr "此外，在標準簡報中，我們已向各位介紹了「達爾文核心檔案庫」（Darwin Core Archives）。在不久的將來，我們將開始引導社群考慮或採納「達爾文核心資料套件」（Darwin Core Data Package），但目前我們仍將繼續使用「達爾文核心檔案庫」。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:174
 msgid "This is an example of a Darwin Core archive with extensions."
-msgstr ""
+msgstr "這是包含延伸集的達爾文核心（Darwin Core）檔案範例。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:176
 msgid "It’s an occurrence dataset that has been published with images, determination history and genebank information."
-msgstr ""
+msgstr "這是一組已發布的出現紀錄資料集，其中包含圖片、鑑定紀錄及基因庫資訊。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:177
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:180
 #, no-wrap
 msgid "*Slide 13 - A core and extension relationship*\n"
-msgstr ""
+msgstr "*投影片13 — 核心與延伸集的關係*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:182
 msgid "Until now, it may have been difficult to imagine how two single files can be related. A core with an extension can represent the following relationships."
-msgstr ""
+msgstr "直到現在，大家可能還很難想像兩個獨立的檔案之間究竟有何關聯。帶有延伸集的核心可以呈現以下幾種關係。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:184
 msgid "1:0"
-msgstr ""
+msgstr "1:0"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:185
 msgid "1:1"
-msgstr ""
+msgstr "1:1"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:186
 msgid "1:many"
-msgstr ""
+msgstr "1：多"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:188
 msgid "The core file will always contain unique records. In this example using the Taxon Core, each taxon is unique and is represented by a taxonID. In Vernacular Names extension file, each vernacular name is unique. The first three represent common names for the species Struthio camelus (1:many relationship). The fourth name represents the common name for the species Alectoris chukar (1:1 relationship)."
-msgstr ""
+msgstr "核心檔案中皆會包含唯一的記錄。在此使用「分類群核心（Taxon Core）」的範例中，每個分類群皆為唯一，並由一個 taxonID 表示。在「俗名延伸集檔案」中，每個俗名皆為唯一。前三個代表物種 Struthio camelus 的常見名稱（1:多關係）。 第四個名稱代表物種 Alectoris chukar 的俗名（1:1 關係）。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:190
 msgid "In this example the third and fourth taxons in the core file, do not have a match in the extension file. (1:0 relationship)."
-msgstr ""
+msgstr "在此範例中，核心檔案中的第三個和第四個分類群在延伸檔案中沒有對應項。（1:0 的關係）。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:191
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide14.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:194
 #, no-wrap
 msgid "*Slide 14 - Registering as a data publisher with GBIF*\n"
-msgstr ""
+msgstr "*投影片14 — 向 GBIF 註冊成為資料發布者*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:196
 msgid "As we finish up this presentation, we’d like like to discuss registering as a data publisher at GBIF.  The steps for registering were covered in the https://training.gbif.org/en/intro-to-gbif/data-publishing#how-to-become-a-data-publisher[Introduction to GBIF course^]."
-msgstr ""
+msgstr "在本次課程簡報即將結束之際，我們想討論如何在 GBIF 註冊成為資料發布者。  註冊的步驟已在 https://training.gbif.org/en/intro-to-gbif/data-publishing#how-to-become-a-data-publisher[GBIF 簡介入門課程^] 中說明。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:198
 msgid "Data holding institutions are listed as the data publisher when their data is shared with GBIF.  This allows users to properly provide credit and attribution for the data/datasets that they intend to use for research. And once users begin to site the dataset, the publishers page on GBIF.org will link back to literature citing the dataset."
-msgstr ""
+msgstr "當資料持有機構將其資料分享至 GBIF 時，該機構會被列為資料發布者。此方式可讓使用者針對其擬用於研究的資料／資料集，正確地標示來源與版權。一旦使用者開始引用該資料集，GBIF.org 上的發布者頁面便會連結至引用該資料集的文獻。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:199
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide15.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide15.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:202
 #, no-wrap
 msgid "*Slide 15 - Aims of the publisher endorsement process*\n"
-msgstr ""
+msgstr "*投影片15 — 發布者認可流程的目標*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:204
 msgid "Before GBIF indexes a new publisher's datasets, the institution must receive endorsement as a data publisher from one of the Participant nodes that coordinate activities of the national and organizational Participants in the GBIF network. If your country is not yet a participant, GBIF will coordinate the endorsement request through the GBIF Nodes Steering Group (NSG)."
-msgstr ""
+msgstr "在GBIF將新發布者的資料集納入索引之前，該機構必須獲得GBIF網路中負責協調各國和各組織參與者活動的參與節點之一的認可，方可成為資料發布機構。如果您的國家尚未成為參與者，GBIF將透過GBIF節點指導小組（NSG）協調認可申請。"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:206
 msgid "It is important to complete this step early in the publishing process as it could take up to a month for your publisher record to be endorsed by a Participant Node or the Nodes Steering Group."
-msgstr ""
+msgstr "在資料發布流程的早期階段完成此步驟至關重要，因為您的發布者紀錄可能需要長達一個月的時間，才能獲得參與節點或節點指導小組的核可。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:208
@@ -907,7 +907,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:211
 msgid "Arrangements for data hosting are stable and persistent"
-msgstr ""
+msgstr "資料託管的安排是穩定且持續"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:212
@@ -918,7 +918,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:213
 msgid "Data are as open as possible and available for sharing and reuse"
-msgstr ""
+msgstr "資料盡可能保持開放，並可供分享與重複使用"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
@@ -929,35 +929,35 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:216
 msgid "Once a publisher receives endorsement, they can begin registering their published datasets with GBIF.  You’ll hear more about this during the IPT demonstration."
-msgstr ""
+msgstr "一旦發布者獲得認可，即可開始將其已發佈的資料集向 GBIF 進行註冊。您將在 IPT 示範中了解更多。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:217
 #, no-wrap
 msgid "data-mobilization::publishing-concepts-Slide16.png"
-msgstr ""
+msgstr "data-mobilization::publishing-concepts-Slide16.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:220
 #, no-wrap
 msgid "*Slide 16 - Conclusion*\n"
-msgstr ""
+msgstr "*投影片 16 - 結論*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:224
 msgid "This presentation is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sophie Pamerlon with additional contributions by Nicolas Noe, Laura Anne Russell and Dag Endresen, BID and BIFA Trainers, Mentors and students. Narration is by me, Melissa Liu."
-msgstr ""
+msgstr "本課程簡報是 GBIF「生物多樣性資料流通」課程中一系列簡報的一部分。該生物多樣性資料流通課程最初是作為歐盟資助的「生物多樣性資訊發展計畫」的一部分所開發的。    本簡報最初由 Sophie Pamerlon 製作，並由 BID 及 BIFA 的培訓師、導師及學員 Nicolas Noe、Laura Anne Russell 和 Dag Endresen 共同貢獻內容。旁白由我，Melissa Liu 擔任。"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:228
 #, no-wrap
 msgid "IPT overview and demonstration"
-msgstr ""
+msgstr "IPT 回顧與示範"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:233
 msgid "During this demonstration, you will receive an overview of the IPT data publishing interface and you will learn how to publish an occurrence dataset using an IPT."
-msgstr ""
+msgstr "在這場示範中，您將了解 IPT 資料發佈介面的整體概況，並學習如何使用 IPT 發佈出現紀錄資料集。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
