@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-08-19 08:50\n"
+"PO-Revision-Date: 2026-08-26 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1217,178 +1217,178 @@ msgstr "Этот тип набора данных предназначен дл�
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:426
 msgid "The last type is Sampling-event data."
-msgstr ""
+msgstr "Последний тип — данные о событиях отбора проб."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:428
 msgid "This type allows you to share even more data. You can share species with dates, coordinates, methods, abundance and even absence."
-msgstr ""
+msgstr "Этот тип позволяет публиковать ещё больше информации. Вы можете предоставлять данные о видах, включая даты, координаты, методы сбора, численность и даже данные об отсутствии видов."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:430
 msgid "We will now further explore the checklist, occurrence and sampling-event dataset types."
-msgstr ""
+msgstr "Теперь мы подробнее рассмотрим таксономические списки, наборы данных о находках организмов и наборы данных о событиях отбора проб."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:431
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:434
 #, no-wrap
 msgid "*Slide 3 - Checklist data*\n"
-msgstr ""
+msgstr "*Слайд 3 — Данные таксономических списков*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:436
 msgid "Checklist datasets provide a catalogue or list of named organisms, or taxa. While they may include additional details like local species names or specimen citations, these ‘checklists’ typically categorize information along taxonomic, geographic, and thematic lines, or some combination of the three. For example, a dataset that catalogues the Red Listed molluscs of Seychelles has distinct elements of taxonomy (the phylum Mollusca), geography (the island nation of Seychelles) and theme (species deemed imperiled by IUCN experts). Checklists function as a rapid summary or baseline inventory of taxa in a given context."
-msgstr ""
+msgstr "Наборы данных таксономических списков представляют собой каталог или перечень названий организмов или таксонов. Они могут включать дополнительную информацию, например местные названия видов или ссылки на экземпляры, однако такие списки обычно систематизируют информацию по таксономическому, географическому и тематическому признакам или по их сочетанию. Например, набор данных, содержащий перечень моллюсков Сейшельских островов, включённых в Красный список, сочетает в себе отдельные элементы таксономии (тип Mollusca), географии (островное государство Сейшельские Острова) и тематики (виды, которые эксперты IUCN считают находящимися под угрозой). Таксономические списки служат для быстрого обобщения информации или составления базового перечня таксонов в определённом контексте."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:437
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:440
 #, no-wrap
 msgid "*Slide 4 - GBIF template for taxon data*\n"
-msgstr ""
+msgstr "*Слайд 4 — Шаблон GBIF для данных о таксонах*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:442
 msgid "GBIF provides data publishers with templates for each class of dataset. The GBIF template for taxon data allows you to share information linked to each species or taxa including the taxon id, full name and authorship, relationship to other taxa, geographical details and so on. In this template, one line represents one taxon and a taxon can only appear once in the dataset."
-msgstr ""
+msgstr "GBIF предоставляет издателям данных шаблоны для каждого типа наборов данных. Шаблон GBIF для таксономических данных позволяет публиковать информацию, связанную с каждым видом или таксоном, включая идентификатор таксона, полное название и авторство, связи с другими таксонами, географическую информацию и т. д. В этом шаблоне каждая строка соответствует одному таксону, и каждый таксон может встречаться в наборе данных только один раз."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:443
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:446
 #, no-wrap
 msgid "*Slide 5 - Occurrence data*\n"
-msgstr ""
+msgstr "*Слайд 5 — Данные о находках организмов*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:448
 msgid "Other datasets published through GBIF.org have sufficiently consistent detail to contribute information about the location of individual organisms in time and space—that is, they offer evidence of the occurrence of a species (or other taxon) at a particular place on a specified date."
-msgstr ""
+msgstr "Другие наборы данных, публикуемые через GBIF.org, содержат достаточно подробную и согласованную информацию, чтобы предоставлять сведения о местонахождении отдельных организмов во времени и пространстве. Иными словами, они подтверждают присутствие вида (или другого таксона) в определённом месте в определённую дату."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:450
 msgid "Occurrence datasets make up the core of data published through GBIF.org, and examples can range from specimens and fossils in natural history collections, observations by field researchers and citizen scientists, and data gathered from camera traps or remote-sensing satellites."
-msgstr ""
+msgstr "Наборы данных о находках организмов составляют основную часть данных, публикуемых через GBIF.org. Они могут включать данные об экземплярах и ископаемых остатках из естественно-научных коллекций, наблюдения полевых исследователей и ученых-любителей, а также данные, полученные с помощью фотоловушек или спутников дистанционного зондирования."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:452
 msgid "Occurrence records in these datasets sometimes provide only general locality information, sometimes simply identifying the country, but in many cases more precise locations and geographic coordinates support fine-scale analysis and mapping of species distributions."
-msgstr ""
+msgstr "Записи о находках в таких наборах данных иногда содержат лишь общую информацию о местонахождении, например только название страны. Однако во многих случаях более точные сведения о местонахождении и географические координаты позволяют проводить детальный анализ и картирование распространения видов."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:454
 msgid "https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file[Camera trap image]"
-msgstr ""
+msgstr "https://multimedia.agouti.eu/assets/6d65f3e4-4770-407b-b2bf-878983bf9872/file [Снимок с фотоловушки]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:455
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:458
 #, no-wrap
 msgid "*Slide 6 - Occurences from literature*\n"
-msgstr ""
+msgstr "*Слайд 6 — Данные о находках из литературных источников*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:460
 msgid "Biodiversity data can also be found in technical and scientific literature : it is possible to compile and share this kind of data within GBIF, but you should be extra-cautious not to share duplicate data (for example, a specimen described in a scientific article might already be present on GBIF.org in the dataset of its collection)"
-msgstr ""
+msgstr "Данные о биоразнообразии также можно найти в технической и научной литературе. Такие данные можно собирать и публиковать через GBIF, однако при этом следует особенно внимательно следить за тем, чтобы не публиковать дублирующиеся данные. Например, экземпляр, описанный в научной статье, уже может быть представлен на GBIF.org в наборе данных соответствующей коллекции."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:462
 msgid "In the absence of digitized datasets, biodiversity data can be extracted and compiled from scientific articles, phD or master theses, reports and other documents. ALWAYS contact the data owner first when compiling literature data to ask for permission to publish them to GBIF."
-msgstr ""
+msgstr "При отсутствии оцифрованных наборов данных сведения о биоразнообразии можно извлекать и собирать из научных статей, докторских и магистерских диссертаций, отчётов и других документов. При сборе данных из литературных источников ВСЕГДА сначала связывайтесь с владельцем данных, чтобы получить разрешение на их публикацию в GBIF."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:463
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:466
 #, no-wrap
 msgid "*Slide 7 - GBIF template for occurrence data*\n"
-msgstr ""
+msgstr "*Слайд 7 — Шаблон GBIF для данных о находках организмов*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:468
 msgid "Occurrence data represents the GBIF class of datasets with the largest number of records on GBIF.org. Collections, observations and literature data can be shared within GBIF using this template, which focuses on the observed individuals or collected specimens. In this kind of dataset, multiple individuals or specimens can be recorded for a single taxon, as long as they each have a unique identifier. Other fields for occurrence data include where, when, how and by whom was each occurrence observed and/or collected in the field."
-msgstr ""
+msgstr "Данные о находках организмов представляют собой тип наборов данных с наибольшим количеством записей на GBIF.org. С помощью этого шаблона в GBIF можно публиковать данные из коллекций, наблюдений и литературных источников, при этом основное внимание уделяется наблюдаемым особям или собранным экземплярам. В данном наборе данных для одного таксона может быть зарегистрировано несколько особей или экземпляров при условии, что каждый из них имеет уникальный идентификатор. Другие поля данных о находках содержат информацию о том, где, когда, каким образом и кем каждая находка была зарегистрирована и/или собрана в полевых условиях."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:469
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:472
 #, no-wrap
 msgid "*Slide 8 - Sampling-event data*\n"
-msgstr ""
+msgstr "*Слайд 8 — Данные о событиях отбора проб*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:474
 msgid "Datasets sometimes provide greater detail, not only offering evidence that a species occurred at a given location and date, but also making it possible to assess community composition for broader taxonomic groups or even the abundance of species at multiple times and places. These quantitative or sampling-event datasets typically derive from standard protocols for measuring and monitoring biodiversity like vegetation transects, bird censuses and freshwater or marine sampling."
-msgstr ""
+msgstr "Некоторые наборы данных содержат более подробную информацию, не только подтверждая присутствие вида в определённом месте и в определённую дату, но и позволяя оценивать состав сообществ для более широких таксономических групп или даже численность видов в разные периоды времени и в разных местах. Такие количественные наборы данных, или наборы данных о событиях отбора проб, обычно получают с использованием стандартных протоколов изучения и мониторинга биоразнообразия, таких как растительные трансекты, учёты птиц и отбор проб в пресноводных или морских экосистемах."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:476
 msgid "By indicating the methods, events and relative abundance of species recorded in a sample, these datasets improve comparisons with data collected using the same protocols at different times and places—in some cases, even leading researchers to infer the absence of particular species from particular sites."
-msgstr ""
+msgstr "Указывая методы, события отбора проб и относительную численность видов, зарегистрированных в пробе, такие наборы данных позволяют лучше сравнивать данные, собранные с использованием одних и тех же протоколов в разное время и в разных местах. В некоторых случаях это даже позволяет исследователям делать вывод об отсутствии определённых видов в конкретных местах."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:479
 msgid "https://www.usgs.gov/media/images/sampling-permanent-vegetation-transects[Vegetation transect – USGS] https://www.gbif.us/post/2024/marine-published/[Intertidal survey]"
-msgstr ""
+msgstr "https://www.usgs.gov/media/images/sampling-permanent-vegetation-transects [Трансект растительности — USGS] https://www.gbif.us/post/2024/marine-published/ [Исследование приливной зоны]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:480
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:483
 #, no-wrap
 msgid "*Slide 9 - GBIF template for sampling-event data*\n"
-msgstr ""
+msgstr "*Слайд 9 - Шаблон GBIF для данных о событиях отбора проб*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:485
 msgid "The GBIF template for Event data allows data publishers to share more information about the context of a biodiversity data collecting/recording event such as camera traps, insect traps, botanical relevés, birding sites and so on. Its structure is a more complex than the Taxonomical datasets and Occurrence datasets as it involves at least two files (e.g., two tabs in a spreadsheet) : one for describing the ‘events’ (e.g. each trap) and the other one to describe the specimens or occurrences linked to each event. There may be additional files/tabs to describe measurements or facts or to supply more details regarding sampling protocols."
-msgstr ""
+msgstr "Шаблон GBIF для данных о событиях позволяет издателям данных предоставлять больше информации о контексте событий сбора или регистрации данных о биоразнообразии, таких как использование фотоловушек, ловушек для насекомых, выполнение геоботанических описаний, учётов птиц и т. д. Его структура несколько сложнее, чем структура таксономических наборов данных и наборов данных о находках организмов, поскольку включает как минимум два файла (например, две вкладки в электронной таблице): один для описания событий (например, каждой ловушки), а другой — для описания экземпляров или находок организмов, связанных с каждым событием. Также могут использоваться дополнительные файлы или вкладки для описания измерений или фактов либо для предоставления более подробной информации о протоколах отбора проб."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:486
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:489
 #, no-wrap
 msgid "*Slide 10 - Dataset types and data quality requirements*\n"
-msgstr ""
+msgstr "*Слайд 10 — Типы наборов данных и требования к качеству данных*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:491
