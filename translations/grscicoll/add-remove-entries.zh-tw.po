@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-02-13 09:20+0000\n"
-"PO-Revision-Date: 2026-04-11 16:29\n"
+"PO-Revision-Date: 2026-08-26 04:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -21,148 +21,148 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:1
 #, no-wrap
 msgid "Add, remove, merge and transform entries"
-msgstr ""
+msgstr "新增、刪除、合併及轉換條目"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:5
 msgid "All the instructions below will be for working in the GRSciColl part of the https://registry.gbif.org/[GBIF Registry^]. If you don’t have a login or permissions to add, delete, merge and transform entries, you can do so by using the suggestion system."
-msgstr ""
+msgstr "以下所有說明皆適用於在「https://registry.gbif.org/[GBIF Registry^]」的 GRSciColl 部分進行操作。若您尚未擁有登入帳號，或無權限新增、刪除、合併及轉換資料條目，可透過建議系統進行相關操作。"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:6
 #, no-wrap
 msgid "Create entries"
-msgstr ""
+msgstr "建立條目"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:9
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:18
 msgid "To create a new institution go to the https://registry.gbif.org/institution/search[GRSciColl institution tab^], to create a new collection, go to the https://registry.gbif.org/collection/search[GRSciColl collection tab^]."
-msgstr ""
+msgstr "若要建立新的機構，請前往 https://registry.gbif.org/institution/search[GRSciColl 機構分頁^]；若要建立新的收藏，請前往 https://registry.gbif.org/collection/search[GRSciColl 收藏分頁^]。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:10
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:19
 msgid "Click on the “create new” button in the upper right corner."
-msgstr ""
+msgstr "點擊右上角的「建立新項目」按鈕。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:11
 msgid "Fill out the information: only names and codes are mandatory but we strongly recommend to fill in at least one address and country."
-msgstr ""
+msgstr "請填寫相關資訊：必填資訊為姓名和代碼，但我們強烈建議您至少填寫一項地址及國家。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:12
 msgid "Click on the create button."
-msgstr ""
+msgstr "點擊「建立」按鈕。"
 
 #. type: Title ===
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:13
 #, no-wrap
 msgid "Create entries directly from GBIF dataset or publisher"
-msgstr ""
+msgstr "直接從 GBIF 資料集或發佈者建立條目"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:16
 msgid "If you are a GRSciColl editor with the *relevant permissions*, you can create new entries from GBIF datasets or publishers."
-msgstr ""
+msgstr "如果您是具備 *相關權限* 的 GRSciColl 編輯者，即可從 GBIF 資料集或發佈者處建立新條目。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:20
 msgid "Click on the “create from source” button in the upper right corner."
-msgstr ""
+msgstr "點擊右上角的「從來源建立」按鈕。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:21
 msgid "Look for the GBIF dataset (if you are creating a collection) or the publisher (if you are creating an institution) that you would like to use."
-msgstr ""
+msgstr "尋找您想使用的 GBIF 資料集（若您正在建立收藏）或發布者（若您正在建立機構）。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:22
 msgid "Provide a collection or institution code."
-msgstr ""
+msgstr "請提供館藏或機構代碼。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:23
 msgid "Click on “create”."
-msgstr ""
+msgstr "點擊「建立」。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:26
 msgid "The entries will be created and linked to their sources. Note that the newly created collection entries aren’t associated with any institution by default. You will have to go back to the collection entry and add the institution."
-msgstr ""
+msgstr "系統將建立這些條目並與其來源建立連結。請注意，新建立的館藏條目預設並未與任何機構相關聯。您必須返回該館藏條目，並手動新增機構資訊。"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:27
 #: en/grscicoll/modules/ROOT/pages/edit-entries.adoc:87
 #, no-wrap
 msgid "Optional video"
-msgstr ""
+msgstr "可選影片"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:32
 msgid "In this video (02:46), GBIF Data Administrator, Marie Grosjean, describes how to create new entries in GRSciColl."
-msgstr ""
+msgstr "在這段影片（02:46）中，GBIF 資料管理員 Marie Grosjean 說明了如何在 GRSciColl 中建立新的條目。"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:37
 #, no-wrap
 msgid "Delete entries"
-msgstr ""
+msgstr "刪除條目"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:40
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:60
 msgid "Click on the entry that you would like to delete."
-msgstr ""
+msgstr "請點選您要刪除的條目。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:41
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:61
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:82
 msgid "Click on the “More” button in the upper right corner."
-msgstr ""
+msgstr "點擊右上角的「更多」按鈕。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:42
 msgid "Click on “Deleted this institution” or “Delete this collection”."
-msgstr ""
+msgstr "點擊「刪除此機構」或「刪除此收藏」。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:43
 msgid "Confirm the deletion by clicking “yes”."
-msgstr ""
+msgstr "請點擊「是」以確認刪除。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:46
 msgid "Deleted entries can be restored if needed. If you find duplicate entries, we recommend merging them rather than deleting them to avoid the loss of codes and identifiers."
-msgstr ""
+msgstr "如有需要，已刪除的條目可以還原。若發現重複的條目，我們建議將其合併，而非直接刪除，以避免代碼和識別碼遺失。"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:47
 #, no-wrap
 msgid "Merging entries"
-msgstr ""
+msgstr "合併條目"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:50
 msgid "Merging entries means that one of the entries will be deleted and its associated information will be moved to the remaining entry. In addition to that, GRSciColl will display a warning message and show a link to the remaining entry."
-msgstr ""
+msgstr "合併條目表示其中一則條目將會被刪除，而其相關資訊將移至留存的條目中。此外，GRSciColl 會顯示一則警告訊息，並提供一個連結至留存條目的連結。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:54
 msgid "If two entries both have an external source, they cannot be merged."
-msgstr ""
+msgstr "如果兩個條目都有外部來源，則無法合併。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:55
 msgid "Two collections can only be merged if they belong to the same institution."
-msgstr ""
+msgstr "只有當兩個館藏屬於同一機構時，才能進行合併。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:58
 msgid "In the interface:"
-msgstr ""
+msgstr "在介面中："
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:62
