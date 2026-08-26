@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 21:54+0000\n"
-"PO-Revision-Date: 2026-08-26 10:30\n"
+"PO-Revision-Date: 2026-08-26 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1393,68 +1393,68 @@ msgstr "*Слайд 10 — Типы наборов данных и требов�
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:491
 msgid "GBIF provides data quality requirements to describe what you should provide for each dataset class. It doesn’t mean that the data won’t be indexed if some values are missing, but these requirements summarize what can be considered meaningful information for each class. You can of course share more."
-msgstr ""
+msgstr "GBIF устанавливает требования к качеству данных, которые определяют, какую информацию следует предоставлять для каждого типа наборов данных. Это не означает, что данные не будут проиндексированы, если некоторые значения отсутствуют, однако эти требования определяют, какая информация считается значимой для каждого типа наборов данных. Разумеется, вы можете предоставлять и больше информации."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:493
 msgid "Some requirements are required (such as the occurrenceID, taxonID or eventID, depending on the type of dataset), others are optional but strongly recommended (such as coordinates in decimal degrees). You can find these requirements on GBIF.org."
-msgstr ""
+msgstr "Некоторые элементы являются обязательными (например, occurrenceID, taxonID или eventID — в зависимости от типа набора данных), другие необязательны, но настоятельно рекомендуются (например, географические координаты в десятичных градусах). С этими требованиями можно ознакомиться на GBIF.org."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:494
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:497
 #, no-wrap
 msgid "*Slide 11 - How to choose a dataset type?*\n"
-msgstr ""
+msgstr "*Слайд 11 — Как выбрать тип набора данных?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:499
 msgid "We know that choosing a dataset class can take some time, especially if you’re new to mobilizing data and sharing it with GBIF. The GBIF helpdesk team created this useful flowchart which can be found on the GBIF Data Blog if you need further support to decide."
-msgstr ""
+msgstr "Мы понимаем, что выбор типа набора данных может занять некоторое время, особенно если вы только начинаете заниматься мобилизацией данных и их публикацией через GBIF. Команда службы поддержки GBIF подготовила полезную блок-схему, которую можно найти в блоге GBIF Data Blog и использовать, если вам нужна дополнительная помощь при выборе типа набора данных."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:500
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:503
 #, no-wrap
 msgid "*Slide 12 - Reflection*\n"
-msgstr ""
+msgstr "*Слайд 12 — Подведение итогов*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:505
 msgid "In order to be able to share data with GBIF, it is important to understand the differences between the dataset classes at the early stages of the data capture and data managing process. You can reflect on this topic with the following questions:"
-msgstr ""
+msgstr "Чтобы иметь возможность публиковать данные через GBIF, важно понимать различия между типами наборов данных уже на ранних этапах сбора данных и управления ими. Вы можете обдумать эту тему с помощью следующих вопросов:"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:507
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:533
 msgid "With what kind of data do you work?"
-msgstr ""
+msgstr "С какими данными вы работаете?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:509
 msgid "Is your data type different than you originally thought?"
-msgstr ""
+msgstr "Отличается ли тип ваших данных от того, каким вы представляли его изначально?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:511
 msgid "How would you publish them to GBIF?"
-msgstr ""
+msgstr "Как бы вы опубликовали эти данные в GBIF?"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:512
 #, no-wrap
 msgid "data-mobilization::capture-dataset-types-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::capture-dataset-types-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:515
@@ -1473,34 +1473,34 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:519
 msgid "This presentation was originally created by Sophie Pamerlon with additional contributions by Laura Anne Russell and GBIF Trainers and Mentors. This presentation was narrated by me, Laura Anne Russell."
-msgstr ""
+msgstr "Данная презентация была первоначально подготовлена Sophie Pamerlon при участии Laura Anne Russell, а также тренеров и наставников GBIF. Закадровый текст к презентации озвучила я, Laura Anne Russell."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:522
 #, no-wrap
 msgid "Exercise 1b"
-msgstr ""
+msgstr "Упражнение 1b"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:527
 msgid "For this activity, consider your data that you plan to share with GBIF."
-msgstr ""
+msgstr "Для выполнения этого задания обратите внимание на те данные, которые вы планируете предоставить в GBIF."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:531
 #, no-wrap
 msgid "*Discussion*\n"
-msgstr ""
+msgstr "*Обсуждение*\n"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:534
 msgid "Is your dataset type different than you originally thought?"
-msgstr ""
+msgstr "Отличается ли тип ваших данных от того, каким вы представляли его изначально?"
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:535
 msgid "How would you publish your data to GBIF (using which Core and/or extension)?"
-msgstr ""
+msgstr "Как бы вы опубликовали свои данные в GBIF (с использованием какого модуля Core и/или расширения)?"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:537
@@ -1790,7 +1790,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:663
 #, no-wrap
 msgid "*Slide 10 - Spatial information: vocabulary and concepts*\n"
-msgstr ""
+msgstr "*Слайд 10 — Пространственная информация: терминология и понятия*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:665
