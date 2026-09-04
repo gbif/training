@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-04-11 16:28\n"
+"PO-Revision-Date: 2026-08-07 03:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,74 +20,74 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:1
 #, no-wrap
 msgid "Data quality issues and flags"
-msgstr ""
+msgstr "資料品質問題與標記"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:3
 #, no-wrap
 msgid "Oveview"
-msgstr ""
+msgstr "總覽"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:9
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here, users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr ""
+msgstr "GBIF 網路會發佈資料集，並將其整合至一個共通的存取系統中。在此，使用者可透過共通的搜尋與下載服務檢索資料。在對原始資料進行索引的過程中，GBIF 會針對存在常見資料品質問題的紀錄，添加相關問題說明與標記。這些資訊對於使用者而言，可能有助於建立符合特定用途的資料集。"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:10
 #, no-wrap
 msgid "data-use::workflow2.png"
-msgstr ""
+msgstr "data-use::workflow2.png"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:13
 msgid "Remarks are shown on the individual occurrence pages to explain the process done after interpretation:"
-msgstr ""
+msgstr "解析後，在每個出現紀錄資料頁面上都會顯示備註，以說明處理過程："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:15
 msgid "Excluded means the original data couldn’t be interpreted, so it is excluded in the interpreted fields."
-msgstr ""
+msgstr "「已去除」意指原始資料無法進行解析，因此未包含在已解析的欄位中。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:17
 msgid "Altered means the original data is modified in the interpretation process to be indexed in GBIF.org."
-msgstr ""
+msgstr "「經修改」意指原始資料在詮釋過程中經過修改，以便在 GBIF.org 上建立索引。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:19
 msgid "Inferred means if the original is empty, the data is inferred using other indexed record information."
-msgstr ""
+msgstr "「推斷」意指若原始資料為空，則會根據其他索引記錄的資訊來推斷該資料。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:24
 msgid "Excluding all records with a particular issue is not currently possible with the search interface.  It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button.  However, reversing will still only give you all other flagged occurrences and not issue-free records.  This is something that GBIF is working to improve."
-msgstr ""
+msgstr "目前透過搜尋介面無法排除所有含有特定問題的紀錄。您可以透過選取特定問題並點擊「反向」按鈕，來篩除所有您不感興趣且含有該問題的紀錄。  然而，進行反向篩選後，系統仍僅會顯示所有其他被標記的發生紀錄，而非不含該問題的紀錄。GBIF 目前正致力於改善此功能。"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:25
 #, no-wrap
 msgid "data-use::filtering.png"
-msgstr ""
+msgstr "data-use::filtering.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:27
 #, no-wrap
 msgid "Issues and flags documentation"
-msgstr ""
+msgstr "問題與標記文件"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:30
 msgid "A full overview of all issues and flags is found within https://techdocs.gbif.org/[GBIF Technical Documentation^]:"
-msgstr ""
+msgstr "所有問題與警示的完全總覽，請參閱 https://techdocs.gbif.org/[GBIF 技術文件^]："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Occurrence issues and flags^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[出現紀錄問題與標記^]"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
 msgid "https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[Checklist issues and flags^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[清單問題與標記^]"
 
