@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-06-01 14:15\n"
+"POT-Creation-Date: 2026-06-09 12:38+0000\n"
+"PO-Revision-Date: 2026-08-11 05:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -17,48 +17,48 @@ msgstr ""
 "X-Crowdin-File-ID: 40924\n"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:91
+#: en/data-mobilization/modules/ROOT/pages/keydocs.adoc:95
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:408
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:56
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:10
 #, no-wrap
 msgid "OpenRefine"
-msgstr ""
+msgstr "OpenRefine"
 
 #. type: Title =
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:1
 #, no-wrap
 msgid "Data processing tools"
-msgstr ""
+msgstr "資料處理工具"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:5
 msgid "While GBIF filters will allow you to select and download data that only fulfils specific criteria, it is highly recommended that you perform additional data processing.  Your choice for a data processing tool should be based on personal access, familiarity and utility of that tool(s)."
-msgstr ""
+msgstr "雖然 GBIF 的篩選功能可讓您選取並下載僅符合特定條件的資料，但我們強烈建議您進行進一步的資料處理。選擇資料處理工具時，應依據您對該工具的使用權限、熟悉程度及實用性來決定。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:6
 #, no-wrap
 msgid "Example tools "
-msgstr ""
+msgstr "工具範例 "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:9
 msgid "Spreadsheet editing software, e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "試算表編輯軟體，例如 Excel、Google 試算表（適用於較小的資料集）"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:11
 msgid "R packages and scripts, e.g. rgbif, CoordinateCleaner, scrubr and biogeo"
-msgstr ""
+msgstr "R 套件與腳本，例如 rgbif、CoordinateCleaner、scrubr 及 biogeo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:12
 msgid "Geographical Information Systems (GIS), e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "地理資訊系統（GIS），例如 ArcGIS、QGIS 及 MapInfo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:13
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. This can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "在資料處理過程中，務必納入資料視覺化步驟，以便辨識那些在處理階段可能被忽略的異常資料點。這一步驟可在 R 程式語言中完成；然而，若使用 OpenRefine 或試算表編輯軟體，您可能需要借助地理資訊系統軟體，甚至像 Google Earth 這樣的工具來進行資料視覺化。"
 

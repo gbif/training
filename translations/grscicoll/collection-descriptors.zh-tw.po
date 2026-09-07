@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-08-03 05:09\n"
+"PO-Revision-Date: 2026-09-02 07:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
 #, no-wrap
 msgid "Click to expand"
-msgstr ""
+msgstr "點擊展開"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:38
@@ -301,7 +301,7 @@ msgstr "&nbsp;"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:217
 #, no-wrap
 msgid "Activity"
-msgstr ""
+msgstr "活動"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:1
@@ -310,7 +310,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:41
 #, no-wrap
 msgid "Collection descriptors"
-msgstr ""
+msgstr "館藏描述"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:3
@@ -322,14 +322,15 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:3
 #, no-wrap
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:9
 #, no-wrap
 msgid "In this video (05:33), GBIF Data Administrator, Marie Grosjean, describes collection descriptors and how to use them within GRSciColl.   \n"
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
+msgstr "在這段影片（05:33）中，GBIF 資料管理員 Marie Grosjean 介紹了「標本集描述」及其在 GRSciColl 中的使用方式。   \n"
+"若您無法觀看嵌入的 Vimeo 影片，可至 xref:downloads.adoc[可下載檔案] 頁面將影片下載至本機。\n"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
@@ -341,126 +342,126 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:14
 #, no-wrap
 msgid "Video transcript"
-msgstr ""
+msgstr "影片文字稿"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:26
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide1.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide1.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:29
 #, no-wrap
 msgid "*What are collection descriptors in GRSciColl?*\n"
-msgstr ""
+msgstr "*GRSciColl 中的「收藏描述」是什麼？*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:30
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide2.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide2.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:33
 msgid "GRSciColl collection descriptors are meant to share structured information about collections. They can contain relevant details about collections and sub-collections as well as quantitative data which cannot be shared on collection pages (for example, the number of type specimens for a particular taxon). Some collection descriptors are used for indexing collections. This means that they improve collection discoverability. For example, a collection entry associated with dragonfly species names will be found by users looking for “Odonata” in the scientific name field of the collection search."
-msgstr ""
+msgstr "GRSciColl 館藏描述旨在分享關於館藏的結構化資訊。它們可包含有關館藏及子館藏的相關細節，以及無法在館藏頁面中分享的定量資料（例如，特定分類單元的模式標本數量）。 部分收藏描述用於對收藏進行索引，這表示它們能提升館藏的可發現性。例如，與蜻蜓物種名稱相關聯的館藏條目，將被在館藏搜尋的學名欄位中搜尋「Odonata」的使用者所找到。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:35
 msgid "Here are some examples of searches based on collection descriptors:"
-msgstr ""
+msgstr "以下是一些基於館藏描述詞進行搜尋的範例："
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:36
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide3.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide3.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:39
 msgid "https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J.%20Berkeley[Find some collections with specimens collected by M. J. Berkeley^]"
-msgstr ""
+msgstr "https://scientific-collections.gbif.org/collection/search?recordedBy=M.%20J.%20Berkeley[查找一些包含 M. J. Berkeley 採集標本的館藏集^]"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:40
 msgid "https://scientific-collections.gbif.org/collection/search?country=FR&taxonKey=59[Find some fern collections hosted in French institutions^]"
-msgstr ""
+msgstr "https://scientific-collections.gbif.org/collection/search?country=FR&taxonKey=59[查閱法國機構所收藏的蕨類植物標本^]"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:42
 msgid "Currently, only a handful of collection descriptors are indexed and searchable: scientific name, country or area of coverage (of the specimen, this is based on the dwc:country term), recorded by and type status. However, GBIF will be able to add filters for more standardized terms as more descriptors are shared in GRSciColl."
-msgstr ""
+msgstr "目前，僅有少數幾項館藏描述詞被建立索引且可供搜尋：學名、涵蓋的國家或地區（標本的來源地，此為基於 dwc:country 術語）、記錄者以及模式標本狀態。然而，隨著 GRSciColl 中共享的描述詞逐漸增加，GBIF 將能針對更多標準化術語新增篩選條件。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:44
 #, no-wrap
 msgid "*When to upload collection descriptors in GRSciColl:*\n"
-msgstr ""
+msgstr "*何時應在 GRSciColl 上傳資料集描述詞：*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:46
 msgid "The collection is not part of the GBIF Scope (for example, mineralogy, archeology, anthropology, etc.)"
-msgstr ""
+msgstr "該收藏不屬於 GBIF 的涵蓋範圍（例如：礦物學、考古學、人類學等）。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:47
 msgid "The information about the collection is structured but not at the specimen level (e.g. you can not create occurrences)."
-msgstr ""
+msgstr "關於該收藏集的資訊雖經結構化處理，但並非以標本為單位（例如：您無法建立「出現紀錄資料」）。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:48
 msgid "You have information that does not fit the Darwin Core Standard."
-msgstr ""
+msgstr "您的資料不符合達爾文核心標準。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:50
 #, no-wrap
 msgid "*How to format collection descriptors*\n"
-msgstr ""
+msgstr "*如何格式化館藏描述詞*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:51
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide7.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide7.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:54
 msgid "Each GRSciColl collection entry can have one or several collection descriptor groups. A group can correspond to descriptors for a particular aspect of the collection or a sub-collection. Each group requires:"
-msgstr ""
+msgstr "每個 GRSciColl 館藏條目可包含一個或多個館藏描述詞群組。一個群組可對應於館藏或子館藏某個特定方面的描述詞。每個群組需具備："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:56
 msgid "A *title* of the set of descriptors. For example, “Taxonomic breakdown of the algae sub-collection”."
-msgstr ""
+msgstr "描述詞集的 *標題*。例如，「藻類子館藏的分類細項」。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:57
 msgid "A *description* for the set of descriptors. For example, “These descriptors are based on the 2008 inventory of the algarium. This inventory focused mainly on type specimens”."
-msgstr ""
+msgstr "一組描述詞的 *說明*。例如：「這些描述詞是根據 2008 年藻類標本庫的清查結果編製而成。該次清查主要著重於模式標本」。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:58
 msgid "A *comma-separated file* containing the descriptors where each column is a descriptor and each row a subset of the collection described. The header of the table is used to map its content to Darwin Core and Latimer Core (see more details below)."
-msgstr ""
+msgstr "一個 *以逗號分隔的檔案*，其中包含各描述詞，每欄代表一個描述詞，每列則代表所描述館藏的一個子集。該表格的標題用於將其內容對應至 Darwin Core 和 Latimer Core（詳情請見下文）。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:60
 #, no-wrap
 msgid "*The descriptor table*\n"
-msgstr ""
+msgstr "*描述詞表*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:61
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide8.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide8.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:64
 msgid "As mentioned above the descriptor tables are CSV files where each row is a subset of the collection (or a group of specimens) and each column is a descriptor. When possible, the data should be mapped to the Darwin Core and Latimer Core standards but it is possible to share data that is not mapped to any standard. When mapped to one of the standards, the header of the column should contain the prefix of the standard (`ltc`: for Latimer Core and `dwc`: for Darwin Core) as well as the name of the term."
-msgstr ""
+msgstr "如前所述，描述詞表是 CSV 檔案，其中每一列代表該館藏（或一組標本）的子集，每一欄則代表一個描述詞。在可行情況下，資料應對應至 Darwin Core 和 Latimer Core 標準；但即使未對應至任何標準，仍可分享該資料。 若將資料對應至其中一項標準，欄位標題應包含該標準的前綴（`ltc`：代表 Latimer Core；`dwc`：代表 Darwin Core）以及術語名稱。"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:70
@@ -468,86 +469,88 @@ msgstr ""
 msgid "| ltc:biomeType | dwc:scientificName | dwc:country | Number of identified specimens at genus level\n\n"
 "| Freshwater | Perciformes | Colombia | 300\n"
 "| Freshwater | Perciformes | Brazil | 145\n"
-msgstr ""
+msgstr "| ltc:biomeType | dwc:scientificName | dwc:country | 已鑑定至屬的標本數\n\n"
+"| 淡水 | 鱸形目 | 哥倫比亞 | 300\n"
+"| 淡水 | 鱸形目 | 巴西 | 145\n"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:73
 msgid "In the example above, the last column couldn’t be mapped to any Darwin Core or Latimer Core term so it was left with a descriptive title. This column will not be indexed, and users will not be able to search data based on its values, but it will be displayed along the other descriptors on the collection page. See an example of collection descriptors for https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72[The New York Botanical Garden collection^] where not every column is mapped to a standard:"
-msgstr ""
+msgstr "在上述範例中，最後一欄無法對應至任何 Darwin Core 或 Latimer Core 術語，因此保留了描述性標題。此欄位不會被索引，使用者也無法根據其值搜尋資料，但它會與其他描述詞一同顯示在館藏頁面上。 請參閱 https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72 的館藏描述詞範例[紐約植物園的館藏^]，其中並非每欄都對應至某項標準："
 
 #. type: Block title
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:75
 #, no-wrap
 msgid "NYBG collection descriptors"
-msgstr ""
+msgstr "紐約植物園（NYBG）館藏描述詞"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:76
 #, no-wrap
 msgid "grscicoll::NY_descriptors.png"
-msgstr ""
+msgstr "grscicoll::NY_descriptors.png"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:80
 msgid "Tables might contain overlapping information or different descriptions for the same subset of specimens."
-msgstr ""
+msgstr "表格中可能包含針對同一組標本的重複資訊或不同的描述。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:82
 msgid "There is not any template to download as the descriptors can include a lot of headers. You are welcome to download any table you like from GRSciColl and use it as your own template."
-msgstr ""
+msgstr "由於描述詞可能包含大量標題，因此並無可供下載的範本。歡迎您從 GRSciColl 下載任何您喜歡的表格，並將其作為您自己的範本使用。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:83
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide11.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide11.png"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:86
 msgid "Here are some examples that we compiled from real data while working on the implementation of descriptors. They could certainly be mapped differently, and this is to help give an idea of the type of mapping we expect:"
-msgstr ""
+msgstr "以下是我們在實作描述詞過程，從實際資料中彙整的一些範例。這些範例當然可以有不同的對應方式，此處旨在協助大家了解我們所預期的大致對應類型："
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:88
 msgid "https://github.com/gbif/registry/files/14419456/swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628.csv[Example 1 from https://swisscollnet.scnat.ch on an entomological collection^]"
-msgstr ""
+msgstr "https://github.com/gbif/registry/files/14419456/swisscollnet_ALTERNATIVE_dwcltc_part2_2a8835ad-4a2e-43df-b976-f924f76fe628.csv[https://swisscollnet.scnat.ch 網站上的範例 1：關於一組昆蟲標本的資料^]"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:89
 msgid "https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-b94e-4ed6-a9ae-f57c7baaf521.csv[Example 2 from https://swisscollnet.scnat.ch on a mineralogy collection^]"
-msgstr ""
+msgstr "https://github.com/gbif/registry/files/14419488/swisscollnet_dwcltc_3c41e738-b94e-4ed6-a9ae-f57c7baaf521.csv[https://swisscollnet.scnat.ch 網站上的範例 2，關於礦物學收藏^]"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:90
 msgid "https://github.com/gbif/registry/files/14419329/rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc.csv[Example 3 from http://rnc.humboldt.org.co on a botanical garden collection^]"
-msgstr ""
+msgstr "https://github.com/gbif/registry/files/14419329/rnc_ALTERNATIVE_dwcltc_types_humbolt_a717e77c-ea99-4d81-83ff-81931e753ffc.csv[http://rnc.humboldt.org.co 網站上範例 3，關於植物園收藏^]"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:91
 msgid "https://github.com/gbif/registry/files/14419363/rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[Example 4 from http://rnc.humboldt.org.co on a herbarium collection^]"
-msgstr ""
+msgstr "https://github.com/gbif/registry/files/14419363/rnc_dwcltc_geography_6eae4377-f8b4-41ac-a9c1-db5a81afde98.csv[ http://rnc.humboldt.org.co 網站上的範例 4，植物標本館收藏^]"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:92
 #, no-wrap
 msgid "grscicoll::module2-section2-Slide12.png"
-msgstr ""
+msgstr "grscicoll::module2-section2-Slide12.png"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:96
 msgid "The Latimer core term `objectClassificationName` is very convenient to describe subsets of collections that do not necessarily have other ways of being grouped. For example, this is helpful for groups of non-monophyletic taxa (for example Algae). Ideally, the names used in this field should follow a controlled vocabulary. We haven’t yet set up one though. If you need some guidance, see the https://github.com/gbif/vocabulary/issues/157[proposed vocabulary^]."
-msgstr ""
+msgstr "Latimer Core 術語 [objectClassificationName] 非常便於用來描述那些未有其他分組方式的館藏子集。例如，這對於非單系群的分類群（例如藻類）非常有用。理想情況下，此欄位所使用的名稱應遵循標準詞彙表。 不過，我們目前尚未建立這樣的詞彙表。若您需要相關指引，請參閱 https://github.com/gbif/vocabulary/issues/157[建議詞彙表^]。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:104
 msgid "Given the following text describing a (fictional) collection and with the help of the https://ltc.tdwg.org/quick-reference/[Latimer Core quick reference guide^], rank the tables from the poorest to the richest amount of information mapped."
-msgstr ""
+msgstr "根據以下描述某個（虛構）館藏的文字，並參考《https://ltc.tdwg.org/quick-reference/[Latimer Core 快速參考指南^]》，請將各表格依所對應資訊量由少到多的順序進行排序。"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:107
 msgid "This collection contains bony fish specimens from the African coast gathered during two expeditions: one in the 19th century and one in 1940-1952. About half of these specimens are identified to the genus level. The collection contains a few type specimens, including one for Eustomias monoclonoides and one for Bothus podas."
-msgstr ""
+msgstr "本收藏包含兩次考察期間從非洲沿岸採集的硬骨魚標本：一次是在19世紀，另一次則是在1940至1952年間。 其中約一半的標本已鑑定至屬。該收藏包含數件模式標本，其中包括一件 Eustomias monoclonoides 的模式標本，以及一件 Bothus podas 的模式標本。"
 
 #. type: Block title
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:110
@@ -556,7 +559,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:137
 #, no-wrap
 msgid "{empty}"
-msgstr ""
+msgstr "{empty}"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:118
@@ -566,7 +569,11 @@ msgid "| continent | date | taxon | Is type | Percentage identified at genus lev
 "| Africa | 1940-1952 | Bony fish |  | 50\n"
 "| Africa |  | Eustomias monoclonoides | TRUE | \n"
 "| Africa |  | Bothus podas | TRUE | \n"
-msgstr ""
+msgstr "| 大陸 | 日期 | 分類群 | 是否為模式標本 | 屬級鑑定比例\n\n"
+"| 非洲 | XIX | 硬骨魚類 |  | 50\n"
+"| 非洲 | 1940-1952 | 硬骨魚 |  | 50\n"
+"| 非洲 |  | Eustomias monoclonoides | 是 | \n"
+"| 非洲 |  | Bothus podas | 是 | \n"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126
@@ -574,7 +581,9 @@ msgstr ""
 msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n\n"
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine\n"
 "| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine\n"
-msgstr ""
+msgstr "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome\n\n"
+"| 非洲 | 1800-01-01/1900-01-01 | 條鰭魚綱 | 海洋\n"
+"| 非洲 | 1940-01-01/1952-01-01 | 條鰭魚綱 | 海洋\n"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:135
@@ -583,7 +592,10 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percen
 "| Africa | 1800-01-01/1952-01-01 | Actinopterygii | Marine | 50\n"
 "| Africa | 1940-01-01/1952-01-01 | Actinopterygii | Marine | \n"
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine | \n"
-msgstr ""
+msgstr "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | 屬級鑑定比例\n\n"
+"| 非洲 | 1800-01-01/1952-01-01 | 條鰭魚綱 | 海洋 | 50\n"
+"| 非洲 | 1940-01-01/1952-01-01 | 條鰭魚綱 | 海洋 | \n"
+"| 非洲 | 1800-01-01/1900-01-01 | 條鰭魚綱 | 海洋 | \n"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:146
@@ -594,13 +606,18 @@ msgid "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | Percen
 "| Africa | 1800-01-01/1900-01-01 | Actinopterygii | Marine |  | \n"
 "| Africa |  | Eustomias monoclonoides | Marine |  | type\n"
 "| Africa |  | Bothus podas | Marine |  | type\n"
-msgstr ""
+msgstr "| dwc:continent | dwc:eventDate | dwc:scientificName | ltc:biome | 屬級鑑定率 | dwc:typeStatus\n\n"
+"| 非洲 | 1800-01-01/1952-01-01 | 條鰭魚綱 | 海洋 | 50 | \n"
+"| 非洲 | 1940-01-01/1952-01-01 | 條鰭魚綱 | 海洋 |  | \n"
+"| 非洲 | 1800-01-01/1900-01-01 | 條鰭魚綱 | 海洋 |  | \n"
+"| 非洲 |  | Eustomias monoclonoides | 海洋 |  | 模式種\n"
+"| 非洲 |  | Bothus podas | 海洋 |  | 模式種\n"
 
 #. Question
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:150
 msgid "Which ranking orders the table from the poorest to the richest data mapped?"
-msgstr ""
+msgstr "哪種排序方式會將表格中的資料從最少到最多進行排列？"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:157
@@ -608,5 +625,7 @@ msgstr ""
 msgid "- [ ] 2, 3, 1, 4\n"
 "- [x] 1, 2, 3, 4\n"
 "- [ ] 4, 3, 1, 2\n"
-msgstr ""
+msgstr "- [ ] 2、3、1、4\n"
+"- [x] 1、2、3、4\n"
+"- [ ] 4、3、1、2\n"
 

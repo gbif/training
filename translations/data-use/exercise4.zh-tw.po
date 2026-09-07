@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-02-13 09:20+0000\n"
-"PO-Revision-Date: 2026-04-11 16:28\n"
+"PO-Revision-Date: 2026-08-07 05:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/exercise-dataset-deliverables.adoc:4
 #, no-wrap
 msgid "Instructions"
-msgstr ""
+msgstr "說明"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/exercise2.adoc:6
@@ -35,95 +35,95 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/exercise5.adoc:6
 #, no-wrap
 msgid "Exercise sheet "
-msgstr ""
+msgstr "練習單 "
 
 #. type: Title =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:1
 #, no-wrap
 msgid "Exercise 4"
-msgstr ""
+msgstr "練習題 4"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:6
 msgid "In this exercise you will use the GBIF API to locate specific taxon keys."
-msgstr ""
+msgstr "在此練習中，您將使用 GBIF API 來查找特定的分類群檢索。"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:8
 #, no-wrap
 msgid "*Taxon keys* are issued at the species, genus family, order, phylum and kingdom rank. \n"
-msgstr ""
+msgstr "*分類群檢索* 依物種、屬、科、目、門及界等分類階層排序。 \n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:9
 #, no-wrap
 msgid "*Unique identifiers* are issued to accepted names with synonyms of those accepted names issued the same identifier.  Usage keys vs acceptedUsageKeys.\n"
-msgstr ""
+msgstr "*唯一識別碼* 會發給已接受的學名，而這些已接受的學名的同物異名則會被賦予相同的識別碼。 使用檢索與已接受使用檢索的區別。\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:10
 #, no-wrap
 msgid "Taxon keys allow for user to ensure that they are collecting all the data they need.\n"
-msgstr ""
+msgstr "分類群檢索可協助使用者確保已蒐集到全部所需資料。\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:11
 #, no-wrap
 msgid "Taxon keys also facilitate multiple species downloads.\n"
-msgstr ""
+msgstr "分類群檢索也有助於下載多個物種的資料。\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:13
 msgid "Taxon keys can be found via:"
-msgstr ""
+msgstr "可透過以下方式查閱分類群檢索："
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:15
 msgid "https://www.gbif.org/[GBIF.org]"
-msgstr ""
+msgstr "https://www.gbif.org/[GBIF.org]"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:16
 msgid "https://techdocs.gbif.org/en/openapi/v1/species[Species API^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/openapi/v1/species[物種 API^]"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:17
 msgid "https://www.gbif.org/tools/species-lookup[Species matching tool^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/species-lookup[物種比對工具^]"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:22
 msgid "xref:attachment$Ex4-species-api.docx[Download Exercise 4] (MS Word 158 KB)."
-msgstr ""
+msgstr "xref:attachment$Ex4-species-api.docx[下載練習題 4] (MS Word 158 KB)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:26
 msgid "Using the Species API find the GBIF taxonkeys for these scientific names:"
-msgstr ""
+msgstr "請使用物種 API 查詢以下學名的 GBIF 分類群檢索："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:27
 msgid "Lepus saxatilis F.Cuvier, 1823"
-msgstr ""
+msgstr "Lepus saxatilis F.Cuvier, 1823"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:28
 msgid "Aves"
-msgstr ""
+msgstr "鳥綱"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:29
 msgid "Magnoliophyta"
-msgstr ""
+msgstr "被子植物門"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:30
 msgid "Aegithalos caudatus (Linnaeus, 1758)"
-msgstr ""
+msgstr "Aegithalos caudatus (Linnaeus, 1758)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:30
 msgid "What is the taxonomic status of each?"
-msgstr ""
+msgstr "各自的分類位階為何？"
 

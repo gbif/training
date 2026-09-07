@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-08-04 08:58\n"
+"PO-Revision-Date: 2026-09-02 06:13\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -72,7 +72,7 @@ msgstr ""
 #: en/epn/modules/ROOT/pages/use-case-darwinia.adoc:14
 #, no-wrap
 msgid "Scenario"
-msgstr ""
+msgstr "情境"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:21
@@ -85,7 +85,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/description.adoc:3
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "描述說明"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:70
@@ -109,7 +109,7 @@ msgstr "數位資料描述"
 #: en/nodes/modules/ROOT/pages/strategic-planning.adoc:99
 #, no-wrap
 msgid "Exercises"
-msgstr ""
+msgstr "練習題"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:32
@@ -169,270 +169,270 @@ msgstr "data-mobilization::Use-Case-Practice-Coenonympha-pamphilus.png"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:21
 msgid "This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Kate Ingenloff and Laura Anne Russell, based on previous work by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Anne Russell, Mélianie Raymond and Nicolas Noé."
-msgstr ""
+msgstr "本敘述是作為生物多樣性資料流通課程實作演練的基礎而開發的；練習概念與內容由 Kate Ingenloff 與 Laura Anne Russell 根據 Alberto González-Talaván、Danny Vélez、Larissa Smirnova、Laura Anne Russell、Mélianie Raymond 及 Nicolas Noé 的先前研究成果所設計。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:23
 msgid "It is a fictionalized scenario based on a real dataset and is meant only for instructional purposes. The original dataset is attributed to Pettersson L B (2025). Swedish Butterfly Monitoring Scheme (SeBMS). Version 1.12. Department of Biology, Lund University. Sampling event dataset https://doi.org/10.15468/othndo accessed via GBIF.org on 2026-04-12."
-msgstr ""
+msgstr "這是一個基於真實資料集所構思的虛構情境，僅供教學用途。原始資料集的來源為 Pettersson L B (2025)。 瑞典蝴蝶監測計畫（SeBMS）。版本 1.12，隆德大學生物學系，採樣活動資料集 https://doi.org/10.15468/othndo，於 2026 年 4 月 12 日透過 GBIF.org 取得。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:27
 msgid "The Swedish Butterfly Network (SBN) has been monitoring the occurrence of butterflies (Lepidoptera) at a series of fixed sites 3-7 times per season on an annual basis since 2009."
-msgstr ""
+msgstr "自 2009 年起，瑞典蝴蝶網絡（SBN）每年都會在一系列固定地點，每季進行 3 至 7 次蝴蝶（鱗翅目）的出現紀錄資料監測。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:29
 msgid "This network of observers implements one of two standard protocols at each site: fixed-route Pollard walks or point counts. Butterfly observation information is captured by observers on paper data capture sheets that they send to the national SBN office."
-msgstr ""
+msgstr "這個觀察員網絡在每個觀察點採用以下其中之一方法執行監測：固定路線的Pollard walks 或點計法。觀察員將蝴蝶觀察資料記錄在紙本資料記錄表上，並將其寄送至國家 SBN 辦公室。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:31
 msgid "The SBN steering committee would like to start publishing these data online to GBIF in order to strengthen collaborations with the Swedish Environmental Protection Agency, the Swedish Transport Administration, and the Swedish County Administration Boards to influence conservation policies for Lepidoptera in Sweden."
-msgstr ""
+msgstr "SBN 指導委員會希望開始將這些資料上傳至 GBIF 平台，藉此加強與瑞典環境保護署、瑞典交通管理局及瑞典各郡行政委員會的合作，以影響瑞典的鱗翅目昆蟲保育政策。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:35
 msgid "Butterfly monitoring surveys are conducted annually at more than 500 sites by volunteers from 1 April through 30 September. Sites are visited 3-7 times per season. The program does not dictate when sites are surveyed but they provide recommendations (see table below)."
-msgstr ""
+msgstr "每年 4 月 1 日至 9 月 30 日期間，志工會在 500 多個地點進行蝴蝶監測調查。每個調查點每季會進行 3 至 7 次訪查。該計畫並未規定具體的調查時程，但會提供相關建議（參見下表）。"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:37
 #, no-wrap
 msgid "Dates and phenological “visit indicators” that you can use to know when it is appropriate to visit your premises. Visits marked with an asterisk (*) can be omitted if the premises are visited on fewer than seven occasions. Source: Table A1, Appendix 1, Pettersson et al. 2010. Note: the table was translated using GoogleTranslate."
-msgstr ""
+msgstr "您可以利用日期和物候「造訪指標」來判斷何時適合造訪您的地點。。若造訪該場地的次數少於七次，標有星號（*）的造訪次數可省略。資料來源：Pettersson 等，2010 年，附錄 1，表 A1。 註：本表格是透過 Google 翻譯進行翻譯。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:38
 #, no-wrap
 msgid "data-mobilization::uc-practice-visit-indicators.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-visit-indicators.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:41
 msgid "The monitoring scheme implements two established methods: fixed-route Pollard walk transects and point site counts. The same method is used at a site each year. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2011 and 2022) and enable the monitoring scheme to assess yearly changes in (1) the number of butterflies seen and (2) species composition."
-msgstr ""
+msgstr "該監測方案採用兩種既定方法：固定路線的 Pollard walk 法，以及定點計數法。 每年在同一地點均採用相同的方法。這些方法詳見 Pollard 與 Yates（1993）以及 Pettersson 等（2011 及 2022）的描述，並使監測計畫得以評估以下兩方面的年度變化：(1) 觀察到的蝴蝶數量，以及 (2) 物種組成。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:43
 #, no-wrap
 msgid "*Fixed-route Pollard walk transects*\n"
-msgstr ""
+msgstr "* 固定路線 Pollard walk 穿越線*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:45
 msgid "Fixed-route Pollard walk transects are pre-defined routes typically 0.5-3 km in length. Surveyors follow the transect at a steady pace and identify all the butterflies observed up to 5 m in front, 5 m above, and 2.5 m to each side (see the figure below)."
-msgstr ""
+msgstr "固定路線的 Pollard walk 穿越線是預先設定的路線，長度通常為 0.5 至 3 公里。調查人員以穩定的步速沿樣線行進，並辨識前方 5 公尺內、上方 5 公尺內，以及左右兩側各 2.5 公尺範圍內所觀察到的所有蝴蝶（參見下圖）。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:47
 msgid "A transect can be any shape, including a loop. Each transect is inventoried once per visit. Some transects are divided into segments that typically represent a change in habitat. For example, a loop that follows a forest road, over a clearing, and then out onto a bog will have three segments. Each segment is inventoried once per visit."
-msgstr ""
+msgstr "穿越線可以是任何形狀，包括環形。每次造訪時，每條樣線都會進行一次調查。有些樣線會被劃分為多個區段，這些區段通常代表棲息地的變化。例如，一條沿著林道行進、穿越空地，然後延伸至沼澤地的環形樣線，將包含三個區段。每次造訪時，每個區段都會進行一次調查。"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:49
 #, no-wrap
 msgid "A butterfly monitor walking its loop. While walking at a slow walking pace, they identify and count all the butterflies observed in the zone identified by the dashed gray lines: 2.5 m on each side, 5 m ahead, and 5 m above the observer. Illustration: Måns Sjöberg. Source: Figures A1, Appendix 1, Pettersson et al. 2011 and  3, Appendix 1, Pettersson et al. 2022."
-msgstr ""
+msgstr "一名蝴蝶監測員正在巡查其固定路線。他們以緩慢的步速行走時，會辨識並統計在灰色虛線所標示區域內觀察到的所有蝴蝶：該區域範圍為觀察者左右各 2.5 公尺、前方 5 公尺，以及上方 5 公尺。插圖：Måns Sjöberg。 來源：Pettersson 等 2011 年論文附錄 1 圖 A1，以及 Pettersson 等 2022 年論文附錄 1 圖 3。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:50
 #, no-wrap
 msgid "data-mobilization::uc-practice-pollard-walks.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-pollard-walks.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:53
 msgid "Each survey log from a fixed-route Pollard walk survey will include the following information:"
-msgstr ""
+msgstr "每份固定路線 Pollard walk 的測量紀錄，均將包含以下資訊："
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:55
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:81
 msgid "Survey date"
-msgstr ""
+msgstr "調查日期"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:56
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:82
 msgid "Site coordinates in EPSG:3857 representing the center point of the site"
-msgstr ""
+msgstr "以 EPSG:3857 表示的地點座標，代表該地點的中心點"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:57
 msgid "Start time/end time for each segment (if applicable) otherwise for the full survey"
-msgstr ""
+msgstr "各調查區段的開始時間／結束時間（如適用）；否則以整個調查為準"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
 msgid "Weather conditions during each segment (if applicable) otherwise for the full survey"
-msgstr ""
+msgstr "各調查區段期間的天氣狀況（如適用）；否則，則為整個調查期間的天氣狀況"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:59
 msgid "A list of species observed and the total number of each species observed in each segment (if applicable) otherwise for the full survey. Surveys or segments where no butterflies were observed will include a note that zero butterflies were observed."
-msgstr ""
+msgstr "各調查區段（如適用）所觀察到的物種清單及各物種的總數量；若無區段劃分，則列出整個調查範圍內的總數量。若在某次調查或某個區段中未觀察到蝴蝶，則應註明「未觀察到蝴蝶」。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:61
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:87
 msgid "Unusual or difficult to identify species are marked on survey logs with an asterisk (*) and a photo is submitted by the surveyor for identification assistance. If the surveyor was unable to get a photo, the butterfly is reported as an ‘indeterminate butterfly’."
-msgstr ""
+msgstr "在調查紀錄中，罕見或難以辨識的物種會以星號 (*) 標示，並由調查員提交照片以協助辨識。若調查員無法拍攝照片，則該蝴蝶將被列為「無法辨識的蝴蝶」。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:63
 #, no-wrap
 msgid "*Point site counts*\n"
-msgstr ""
+msgstr "*定點計數法*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:65
 msgid "Point site counts cover an area with a 25 m radius and a height of 5 m that are surveyed for 15 minutes per visit. A point location may be completely circular with a radius of 25 meters OR it may have other shapes. Regardless of shape, the same area must be inventoried on each occasion to ensure the inventory is comparable across surveys."
-msgstr ""
+msgstr "定點計數調查涵蓋半徑 25 公尺、高度 5 公尺的區域，每次造訪進行 15 分鐘的調查。 單點調查範圍可能是半徑為 25 公尺的完整圓形，亦可能呈現其他形狀。無論形狀為何，每次調查時均須對同一區域進行清查，以確保各次調查結果具有可比較性。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:67
 msgid "For a *circular point site*, the surveyor moves about the circular site for the full 15-minute period and records all butterflies that come within the circle up to 5 m above the ground. See figure below."
-msgstr ""
+msgstr "對於*圓形調查點*，監測員會在整個 15 分鐘內於圓形點位周圍移動，並記錄所有進入圓形範圍內、高度不超過地面 5 公尺的蝴蝶。請參見下圖。"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:69
 #, no-wrap
 msgid "A circular point location (denoted by a gray dashed line) with the observer sitting in the center and a 25 m radius around it. Illustration: Måns Sjöberg. Source: Figure A3, Appendix 1, Pettersson et al. 2011."
-msgstr ""
+msgstr "一個圓形點位置（以灰色虛線標示），觀察者位於中心，周圍半徑為 25 公尺。插圖：Måns Sjöberg。來源：Pettersson 等人 2011 年論文附錄 1 圖 A3。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:70
 #, no-wrap
 msgid "data-mobilization::uc-practice-circular-point-site.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-circular-point-site.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:73
 msgid "For a *non-circular point site*, the surveyor walks about the site for the full 15-minute period and records all butterflies they observe within the area up to 5 m above the ground. See figure below."
-msgstr ""
+msgstr "對於*非圓形調查點*，調查員會在現場持續步行整整 15 分鐘，並記錄在該區域內、離地高度不超過 5 公尺處所觀察到的所有蝴蝶。詳見下圖。"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:75
 #, no-wrap
 msgid "A non-circular point location with a 25 m radius (denoted as the brighter green areas with a small area of water) around a defined center point and a butterfly monitor taking inventory. Source: Figure 1, Appendix 1, Pettersson et al. 2022."
-msgstr ""
+msgstr "一個非圓形的點位，其半徑為 25 公尺（圖中以較淺的綠色區域標示，其中包含一小片水域），圍繞著一個既定的中心點，並有一名蝴蝶監測員正在進行調查。來源：圖 1，附錄 1，Pettersson 等人，2022 年。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:76
 #, no-wrap
 msgid "data-mobilization::uc-practice-non-circular-point-site.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-non-circular-point-site.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:79
 msgid "Each point site survey will report the following information:"
-msgstr ""
+msgstr "每份點位的調查報告將紀錄以下資訊："
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:83
 msgid "Start only (point site counts)"
-msgstr ""
+msgstr "起始（定點計數法）"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:84
 msgid "Weather conditions at the time of the survey"
-msgstr ""
+msgstr "調查當時的天氣狀況"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:85
 msgid "A list of species observed and the number of each species observed during the survey. Surveys where no butterflies were observed will include a note that zero butterflies were observed."
-msgstr ""
+msgstr "調查中所觀察到的物種清單及各物種的總數量。若未觀察到蝴蝶，則應註明「未觀察到蝴蝶」。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:89
 #, no-wrap
 msgid "*Weather conditions*\n"
-msgstr ""
+msgstr "*天氣狀況*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:91
 msgid "General weather data are collected at each site at the beginning of each survey. Observers are asked to record information about air temperature, percent sunshine, and wind strength and direction."
-msgstr ""
+msgstr "每次調查開始時，都會在各調查點收集一般天氣資料。觀察員需記錄氣溫、日照百分比，以及風力與風向等資訊。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:93
 msgid "Air temperature in the shade is reported in ℃."
-msgstr ""
+msgstr "氣溫以 ℃ 為單位標示樹蔭下的溫度。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:94
 msgid "Percent (%) sunshine, the proportion of time that was sunny during the survey, is reported as decimal and rounded to the nearest tenth."
-msgstr ""
+msgstr "日照百分比（%），即調查期間晴天所佔的時間比例，以小數形式呈現，並四捨五入至小數點後一位。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:95
 msgid "Wind strength is reported using the Beaufort scale (see the table below for more information)."
-msgstr ""
+msgstr "風力強度採用蒲氏風力等級 Beaufort scale 進行紀錄（詳情請參閱下表）。"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:96
 msgid "Wind direction is also reported."
-msgstr ""
+msgstr "報告中亦包含風向資料。"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:98
 #, no-wrap
 msgid "Wind strength according to the Beaufort scale. Adapted from Table 2, Appendix 1, Pettersson et al. 2022."
-msgstr ""
+msgstr "根據蒲氏風力等級 Beaufort scale 的風力強度。改編自 Pettersson 等人（2022）附錄 1 的表 2。"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:99
 #, no-wrap
 msgid "data-mobilization::uc-practice-weather-conditions.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-weather-conditions.png"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:103
 #, no-wrap
 msgid "data-mobilization::UC-practice-log.jpg"
-msgstr ""
+msgstr "data-mobilization::UC-practice-log.jpg"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:108
 msgid "The SBN office uses groups of volunteers to digitize the paper logs and produce digital spreadsheets. The spreadsheets are very simple and include three datasheets:"
-msgstr ""
+msgstr "SBN 辦公室透過志工團隊，將紙本日誌數位化並製作成數位試算表。這些試算表非常簡單，包含三個資料表："
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:110
 msgid "the first captures the information linked to the sampling efforts including surveyors, site names, survey date, and location"
-msgstr ""
+msgstr "第一項記錄了與採樣工作相關的資訊，包括調查人員、地點名稱、調查日期及地點"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:111
 msgid "the second captures the species encountered and the number of individuals observed"
-msgstr ""
+msgstr "第二項記錄了遇見的物種以及觀察到的個體數量"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:112
 msgid "the third captures the location type and weather conditions"
-msgstr ""
+msgstr "第三項記錄了地點類型與天氣狀況"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:113
 #, no-wrap
 msgid "data-mobilization::Use-Case-Practice-Simple-Spreadsheet.png"
-msgstr ""
+msgstr "data-mobilization::Use-Case-Practice-Simple-Spreadsheet.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:118
 msgid "The individual exercises for this use case are located in the corresponding modules."
-msgstr ""
+msgstr "此使用案例的各項練習題，置於相對應的課程模組中。"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:131
 #: en/data-use/modules/ROOT/pages/exercise1.adoc:6
 #, no-wrap
 msgid "Exercise sheet"
-msgstr ""
+msgstr "練習單"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:133
 msgid "Download xref:attachment$UC-Practice-exercise-sheet_EN.docx[UC-Practice-exercise-sheet_EN.docx,opts=download] to provide your answers. (2.9 MB)"
-msgstr ""
+msgstr "下載 xref:attachment$UC-Practice-exercise-sheet_EN.docx[UC-Practice-exercise-sheet_EN.docx,opts=download]，並於其中填寫您的答案。（2.9 MB）"
 
