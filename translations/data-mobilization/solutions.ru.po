@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-09-10 18:02\n"
+"PO-Revision-Date: 2026-09-10 19:07\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -171,13 +171,13 @@ msgstr "Онлайн-инструменты, такие как Scientific Names 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:60
 msgid "All kinds of tools can be used to clean your data, but you should identify which ones will answer your needs in terms of taxonomic resolving, georeferencing, deleting duplicates, and so on. You can find <<helpful-tools,helpful tools>> listed in the data management section."
-msgstr ""
+msgstr "Для очистки данных можно использовать самые разные инструменты, однако важно определить, какие из них соответствуют вашим задачам, например для уточнения таксономических названий, географической привязки, удаления дубликатов и т. д. Список инструментов <<helpful-tools,helpful tools>> приведен в разделе, посвящённом управлению данными."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:61
 #, no-wrap
 msgid "Data publishing review solutions"
-msgstr ""
+msgstr "Решения для проверки публикуемых данных"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:64
@@ -195,110 +195,110 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:68
 msgid "Data publishing within GBIF means making your biodiversity dataset(s) publicly accessible in a standardized format (most of the time, Darwin Core), so that it can be discovered and reused by other people."
-msgstr ""
+msgstr "Публикация данных через GBIF означает предоставление открытого доступа к вашим наборам данных о биоразнообразии в стандартизированном формате (в большинстве случаев Darwin Core), чтобы другие пользователи могли находить и повторно использовать эти данные."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:70
 #, no-wrap
 msgid "*What is an IPT?*\n"
-msgstr ""
+msgstr "*Что такое IPT?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:72
 msgid "a tool that helps you publish your data to GBIF"
-msgstr ""
+msgstr "инструмент, который поможет вам опубликовать свои данные в GBIF"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:73
 msgid "a tool that helps you produce a Data paper"
-msgstr ""
+msgstr "инструмент, который поможет вам подготовить статью, основанную на данных"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:76
 msgid "The IPT (Integrated Publishing Toolkit) is a Java-coded software that allows you to upload and publish data to GBIF.  It is not to be used as a data management or data cleaning tool."
-msgstr ""
+msgstr "IPT (Integrated Publishing Toolkit) — это программное обеспечение, написанное на языке Java, которое позволяет загружать и публиковать данные в GBIF.  Оно не предназначено для использования в качестве инструмента управления данными или их очистки."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:78
 msgid "The IPT can also help you with the process of writing and submitting a data paper, thanks to the EML file it generates automatically when you fill in the metadata for your data resource."
-msgstr ""
+msgstr "IPT также может помочь в подготовке и подаче статьи о данных (Data Paper) благодаря файлу EML, который автоматически создаётся при заполнении метаданных вашего информационного ресурса."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:80
 #, no-wrap
 msgid "*Which Creative Commons licences and waivers are recommended by GBIF for data publication?*\n"
-msgstr ""
+msgstr "*Какие лицензии Creative Commons и отказы от прав рекомендует GBIF для публикации данных?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:82
 msgid "CC0, CC-BY and CC-BY-NC"
-msgstr ""
+msgstr "CC0, CC-BY и CC-BY-NC"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:85
 msgid "The Creative Commons licences and waivers recommended to publish your dataset(s) to GBIF are CC0, CC-BY and CC-BY-NC.  They are widely recognized licenses and/or waivers that align with international open-data requirements for data sharing and re-use."
-msgstr ""
+msgstr "Для публикации ваших наборов данных через GBIF рекомендуются лицензии и отказ от авторских прав Creative Commons: CC0, CC BY и CC BY-NC. Они широко признаны и соответствуют международным требованиям к открытым данным в отношении обмена и повторного использования данных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:87
 msgid "Please note that you should only choose CC0 or CC-BY waiver/license for your BID-related dataset(s)."
-msgstr ""
+msgstr "Обращаем ваше внимание на то, что для наборов данных, связанных с BID, следует выбирать только лицензию CC0 или CC-BY."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:89
 #, no-wrap
 msgid "*What are the three Cores from which you can choose for an IPT resource?*\n"
-msgstr ""
+msgstr "*Какие три ядра можно выбрать для ресурса в IPT?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:91
 msgid "Occurrence Core, Taxon Core, Event Core"
-msgstr ""
+msgstr "Ядро находок организмов (Occurrence), таксономическое ядро (Taxon), ядро событий отбора проб (Event)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:93
 msgid "You can choose one of the three following Cores for each of your IPT resources: Occurrence, Taxon or Event Core."
-msgstr ""
+msgstr "ля каждого ресурса IPT можно выбрать одно из трёх доступных ядер: ядро Occurrence, ядро Taxon или ядро Event."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:95
 msgid "The Darwin Core standard also allows you to link extensions to your chosen Core, such as SimpleMultimedia or MeasurementOrFact."
-msgstr ""
+msgstr "Стандарт Darwin Core также позволяет связывать расширения с выбранным вами ядром (Core), например SimpleMultimedia или MeasurementOrFact."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:97
 msgid "The metadata are filled in a separate section of the IPT and are shared using the EML standard, not the Darwin Core (which is used for data only)."
-msgstr ""
+msgstr "Метаданные заполняются в отдельном разделе IPT и публикуются с использованием стандарта EML, а не Darwin Core, который используется только для данных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:99
 #, no-wrap
 msgid "*How many Extensions files can a dataset have?*\n"
-msgstr ""
+msgstr "*Сколько файлов расширений может содержать набор данных?*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:101
 msgid "as many as needed"
-msgstr ""
+msgstr "столько, сколько потребуется"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:104
 msgid "Once you have chosen a Core for your IPT resource, you can add Darwin core extensions to it.  You can add only one or several extensions, depending on the type of Core you chose, and which extensions are compatible with it."
-msgstr ""
+msgstr "После выбора ядра для ресурса в IPT к нему можно добавить расширения Darwin Core. В зависимости от выбранного ядра и совместимых с ним расширений можно добавить одно или несколько расширенийы."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:106
 msgid "Extensions are not mandatory (you can publish a dataset without any extension) but can be useful if you want to share additional information that you could not map with your chosen Core."
-msgstr ""
+msgstr "Расширения не являются обязательными (набор данных можно опубликовать и без них), но они могут быть полезны, если вы хотите предоставить дополнительную информацию, которую невозможно сопоставить с полями выбранного ядра."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:107
 #, no-wrap
 msgid "Practice Use Case suggested solution"
-msgstr ""
+msgstr "Предлагаемый вариант решения практического кейса (Practice Use Case)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/solutions.adoc:110
 msgid "xref:attachment$UC-Practice-suggested-solution.docx[Suggested solution,opts=download] (4 MB)  xref:attachment$UC-Practice-1-ForCapture-example.xlsx[Exercise 1c capture example spreadsheet,opts=download] (4 MB)"
-msgstr ""
+msgstr "xref:attachment$UC-Practice-suggested-solution.docx[Рекомендуемое решение,opts=download] (4 МБ)  xref:attachment$UC-Practice-1-ForCapture-example.xlsx[Таблица с примером для упражнения 1c (захват данных),opts=download] (4 МБ)"
 
