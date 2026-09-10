@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-09-10 16:41\n"
+"PO-Revision-Date: 2026-09-10 18:02\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -957,12 +957,12 @@ msgstr "Обзор и демонстрация IPT"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:233
 msgid "During this demonstration, you will receive an overview of the IPT data publishing interface and you will learn how to publish an occurrence dataset using an IPT."
-msgstr ""
+msgstr "В ходе этой демонстрации вы познакомитесь с интерфейсом IPT для публикации данных и узнаете, как опубликовать набор данных о находках организмов с помощью IPT."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
 msgid "A live demonstration will be provided. Visit the https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] for full documentation."
-msgstr ""
+msgstr "Будет проведена демонстрация работы с IPT в режиме реального времени. Полную документацию можно найти в [руководстве пользователя IPT] по адресу https://ipt.gbif.org/manual/en/ipt/latest/."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:237
@@ -980,7 +980,7 @@ msgstr ""
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:242
 msgid "In this exercise, you will publish an event dataset using the IPT."
-msgstr ""
+msgstr "В этом задании вы опубликуете набор данных о событиях отбора проб с помощью IPT."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:245
@@ -992,42 +992,42 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:105
 #, no-wrap
 msgid "*Data publishing*\n"
-msgstr ""
+msgstr "*Публикация данных*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:247
 msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. They plan on assigning the data with a CC0 waiver. You have been requested to lead that publishing work."
-msgstr ""
+msgstr "После очистки данных команда решила, что публикация набора данных в открытом доступе через GBIF может стать хорошим способом сделать результаты этой работы более заметными. Они планируют разместить данные под лицензией CC0. Вам поручено организовать и провести работу по их публикации."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:249
 msgid "Download xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 KB)"
-msgstr ""
+msgstr "Скачать внешнюю ссылку: приложение$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250
 msgid "Open the file in Excel and export each tab as an individual CSV file (resulting in 4 files for upload to the IPT)."
-msgstr ""
+msgstr "Откройте файл в Excel и экспортируйте каждую вкладку в отдельный файл CSV (в результате получится 4 файла для загрузки в IPT)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:251
 msgid "Use the assigned IPT installation to publish the dataset and register it with GBIF."
-msgstr ""
+msgstr "Используйте предоставленную вам установку IPT, чтобы опубликовать набор данных и зарегистрировать его в GBIF."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:254
 msgid "https://training-ipt-a.gbif.org/ \t"
-msgstr ""
+msgstr "https://training-ipt-a.gbif.org/ \t"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:255
 msgid "https://training-ipt-b.gbif.org/\t"
-msgstr ""
+msgstr "https://training-ipt-b.gbif.org/\t"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
 msgid "https://training-ipt-c.gbif.org/"
-msgstr ""
+msgstr "https://training-ipt-c.gbif.org/"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -1052,7 +1052,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:282
 msgid "What is an IPT?"
-msgstr ""
+msgstr "Что такое IPT?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:288
@@ -1060,13 +1060,15 @@ msgstr ""
 msgid "- [ ] a tool that helps you manage & correct your data\n"
 "- [x] a tool that helps you publish your data to GBIF\n"
 "- [x] a tool that helps you produce a Data paper\n"
-msgstr ""
+msgstr "- [ ] инструмент, который помогает управлять данными и исправлять их\n"
+"- [x] инструмент, который помогает публиковать данные через GBIF\n"
+"- [x] инструмент, который помогает подготовить статью о данных (Data Paper)\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:291
 msgid "Which Creative Commons licences and waivers are recommended by GBIF for data publication?"
-msgstr ""
+msgstr "Какие лицензии Creative Commons и отказы от прав рекомендует GBIF для публикации данных?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:297
@@ -1074,13 +1076,15 @@ msgstr ""
 msgid "- [ ] CC-BY, CC-BY-SA and CC-BY-ND\n"
 "- [x] CC0, CC-BY and CC-BY-NC\n"
 "- [ ] CC0, CC-BY and CC-BY-SA\n"
-msgstr ""
+msgstr "- [ ] CC-BY, CC-BY-SA и CC-BY-ND\n"
+"- [x] CC0, CC-BY и CC-BY-NC\n"
+"- [ ] CC0, CC-BY и CC-BY-SA\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:300
 msgid "What are the three Cores from which you can choose for an IPT resource?"
-msgstr ""
+msgstr "Какие три ядра можно выбрать для ресурса в IPT?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:306
@@ -1088,13 +1092,15 @@ msgstr ""
 msgid "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
 "- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
 "- [x] Occurrence Core, Taxon Core, Event Core\n"
-msgstr ""
+msgstr "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
+"- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
+"- [x] Occurrence Core, Taxon Core, Event Core\n"
 
 #.  Question 5
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:309
 msgid "How many Extensions files can a dataset have?"
-msgstr ""
+msgstr "Сколько файлов расширений может содержать набор данных?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:315
@@ -1102,5 +1108,7 @@ msgstr ""
 msgid "- [ ] zero\n"
 "- [ ] one\n"
 "- [x] as many as needed\n"
-msgstr ""
+msgstr "- [ ] ноль\n"
+"- [ ] один\n"
+"- [x] столько, сколько нужно\n"
 
