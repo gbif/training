@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-09-10 10:17\n"
+"PO-Revision-Date: 2026-09-10 11:18\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1116,91 +1116,91 @@ msgstr "Данная презентация входит в серию мате�
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:387
 #, no-wrap
 msgid "Exercise 2b"
-msgstr ""
+msgstr "Упражнение 2b"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:392
 msgid "For this exercise, you will practice cleaning data using Excel and other helpful tools."
-msgstr ""
+msgstr "В этом задании вы попрактикуетесь в очистке данных с помощью Excel и других полезных инструментов."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:395
 #, no-wrap
 msgid "*Data cleaning with Excel*\n"
-msgstr ""
+msgstr "*Очистка данных в Excel*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:397
 msgid "SBN has given you a checklist of data quality elements to verify:"
-msgstr ""
+msgstr "SBN предоставила вам перечень элементов качества данных, которые необходимо проверить:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:399
 msgid "All names are correctly spelled and are butterflies"
-msgstr ""
+msgstr "Все названия написаны правильно и относятся к бабочкам"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:400
 msgid "All names are complete"
-msgstr ""
+msgstr "Все имена указаны полностью"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:401
 msgid "All coordinates are inside the country stated and converted to decimal format"
-msgstr ""
+msgstr "Все координаты находятся на территории указанной страны и приведены к десятичному формату"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:402
 msgid "All dates are in the proper column and in the format YYYY-MM-DD"
-msgstr ""
+msgstr "Все даты указаны в соответствующем столбце в формате ГГГГ-ММ-ДД"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:404
 msgid "Refer to <<Helpful tools>> in order to complete the exercise. It is suggested to use the https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], the http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] and http://splink.cria.org.br/infoxy?criaLANG=en[InfoXY^]. You are not limited to these tools, you may use any tools you like."
-msgstr ""
+msgstr "Для выполнения задания обратитесь к <<Helpful tools>>. Рекомендуется использовать https://www.gbif.org/tools/species-lookup[инструмент сопоставления видов GBIF^], http://data.canadensys.net/tools/coordinates[конвертер координат Canadensys^] и http://splink.cria.org.br/infoxy?criaLANG=en[InfoXY^]. Вы не ограничены этими инструментами, можете использовать любые, которые вам нравятся."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:405
 msgid "Continue using the same file from the previous exercise."
-msgstr ""
+msgstr "Продолжайте работать с тем же файлом, что и в предыдущем упражнении."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:406
 msgid "Correct any additional errors found in the dataset and document the changes you perform in the exercise sheet."
-msgstr ""
+msgstr "Исправьте все дополнительные ошибки, обнаруженные в наборе данных, и зафиксируйте внесенные изменения в рабочем листе."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:413
 msgid "In this video (03:27), you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data. Subtitles for this video are available in French and Spanish."
-msgstr ""
+msgstr "В этом видео (03:27) вы узнаете о https://openrefine.org/[OpenRefine^]. С помощью OpenRefine вы сможете стандартизировать свои данные и повысить их качество. Субтитры к этому видео доступны на французском и испанском языках."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:415
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 7.7 MB)"
-msgstr ""
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке:$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download]. При скачивании субтитры недоступны. (MP4 — 7,7 МБ)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:434
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:437
 #, no-wrap
 msgid "*Slide 1 - Data management - OpenRefine*\n"
-msgstr ""
+msgstr "*Слайд 1 — Работа с данными — OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:439
 msgid "In this presentation, we are going to introduce OpenRefine as a tool for data cleaning."
-msgstr ""
+msgstr "В этой презентации мы расскажем об OpenRefine как об инструменте для очистки данных."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:440
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:443
@@ -1282,95 +1282,95 @@ msgstr "*Слайд 5 — Сравнение функциональных воз
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:471
 msgid "As OpenRefine is a different kind of tool, you should consider when it is appropriate to use it versus other tools."
-msgstr ""
+msgstr "Поскольку OpenRefine отличается от других инструментов, следует понимать, в каких случаях целесообразно использовать именно его, а в каких — другие инструменты."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:473
 msgid "A database provides infrastructure for storage and indexing of data. Generally, it requires programming skills to edit and is absent of easy visualization."
-msgstr ""
+msgstr "База данных обеспечивает инфраструктуру для хранения и индексирования данных. Как правило, для редактирования данных в ней требуются навыки программирования, а возможности для их простой визуализации отсутствуют."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:475
 msgid "Excel is a spreadsheet application. It is useful for documenting data and performing operations. And while you can manage your data and have limited ability to clean and standardize your data, it is usually restricted to editing cell by cell. Data is not always visible and it lacks powerful visualization tools."
-msgstr ""
+msgstr "Excel — это приложение для работы с электронными таблицами. Оно удобно для документирования данных и выполнения различных операций. Хотя Excel позволяет управлять данными и предоставляет некоторые возможности для их очистки и стандартизации, редактирование обычно выполняется на уровне отдельных ячеек. При этом данные не всегда удобно просматривать, а возможности их визуализации ограничены."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:477
 msgid "OpenRefine in contrast offers multi-cell editing, easy exploration and transformation and interactive visualization. But as mentioned previously, it is not for storing and managing data."
-msgstr ""
+msgstr "В отличие от них, OpenRefine позволяет редактировать сразу множество ячеек, легко исследовать и преобразовывать данные, а также использовать интерактивную визуализацию. Однако, как уже отмечалось ранее, OpenRefine не предназначен для хранения данных и управления ими."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:478
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide6.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide6.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:481
 #, no-wrap
 msgid "*Slide 6 - OpenRefine features*\n"
-msgstr ""
+msgstr "*Слайд 6 — Возможности OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:483
 msgid "So now that you understand the differences, here is a list of useful features that you will find within OpenRefine. You will soon have an opportunity to complete a tutorial to try all the features."
-msgstr ""
+msgstr "Теперь, когда вы понимаете эти различия, рассмотрим некоторые полезные функции OpenRefine. Вскоре у вас будет возможность пройти практическое руководство и попробовать все эти функции в работе."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:485
 msgid "OpenRefine is a software that you install on your computer. It requires the JAVA JRE/JDK to run. It works on Windows, Mac and Linux."
-msgstr ""
+msgstr "OpenRefine — это программное обеспечение, которое устанавливается на компьютер. Для его работы требуется Java JRE/JDK. OpenRefine работает в Windows, macOS и Linux."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:487
 msgid "As OpenRefine is free and open source, it is supported by a large community of developers and users. It easy to find tutorials online on how to use the tool."
-msgstr ""
+msgstr "Поскольку OpenRefine является бесплатным программным обеспечением с открытым исходным кодом, его поддерживает большое сообщество разработчиков и пользователей. В интернете легко найти обучающие материалы по работе с этим инструментом."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:488
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide7.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide7.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:491
 #, no-wrap
 msgid "*Slide 7 - Conclusion*\n"
-msgstr ""
+msgstr "*Слайд 7 — Заключение*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:495
 msgid "This is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Nestor Beltran with additional contributions by Sharon Grant, David Bloom, GBIF Trainers, Mentors and Students. This presentation has been narrated by Laura Anne Russell."
-msgstr ""
+msgstr "Эта презентация является частью серии презентаций, используемых в курсе GBIF по мобилизации данных о биоразнообразии. Учебная программа по мобилизации данных о биоразнообразии была первоначально разработана в рамках Программы развития информационных ресурсов по биоразнообразию (Biodiversity Information for Development Programme), финансируемой Европейским союзом.    Данная презентация была первоначально создана Nestor Beltran при дополнительном участии Sharon Grant, David Bloom, тренеров, наставников и студентов GBIF. Озвучивание презентации выполнила Laura Anne Russell."
 
 #. type: Title ====
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:499
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:506
 #, no-wrap
 msgid "Exercise 2c"
-msgstr ""
+msgstr "Упражнение 2c"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:504
 msgid "In this exercise you will use OpenRefine to improve the quality of a dataset by using the default features, existing web services and regular expressions."
-msgstr ""
+msgstr "В этом упражнении вы будете использовать OpenRefine для повышения качества набора данных с помощью встроенных функций, существующих веб-сервисов и регулярных выражений."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:509
 msgid "Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 KB)"
-msgstr ""
+msgstr "Скачать внешнюю ссылку: приложение$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 КБ)"
 
 #. Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download].
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:510
 msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2.2 MB)"
-msgstr ""
+msgstr "Скачайте и выполните упражнения, приведенные в вложении:$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2,2 МБ)"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:513
 #, no-wrap
 msgid "Exercise resources"
-msgstr ""
+msgstr "Ресурсы для выполнения задания"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:515
@@ -1503,13 +1503,13 @@ msgstr "Полезные инструменты"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:561
 #, no-wrap
 msgid "*Taxonomy*\n"
-msgstr ""
+msgstr "*Таксономия*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:563
 #, no-wrap
 msgid "*GBIF Species Matching: https://www.gbif.org/tools/species-lookup\n"
-msgstr ""
+msgstr "*Поиск видов в базе данных GBIF: https://www.gbif.org/tools/species-lookup\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:564
@@ -1527,13 +1527,13 @@ msgstr "*Global Names Resolver*: http://resolver.globalnames.org\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:566
 #, no-wrap
 msgid "*Catalogue of Life checklist bank name match*: https://www.checklistbank.org/tools/name-match\n"
-msgstr ""
+msgstr "*Сопоставление названий в банке контрольных списков «Catalogue of Life»*: https://www.checklistbank.org/tools/name-match\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:567
 #, no-wrap
 msgid "*iPlant TNRS*: http://tnrs.iplantcollaborative.org/\n"
-msgstr ""
+msgstr "*iPlant TNRS*: http://tnrs.iplantcollaborative.org/\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:568
@@ -1545,7 +1545,7 @@ msgstr "*WoRMS*: https://www.marinespecies.org/aphia.php?p=match\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:570
 #, no-wrap
 msgid "*Georeferencing*\n"
-msgstr ""
+msgstr "*Географическая привязка*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:572
@@ -1557,7 +1557,7 @@ msgstr "*InfoXY*: http://splink.cria.org.br/infoxy?criaLANG=en\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:573
 #, no-wrap
 msgid "*Georeferencing Calculator*: https://georeferencing.org/calculator/\n"
-msgstr ""
+msgstr "*Georeferencing Calculator*: https://georeferencing.org/calculator\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:574
@@ -1575,7 +1575,7 @@ msgstr "*Карты Google*: https://maps.google.com/\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:577
 #, no-wrap
 msgid "*Dates*\n"
-msgstr ""
+msgstr "*Даты*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:579
@@ -1633,7 +1633,7 @@ msgstr ""
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:596
 msgid "Why is it best to clean your data?"
-msgstr ""
+msgstr "Почему важно очищать данные?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:602
@@ -1641,13 +1641,15 @@ msgstr ""
 msgid "- [x] to make them as fit for use as possible\n"
 "- [x] to achieve your data quality goals\n"
 "- [ ] data should be cleaned by the users, not the providers\n"
-msgstr ""
+msgstr "- [x] чтобы сделать их максимально пригодными для использования\n"
+"- [x] чтобы достичь поставленных целей в области качества данных\n"
+"- [ ] данные должны очищаться пользователями, а не их поставщиками\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:605
 msgid "How should you organize your data cleaning workflow?"
-msgstr ""
+msgstr "Как следует организовать рабочий процесс очистки данных?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:611
@@ -1655,13 +1657,15 @@ msgstr ""
 msgid "- [ ] work alone, you know your data best\n"
 "- [x] ask your colleagues for expertise\n"
 "- [x] work at an institutional level to harmonize data quality workflows\n"
-msgstr ""
+msgstr "- [ ] работать самостоятельно — вы лучше всех знаете свои данные\n"
+"- [x] обращаться за экспертной помощью к коллегам\n"
+"- [x] работать на институциональном уровне над согласованием рабочих процессов по обеспечению качества данных\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:614
 msgid "Which is best:"
-msgstr ""
+msgstr "Что лучше:"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:620
@@ -1669,13 +1673,15 @@ msgstr ""
 msgid "- [x] prevent errors from occurring\n"
 "- [x] correct errors as soon as you find them in your database or spreadsheet\n"
 "- [ ] not cleaning errors but documenting them as you go, so people who reuse your data know where they are\n"
-msgstr ""
+msgstr "- [x] предотвращать возникновение ошибок\n"
+"- [x] исправлять ошибки сразу же после их обнаружения в базе данных или таблице\n"
+"- [ ] не исправлять ошибки, а фиксировать их по мере работы, чтобы те, кто будет использовать ваши данные, знали, где они находятся\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:623
 msgid "Whose responsibility is data quality?"
-msgstr ""
+msgstr "Кто несет ответственность за качество данных?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:632
@@ -1686,13 +1692,18 @@ msgid "- [ ] The person(s) who record data on the field\n"
 "- [x] Everyone involved in the management of data\n"
 "- [ ] The people who use your data\n"
 "- [ ] GBIF\n"
-msgstr ""
+msgstr "- [ ] Лица, осуществляющие сбор данных в полевых условиях\n"
+"- [ ] Лица, занимающиеся вводом данных\n"
+"- [ ] Администратор базы данных\n"
+"- [x] Все лица, участвующие в управлении данными\n"
+"- [ ] Пользователи ваших данных\n"
+"- [ ] GBIF\n"
 
 #.  Question 5
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:635
 msgid "Which tools can be used to clean your data ?"
-msgstr ""
+msgstr "Какие инструменты можно использовать для очистки данных?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:642
@@ -1701,5 +1712,8 @@ msgid "- [x] Excel & other spreadsheets management tools\n"
 "- [x] OpenRefine\n"
 "- [x] Your database software\n"
 "- [x] Online tools such as Scientific Names Resolver or Google Maps\n"
-msgstr ""
+msgstr "- [x] Excel и другие программы для работы с таблицами\n"
+"- [x] OpenRefine\n"
+"- [x] Ваша программа для работы с базами данных\n"
+"- [x] Онлайн-инструменты, такие как Scientific Names Resolver или Google Maps\n"
 
