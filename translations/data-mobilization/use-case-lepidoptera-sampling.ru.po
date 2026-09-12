@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-09-12 14:14\n"
+"PO-Revision-Date: 2026-09-12 16:02\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -261,72 +261,72 @@ msgstr "В большинстве стран такие учёты провод�
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:48
 msgid "There are quality control measures in place: every reported record is flagged \"Pending approval\".  Record status is only changed to \"Approved\" after verification by a designated taxonomic expert.  Species spotted out of their regular season or distribution area are flagged for additional verification."
-msgstr ""
+msgstr "Предусмотрены меры контроля качества: каждой поступившей записи присваивается статус «Ожидает подтверждения» (Pending approval). Статус записи изменяется на «Подтверждено» (Approved) только после проверки назначенным экспертом по соответствующей таксономической группе. Записи о видах, отмеченных вне обычного для них сезона или ареала распространения, направляются на дополнительную проверку."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:54
 msgid "Time of day and weather conditions are recorded at the beginning of the transect.  Along the transect, the number of individuals of every species seen is counted.  Un-identified species are counted and recorded either by family or as a predefined complex of two or three similar species.  Butterflies seen outside the 5 meter range are recorded as “Extra+the number of the nearest section” (e.g. 5-extra).  The end time of the transect is also recorded."
-msgstr ""
+msgstr "В начале прохождения трансекты регистрируются время суток и погодные условия. По ходу маршрута подсчитывается количество отмеченных особей каждого вида. Неопределённые виды также учитываются и регистрируются либо на уровне семейства, либо как один из заранее определённых комплексов, включающих два или три сходных вида. Бабочки, обнаруженные за пределами 5-метровой полосы учёта, регистрируются как «Extra + номер ближайшего участка» (например, 5-extra). Также регистрируется время окончания прохождения трансекты."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:55
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:101
 #, no-wrap
 msgid "Analogue data capture example"
-msgstr ""
+msgstr "Пример сбора данных в аналоговом формате"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:57
 #, no-wrap
 msgid "data-mobilization::use-case-2-lepidoptera-analogue.png"
-msgstr ""
+msgstr "data-mobilization::use-case-2-lepidoptera-analogue.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:64
 msgid "Some national offices use groups of volunteers to digitize the paper logs and produce digital spreadsheets.  The spreadsheets are very simple and include three datasheets.  One captures the information linked to the sampling efforts, the second the weather conditions and the third the species encountered and the number of individuals observed by the amateur."
-msgstr ""
+msgstr "Некоторые национальные отделения прибегают к помощи групп волонтеров для оцифровки бумажных журналов и создания цифровых таблиц. Эти таблицы имеют очень простую структуру и состоят из трёх листов. На первом регистрируется информация, связанная с проведением отбора проб, на втором — погодные условия, а на третьем — отмеченные виды и количество особей, зарегистрированных наблюдателем-любителем."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:65
 #, no-wrap
 msgid "data-mobilization::use-case-2-lepidoptera-digital-1.png"
-msgstr ""
+msgstr "data-mobilization::use-case-2-lepidoptera-digital-1.png"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:66
 #, no-wrap
 msgid "data-mobilization::use-case-2-lepidoptera-digital-2.png"
-msgstr ""
+msgstr "data-mobilization::use-case-2-lepidoptera-digital-2.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:71
 msgid "Download the xref:attachment$UC-LS-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 342 KB)"
-msgstr ""
+msgstr "Скачайте файл по ссылке:$UC-LS-exercise-sheet_EN.docx[рабочий лист, opts=download]. (MS Word, 342 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:77
 msgid "Imagine you are one of the volunteers digitizing the paper logs received at the IBAN headquarters. You have received two paper logs."
-msgstr ""
+msgstr "Представьте, что вы — один из волонтеров, занимающихся оцифровкой бумажных журналов, поступивших в штаб-квартиру IBAN. Вы получили два таких журнала."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:79
 msgid "Download logs 1 and 2 xref:attachment$UC-LS-1-ForCapture.zip[UC-LS-1-ForCapture.zip]. (943 KB)"
-msgstr ""
+msgstr "Скачать журналы 1 и 2: ссылка на вложение$UC-LS-1-ForCapture.zip[UC-LS-1-ForCapture.zip]. (943 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:80
 msgid "What data structure would you use to reflect the data in these logs?"
-msgstr ""
+msgstr "Какую структуру данных вы бы использовали для представления информации, содержащейся в этих журналах учёта?"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:81
 msgid "Create a spreadsheet using this structure and the data from the logs."
-msgstr ""
+msgstr "Создайте таблицу, используя выбранную структуру и данные из журналов учёта."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:90
 msgid "Taking the role of one of the volunteers with advanced computer skills, imagine you have been assigned the responsibility for data quality issues.  Your main task is to reduce the amount of data that is currently discarded (around a 15%) before processing due to errors and inconsistencies.  You have received a dataset as the raw product of the digitization effort."
-msgstr ""
+msgstr "Возьмите на себя роль одного из волонтёров, обладающего продвинутыми навыками работы с компьютером и отвечающего за качество данных. Ваша основная задача — сократить объём данных, которые в настоящее время исключаются перед дальнейшей обработкой из-за ошибок и несоответствий (около 15%). Вы получили набор исходных данных, полученный в результате оцифровки."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:92
