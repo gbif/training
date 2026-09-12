@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-09-10 19:07\n"
+"PO-Revision-Date: 2026-09-12 05:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -111,12 +111,12 @@ msgstr "data-mobilization::use-case-BL-scanner.png"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:17
 msgid "This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Alberto González-Talaván, Andrea Hahn, Laura Russell and Sharon Grant.  It is based upon a previous adaptation by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Russell, Mélianie Raymond and Nicolas Noé."
-msgstr ""
+msgstr "Данный сценарий был разработан в качестве основы для практических занятий в рамках курса по мобилизации данных о биоразнообразии; концепция и содержание упражнений были разработаны lberto González-Talaván, Andrea Hahn, Laura Russell и Sharon Grant.  Она основана на ранее подготовленной адаптации, авторами которой являются Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Russell, Mélianie Raymond и Nicolas Noé."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:20
 msgid "It is a fictionalized scenario based on a real project and dataset and is meant only for instructional purposes.  The https://danbif.dk/se-eksempler/fyrfaldne-fugle/[original project] and the https://www.gbif.org/dataset/ad331dcc-d0fa-4816-b1e6-d36f9f899c49[original dataset] are attributed to the Danish GBIF Node, https://danbif.dk/[DanBIF]."
-msgstr ""
+msgstr "Это вымышленный сценарий, основанный на реальном проекте и наборе данных, и предназначен исключительно для учебных целей.  https://danbif.dk/se-eksempler/fyrfaldne-fugle/ [исходный проект] и https://www.gbif.org/dataset/ad331dcc-d0fa-4816-b1e6-d36f9f899c49 [исходный набор данных] принадлежат датскому узлу GBIF, https://danbif.dk/ [DanBIF]."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:21
@@ -134,37 +134,37 @@ msgstr "Описание"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:26
 msgid "The Natural History Museum of Denmark (NHM-DK) is a research centre associated with the University of Copenhagen.  Their library is a member of the national library association who recently received state funding to make available online the resources held by its members.  The NHM-DK would like to begin digitization of the field notebooks, journal publications and books held in their library, some of which have significant historic value."
-msgstr ""
+msgstr "Датский музей естественной истории (NHM-DK) — это научно-исследовательский центр, связанный с Копенгагенским университетом.  Его библиотека входит в состав национальной библиотечной ассоциации, которая недавно получила государственное финансирование для обеспечения онлайн-доступа к ресурсам, хранящимся у её членов.  NHM-DK планирует начать оцифровку хранящихся в библиотеке полевых дневников, журнальных публикаций и книг, некоторые из которых имеют значительную историческую ценность."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:30
 msgid "After a short consultation with their regular partners, NHM-DK received a suggestion from the Head of the management office of the Nordjylland National Park.  They would like the contents of a particular classic literature compilation digitized for a project they are running: ‘Birds at the Danish Lighthouses, 1883–1939’ (In Danish, ‘Fuglene ved de danske Fyr, 1883–1939’).  They want to use any occurrence data recorded in those books from two lighthouses (Lodbjerg Fyr and Hanstholm Fyr) for an on-site exhibition project."
-msgstr ""
+msgstr "После короткой консультации со своими постоянными партнёрами NHM-DK получил предложение от руководителя административного офиса Национального парка Нордъюлланд. Для реализуемого ими проекта они хотели бы оцифровать содержание конкретного классического собрания литературных источников — «Птицы у датских маяков, 1883–1939 гг.» (на датском языке — «Fuglene ved de danske Fyr, 1883–1939»). Они планируют использовать для выставочного проекта непосредственно на территории парка все данные о находках организмов, приведённые в этих книгах для двух маяков — Lodbjerg Fyr и Hanstholm Fyr."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:34
 msgid "The NHM-DK has started discussions with their national GBIF node, DanBIF, about the mobilization of the information contained in these volumes, namely to preserve their contents for the future and provide online access for everyone.  With the involvement of DanBIF, there is intent to publish and register the resulting extracted data with GBIF.  As GBIF requires a license be applied with all published data, the museum has decided to publish the data with a Creative Commons license allowing use of data with attribution (CC-BY)."
-msgstr ""
+msgstr "NHM-DK начал обсуждение с национальным узлом GBIF в Дании — DanBIF — вопросов мобилизации информации, содержащейся в этих изданиях, с целью сохранить их содержание для будущего и обеспечить открытый онлайн-доступ для всех пользователей. При участии DanBIF планируется опубликовать извлечённые данные и зарегистрировать их в GBIF. Поскольку GBIF требует указания лицензии для всех публикуемых данных, музей решил опубликовать их на условиях лицензии Creative Commons, разрешающей использование данных с указанием авторства (CC BY)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:36
 msgid "The IT services required are provided by the Technology Unit of the University of Copenhagen, as for all museum digital projects."
-msgstr ""
+msgstr "Все необходимые ИТ-услуги, как и для других цифровых проектов музея, предоставляет Технологическое подразделение Копенгагенского университета."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:38
 msgid "The NHM-DK deputy director, who is coordinating this piece of work has developed a general outline for the work:"
-msgstr ""
+msgstr "Заместитель директора NHM-DK, координирующий эту работу, разработал общий план её выполнения:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:41
 msgid "The museum will carry out the digitization of the literature using two library staff members trained in the use of the library scanner to scan delicate volumes.  They will also extract text from the scans through OCR (Optical Character Recognition) software."
-msgstr ""
+msgstr "Оцифровку литературы в музее будут выполнять два сотрудника библиотеки, обученные работе с библиотечным сканером для сканирования хрупких изданий. Они также будут извлекать текст из отсканированных материалов с помощью программного обеспечения для оптического распознавания текста (OCR)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:43
 msgid "Three volunteers from the Copenhagen Ornithological Society (COS) who regularly collaborate with the museum and are familiar with the birds of the region have been enlisted to assist and will complete the transfer of data from the scanned PDFs into spreadsheet format.  They will need to go to the museum and use the computers available in the library to gain access to the files stored in the museum intranet (private network)."
-msgstr ""
+msgstr "Для участия в работе были привлечены три волонтёра Копенгагенского орнитологического общества (COS), которые регулярно сотрудничают с музеем и хорошо знакомы с птицами региона. Они будут переносить данные из отсканированных PDF-файлов в электронные таблицы. Для доступа к файлам, хранящимся во внутренней сети музея (интранете), им необходимо будет работать непосредственно в музее, используя компьютеры библиотеки."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:47
