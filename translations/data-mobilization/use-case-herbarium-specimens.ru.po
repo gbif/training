@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-09-12 08:49\n"
+"PO-Revision-Date: 2026-09-12 09:45\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -160,50 +160,50 @@ msgstr "Используйте лист задания для внесения �
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:1
 #, no-wrap
 msgid "Use Case I - Herbarium Specimens"
-msgstr ""
+msgstr "Практический кейс I — Гербарные образцы"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:10
 #, no-wrap
 msgid "*A Data Mobilization Project in a Regional Herbarium*\n"
-msgstr ""
+msgstr "*Проект по мобилизации данных регионального гербария*\n"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:12
 #, no-wrap
 msgid "https://www.gbif.org/occurrence/1228493621[Eriocaulon bilobatum Morong] collected in Guatemala by Rapid Reference Collection (RRC) | Field Museum of Natural History - Keller Action Science Center (licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC 4.0])"
-msgstr ""
+msgstr "https://www.gbif.org/occurrence/1228493621 [Eriocaulon bilobatum Morong], собранный в Гватемале в рамках проекта «Rapid Reference Collection» (RRC) | Полевой музей естественной истории — Научный центр имени Келлера (лицензия http://creativecommons.org/licenses/by-nc/4.0/ [CC-BY-NC 4.0])"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:13
 #, no-wrap
 msgid "data-mobilization::use-case-HS-Eriocaulon_bilobatum-cropped.png"
-msgstr ""
+msgstr "data-mobilization::use-case-HS-Eriocaulon_bilobatum-cropped.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:16
 msgid "This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Alberto González-Talaván, Néstor Beltrán, Nicolas Noé, Sharon Grant. The data are from a real dataset, but have been modified for the purposes of these exercises. It is a fictionalized scenario and is meant only for instructional purposes."
-msgstr ""
+msgstr "Этот учебный сценарий был разработан в качестве основы для практических заданий курса по мобилизации данных о биоразнообразии. Концепция и содержание заданий были подготовлены Альберто Гонсалесом-Талаваном (Alberto González-Talaván), Нестором Бельтраном (Néstor Beltrán), Николя Ноэ (Nicolas Noé) и Шэрон Грант (Sharon Grant). Данные взяты из реального набора данных, но были изменены для целей этих заданий. Сценарий является вымышленным и предназначен исключительно для учебных целей."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:21
 msgid "The University of White Plains is a well recognized tertiary education institution in Guatemala and a national reference for biodiversity research.  The Plant Biology Department keeps a medium-size herbarium containing approximately 80,000 specimens collected in and around the local region and dating from the mid-20th century to the present.  The collection includes important specimens including types and endemics."
-msgstr ""
+msgstr "Университет Уайт-Плейнс (University of White Plains) — широко известное высшее учебное заведение в Гватемале и один из ведущих национальных центров исследований биоразнообразия. На кафедре биологии растений хранится гербарий среднего размера, насчитывающий около 80 000 образцов, собранных в этом регионе и его окрестностях с середины XX века до настоящего времени. Коллекция включает важные образцы, в том числе типовые экземпляры и эндемики."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:25
 msgid "Currently, the care of the collection is assigned to the Professor of Plant Systematics, who performs curatorial tasks as well as their regular research and teaching work.  The Departmental Admin is responsible for day-to-day administrative tasks for the herbarium such as purchasing consumables including paper and labels.  Faculty staff and students collaborating within the department occasionally work on and update the identifications on the specimens and there are two retired botanists who regularly volunteer in the collection assisting the Professor to prepare loans."
-msgstr ""
+msgstr "В настоящее время ответственность за коллекцию возложена на профессора систематики растений, который выполняет кураторские обязанности наряду со своей обычной исследовательской и преподавательской работой. Администратор кафедры отвечает за повседневные административные задачи, связанные с гербарием, например за закупку расходных материалов, включая бумагу и этикетки. Преподаватели и студенты, работающие на кафедре, время от времени занимаются коллекцией и обновляют определения образцов. Кроме того, два вышедших на пенсию ботаника регулярно работают в коллекции в качестве волонтёров, помогая профессору готовить материалы для выдачи во временное пользование."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:28
 msgid "The University already has an online search for its library collections which is maintained by the University’s central web-team on externally hosted servers.  No natural history specimens are currently served via this platform."
-msgstr ""
+msgstr "В университете уже существует онлайн-поиск по библиотечным фондам, который поддерживается центральной веб-командой университета на серверах, размещённых на внешних хостингах. В настоящее время данные о естественно-научных образцах через эту платформу не предоставляются."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:31
 msgid "The Head of the Plant Biology Department has recently secured a 50,000USD, two year grant to image and publish the botanical collections information online.  The team wants to use this opportunity to establish a permanent digitization and publishing protocol that will give higher visibility to the herbarium and continue attracting funding."
-msgstr ""
+msgstr "Руководитель кафедры биологии растений недавно получил грант в размере 50 000 долларов США на два года для оцифровки и публикации в Интернете информации о ботанических коллекциях. Команда хочет использовать эту возможность для создания постоянного протокола оцифровки и публикации данных, который позволит повысить узнаваемость гербария и продолжить привлечение финансирования."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:32
@@ -212,18 +212,18 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:32
 #, no-wrap
 msgid "Data collection"
-msgstr ""
+msgstr "Сбор данных"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:34
 #, no-wrap
 msgid "data-mobilization::use-case-HS-short-mountain-park.png"
-msgstr ""
+msgstr "data-mobilization::use-case-HS-short-mountain-park.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:40
 msgid "The herbarium comprises approximately 80,000 specimens collected from 1960 to 2015 concentrated mainly in the biodiversity hot spot -- Short Mountain National Park.  The collection is still growing as a result of exchanges, donations and several active research projects.  For each specimen, information about collector, time, date, location and taxonomy are documented.  So far no quality control measures have been carried out on the data and there has been no systematic imaging of specimens."
-msgstr ""
+msgstr "Гербарий насчитывает около 80 000 образцов, собранных в период с 1960 по 2015 год, преимущественно на территории центра биоразнообразия — Национального парка Шорт-Маунтин (Short Mountain National Park). Коллекция продолжает пополняться благодаря обменам, пожертвованиям и нескольким действующим исследовательским проектам. Для каждого образца документируется информация о коллекторе, времени, дате и месте сбора, а также таксономическая информация. До настоящего времени контроль качества этих данных не проводился, систематическое создание изображений образцов также не осуществлялось."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:41
