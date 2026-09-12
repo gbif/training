@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-09-12 09:45\n"
+"PO-Revision-Date: 2026-09-12 11:05\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -234,27 +234,27 @@ msgstr "Описание набора данных"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:44
 msgid "The professor has a simple non-relational database on his computer which serves as an index of many but not all specimens.  Any images of the specimens that exist are held locally by the individual researchers that took them."
-msgstr ""
+msgstr "У профессора на компьютере есть простая нереляционная база данных, которая служит каталогом многих, но не всех образцов. Все имеющиеся изображения образцов хранятся локально у тех исследователей, которые их сняли."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:48
 msgid "Download the xref:attachment$UC-HS-exercise-sheet_EN.docx[exercise sheet,opts=download] (MS Word 345 KB)."
-msgstr ""
+msgstr "Скачайте вложение xref:$UC-HS-exercise-sheet_EN.docx[лист упражнений, opts=download] (MS Word, 345 КБ)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:54
 msgid "Imagine that you are the person assigned to transcribe the data found on the herbarium sheets."
-msgstr ""
+msgstr "Представьте, что вам поручено перенести в цифровой формат данные, содержащиеся на гербарных листах."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:57
 msgid "Download xref:attachment$UC-HS-1-base-material.zip[UC-HS-1-base-material.zip,opts=download]. (34.4 MB). There are 10 images. Two images per specimen for a total of five specimens.  The herbarium sheets are in Spanish (data may come to you in various means and in other languages than your own), but you should be able to recognize the data contained in the fields on the labels. Remember to use both images per record to compile the information."
-msgstr ""
+msgstr "Скачайте файл xref:attachment$UC-HS-1-base-material.zip[UC-HS-1-base-material.zip,opts=download]. (34,4 МБ). В нём содержится 10 изображений — по два изображения для каждого образца, всего пять образцов.  Гербарные листы представлены на испанском языке (данные могут поступать к вам в различных форматах и на языках, отличных от вашего), однако вы должны быть способны распознать информацию, содержащуюся в полях этикеток. Не забывайте использовать оба изображения каждого образца при внесении информации."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:58
 msgid "Create a spreadsheet to transcribe the information found on each of the images for the five specimens. Consider additional fields where data can be derived from data on the logs."
-msgstr ""
+msgstr "Создайте таблицу, в которую нужно внести информацию, содержащуюся на каждом из изображений пяти экземпляров. Предусмотрите также дополнительные поля для данных, которые можно вывести на основе информации, указанной в записях."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:59
@@ -264,17 +264,17 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:95
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:101
 msgid "Use the exercise sheet to provide your answers and submit the spreadsheet."
-msgstr ""
+msgstr "Используйте лист с упражнениями, чтобы внести свои ответы, и отправьте заполненную электронную таблицу."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:65
 msgid "Your institution is part of the “Global Poales Association (GPA)”. This association has secured funding to publish an up-to-date flora on the group and has requested your herbarium to participate and provide any high quality records you may have on this order of plants. The order is well represented in your collection so you think you could contribute substantially to this effort."
-msgstr ""
+msgstr "Ваше учреждение входит в «Глобальную ассоциацию по изучению Poales» (Global Poales Association, GPA). Ассоциация получила финансирование для публикации современной флоры этой группы растений и предложила вашему гербарию принять участие в проекте, предоставив имеющиеся высококачественные данные о представителях этого порядка. Порядок Poales хорошо представлен в вашей коллекции, поэтому вы считаете, что ваш гербарий может внести существенный вклад в эту работу."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:67
 msgid "Download xref:attachment$UC-HS-2-data-cleaning.csv[UC-HS-2-data-cleaning.csv,opts=download]. (213 KB)"
-msgstr ""
+msgstr "Скачать внешнюю ссылку: вложение$UC-HS-2-data-cleaning.csv[UC-HS-2-data-cleaning.csv,opts=download]. (213 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:68
@@ -282,21 +282,21 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:93
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:99
 msgid "Evaluate the dataset and identify which types of errors are present."
-msgstr ""
+msgstr "Оцените набор данных и определите, какие типы ошибок в нём присутствуют."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:69
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:82
 msgid "Identify possible ways to correct those issues and perform those corrections for as many of the errors as you can."
-msgstr ""
+msgstr "Определите возможные способы исправления этих проблем и выполните исправления для как можно большего числа выявленных ошибок."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:76
 msgid "After cleaning the data in the Poales dataset, the team considers that publishing the data online through the GBIF network could be a good way to make this effort visible. You have been requested to lead that publishing work, based on the dataset."
-msgstr ""
+msgstr "После очистки данных в наборе данных по Poales команда решила, что их публикация в открытом доступе через сеть GBIF может стать хорошим способом сделать результаты этой работы более заметными. Вам поручено организовать и провести публикацию этого набора данных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:78
 msgid "Download xref:attachment$UC-HS-3-poales-publishing.csv[UC-HS-3-poales-publishing.csv,opts=download]. (233.5 KB)"
-msgstr ""
+msgstr "Скачать внешнюю ссылку: вложение$UC-HS-3-poales-publishing.csv[UC-HS-3-poales-publishing.csv,opts=download]. (233,5 КБ)"
 
