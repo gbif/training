@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-16 06:28\n"
+"PO-Revision-Date: 2026-09-16 07:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -403,64 +403,64 @@ msgstr "*資料品質*\n"
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:86
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:369
 msgid "Data quality is multidimensional, and involves data management, modelling and analysis, quality control and assurance, storage and presentation.  As independently stated by Chrisman (1991) and Strong et al. (1997), data quality is related to use and cannot be assessed independently of the user.  In a database, the data have no actual quality or value (Dalcin 2004); they only have potential value that is realized only when someone uses the data to do something useful.  Information quality relates to its ability to satisfy its customers and to meet customers’ needs (English 1999)."
-msgstr ""
+msgstr "資料品質是多面向的，涉及資料管理、建模與分析、品質控管與保證、儲存及呈現。在Chrisman（1991）與 Strong 等人（1997）分別指出，資料品質與使用相關，無法脫離使用者而獨立評估。 在資料庫中，資料本身並無實際品質或價值（Dalcin 2004）；它們僅具有潛在價值，而這種價值唯有當有人利用資料執行有用的行動時，才會得以實現。資訊品質則與其滿足客戶及滿足客戶需求的能力有關（English 1999）。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:88
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:371
 msgid "Redman (2001), suggested that for data to be fit for use they must be accessible, accurate, timely, complete, consistent with other sources, relevant, comprehensive, provide a proper level of detail, be easy to read and easy to interpret."
-msgstr ""
+msgstr "Redman (2001) 認為：適合使用的資料必須具備：可被取得(accessible)、正確(accurate)、即時更新(timely)、完整(complete)、與其他來源一致(consistent with other sources)、與主題相關(relevant)、全面(comprehensive)，並提供使用者適當程度的細節、且容易閱讀理解。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:92
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:375
 msgid "One issue that a data custodian may need to consider is what may need to be done with the database to increase its usability to a wider audience (i.e. increase its potential use or relevance) and thus make it fit for a wider range of purposes.  There will be a trade off in this between the increased usability and the amount of effort required to add extra functionality and usability.  This may require such things as atomizing data fields, adding geo-referencing information, etc."
-msgstr ""
+msgstr "資料保管人可能需要思考的一項問題是，該如何提升資料庫對於廣泛大眾的實用性（即增加其潛在用途或相關性），使其適用於更廣泛的用途。  在此過程中，這需要在提升可用性與為了增加額外功能及可用性所需投入的工作量之間做權衡取捨。這可能需要進行諸如將資料欄位細分、添加地理參考資訊等操作。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:94
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:377
 #, no-wrap
 msgid "*Quality Assurance/ Quality Control*\n"
-msgstr ""
+msgstr "*品質保證/品質控管*"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:98
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:381
 msgid "The difference between quality control and quality assurance is not always clear.  Taulbee (1996) makes the distinction between Quality Control and Quality Assurance and stresses that one cannot exist without the other if quality goals are to be met.  She defines Quality Control as a judgement of quality based on internal standards, processes and procedures established to control and monitor quality; and Quality Assurance as a judgement of quality based on standards external to the process and is the reviewing of the activities and quality control processes to insure that the final products meet predetermined standards of quality."
-msgstr ""
+msgstr "品質管控 (Quality Control) 與品質保證 (Quality Assurance)之間的差異並非總是十分明確。Taulbee（1996）釐清了品質控館與品質保證的區別，並強調若要達成品質目標，兩者缺一不可。  她將「品質控制」定義為基於內部標準、流程及程序所作出的品質判斷，這些標準、流程及程序旨在控制與監控品質；而「品質保證」則定義為基於流程外部標準所作出的品質判斷，並透過審查各項活動與品質控制流程，以確保最終產品符合預先設定的品質標準。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:100
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:383
 msgid "In a more business-oriented approach, Redman (2001) defines Quality Assurance as “those activities that are designed to produce defect-free information products to meet the most important needs of the most important customers, at the lowest possible cost”."
-msgstr ""
+msgstr "從更商業導向的方法中，Redman (2001)將品質保證(QA)定義為「以盡可能低的成本，並為此設計來生產無瑕疵的資訊產品，來滿足最重要客戶之需求的所有行為活動」。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:102
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:385
 msgid "How these terms are to be applied in practice is not clear, and in most cases the terms seem to be largely used synonymously to describe the overall practice of data quality management."
-msgstr ""
+msgstr "這些術語在實際應用中應如何運用尚不明確，而在大多數情況下，這些術語似乎主要被視為同義詞，用以描述資料品質管理的整體操作。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:104
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:387
 #, no-wrap
 msgid "*Uncertainty*\n"
-msgstr ""
+msgstr "*不確定性*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:392
 msgid "Uncertainty may be thought of as a “measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if a perfect measuring device were available” (Cullen and Frey 1999).  Uncertainty is a property of the observer’s understanding of the data, and is more about the observer than the data per se.  There is always uncertainty in data; the difficulty is in recording, understanding and visualizing that uncertainty so that others can also understand it.  Uncertainty is a key term in understanding risk and risk assessment."
-msgstr ""
+msgstr "「不確定性」(Uncertainty ) 可以視為是「對某個未知量之知識及資訊的不完整性的衡量，若完美的測量裝置存在，該未知量的真實值便可被確定」（Cullen 與 Frey, 1999）。不確定性是觀察者對資料理解的性質，此性質與觀察者較有關，而非資料本身。在資料中永遠存在不確定性，若想透過記錄、理解、和視覺化這樣的不確定性來讓他人能理解並不容易。不確定性是用來理解風險及其評估的關鍵術語。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:111
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:394
 #, no-wrap
 msgid "*Error*\n"
-msgstr ""
+msgstr "*誤差*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
