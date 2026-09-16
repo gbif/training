@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-16 07:34\n"
+"PO-Revision-Date: 2026-09-16 08:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -466,38 +466,38 @@ msgstr "*誤差*\n"
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:401
 msgid "Error encompasses both the imprecision of data and their inaccuracies.  There are many factors that contribute to error.  Error is generally seen as being either random or systematic.  Random error tends to refer to deviation from the true state in a random manner.  Systematic error or bias arises from a uniform shift in values and is sometimes described as having ‘relative accuracy’ in the cartographic world (Chrisman 1991).  In determining ‘fitness for use’ systematic error may be acceptable for some applications, and unfit for others."
-msgstr ""
+msgstr "「誤差」(Error ) 一詞同時包含了資料的不精準(imprecision) 與不準確(inaccuracy)兩個層面。有許多因素會造成誤差，一般而言，誤差可分為隨機誤差以及系統性誤差，隨機誤差指的是測量值與真實值之間產生的隨機偏差；系統誤差或偏差則源自於數值的均勻變化，從製圖學的角度來看，有時被稱為具有「相對準確度」（Chrisman 1991）。在判斷「適用性」時，系統誤差對於某些應用可能是可以接受的，而對於其他應用則可能是不適用的。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:404
 msgid "An example may be the use of a different geodetic datum1 – where, if used throughout the analysis, may not cause any major problems.  Problems will arise though where an analysis uses data from different sources and with different biases – for example data sources that use different geodetic datums, or where identifications may have been carried out using an earlier version of a nomenclatural code."
-msgstr ""
+msgstr "舉例而言，在使用不同的大地測量基準的時候，若在整個分析中只使用同個大地測量基準，可能不會發生大問題；但若在分析中使用了來自不同大地測量基準、且有不同偏差的資料，(如：使用不同大地測量基準的資料集、或鑑定時參照了早期版本的命名法規)，則可能就會發生問題。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:125
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:408
 msgid "“Because error is inescapable, it should be recognized as a fundamental dimension of data” (Chrisman 1991).  Only when error is included in a representation of the data is it possible to answer questions about limitations in the data, and even limitations in current knowledge.  Known errors in the three dimensions of space, attribute and time need to be measured, calculated, recorded and documented."
-msgstr ""
+msgstr "(Chrisman 1991)提到：由於無法避免誤差，因此應將它視為資料的基礎維度。只有當誤差與資料的同時呈現時，才可能去了解資料的限制、甚至理解現有知識的極限在哪。在空間、屬性、時間等三個維度的已知誤差，皆需要進行量測、計算、紀錄與建檔。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:127
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:410
 #, no-wrap
 msgid "*Validation and Cleaning*\n"
-msgstr ""
+msgstr "*資料驗證與清理*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:133
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:416
 msgid "Validation is a process used to determine if data are inaccurate, incomplete, or unreasonable.  The process may include format checks, completeness checks, reasonableness checks, limit checks, review of the data to identify outliers (geographic, statistical, temporal or environmental) or other errors, and assessment of data by subject area experts (e.g. taxonomic specialists).  These processes usually result in flagging, documenting and subsequent checking of suspect records.  Validation checks may also involve checking for compliance against applicable standards, rules, and conventions.  A key stage in data validation and cleaning is to identify the root causes of the errors detected and to focus on preventing those errors from re-occurring (Redman 2001)."
-msgstr ""
+msgstr "資料驗證 (Validation) 是檢查資料是否正確、完整、合理的過程。其中包含：格式檢查、完整度檢查、合理性檢查、限制檢查，資料回顧(藉此判別離群值及其他誤差。如：地理上、統計上、時間上、環境性的......等等)，以及相關領域專家(如：分類學家) 對資料的評估。這些流程通常包括標記、記錄和後續核查可疑記錄。驗證檢查還可能包括檢查是否符合適用的標準、規則和慣例。資料驗證和清理的關鍵階段是識別已發現錯誤的根本原因，並專注於防止這些錯誤再次發生（Redman 2001）。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:138
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:421
 msgid "Data cleaning refers to the process of “fixing” errors in the data that have been identified during the validation process.  The term is synonymous with “data cleansing”, although some use data cleansing to encompass both data validation and data cleaning.  It is important in the data cleaning process that data is not inadvertently lost, and changes to existing information be carried out very carefully.  It is often better to retain both the old (original data) and the new (corrected data) side by side in the database so that if mistakes are made in the cleaning process, the original information can be recovered."
-msgstr ""
+msgstr "資料清理是針對在驗證過程中已識別出的資料錯誤進行「修正」的流程。  此術語與「資料清潔」同義，儘管有些人將「資料清潔」一詞用來涵蓋資料驗證與資料清理兩者。在資料清理過程中，需避免資料不慎遺失，並須極為謹慎地對現有資訊進行變更。  通常最好將舊資料（原始資料）與新資料（修正後的資料）並列保留在資料庫中，如此一來，若在清理過程中發生錯誤，便可恢復原始資訊。"
 
 #. type: Title =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:1
