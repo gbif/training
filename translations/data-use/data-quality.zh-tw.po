@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-09-17 08:37\n"
+"PO-Revision-Date: 2026-09-17 10:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -87,194 +87,194 @@ msgstr "國家中心點"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will use the center of Brazil as the coordinate of the record.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "國家中心點是指將觀測點定位於該國中心的位置，而非該分類單元的實際觀測或記錄地點。國家中心點通常是指根據原始記錄所在位置的文字描述，事後回溯賦予經緯度值的記錄。 地理編碼軟體會結合地名辭典、地理辭典或名錄，並搭配地圖或地圖集，藉此為地名賦予座標。因此，若紀錄中僅標註「巴西」，部分發布者會將巴西的中心點作為該紀錄的座標。  同樣地，若記錄中僅標註「德州」或「巴黎」，該記錄便會被歸入這些區域的中心位置。這幾乎完全是博物館資料（PRESERVED_SPECIMEN）的特有現象，但其他類型的記錄中也可能發生此情況。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
 msgid "Use the \"Distance from centroid in meters\" on a GBIF occurrence search to filter for country centroids. The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "在 GBIF 出現記錄搜尋中，使用「距質心的距離（單位：公尺）」來篩選各國的中心。R 套件 https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] 也可用於識別和篩選各國的中心。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:39
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "赤道或本初子午線上的點"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:43
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "部分發布者將「0」與「NULL」視為等同，因此紀錄中為空的緯度與經度欄位會被賦予零值。結果，這些紀錄最終會被繪製在赤道和本初子午線上。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:44
 #, no-wrap
 msgid "Uncertain location "
-msgstr ""
+msgstr "位置不詳 "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:49
 msgid "Often, you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected.  There are two fields in Darwin Core - coordinate precision and coordinateUncertaintyInMeters - that you receive with a SIMPLE CSV download. You can use these fields to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would recommend not filtering out missing values."
-msgstr ""
+msgstr "通常，您會希望確認座標所指的確實是特定位置，而非實際上距離該生物體被觀察或採集的地點有數千公里之遠。在達爾文核心集（Darwin Core）中，有兩個欄位——座標精確度（coordinate precision）與座標不確定性（以公尺為單位）（coordinateUncertaintyInMeters）——您可透過 SIMPLE CSV 下載取得這些資料。 您可以利用這些欄位，根據「不確定性」進行篩選。不過，由於發布者通常認為其紀錄（來自 GPS）相當準確，因此較少使用這些欄位；我們建議不要將缺失值過濾掉。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:54
 msgid "There are also a few “fake” values for coordinate uncertainty that you should be aware of.  These values are errors produced by geocoding software and do not represent real uncertainty values.  These \"fake\" values are 301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid."
-msgstr ""
+msgstr "此外，還有幾種關於座標不確定性的「虛假」數值，您應多加留意。這些數值是由地理編碼軟體產生的誤差，並不代表實際的不確定性數值。這些「虛假」數值包括 301、3036、999 及 9999。  以數值 301 為例，其不確定性通常遠遠大於 301，實際上代表的是某個國家的中心。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:55
 #, no-wrap
 msgid "Gridded datasets"
-msgstr ""
+msgstr "網格化資料集"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:61
 msgid "Gridded datasets are a known problem at GBIF.  Many datasets have equally-spaced points in a regular pattern.  These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).  Georeferenced occurrences are snapped to a central point."
-msgstr ""
+msgstr "網格化資料集是 GBIF 中的已知問題。許多資料集的點為等間距且呈現規則模式分布。這些資料集通常是系統性的全國性調查，或是取自某本圖鑑的資料（「所謂的柵格化採集設計」）。具有地理參考的出現紀錄會被對齊至中心點。"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:62
 #, no-wrap
 msgid "data-use::gridSnap.gif"
-msgstr ""
+msgstr "data-use::gridSnap.gif"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:65
 msgid "Most publishers of gridded datasets will likely complete one of the following columns:"
-msgstr ""
+msgstr "大多數發佈網格資料集的發布者，很可能會填寫以下其中一欄："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:67
 msgid "coordinateUncertaintyInMeters"
-msgstr ""
+msgstr "座標不確定度（以公尺為單位）"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:68
 msgid "coordinatePrecision"
-msgstr ""
+msgstr "座標精確度"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:69
 msgid "footprintWKT"
-msgstr ""
+msgstr "footprintWKT"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:71
 msgid "So, filtering by these columns can be a good way to remove gridded datasets. GBIF has an experimental API for identifying datasets which exhibit a certain amount of \"griddyness\". You can read more about https://data-blog.gbif.org/post/finding-gridded-datasets/[finding gridded datasets^] on the GBIF data blog."
-msgstr ""
+msgstr "因此，透過這些欄位進行篩選，是移除網格化資料集的好方法。GBIF 提供了一個實驗性 API，用於識別具有一定程度「網格化特徵」的資料集。 您可以在 GBIF 資料部落格上閱讀更多關於 https://data-blog.gbif.org/post/finding-gridded-datasets/[查找網格化資料集^] 的資訊。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:73
 msgid "The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] has a function for removing gridded datasets."
-msgstr ""
+msgstr "R 套件 https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] 提供了一個用於移除網格化資料集的功能。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:74
 #, no-wrap
 msgid "Absence records"
-msgstr ""
+msgstr "未發現紀錄"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:79
 msgid "By default, both presence and absence records are shown when you search records on GBIF.  Absence records confirm that a species was not found at a specific locality when that area was surveyed. This information can be useful in, for example, developing ecological niche models.  If you are only interested in presence records, you can filter for that using the Occurrence Status filter."
-msgstr ""
+msgstr "預設情況下，在 GBIF 上搜尋紀錄時，系統會同時顯示「存在」與「未發現」的紀錄。「未發現」紀錄可證實，在對該區域進行調查時，並未在特定地點發現該物種。 此類資訊有助於應用於如：建立生態棲位模型。若您僅對「存在」紀錄感興趣，可透過「出現狀態」篩選器進行篩選。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:80
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "建立方式"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:84
 msgid "The Darwin Core term https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^] identifies the process by which the biological individual(s) represented in the Occurrence became established at the location.  As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant or uncertain."
-msgstr ""
+msgstr "達爾文核心（Darwin Core）術語「建立方式」（https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^]）用以識別「出現紀錄」（Occurrence）中所代表的生物個體如何在該地點建立族群。  因此，它可作為有用的篩選工具，用以識別位於物種原生分布範圍之外的紀錄；此欄位的標準術語包括「原生」（native）、「原生再引入」（nativeReintroduced）、「引入」（introduced）、「輔助定居引入」（introducedAssistedColonisation）、「迷鳥」（vagrant）或「不確定」（uncertain）。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:87
 msgid "Use this filter cautiously, however, as most records do not contain this information, and so would be excluded from a search when using this filter.  We would recommend using the information within the Establishment Means term for filtering after download."
-msgstr ""
+msgstr "不過，請謹慎使用此篩選條件，因為多數紀錄並未包含此資訊，因此若使用此篩選條件，這些紀錄將會被排除在搜尋結果之外。我們建議在下載後，使用 Establishment Means 的術語進行篩選。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:88
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "記錄基礎 "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:91
 msgid "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:"
-msgstr ""
+msgstr "「記錄基礎」（https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^]）是達爾文核心（Darwin Core）中的術語，用以指稱記錄的具體特性，可參照以下 6 個類別之一："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:93
 msgid "Living Specimen - a specimen that is alive. For example, a living plant in a botanical garden or a living animal in a zoo."
-msgstr ""
+msgstr "活體標本——指仍具有生命力的標本。例如，植物園中的活植物，或動物園中的活動物。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:94
 msgid "Preserved Specimen - a specimen that has been preserved. For example, a plant on a herbarium sheet or a cataloged lot of fish in a jar."
-msgstr ""
+msgstr "保存標本——指已經經過保存處理的標本。例如，附在標本卡上的植物，或是裝在玻璃罐中並已編目登錄的魚類標本。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:95
 msgid "Fossil Specimen - a preserved specimen that is a fossil. For example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree."
-msgstr ""
+msgstr "化石標本——指作為化石保存下來的標本。例如：身體化石、糞化石、胃石、跡化石或一塊石化樹木。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:96
 msgid "Material Citation - a reference to, or citation of, one, a part of, or multiple specimens in scholarly publications. For example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "標本引用——指在學術出版物中對一個、部分或多個標本的引用或參照。例如，在學術出版物的分類論述中引用科學收藏中的實體標本，或引用田野筆記本中提及的標本出現紀錄。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:97
 msgid "Human Observation - an output of human observation process, e.g. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "人類觀察——人類觀察過程的產出結果，例如：從田野筆記或文獻中擷取的出現紀錄證據，或是缺乏實體證據、亦非透過設備記錄所獲取的出現紀錄。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:98
 msgid "Machine Observation - an output of a machine observation process. For example, a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "設備觀察 — 設備觀察流程的產出結果。例如：照片、影片、錄音、遙感影像，或基於遙測資料的出現記錄。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:100
 msgid "Basis of record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation."
-msgstr ""
+msgstr "記錄的基礎應能讓使用者篩選出那些位於異地收藏（例如動物園和植物園）中的個體或化石，並能根據記錄是基於標本還是觀察結果來篩選相關記錄，這有助於支持分類學驗證。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:102
 msgid "Even though this can be a useful filter, data publishers do not always complete the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user, e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr ""
+msgstr "儘管這是一個有用的篩選條件，但資料發布者未必總是能正確填寫「紀錄依據」欄位；此外，資料中可能存在一些細微差異，使用者未必能立即察覺，例如： https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/，因此您在使用資料前，應仔細核對資料內容。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:103
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "舊紀錄"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:106
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "GBIF 擁有許多博物館紀錄，這些紀錄的年代可能比某些研究所需的更為久遠。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:107
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "重複紀錄"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:112
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from, for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "當同一個個體被建立多個紀錄時，便可能發生紀錄重複的情況。  例如，當一名研究人員將同一棵樹的數份標本寄存於世界各地的植物標本館，而這些機構隨後均將相關資料發布至 GBIF 時，便可能發生此情況；又或者，當某個個體已被收錄於自然史收藏中，同時該個體亦被採集作為 DNA 樣本時，亦可能發生此情況。  在此情況下，該標本在收藏庫中將有一筆記錄，而其DNA序列亦將有一筆記錄。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:115
 msgid "GBIF has introduced a clustering function in its advanced search that allows users to identify clusters of records, i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter them out."
-msgstr ""
+msgstr "GBIF 已在進階搜尋功能中新增了一項群集化功能，讓使用者能夠辨識出記錄群集，也就是那些看似源自同一來源的記錄。此功能可協助使用者辨識潛在的重複資料，並將其篩除。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:117
 msgid "If you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
-msgstr ""
+msgstr "若將位於群集中的記錄過濾掉，您將遺失該群集內的所有記錄，並可能因此失去有用的資料。此過濾功能或許更適合用於顯示資料集中重複項目的程度，或是用於獨立下載群集與非群集資料集以供比較。"
 
