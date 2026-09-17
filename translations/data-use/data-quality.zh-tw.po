@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-04-11 16:27\n"
+"PO-Revision-Date: 2026-09-17 08:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,69 +20,69 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:1
 #, no-wrap
 msgid "Handling data quality"
-msgstr ""
+msgstr "處理資料品質"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:7
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and the occurrence search has a set of additional \"Advanced\" search filters with more criteria or options available.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise.  Below are some common data filters that you as a user might consider to make the data more fit for use."
-msgstr ""
+msgstr "透過篩選資料，您作為使用者便能取得最符合需求的資料。所有搜尋功能均提供一套篩選器，供您尋找所需的資料；而「出現紀錄搜尋」則額外提供一套「進階」搜尋篩選器，其中包含更多篩選條件與選項。  雖然篩選器能協助您篩除與目的不相關或品質較低的資料，但為了處理隨之產生的其他資料品質問題，可能仍需透過手動或程式化方式進行額外篩選。以下列出一些常見的資料篩選器，作為使用者參考，以使資料更符合使用需求。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:8
 #, no-wrap
 msgid "Geospatial filters & issues"
-msgstr ""
+msgstr "地理空間篩選器與問題"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:11
 msgid "The data can be filtered spatially in an occurrence search in one of three ways:"
-msgstr ""
+msgstr "在出現紀錄的搜尋中，可透過以下三種方式之一對資料進行空間篩選："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:13
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)."
-msgstr ""
+msgstr "國家或地區／大陸——資料已按國家篩選，並將包含專屬經濟區（EEZ）內的資料。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:15
 msgid "Administrative area - this filter uses the https://gadm.org/data.html[GADM database of administrative areas^] for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "行政區劃——此篩選器採用 https://gadm.org/data.html[GADM 行政區劃資料庫^] 涵蓋全球所有國家，讓 GBIF 能預設為您篩除常見的地理空間問題，前提是您選擇包含位置資訊的資料。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:16
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter."
-msgstr ""
+msgstr "位置 — 此篩選器可讓您根據座標篩選資料，並可自行繪製多邊形範圍篩選器，或使用 GeoJSON 檔案來定義自訂的範圍篩選器。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:19
 msgid "If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "若您篩選含有座標的資料，將能消除與資料發佈工作流程相關的一些地理空間問題。這些問題包括："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:22
 msgid "Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called a \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasGeospatialIssues is set to FALSE."
-msgstr ""
+msgstr "零座標 — 座標為 (0,0)，有時也被稱為「空島」。零-零座標是地空間領域中非常常見的問題。當 hasGeospatialIssues 設定為 FALSE 時，GBIF 會移除 (0,0)。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:25
 msgid "Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.).  GBIF uses the two-letter https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system.  When a point does not fall within the country’s polygon or EEZ but says that it should occur within the country, it gets flagged as having “country coordinate mismatch” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "國家座標不符 — 資料發布者通常會向 GBIF 提供國家代碼（例如 US、TW、SE、JP…等）。 GBIF 採用由https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2組成的兩字母 [ISO 3166-1 alpha-2^] 編碼系統。 當某個座標點位未位於該國的多邊形範圍或專屬經濟區（EEZ）內，但資料標示其應位於該國境內時，該點位將被標記為「國家座標不符」，且若資料是根據位置進行篩選，該點位將會被移除。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:26
 msgid "Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. the coordinates that are not in the valid decimal format."
-msgstr ""
+msgstr "座標無效 — 若 GBIF 無法解析該座標，如座標未採用有效的十進位格式。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:27
 msgid "Coordinate out of range — The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "座標超出範圍 — 座標超出十進位緯度／經度值的範圍 ((-90,90), (-180,180))。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:28
 #, no-wrap
 msgid "Country centroids"
-msgstr ""
+msgstr "國家中心點"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
