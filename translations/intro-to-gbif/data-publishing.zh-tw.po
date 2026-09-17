@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-10 13:47\n"
+"PO-Revision-Date: 2026-09-17 12:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -205,78 +205,79 @@ msgstr "資料發布能讓散布在世界各地的資料集彼此整合，為資
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:29
 msgid "Publishing data enables individuals and institutions to be properly credited for their work to create and curate biodiversity data, by *giving visibility to publishing institutions* through good metadata authoring. This recognition can be further developed if you author a peer-reviewed data paper, giving scholarly recognition to the publication of biodiversity datasets."
-msgstr ""
+msgstr "發布資料能讓個人與機構因建立、維護生物多樣性資料的努力獲得應有肯定，透過用心撰寫詮釋資料，*讓發布機構被更多人看見*。如果進一步撰寫經同行評審的資料論文，還能為資料集的發布爭取到學術上的認可。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:30
 msgid "Collection managers can *trace usage and citations* of digitized data published from their institutions and accessed through GBIF and similar infrastructures."
-msgstr ""
+msgstr "典藏管理者可以*追蹤*自己機構發布、並透過GBIF等平台被存取之數位化資料的*使用與引用情形*。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:31
 msgid "Some funding agencies now require researchers receiving public funds to *make data freely accessible* at the end of a project."
-msgstr ""
+msgstr "現在部分資助機構要求，接受公共資金的研究人員必須在專案結束時*使資料能夠自由取用*。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:32
 #, no-wrap
 msgid "Data publisher visibility and recognition"
-msgstr ""
+msgstr "資料發布者的能見度與肯定"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:36
 msgid "In this section, you will review frameworks for citing and tracking digital data use on GBIF.org"
-msgstr ""
+msgstr "在本節中，你將檢視在GBIF.org上引用與追蹤數位資料使用情形的相關架構"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:39
 msgid "Giving adequate visibility and recognition to data publishers is of paramount importance to GBIF.  That is why the organization has put in place the regulatory and technical frameworks needed to make citing and tracking digital data use, easier than ever before."
-msgstr ""
+msgstr "給予資料發布者適當的能見度與肯定，對GBIF而言非常重要。這也是為什麼GBIF建立了所需的規範與技術架構，使引用與追蹤數位資料使用情形比以往更加容易。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:41
 #, no-wrap
 msgid "*The GBIF Memorandum of Understanding*\n"
-msgstr ""
+msgstr "*GBIF合作備忘錄*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:44
 msgid "GBIF is a multilateral initiative established by intergovernmental agreement and based on a non-binding https://www.gbif.org/mou[Memorandum of Understanding^] (MoU).  The MoU is the official document that countries and international organizations sign in order to join GBIF."
-msgstr ""
+msgstr "GBIF 是一項透過政府間協議設立的多邊倡議，並以不具約束力的《合作備忘錄》https://www.gbif.org/mou[合作備忘錄^]（MoU）為基礎。該合作備忘錄是各國及國際組織為加入 GBIF 而簽署的正式文件。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:45
 #, no-wrap
 msgid "intro-to-gbif::GBIF_MoU.jpg"
-msgstr ""
+msgstr "intro-to-gbif::GBIF_MoU.jpg"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:48
 msgid "The MoU is very clear stating that GBIF data publishers need to be acknowledged for their contributions:"
-msgstr ""
+msgstr "MoU中明確指出，GBIF資料發布者的貢獻必須獲得肯定："
 
 #. type: delimited block -
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:52
 #, no-wrap
 msgid "\"4. Attribution. +\n"
 "GBIF seeks to ensure that the publisher/holder of data is acknowledged and requests that such attribution be maintained in any subsequent use of the data.\"\n"
-msgstr ""
+msgstr "「4. 標示來源。 +\n"
+"GBIF致力於確保資料發布者／持有者獲得應有肯定，並要求在後續任何使用資料的情況下，均須保留此來源標示。」\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:55
 msgid "GBIF strives to make all efforts possible to make this statement a reality."
-msgstr ""
+msgstr "GBIF盡一切努力，讓這項承諾真正落實。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:57
 #, no-wrap
 msgid "*The GBIF Data User Agreement*\n"
-msgstr ""
+msgstr "*GBIF資料使用者協議*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:59
 msgid "Prior to accessing any data using GBIF, users need to accept a data user agreement which includes very specific requirements on citation of the origin of the data accessed through GBIF. These are some of the requirements listed in the agreement:"
-msgstr ""
+msgstr "使用者在透過GBIF存取任何資料前，必須先同意一份資料使用者協議，當中對於如何引用資料來源訂有非常明確的要求。以下是協議中列出的部分規定："
 
 #. type: delimited block -
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:62
