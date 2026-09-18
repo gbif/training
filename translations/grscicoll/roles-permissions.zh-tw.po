@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-08-26 05:55\n"
+"PO-Revision-Date: 2026-09-18 12:17\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
 #, no-wrap
 msgid "Click to expand"
-msgstr ""
+msgstr "點擊展開"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:38
@@ -321,7 +321,7 @@ msgstr "回顧"
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:3
 #, no-wrap
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
@@ -333,7 +333,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:14
 #, no-wrap
 msgid "Video transcript"
-msgstr ""
+msgstr "影片文字稿"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:84
@@ -343,282 +343,283 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:141
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:145
 msgid "Quiz yourself on the concepts covered in this module."
-msgstr ""
+msgstr "請針對本單元所涵蓋的概念進行自我測驗。"
 
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:1
 #, no-wrap
 msgid "Roles and permissions"
-msgstr ""
+msgstr "角色和權限"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:9
 #, no-wrap
 msgid "In this video (04:25), GBIF Data Administrator, Marie Grosjean, describes the roles and permissions in GRSciColl.   \n"
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
+msgstr "在這段影片（04:25）中，GBIF 資料管理員 Marie Grosjean 介紹了 GRSciColl 中的角色與權限。   \n"
+"若無法觀看內嵌的 Vimeo 影片，您可至 xref:downloads.adoc[可下載檔案] 頁面將其下載至本機。\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:26
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide1.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide1.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:29
 msgid "The information on GRSciColl is managed in the https://registry.gbif.org/[*GBIF registry interface*^] and the https://techdocs.gbif.org/en/openapi/v1/registry[*GBIF registry API*^]."
-msgstr ""
+msgstr "GRSciColl 上的資訊是透過 https://registry.gbif.org/[*GBIF 註冊介面*^] 及 https://techdocs.gbif.org/en/openapi/v1/registry[*GBIF 註冊 API*^] 來進行管理。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:31
 #, no-wrap
 msgid "*Suggestions*\n"
-msgstr ""
+msgstr "*建議*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:33
 msgid "Anyone can make update suggestions on GRSciColl. Making a suggestion doesn’t require any account nor associated permission. Suggestions can be made via the registry web interface or via the registry API on collection and institution entries."
-msgstr ""
+msgstr "任何人都可以在 GRSciColl 上提出更新建議。提出建議無需任何帳號或相關權限。您可以透過資料庫的網頁介面，或透過資料庫 API，針對館藏及機構條目提出建議。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:34
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide3.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide3.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:37
 msgid "Here are the types of suggestions that can be made:"
-msgstr ""
+msgstr "以下為可提出的建議類型："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:39
 msgid "Sending *comments*"
-msgstr ""
+msgstr "發送 *評論*"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:40
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:74
 #, no-wrap
 msgid "*Creating* institutions and collections\n"
-msgstr ""
+msgstr "*建立*機構與館藏\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:41
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:75
 #, no-wrap
 msgid "*Updating* the core information for institutions and collections\n"
-msgstr ""
+msgstr "*更新* 機構與館藏的核心資訊\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:42
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:76
 #, no-wrap
 msgid "Creating, deleting or updating *contacts* for institutions and collections\n"
-msgstr ""
+msgstr "建立、刪除或更新機構與館藏的 *聯絡資訊*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:43
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:87
 #, no-wrap
 msgid "*Deleting* institutions and collections\n"
-msgstr ""
+msgstr "*刪除* 機構與館藏\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:44
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:88
 #, no-wrap
 msgid "*Merging* institutions and collections\n"
-msgstr ""
+msgstr "*合併* 機構與館藏\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:45
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:89
 #, no-wrap
 msgid "*Transforming* institution entries into collection entries\n"
-msgstr ""
+msgstr "*轉換*將機構條目轉換為館藏條目\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:47
 msgid "The suggestion will be sent to a reviewer who can apply, modify or discard it. The reviewer can be an editor, a mediator or an administrator with the permission for the entry concerned."
-msgstr ""
+msgstr "該建議將發送給一位審核者，審核者可採納、修改或駁回該建議。審核者可以是編輯者、調解員，或是具備該條目相關權限的管理員。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:49
 #, no-wrap
 msgid "*Editors, mediators and administrators*\n"
-msgstr ""
+msgstr "*編輯、調解員及管理員*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:50
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide4.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide4.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:54
 msgid "Users who have registered an *account on GBIF.org* can be given special permissions to make edits directly in the GBIF registry or via the GBIF registry API.  In the context of GRSciColl, users can be given one of the three following roles:"
-msgstr ""
+msgstr "已有 *GBIF.org 帳號* 的使用者，可獲得特殊權限，得以直接在 GBIF 註冊庫中進行編輯，或透過 GBIF 註冊庫 API 進行編輯。在 GRSciColl 的框架下，使用者可被賦予以下三種角色之一："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:56
 msgid "Editor"
-msgstr ""
+msgstr "編輯者"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:57
 msgid "Mediator"
-msgstr ""
+msgstr "調解員"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:58
 msgid "Administrator"
-msgstr ""
+msgstr "管理員"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:60
 msgid "These roles are associated with different levels of permission and are always accompanied by a scope. The permission scope defines the entities for which the permissions apply. Here are the possible scopes:"
-msgstr ""
+msgstr "這些角色對應不同的權限等級，並且附帶一個權限範圍。權限範圍定義了權限所適用的條目。以下是可能的權限範圍："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:62
 msgid "One or several *collections*"
-msgstr ""
+msgstr "一個或多個 *館藏*"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:63
 msgid "One or several *institutions* (which includes all associated collections)"
-msgstr ""
+msgstr "一個或多個 *機構*（包括所有相關館藏）"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:64
 msgid "One or several *countries* (which includes all associated institutions and collections)"
-msgstr ""
+msgstr "一個或多個 *國家*（包括所有相關機構及館藏）"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:65
 msgid "One or several *machine tag namespace*"
-msgstr ""
+msgstr "一個或多個 *設備標籤命名空間*"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:68
 msgid "The permission scope can be a combination of all of the above."
-msgstr ""
+msgstr "權限範圍可以是上述所有項目的組合。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:69
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide5.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide5.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:72
 msgid "An *editor* can make the following type of changes for the entries within their scope:"
-msgstr ""
+msgstr "*編輯者* 可以針對其權限範圍內的條目進行以下類型的變更："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:77
 #, no-wrap
 msgid "Creating, deleting or updating *identifiers* for institutions and collections\n"
-msgstr ""
+msgstr "建立、刪除或更新機構與館藏的 *識別碼*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:78
 #, no-wrap
 msgid "Adding or deleting *master sources* for institutions and collections (unless the collection is * connected to Index Hebariorum)\n"
-msgstr ""
+msgstr "為機構及館藏新增或刪除 *主來源*（除非該館藏 * 已與 Index Hebariorum 連結）\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:79
 #, no-wrap
 msgid "Uploading, updating or deleting *collection descriptors* for collections\n"
-msgstr ""
+msgstr "上傳、更新或刪除館藏中的 *館藏描述碼*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:80
 #, no-wrap
 msgid "Add machine tags to collections and institutions if the *machine tags* namespace used is within their permission scope\n"
-msgstr ""
+msgstr "若所使用的 *設備標籤* 命名空間在館藏與機構的權限範圍內，可為其新增機器標籤\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:82
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide6.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide6.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:85
 msgid "A *mediator* can make the same changes as an editor, plus the following changes:"
-msgstr ""
+msgstr "*調解員* 除了能進行與編輯者相同的變更以外，還能進行以下變更："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:91
 msgid "The most common types of permissions on GRSciColl are for institutional editors (who are responsible for updating their institution and associated collections) and national mediators (who manage entries for an entire country)."
-msgstr ""
+msgstr "GRSciColl 上最常見的權限類型，分別是「機構編輯者」（負責更新其所屬機構及相關館藏）和「國家協調員」（負責管理整個國家的條目）。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:92
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide7.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide7.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:95
 msgid "An *administrator* can do everything that mediators do plus restore deleted entries and disconnecting collections from Index Herbariorum."
-msgstr ""
+msgstr "*管理員* 除了能執行調解員的所有權限外，還能還原已刪除的條目，並將館藏從《Index Herbariorum》中移除關聯。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:98
 msgid "Only GBIF Secretariat staff are GRSciColl administrators."
-msgstr ""
+msgstr "只有 GBIF 秘書處的工作人員才是 GRSciColl 的管理員。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:100
 #, no-wrap
 msgid "*Review of suggestions*\n"
-msgstr ""
+msgstr "*回顧建議*\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:101
 #, no-wrap
 msgid "grscicoll::module1-section2-Slide8.png"
-msgstr ""
+msgstr "grscicoll::module1-section2-Slide8.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:104
 msgid "Editors, mediators and administrators can also apply the suggestions that correspond to their permission scope and roles."
-msgstr ""
+msgstr "編輯、調解員及管理員亦可採納符合其權限範圍與角色的建議。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:106
 msgid "Suggestion notifications aren’t sent to all the editors and mediators responsible for an entry. If a suggestion is made on a collection or institution:"
-msgstr ""
+msgstr "建議通知不會發送給負責該條目的所有編輯者和調解員。若針對某個館藏或機構提出建議："
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:108
 msgid "GRSciColl notifies collection and institution editors"
-msgstr ""
+msgstr "GRSciColl 通知館藏及機構編輯者"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:109
 msgid "If there are no collection or institution editor, the country editor or mediator is notified"
-msgstr ""
+msgstr "若無負責館藏或機構的編輯者，則會通知該國的編輯者或調解者"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:110
 msgid "If there is no mediator for the country, only scientific-collections@gbif.org is notified and administrators review the suggestion."
-msgstr ""
+msgstr "若該國沒有調解員，則僅會通知 scientific-collections@gbif.org，並由管理員審核此建議。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:112
 #, no-wrap
 msgid "*Summary of roles and permissions*\n"
-msgstr ""
+msgstr "*角色與權限摘要*\n"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:114
 msgid "The table below summarises the permissions associated with each role. In the table, the letters represent the following:"
-msgstr ""
+msgstr "下表彙整了各角色所對應的權限。在該表中，各字母代表以下內容："
 
 #. type: delimited block -
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:120
@@ -627,7 +628,10 @@ msgid "* “S” means it can be suggested\n"
 "* “E” means editors can make or apply the change\n"
 "* “M” means mediators can make or apply the change\n"
 "* “A” means administrators can make or apply the change\n"
-msgstr ""
+msgstr "* 「S」表示可提出建議\n"
+"* 「E」表示編輯者可進行或套用變更\n"
+"* 「M」表示調解員可進行或套用變更\n"
+"* 「A」表示管理員可進行或套用變更\n"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:132
@@ -640,50 +644,57 @@ msgid "| Elements \\ actions | add | update | delete | merge | transform | Map o
 "| Occurrence mapping | E M A |  | E M A |  |  | \n"
 "| Collection descriptors | E M A | E M A | E M A |  |  | \n"
 "| Machine tags | +E**+ +M**+ A | +E**+ +M**+ A | +E**+ +M**+ A |  |  | \n"
-msgstr ""
+msgstr "| 元素 \\ 操作 | 新增 | 更新 | 刪除 | 合併 | 轉換 | 對照出現紀錄\n\n"
+"| 機構 | S E M A | S E M A | S M A | S M A | S M A | E M A\n"
+"| 館藏 | S E M A | S E M A | S M A | S M A |  | E M A\n"
+"| 識別碼 | E M A | E M A | E M A |  |  | \n"
+"| 主來源 | E M A | E M A | E* M* A |  |  | \n"
+"| 對照出現紀錄 | E M A |  | E M A |  |  | \n"
+"| 館藏描述符 | E M A | E M A | E M A |  |  | \n"
+"| 機器標籤 | +E**+ +M**+ A | +E**+ +M**+ A | +E**+ +M**+ A |  |  | \n"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:135
 #, no-wrap
 msgid "*Collections* with the master source from Index Hebrariorum can only be disconnected by administrators.\n"
-msgstr ""
+msgstr "僅有管理員才能將源自《Index Hebrariorum》的主資料來源所對應的「*館藏*」從系統中移除。\n"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:137
 #, no-wrap
 msgid "*Machine* tags can only be added if the namespace is within permission scope.\n"
-msgstr ""
+msgstr "只有當命名空間位於權限範圍內時，才能新增 *機器* 標籤。\n"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:147
 msgid "_The three hypothetical users were given the following permissions:_"
-msgstr ""
+msgstr "_這三位假設性的使用者被授予了以下權限：_"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:149
 msgid "Lola is an editor for the NHMUK institution"
-msgstr ""
+msgstr "Lola 是英國自然歷史博物館（NHMUK）的編輯者"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:150
 msgid "Ichiko is a mediator for the United Kingdom and Austria"
-msgstr ""
+msgstr "Ichiko 是英國與奧地利的調解員"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:151
 msgid "Amadou an editor for the ​​Royal Ontario Museum - Entomology collection"
-msgstr ""
+msgstr "Amadou ，是安大略皇家博物館——昆蟲學藏品部門的編輯者"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:153
 msgid "Who can apply or make the following updates?"
-msgstr ""
+msgstr "哪些人可以提出申請或進行以下更新？"
 
 #.  Link 1
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:156
 msgid "Who can *add* collection descriptors to the entry for the https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad[Royal Ontario Museum - Entomology^]?"
-msgstr ""
+msgstr "誰可以向 https://scientific-collections.gbif.org/collection/57e55b69-9a74-4f3e-91f4-03cd659e88ad 的條目中 *新增* 館藏描述？[安大略皇家博物館 - 昆蟲學^]？"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:163
@@ -691,13 +702,15 @@ msgstr ""
 msgid "- [ ] Lola\n"
 "- [ ] Ichiko\n"
 "- [x] Amadou\n"
-msgstr ""
+msgstr "- [ ] Lola\n"
+"- [ ] Ichiko\n"
+"- [x] Amadou\n"
 
 #.  Link 2
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:166
 msgid "Who can *update* the description on the entry for the https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378[Herbarium - The Natural History Museum^]?"
-msgstr ""
+msgstr "誰可以*更新*https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378 條目的描述？[植物標本館 - 自然史博物館^]？"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:173
@@ -705,13 +718,15 @@ msgstr ""
 msgid "- [x] Lola\n"
 "- [x] Ichiko\n"
 "- [ ] Amadou\n"
-msgstr ""
+msgstr "- [x] Lola\n"
+"- [x] Ichiko\n"
+"- [ ] Amadou\n"
 
 #.  Link 3
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:176
 msgid "Who can *delete* the entry for the https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905[University of Salzburg^]?"
-msgstr ""
+msgstr "誰可以*刪除*關於「https://scientific-collections.gbif.org/institution/bfee2121-a5b9-450d-9150-5c0e15b1c905 [薩爾茨堡大學^]」的條目？"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:183
@@ -720,11 +735,13 @@ msgstr ""
 msgid "- [ ] Lola\n"
 "- [x] Ichiko\n"
 "- [ ] Amadou\n"
-msgstr ""
+msgstr "- [ ] Lola\n"
+"- [x] Ichiko\n"
+"- [ ] Amadou\n"
 
 #.  Link 4
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:186
 msgid "Who can *delete* the entry for the https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e[Natural History Museum, London^]?"
-msgstr ""
+msgstr "誰可以*刪除*關於「https://scientific-collections.gbif.org/institution/1d808a7c-1f9e-4379-9616-edb749ecf10e [倫敦自然史博物館^]」的條目？"
 
