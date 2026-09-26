@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-23 04:00\n"
+"PO-Revision-Date: 2026-09-26 06:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -335,7 +335,7 @@ msgstr "Dans cette vidéo (09:47), vous découvrirez pourquoi la documentation e
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:11
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-documentation_v4-720p.mp4[download,opts=download] it locally. (MP4 - 35.2 MB)"
-msgstr ""
+msgstr "Si vous ne pouvez pas regarder la vidéo intégrée, vous pouvez xref:attachment$foundations-720p.mp4[la télécharger] localement (MP4 - 35.2 Mo)"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:28
@@ -347,12 +347,12 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:31
 #, no-wrap
 msgid "*Slide 1 - Foundations - Documentation*\n"
-msgstr ""
+msgstr "*Diapositive 1 – Fondation : documentation*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:33
 msgid "In this presentation, we will provide an overview of the importance of documentation as it relates to data management and data publishing. You will learn about data mapping, data relationships and metadata."
-msgstr ""
+msgstr "Cette présentation explique l’importance de la documentation dans la gestion et la publication des données. Vous y découvrirez la mise en correspondance des données, les relations entre les données et les métadonnées."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:34
@@ -364,22 +364,27 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:37
 #, no-wrap
 msgid "*Slide 2 - Documentation*\n"
-msgstr ""
+msgstr "*Diapositive 2 - Documentation*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:49
 msgid "In the previous Foundations presentations, we looked at the individual elements that make up both your data and the containers that hold it. Now we’ll look at ways to document those data and what you want to do with it.    According to the director Steven Spielberg,   “People have forgotten how to tell a story. Stories don’t have a middle or an end any more. They usually have a beginning that never stops beginning.” (Steven Spielberg)    Documentation is the story of your project or dataset. There should always be a concrete beginning, middle and end.    In essence you should be able to answer certain questions at specific points:   At the beginning : What did our project aim to do? What was the purpose of creating the dataset?"
-msgstr ""
+msgstr "Dans les précédentes présentations sur la Fondation, nous avons étudié les différents éléments qui constituent vos données, ainsi que les structures utilisées pour les organiser et les stocker. Nous allons maintenant nous intéresser à la manière de documenter ces données et d’expliquer l’usage auquel elles sont destinées.\n"
+"Comme l’a déclaré le réalisateur Steven Spielberg :\n"
+"« Les gens ont oublié comment raconter une histoire. Les histoires n’ont désormais ni milieu ni fin. Elles ont généralement un début qui ne cesse jamais de commencer. »\n"
+"La documentation permet de raconter l’histoire de votre projet ou de votre jeu de données. Elle doit donc en présenter clairement le début, le déroulement et la finalité.\n"
+"Pour construire cette histoire, certaines questions doivent être posées à chaque étape. Au début, il convient de se demander :\n"
+"Quels étaient les objectifs du projet ? Dans quel but le jeu de données a-t-il été créé ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:51
 msgid "In the middle: What did we actually do? What did we achieve?"
-msgstr ""
+msgstr "Au cours du projet : Qu’avons-nous réellement fait ? Quels résultats avons-nous obtenus ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:53
 msgid "At the end: What didn’t we achieve? Why? What should happen next?"
-msgstr ""
+msgstr "À la fin du projet : Quels objectifs n’avons-nous pas atteints, et pourquoi ? Quelles sont les prochaines étapes ?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:54
@@ -391,27 +396,27 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:57
 #, no-wrap
 msgid "*Slide 3 - Key concepts*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Concepts clés*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:59
 msgid "In order to document your data and render them as fit for use as possible for yourself and future users, you need to follow these three essential steps:"
-msgstr ""
+msgstr "Pour bien documenter vos données et faciliter leur utilisation, aussi bien par vous-même que par de futurs utilisateurs, trois étapes essentielles doivent être suivies :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:61
 msgid "Mapping your data to existing formats and standards if necessary"
-msgstr ""
+msgstr "Procéder, si nécessaire, au formatage de vos données conformément aux formats et standards existants"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:62
 msgid "Planning your data moves"
-msgstr ""
+msgstr "Planifier les différentes étapes de traitement et de transfert de vos données"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:63
 msgid "Create useful metadata describing your data"
-msgstr ""
+msgstr "Créer des métadonnées pertinentes pour décrire vos données."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:64
@@ -423,12 +428,16 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:67
 #, no-wrap
 msgid "*Slide 4 - Mapping data*\n"
-msgstr ""
+msgstr "*Diapositive 4 – Formatage des données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
 msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
-msgstr ""
+msgstr "Nous commencerons par voir comment décrire vos données. Nous expliquerons ensuite comment les adapter d’une structure à une autre, avant d’aborder la création des métadonnées qui les accompagnent.\n"
+"Commençons par le formatage des données, également appelé mise en correspondance des champs.\n"
+"Cette opération consiste à déterminer comment les champs d’un jeu de données peuvent être transformés ou associés aux champs d’une autre structure.\n"
+"Elle consiste à « identifier le ou les champs sources dans le jeu de données A et à déterminer leurs champs correspondants dans le jeu de données B ».\n"
+"Dans cet exemple, le jeu de données A comprend 10 colonnes :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
