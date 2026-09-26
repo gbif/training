@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-26 07:08\n"
+"PO-Revision-Date: 2026-09-26 08:14\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -502,7 +502,11 @@ msgstr "Pour établir cette correspondance, nous devons définir les relations e
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
 msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
-msgstr ""
+msgstr "Par exemple, le jeu de données A et le jeu de données B possèdent tous deux un champ ID. Nous pouvons donc relier directement ces deux champs. Il s’agit d’une correspondance un à un.\n"
+"Question : Voyez-vous d’autres correspondances un à un ?\n"
+"Réponse : State, Exp? et Pink Elephant!\n"
+"Un autre type de relation est la correspondance un à plusieurs. Dans ce cas, un seul champ du jeu de données A correspond à deux champs ou plus dans le jeu de données B. Le champ Date en est un exemple.\n"
+"Il peut également arriver que plusieurs champs du jeu de données A contiennent des informations destinées à plusieurs champs du jeu de données B. C’est souvent le cas des champs de notes ou de remarques."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
@@ -514,42 +518,42 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:110
 #, no-wrap
 msgid "*Slide 7 - Planning data moves - Data relationships*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Planification des transferts de données - Relations entre les données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:112
 msgid "In fact there are six relationships:"
-msgstr ""
+msgstr "En réalité, il existe six relations :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:114
 msgid "Some fields will map one-to-one (1:1), meaning that the original column in dataset A exactly matches another one in dataset B"
-msgstr ""
+msgstr "Certains champs peuvent être mis en correspondance un à un (1:1), ce qui signifie qu’une colonne du jeu de données A correspond directement à une colonne du jeu de données B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:115
 msgid "Some fields will map many-to-one (∞:1) , meaning that some columns in dataset A can be merged (or concatenated) to match a single one in dataset B"
-msgstr ""
+msgstr "Certains champs suivent une correspondance plusieurs à un (∞:1) : les contenus de plusieurs colonnes du jeu de données A sont regroupés ou concaténés dans une seule colonne du jeu de données B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:116
 msgid "Some fields will map one-to-many (1:∞), meaning that one column in dataset A will have to be split into two or more fields in order to match the fields in dataset B"
-msgstr ""
+msgstr "Certains champs suivent une correspondance un à plusieurs (1:∞) : une colonne du jeu de données A doit être divisée en deux champs ou plus afin de correspondre aux champs du jeu de données B."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:117
 msgid "Some fields might not exist yet zero-to-one (0:1), meaning that some information are not present in dataset A and need to be added in a new column to match an existing field in dataset B"
-msgstr ""
+msgstr "Certains champs peuvent ne pas encore exister, ce qui correspond à une relation zéro à un (0:1) : certaines informations absentes du jeu de données A doivent être ajoutées dans une nouvelle colonne afin de correspondre à un champ existant du jeu de données B."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:118
 msgid "Some fields might not have a place to go one-to-zero (1:0), meaning that some information present in dataset A does not match any existing field on dataset B"
-msgstr ""
+msgstr "Certains champs peuvent ne pas avoir de champ de destination, ce qui correspond à une relation un à zéro (1:0) : certaines informations présentes dans le jeu de données A ne correspondent à aucun champ existant dans le jeu de données B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:119
 msgid "Some fields will map many-to-many (∞ : ∞), meaning that information in dataset A is scattered in different fields, which do not match exactly existing ones in dataset B"
-msgstr ""
+msgstr "Certains champs présentent une correspondance plusieurs à plusieurs (∞:∞) : les informations du jeu de données A sont réparties dans plusieurs champs qui ne correspondent pas directement à ceux du jeu de données B"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:120
@@ -561,27 +565,27 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:123
 #, no-wrap
 msgid "*Slide 8 - Planning data moves - Transformations*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Planification des transferts de données - Transformations*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:125
 msgid "Each of the relationship types has its own nuances as to how you are going to have to handle them."
-msgstr ""
+msgstr "La manière de traiter les données varie selon le type de correspondance."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:127
 msgid "one-to-one (1:1) - Beware your field types. If they are the not the same. You will need to do some manipulation."
-msgstr ""
+msgstr "un à un (1:1) – Vérifiez attentivement le type de chaque champ. S’ils sont différents, certaines transformations seront nécessaires."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:128
 msgid "many-to-one (∞:1) - These fields will need to joined together to go into the field."
-msgstr ""
+msgstr "Plusieurs à un (∞:1) – Les valeurs de plusieurs champs devront être regroupées pour être intégrées dans un seul champ."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:129
 msgid "one-to-many (1:∞) - These fields will need to be split apart and put in to different fields"
-msgstr ""
+msgstr "Un à plusieurs (1:∞) – Le contenu d’un champ devra être séparé, puis réparti dans plusieurs champs distincts."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:130
