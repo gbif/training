@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-26 03:32\n"
+"PO-Revision-Date: 2026-09-26 04:41\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -732,47 +732,49 @@ msgstr ""
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:156
 msgid "So, what is Fitness for Use and how does it relate to data?   When Chapman discusses Fitness for Use, he says that once a dataset has been created and shared there are two primary perspectives on how those data might be used; the perspective of the creator and the perspective of the user.    To help somebody to decide if your data is trustworthy or useful enough for them to use, you have to understand your data and how to convey those data to the potential user. These are some of the important questions about the metadata, or characteristics of your data, that you should be able to answer and share with others:  "
-msgstr ""
+msgstr "Alors, qu’entend-on par adéquation des données à l’usage prévu (Fitness for Use) et qu’est-ce que cela signifie concrètement ?\n"
+"Selon Chapman, dès qu’un jeu de données est créé et partagé, il peut être considéré sous deux angles : celui de la personne qui l’a créé et celui de la personne qui souhaite l’utiliser.\n"
+"Pour aider un utilisateur potentiel à savoir si vos données sont fiables et adaptées à ses besoins, vous devez bien les connaître et être capable de les présenter clairement. Voici quelques questions importantes sur les métadonnées, c’est-à-dire les informations qui décrivent vos données, auxquelles vous devez pouvoir répondre et que vous devez partager avec les autres :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:157
 msgid "How Accessible are your data? How easily can someone access your data? People can’t use the data if they can’t find the data."
-msgstr ""
+msgstr "Vos données sont-elles accessibles ? Sont-elles faciles à trouver et à consulter ? Si les utilisateurs ne peuvent pas les trouver, ils ne pourront pas les utiliser."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:158
 msgid "How Accurate are your data? Can your data be trusted? For example, are your identifications current and were they made by known experts?"
-msgstr ""
+msgstr "Vos données sont-elles exactes ? Sont-elles suffisamment fiables pour être utilisées ? Par exemple, les identifications sont-elles à jour et ont-elles été réalisées par des experts reconnus ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:159
 msgid "How Timely are they? When will the data be made available? How often are they updated?"
-msgstr ""
+msgstr "Vos données sont-elles disponibles à temps ? Quand seront-elles publiées et à quelle fréquence seront-elles mises à jour ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:160
 msgid "How Complete or Comprehensive are the data? Which parts of your dataset are documented fully? How well do the data cover a particular time, place, or domain?"
-msgstr ""
+msgstr "Vos données sont-elles suffisamment complètes ? Quelles parties sont bien documentées ? Couvrent-elles correctement la période, la zone géographique ou le domaine étudié ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:161
 msgid "How Consistent are they? Is the data in each field always of the same type? Was the data collected using the same documented protocols?"
-msgstr ""
+msgstr "Vos données sont-elles cohérentes ? Les informations de chaque champ respectent-elles un type et un format uniformes ? Les données ont-elles été collectées selon les mêmes protocoles documentés ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:162
 msgid "How Relevant are they? How similar is this dataset to others that have been used successfully for the same purpose?"
-msgstr ""
+msgstr "Vos données sont-elles pertinentes ? Sont-elles comparables à d’autres données déjà utilisées avec succès pour le même objectif ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:163
 msgid "How Detailed are the data? How much resolution is there in your data? At what scale can they be used for mapping?"
-msgstr ""
+msgstr "Quel est le niveau de détail de vos données ? Quelle est leur résolution et à quelle échelle peuvent-elles être utilisées pour la cartographie ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:164
 msgid "Is the data Easy to interpret? Is the dataset documented in a clear and concise way? If your documents are handwritten, are they legible?"
-msgstr ""
+msgstr "Vos données sont-elles faciles à interpréter ? Leur documentation est-elle claire et concise ? Les documents manuscrits sont-ils suffisamment lisibles ?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:171
@@ -789,17 +791,17 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:175
 #, no-wrap
 msgid "*Slide 11 - Measures of quality*\n"
-msgstr ""
+msgstr "*Diapositive 11 – Évaluation de la qualité*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:177
 msgid "While Fitness for Use is subjective, measures of data quality are much less so. Chapman states that:"
-msgstr ""
+msgstr "Si l’adéquation des données à l’usage prévu (Fitness for Use) dépend des besoins propres à chaque utilisateur, l’évaluation de leur qualité repose, quant à elle, sur des critères plus objectifs. Comme l’indique Chapman :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:179
 msgid "\"All data include error – there is no escaping it! It is knowing what the error is that is important, and knowing if the error is within acceptable limits for the purpose to which the data are to be put. (Chapman 2005)”"
-msgstr ""
+msgstr "« Toutes les données contiennent des erreurs : elles sont inévitables ! L’essentiel est de connaître ces erreurs et de déterminer si elles restent dans des limites acceptables pour l’utilisation prévue des données. (Chapman, 2005) »"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:180
