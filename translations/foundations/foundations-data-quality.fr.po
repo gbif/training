@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-26 04:41\n"
+"PO-Revision-Date: 2026-09-26 06:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -818,17 +818,19 @@ msgstr ""
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:187
 msgid "We can use two measures of quality, Correctness and Consistency, to help us to document these inherent errors in data.    Correctness, sometimes called accuracy, is “How close the recorded value is to the actual, real-world value”. "
-msgstr ""
+msgstr "Deux critères de qualité, l’exactitude et la cohérence, peuvent nous aider à identifier et à documenter les erreurs inhérentes aux données. L’exactitude, également appelée précision, correspond au « degré de proximité entre la valeur enregistrée et la valeur réelle »."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:191
 msgid "In this diagram accuracy is how close a given dot is to the centre of the target.    Consistency, sometimes called precision, is “How often you get it right”"
-msgstr ""
+msgstr "Dans ce schéma, l’exactitude correspond à la proximité d’un point par rapport au centre de la cible.\n"
+"La cohérence, parfois appelée précision, indique « la fréquence à laquelle on obtient le résultat attendu »"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:195
 msgid "In this diagram, precision is how close the dots are together irrespective of how close they are to the centre of the target.    These are measures of how well the data gatherer was able to capture the true value being investigated. Knowing these properties of your data will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "Dans cette figure, la précision correspond au degré de proximité des points entre eux, qu’ils soient proches ou non du centre de la cible.\n"
+"Ces deux mesures permettent d’évaluer dans quelle mesure la personne chargée de la collecte a réussi à saisir la valeur réelle étudiée. Connaître ces caractéristiques vous aidera à déterminer les possibilités et les limites du nettoyage, de la validation et du traitement de vos données."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:196
@@ -840,12 +842,12 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:199
 #, no-wrap
 msgid "*Slide 13 - Measures of quality - Accuracy vs precision*\n"
-msgstr ""
+msgstr "*Diapositive 13 - Indicateurs de qualité - Exactitude et précision*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:201
 msgid "This image provides a clear set of illustrations of accuracy and precision. This may be a good image to keep with you when you have to explain these concepts to others."
-msgstr ""
+msgstr "Cette image illustre clairement les notions d’exactitude et de précision. Elle peut vous servir de référence lorsque vous devrez expliquer ces concepts à d’autres personnes."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:203
@@ -862,12 +864,12 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:207
 #, no-wrap
 msgid "*Slide 14 - Measures of quality correctness*\n"
-msgstr ""
+msgstr "*Diapositive 14 - Indicateurs de qualité et d'exactitude*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:211
 msgid "Let’s look at some examples of Correctness, or accuracy, and how it can help us think about the practicalities of data cleaning. Remember that Correctness is how close you are to the center of a target.    Let’s look at an example."
-msgstr ""
+msgstr "Examinons quelques exemples d’exactitude, ou de précision, afin de mieux comprendre comment cette notion peut orienter concrètement le nettoyage des données. Rappelons que l’exactitude correspond au degré de proximité par rapport au centre de la cible."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:212
@@ -879,12 +881,14 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:215
 #, no-wrap
 msgid "*Slide 15 - Measures of quality correctness - Example 1*\n"
-msgstr ""
+msgstr "*Diapositive 15 - Indicateurs de qualité \"exactitude\" - Exemple 1*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:221
 msgid "For this example let’s imagine your dataset contains records of fossil bird specimens from the Early Triassic Period. The taxonomic name for a number of specimens in your dataset is recorded as Thismia.    Do you know if Thismia is a taxon of ancient birds?   Image reference: https://commons.wikimedia.org/wiki/File:Archaeopteryx_fossil.jpg"
-msgstr ""
+msgstr "Pour cet exemple, imaginons que votre jeu de données contienne des enregistrements de spécimens fossiles d’oiseaux datant du Trias inférieur. Pour plusieurs de ces spécimens, le nom taxonomique indiqué est Thismia.\n"
+"Savez-vous si Thismia est un taxon d’oiseaux préhistoriques ?\n"
+"Référence de l’image : https://commons.wikimedia.org/wiki/File:Archaeopteryx_fossil.jpg"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:222
