@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-07-08 08:21\n"
+"PO-Revision-Date: 2026-09-12 08:49\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -39,7 +39,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:105
 #, no-wrap
 msgid "*Data publishing*\n"
-msgstr ""
+msgstr "*Публикация данных*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:6
@@ -50,7 +50,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:82
 #, no-wrap
 msgid "*Data capture*\n"
-msgstr ""
+msgstr "*Сбор данных*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:41
@@ -61,13 +61,13 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:94
 #, no-wrap
 msgid "*Data management*\n"
-msgstr ""
+msgstr "*Управление данными*\n"
 
 #. type: Title =
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:1
 #, no-wrap
 msgid "Use Case - Birds from literature"
-msgstr ""
+msgstr "Пример использования — Птицы по литературным данным"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:6
@@ -76,7 +76,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:6
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:6
 msgid "Familiarize yourself with the use case scenario."
-msgstr ""
+msgstr "Ознакомьтесь со сценарием практического применения."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:8
@@ -94,29 +94,29 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:10
 #, no-wrap
 msgid "*Data Mobilization Project from Literature “Birds fallen at Danish Lighthouses, 1883–1939”*\n"
-msgstr ""
+msgstr "*Проект по мобилизации данных из литературных источников «Птицы, погибшие у датских маяков, 1883–1939 гг.»*\n"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:12
 #, no-wrap
 msgid "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wikimedia_Rechenbuchdigitalisierung_2006-05-24_01.JPG[High resolution scanner] for book digitization project by Heiko Hornig (licensed under https://creativecommons.org/licenses/by-sa/2.5/deed.en[CC BY-SA 2.5])"
-msgstr ""
+msgstr "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wikimedia_Rechenbuchdigitalisierung_2006-05-24_01.JPG [сканер высокого разрешения] для проекта оцифровки книг, автор — Heiko Hornig (лицензировано по лицензии https://creativecommons.org/licenses/by-sa/2.5/deed.en [CC BY-SA 2.5])"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:13
 #, no-wrap
 msgid "data-mobilization::use-case-BL-scanner.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-scanner.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:17
 msgid "This narrative was developed as a basis for practical exercises in the biodiversity data mobilization course and the exercise concept and content was developed by Alberto González-Talaván, Andrea Hahn, Laura Russell and Sharon Grant.  It is based upon a previous adaptation by Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Russell, Mélianie Raymond and Nicolas Noé."
-msgstr ""
+msgstr "Данный сценарий был разработан в качестве основы для практических занятий в рамках курса по мобилизации данных о биоразнообразии; концепция и содержание упражнений были разработаны lberto González-Talaván, Andrea Hahn, Laura Russell и Sharon Grant.  Она основана на ранее подготовленной адаптации, авторами которой являются Alberto González-Talaván, Danny Vélez, Larissa Smirnova, Laura Russell, Mélianie Raymond и Nicolas Noé."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:20
 msgid "It is a fictionalized scenario based on a real project and dataset and is meant only for instructional purposes.  The https://danbif.dk/se-eksempler/fyrfaldne-fugle/[original project] and the https://www.gbif.org/dataset/ad331dcc-d0fa-4816-b1e6-d36f9f899c49[original dataset] are attributed to the Danish GBIF Node, https://danbif.dk/[DanBIF]."
-msgstr ""
+msgstr "Это вымышленный сценарий, основанный на реальном проекте и наборе данных, и предназначен исключительно для учебных целей.  https://danbif.dk/se-eksempler/fyrfaldne-fugle/ [исходный проект] и https://www.gbif.org/dataset/ad331dcc-d0fa-4816-b1e6-d36f9f899c49 [исходный набор данных] принадлежат датскому узлу GBIF, https://danbif.dk/ [DanBIF]."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:21
@@ -134,93 +134,93 @@ msgstr "Описание"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:26
 msgid "The Natural History Museum of Denmark (NHM-DK) is a research centre associated with the University of Copenhagen.  Their library is a member of the national library association who recently received state funding to make available online the resources held by its members.  The NHM-DK would like to begin digitization of the field notebooks, journal publications and books held in their library, some of which have significant historic value."
-msgstr ""
+msgstr "Датский музей естественной истории (NHM-DK) — это научно-исследовательский центр, связанный с Копенгагенским университетом.  Его библиотека входит в состав национальной библиотечной ассоциации, которая недавно получила государственное финансирование для обеспечения онлайн-доступа к ресурсам, хранящимся у её членов.  NHM-DK планирует начать оцифровку хранящихся в библиотеке полевых дневников, журнальных публикаций и книг, некоторые из которых имеют значительную историческую ценность."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:30
 msgid "After a short consultation with their regular partners, NHM-DK received a suggestion from the Head of the management office of the Nordjylland National Park.  They would like the contents of a particular classic literature compilation digitized for a project they are running: ‘Birds at the Danish Lighthouses, 1883–1939’ (In Danish, ‘Fuglene ved de danske Fyr, 1883–1939’).  They want to use any occurrence data recorded in those books from two lighthouses (Lodbjerg Fyr and Hanstholm Fyr) for an on-site exhibition project."
-msgstr ""
+msgstr "После короткой консультации со своими постоянными партнёрами NHM-DK получил предложение от руководителя административного офиса Национального парка Нордъюлланд. Для реализуемого ими проекта они хотели бы оцифровать содержание конкретного классического собрания литературных источников — «Птицы у датских маяков, 1883–1939 гг.» (на датском языке — «Fuglene ved de danske Fyr, 1883–1939»). Они планируют использовать для выставочного проекта непосредственно на территории парка все данные о находках организмов, приведённые в этих книгах для двух маяков — Lodbjerg Fyr и Hanstholm Fyr."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:34
 msgid "The NHM-DK has started discussions with their national GBIF node, DanBIF, about the mobilization of the information contained in these volumes, namely to preserve their contents for the future and provide online access for everyone.  With the involvement of DanBIF, there is intent to publish and register the resulting extracted data with GBIF.  As GBIF requires a license be applied with all published data, the museum has decided to publish the data with a Creative Commons license allowing use of data with attribution (CC-BY)."
-msgstr ""
+msgstr "NHM-DK начал обсуждение с национальным узлом GBIF в Дании — DanBIF — вопросов мобилизации информации, содержащейся в этих изданиях, с целью сохранить их содержание для будущего и обеспечить открытый онлайн-доступ для всех пользователей. При участии DanBIF планируется опубликовать извлечённые данные и зарегистрировать их в GBIF. Поскольку GBIF требует указания лицензии для всех публикуемых данных, музей решил опубликовать их на условиях лицензии Creative Commons, разрешающей использование данных с указанием авторства (CC BY)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:36
 msgid "The IT services required are provided by the Technology Unit of the University of Copenhagen, as for all museum digital projects."
-msgstr ""
+msgstr "Все необходимые ИТ-услуги, как и для других цифровых проектов музея, предоставляет Технологическое подразделение Копенгагенского университета."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:38
 msgid "The NHM-DK deputy director, who is coordinating this piece of work has developed a general outline for the work:"
-msgstr ""
+msgstr "Заместитель директора NHM-DK, координирующий эту работу, разработал общий план её выполнения:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:41
 msgid "The museum will carry out the digitization of the literature using two library staff members trained in the use of the library scanner to scan delicate volumes.  They will also extract text from the scans through OCR (Optical Character Recognition) software."
-msgstr ""
+msgstr "Оцифровку литературы в музее будут выполнять два сотрудника библиотеки, обученные работе с библиотечным сканером для сканирования хрупких изданий. Они также будут извлекать текст из отсканированных материалов с помощью программного обеспечения для оптического распознавания текста (OCR)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:43
 msgid "Three volunteers from the Copenhagen Ornithological Society (COS) who regularly collaborate with the museum and are familiar with the birds of the region have been enlisted to assist and will complete the transfer of data from the scanned PDFs into spreadsheet format.  They will need to go to the museum and use the computers available in the library to gain access to the files stored in the museum intranet (private network)."
-msgstr ""
+msgstr "Для участия в работе были привлечены три волонтёра Копенгагенского орнитологического общества (COS), которые регулярно сотрудничают с музеем и хорошо знакомы с птицами региона. Они будут переносить данные из отсканированных PDF-файлов в электронные таблицы. Для доступа к файлам, хранящимся во внутренней сети музея (интранете), им необходимо будет работать непосредственно в музее, используя компьютеры библиотеки."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:47
 msgid "The Ornithology Curator in the NHM-DK Bird Department will lead the team responsible for taxonomic checking, data curation, cleaning, format and transformation, and will oversee the entry of metadata for the published dataset.  The team includes a collaborating researcher from Sweden, and two postdoctoral students.  They have been selected for this task because they are used to working with digital biodiversity data.  They will all use their own work computers."
-msgstr ""
+msgstr "Куратор орнитологической коллекции отдела птиц NHM-DK возглавит команду, отвечающую за проверку таксономической информации, курирование и очистку данных, их форматирование и преобразование, а также будет контролировать внесение метаданных для публикуемого набора данных. В состав команды входят сотрудничающий с музеем исследователь из Швеции и два постдокторанта. Они были выбраны для этой работы, поскольку имеют опыт работы с цифровыми данными о биоразнообразии. Все участники команды будут работать на своих рабочих компьютерах."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:48
 msgid "The DanBIF Node Manager will ensure that the institution is adequately registered in GBIF as a data publisher and that the deputy director and the ornithology curator have the proper credentials and access to DanBIF’s IPT instance to upload and publish the data."
-msgstr ""
+msgstr "Менеджер узла DanBIF обеспечит надлежащую регистрацию учреждения в GBIF в качестве издателя данных, а также предоставит заместителю директора и куратору орнитологической коллекции необходимые учётные данные и права доступа к IPT DanBIF для загрузки и публикации данных."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:49
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:34
 #, no-wrap
 msgid "Original data collection"
-msgstr ""
+msgstr "Сбор исходных данных"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:56
 msgid "In the period 1883-1939, there were 45 lighthouses and lightships functioning in Denmark.  These lighthouses were used by several species of birds during the nights of the bird migration period from the years 1886 through 1939.  The presence and activities of these birds were recorded, especially by the keepers of these lighthouses who also collected specimens that were sent to the museum in Copenhagen.  These birds were carefully preserved and catalogued by collection managers at the museum and the specimens can still be found there today.  Observations of weather conditions during the nights when birds were observed by the keepers were also documented."
-msgstr ""
+msgstr "В период с 1883 по 1939 год в Дании функционировали 45 маяков и световых судов. В 1886–1939 годах в ночное время в периоды миграции птиц у этих маяков отмечались различные виды птиц. Их присутствие и активность регистрировали главным образом смотрители маяков, которые также собирали экземпляры и отправляли их в музей в Копенгагене. В музее эти экземпляры тщательно сохранялись и каталогизировались кураторами коллекций и до сих пор хранятся там. Смотрители также документировали погодные условия в те ночи, когда наблюдались птицы."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:57
 #, no-wrap
 msgid "Analogue data description"
-msgstr ""
+msgstr "Описание данных в аналоговом формате"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:60
 msgid "This is an example of the description of a series of species observations from one of the books (in German, except the common name for the species which is provided in Danish)."
-msgstr ""
+msgstr "Это пример описания серии наблюдений вида из одной из книг (на немецком языке, за исключением общеупотребительного названия вида, приведённого на датском языке)."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:61
 #, no-wrap
 msgid "data-mobilization::use-case-BL-analogue.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-analogue.png"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:63
 #, no-wrap
 msgid "Scanned and translated data description"
-msgstr ""
+msgstr "Описание отсканированных и переведённых данных"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:66
 msgid "This is an example of the scanned and translated output from the analogue example above."
-msgstr ""
+msgstr "то пример отсканированного и переведённого материала из приведённого выше аналогового источника."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:67
 #, no-wrap
 msgid "data-mobilization::use-case-BL-scanned.png"
-msgstr ""
+msgstr "data-mobilization::use-case-BL-scanned.png"
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:70
@@ -229,22 +229,22 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:105
 #, no-wrap
 msgid "Digital data description"
-msgstr ""
+msgstr "Описание данных в цифровом формате"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:73
 msgid "Studying the extract from the book, the volunteers from the Copenhagen Ornithology Society suggest extracting the following data from the scanned and translated text:"
-msgstr ""
+msgstr "Изучив фрагмент из книги, волонтёры Копенгагенского орнитологического общества предлагают извлечь из отсканированного и переведённого текста следующие данные:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:75
 msgid "Scientific name as appearing in the book"
-msgstr ""
+msgstr "Научное название, приведённое в книге"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:76
 msgid "Common name(s) in Danish as appearing in the book"
-msgstr ""
+msgstr "Общеупотребительное название (названия) на датском языке в том виде, в котором оно приведено в книге"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:77
@@ -254,12 +254,12 @@ msgstr "Описание местоположения (топоним)"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:78
 msgid "Year/month/day"
-msgstr ""
+msgstr "Год/месяц/день"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:79
 msgid "Observed number of individuals"
-msgstr ""
+msgstr "Наблюдаемое количество особей"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:80
@@ -269,7 +269,7 @@ msgstr "Пол"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:81
 msgid "Lifestage"
-msgstr ""
+msgstr "Стадия жизненного цикла"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:82
@@ -279,7 +279,7 @@ msgstr "Примечания"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:83
 msgid "URL of the digitized book page in which the occurrence is provided"
-msgstr ""
+msgstr "URL страницы оцифрованной книги, на которой встречается данный фрагмент"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:84
@@ -299,7 +299,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:87
 msgid "Download the xref:attachment$UC-BL-exercise-sheet_EN.docx[exercise sheet,opts=download]. (MS Word, 2.8 MB)"
-msgstr ""
+msgstr "Скачайте файл по ссылке:$UC-BL-exercise-sheet_EN.docx[лист с упражнениями,opts=download]. (MS Word, 2,8 МБ)"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:88
@@ -318,62 +318,62 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:94
 msgid "The scans and character recognition (OCR) of the books have been completed.  Occurrence data must now be extracted from those sources and compiled in a spreadsheet format."
-msgstr ""
+msgstr "Сканирование книг и распознавание текста (OCR) завершены. Теперь необходимо извлечь из этих источников данные о находках организмов и собрать их в электронной таблице."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:96
 msgid "The original data was in German and, to make it more widely usable when published online, the project manager would like to make it available in English."
-msgstr ""
+msgstr "Исходные данные представлены на немецком языке, и, чтобы сделать их более доступными для широкого круга пользователей после публикации в интернете, руководитель проекта хотел бы представить их на английском языке."
 
 #. Do not translate this block
 #. The {empty} is to prevent the "2." producing a numbered list.
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:101
 msgid "{empty}2. Cerchneis tinnunculus, Linn. ( \"Taarnfalk\") nests in several steeples around Viborg."
-msgstr ""
+msgstr "{empty}2. Cerchneis tinnunculus, Linn. («Таарнфальк» (Taarnfalk)) гнездится на нескольких церковных шпилях в окрестностях Виборга (Viborg)."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:103
 msgid "At the churches of Mönsted and Daubjerg there were several family groups in 1880, each of 7 individuals, suggesting a particularly abundant source of food on the surrounding heather (lizards). In the area of Thisted, where the tower falcon broods very often, young were always present in broods of 6, only once did I find a group of 7 on Egebäksande (H.)"
-msgstr ""
+msgstr "У церквей Мёнстеда (Mönsted) и Даубьерга (Daubjerg) в 1880 году наблюдалось несколько семейных групп, каждая по 7 особей, что указывает на наличие особенно богатого источника пищи на окружающих вересковых пустошах (ящерицы). В районе Тистеда (Thisted), где обыкновенная пустельга очень часто гнездится, в выводках обычно было по 6 птенцов; лишь однажды я обнаружил группу из 7 особей в Эгебександе (Egebäksande) (H.)."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:105
 msgid "In Horsens I found kestrels brooding on the churches of Vähr, Hansted, Hundslund, Thyrsted and Oelsted. In the steeple of Vähr I found a nest with 6 eggs on 6 May 1875, 6 eggs on 30 April 1876, 4 eggs on 28 April 1878; in 1877 and 1879 there were none, on 2 May 1880 they had 5 eggs, in 1882 also 5 eggs, and in 1883 seven."
-msgstr ""
+msgstr "В Хорсенсе (Horsens) я обнаружил гнездящихся пустельг на церквях в Вэре (Vähr), Ханстеде (Hansted), Хундслунде (Hundslund), Тюрстеде (Thyrsted) и Эльстеде (Oelsted). В церковной башне в Вэре (Vähr) я обнаружил гнездо с 6 яйцами 6 мая 1875 года, с 6 яйцами — 30 апреля 1876 года и с 4 яйцами — 28 апреля 1878 года; в 1877 и 1879 годах их там не было. 2 мая 1880 года в гнезде было 5 яиц, в 1882 году — также 5, а в 1883 году — семь."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:107
 msgid "In Oelsted 5 eggs on 3 May 1879, in 1882 also 5, and in 1883 6 eggs."
-msgstr ""
+msgstr "В Эльстеде (Oelsted) 3 мая 1879 года было 5 яиц, в 1882 году — также 5, а в 1883 году — 6 яиц."
 
 #. type: delimited block *
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:109
 msgid "On the churches (Our Lady’s and St. Peter’s) of Copenhagen, I have often seen it in the autumn and winter of 1879; in spring 1880, it brooded on Our Lady’s church, the \"round tower\" and the law firm building (in a valve) and certainly also on St. Peter's Church. (F.)"
-msgstr ""
+msgstr "На церквях Копенгагена — церкви Богоматери (Our Lady’s Church) и церкви Святого Петра (St. Peter’s Church) — я часто наблюдал её осенью и зимой 1879 года. Весной 1880 года она гнездилась на церкви Богоматери (Our Lady’s Church), Круглой башне (Round Tower) и здании юридической конторы (в ставне), а также, несомненно, на церкви Святого Петра (St. Peter’s Church). (F.)"
 
 #. End block - Begin translation again
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:115
 msgid "Take the role of a volunteer charged with transforming the translated text into a spreadsheet as individual occurrences.  The occurrences will need unique numbers assigned to them."
-msgstr ""
+msgstr "Возьмите на себя роль волонтёра, которому поручено преобразовать переведённый текст в электронную таблицу, представив каждую находку организма отдельной записью. Каждой находке необходимо присвоить уникальный номер."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:116
 msgid "Create a spreadsheet using the data fields listed in the <<birds-digital-data-description>> using data found in the example above recorded by: Chr. Fr. Lütken."
-msgstr ""
+msgstr "Создайте таблицу, используя поля данных, перечисленные на сайте <<birds-digital-data-description>>, с использованием данных из приведенного выше примера, записанных: Chr. Fr. Lütken."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:117
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:82
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:90
 msgid "Use the exercise sheet to provide your answers and submit the spreadsheet created in the previous step."
-msgstr ""
+msgstr "Используйте рабочий лист для записи ответов и отправьте таблицу, созданную на предыдущем этапе."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:119
 msgid "In the examples used, the individual occurrences do not always contain data to complete all of the columns in the spreadsheet."
-msgstr ""
+msgstr "В приведенных примерах отдельные записи не всегда содержат данные, достаточные для заполнения всех столбцов в таблице."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:120
@@ -390,62 +390,62 @@ msgstr ""
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:126
 msgid "Data has now been compiled into a spreadsheet format by the volunteers from the Copenhagen Ornithological Society.  Taking the role of the Ornithology Curator in the Bird Department, you have been assigned the responsibility for data quality issues on the dataset."
-msgstr ""
+msgstr "Волонтёры Копенгагенского орнитологического общества (Copenhagen Ornithological Society) уже собрали данные в электронной таблице. Возьмите на себя роль куратора орнитологической коллекции отдела птиц, которому поручено обеспечить качество этого набора данных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:132
 msgid "Through retrospective georeferencing, coordinates have been added to the dataset along with the locality, but no other higher geography.  Since all the observations were made in Denmark, continent and country can easily be added.  Additionally, only the scientific name was provided.  Higher taxonomy can be derived utilizing software tools such as OpenRefine.  You are also aware that there are typographic errors that were made by the digitizers."
-msgstr ""
+msgstr "В результате ретроспективной географической привязки в набор данных были добавлены координаты и названия местонахождений, однако другие географические данные более высокого уровня отсутствуют. Поскольку все наблюдения были сделаны в Дании, можно легко добавить континент и страну. Кроме того, из таксономической информации были указаны только научные названия. Таксоны более высокого ранга можно определить с помощью таких программных инструментов, как OpenRefine. Вам также известно, что при оцифровке данных были допущены опечатки."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:134
 msgid "Download xref:attachment$UC-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 KB)"
-msgstr ""
+msgstr "Скачать внешнюю ссылку: вложение$UC-BL-2-ForCleaning.zip[UC-BL-2-ForCleaning.zip,opts=download]. (45 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:135
 msgid "Identify and correct any invalid years."
-msgstr ""
+msgstr "Выявите и исправьте все неверные годы."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:136
 msgid "Verify and correct taxonomy."
-msgstr ""
+msgstr "Проверить и исправить таксономию."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:139
 msgid "Verify coordinates are correct for the two given localities.  Correct any that are not.  Coordinates should be in decimal format."
-msgstr ""
+msgstr "Убедитесь, что координаты для двух указанных населённых пунктов верны.  Исправьте все неверные координаты.  Координаты должны быть указаны в десятичном формате."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:140
 msgid "Add any data for missing elements that can be derived using the available data"
-msgstr ""
+msgstr "Добавьте отсутствующие элементы данных, которые можно определить на основе имеющейся информации"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:141
 msgid "Remember to keep the original information provided and document your changes and assumptions as part of the individual records and the metadata."
-msgstr ""
+msgstr "Не забывайте сохранять исходную информацию и документировать внесённые изменения и сделанные предположения как в отдельных записях, так и в метаданных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:142
 msgid "Use the exercise sheet to provide your answers and submit the cleaned text file extracted from the step 1."
-msgstr ""
+msgstr "Используйте лист задания для внесения своих ответов и отправьте очищенный текстовый файл, полученный на этапе 1."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:144
 msgid "dataset should contain only years 1883-1939"
-msgstr ""
+msgstr "Набор данных должен содержать только данные за 1883–1939 годы"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:152
 msgid "For this exercise, you will take the role of the person responsible for publishing the cleaned data online via the GBIF network.  You have been supplied with a multimedia file and an identification history file that should be published along with the observations.  The staff member in charge of data quality has provided cleaned datasets for you to publish."
-msgstr ""
+msgstr "В этом задании вы возьмёте на себя роль специалиста, ответственного за публикацию очищенных данных в открытом доступе через сеть GBIF. Вам предоставлены файл с мультимедийными материалами и файл с историей определения, которые необходимо опубликовать вместе с данными о находках организмов. Сотрудник, отвечающий за качество данных, предоставил вам очищенные наборы данных для публикации."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:154
 msgid "Download xref:attachment$UC-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 KB)"
-msgstr ""
+msgstr "Скачать xref:attachment$UC-BL-3-ForPublication.zip[UC-BL-3-ForPublication.zip,opts=download]. (65 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
@@ -454,7 +454,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:106
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:108
 msgid "Use the previously provided IPT installation to publish the given dataset."
-msgstr ""
+msgstr "Используйте ранее предоставленную установку IPT для публикации данного набора данных."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:155
@@ -463,5 +463,5 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/use-case-lepidoptera-sampling.adoc:106
 #: en/data-mobilization/modules/ROOT/pages/use-case-marine.adoc:108
 msgid "Use the exercise sheet to provide your answers and link to the published dataset."
-msgstr ""
+msgstr "Используйте лист задания для внесения своих ответов и укажите ссылку на опубликованный набор данных."
 

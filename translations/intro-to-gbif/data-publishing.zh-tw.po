@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-08-26 05:55\n"
+"PO-Revision-Date: 2026-09-17 12:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/solutions.adoc:82
 #, no-wrap
 msgid "Data publishing"
-msgstr ""
+msgstr "資料發布"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:580
@@ -75,25 +75,25 @@ msgstr "你可以在 xref:solutions.adoc[解答附錄] 中閱讀更多關於這�
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:208
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
 msgid "The endorsement procedure aims to ensure that:"
-msgstr ""
+msgstr "認證程序的目的是確保："
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:210
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
 msgid "Published data are relevant to GBIF’s scope and objectives"
-msgstr ""
+msgstr "發布的資料須與GBIF的範疇和目標相關"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:212
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
 msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
-msgstr ""
+msgstr "資料的發布與使用要靠國家、區域及領域專家的積極參與支持"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
 msgid "Data publishers can respond to feedback and improve data quality"
-msgstr ""
+msgstr "資料發布者能回覆使用者的意見，並持續改善資料品質"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -103,7 +103,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
-msgstr ""
+msgstr "在GBIF中，「資料發布」是什麼意思？"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
@@ -112,7 +112,9 @@ msgstr ""
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
 "- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
 "- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
-msgstr ""
+msgstr "- [ ] 把整理好的資料匯出成csv檔，分享給同事\n"
+"- [ ] 寫一篇文章說明你的資料，以及蒐集、擷取與清理資料的方法\n"
+"- [x] 以標準化格式公開您的生物多樣性資料集，讓大家能找到並取用\n\n\n"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:61
@@ -140,141 +142,142 @@ msgstr ""
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:5
 msgid "In this module, you will learn about data publishing, incentives for publishing data how to become a publisher, review feedback available for publishers and review information about data papers."
-msgstr ""
+msgstr "本單元將介紹資料發布、發布資料的原因、如何成為資料發布者、發布者可取得的意見回饋，以及資料論文的相關資訊。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:6
 #, no-wrap
 msgid "What is data publishing?"
-msgstr ""
+msgstr "什麼是資料發布？"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:10
 msgid "In this section, you will learn what data publishing is in the GBIF network."
-msgstr ""
+msgstr "本節將說明資料發布在GBIF網絡中的意義。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:12
 msgid "In simplest terms, data publishing is making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format."
-msgstr ""
+msgstr "簡單來說，資料發布就是把你的生物多樣性資料集，以標準化格式公開，讓大家能找到並取用。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:13
 #, no-wrap
 msgid "intro-to-gbif::datapublishing.png"
-msgstr ""
+msgstr "intro-to-gbif::datapublishing.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:16
 msgid "Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the https://www.gbif.org/ipt[Integrated Publishing Toolkit^], to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node like GBIF France or through an established thematic group like VertNet. Or, a another option, might be to make use of one of the GBIF cloud-hosted IPTs."
-msgstr ""
+msgstr "GBIF網絡中大多數組織，也就是所謂的發布者，都使用IPT——即https://www.gbif.org/ipt[資料整合發布工具^]——來發布資料。有些發布者會像菲爾德自然史博物館一樣自行架設IPT，但多數會傾向尋找合適的單位來託管其資料發布工作，透過既有的GBIF參與方節點，如GBIF法國，或是透過既有的領域網絡，如VertNet，也可以選擇使用GBIF雲端託管的IPT服務。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:18
 msgid "If you are part of groups like Symbiota or the Living Atlases Communities, they have other means to assist you with publishing your data to GBIF."
-msgstr ""
+msgstr "如果你是 Symbiota 或 Living Atlases Communities 等團體的成員，這些團體還提供其他方式協助你將資料發佈至 GBIF。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:19
 #, no-wrap
 msgid "Incentives for publishing open-access biodiversity data"
-msgstr ""
+msgstr "發布開放取用生物多樣性資料的動機"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:23
 msgid "In this section, you will review some incentives for publishing biodiversity data."
-msgstr ""
+msgstr "本節將介紹發布生物多樣性資料的幾項動機。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:25
 msgid "An important part of GBIF's mission is to promote a culture in which people recognize the benefits of publishing open-access biodiversity data, for themselves as well as for the broader society."
-msgstr ""
+msgstr "GBIF的使命之一，是推廣讓大家認識到發布開放取用生物多樣性資料的好處，這些效益不僅對個人有益，對整個社會也有幫助。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:27
 msgid "By making your data discoverable and accessible through GBIF and similar information infrastructures, you will *contribute to global knowledge about biodiversity*, and thus to the solutions that will promote its conservation and sustainable use."
-msgstr ""
+msgstr "透過GBIF及類似的資訊基礎設施，讓你的資料能夠被發現並存取，你就是在*為全球生物多樣性知識做出貢獻*，進而有助於促進其保育與永續利用的解決方案。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:28
 msgid "Data publishing enables datasets held all over the world to be integrated, revealing *new opportunities for collaboration* among data owners and researchers."
-msgstr ""
+msgstr "資料發布能讓散布在世界各地的資料集彼此整合，為資料擁有者與研究人員開啟*新的合作機會*。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:29
 msgid "Publishing data enables individuals and institutions to be properly credited for their work to create and curate biodiversity data, by *giving visibility to publishing institutions* through good metadata authoring. This recognition can be further developed if you author a peer-reviewed data paper, giving scholarly recognition to the publication of biodiversity datasets."
-msgstr ""
+msgstr "發布資料能讓個人與機構因建立、維護生物多樣性資料的努力獲得應有肯定，透過用心撰寫詮釋資料，*讓發布機構被更多人看見*。如果進一步撰寫經同行評審的資料論文，還能為資料集的發布爭取到學術上的認可。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:30
 msgid "Collection managers can *trace usage and citations* of digitized data published from their institutions and accessed through GBIF and similar infrastructures."
-msgstr ""
+msgstr "典藏管理者可以*追蹤*自己機構發布、並透過GBIF等平台被存取之數位化資料的*使用與引用情形*。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:31
 msgid "Some funding agencies now require researchers receiving public funds to *make data freely accessible* at the end of a project."
-msgstr ""
+msgstr "現在部分資助機構要求，接受公共資金的研究人員必須在專案結束時*使資料能夠自由取用*。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:32
 #, no-wrap
 msgid "Data publisher visibility and recognition"
-msgstr ""
+msgstr "資料發布者的能見度與肯定"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:36
 msgid "In this section, you will review frameworks for citing and tracking digital data use on GBIF.org"
-msgstr ""
+msgstr "在本節中，你將檢視在GBIF.org上引用與追蹤數位資料使用情形的相關架構"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:39
 msgid "Giving adequate visibility and recognition to data publishers is of paramount importance to GBIF.  That is why the organization has put in place the regulatory and technical frameworks needed to make citing and tracking digital data use, easier than ever before."
-msgstr ""
+msgstr "給予資料發布者適當的能見度與肯定，對GBIF而言非常重要。這也是為什麼GBIF建立了所需的規範與技術架構，使引用與追蹤數位資料使用情形比以往更加容易。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:41
 #, no-wrap
 msgid "*The GBIF Memorandum of Understanding*\n"
-msgstr ""
+msgstr "*GBIF合作備忘錄*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:44
 msgid "GBIF is a multilateral initiative established by intergovernmental agreement and based on a non-binding https://www.gbif.org/mou[Memorandum of Understanding^] (MoU).  The MoU is the official document that countries and international organizations sign in order to join GBIF."
-msgstr ""
+msgstr "GBIF 是一項透過政府間協議設立的多邊倡議，並以不具約束力的《合作備忘錄》https://www.gbif.org/mou[合作備忘錄^]（MoU）為基礎。該合作備忘錄是各國及國際組織為加入 GBIF 而簽署的正式文件。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:45
 #, no-wrap
 msgid "intro-to-gbif::GBIF_MoU.jpg"
-msgstr ""
+msgstr "intro-to-gbif::GBIF_MoU.jpg"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:48
 msgid "The MoU is very clear stating that GBIF data publishers need to be acknowledged for their contributions:"
-msgstr ""
+msgstr "MoU中明確指出，GBIF資料發布者的貢獻必須獲得肯定："
 
 #. type: delimited block -
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:52
 #, no-wrap
 msgid "\"4. Attribution. +\n"
 "GBIF seeks to ensure that the publisher/holder of data is acknowledged and requests that such attribution be maintained in any subsequent use of the data.\"\n"
-msgstr ""
+msgstr "「4. 標示來源。 +\n"
+"GBIF致力於確保資料發布者／持有者獲得應有肯定，並要求在後續任何使用資料的情況下，均須保留此來源標示。」\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:55
 msgid "GBIF strives to make all efforts possible to make this statement a reality."
-msgstr ""
+msgstr "GBIF盡一切努力，讓這項承諾真正落實。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:57
 #, no-wrap
 msgid "*The GBIF Data User Agreement*\n"
-msgstr ""
+msgstr "*GBIF資料使用者協議*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:59
 msgid "Prior to accessing any data using GBIF, users need to accept a data user agreement which includes very specific requirements on citation of the origin of the data accessed through GBIF. These are some of the requirements listed in the agreement:"
-msgstr ""
+msgstr "使用者在透過GBIF存取任何資料前，必須先同意一份資料使用者協議，當中對於如何引用資料來源訂有非常明確的要求。以下是協議中列出的部分規定："
 
 #. type: delimited block -
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:62
