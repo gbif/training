@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-07-08 10:28\n"
+"PO-Revision-Date: 2026-09-28 08:25\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -507,7 +507,7 @@ msgstr "Качество данных "
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:5
 msgid "This module provides an introduction to data quality."
-msgstr ""
+msgstr "Этот модуль представляет собой введение в вопросы качества данных."
 
 #. type: Title ==
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:6
@@ -518,104 +518,104 @@ msgstr "Качество данных"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:11
 msgid "In this video (12:26), you will review terminology used in this course."
-msgstr ""
+msgstr "В этом видео (12:26) вы познакомитесь с терминологией, используемой в данном курсе."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:13
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-data_quality_v1-720p.mp4[download,opts=download] it locally. (MP4 - 56.4 MB)"
-msgstr ""
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке:$foundations-data_quality_v1-720p.mp4[download,opts=download]. (MP4 — 56,4 МБ)"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:30
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide1.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide1.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:33
 #, no-wrap
 msgid "*Slide 1 - Foundations - Data Quality*\n"
-msgstr ""
+msgstr "*Слайд 1 — Основы — Качество данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:35
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:48
 msgid "The two primary concepts that we will explore are Fitness for Use and Measures of Quality.  These two ideas will lay the foundation for more detailed data quality concepts and techniques in the future."
-msgstr ""
+msgstr "Два основных понятия, которые мы рассмотрим, — это пригодность для использования и показатели качества. Они станут основой для дальнейшего изучения более детальных концепций и методов обеспечения качества данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:42
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:55
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2550045989 Ictinaetus malayesnsis (Temminck, 1822)  Rights holder: cupag_kelley License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/58972976"
-msgstr ""
+msgstr "Фото: GBIF: https://www.gbif.org/occurrence/2550045989 Ictinaetus malayesnsis (Temminck, 1822)  Правообладатель: cupag_kelley Лицензия: http://creativeco...censes/by-nc/4.0/ Ссылка: https://www.inatu...g/photos/58972976"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:43
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide2.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide2.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:46
 #, no-wrap
 msgid "*Slide 2 - Key concepts of data quality*\n"
-msgstr ""
+msgstr "*Слайд 2 — Основные понятия качества данных*\n"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:56
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide3.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide3.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:59
 #, no-wrap
 msgid "*Slide 3 - Data quality*\n"
-msgstr ""
+msgstr "*Слайд 3 — Качество данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:63
 msgid "Before we begin, I’d like to take a moment to explain why data quality is important. Cleanliness is next to Godliness is an expression that we sometimes use to describe the importance of data quality. In this case, Godliness can be understood as holiness, and when something is holy it is considered by many to be worthy of our trust.    So, in the case of data quality, we are more likely to trust and to use data that has been cleaned and cared for."
-msgstr ""
+msgstr "Прежде чем мы начнём, я хотел бы немного пояснить, почему качество данных так важно. «Чистота — залог праведности» (Cleanliness is next to Godliness) — выражение, которое мы иногда используем, говоря о важности качества данных. В данном случае под праведностью можно понимать святость, а то, что считается святым, многие воспринимают как заслуживающее доверия. Поэтому применительно к качеству данных мы с большей вероятностью будем доверять и использовать данные, которые были очищены и за которыми осуществлялся надлежащий уход."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:70
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2611012759 Rhododendron kasangiae D.G. Long & Rushforth Rights holder: Sangay Wangchuk License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/68350578"
-msgstr ""
+msgstr "Фото: GBIF: https://www.gbif.org/occurrence/2611012759 Rhododendron kasangiae D.G. Long & Rushforth Правообладатель: Сангай Вангчук (Sangay Wangchuk) Лицензия: http://creativeco...censes/by-nc/4.0/ Ссылка: https://www.inatu...g/photos/68350578"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:71
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide4.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide4.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:74
 #, no-wrap
 msgid "*Slide 4 - Data quality*\n"
-msgstr ""
+msgstr "*Слайд 4 — Качество данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:80
 msgid "Stepping back into the domain of biodiversity informatics, the classic definition of data quality was coined in 2005 by Arthur Chapman. He wrote:   “data quality is related to use and cannot be assessed independently of the user. In a database, the data have no actual quality or value (Dalcin 2004); they only have potential value that is realized when someone uses the data to do something useful. Information quality relates to its ability to satisfy its customers and to meet customers’ needs (English 1999).” Arthur Chapman”   And so, for us, as individuals who are responsible for maintaining data, we want the data we publish to be as satisfying to all of our potential users as possible. To do this, we seek to provide the highest quality data."
-msgstr ""
+msgstr "Возвращаясь к области информатики биоразнообразия, классическое определение качества данных было сформулировано Артуром Чапманом (Arthur Chapman) в 2005 году. Он писал: «Качество данных связано с их использованием и не может оцениваться независимо от пользователя. В базе данных сами по себе данные не обладают фактическим качеством или ценностью (Dalcin 2004); они имеют лишь потенциальную ценность, которая реализуется, когда кто-либо использует эти данные для решения полезной задачи. Качество информации связано с её способностью удовлетворять потребности пользователей и соответствовать их требованиям (English 1999)». Артур Чапман (Arthur Chapman)   Таким образом, наша задача как специалистов, отвечающих за поддержание данных, — сделать публикуемые данные максимально полезными для всех потенциальных пользователей. Для этого мы стремимся обеспечивать максимально высокое качество данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:87
 msgid "Photo: GBIF: https://www.gbif.org/occurrence/2634451942 Dendrochirus zebra (Cuvier, 1829)  Rights holder: Ryan Yue Wah Chan License: http://creativeco...censes/by-nc/4.0/ Reference: https://www.inatu...g/photos/76358738"
-msgstr ""
+msgstr "Фото: GBIF: https://www.gbif.org/occurrence/2634451942 Dendrochirus zebra (Cuvier, 1829)  Правообладатель: Райан Юэ Ва Чан (Yue Wah Chan) Лицензия: http://creativeco...censes/by-nc/4.0/ Ссылка: https://www.inatu...g/photos/76358738"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:88
 #, no-wrap
 msgid "foundations::foundations-data-quality-Slide5.png"
-msgstr ""
+msgstr "foundations::foundations-data-quality-Slide5.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:91
 #, no-wrap
 msgid "*Slide 5 - Data quality*\n"
-msgstr ""
+msgstr "*Слайд 5 — Качество данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:95
