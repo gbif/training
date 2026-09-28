@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-28 19:08\n"
+"PO-Revision-Date: 2026-09-28 20:19\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -428,113 +428,113 @@ msgstr "*Слайд 4 — Сопоставление данных*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
 msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
-msgstr ""
+msgstr "Сначала мы рассмотрим способы описания ваших данных, затем покажем, как сопоставлять данные при переходе от одной структуры данных к другой, и, наконец, поговорим о том, как документировать метаданные ваших данных.    Начнём с сопоставления данных.    Это процесс, позволяющий определить, каким образом поля одного набора данных могут быть преобразованы в соответствующие поля другого набора данных.    ПСопоставление данных — это «процесс определения исходного поля (или полей) в наборе данных A и соответствующего ему поля (или полей) в наборе данных B».   В этом примере набор данных A состоит из 10 столбцов. В него входят:  "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
 msgid "some integer fields represented by the purple squares,"
-msgstr ""
+msgstr "несколько полей с целочисленными значениями, обозначенных фиолетовыми квадратами,"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:80
 msgid "some boolean fields represented by the red triangles"
-msgstr ""
+msgstr "несколько логических полей, обозначенных красными треугольниками"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:81
 msgid "some date fields represented by blue pentagons"
-msgstr ""
+msgstr "несколько полей с датами, обозначенных синими пятиугольниками"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:82
 msgid "some text fields, green 8 pointed stars"
-msgstr ""
+msgstr "несколько текстовых полей, обозначенных зелёными восьмиконечными звёздами"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:83
 msgid "and some complex fields"
-msgstr ""
+msgstr "и несколько полей со сложной структурой"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:84
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide5.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide5.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:87
 #, no-wrap
 msgid "*Slide 5 - Mapping data*\n"
-msgstr ""
+msgstr "*Слайд 5 — Сопоставление данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:91
 msgid "Dataset B has a different set of fields, 15 in total.    What we need to do is identify which fields in Dataset A match which fields in Dataset B"
-msgstr ""
+msgstr "Набор данных B содержит другой набор полей — всего 15.    Нам необходимо определить, какие поля из набора данных A соответствуют каким полям из набора данных B."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:92
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide6.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide6.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:95
 #, no-wrap
 msgid "*Slide 6 - Mapping A to B*\n"
-msgstr ""
+msgstr "*Слайд 6 — Сопоставление данных из A с B*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:97
 msgid "We do that by describing the relationships."
-msgstr ""
+msgstr "Для этого мы описываем соответствия между полями."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
 msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
-msgstr ""
+msgstr "Например, в наборе данных A есть поле ID, и такое же поле есть в наборе данных B. Мы можем провести линию непосредственно между этими двумя полями. Такое соответствие называется «один к одному».    Вопрос: Видите ли вы другие соответствия «один к одному»? Ответ: State, Exp?, Pink Elephant!   ЕДругой тип соответствия — «один ко многим». В этом случае одно поле в наборе данных A соответствует двум или более полям в наборе данных B. Примером может служить поле Date.    Также встречаются случаи, когда несколько полей набора данных A содержат данные, соответствующие нескольким полям набора данных B. Особенно часто это бывает с полями для примечаний."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide7.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide7.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:110
 #, no-wrap
 msgid "*Slide 7 - Planning data moves - Data relationships*\n"
-msgstr ""
+msgstr "*Слайд 7 — Планирование переноса данных — Связи между данными*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:112
 msgid "In fact there are six relationships:"
-msgstr ""
+msgstr "На самом деле существует шесть типов связей:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:114
 msgid "Some fields will map one-to-one (1:1), meaning that the original column in dataset A exactly matches another one in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «один к одному» (1:1), то есть исходный столбец в наборе данных A точно соответствует одному столбцу в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:115
 msgid "Some fields will map many-to-one (∞:1) , meaning that some columns in dataset A can be merged (or concatenated) to match a single one in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «многие к одному» (∞:1), то есть несколько столбцов в наборе данных A могут быть объединены (или соединены) в один соответствующий столбец в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:116
 msgid "Some fields will map one-to-many (1:∞), meaning that one column in dataset A will have to be split into two or more fields in order to match the fields in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «один ко многим» (1:∞), то есть один столбец в наборе данных A необходимо разделить на два или более полей, чтобы они соответствовали полям в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:117
 msgid "Some fields might not exist yet zero-to-one (0:1), meaning that some information are not present in dataset A and need to be added in a new column to match an existing field in dataset B"
-msgstr ""
+msgstr "Некоторые поля могут пока отсутствовать — соответствие «ноль к одному» (0:1), то есть определённая информация отсутствует в наборе данных A и должна быть добавлена в новый столбец, соответствующий существующему полю в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:118
 msgid "Some fields might not have a place to go one-to-zero (1:0), meaning that some information present in dataset A does not match any existing field on dataset B"
-msgstr ""
+msgstr "Некоторые поля могут не иметь соответствующего поля — соответствие «один к нулю» (1:0), то есть определённая информация, присутствующая в наборе данных A, не соответствует ни одному существующему полю в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:119
