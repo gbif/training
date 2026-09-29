@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-29 16:18\n"
+"PO-Revision-Date: 2026-09-29 17:31\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1458,253 +1458,253 @@ msgstr "foundations::foundations-structures-Slide7.png"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:491
 #, no-wrap
 msgid "*Slide 7 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Слайд 7 — Контейнеры — типы полей/данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:493
 msgid "Alphanumeric fields - are also referred to as text, character or string fields."
-msgstr ""
+msgstr "Алфавитно-цифровые поля также называют текстовыми, символьными или строковыми полями."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:495
 msgid "They can hold any letter, number or symbol in the coded character set and usually have a defined character limit. Entering more characters than the character limit can often result in truncation and loss of data on save."
-msgstr ""
+msgstr "Они могут содержать любые буквы, цифры или символы из кодированного набора символов и обычно имеют установленное ограничение на количество символов. Ввод количества символов, превышающего установленный предел, при сохранении может привести к обрезке и потере части данных."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:496
 #, no-wrap
 msgid "foundations::foundations-structures-Slide8.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide8.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:499
 #, no-wrap
 msgid "*Slide 8 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Слайд 8 — Контейнеры — типы полей/данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:501
 msgid "Another type of text field that you will come across is the Unstructured text field, also known as memo, long char or blob fields."
-msgstr ""
+msgstr "Ещё один тип текстовых полей, с которым вы будете сталкиваться, — поле неструктурированного текста, также известное как поле memo, long char или blob."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:503
 msgid "These types of field are used to hold large amounts of unformatted text and unlike alphanumeric fields may not have an obvious character limit."
-msgstr ""
+msgstr "Такие поля используются для хранения больших объёмов неформатированного текста и, в отличие от алфавитно-цифровых полей, могут не иметь явно заданного ограничения на количество символов."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:505
 msgid "In simple systems, they are generally less flexible in terms of processing; for example sorting and indexing, than their smaller alphanumeric cousins."
-msgstr ""
+msgstr "В простых системах возможности обработки таких полей, например их сортировки и индексирования, обычно более ограничены, чем у алфавитно-цифровых полей меньшего размера."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:507
 msgid "With decreased storage costs and the rise of NoSQL document-oriented database programs, such as MongoDB however, this is changing."
-msgstr ""
+msgstr "Однако благодаря снижению стоимости хранения данных и распространению документоориентированных систем управления базами данных NoSQL, таких как MongoDB, ситуация меняется."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:508
 #, no-wrap
 msgid "foundations::foundations-structures-Slide9.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide9.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:511
 #, no-wrap
 msgid "*Slide 9 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Слайд 9 — Контейнеры — типы полей/данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:513
 msgid "System Value fields have a double nature and what you see on the screen is not usually the actual value that the software is storing in memory. Date and time fields are the most common example of this type of field."
-msgstr ""
+msgstr "Поля системных значений имеют двойственную природу: то, что вы видите на экране, обычно не является фактическим значением, которое программа хранит в памяти. Наиболее распространённым примером полей этого типа являются поля даты и времени."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:515
 msgid "In this example you typed “1 March 1971” into a cell in Excel and hit return."
-msgstr ""
+msgstr "В этом примере вы ввели «1 March 1971» в ячейку Excel и нажали клавишу Enter."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:517
 msgid "Now it says “1-Mar-71” in the cell AND “3/1/1971” in the functionbar."
-msgstr ""
+msgstr "Теперь в ячейке отображается «1-Mar-71», А в строке формул — «3/1/1971»."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:519
 msgid "Excel is applying a display format to the cell, which you can change at will."
-msgstr ""
+msgstr "Excel применяет к ячейке определённый формат отображения, который можно изменить по своему усмотрению."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:521
 msgid "HOWEVER, if you remove the format you see that what is actually being stored in the field is the number 25993.00!"
-msgstr ""
+msgstr "ОДНАКО, если убрать форматирование, можно увидеть, что фактически в поле хранится число 25993.00!"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:523
 msgid "So you can see that the field is actually a float. You should beware because that system value not be the same from software to software. Exports should to checked to make sure the actual date is exported and not the system value."
-msgstr ""
+msgstr "Таким образом, можно увидеть, что фактически это поле содержит число с плавающей точкой. Следует учитывать, что системные значения могут различаться в разных программах. Поэтому при экспорте необходимо проверять, что экспортируется именно дата, а не её системное числовое значение."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:524
 #, no-wrap
 msgid "foundations::foundations-structures-Slide10.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide10.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:527
 #, no-wrap
 msgid "*Slide 10 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Слайд 10 — Контейнеры — типы полей/данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:529
 msgid "Boolean fields – also known as Binary fields only contain one of two values that represent a one or a zero."
-msgstr ""
+msgstr "Логические поля (Boolean), также известные как двоичные поля, могут содержать только одно из двух значений, представляемых единицей или нулём."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:531
 msgid "They are a special case of a System Value field as mentioned previously in that whilst the software actually saves a number it often displays values such as:"
-msgstr ""
+msgstr "Как уже отмечалось выше, они представляют собой особый случай поля системных значений: хотя программа фактически сохраняет число, пользователю часто отображаются такие значения, как:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:536
 msgid "Yes/No; Yes/no; Y/N; True/False. "
-msgstr ""
+msgstr "Да/Нет; Да/нет; Д/Н; Истина/Ложь. "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:538
 msgid "You should take care to find out which way around the system you are using translates."
-msgstr ""
+msgstr "Необходимо выяснить, каким образом используемая вами система интерпретирует эти значения."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:540
 msgid "Is a 1 a yes or no?"
-msgstr ""
+msgstr "Означает ли 1 «да» или «нет»?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:541
 #, no-wrap
 msgid "foundations::foundations-structures-Slide11.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide11.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:544
 #, no-wrap
 msgid "*Slide 11 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Слайд 11 — Контейнеры — типы полей/данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:546
 msgid "Structured Text fields are less common but mentioned here for completeness."
-msgstr ""
+msgstr "Поля структурированного текста встречаются реже, но для полноты картины мы также упомянем их."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:548
 msgid "They are fields which can be either made up of combinations of the simple data types or even be defined by the data itself."
-msgstr ""
+msgstr "Такие поля могут состоять из комбинаций простых типов данных или даже определяться самими данными."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:550
 msgid "Most often these are used in programming languages to allow flexibility and handling of complex concepts."
-msgstr ""
+msgstr "Чаще всего они используются в языках программирования, обеспечивая гибкость при работе со сложными структурами и понятиями."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:552
 msgid "An example is the factor field used in the R programming language, which is defined as a type vector containing a set of numeric codes with character-valued levels."
-msgstr ""
+msgstr "Примером является тип данных factor, используемый в языке программирования R. Он определяется как тип вектора, содержащего набор числовых кодов с уровнями, представленными символьными значениями."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:554
 msgid "Ref:  https://www.stat.berkeley.edu/~nolan/stat133/Fall05/lectures/DataTypes4.pdf"
-msgstr ""
+msgstr "Ссылка:  https://www.stat.berkeley.edu/~nolan/stat133/Fall05/lectures/DataTypes4.pdf"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:555
 #, no-wrap
 msgid "foundations::foundations-structures-Slide12.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide12.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:558
 #, no-wrap
 msgid "*Slide 12 - Structures - planes, trains and automobiles*\n"
-msgstr ""
+msgstr "*Слайд 12 — Конструкции — самолеты, поезда и автомобили*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:560
 msgid "Now that you have an understanding of the field types used to represent your data elements let’s talk about the containers or structures, that many database programs and software use collate and display your data."
-msgstr ""
+msgstr "Теперь, когда вы познакомились с типами полей, используемыми для представления элементов данных, поговорим о контейнерах, или структурах, которые многие программы для работы с базами данных и другое программное обеспечение используют для организации и отображения ваших данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:562
 msgid "Reference: https://www.geeksforgeeks.org/data-structures/"
-msgstr ""
+msgstr "Источник: https://www.geeksforgeeks.org/data-structures/"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:563
 #, no-wrap
 msgid "foundations::foundations-structures-Slide13.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide13.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:566
 #, no-wrap
 msgid "*Slide 13 - Containers - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 13 — Контейнеры — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:568
 msgid "First is the cell."
-msgstr ""
+msgstr "Начнём с ячейки."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:570
 msgid "This is the smallest data structure, it holds a single value and has a single data type associated with it."
-msgstr ""
+msgstr "Это наименьшая структура данных. Она содержит одно значение, которому соответствует один тип данных."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:571
 #, no-wrap
 msgid "foundations::foundations-structures-Slide14.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide14.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:574
 #, no-wrap
 msgid "*Slide 14 - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 14 — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:578
 msgid "There is one concept that you should beware of when it comes to cells and that is the “empty cell”.    “An empty cell doesn’t necessarily mean an empty field.”"
-msgstr ""
+msgstr "При работе с ячейками необходимо учитывать одно важное понятие — «пустая ячейка». «Пустая ячейка не обязательно означает пустое поле»."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:580
 msgid "Some software “fills” an empty field with a System value based on the data type."
-msgstr ""
+msgstr "Некоторые программы «заполняют» пустое поле системным значением в зависимости от типа данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:582
 msgid "Examples are “NULL” “N A” or even zero!"
-msgstr ""
+msgstr "Примерами таких значений являются «NULL», «N/A» или даже ноль!"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:583
 #, no-wrap
 msgid "foundations::foundations-structures-Slide15.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide15.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:586
 #, no-wrap
 msgid "*Slide 15 - Containers - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 15 — Контейнеры — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:588
 msgid "As you start to organize cells you begin to build a grid. Grids have implied structure in the form of"
-msgstr ""
+msgstr "Когда вы начинаете упорядочивать ячейки, формируется таблица. Такая таблица имеет определённую структуру, представленную в виде:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:590
@@ -1715,24 +1715,24 @@ msgstr "Строки"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:591
 #, no-wrap
 msgid "foundations::foundations-structures-Slide16.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide16.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:594
 #, no-wrap
 msgid "*Slide 16 - Containers - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 16 — Контейнеры — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:596
 msgid "And columns."
-msgstr ""
+msgstr "И столбцы."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:597
 #, no-wrap
 msgid "foundations::foundations-structures-Slide17.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide17.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:600
@@ -1759,7 +1759,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:607
 #, no-wrap
 msgid "foundations::foundations-structures-Slide18.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide18.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:610
@@ -1781,7 +1781,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:615
 #, no-wrap
 msgid "foundations::foundations-structures-Slide19.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide19.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:618
