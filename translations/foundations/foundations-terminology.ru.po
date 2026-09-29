@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-29 10:10\n"
+"PO-Revision-Date: 2026-09-29 11:10\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -660,80 +660,81 @@ msgstr "Вы часто будете встречать такие поняти�
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:144
 msgid "Field or column names refer to the actual column in the database table. They are a often short, not always in plain language, sometimes computer generated; but in a properly formed database they are ALWAYS unique. Field names are almost always used by database languages, because the avoid ambiguity."
-msgstr ""
+msgstr "Названия полей или столбцов относятся непосредственно к столбцам таблицы базы данных. Они часто бывают короткими, не всегда понятны без дополнительных пояснений, а иногда генерируются компьютером. Однако в правильно организованной базе данных они ВСЕГДА уникальны. Названия полей почти всегда используются языками баз данных, поскольку позволяют избежать неоднозначности."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:146
 msgid "Labels and headers on the other hand, refer to the human readable versions of the field names. Most often you will see these in the graphical user interface of your software and on exports and reports. In some software you can in fact have different labels to the same field on a user by user or group basis!"
-msgstr ""
+msgstr "Метки и заголовки, напротив, представляют собой понятные пользователю варианты названий полей. Чаще всего вы будете видеть их в графическом интерфейсе программного обеспечения, а также в экспортированных данных и отчётах. В некоторых программах для одного и того же поля можно даже использовать разные метки для разных пользователей или групп пользователей!"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:147
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide12.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide12.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:150
 #, no-wrap
 msgid "*Slide 12 - Lists*\n"
-msgstr ""
+msgstr "*Слайд 12 — Списки*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:152
 msgid "As you work with your data you will come across the phrases “drop-down list” and “controlled vocabulary” and on the surface they can appear to be the same. Indeed they are both powerful tools to help you keep your data clean, but they are different."
-msgstr ""
+msgstr "При работе с данными вы будете встречать такие понятия, как «выпадающий список» и «контролируемый словарь», которые на первый взгляд могут показаться одним и тем же. Действительно, оба являются эффективными инструментами, помогающими поддерживать данные в упорядоченном виде, однако между ними есть различия."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:154
 msgid "A drop-down list, also sometimes called a lookup table is a data entry element that is created in your database software. It allows to you select a value from a predefined set of options. They can also be generated from the data itself on the fly."
-msgstr ""
+msgstr "Выпадающий список, который также иногда называют справочной таблицей (lookup table), — это элемент ввода данных, создаваемый в программном обеспечении для работы с базами данных. Он позволяет выбрать значение из заранее определённого набора вариантов. Такие списки также могут динамически формироваться на основе самих данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:156
 msgid "A controlled vocabulary on the other hand, is a very strictly defined, domain specific set of values that should be applied to a particular field. They are an integral part of a well defined standard. Such values can be used in a drop-down list as mentioned previously."
-msgstr ""
+msgstr "Контролируемый словарь, напротив, представляет собой строго определённый, специализированный набор значений, предназначенных для использования в конкретном поле. Контролируемые словари являются неотъемлемой частью чётко определённого стандарта. Как уже отмечалось выше, значения из контролируемого словаря могут использоваться в выпадающем списке."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:157
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide13.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide13.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:160
 #, no-wrap
 msgid "*Slide 13 - Definitions - a rose by any other name*\n"
-msgstr ""
+msgstr "*Слайд 13 — Определения — роза под любым другим именем*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:162
 msgid "In this section we will look at what the term character means in relation to data and computers."
-msgstr ""
+msgstr "В этом разделе мы рассмотрим, что означает термин «символ» применительно к данным и компьютерам."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:163
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide14.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide14.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:166
 #, no-wrap
 msgid "*Slide 14 - Characters*\n"
-msgstr ""
+msgstr "*Слайд 14 — Символы*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:168
 msgid "As a reminder computers “see” in binary. Everything that you type in, is held in memory as a series of ones and zeros."
-msgstr ""
+msgstr "Напомним, что компьютеры «видят» в двоичной системе счисления. Всё, что вы вводите, хранится в памяти в виде последовательности единиц и нулей."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:171
 #, no-wrap
 msgid "The computer does not “see” the repertoire of letters and symbols on your keyboard.\n"
 "\\vIt needs a map to translate the character set that you would write or type, into its binary language and then back again to show it to you on the screen or a printer.\n"
-msgstr ""
+msgstr "Компьютер не «видит» набор букв и символов на вашей клавиатуре.\n"
+"\\vЕму необходима таблица соответствий, чтобы преобразовать символы, которые вы пишете или вводите с клавиатуры, в двоичный код, а затем обратно — для отображения на экране или вывода на печать.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:173
