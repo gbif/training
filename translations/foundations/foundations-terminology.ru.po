@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-29 17:31\n"
+"PO-Revision-Date: 2026-09-29 18:27\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1738,22 +1738,22 @@ msgstr "foundations::foundations-structures-Slide17.png"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:600
 #, no-wrap
 msgid "*Slide 17 - Containers - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 17 — Контейнеры — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:602
 msgid "When you organize cells into rows and columns, obviously, what you get is a grid!"
-msgstr ""
+msgstr "Когда вы организуете ячейки в строки и столбцы, то, очевидно, получаете таблицу!"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:604
 msgid "This is looks very much like a spreadsheet right?"
-msgstr ""
+msgstr "Это очень похоже на электронную таблицу, не так ли?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:606
 msgid "Well, yes. The difference however between a spreadsheet grid and a table are the strength of the ties that hold the rows and columns together."
-msgstr ""
+msgstr "Да, это так. Однако различие между электронной таблицей и таблицей базы данных заключается в том, насколько строго заданы связи, которые удерживают строки и столбцы вместе."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:607
@@ -1765,17 +1765,17 @@ msgstr "foundations::foundations-structures-Slide18.png"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:610
 #, no-wrap
 msgid "*Slide 18 - Structures - planes, trains and automobiles*\n"
-msgstr ""
+msgstr "*Слайд 18 — Конструкции — самолёты, поезда и автомобили*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:612
 msgid "So let’s now talk about those connections."
-msgstr ""
+msgstr "Теперь поговорим об этих связях."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:614
 msgid "What the implications for the integrity and security of your data of loose unenforced relationships between rows and columns?"
-msgstr ""
+msgstr "Как свободные и незафиксированные связи между строками и столбцами влияют на целостность и безопасность ваших данных?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:615
@@ -1787,163 +1787,163 @@ msgstr "foundations::foundations-structures-Slide19.png"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:618
 #, no-wrap
 msgid "*Slide 19 - Data structures*\n"
-msgstr ""
+msgstr "*Слайд 19 — Структуры данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:620
 msgid "What actually makes a table useful are the connections that we create to give the data in the structure meaning."
-msgstr ""
+msgstr "На самом деле таблицу полезной делают связи, которые мы создаём между данными и которые придают содержащимся в ней данным смысл."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:622
 msgid "We intrinsically make patterns of attributes that turns data into information."
-msgstr ""
+msgstr "Мы естественным образом объединяем атрибуты в определённые структуры, превращая данные в информацию."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:624
 msgid "Rows become records and Columns become attributes"
-msgstr ""
+msgstr "Строки становятся записями, а столбцы — атрибутами"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:626
 msgid "In a spreadsheet however, the connections between cells are idiomatic, loose and un-enforced."
-msgstr ""
+msgstr "Однако в электронной таблице связи между ячейками условны, нестроги и никак не контролируются."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:628
 msgid "It is easy for the attributes between the rows to get jumbled up or for the values get changed and then the meaning is lost."
-msgstr ""
+msgstr "Поэтому атрибуты разных строк легко могут перепутаться, а значения — измениться, в результате чего данные утратят свой первоначальный смысл."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:629
 #, no-wrap
 msgid "foundations::foundations-structures-Slide20.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide20.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:632
 #, no-wrap
 msgid "*Slide 20 - Integrity and security*\n"
-msgstr ""
+msgstr "*Слайд 20 — Целостность и безопасность*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:634
 msgid "This lack of enforced connections makes a spreadsheet easy to use but these same qualities also cause problems."
-msgstr ""
+msgstr "Отсутствие строго заданных связей делает электронные таблицы простыми в использовании, однако эти же особенности создают определённые проблемы."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:636
 msgid "Errors are easy to make and hard to catch."
-msgstr ""
+msgstr "Ошибки легко допустить, а обнаружить их — сложно."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:638
 msgid "Connections and relationships are not documentable and so subject to interpretation and mutation."
-msgstr ""
+msgstr "Связи и отношения между данными не фиксируются явно, поэтому могут по-разному интерпретироваться и изменяться."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:640
 msgid "Spreadsheets are not built to scale either in terms of size or numbers of users."
-msgstr ""
+msgstr "Электронные таблицы также плохо масштабируются как с точки зрения объёма данных, так и количества пользователей."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:642
 msgid "So can be slow, crashy and easily corruptible"
-msgstr ""
+msgstr "Поэтому система может работать медленно, давать сбои и легко подвергаться повреждениям"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:644
 msgid "Spreadsheets are easy to copy and email"
-msgstr ""
+msgstr "Электронные таблицы легко копировать и пересылать по электронной почте"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:646
 msgid "So they are hard to version and keep track of"
-msgstr ""
+msgstr "Поэтому бывает сложно отслеживать их версии и внесённые изменения"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:648
 msgid "The question is what is the solution?"
-msgstr ""
+msgstr "Возникает вопрос: как решить эти проблемы?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:650
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:688
 msgid "Reference: https://www.mrc-productivity.com/blog/2014/09/7-dangers-of-spreadsheets-part-1/"
-msgstr ""
+msgstr "Источник: https://www.mrc-productivity.com/blog/2014/09/7-dangers-of-spreadsheets-part-1/"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:651
 #, no-wrap
 msgid "foundations::foundations-structures-Slide21.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide21.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:654
 #, no-wrap
 msgid "*Slide 21 - Containers - Integrity and security*\n"
-msgstr ""
+msgstr "*Слайд 21 — Контейнеры — Целостность и безопасность*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:656
 msgid "Let’s look back, at the connections in a bit more detail."
-msgstr ""
+msgstr "Давайте вернёмся к связям между данными и рассмотрим их немного подробнее."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:658
 msgid "We generally understand that the data in each row of a table means something."
-msgstr ""
+msgstr "Как правило, мы подразумеваем, что данные в каждой строке таблицы имеют определённое значение."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:660
 msgid "For example each row can represent a specimen or a taxa that was found at a particular place, at a particular time, by a particular person."
-msgstr ""
+msgstr "Например, каждая строка может представлять экземпляр или таксон, обнаруженный в определённом месте, в определённое время и определённым человеком."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:662
 msgid "It would be odd to have one row in a table that represents a specimen followed by a row that represents a collection site."
-msgstr ""
+msgstr "Было бы странно, если бы одна строка таблицы представляла экземпляр, а следующая за ней — место сбора."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:664
 msgid "We also often want to analyse, sort and compare values of particular attributes between rows."
-msgstr ""
+msgstr "Кроме того, нам часто необходимо анализировать, сортировать и сравнивать значения определённых атрибутов между строками.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:666
 msgid "For example you may want find the mean weight of all the Kenyan bats."
-msgstr ""
+msgstr "Например, вам может потребоваться определить среднюю массу всех летучих мышей из Кении."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:668
 msgid "So ideally we want to use a system to store our data that:"
-msgstr ""
+msgstr "Таким образом, в идеале для хранения данных нам нужна система, которая:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:670
 msgid "always holds the rows together"
-msgstr ""
+msgstr "всегда сохраняет целостность каждой строки"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:671
 msgid "does not mix data types"
-msgstr ""
+msgstr "не допускает смешивания типов данных"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:672
 msgid "and segregates data in each table to a single concept or theme"
-msgstr ""
+msgstr "и обеспечивает, чтобы данные в каждой таблице относились только к одному понятию или теме"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:674
 msgid "These are functions of a database!"
-msgstr ""
+msgstr "Именно эти функции обеспечивает база данных!"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:675
 #, no-wrap
 msgid "foundations::foundations-structures-Slide22.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide22.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:680
@@ -1951,28 +1951,29 @@ msgstr ""
 msgid "*Slide 22 - Integrity and security*\n"
 " \n"
 "Functions in a true database inherently bind rows together and columns may only have a single data type.\n"
-msgstr ""
+msgstr "*Слайд 22 — Целостность и безопасность*\n\n"
+"В полноценной базе данных строки изначально связаны между собой, а каждый столбец может содержать данные только одного типа.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:682
 msgid "Tables in database are held together by virtual links called keys."
-msgstr ""
+msgstr "Таблицы в базе данных связаны между собой с помощью виртуальных связей, называемых ключами."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:684
 msgid "These keys are identifiers that match between tables and allow data to be connected efficiently."
-msgstr ""
+msgstr "Эти ключи представляют собой идентификаторы, соответствующие друг другу в разных таблицах и позволяющие эффективно связывать данные."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:686
 msgid "It is these 2 key concepts that distinguish a spreadsheet from a database."
-msgstr ""
+msgstr "Именно эти два ключевых принципа отличают электронную таблицу от базы данных."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:689
 #, no-wrap
 msgid "foundations::foundations-structures-Slide23.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide23.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:694
@@ -1980,18 +1981,19 @@ msgstr ""
 msgid "*Slide 23 - Review*\n"
 " \n"
 "In review then, we have looked at the 6 most common data types, the basic building blocks of data structure and distinguished between a spreadsheet grid and database table.\n"
-msgstr ""
+msgstr "*Слайд 23 — Подведение итогов*\n\n"
+"Подводя итоги, мы рассмотрели шесть наиболее распространённых типов данных, основные составляющие структуры данных, а также различия между электронной таблицей и таблицей базы данных.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:696
 msgid "Understanding these elements and how they interact with one another will allow you to better determine the best ways to manipulate and document the data that falls under your custodianship."
-msgstr ""
+msgstr "Понимание этих элементов и того, как они взаимодействуют между собой, поможет вам лучше определять наиболее подходящие способы обработки и документирования данных, за поддержание которых вы отвечаете."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:697
 #, no-wrap
 msgid "foundations::foundations-structures-Slide24.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide24.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:702
@@ -1999,7 +2001,8 @@ msgstr ""
 msgid "*Slide 24 - Wrap-up*\n"
 " \n"
 "Remember that: \n"
-msgstr ""
+msgstr "*Слайд 24 — Подведение итогов*\n\n"
+"Помните, что: \n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:704
@@ -2020,7 +2023,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:709
 #, no-wrap
 msgid "foundations::foundations-structures-Slide25.png"
-msgstr ""
+msgstr "foundations::foundations-structures-Slide25.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:714
