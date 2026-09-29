@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-07-08 08:21\n"
+"PO-Revision-Date: 2026-09-29 05:59\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:1
 #, no-wrap
 msgid "Review "
-msgstr ""
+msgstr "Обзор "
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -63,7 +63,7 @@ msgstr ""
 #. type: delimited block *
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:18
 msgid "Match the statement, \"structured and organized collection of data and/or information held on a computer\" to the correct term."
-msgstr ""
+msgstr "Сопоставьте определение «структурированная и организованная совокупность данных и/или информации, хранящаяся на компьютере» с соответствующим термином."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:24
@@ -71,13 +71,15 @@ msgstr ""
 msgid "- [ ] database language\n"
 "- [ ] database program\n"
 "- [x] database\n"
-msgstr ""
+msgstr "- [ ] язык базы данных\n"
+"- [ ] программа базы данных\n"
+"- [x] база данных\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:27
 msgid "Match the statement, \"the way by which a human communicates with a computer\" to the correct term."
-msgstr ""
+msgstr "Сопоставьте определение «способ взаимодействия человека с компьютером» с соответствующим термином."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:33
@@ -85,13 +87,15 @@ msgstr ""
 msgid "- [x] database language\n"
 "- [ ] database program\n"
 "- [ ] database\n"
-msgstr ""
+msgstr "- [x] язык базы данных\n"
+"- [ ] программа для работы с базой данных\n"
+"- [ ] база данных\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:36
 msgid "Match the statement, \"combines and presents functions and features for manipulating data, together in a unified interface\" to the correct term."
-msgstr ""
+msgstr "Сопоставьте определение «объединяет и предоставляет функции и возможности для работы с данными в едином интерфейсе» с соответствующим термином."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:42
@@ -99,13 +103,15 @@ msgstr ""
 msgid "- [ ] database language\n"
 "- [x] database program\n"
 "- [ ] database\n"
-msgstr ""
+msgstr "- [ ] язык базы данных\n"
+"- [x] программа для работы с базой данных\n"
+"- [ ] база данных\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:45
 msgid "If you open a data file and see the following, what would you suspect is the issue? +"
-msgstr ""
+msgstr "Если при открытии файла с данными вы видите следующее, в чём, по вашему мнению, может заключаться проблема? +"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:47
@@ -120,13 +126,16 @@ msgid "- [ ] Nothing\n"
 "- [ ] It is corrupt\n"
 "- [x] The wrong encoding was used to open the file\n"
 "- [ ] The sender used a weird font\n"
-msgstr ""
+msgstr "- [ ] Ничего\n"
+"- [ ] Файл повреждён\n"
+"- [x] При открытии файла была использована неверная кодировка\n"
+"- [ ] Отправитель использовал необычный шрифт\n"
 
 #.  Question 5
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:57
 msgid "What type of software is the Integrated Publishing Toolkit (IPT)?"
-msgstr ""
+msgstr "К какому типу программного обеспечения относится Integrated Publishing Toolkit (IPT)?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:64
@@ -135,13 +144,16 @@ msgid "- [ ] data capture\n"
 "- [ ] data cleaning\n"
 "- [ ] data management\n"
 "- [x] data publishing\n"
-msgstr ""
+msgstr "- [ ] сбор данных\n"
+"- [ ] очистка данных\n"
+"- [ ] управление данными\n"
+"- [x] публикация данных\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:67
 msgid "What type of software is Specify?"
-msgstr ""
+msgstr "К какому типу программного обеспечения относится Specify?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:74
@@ -150,13 +162,16 @@ msgid "- [x] data capture\n"
 "- [ ] data cleaning\n"
 "- [x] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [x] сбор данных\n"
+"- [ ] очистка данных\n"
+"- [x] управление данными\n"
+"- [ ] публикация данных\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:77
 msgid "What type of software is iNaturalist?"
-msgstr ""
+msgstr "К какому типу программного обеспечения относится iNaturalist?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:84
@@ -165,13 +180,16 @@ msgid "- [x] data capture\n"
 "- [ ] data cleaning\n"
 "- [ ] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [x] сбор данных\n"
+"- [ ] очистка данных\n"
+"- [ ] управление данными\n"
+"- [ ] публикация данных\n"
 
 #.  Question 8
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:87
 msgid "What type of software is OpenRefine?"
-msgstr ""
+msgstr "К какому типу программного обеспечения относится OpenRefine?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:94
@@ -180,13 +198,16 @@ msgid "- [ ] data capture\n"
 "- [x] data cleaning\n"
 "- [ ] data management\n"
 "- [ ] data publishing\n"
-msgstr ""
+msgstr "- [ ] сбор данных\n"
+"- [x] очистка данных\n"
+"- [ ] управление данными\n"
+"- [ ] публикация данных\n"
 
 #.  Question 9
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:97
 msgid "What data type is \"1236975\"?"
-msgstr ""
+msgstr "Какой тип данных имеет число «1236975»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:107
@@ -198,13 +219,19 @@ msgid "- [ ] binary\n"
 "- [x] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичные данные\n"
+"- [ ] логические значения\n"
+"- [ ] числа с плавающей запятой\n"
+"- [ ] целые числа\n"
+"- [x] длинные целые числа\n"
+"- [ ] текст\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 10
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:110
 msgid "What data type is \"01101111\"?"
-msgstr ""
+msgstr "Какой тип данных представляет собой «01101111»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:120
@@ -216,13 +243,19 @@ msgid "- [x] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [x] двоичный\n"
+"- [ ] логический\n"
+"- [ ] с плавающей запятой\n"
+"- [ ] целочисленный\n"
+"- [ ] длинное целое\n"
+"- [ ] текстовый\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 11
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:123
 msgid "What data type is \"We walked 5 miles down the road west from the post office in the center of town. We then went 2 miles north on a dirt path to the river. Then we continued west along the river for another 5 miles.\"?"
-msgstr ""
+msgstr "К какому типу данных относится следующая информация: «Мы прошли 5 миль по дороге на запад от почтового отделения в центре города. Затем прошли 2 мили на север по грунтовой тропе до реки. После этого продолжили двигаться на запад вдоль реки ещё 5 миль»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:133
@@ -234,13 +267,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [x] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичный\n"
+"- [ ] логический\n"
+"- [ ] с плавающей запятой\n"
+"- [ ] целое число\n"
+"- [ ] длинное целое число\n"
+"- [ ] текст\n"
+"- [x] неструктурированный текст\n"
 
 #.  Question 12
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:136
 msgid "What data type is \"1024\"?"
-msgstr ""
+msgstr "Какой тип данных представляет собой «1024»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:146
@@ -252,13 +291,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичный\n"
+"- [ ] логический\n"
+"- [ ] с плавающей запятой\n"
+"- [x] целое число\n"
+"- [ ] длинное целое число\n"
+"- [ ] текст\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 13
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:149
 msgid "What data type is \"29.0\"?"
-msgstr ""
+msgstr "Какой тип данных представляет собой «29.0»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:159
@@ -270,13 +315,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичный\n"
+"- [ ] логический\n"
+"- [x] с плавающей запятой\n"
+"- [ ] целое число\n"
+"- [ ] длинное целое число\n"
+"- [ ] текст\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 14
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:162
 msgid "What data type is \"Yes/No\"?"
-msgstr ""
+msgstr "Какой тип данных представляет собой «Да/Нет»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:172
@@ -288,13 +339,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [ ] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичный\n"
+"- [x] логический\n"
+"- [ ] с плавающей запятой\n"
+"- [ ] целое число\n"
+"- [ ] длинное целое число\n"
+"- [ ] текст\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 15
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:175
 msgid "What data type is \"6 rabbits were observed\"?"
-msgstr ""
+msgstr "Какой тип данных представляет выражение «Было замечено 6 кроликов»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:185
@@ -306,13 +363,19 @@ msgid "- [ ] binary\n"
 "- [ ] long integer\n"
 "- [x] text\n"
 "- [ ] unstructured text\n"
-msgstr ""
+msgstr "- [ ] двоичный\n"
+"- [ ] логический\n"
+"- [ ] с плавающей запятой\n"
+"- [ ] целое число\n"
+"- [ ] длинное целое число\n"
+"- [x] текст\n"
+"- [ ] неструктурированный текст\n"
 
 #.  Question 16
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:188
 msgid "Which of these terms describes a \"field/column name\"?"
-msgstr ""
+msgstr "Какой из этих терминов обозначает «название поля/столбца»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:197
@@ -323,13 +386,18 @@ msgid "- [x] Assigned\n"
 "- [ ] Readable\n"
 "- [x] Unique\n"
 "- [ ] User-interface\n"
-msgstr ""
+msgstr "- [x] Назначенный\n"
+"- [ ] Описательный\n"
+"- [x] Идентифицирующий\n"
+"- [ ] Разборчивый\n"
+"- [x] Уникальный\n"
+"- [ ] Пользовательский интерфейс\n"
 
 #.  Question 17
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:200
 msgid "Which of these terms describes a \"field label\"?"
-msgstr ""
+msgstr "Какой из этих терминов обозначает «метку поля»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:209
