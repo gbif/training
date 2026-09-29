@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-29 05:59\n"
+"PO-Revision-Date: 2026-09-29 07:48\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -408,13 +408,18 @@ msgid "- [ ] Assigned\n"
 "- [x] Readable\n"
 "- [ ] Unique\n"
 "- [x] User-interface\n"
-msgstr ""
+msgstr "- [ ] Назначенный\n"
+"- [x] Описательный\n"
+"- [ ] Идентифицирующий\n"
+"- [x] Разборчивый\n"
+"- [ ] Уникальный\n"
+"- [x] Пользовательский интерфейс\n"
 
 #.  Question 18
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:212
 msgid "What is the correct structure for this statement, \"All data refers to a SINGLE concept\"?"
-msgstr ""
+msgstr "Какая структура соответствует утверждению «Все данные относятся к ОДНОМУ понятию»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:218
@@ -422,13 +427,15 @@ msgstr ""
 msgid "- [ ] column\n"
 "- [ ] row\n"
 "- [x] table\n"
-msgstr ""
+msgstr "- [ ] столбец\n"
+"- [ ] строка\n"
+"- [x] таблица\n"
 
 #.  Question 19
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:221
 msgid "What is the correct structure for this statement, \"An attribute has the SAME field/data type for every record\"?"
-msgstr ""
+msgstr "Какая структура соответствует утверждению «Атрибут имеет ОДИНАКОВЫЙ тип поля/данных для каждой записи»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:227
@@ -436,13 +443,15 @@ msgstr ""
 msgid "- [x] column\n"
 "- [ ] row\n"
 "- [ ] table\n"
-msgstr ""
+msgstr "- [x] столбец\n"
+"- [ ] строка\n"
+"- [ ] таблица\n"
 
 #.  Question 20
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:230
 msgid "What is the correct structure for this statement, \"Attributes of a record ALWAYS stay together\"?"
-msgstr ""
+msgstr "Какая структура соответствует утверждению «Атрибуты одной записи ВСЕГДА остаются вместе»?"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:236
@@ -450,19 +459,21 @@ msgstr ""
 msgid "- [ ] column\n"
 "- [x] row\n"
 "- [ ] table\n"
-msgstr ""
+msgstr "- [ ] столбец\n"
+"- [x] строка\n"
+"- [ ] таблица\n"
 
 #.  Question 21
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:239
 msgid "Who determines the fitness for use of your data?"
-msgstr ""
+msgstr "Кто определяет пригодность ваших данных для использования?"
 
 #.  Question 22
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
 msgid "For the given statement, \"High accuracy, low precision\", input the matching image."
-msgstr ""
+msgstr "Для данного утверждения «Высокая точность, низкая прецизионность» введите соответствующее изображение."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:249
@@ -471,7 +482,7 @@ msgstr ""
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
 #, no-wrap
 msgid "foundations::accuracyandprecision.png"
-msgstr ""
+msgstr "foundations::accuracyandprecision.png"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:257
@@ -480,13 +491,16 @@ msgid "- [ ] A\n"
 "- [ ] B\n"
 "- [x] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [ ] B\n"
+"- [x] C\n"
+"- [ ] D\n"
 
 #.  Question 23
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:260
 msgid "For the given statement, \"Low accuracy, high precision\", input the matching image."
-msgstr ""
+msgstr "Для данного утверждения «Низкая точность, высокая прецизионность» введите соответствующее изображение."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:268
@@ -495,13 +509,16 @@ msgid "- [ ] A\n"
 "- [x] B\n"
 "- [ ] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [x] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
 
 #.  Question 24
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:271
 msgid "For the given statement, \"High accuracy, high precision\", input the matching image."
-msgstr ""
+msgstr "Для данного утверждения «Высокая точность, высокая прецизионность» введите соответствующее изображение."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:279
@@ -510,13 +527,16 @@ msgid "- [ ] A\n"
 "- [ ] B\n"
 "- [ ] C\n"
 "- [x] D\n"
-msgstr ""
+msgstr "- [ ] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [x] D\n"
 
 #.  Question 25
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:282
 msgid "For the given statement, \"Low accuracy, low precision\", input the matching image."
-msgstr ""
+msgstr "Для данного утверждения «Низкая точность, низкая прецизионность» введите соответствующее изображение."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:290
@@ -525,13 +545,16 @@ msgid "- [x] A\n"
 "- [ ] B\n"
 "- [ ] C\n"
 "- [ ] D\n"
-msgstr ""
+msgstr "- [x] A\n"
+"- [ ] B\n"
+"- [ ] C\n"
+"- [ ] D\n"
 
 #.  Question 26
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:293
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Collector field exists in both dataset A and B\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «Поле Collector присутствует как в наборе данных A, так и в наборе данных B»."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:302
@@ -543,13 +566,18 @@ msgid "- [ ] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [x] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 27
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:305
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Country field only exists in dataset B\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «Поле Country присутствует только в наборе данных B»."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:314
@@ -560,13 +588,18 @@ msgid "- [x] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [x] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 28
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:317
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Name field exists in dataset A, but dataset B contains First Name and Last Name fields\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «Поле „Имя“ присутствует в наборе данных A, но набор данных B содержит поля „Имя“ и „Фамилия“»."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:326
@@ -578,19 +611,24 @@ msgid "- [ ] 0:1\n"
 "- [x] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [ ] 1:0\n"
+"- [ ] 1:1\n"
+"- [x] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 29
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:329
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"ID field exists in both dataset A and B\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «Поле ID присутствует как в наборе данных A, так и в наборе данных B»."
 
 #.  Question 30
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:341
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Elevation exists in dataset A, but not in dataset B\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «Поле Elevation присутствует в наборе данных A, но отсутствует в наборе данных B»."
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:350
@@ -601,19 +639,24 @@ msgid "- [ ] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [x] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 31
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:353
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B\"."
-msgstr ""
+msgstr "Определите тип соответствия данных при объединении набора данных B с набором данных A для следующего утверждения: «В наборе данных A есть поле Date, а в наборе данных B день, месяц и год представлены отдельными полями»."
 
 #.  Question 32
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:365
 msgid "Metadata is important because (select the TRUE statements):"
-msgstr ""
+msgstr "Метаданные важны, потому что (выберите ВЕРНЫЕ утверждения):"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:373
@@ -623,5 +666,9 @@ msgid "- [x] it allows users to determine if a dataset is fit for their use.\n"
 "- [x] it allows you to know under which legal terms the reuse of data is permitted.\n"
 "- [ ] it also applies to all supplemental and associated materials, including images, video, and other media.\n"
 "- [ ] it allows you know about the institution's next exhibition/opening hours.\n"
-msgstr ""
+msgstr "- [x] позволяют пользователям определить, подходит ли набор данных для их целей.\n"
+"- [ ] позволяют предоставить точные координаты каждой находки организма.\n"
+"- [x] позволяют узнать, на каких правовых условиях разрешено повторное использование данных.\n"
+"- [ ] это также относится ко всем дополнительным и сопутствующим материалам, включая изображения, видео и другие медиафайлы.\n"
+"- [ ] позволяют узнать о следующей выставке учреждения и часах его работы.\n"
 
