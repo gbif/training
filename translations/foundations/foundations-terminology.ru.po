@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-29 11:10\n"
+"PO-Revision-Date: 2026-09-29 12:57\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -739,12 +739,12 @@ msgstr "Компьютер не «видит» набор букв и симво
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:173
 msgid "This map is made up of two parts:"
-msgstr ""
+msgstr "Эта таблица соответствий состоит из двух частей:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:175
 msgid "The “coded character set”"
-msgstr ""
+msgstr "«Набор кодированных символов»"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:177
@@ -754,156 +754,156 @@ msgstr "и"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:179
 msgid "The “character encoding”"
-msgstr ""
+msgstr "«Кодировка символов»"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:181
 msgid "Each symbol or glyph is assigned a numeric value and that number is then converted to binary."
-msgstr ""
+msgstr "Каждому символу или глифу присваивается числовое значение, которое затем преобразуется в двоичный формат."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:182
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide15.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide15.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:185
 #, no-wrap
 msgid "*Slide 15 - Characters example*\n"
-msgstr ""
+msgstr "*Слайд 15 — Пример символов*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:187
 msgid "In this example we see how character encoding is used to map the capital letter A in the western alphabet."
-msgstr ""
+msgstr "В этом примере показано, как с помощью кодировки символов заглавная латинская буква A преобразуется в соответствующий код."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:189
 msgid "The ASCII value for the capital letter A is the decimal number 65"
-msgstr ""
+msgstr "ASCII-код заглавной буквы «A» равен десятичному числу 65"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:191
 msgid "which in HEXIDECIMAL is 041"
-msgstr ""
+msgstr "что в шестнадцатеричном формате соответствует 041"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:193
 msgid "and in BINARY 01000001"
-msgstr ""
+msgstr "и в двоичном формате 01000001"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:195
 msgid "Try mapping your own name to Binary using the link at the bottom of the screen."
-msgstr ""
+msgstr "Попробуйте преобразовать своё имя в двоичный код, используя ссылку в нижней части экрана."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:196
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide16.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide16.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:199
 #, no-wrap
 msgid "*Slide 16 - Characters comparison*\n"
-msgstr ""
+msgstr "*Слайд 16 — Сравнение символов*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:201
 msgid "In effect what is happening is that when you type into a keyboard and save a file the software that you are using will select an encoding to save with it."
-msgstr ""
+msgstr "На практике происходит следующее: когда вы вводите текст с клавиатуры и сохраняете файл, используемое вами программное обеспечение выбирает кодировку, в которой этот файл будет сохранён."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:203
 msgid "When you open that file again the software needs to know which encoding (map) to use to redisplay the information back to you correctly."
-msgstr ""
+msgstr "Когда вы снова открываете этот файл, программному обеспечению необходимо знать, какую кодировку (таблицу соответствий) использовать, чтобы правильно отобразить содержащуюся в нём информацию."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:204
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide17.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide17.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:207
 #, no-wrap
 msgid "*Slide 17 - Characters*\n"
-msgstr ""
+msgstr "*Слайд 17 — Символы*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:209
 msgid "So why is this important to you as a data custodian?"
-msgstr ""
+msgstr "Почему же это важно для вас как специалиста, отвечающего за поддержание данных?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:211
 msgid "Let’s say that you translate the start of Hamlet’s soliloquy"
-msgstr ""
+msgstr "Предположим, вы переводите начало монолога Гамлета"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:213
 msgid " ”To be or not to be, that is the question”"
-msgstr ""
+msgstr " «Быть или не быть — вот в чём вопрос»"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:215
 msgid "into French and then save the file with a text editor that uses the encoding Latin-1"
-msgstr ""
+msgstr "на французский язык, а затем сохраните файл в текстовом редакторе, использующем кодировку Latin-1"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:217
 msgid "Then you send it to a colleague to check the translation. Voila!"
-msgstr ""
+msgstr "Затем вы отправляете его коллегам, чтобы они проверили перевод. Вуаля!"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:218
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide18.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide18.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:221
 #, no-wrap
 msgid "*Slide 18 - Characters*\n"
-msgstr ""
+msgstr "*Слайд 18 — Символы*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:223
 msgid "When they open the file in MicroSoft Word this is what they see."
-msgstr ""
+msgstr "Когда ваш коллега открывает файл в Microsoft Word, он видит следующее."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:225
 msgid "Mon dieu!"
-msgstr ""
+msgstr "Боже мой!"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:227
 msgid "There are some unexpected characters."
-msgstr ""
+msgstr "Появились некоторые неожиданные символы."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:229
 msgid "You forgot to tell your colleague that you where using Latin-1 as the encoding."
-msgstr ""
+msgstr "Вы забыли сказать своему коллеге, что использовали кодировку Latin-1."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:231
 msgid "MicroSoft Word on their end was set to use the encoding set Unicode UTF-8. The maps did not match."
-msgstr ""
+msgstr "Microsoft Word на компьютере вашего коллеги был настроен на использование кодировки Unicode UTF-8. Используемые таблицы соответствий не совпали."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:233
 msgid "Depending on the software the data may be irretrievably corrupted."
-msgstr ""
+msgstr "В зависимости от используемого программного обеспечения данные могут быть безвозвратно повреждены."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:234
 #, no-wrap
 msgid "foundations::foundations-terminology-Slide19.png"
-msgstr ""
+msgstr "foundations::foundations-terminology-Slide19.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:237
