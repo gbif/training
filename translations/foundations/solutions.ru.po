@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 13:08+0000\n"
-"PO-Revision-Date: 2026-09-30 07:16\n"
+"PO-Revision-Date: 2026-09-30 09:07\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -266,103 +266,113 @@ msgstr "Пользователи данных в научно-исследова
 #: en/foundations/modules/ROOT/pages/solutions.adoc:79
 #, no-wrap
 msgid "*For the given statements, input the matching image. (A, B, C, D)*\n"
-msgstr ""
+msgstr "*Для каждого из приведённых утверждений выберите соответствующее изображение (A, B, C, D)*\n"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/solutions.adoc:79
 #, no-wrap
 msgid "accuracyandprecision.png"
-msgstr ""
+msgstr "accuracyandprecision.png"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:83
 #, no-wrap
 msgid "High accuracy, low precision\n"
 "*C*"
-msgstr ""
+msgstr "Высокая точность, низкая прецизионность\n"
+"*C*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:85
 #, no-wrap
 msgid "Low accuracy, high precision\n"
 "*B*"
-msgstr ""
+msgstr "Низкая точность, высокая прецизионность\n"
+"*B*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:87
 #, no-wrap
 msgid "High accuracy, high precision\n"
 "*D*"
-msgstr ""
+msgstr "Высокая точность и высокая прецизионность\n"
+"*D*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:89
 #, no-wrap
 msgid "Low accuracy, low precision\n"
 "*A*"
-msgstr ""
+msgstr "Низкая точность, низкая прецизионность\n"
+"*A*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:91
 #, no-wrap
 msgid "*Identify the data relationships where Dataset B needs to be merged into Dataset A (0:1, 1:0, 1:1, 1:∞, ∞:1, ∞:∞). Not all the relationships used.*\n"
-msgstr ""
+msgstr "*Определите тип соответствия данных при объединении набора данных B с набором данных A (0:1, 1:0, 1:1, 1:∞, ∞:1, ∞:∞). Используются не все типы соответствий.*\n"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:94
 #, no-wrap
 msgid "Collector field exists in both dataset A and B\n"
 "*1:1*"
-msgstr ""
+msgstr "Поле Collector присутствует как в наборе данных A, так и в наборе данных B\n"
+"*1:1*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:96
 #, no-wrap
 msgid "Country field only exists in dataset B\n"
 "*0:1*"
-msgstr ""
+msgstr "Поле Country присутствует только в наборе данных B\n"
+"*0:1*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:98
 #, no-wrap
 msgid "Name field exists in dataset A, but dataset B contains First Name and Last Name fields\n"
 "*1:∞*"
-msgstr ""
+msgstr "Поле Name присутствует в наборе данных A, а в наборе данных B вместо него имеются отдельные поля First Name и Last Name\n"
+"*1:∞*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:100
 #, no-wrap
 msgid "ID field exists in both dataset A and B\n"
 "*1:1*"
-msgstr ""
+msgstr "Поле «ID» присутствует как в наборе данных A, так и в наборе данных B\n"
+"*1:1*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:102
 #, no-wrap
 msgid "Elevation exists in dataset A, but not in dataset B\n"
 "*1:0*"
-msgstr ""
+msgstr "Значение высоты присутствует в наборе данных A, но отсутствует в наборе данных B\n"
+"*1:0*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:104
 #, no-wrap
 msgid "Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B\n"
 "*1:∞*"
-msgstr ""
+msgstr "Дата присутствует в наборе данных A, но «День», «Месяц» и «Год» представляют собой отдельные поля в наборе данных B\n"
+"*1:∞*"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:106
 #, no-wrap
 msgid "*Metadata is important because (select the TRUE statements)*\n"
-msgstr ""
+msgstr "*Метаданные важны, потому что (выберите верные утверждения)*\n"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:108
 msgid "it allows users to determine if a dataset is fit for their use."
-msgstr ""
+msgstr "они позволяют пользователям определить, подходит ли набор данных для их целей."
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/solutions.adoc:108
 msgid "it allows you to know under which legal terms the reuse of data is permitted."
-msgstr ""
+msgstr "они позволяют узнать, на каких правовых условиях разрешено повторное использование данных."
 
