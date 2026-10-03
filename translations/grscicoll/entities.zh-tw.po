@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-02 07:36\n"
+"PO-Revision-Date: 2026-09-18 08:01\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:346
 #, no-wrap
 msgid "Click to expand"
-msgstr ""
+msgstr "點擊展開"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:38
@@ -330,7 +330,7 @@ msgstr "館藏描述"
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:3
 #, no-wrap
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
@@ -342,7 +342,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:14
 #, no-wrap
 msgid "Video transcript"
-msgstr ""
+msgstr "影片文字稿"
 
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/downloads.adoc:11
@@ -356,143 +356,144 @@ msgstr "GRSciColl 中資訊的如何組織"
 #, no-wrap
 msgid "In this video (04:15), GBIF Data Administrator, Marie Grosjean, describes how information is organized in GRSciColl.   \n"
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
+msgstr "在這段影片（04:15）中，GBIF 資料管理員 Marie Grosjean 說明了 GRSciColl 中資訊的組織方式。   \n"
+"若您無法觀看嵌入的 Vimeo 影片，可至 xref:downloads.adoc[可下載檔案] 頁面將影片下載至本機。\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:26
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide1.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide1.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:29
 msgid "The content of GRSciColl centers around describing physical scientific collections: their content, location, contact information, and their associated institutions. The two types of entries that you will see on GRSciColl are *institutions* and *collections*."
-msgstr ""
+msgstr "GRSciColl 的內容主要圍繞著描述實體科學館藏：其內容、地點、聯絡資訊以及相關機構。您在 GRSciColl 上會看到兩種類型的條目：*機構* 和 *館藏*。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:30
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide2.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide2.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:33
 #, no-wrap
 msgid "*Collection* entries contain information about the collection. They can be associated or not with an institution (for example personal collections don’t have to be associated with any institution). Collections can have their own content description, address and contact information.\n"
-msgstr ""
+msgstr "*館藏* 條目包含有關該館藏的資訊。這些條目可能與某個機構相關聯，也可能無關聯（例如，個人收藏不一定要與任何機構相關聯）。館藏可以擁有自己的內容描述、地址及聯絡資訊。\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:34
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide3.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide3.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:37
 #, no-wrap
 msgid "*Institution* entries contain information about the collection-holding institutions. They can be associated with zero, one or several collections. They have their own description, expertise, address and contact information.\n"
-msgstr ""
+msgstr "*機構* 條目包含有關館藏持有機構的資訊。這些條目可與零個、一個或多個館藏相關聯。每項條目皆附有其自身的描述、專業領域、地址及聯絡資訊。\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:38
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide4.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide4.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:41
 msgid "Both collection and institution entries can be associated with *identifiers*. These identifiers can be external ones (such as ROR identifiers for institutions) or can be historical."
-msgstr ""
+msgstr "館藏與機構條目均可與 *識別碼* 相關聯。這些識別碼可以是外部識別碼（例如機構的 ROR 識別碼），也可以是歷史識別碼。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:42
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide5.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide5.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:45
 msgid "Both collection and institution entries can be connected to one external source of information called *master source*. Once an entry is connected to such a source, some fields will be automatically updated by the source. There are a limited number of possible sources."
-msgstr ""
+msgstr "「館藏」與「機構」的條目均可連結至一個稱為 *主資料來源* 的外部資訊來源。一旦條目連結至該來源，部分欄位將由該來源自動更新。可用的來源數量有限。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:48
 msgid "As of March 2025, only GBIF datasets, GBIF publishers and Index Herbariorum entries can be sources of information, but we are working on adding more."
-msgstr ""
+msgstr "截至 2025 年 3 月，僅有 GBIF 資料集、GBIF 發佈者及《Index Herbariorum》條目可作為資訊來源，但我們正致力於新增更多來源。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:49
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide6.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide6.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:52
 msgid "In addition to institution and collection entries, GRSciColl records are linked to *occurrence* records published on GBIF when possible. This allows to display some aggregated metrics on GRSciColl pages regardless of the way that the data were published on GBIF.org. One collection can be linked to occurrence records coming from different GBIF datasets and one dataset can have records linked to several collection entries. Occurrences are linked to institution and collection entries based on the collection and institution codes and identifiers used. The GRSciColl API also supports the creation of explicit mapping (find out more in the other modules)."
-msgstr ""
+msgstr "除了機構和館藏條目外，GRSciColl 的記錄在可能的情況下，會與 GBIF 上發布的 *出現紀錄資料* 記錄建立連結。這使得無論資料在 GBIF.org 上是以何種方式發布，皆可在 GRSciColl 頁面顯示某些彙總指標。 一個館藏可以連結至來自不同 GBIF 資料集的物種出現紀錄，而一個資料集中的紀錄亦可連結至多個館藏條目。物種出現紀錄會根據所使用的館藏與機構代碼及識別碼，與機構及館藏條目建立連結。GRSciColl API 亦支援建立明確的對照關係（詳情請參閱其他模組）。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:53
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide7.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide7.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:57
 msgid "GRSciColl also supports the upload of collection information as structured tables called *collection descriptors*. Collection descriptors can contain relevant details about collections and sub-collections as well as quantitative data which cannot be shared on collection pages (for example, the number of fossil specimens collected in a particular region). Some collection descriptors are used for indexing collections. This means that they improve collection discoverability. For example, a collection associated with a moss species name will be found by users looking for “Bryophyta” in the scientific name field of the collection search. Collection descriptors are particularly relevant for collections that aren’t fully digitized and/or where the specimen records aren’t available on GBIF.org.  A collection can be associated with zero, one or several collection descriptor groups (tables)."
-msgstr ""
+msgstr "GRSciColl 亦支援以結構化表格形式上傳館藏資訊，此類表格稱為 *館藏描述檔*。館藏描述檔可包含有關館藏及子館藏的相關細節，以及無法在收藏頁面中分享的定量資料（例如，在特定地區採集的化石標本數量）。 部分館藏描述檔用於對館藏進行索引，這表示它們能提升館藏的可發現性。例如，與某苔蘚物種名稱相關聯的館藏，可被在館藏搜尋的學名欄位中搜尋「Bryophyta」的使用者找到。 館藏描述檔對於尚未完全數位化，以及／或其標本記錄尚未在 GBIF.org 上公開的館藏而言，尤為重要。一個館藏可以關聯零個、一個或多個館藏描述檔群組（表格）。"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:58
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide8.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide8.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:61
 msgid "Finally, any GRSciColl collection or institution entry can be associated with *machine tags* (machineTag). Machine tags are meant to be machine readable information to facilitate the programmatic processing of GRSciColl data (they are not meant to be displayed). For example, they are used by Integrated Digitized Biocollections (iDigBio) to show some of GRSciColl data on their https://portal.idigbio.org/portal/collections[collection portal^]."
-msgstr ""
+msgstr "最後，任何 GRSciColl 館藏或機構條目均可關聯 *機器標籤*（machineTag）。機器標籤旨在作為可由機器讀取的資訊，以利於 GRSciColl 資料的程式化處理（這些標籤並非用於顯示）。 例如，「整合數位化生物標本館」（iDigBio）便可利用這些標籤，在其 https://portal.idigbio.org/portal/collections [館藏入口網站^] 展示部分 GRSciColl 資料。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:63
 msgid "For the purpose of understanding the permission model here is a summary of the elements mentioned above:"
-msgstr ""
+msgstr "為了幫助您理解權限模型，以下是上述各項內容的摘要："
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:64
 #, no-wrap
 msgid "grscicoll::module1-section1-Slide9.png"
-msgstr ""
+msgstr "grscicoll::module1-section1-Slide9.png"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:67
 msgid "Institution"
-msgstr ""
+msgstr "機構"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:68
 msgid "Collection"
-msgstr ""
+msgstr "館藏"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:69
 msgid "Identifiers"
-msgstr ""
+msgstr "識別碼"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:70
 msgid "Master source"
-msgstr ""
+msgstr "主來源"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:71
 msgid "Occurrences"
-msgstr ""
+msgstr "出現紀錄"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:73
 msgid "Machine tags"
-msgstr ""
+msgstr "機器標籤"
 
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:84
@@ -502,18 +503,18 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:141
 #: en/grscicoll/modules/ROOT/pages/roles-permissions.adoc:145
 msgid "Quiz yourself on the concepts covered in this module."
-msgstr ""
+msgstr "請針對本單元所涵蓋的概念進行自我測驗。"
 
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:86
 msgid "_Review each page and identify which type of information is represented._"
-msgstr ""
+msgstr "_請逐頁檢視，並辨認其中呈現的是哪種類型的資訊。_"
 
 #.  Link 1
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:89
 msgid "https://scientific-collections.gbif.org/specimen/search?entity=2512997445[https://scientific-collections.gbif.org/specimen/search?entity=2512997445^]"
-msgstr ""
+msgstr "https://scientific-collections.gbif.org/specimen/search?entity=2512997445[https://scientific-collections.gbif.org/specimen/search?entity=2512997445^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:96
@@ -521,13 +522,15 @@ msgstr ""
 msgid "- [ ] Collection\n"
 "- [x] Occurrence\n"
 "- [ ] Identifier\n"
-msgstr ""
+msgstr "- [ ] 館藏\n"
+"- [x] 出現紀錄\n"
+"- [ ] 識別碼\n"
 
 #.  Link 2
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:99
 msgid "https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa[https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa^]"
-msgstr ""
+msgstr "https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa[https://scientific-collections.gbif.org/collection/0b82ce80-8f0d-4536-bd51-8c9b07cb7daa^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:106
@@ -535,13 +538,15 @@ msgstr ""
 msgid "- [ ] Identifiers\n"
 "- [ ] Machine tags\n"
 "- [x] Collection\n"
-msgstr ""
+msgstr "- [ ] 識別碼\n"
+"- [ ] 機器標籤\n"
+"- [x] 館藏\n"
 
 #.  Link 3
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:109
 msgid "https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier[https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier^]"
-msgstr ""
+msgstr "https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier[https://registry.gbif.org/institution/5667a399-386e-40be-b8b5-8b304305aa7e/identifier^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:116
@@ -549,13 +554,15 @@ msgstr ""
 msgid "- [ ] Institution\n"
 "- [ ] Occurrence\n"
 "- [x] Identifier\n"
-msgstr ""
+msgstr "- [ ] 機構\n"
+"- [ ] 出現紀錄\n"
+"- [x] 識別碼\n"
 
 #.  Link 4
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:119
 msgid "https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup[https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup^]"
-msgstr ""
+msgstr "https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup[https://registry.gbif.org/collection/886ec15a-b21e-4205-8bfd-cbd609c31838/descriptorGroup^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:126
@@ -563,13 +570,15 @@ msgstr ""
 msgid "- [ ] Master source\n"
 "- [ ] Institution\n"
 "- [x] Collection descriptors\n"
-msgstr ""
+msgstr "- [ ] 主來源\n"
+"- [ ] 機構\n"
+"- [x] 館藏描述詞\n"
 
 #.  Link 5
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:129
 msgid "https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4[https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4^]"
-msgstr ""
+msgstr "https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4[https://scientific-collections.gbif.org/institution/2a3a7a96-3cea-4251-b822-673f3d36eef4^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:136
@@ -577,13 +586,15 @@ msgstr ""
 msgid "- [x] Institution\n"
 "- [ ] Collection\n"
 "- [ ] Occurrence\n"
-msgstr ""
+msgstr "- [x] 機構\n"
+"- [ ] 館藏\n"
+"- [ ] 出現紀錄\n"
 
 #.  Link 6
 #. type: Plain text
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:139
 msgid "https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source[https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source^]"
-msgstr ""
+msgstr "https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source[https://registry.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72/master-source^]"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:146
@@ -591,5 +602,7 @@ msgstr ""
 msgid "- [ ] Institution\n"
 "- [x] Master source\n"
 "- [ ] Collection\n"
-msgstr ""
+msgstr "- [ ] 機構\n"
+"- [x] 主來源\n"
+"- [ ] 館藏\n"
 
