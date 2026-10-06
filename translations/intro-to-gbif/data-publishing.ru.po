@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-30 09:07\n"
+"PO-Revision-Date: 2026-10-06 18:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -75,25 +75,25 @@ msgstr "Подробнее об ответах можно прочитать в 
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:208
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:120
 msgid "The endorsement procedure aims to ensure that:"
-msgstr ""
+msgstr "Процедура одобрения направлена на обеспечение того, чтобы:"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:210
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:122
 msgid "Published data are relevant to GBIF’s scope and objectives"
-msgstr ""
+msgstr "Публикуемые данные соответствовали сфере деятельности и целям GBIF"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:212
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:124
 msgid "Data publishing and use are supported by strong national, regional and thematic engagement"
-msgstr ""
+msgstr "Публикация и использование данных поддерживались активным взаимодействием на национальном, региональном и тематическом уровнях"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:214
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:126
 msgid "Data publishers can respond to feedback and improve data quality"
-msgstr ""
+msgstr "Издатели данных могли реагировать на обратную связь и повышать качество данных"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -103,7 +103,7 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
-msgstr ""
+msgstr "Что означает публикация данных в контексте GBIF?"
 
 #. type: delimited block .
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
@@ -112,7 +112,9 @@ msgstr ""
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
 "- [ ] Writing an article describing your data, and the protocol(s) you used to collect, capture and clean them\n"
 "- [x] Making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format\n"
-msgstr ""
+msgstr "- [ ] Экспорт очищенных данных в CSV-файл, которым можно поделиться с коллегами\n"
+"- [ ] Написание статьи с описанием ваших данных и протоколов, использованных для их сбора, ввода и очистки\n"
+"- [x] Обеспечение общедоступности и возможности обнаружения ваших наборов данных о биоразнообразии в стандартизированном формате\n"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:61
@@ -135,70 +137,70 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:222
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Data quality issues and flags^] are documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Проблемы качества данных и соответствующие пометки^] описаны в технической документации GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:5
 msgid "In this module, you will learn about data publishing, incentives for publishing data how to become a publisher, review feedback available for publishers and review information about data papers."
-msgstr ""
+msgstr "В этом модуле вы узнаете о публикации данных, преимуществах публикации данных, о том, как стать издателем данных, доступных издателям механизмах обратной связи, а также познакомитесь с информацией о статьях о данных (data papers)."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:6
 #, no-wrap
 msgid "What is data publishing?"
-msgstr ""
+msgstr "Что такое публикация данных?"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:10
 msgid "In this section, you will learn what data publishing is in the GBIF network."
-msgstr ""
+msgstr "В этом разделе вы узнаете, что представляет собой публикация данных в сети GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:12
 msgid "In simplest terms, data publishing is making your biodiversity dataset(s) publicly accessible and discoverable in a standardized format."
-msgstr ""
+msgstr "Проще говоря, публикация данных — это обеспечение общедоступности и возможности обнаружения ваших наборов данных о биоразнообразии в стандартизированном формате."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:13
 #, no-wrap
 msgid "intro-to-gbif::datapublishing.png"
-msgstr ""
+msgstr "intro-to-gbif::datapublishing.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:16
 msgid "Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the https://www.gbif.org/ipt[Integrated Publishing Toolkit^], to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node like GBIF France or through an established thematic group like VertNet. Or, a another option, might be to make use of one of the GBIF cloud-hosted IPTs."
-msgstr ""
+msgstr "Большинство организаций в сети GBIF, также называемых издателями данных, используют для публикации своих данных IPT (https://www.gbif.org/ipt [Интегрированный набор инструментов для публикации^]). Издатели могут установить и поддерживать собственный экземпляр IPT, как, например, Field Museum, однако обычно они предпочитают найти подходящую площадку для публикации своих данных. Такой площадкой может быть IPT, поддерживаемый действующим узлом участника GBIF, например GBIF France, или тематической сетью, например VertNet. Ещё один вариант — использование одного из облачных IPT, предоставляемых GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:18
 msgid "If you are part of groups like Symbiota or the Living Atlases Communities, they have other means to assist you with publishing your data to GBIF."
-msgstr ""
+msgstr "Если вы являетесь участником таких сообществ, как Symbiota или Living Atlases, они также предоставляют другие инструменты и возможности для публикации ваших данных в GBIF."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:19
 #, no-wrap
 msgid "Incentives for publishing open-access biodiversity data"
-msgstr ""
+msgstr "Преимущества публикации данных о биоразнообразии в открытом доступе"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:23
 msgid "In this section, you will review some incentives for publishing biodiversity data."
-msgstr ""
+msgstr "В этом разделе вы познакомитесь с некоторыми преимуществами публикации данных о биоразнообразии."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:25
 msgid "An important part of GBIF's mission is to promote a culture in which people recognize the benefits of publishing open-access biodiversity data, for themselves as well as for the broader society."
-msgstr ""
+msgstr "Важной частью миссии GBIF является формирование культуры, в которой люди осознают преимущества публикации данных о биоразнообразии в открытом доступе — как для себя, так и для общества в целом."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:27
 msgid "By making your data discoverable and accessible through GBIF and similar information infrastructures, you will *contribute to global knowledge about biodiversity*, and thus to the solutions that will promote its conservation and sustainable use."
-msgstr ""
+msgstr "Делая свои данные доступными для поиска и использования через GBIF и аналогичные информационные инфраструктуры, вы *вносите вклад в глобальные знания о биоразнообразии* и тем самым способствуете поиску решений, направленных на его сохранение и устойчивое использование."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:28
 msgid "Data publishing enables datasets held all over the world to be integrated, revealing *new opportunities for collaboration* among data owners and researchers."
-msgstr ""
+msgstr "Публикация данных позволяет интегрировать наборы данных, хранящиеся в разных странах мира, создавая *новые возможности для сотрудничества* между владельцами данных и исследователями."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:29
@@ -246,7 +248,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:45
 #, no-wrap
 msgid "intro-to-gbif::GBIF_MoU.jpg"
-msgstr ""
+msgstr "intro-to-gbif::GBIF_MoU.jpg"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:48
