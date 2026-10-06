@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-06 22:39\n"
+"PO-Revision-Date: 2026-10-06 23:41\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1369,7 +1369,7 @@ msgstr "географический ареал распространения �
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:385
 msgid "data sharing with country of origin"
-msgstr ""
+msgstr "предоставление данных странам их происхождения"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:386
@@ -1381,32 +1381,32 @@ msgstr "intro-to-gbif::10_trends.png"
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:389
 #, no-wrap
 msgid "*Dataset content statistics*\n"
-msgstr ""
+msgstr "*Статистика содержимого набора данных*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:391
 msgid "Each dataset page includes a tab labelled ‘Metrics’. This tab gives access to graphs and tables resulting from the analysis of the contents of the dataset. This includes a summaries of:"
-msgstr ""
+msgstr "На странице каждого набора данных имеется вкладка «Metrics» («Показатели»). На этой вкладке доступны графики и таблицы, сформированные на основе анализа содержимого набора данных. В частности, здесь представлена сводная информация о:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:393
 msgid "Taxonomic distribution (both list and chart)"
-msgstr ""
+msgstr "Таксономическое распределение (в виде списка и диаграммы)"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:394
 msgid "Occurrences per issue"
-msgstr ""
+msgstr "количестве находок в каждом выпуске"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:395
 msgid "Occurrences per year"
-msgstr ""
+msgstr "количестве находок по годам"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:397
 msgid "The charts/tables are interactive and you can click to filter and explore further. Additionally, the images can be downloaded for reporting purposes."
-msgstr ""
+msgstr "Графики и таблицы являются интерактивными: вы можете нажимать на их элементы, чтобы фильтровать данные и изучать их подробнее. Кроме того, изображения графиков можно загружать для использования в отчётах."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:398
@@ -1418,12 +1418,12 @@ msgstr "intro-to-gbif::MetricsImage6.png"
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:401
 #, no-wrap
 msgid "*Data access logs*\n"
-msgstr ""
+msgstr "*Журналы доступа к данным*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:403
 msgid "There is a third tab in occurrence dataset pages labelled ‘Activity’. In this tab you can see a list of all download requests that included records from that dataset, including their download DOI for easy tracking."
-msgstr ""
+msgstr "На страницах наборов данных о находках организмов имеется также вкладка «Activity» («Активность»). На этой вкладке можно просмотреть список всех загрузок, в которые вошли записи из данного набора данных, включая DOI каждой загрузки, что упрощает отслеживание использования данных."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:404
@@ -1438,7 +1438,7 @@ msgstr "intro-to-gbif::ActivityImage7.png"
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:422
 msgid "What dataset class makes up the core of data published within GBIF?"
-msgstr ""
+msgstr "Какой тип наборов данных составляет основную часть данных, публикуемых в GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:429
@@ -1447,13 +1447,16 @@ msgid "- [ ] Metadata-only\n"
 "- [ ] Checklist\n"
 "- [x] Occurrence\n"
 "- [ ] Sampling-event\n"
-msgstr ""
+msgstr "- [ ] Наборы данных, содержащие только метаданные\n"
+"- [ ] Таксономические списки\n"
+"- [x] Наборы данных о находках организмов\n"
+"- [ ] Наборы данных о событиях отбора проб\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:432
 msgid "What is the taxonomic backbone?"
-msgstr ""
+msgstr "Что такое таксономическая основа (taxonomic backbone)?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:439
@@ -1462,13 +1465,16 @@ msgid "- [ ] A dataset\n"
 "- [ ] A management classification with the goal of covering all names in GBIF\n"
 "- [ ] Allows for taxonomic search on GBIF\n"
 "- [x] All of the above\n"
-msgstr ""
+msgstr "- [ ] Набор данных\n"
+"- [ ] Рабочая классификация, предназначенная для охвата всех названий, представленных в GBIF\n"
+"- [ ] Обеспечивает возможность таксономического поиска в GBIF\n"
+"- [x] Все вышеперечисленное\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:442
 msgid "Which licenses or waivers can be applied to datasets published in GBIF?"
-msgstr ""
+msgstr "Какие лицензии или отказы от прав могут применяться к наборам данных, публикуемым в GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:453
@@ -1494,7 +1500,7 @@ msgstr "- [x] CC BY\n"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:456
 msgid "Images are subject to the same licenses as datasets?"
-msgstr ""
+msgstr "Распространяются ли на изображения те же лицензии, что и на наборы данных?"
 
 #.  Question 5
 #. type: Plain text
