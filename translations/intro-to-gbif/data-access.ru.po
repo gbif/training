@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-30 09:07\n"
+"PO-Revision-Date: 2026-10-06 17:49\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -240,44 +240,44 @@ msgstr "Доступ к данным"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:6
 msgid "In this module, you will learn how GBIF's data is used and accessed.  You will also learn about the handling of data quality and GBIF's data quality flags."
-msgstr ""
+msgstr "В этом модуле вы узнаете, как используются данные GBIF и как получить к ним доступ.  Вы также узнаете о подходах к обеспечению качества данных и о флагах качества данных GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:11
 msgid "The GBIF https://www.gbif.org/literature-tracking[literature tracking system^] has identified over 5,000 uses of GBIF mediated data, most of which are in peer-reviewed articles.  The majority of these uses are in the field of ecology, but others relate to climate change, conservation, human health and agriculture.  A systematic review of the use of https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[GBIF-mediated data by Heberling et al. (2020)^] showed:"
-msgstr ""
+msgstr "Система GBIF по отслеживанию научных публикаций GBIF (https://www.gbif.org/literature-tracking[literature tracking system^]) выявила более 5 000 случаев использования данных, доступных через GBIF, большинство из которых приходится на рецензируемые научные статьи. Основная часть таких исследований относится к области экологии, однако данные также используются в исследованиях изменения климата, охраны природы, здоровья человека и сельского хозяйства.  Систематический обзор использования данных, доступных через GBIF (https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis), проведенный Хеберлингом (Heberling) и др. (2020)^] показал:"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:21
 #, no-wrap
 msgid "intro-to-gbif::fig3.png"
-msgstr ""
+msgstr "intro-to-gbif::fig3.png"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:29
 #, no-wrap
 msgid "Accessing GBIF-mediated data"
-msgstr ""
+msgstr "Доступ к данным, предоставляемым через GBIF"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:32
 msgid "There are three points of access to GBIF-mediated data: http://www.gbif.org[GBIF.org^], the https://www.gbif.org/developer/summary[Application Programming Interface (API) services^], and https://www.gbif.org/occurrence-snapshots[cloud-based datasets^]."
-msgstr ""
+msgstr "Существует три основных способа доступа к данным, предоставляемым через GBIF: http://www.gbif.org[GBIF.org^], https://www.gbif.org/developer/summary[сервисы интерфейса прикладного программирования (API)^] и https://www.gbif.org/occurrence-snapshots[облачные наборы данных^]."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:34
 msgid "Using the website requires no programming experience and allows for quick and easy search, filter and download functions for GBIF-mediated data, as well as a range of additional tools and metrics that are not available through API services."
-msgstr ""
+msgstr "Использование веб-сайта не требует навыков программирования и позволяет быстро и удобно выполнять поиск, фильтрацию и загрузку данных, предоставляемых через GBIF. Кроме того, на сайте доступен ряд дополнительных инструментов и показателей, которые недоступны через сервисы API."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:36
 msgid "API services allow continued access to GBIF-mediated data through other systems and can be the basis for the development of tools that allow for the interrogation of the data."
-msgstr ""
+msgstr "Сервисы API обеспечивают постоянный программный доступ к данным, предоставляемым через GBIF, из других систем и могут служить основой для разработки инструментов для поиска, получения и анализа этих данных."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:38
 msgid "Examples include https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], and https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], as well as, specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments."
-msgstr ""
+msgstr "Примерами таких инструментов являются https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^] и https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], а также специализированные инструменты для решения более конкретных задач, например http://geocat.kew.org/[GeoCat^] используемый при подготовке оценок для Красного списка."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:40
