@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-02 05:12\n"
+"PO-Revision-Date: 2026-10-08 06:16\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -633,7 +633,7 @@ msgstr "Identifiez le type de correspondance lors de l’intégration du jeu de 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:341
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Elevation exists in dataset A, but not in dataset B\"."
-msgstr ""
+msgstr "Identifiez le type de correspondance lors de l’intégration du jeu de données B dans le jeu de données A, pour l’énoncé suivant : « Le champ Elevation existe dans le jeu de données A, mais pas dans le jeu de données B. »"
 
 #. type: delimited block .
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:350
@@ -644,13 +644,18 @@ msgid "- [ ] 0:1\n"
 "- [ ] 1:∞\n"
 "- [ ] ∞:1\n"
 "- [ ] ∞:∞\n"
-msgstr ""
+msgstr "- [ ] 0:1\n"
+"- [x] 1:0\n"
+"- [ ] 1:1\n"
+"- [ ] 1:∞\n"
+"- [ ] ∞:1\n"
+"- [ ] ∞:∞\n"
 
 #.  Question 31
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:353
 msgid "Identify the data relationships where Dataset B needs to be merged into Dataset A for the statement, \"Date exists in dataset A, but Day, Month, and Year are separate fields in dataset B\"."
-msgstr ""
+msgstr "Identifiez le type de correspondance lors de l’intégration du jeu de données B dans le jeu de données A, pour l’énoncé suivant : « Le champ Date existe dans le jeu de données A, tandis que le jour, le mois et l’année sont répartis dans trois champs distincts du jeu de données B. »"
 
 #.  Question 32
 #. type: Plain text
