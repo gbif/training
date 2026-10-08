@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-08 12:19\n"
+"PO-Revision-Date: 2026-10-08 13:24\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -832,7 +832,7 @@ msgstr "fondations::fondations-terminologie-Diapositive17.png"
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:207
 #, no-wrap
 msgid "*Slide 17 - Characters*\n"
-msgstr ""
+msgstr "*Diapositive 17 – Caractères*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:209
@@ -1931,23 +1931,23 @@ msgstr "maintient toujours ensemble les données de chaque ligne"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:671
 msgid "does not mix data types"
-msgstr ""
+msgstr "ne mélange pas les types de données"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:672
 msgid "and segregates data in each table to a single concept or theme"
-msgstr ""
+msgstr "et organise chaque table autour d’un seul concept ou thème"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:674
 msgid "These are functions of a database!"
-msgstr ""
+msgstr "Ce sont précisément les fonctions d’une base de données !"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:675
 #, no-wrap
 msgid "foundations::foundations-structures-Slide22.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive22.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:680
@@ -1955,28 +1955,29 @@ msgstr ""
 msgid "*Slide 22 - Integrity and security*\n"
 " \n"
 "Functions in a true database inherently bind rows together and columns may only have a single data type.\n"
-msgstr ""
+msgstr "*Diapositive 22 – Intégrité et sécurité*\n\n"
+"Dans une véritable base de données, les fonctions intégrées maintiennent les données de chaque ligne ensemble, tandis que chaque colonne ne peut contenir qu’un seul type de données.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:682
 msgid "Tables in database are held together by virtual links called keys."
-msgstr ""
+msgstr "Dans une base de données, les tables sont reliées entre elles par des liens virtuels appelés \"clés\"."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:684
 msgid "These keys are identifiers that match between tables and allow data to be connected efficiently."
-msgstr ""
+msgstr "Ces clés sont des identifiants communs à plusieurs tables, qui permettent de relier efficacement les données entre elles."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:686
 msgid "It is these 2 key concepts that distinguish a spreadsheet from a database."
-msgstr ""
+msgstr "Ce sont ces deux concepts clés qui distinguent un tableur d’une base de données."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:689
 #, no-wrap
 msgid "foundations::foundations-structures-Slide23.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive23.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:694
@@ -1984,18 +1985,19 @@ msgstr ""
 msgid "*Slide 23 - Review*\n"
 " \n"
 "In review then, we have looked at the 6 most common data types, the basic building blocks of data structure and distinguished between a spreadsheet grid and database table.\n"
-msgstr ""
+msgstr "*Diapositive 23 - Récapitulatif*\n\n"
+"En résumé, nous avons passé en revue les six types de données les plus courants, qui constituent les éléments de base des structures de données, et nous avons établi la distinction entre une grille de tableur et une table de base de données.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:696
 msgid "Understanding these elements and how they interact with one another will allow you to better determine the best ways to manipulate and document the data that falls under your custodianship."
-msgstr ""
+msgstr "La compréhension de ces éléments et de leurs interactions vous permettra de mieux définir comment gérer et documenter les données placées sous votre responsabilité."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:697
 #, no-wrap
 msgid "foundations::foundations-structures-Slide24.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive24.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:702
@@ -2003,28 +2005,29 @@ msgstr ""
 msgid "*Slide 24 - Wrap-up*\n"
 " \n"
 "Remember that: \n"
-msgstr ""
+msgstr "*Diapositive 24 - Conclusion*\n\n"
+"N'oubliez pas que : \n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:704
 msgid "“When you realize the difference between the container and the content, you will have knowledge.”"
-msgstr ""
+msgstr "« Lorsque vous comprendrez la différence entre le contenant et le contenu, vous accéderez à la connaissance. »."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:706
 msgid "Using the correct terms to describe both your data and the structures that you create and use to store it; is the most important way to ensure that it remains relevant and useable."
-msgstr ""
+msgstr "Utiliser une terminologie précise pour décrire vos données et les structures dans lesquelles elles sont stockées est essentiel pour préserver leur pertinence et leur facilité d’utilisation."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:708
 msgid "Never underestimate how much damage can be done to priceless information by careless descriptions and storage."
-msgstr ""
+msgstr "Ne sous-estimez jamais les dommages que peuvent causer une description imprécise et un stockage inadéquat à des informations d’une valeur inestimable."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:709
 #, no-wrap
 msgid "foundations::foundations-structures-Slide25.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive25.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:714
@@ -2032,5 +2035,6 @@ msgstr ""
 msgid "*Slide 25 - Conclusion*\n"
 " \n"
 "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.\n"
-msgstr ""
+msgstr "*Diapositive 25 - Conclusion*\n\n"
+"Cette vidéo fait partie d’une série de présentations conçues pour la formation du GBIF sur la mobilisation des données sur la biodiversité. Le contenu pédagogique de cette formation a été initialement élaboré dans le cadre du programme Biodiversity Information for Development (BID), financé par l’Union européenne.\n"
 
