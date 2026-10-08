@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-29 12:57\n"
+"PO-Revision-Date: 2026-10-08 00:35\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -288,72 +288,72 @@ msgstr "「為了讓資料使用時能標示來源給資料擁有者，任何再
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:65
 msgid "“Users must publicly acknowledge, following the scientific convention of citing sources in conjunction with the use of the data, the Data Publishers whose biodiversity data they have used, where appropriate through use of a Digital Object Identifier (DOI) applying to the dataset (s) and/or data downloads.”"
-msgstr ""
+msgstr "「使用者應依照學界引用資料來源的慣例，公開標示所使用之生物多樣性資料的資料發布者，適當時可透過該資料集及／或下載紀錄所對應的數位物件識別碼（DOI）來標示。」"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:67
 msgid "Similarly, the agreement is very specific in stating that the conditions stated in the licenses selected by the data published must be respected."
-msgstr ""
+msgstr "同樣地，協議也明確要求，必須遵守資料發布者所選定授權條款中的相關條件。"
 
 #. type: delimited block -
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:70
 #, no-wrap
 msgid "\"Users must comply with the terms and conditions included in the licence selected by each Data Publisher, and the licensing information included with each data download. If any provision of this Use Agreement conflicts with the terms and conditions within the licences selected by the Data Publisher, licences selected by the Data Publisher shall prevail.\"\n"
-msgstr ""
+msgstr "「使用者必須遵守每位資料發布者所選授權條款中的條款與條件，以及各筆資料下載所附的授權資訊。若本使用協議中的任何規定與資料發布者所選授權條款有所牴觸，一律以資料發布者所選授權條款為準。」\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:73
 #, no-wrap
 msgid "*Citation*\n"
-msgstr ""
+msgstr "*引用*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:75
 msgid "GBIF strongly encourages all users to cite data retrieved from the GBIF network. For that purpose it provides recommended citation strings on the dataset, occurrence and download pages in GBIF.org."
-msgstr ""
+msgstr "GBIF強烈建議所有使用者引用來自GBIF網絡的資料，因此在GBIF.org的資料集、出現紀錄與下載頁面上，都提供了建議引用格式供參考。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:77
 msgid "This is especially relevant for datasets published using the “CC-BY” and “CC-BY-NC” licenses, which include specific requirements for citing the origin of the data."
-msgstr ""
+msgstr "這點對於以「CC-BY」與「CC-BY-NC」授權發布的資料集特別重要，因為這些授權條款對如何引用資料來源訂有明確要求。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:79
 msgid "Citation and right strings are automatically generated for data publishers for each dataset when using IPT as the publishing mechanism, providing that one of the standard licenses is selected."
-msgstr ""
+msgstr "若使用IPT發布資料，並選擇標準授權條款之一，系統就會自動為每個資料集產出對應的引用文字與權利聲明，供發布者使用。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:80
 #, no-wrap
 msgid "intro-to-gbif::11_citations.png"
-msgstr ""
+msgstr "intro-to-gbif::11_citations.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:83
 msgid "Data publishers must carefully select which license aligns best with any existing requirement from their institutions and from any data access policy to which they may be subject."
-msgstr ""
+msgstr "資料發布者應謹慎選擇最符合其機構既有規定，以及所受資料取用政策要求的授權條款。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:85
 #, no-wrap
 msgid "*Data publisher page*\n"
-msgstr ""
+msgstr "*資料發布者頁面*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:89
 msgid "All publishers feature their own page on GBIF.org.  It is important that publishers give some thought to how they want to appear on the website and provide relevant information about their institutions and their teams at the time of registration.  They should also strive to keep it up to date, as interested parties will use the contact data on that page to contact the team responsible for the data publishing."
-msgstr ""
+msgstr "每位發布者在GBIF.org上都有自己的專屬頁面。發布者在註冊時，應好好思考希望這個頁面呈現什麼樣貌，並提供機構與團隊的相關資訊，同時也要記得隨時更新內容，因為有興趣的人會透過頁面上的聯絡資料，聯繫負責資料發布的團隊。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:91
 #, no-wrap
 msgid "*Dataset DOI*\n"
-msgstr ""
+msgstr "*資料集 DOI*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:93
 msgid "Every time a new version of a dataset is published using an IPT, a DOI (Digital Object Identifier) is assigned. As in the case of the downloads, this identifier allows easy citation and tracking of work derived from the dataset, if the user follows good practices for source citation."
-msgstr ""
+msgstr "每次透過IPT發布資料集新版本時，都會產出一組DOI（數位物件識別碼）。就像下載紀錄一樣，只要使用者遵循良好的引用習慣，這組識別碼就能方便地用來引用及追蹤該源自該資料集的研究成果。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:95
