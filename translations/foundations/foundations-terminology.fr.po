@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-08 11:21\n"
+"PO-Revision-Date: 2026-10-08 12:19\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1385,216 +1385,216 @@ msgstr "*Diapositive 4 – Structures : avions, trains et automobiles*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:463
 msgid "First, lets look at field types, also known as data types."
-msgstr ""
+msgstr "Tout d’abord, intéressons-nous aux types de champs, aussi appelés types de données."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:464
 #, no-wrap
 msgid "foundations::foundations-structures-Slide5.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive5.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:467
 #, no-wrap
 msgid "*Slide 5 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 5 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:469
 msgid "Data Type lets the computer know what kind of data is expected in a particular field. This then dictates what functions can be performed on it."
-msgstr ""
+msgstr "Le type de données précise à l’ordinateur quel type de valeur doit être saisi dans un champ et quelles opérations peuvent lui être appliquées."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:471
 msgid "They can be simple and encompass a single concept or combine concepts depending on the software or language you are using. Either way the essential building blocks are the same."
-msgstr ""
+msgstr "Les types de données peuvent être simples et représenter un seul concept, ou en combiner plusieurs selon le logiciel ou le langage utilisé. Dans tous les cas, leurs éléments fondamentaux restent les mêmes."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:473
 msgid "So let’s look at six that you will come across most frequently."
-msgstr ""
+msgstr "Découvrons donc les six types de données les plus couramment utilisés."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:474
 #, no-wrap
 msgid "foundations::foundations-structures-Slide6.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive6.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:477
 #, no-wrap
 msgid "*Slide 6 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 6 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:479
 msgid "First Numeric fields – This data type holds numbers, and there are 2 kinds: "
-msgstr ""
+msgstr "Commençons par les champs numériques. Ce type de données contient des nombres et se divise en deux catégories :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:481
 msgid "Integers and long integers, hold whole numbers. For example 1, 2, 3, 99, 2000."
-msgstr ""
+msgstr "Les entiers et les entiers longs représentent des nombres entiers. Par exemple : 1, 2, 3, 99, 2000."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:483
 msgid "The size of the number, depends on the number of bits assigned to the field (more about that later). For now just remember that a long integer field will hold a bigger number than an integer."
-msgstr ""
+msgstr "La valeur maximale dépend du nombre de bits attribués au champ — nous y reviendrons. Retenez simplement qu’un champ entier long peut stocker des nombres plus élevés qu’un champ entier."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:485
 msgid "Floats, also referred to as doubles, hold fractions or parts of whole numbers. For example 4.5, 19.47"
-msgstr ""
+msgstr "Les nombres à virgule flottante (floats), également appelés doubles, permettent de stocker des nombres comportant une partie décimale, comme 4,5 ou 19,47."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:487
 msgid "The important thing to remember here is that a float always has decimal places so the number 10 will be stored as 10.0. The number of decimal places being an integral element of the type. This has implications when it comes to precision and accuracy."
-msgstr ""
+msgstr "Il faut retenir qu’un nombre à virgule flottante (floats) comporte toujours des décimales : le nombre 10 sera donc stocké sous la forme 10,0. Le nombre de décimales fait partie intégrante de ce type de données, ce qui peut avoir des conséquences sur la précision et l’exactitude."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:488
 #, no-wrap
 msgid "foundations::foundations-structures-Slide7.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive7.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:491
 #, no-wrap
 msgid "*Slide 7 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 7 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:493
 msgid "Alphanumeric fields - are also referred to as text, character or string fields."
-msgstr ""
+msgstr "Champs alphanumériques : on les appelle également champs de texte, de caractères ou de chaînes de caractères."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:495
 msgid "They can hold any letter, number or symbol in the coded character set and usually have a defined character limit. Entering more characters than the character limit can often result in truncation and loss of data on save."
-msgstr ""
+msgstr "Ils peuvent contenir n'importe quelle lettre, n'importe quel chiffre ou n'importe quel symbole figurant dans le jeu de caractères codés, mais leur longueur est généralement limitée. Lorsque cette limite est dépassée, les caractères supplémentaires risquent d’être supprimés à l’enregistrement, ce qui entraîne une perte de données."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:496
 #, no-wrap
 msgid "foundations::foundations-structures-Slide8.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive8.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:499
 #, no-wrap
 msgid "*Slide 8 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:501
 msgid "Another type of text field that you will come across is the Unstructured text field, also known as memo, long char or blob fields."
-msgstr ""
+msgstr "Un autre type de champ de texte que vous rencontrerez est le champ de texte non structuré, également appelé champ « memo », « long char » ou « blob »."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:503
 msgid "These types of field are used to hold large amounts of unformatted text and unlike alphanumeric fields may not have an obvious character limit."
-msgstr ""
+msgstr "Ces champs servent à stocker de longs textes sans mise en forme et, contrairement aux champs alphanumériques, leur limite de caractères n’est pas toujours clairement indiquée."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:505
 msgid "In simple systems, they are generally less flexible in terms of processing; for example sorting and indexing, than their smaller alphanumeric cousins."
-msgstr ""
+msgstr "Dans les systèmes simples, ces champs offrent généralement moins de possibilités de traitement, notamment pour le tri et l’indexation, que les champs alphanumériques plus courts."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:507
 msgid "With decreased storage costs and the rise of NoSQL document-oriented database programs, such as MongoDB however, this is changing."
-msgstr ""
+msgstr "Cette situation évolue toutefois grâce à la baisse du coût du stockage et au développement des bases de données NoSQL orientées documents, telles que MongoDB."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:508
 #, no-wrap
 msgid "foundations::foundations-structures-Slide9.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive9.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:511
 #, no-wrap
 msgid "*Slide 9 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:513
 msgid "System Value fields have a double nature and what you see on the screen is not usually the actual value that the software is storing in memory. Date and time fields are the most common example of this type of field."
-msgstr ""
+msgstr "Les champs de valeurs système présentent deux formes : la valeur affichée à l’écran diffère généralement de celle que le logiciel stocke réellement en mémoire. Les champs de date et d’heure en sont les exemples les plus courants."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:515
 msgid "In this example you typed “1 March 1971” into a cell in Excel and hit return."
-msgstr ""
+msgstr "Dans cet exemple, vous avez saisi « 1 March 1971 » dans une cellule d'Excel, puis vous avez appuyé sur la touche Entrée."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:517
 msgid "Now it says “1-Mar-71” in the cell AND “3/1/1971” in the functionbar."
-msgstr ""
+msgstr "La cellule affiche maintenant « 1-Mar-71 », tandis que la barre de formule indique « 3/1/1971 »."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:519
 msgid "Excel is applying a display format to the cell, which you can change at will."
-msgstr ""
+msgstr "Excel applique à la cellule un format d’affichage que vous pouvez modifier à tout moment."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:521
 msgid "HOWEVER, if you remove the format you see that what is actually being stored in the field is the number 25993.00!"
-msgstr ""
+msgstr "CEPENDANT, si vous supprimez ce format, vous constaterez que la valeur réellement stockée dans le champ est le nombre 25993,00 !"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:523
 msgid "So you can see that the field is actually a float. You should beware because that system value not be the same from software to software. Exports should to checked to make sure the actual date is exported and not the system value."
-msgstr ""
+msgstr "Vous constatez ainsi que le champ stocke en réalité un nombre à virgule flottante. Cette valeur système pouvant varier selon le logiciel, vérifiez lors de l’exportation que la date elle-même est exportée, et non la valeur système."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:524
 #, no-wrap
 msgid "foundations::foundations-structures-Slide10.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive10.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:527
 #, no-wrap
 msgid "*Slide 10 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:529
 msgid "Boolean fields – also known as Binary fields only contain one of two values that represent a one or a zero."
-msgstr ""
+msgstr "Les champs booléens, également appelés champs binaires, ne peuvent contenir que l’une de deux valeurs, représentées par 1 ou 0."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:531
 msgid "They are a special case of a System Value field as mentioned previously in that whilst the software actually saves a number it often displays values such as:"
-msgstr ""
+msgstr "Il s’agit d’un cas particulier de champ de valeur système, comme indiqué précédemment : le logiciel enregistre un nombre, mais affiche souvent des valeurs telles que :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:536
 msgid "Yes/No; Yes/no; Y/N; True/False. "
-msgstr ""
+msgstr "Oui/Non ; Oui/non ; O/N ; Vrai/Faux. "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:538
 msgid "You should take care to find out which way around the system you are using translates."
-msgstr ""
+msgstr "Veillez à vérifier la manière dont le système utilisé interprète et convertit ces valeurs."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:540
 msgid "Is a 1 a yes or no?"
-msgstr ""
+msgstr "Est-ce qu'un « 1 » signifie « oui » ou « non » ?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:541
 #, no-wrap
 msgid "foundations::foundations-structures-Slide11.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive11.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:544
 #, no-wrap
 msgid "*Slide 11 - Containers – field/data types*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Conteneurs – types de champs/de données*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:546
@@ -1880,53 +1880,53 @@ msgstr "Référence : https://www.mrc-productivity.com/blog/2014/09/7-dangers-of
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:651
 #, no-wrap
 msgid "foundations::foundations-structures-Slide21.png"
-msgstr ""
+msgstr "fondations::fondations-structures-Diapositive21.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:654
 #, no-wrap
 msgid "*Slide 21 - Containers - Integrity and security*\n"
-msgstr ""
+msgstr "Diapositive 21 – Conteneurs : intégrité et sécurité\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:656
 msgid "Let’s look back, at the connections in a bit more detail."
-msgstr ""
+msgstr "Revenons maintenant plus en détail sur ces relations."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:658
 msgid "We generally understand that the data in each row of a table means something."
-msgstr ""
+msgstr "Nous comprenons généralement que les données contenues dans chaque ligne d’une table ont une signification particulière."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:660
 msgid "For example each row can represent a specimen or a taxa that was found at a particular place, at a particular time, by a particular person."
-msgstr ""
+msgstr "Par exemple, chaque ligne peut représenter un spécimen ou un taxon observé à un endroit et à un moment précis, par une personne donnée."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:662
 msgid "It would be odd to have one row in a table that represents a specimen followed by a row that represents a collection site."
-msgstr ""
+msgstr "Il serait étrange d'avoir, dans un tableau, une ligne représentant un spécimen suivie d'une ligne représentant un site de collecte."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:664
 msgid "We also often want to analyse, sort and compare values of particular attributes between rows."
-msgstr ""
+msgstr "Nous avons également souvent besoin d’analyser, de trier et de comparer, d’une ligne à l’autre, les valeurs associées à certains attributs."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:666
 msgid "For example you may want find the mean weight of all the Kenyan bats."
-msgstr ""
+msgstr "Par exemple, vous pourriez chercher à déterminer le poids moyen de toutes les chauves-souris observées au Kenya."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:668
 msgid "So ideally we want to use a system to store our data that:"
-msgstr ""
+msgstr "Idéalement, nous souhaitons donc utiliser un système de stockage des données qui :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:670
 msgid "always holds the rows together"
-msgstr ""
+msgstr "maintient toujours ensemble les données de chaque ligne"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-terminology.adoc:671
