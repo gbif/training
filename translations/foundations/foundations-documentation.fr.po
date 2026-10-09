@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-07 03:15\n"
+"PO-Revision-Date: 2026-10-09 05:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -369,11 +369,10 @@ msgstr "*Diapositive 2 - Documentation*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:49
 msgid "In the previous Foundations presentations, we looked at the individual elements that make up both your data and the containers that hold it. Now we’ll look at ways to document those data and what you want to do with it.    According to the director Steven Spielberg,   “People have forgotten how to tell a story. Stories don’t have a middle or an end any more. They usually have a beginning that never stops beginning.” (Steven Spielberg)    Documentation is the story of your project or dataset. There should always be a concrete beginning, middle and end.    In essence you should be able to answer certain questions at specific points:   At the beginning : What did our project aim to do? What was the purpose of creating the dataset?"
-msgstr "Dans les précédentes présentations sur la Fondation, nous avons étudié les différents éléments qui constituent vos données, ainsi que les structures utilisées pour les organiser et les stocker. Nous allons maintenant nous intéresser à la manière de documenter ces données et d’expliquer l’usage auquel elles sont destinées.\n"
-"Comme l’a déclaré le réalisateur Steven Spielberg :\n"
-"« Les gens ont oublié comment raconter une histoire. Les histoires n’ont désormais ni milieu ni fin. Elles ont généralement un début qui ne cesse jamais de commencer. »\n"
-"La documentation permet de raconter l’histoire de votre projet ou de votre jeu de données. Elle doit donc en présenter clairement le début, le déroulement et la finalité.\n"
-"Pour construire cette histoire, certaines questions doivent être posées à chaque étape. Au début, il convient de se demander :\n"
+msgstr "Dans les précédentes présentations sur la Fondation, nous avons étudié les différents éléments qui constituent vos données, ainsi que les structures utilisées pour les organiser et les stocker. Nous allons maintenant nous intéresser à la manière de documenter ces données et d’expliquer l’usage auquel elles sont destinées.    Comme l’a déclaré le réalisateur Steven Spielberg   :\n"
+"« Les gens ont oublié comment raconter une histoire. Les histoires n’ont désormais ni milieu ni fin. Elles ont généralement un début qui ne cesse jamais de commencer.    »\n"
+"La documentation permet de raconter l’histoire de votre projet ou de votre jeu de données. Elle doit donc en présenter clairement le début, le déroulement et la finalité.    \n"
+"Pour construire cette histoire, certaines questions doivent être posées à chaque étape.    Au début, il convient de se demander :\n"
 "Quels étaient les objectifs du projet ? Dans quel but le jeu de données a-t-il été créé ?"
 
 #. type: delimited block =
@@ -433,16 +432,12 @@ msgstr "*Diapositive 4 – Formatage des données*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
 msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
-msgstr "Nous commencerons par voir comment décrire vos données. Nous expliquerons ensuite comment les adapter d’une structure à une autre, avant d’aborder la création des métadonnées qui les accompagnent.\n"
-"Commençons par le formatage des données, également appelé mise en correspondance des champs.\n"
-"Cette opération consiste à déterminer comment les champs d’un jeu de données peuvent être transformés ou associés aux champs d’une autre structure.\n"
-"Elle consiste à « identifier le ou les champs sources dans le jeu de données A et à déterminer leurs champs correspondants dans le jeu de données B ».\n"
-"Dans cet exemple, le jeu de données A comprend 10 colonnes :"
+msgstr "Nous commencerons par voir comment décrire vos données. Nous expliquerons ensuite comment les adapter d’une structure à une autre, avant d’aborder la création des métadonnées qui les accompagnent.    Commençons par le formatage des données, également appelé mise en correspondance des champs.    Cette opération consiste à déterminer comment les champs d’un jeu de données peuvent être transformés ou associés aux champs d’une autre structure.    Elle consiste à « identifier le ou les champs sources dans le jeu de données A et à déterminer leurs champs correspondants dans le jeu de données B ».    Dans cet exemple, le jeu de données A comprend 10 colonnes  :"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
 msgid "some integer fields represented by the purple squares,"
-msgstr "des champs de type entier, représentés par les carrés violets, "
+msgstr "des champs de type entier, représentés par les carrés violets,"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:80
@@ -479,8 +474,7 @@ msgstr "*Diapositive 5 – Formatage des données*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:91
 msgid "Dataset B has a different set of fields, 15 in total.    What we need to do is identify which fields in Dataset A match which fields in Dataset B"
-msgstr "Le jeu de données B comporte une structure différente, composée de 15 champs au total.\n"
-"Nous devons déterminer quels champs du jeu de données A correspondent à ceux du jeu de données B."
+msgstr "Le jeu de données B comporte une structure différente, composée de 15 champs au total.    Nous devons déterminer quels champs du jeu de données A correspondent à ceux du jeu de données B"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:92
@@ -492,7 +486,7 @@ msgstr "fondations::fondations-documentation-Diapositive6.png"
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:95
 #, no-wrap
 msgid "*Slide 6 - Mapping A to B*\n"
-msgstr "*Diapositive 6 – Formatage de A vers B*"
+msgstr "*Diapositive 6 – Formatage de A vers B*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:97
@@ -502,11 +496,8 @@ msgstr "Pour établir cette correspondance, nous devons définir les relations e
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
 msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
-msgstr "Par exemple, le jeu de données A et le jeu de données B possèdent tous deux un champ ID. Nous pouvons donc relier directement ces deux champs. Il s’agit d’une correspondance un à un.\n"
-"Question : Voyez-vous d’autres correspondances un à un ?\n"
-"Réponse : State, Exp? et Pink Elephant!\n"
-"Un autre type de relation est la correspondance un à plusieurs. Dans ce cas, un seul champ du jeu de données A correspond à deux champs ou plus dans le jeu de données B. Le champ Date en est un exemple.\n"
-"Il peut également arriver que plusieurs champs du jeu de données A contiennent des informations destinées à plusieurs champs du jeu de données B. C’est souvent le cas des champs de notes ou de remarques."
+msgstr "Par exemple, le jeu de données A et le jeu de données B possèdent tous deux un champ ID. Nous pouvons donc relier directement ces deux champs. Il s’agit d’une correspondance un à un.    Question : Voyez-vous d’autres correspondances un à un ? Réponse : State, Exp? et Pink Elephant!   \n"
+"Un autre type de relation est la correspondance un à plusieurs. Dans ce cas, un seul champ du jeu de données A correspond à deux champs ou plus dans le jeu de données B. Le champ Date en est un exemple.    Il peut également arriver que plusieurs champs du jeu de données A contiennent des informations destinées à plusieurs champs du jeu de données B. C’est souvent le cas des champs de notes ou de remarques."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
@@ -612,7 +603,7 @@ msgstr "fondations::fondations-documentation-Diapositive9.png"
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:136
 #, no-wrap
 msgid "*Slide 9 - Planning data moves - Mapping document*\n"
-msgstr "*Diapositive 9 – Planification du transfert des données : document de correspondance des champs*"
+msgstr "*Diapositive 9 – Planification du transfert des données : document de correspondance des champs*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:138
@@ -634,8 +625,7 @@ msgstr "*Diapositive 10 - Métadonnées*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:146
 msgid "We’ve talked a lot about documenting the structures that hold your data but you must also document the information that gives context. This is called metadata and is data about your data!   As we mention in the section on data quality your ”Metadata must be rich enough to allow data (re)use by a third party without them having to refer to the data source.”"
-msgstr "Nous avons beaucoup parlé de la documentation des structures qui contiennent vos données. Cependant, il est tout aussi important de documenter les informations qui permettent de comprendre leur contexte. Ces informations sont appelées métadonnées, c’est-à-dire des données qui décrivent vos données.\n"
-"Comme indiqué dans la section consacrée à la qualité des données, « vos métadonnées doivent être suffisamment détaillées pour permettre à un tiers d’utiliser ou de réutiliser les données sans avoir à consulter la source d’origine »."
+msgstr "Nous avons beaucoup parlé de la documentation des structures qui contiennent vos données. Cependant, il est tout aussi important de documenter les informations qui permettent de comprendre leur contexte. Ces informations sont appelées métadonnées, c’est-à-dire des données qui décrivent vos données.   Comme indiqué dans la section consacrée à la qualité des données, « vos métadonnées doivent être suffisamment détaillées pour permettre à un tiers d’utiliser ou de réutiliser les données sans avoir à consulter la source d’origine »."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:147
@@ -677,8 +667,7 @@ msgstr "L’historique des données – Le jeu de données a-t-il déjà fait l�
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:158
 msgid "Statement of accuracy – Using the concepts of accuracy, precision, errors and uncertainty that we discussed previously, are there any issues with the dataset that should be known to a user?"
-msgstr "\n"
-"Une déclaration sur l’exactitude des données – En vous appuyant sur les notions d’exactitude, de précision, d’erreur et d’incertitude abordées précédemment, indiquez tout problème lié au jeu de données dont les utilisateurs devraient avoir connaissance."
+msgstr "Une déclaration sur l’exactitude des données – En vous appuyant sur les notions d’exactitude, de précision, d’erreur et d’incertitude abordées précédemment, indiquez tout problème lié au jeu de données dont les utilisateurs devraient avoir connaissance."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:159
@@ -726,6 +715,5 @@ msgstr "*Diapositive 12 - Conclusion*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:172
 msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sharon Grant and has been narrated by Sophie Pamerlon."
-msgstr "Cette vidéo fait partie d’une série de présentations utilisées dans le cadre de la formation du GBIF sur la mobilisation des données sur la biodiversité. Le programme de cette formation a été initialement élaboré dans le cadre du Programme BID (Biodiversity Information for Development), financé par l’Union européenne.\n"
-"Cette présentation a été initialement créée par Sharon Grant et mise en voix par Sophie Pamerlon."
+msgstr "Cette vidéo fait partie d’une série de présentations utilisées dans le cadre de la formation du GBIF sur la mobilisation des données sur la biodiversité. Le programme de cette formation a été initialement élaboré dans le cadre du Programme BID (Biodiversity Information for Development), financé par l’Union européenne.    Cette présentation a été initialement créée par Sharon Grant et mise en voix par Sophie Pamerlon."
 
