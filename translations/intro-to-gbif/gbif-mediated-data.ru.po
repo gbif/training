@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-07-08 10:27\n"
+"PO-Revision-Date: 2026-10-06 23:41\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -345,7 +345,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:228
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:411
 msgid "Quiz yourself on the concepts covered in this module. There may be multiple correct answers for some questions."
-msgstr ""
+msgstr "Проверьте свои знания понятий, рассмотренных в этом модуле. В некоторых вопросах может быть несколько правильных ответов."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:587
@@ -357,7 +357,7 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr ""
+msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc [Приложение с решениями]."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:1
@@ -666,575 +666,575 @@ msgstr "Данные, распространяемые через GBIF "
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:5
 msgid "In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information. You will also have a chance to review the various metrics that are available for the data within the portal."
-msgstr ""
+msgstr "В этом модуле вы узнаете о первичных данных о биоразнообразии и принципах, которыми GBIF руководствуется при работе с данными. Вы узнаете, как GBIF обеспечивает доступ к первичным данным о биоразнообразии, какие типы наборов данных поддерживаются и как GBIF использует таксономическую основу (taxonomic backbone) для предоставления таксономической информации. У вас также будет возможность ознакомиться с различными показателями, доступными для данных на портале."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:6
 #, no-wrap
 msgid "Primary biodiversity data"
-msgstr ""
+msgstr "Первичные данные о биоразнообразии"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:11
 msgid "In this video (12:03), Cecilie Svenningsen, GBIF Data Product Manager, shares how data is shared with GBIF and how that data might be used, along with describing biodiversity standards and GBIF dataset types."
-msgstr ""
+msgstr "В этом видео (12:03) Сесили Свеннингсен (Cecilie Svenningsen), менеджер GBIF по информационным продуктам, рассказывает о том, как данные предоставляются GBIF и как они могут использоваться, а также о стандартах данных о биоразнообразии и типах наборов данных GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:13
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[download] it locally (MP4 - 73.1 MB)."
-msgstr ""
+msgstr "Если у вас не получается посмотреть встроенное видео с Vimeo, вы можете xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[скачать] его на свой компьютер (MP4 — 73,1 МБ)."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:30
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide1.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide1.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:33
 #, no-wrap
 msgid "*Slide 1 - How is data shared on GBIF.org?*\n"
-msgstr ""
+msgstr "*Слайд 1 — Как данные предоставляются через GBIF.org?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:35
 msgid "One thing to be mindful of is that data publishers on GBIF own and maintain their data, and then they share that with GBIF."
-msgstr ""
+msgstr "Важно помнить, что издатели данных в GBIF являются владельцами своих данных и обеспечивают их поддержку, а затем предоставляют эти данные GBIF."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:36
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide2.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:39
 #, no-wrap
 msgid "*Slide 2 - Data publishing*\n"
-msgstr ""
+msgstr "*Слайд 2 — Публикация данных*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:41
 msgid "So the way it works is that we have a data set that is owned by an organization. That organization needs to be endorsed by a GBIF node, that could be a country node or any sort of participant node, to be able to share data with GBIF."
-msgstr ""
+msgstr "Итак, процесс выглядит следующим образом: имеется набор данных, принадлежащий определённой организации. Чтобы организация могла предоставлять данные GBIF, она должна получить одобрение от узла GBIF — это может быть национальный узел или другой узел участника GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:43
 msgid "That data then needs to be hosted somewhere in an installation, for example, the integrated publishing toolkit provided by GBIF."
-msgstr ""
+msgstr "Затем эти данные должны быть размещены на соответствующей платформе, например в Integrated Publishing Toolkit (IPT), предоставляемом GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:45
 msgid "So the data sets are hosted there, and then they can be published to GBIF and shared with you."
-msgstr ""
+msgstr "Таким образом, наборы данных размещаются на этой платформе, после чего они могут быть опубликованы в GBIF и стать доступными пользователям."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:46
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide3.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide3.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:49
 #, no-wrap
 msgid "*Slide 3 - Data shared on GBIF is heterogeneous*\n"
-msgstr ""
+msgstr "*Слайд 3 — Данные, предоставляемые через GBIF, неоднородны*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:51
 msgid "Another thing to be mindful of is that data on GBIF is quite heterogeneous. These organizations that share data with GBIF come from quite various sources, and it's a community-endorsed process, as I had mentioned, where we have the nodes endorsing the publishing organizations, and that they can be anything from universities, museums, governmental agencies, et cetera."
-msgstr ""
+msgstr "Также важно учитывать, что данные в GBIF весьма неоднородны. Организации, предоставляющие данные GBIF, могут быть самыми разными. Как я уже упоминала, этот процесс основан на одобрении со стороны сообщества: узлы GBIF одобряют организации-издателей, которыми могут быть университеты, музеи, государственные учреждения и другие организации."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:53
 msgid "So what they share can come from research projects or monitoring efforts, citizen science data or collections."
-msgstr ""
+msgstr "Таким образом, предоставляемые ими данные могут быть получены в рамках исследовательских проектов или программ мониторинга, проектов гражданской науки или из коллекций."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:55
 msgid "That is also something to be mindful of, that data is not live on GBIF."
-msgstr ""
+msgstr "Также важно помнить, что данные в GBIF не обязательно отражают ситуацию в режиме реального времени."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:57
 msgid "You can have data that is a part of a mobilized effort of a collection, museum collection that might be digitizing their data from 50 years ago, 70 years ago, and the next day, it's available on GBIF."
-msgstr ""
+msgstr "Например, в рамках мобилизации данных музейной коллекции могут быть оцифрованы сведения, собранные 50 или 70 лет назад, а уже на следующий день эти данные могут стать доступными через GBIF."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:58
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide4.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide4.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:61
 #, no-wrap
 msgid "*Slide 4 - Accessing and downloading data*\n"
-msgstr ""
+msgstr "*Слайд 4 — Доступ к данным и их загрузка*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:63
 msgid "So just to show you how such an aggregated search can look for you as a user, if you go and you want to look at a species, in this case, I'm showing you the orange tip butterfly. So if you, as most of our users, go into our portal and search for the species, the first thing you would encounter is the species page."
-msgstr ""
+msgstr "Чтобы показать, как такой агрегированный поиск выглядит для пользователя, предположим, что вы хотите найти информацию об определённом виде. В данном случае я показываю вам бабочку зорьку (orange tip butterfly). Как и большинство наших пользователей, вы заходите на портал и выполняете поиск по виду. Первое, что вы увидите, — это страница вида."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:65
 msgid "That will show you an overall description of the species and the GBIF occurrence distribution. But you would usually go to the occurrence record page, where you would apply further filters."
-msgstr ""
+msgstr "На этой странице представлена общая информация о виде и распределение его находок по данным GBIF. Однако обычно для дальнейшей работы вы переходите на страницу записей о находках организмов, где можете применить дополнительные фильтры."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:67
 msgid "In this case, I'm saying I only want records that are from 2020 to 2022, I think. And I also say that it has to be in the continent of Europe."
-msgstr ""
+msgstr "В данном случае я указываю, что мне нужны только записи за период с 2020 по 2022 год, а также ограничиваю поиск территорией Европы."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:69
 msgid "So I've narrowed down my search and I click download, where I have to choose different options. In this case, I'm choosing the simple option."
-msgstr ""
+msgstr "Таким образом, я сузила результаты поиска и нажимаю кнопку загрузки, после чего мне необходимо выбрать один из доступных вариантов. В данном случае я выбираю простой формат (simple)."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:71
 msgid "But you can also see other information, such as known issues for the data, which might be something you should look into if you want to apply further filters for your download, if you don't want that data included."
-msgstr ""
+msgstr "Здесь также доступна дополнительная информация, например об известных проблемах в данных. На неё стоит обратить внимание, если вы хотите применить дополнительные фильтры и исключить такие данные из загрузки."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:73
 msgid "So in your GBIF user profile, you can see all the downloads you ever created."
-msgstr ""
+msgstr "В своём профиле пользователя GBIF вы можете просмотреть все загрузки данных, которые вы когда-либо создавали."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:75
 msgid "In this case, I'm showing you the one I just created, the filters. But you will also see that 927 data sets contributed to this aggregated search."
-msgstr ""
+msgstr "В данном случае я показываю только что созданную загрузку и использованные для неё фильтры. При этом вы также можете увидеть, что в результаты этого агрегированного поиска вошли данные из 927 наборов данных."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:77
 msgid "So quite a varied source contributed with data. This matters because that has an impact of what will actually be in the data you download."
-msgstr ""
+msgstr "Таким образом, данные поступают из множества различных источников. Это важно учитывать, поскольку происхождение данных влияет на то, какие именно данные в конечном итоге окажутся в загруженном вами наборе."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:78
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide5.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide5.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:81
 #, no-wrap
 msgid "*Slide 5 - Reviewing a download*\n"
-msgstr ""
+msgstr "*Слайд 5 — Просмотр загруженных данных*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:83
 msgid "So this is an example of that simple download I just created, where in the simple download, you have less fields available, less columns. But if you did the full Darwin Core archive download, you would have many fields to search from. But you will notice that there's some of these fields that appear to be empty, where we don't have any values. But as you can see, as I'm showing you now, you do actually do have some locality information shared by some publishers."
-msgstr ""
+msgstr "Это пример только что созданной мной загрузки в простом формате (simple). В таком формате доступно меньше полей, то есть меньше столбцов. Если же загрузить полный архив Darwin Core, будет доступно значительно больше полей. При этом вы заметите, что некоторые из них могут быть пустыми и не содержать никаких значений. Однако, как я сейчас показываю, некоторые издатели всё же предоставляют информацию о местонахождениях."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:85
 msgid "So that means that some publishers might be sharing data while others don't. And that can matter for your analysis."
-msgstr ""
+msgstr "Это означает, что одни издатели могут предоставлять определённую информацию, тогда как другие её не предоставляют. Это может иметь значение для вашего анализа."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:87
 msgid "So for example, individual count, which can give you an idea about the abundance of the species, might not necessarily be filled out by some publishers, but is filled out by others."
-msgstr ""
+msgstr "Например, поле individualCount, которое может дать представление о численности вида, у одних издателей может быть заполнено, а у других — нет."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:89
 msgid "And as I mentioned, if you have the full Darwin Core archive download, where you have many more columns, you will see a much more patchy data set, which matters for how you post-process your data."
-msgstr ""
+msgstr "И, как я уже упоминала, если вы загрузите полный архив Darwin Core, содержащий значительно больше столбцов, вы увидите, что заполненность данных будет гораздо более неравномерной. Это необходимо учитывать при последующей обработке данных."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:90
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide6.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide6.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:93
 #, no-wrap
 msgid "*Slide 6 - To which extent is there content in the fields you download?*\n"
-msgstr ""
+msgstr "*Слайд 6 — Насколько полно заполнены поля в загружаемых данных?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:95
 msgid "If we go to a little more into detail of which content you can expect from the data you download on GBIF, I just give you some general ideas of some of the fields that you could download."
-msgstr ""
+msgstr "Если немного подробнее рассмотреть, какое содержимое можно ожидать в данных, загружаемых из GBIF, я приведу несколько общих примеров заполненности отдельных полей."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:97
 msgid "The GBIF ID, which we apply to the record that is shared with GBIF, is always 100%. You always get all the GBIF IDs for your data. But if you are looking for habitat information, if you look across all occurrence records on GBIF, only around 7% have data in that field."
-msgstr ""
+msgstr "GBIF ID, который GBIF присваивает каждой предоставленной записи, присутствует в 100 % случаев. Таким образом, все записи в загруженных данных имеют GBIF ID. Однако если вас интересует информация о местообитании, то среди всех записей о находках организмов в GBIF поле habitat заполнено лишь примерно в 7 % случаев."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:99
 msgid "Individual counts have quite high numbers, as well as state and province, but be mindful that this is because of birds. The biggest group of data we have on GBIF is coming from birds, so they really up how much data we actually have available. So it can be quite group specific."
-msgstr ""
+msgstr "Поля individualCount, а также stateProvince заполнены в достаточно большом числе записей, однако следует учитывать, что в значительной степени это связано с данными о птицах. Птицы составляют крупнейшую группу данных в GBIF и существенно повышают общие показатели заполненности этих полей. Поэтому степень заполненности может сильно различаться между таксономическими группами."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:101
 msgid "So if you're looking for insects, you might find that the percentage of values that are actually covered is quite low."
-msgstr ""
+msgstr "Поэтому, при работе с данными о насекомых вы можете обнаружить, что доля записей, в которых соответствующие поля заполнены, значительно ниже."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:103
 msgid "With scientific name, it's pretty good."
-msgstr ""
+msgstr "Поле scientificName заполнено достаточно хорошо."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:105
 msgid "For the depth, if you're looking into marine occurrences, very few publishers actually share that data."
-msgstr ""
+msgstr "Что касается глубины (depth), то даже для морских находок лишь немногие издатели предоставляют такую информацию."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:107
 msgid "The same for elevation, and life stage is only 9%."
-msgstr ""
+msgstr "Аналогичная ситуация наблюдается с высотой над уровнем моря (elevation), а поле lifeStage заполнено только примерно в 9 % записей."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:109
 msgid "Most of our publishers do provide some sort of temporal data, but that could be just in the form of year."
-msgstr ""
+msgstr "Большинство издателей предоставляют те или иные временные данные, однако иногда они могут быть представлены только годом."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:111
 msgid "So just be mindful of that when you use your data."
-msgstr ""
+msgstr "Поэтому при использовании данных важно учитывать степень заполненности различных полей."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:112
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide7.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide7.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:115
 #, no-wrap
 msgid "*Slide 7 - Data standards*\n"
-msgstr ""
+msgstr "*Слайд 7 — Стандарты данных*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:117
 msgid "So I'm going to talk a bit about the data standards that are behind what you see on GBIF. As you noticed, the columns have quite specific names. These names and fields are defined by data standards, which are maintained by a global biodiversity community."
-msgstr ""
+msgstr "Теперь я немного расскажу о стандартах данных, которые лежат в основе того, что вы видите в GBIF. Как вы могли заметить, столбцы имеют вполне определённые названия. Названия и соответствующие им поля определяются стандартами данных, которые поддерживаются международным сообществом специалистов по биоразнообразию."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:118
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide8.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide8.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:121
 #, no-wrap
 msgid "*Slide 8 - Darwin Core Archive (DwC-A)*\n"
-msgstr ""
+msgstr "*Слайд 8 — Архив Darwin Core (DwC-A)*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:123
 msgid "So most of the data shared with GBIF is usually within a Darwin Core archive, as I also mentioned earlier. And the publishers sharing data with GBIF have to map their data to this Darwin Core standard."
-msgstr ""
+msgstr "Как я уже упоминала, большая часть данных, предоставляемых GBIF, обычно передаётся в формате архива Darwin Core (Darwin Core Archive, DwC-A). Издатели, предоставляющие данные GBIF, должны сопоставить свои данные с терминами стандарта Darwin Core."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:125
 msgid "It's maintained by the Biodiversity Information Standards, also called TDWG."
-msgstr ""
+msgstr "Этот стандарт поддерживается организацией Biodiversity Information Standards, также известной как TDWG."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:127
 msgid "And those data standards define the field name, as I mentioned, and they also sometimes define the value content that could be like a controlled vocabulary or some sort of normalized value that people should use when they share their data."
-msgstr ""
+msgstr "Как я уже упоминала, эти стандарты данных определяют названия полей, а в некоторых случаях также допустимые значения в них. Например, для этого может использоваться контролируемый словарь или определённые стандартизированные значения, которые следует использовать при предоставлении данных."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:129
 msgid "So let's say you're a publisher, you're completely new to data standards and publishing on GBIF. You might have a spreadsheet saying that you have a name, you have a count of how many of that species you saw, and some general notes about what you found."
-msgstr ""
+msgstr "Предположим, что вы издатель данных и впервые сталкиваетесь со стандартами данных и публикацией в GBIF. У вас может быть электронная таблица, содержащая название вида, количество наблюдавшихся особей этого вида и некоторые общие примечания о находке."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:131
 msgid "Those fields have to be called scientific name for the name, for example, individual count for the counts, and for the notes, you might want to put those in occurrence remarks or event remarks."
-msgstr ""
+msgstr "Для этой информации необходимо использовать соответствующие поля Darwin Core: например, scientificName — для научного названия, individualCount — для количества особей, а примечания можно поместить в occurrenceRemarks или eventRemarks."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:133
 msgid "The point is that you have specific fields to capture specific information."
-msgstr ""
+msgstr "Основной принцип заключается в том, что для различных типов информации предусмотрены определённые поля."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:134
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide9.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide9.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:137
 #, no-wrap
 msgid "*Slide 9 - Available fields*\n"
-msgstr ""
+msgstr "*Слайд 9 — Доступные поля*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:139
 msgid "Now, the fields available for sharing on GBIF, it's dependent on the dataset class."
-msgstr ""
+msgstr "Набор полей, доступных при предоставлении данных через GBIF, зависит от типа набора данных."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:141
 msgid "As I mentioned, you have occurrence records. Those occurrence records is one type of dataset class on GBIF."
-msgstr ""
+msgstr "Как я уже упоминала, существуют записи о находках организмов (occurrence records). Это один из типов данных, поддерживаемых GBIF."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:143
 msgid "So the most simple one is the metadata-only dataset, which doesn't really have any data. It's just a description of the dataset. So that could be a description of a collection or description of a field study, but where you haven't been able to digitize the data just yet."
-msgstr ""
+msgstr "Самый простой тип — набор данных, содержащий только метаданные (metadata-only dataset). Он фактически не содержит самих первичных данных, а представляет собой их описание. Например, это может быть описание коллекции или полевого исследования, данные которых пока ещё не были оцифрованы."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:145
 msgid "Then we also have checklist datasets, which is a list of taxon names. There could be more information included, but generally, it's sharing scientific names of a given area or within a different specific scope."
-msgstr ""
+msgstr "Также существуют наборы данных типа «таксономический список» (checklist dataset), представляющие собой список названий таксонов. Они могут содержать и дополнительную информацию, но в основном предназначены для предоставления научных названий таксонов для определённой территории или в рамках другой заданной области охвата."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:147
 msgid "And then you have occurrences, which I mentioned before, which is the evidence of a species present or a taxon present at a given date and place."
-msgstr ""
+msgstr "Далее следуют данные о находках организмов (occurrences), о которых я уже говорила. Они представляют собой свидетельства присутствия вида или другого таксона в определённом месте в определённое время."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:149
 msgid "Now, the last type of dataset class we have is the sampling events, which has a little more information because usually people have to share sampling effort and protocol, and it can allow users to assess community composition and abundance of species."
-msgstr ""
+msgstr "И последний тип — наборы данных о событиях отбора проб (sampling-event datasets), которые содержат несколько более подробную информацию, поскольку обычно включают сведения об усилиях по отбору проб (sampling effort) и использованном протоколе. Это позволяет пользователям оценивать состав сообществ и численность видов."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:150
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide10.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide10.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:153
 #, no-wrap
 msgid "*Slide 10 - Dataset cores*\n"
-msgstr ""
+msgstr "*Слайд 10 — Основные таблицы наборов данных*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:155
 msgid "Now, those dataset classes are core tables. So if you have a dataset table that is either a taxon, occurrence, or event table those tables have a specific set of fields you can share. But you might want to share even more information."
-msgstr ""
+msgstr "Этим типам наборов данных соответствуют основные таблицы (core tables). Таким образом, если основной таблицей вашего набора данных является таблица таксонов (taxon), находок организмов (occurrence) или событий отбора проб (event), для каждой из них предусмотрён определённый набор полей, которые можно предоставлять. Однако вам может потребоваться предоставить и дополнительную информацию."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:157
 msgid "For example, if you have an event dataset, you might want to share individual occurrences."
-msgstr ""
+msgstr "Например, если у вас есть набор данных о событиях отбора проб, вы можете также захотеть предоставить отдельные записи о находках организмов."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:159
 msgid "You did a BioBlitz from start of Saturday to the end of Saturday, but at that range, you found that butterfly or that beetle at a specific time during that."
-msgstr ""
+msgstr "Предположим, вы проводили BioBlitz с начала и до конца субботы, но в течение этого периода обнаружили определённую бабочку или жука в конкретное время."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:161
 msgid "That's an occurrence within the event of the BioBlitz."
-msgstr ""
+msgstr "Это будет отдельная находка организма (occurrence) в рамках события BioBlitz»."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:163
 msgid "Or you might have media associated. You took pictures of the different insects you found during that time, or you might even have taken samples for DNA, and then you have identifications based on DNA."
-msgstr ""
+msgstr "С данными также могут быть связаны мультимедийные материалы. Например, вы могли фотографировать различных насекомых, обнаруженных во время исследования, или отбирать образцы для анализа ДНК, на основании которого впоследствии проводилось определение таксонов."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:165
 msgid "And you might have a taxon core or a checklist, as I mentioned, where you have the distribution of the species covered."
-msgstr ""
+msgstr "Или, как я уже упоминала, у вас может быть основная таблица таксонов (taxon core), то есть таксономический список, для видов которого также имеются сведения об их распространении."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:166
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide11.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide11.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:169
 #, no-wrap
 msgid "*Slide 11 - Missing fields?*\n"
-msgstr ""
+msgstr "*Слайд 11 — Не хватает полей?*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:171
 msgid "Now, we have a lot of fields available on GBIF in which you can filter down and narrow your search for. But in some cases, you might not find the fields that you need for your analysis."
-msgstr ""
+msgstr "В GBIF доступно множество полей, которые можно использовать для фильтрации и уточнения результатов поиска. Однако в некоторых случаях среди них может не оказаться поля, необходимого для вашего анализа."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:173
 msgid "If you would ever need such a field, the correct way of getting, well, at least starting the discussion of getting that field into GBIF would to be to go through TDWG and the Darwin Core standard."
-msgstr ""
+msgstr "Если вам потребуется такое поле, правильным способом начать обсуждение возможности его добавления в данные GBIF будет обращение к сообществу TDWG и работа в рамках стандарта Darwin Core."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:175
 msgid "You can propose new terms and changes to Darwin Core, but you have to be mindful that changing data standards is a community-driven process which requires a lot of engagement and patience because you need to discuss it with your peers, and you need to find a common ground for adding those data. So you have to consider whether the term already exists but would require an update, where the new term would best be placed. Is it taxon specific? Is it occurrence specific or event specific? Is it something to do with locations?"
-msgstr ""
+msgstr "Вы можете предлагать новые термины и изменения в Darwin Core, однако следует учитывать, что изменение стандартов данных — это процесс, осуществляемый сообществом и требующий активного участия и терпения. Предложение необходимо обсудить с коллегами и прийти к общему пониманию того, как соответствующие данные должны быть представлены. Необходимо выяснить, существует ли уже такой термин и требуется ли только его обновление, а также определить, к какой категории лучше отнести новый термин. Относится ли он к таксону, находке организма или событию отбора проб? Или, например, к информации о местонахождении?"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:177
 msgid "And you also have to think about whether the term is better suited in an extension or in one of the core tables."
-msgstr ""
+msgstr "Также необходимо определить, где этот термин целесообразнее использовать — в расширении (extension) или в одной из основных таблиц (core tables)."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:179
 msgid "So many people are maybe not that aware of extensions to these core tables, but there's a lot of extensions out there to serve the community who wants to share data or use data."
-msgstr ""
+msgstr "Многие пользователи, возможно, недостаточно знакомы с расширениями для основных таблиц, однако существует множество расширений, разработанных для потребностей сообщества, предоставляющего и использующего данные."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:181
 msgid "So please familiarize yourself with them before you propose or change terms."
-msgstr ""
+msgstr "Поэтому, прежде чем предлагать новые термины или изменения существующих, пожалуйста, ознакомьтесь с уже имеющимися расширениями."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:182
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide12.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide12.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:185
 #, no-wrap
 msgid "*Slide 12 - Dataset metadata*\n"
-msgstr ""
+msgstr "*Слайд 12 — Метаданные набора данных*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:187
 msgid "One last thing I have to mention about the data standards is that you also have a data standard called EML or Ecological Metadata Language publishers use to share information about the dataset resource in which they have all their data. So that is, for example, who was the people who was involved in maintaining, gathering the data, the overall spatial and temporal scope of the dataset, the taxonomic scope of the dataset, and any funding and project-specific information, as well as methods and design."
-msgstr ""
+msgstr "И последнее, что необходимо упомянуть о стандартах данных: существует также стандарт EML (Ecological Metadata Language — язык экологических метаданных), который издатели используют для предоставления информации о наборе данных как информационном ресурсе. Например, в нём указываются сведения о специалистах, участвовавших в сборе и поддержке данных, общий пространственный и временной охват набора данных, его таксономический охват, информация о финансировании и соответствующем проекте, а также использованных методах и дизайне исследования."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:189
 msgid "So that's another standard which is not part of the TDWG standard you might want to look into as well."
-msgstr ""
+msgstr "Таким образом, это ещё один стандарт, который не относится к стандартам TDWG и с которым также может быть полезно ознакомиться."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:193
 #, no-wrap
 msgid "GBIF dataset classes"
-msgstr ""
+msgstr "Типы наборов данных"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:196
 msgid "More information on https://www.gbif.org/dataset-classes[dataset classes^] can be found on the GBIF website."
-msgstr ""
+msgstr "Дополнительную информацию о типах наборов данных (dataset classes) «https://www.gbif.org/dataset-classes»^ можно найти на сайте GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:198
 msgid "You might also want to explore https://data-blog.gbif.org/post/choose-dataset-type/[how to choose a dataset type^]."
-msgstr ""
+msgstr "Также вам может быть полезна информация о том «https://data-blog.gbif.org/post/choose-dataset-type/» [Как выбрать тип набора данных^]."
 
 #. type: Title ===
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:199
 #, no-wrap
 msgid "Taxonomy interpretation"
-msgstr ""
+msgstr "Таксономическая интерпретация"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:202
 msgid "To facilitate searching and metric generation, all occurrence records are matched to two taxonomies:"
-msgstr ""
+msgstr "Для упрощения поиска и расчёта различных показателей все записи о находках организмов сопоставляются с двумя таксономическими системами:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:204
 msgid "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[Catalogue of Life eXtended Release^] (COL XR) - This is the primary taxonomy used by GBIF."
-msgstr ""
+msgstr "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b [Catalogue of Life eXtended Release^] (COL XR) — основная таксономическая система, используемая GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:206
 msgid "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF backbone^] - This is a taxonomy that, up until recently, GBIF has been building and integrating periodically. It is primarily based on an older version of Catalogue of Life with additional taxa added in an automated way from other taxonomic datasets. The build process has now been discontinued in favour of the eXtended release of the Catalogue of Life. The GBIF Backbone will no longer be updated, but will remain available for backwards compatibility. All GBIF Backbone identifiers will be preserved and supported in the API."
-msgstr ""
+msgstr "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c [базовая база данных GBIF^] — таксономическая система, которую до недавнего времени GBIF периодически формировал и обновлял. Она основана главным образом на более ранней версии Catalogue of Life с автоматическим добавлением таксонов из других таксономических наборов данных. В настоящее время её формирование прекращено в пользу расширенной версии Catalogue of Life (Catalogue of Life eXtended Release). GBIF Backbone больше не будет обновляться, однако останется доступным для обеспечения обратной совместимости. Все идентификаторы GBIF Backbone будут сохранены и продолжат поддерживаться через API."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:208
 msgid "https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#api-support[API support for taxonomy interpretation^] along with https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#taxonomic-indexes[Taxonomic indexes^] are documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#api-support [Поддержка таксономической интерпретации через API^] и https://techdocs.gbif.org/en/data-processing/taxonomy-interpretation#taxonomic-indexes [Таксономические индексы^] описаны в технической документации GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:210
 #, no-wrap
 msgid "*Why does GBIF need taxonomy interpretation?* \n"
-msgstr ""
+msgstr "*Зачем GBIF нужна таксономическая интерпретация?* \n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:212
 msgid "Without it, we wouldn’t be able to do any taxonomic search and it would be difficult to generate consistent statistics and maps."
-msgstr ""
+msgstr "Без неё было бы невозможно выполнять таксономический поиск, а также было бы сложно формировать согласованную статистику и карты."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:216
 msgid "As you can imagine, not everyone uses the same classifications or names.  This results in considerable variations in higher taxa and a large number of synonyms.  This process aims to bring all these names together and organize them."
-msgstr ""
+msgstr "Как вы можете представить, не все используют одни и те же классификации или названия. Это приводит к значительным различиям в трактовке высших таксонов и появлению большого количества синонимов. Процесс таксономической интерпретации направлен на объединение и упорядочивание всех этих названий."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:218
 #, no-wrap
 msgid "*How are the taxonomies generated?*\n"
-msgstr ""
+msgstr "*Как формируются таксономические системы?*\n"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:219
 #, no-wrap
 msgid "intro-to-gbif::ChecklistBank-04-07-2026_01_43_PM.png"
-msgstr ""
+msgstr "intro-to-gbif::ChecklistBank-04-07-2026_01_43_PM.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:222
 msgid "https://www.catalogueoflife.org/[Catalogue of Life^] is a global index of species, which aims to provide a comprehensive and authoritative list of the world’s species. It is compiled from multiple taxonomic datasets and is updated regularly. The https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) builds on the Base Release by programmatically integrating additional data sources. It integrates information from over 58,000 overlapping taxonomic and nomenclatural global, regional, national and management data sources (checklists) as well as originating from digitised literature available in Catalogue of Life’s infrastructure https://www.checklistbank.org/[ChecklistBank^]."
-msgstr ""
+msgstr "«https://www.catalogueoflife.org/» [«Каталог жизни»^] — это глобальный каталог видов, целью которого является создание всеобъемлющего и авторитетного списка видов мира. Он формируется на основе множества таксономических наборов данных и регулярно обновляется. https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) создаётся на основе Base Release путём программной интеграции дополнительных источников данных. Она объединяет информацию из более чем 58 000 частично перекрывающихся глобальных, региональных и национальных источников таксономических и номенклатурных данных, а также специализированных списков, используемых для управления данными. Кроме того, используются сведения из оцифрованной литературы, доступной через инфраструктуру «Каталога жизни» https://www.checklistbank.org/[ChecklistBank^]."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:224
 msgid "Note that many sequence-based occurrences have no Latin names but are named using species hypotheses (UNITE: fungi) or Barcode Index Numbers (iBOL: primarily animals). This is why adding these two major sources of stable OTUs to the latest backbone taxonomy significantly improves GBIF’s indexing functionality for sequence-based biodiversity data."
-msgstr ""
+msgstr "Обратите внимание, что многие находки, основанные на данных секвенирования, не имеют латинских названий и обозначаются с использованием видовых гипотез (species hypotheses; UNITE — для грибов) или номеров Barcode Index Number (BIN; iBOL — преимущественно для животных). Поэтому включение этих двух основных источников стабильных операционных таксономических единиц (OTU) в новейшую базовую таксономическую систему значительно улучшает возможности GBIF по индексации данных о биоразнообразии, основанных на последовательностях ДНК."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:226
 #, no-wrap
 msgid "*How are the taxonimic status' defined?*\n"
-msgstr ""
+msgstr "*Как определяются таксономические статусы?*\n"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:227
 #, no-wrap
 msgid "intro-to-gbif::helianthusL.png"
-msgstr ""
+msgstr "intro-to-gbif::helianthusL.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:230
 #, no-wrap
 msgid "*Accepted*: A taxonomically accepted, current name\n"
-msgstr ""
+msgstr "*Accepted (принятое)*: актуальное название, принятое с точки зрения современной таксономии\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:231
 #, no-wrap
 msgid "*Provisionally accepted*: Treated as accepted, but doubtful whether this is correct.\n"
-msgstr ""
+msgstr "*Provisionally accepted (предварительно принятое)*: название рассматривается как принятое, однако имеются сомнения в правильности такого статуса.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:232
 #, no-wrap
 msgid "*Synonym*: Names which point unambiguously at one species (not specifying whether homo- or heterotypic).Synonyms, in the CoL sense, include also orthographic variants and published misspellings.\n"
-msgstr ""
+msgstr "*Synonym (синоним)*: названия, которые однозначно относятся к одному виду (без уточнения, являются ли они гомотипными или гетеротипными). В понимании Catalogue of Life к синонимам также относятся орфографические варианты и опубликованные ошибочные написания названий.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:233
 #, no-wrap
 msgid "*Ambiguous synonym*: Names which are ambiguous because they point at the current species and one or more others e.g. homonyms, pro-parte synonyms (in other words, names which appear more than in one place in the Catalogue).\n"
-msgstr ""
+msgstr "*Ambiguous synonym (неоднозначный синоним)*: названия, которые являются неоднозначными, поскольку могут относиться как к данному виду, так и к одному или нескольким другим видам, например омонимы или синонимы pro parte (иными словами, названия, встречающиеся более чем в одном месте Catalogue of Life).\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:234
 #, no-wrap
 msgid "*Misapplied*: A misapplied name. Usually accompanied with an accordingTo on the synonym to indicate the source the misapplication can be found in.\n"
-msgstr ""
+msgstr "*Misapplied (неправильно применённое название)*: название, неправильно применённое к данному таксону. Обычно для такого названия в поле accordingTo указывается источник, в котором оно было неправильно применено.\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:235
 #, no-wrap
 msgid "*Bare name*: A name alone without any usage, neither a synonym nor a taxon.\n"
-msgstr ""
+msgstr "*Bare name (название без таксономического применения)*: название, для которого не указано его таксономическое применение: оно не рассматривается ни как синоним, ни как отдельный таксон.\n"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:236
@@ -1245,191 +1245,191 @@ msgstr "GRSciColl"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:239
 msgid "The Global Registry of Scientific Collections, or https://scientific-collections.gbif.org/[GRSciColl^], is a comprehensive and community-curated clearing house of information about scientific collections in the GBIF registry. By providing information about physical scientific collections—their content, location, contacts, associated institutions, and collection codes and identifiers—GRSciColl offers a resource for a wide range of uses by experts, researchers and members of broader society."
-msgstr ""
+msgstr "Глобальный реестр научных коллекций (https://scientific-collections.gbif.org/) [GRSciColl^]  — это комплексный, поддерживаемый сообществом информационный ресурс о научных коллекциях в реестре GBIF. Предоставляя информацию о физических научных коллекциях — их составе, местонахождении, контактных данных, связанных с ними организациях, а также кодах и идентификаторах коллекций, — GRSciColl служит информационным ресурсом для широкого круга задач специалистов, исследователей и других представителей общества."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:243
 msgid "In this video (02:11), Marie Grosjean, GBIF Data Administrator, provides an introduction to GRSciColl."
-msgstr ""
+msgstr "В этом видео (02:11) Мари Грожан (Marie Grosjean), администратор базы данных GBIF, рассказывает о GRSciColl."
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:245
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$getting_started_on_global_registry_of_scientific_collection_website_v1 _1080p.mp4[download] it locally (MP4 - 13.3 MB)."
-msgstr ""
+msgstr "Если у вас не получается посмотреть встроенное видео с Vimeo, вы можете xref:attachment$getting_started_on_global_registry_of_scientific_collection_website_v1 _1080p.mp4[скачать] его на свой компьютер (MP4 — 13,3 МБ)."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:270
 msgid "GBIF assigns DOIs to all datasets and occurrence downloads.  When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility.  The DOIs will always resolve to dataset or download pages, even if the underlying data is no longer available."
-msgstr ""
+msgstr "GBIF присваивает DOI всем наборам данных и загрузкам данных о находках организмов. При использовании данных соблюдение рекомендаций по цитированию DOI https://www.gbif.org/citation-guidelines[практика цитирования^] обеспечивает простой и единообразный способ признания вклада владельцев наборов данных, одновременно позволяя обеспечить воспроизводимость исследований. DOI всегда будут вести на страницу соответствующего набора данных или загрузки, даже если сами исходные данные больше недоступны."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:281
 msgid "Commonly use standards include:"
-msgstr ""
+msgstr "К наиболее часто используемым стандартам относятся:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:298
 msgid "Note that the CC-BY-NC licence has a significant effect on the reusability of data. GBIF encourages data publishers to choose the most open option they can wherever possible. It is important to note that images are not subject to the same licence that is applied to the dataset and may have more restricted terms of use. Lastly, attribution/citation is a community norm, so even if the publishers has waived conditions for use, attribution is expected."
-msgstr ""
+msgstr "Обратите внимание, что лицензия CC BY-NC существенно ограничивает возможности повторного использования данных. GBIF рекомендует издателям данных по возможности выбирать наиболее открытый вариант лицензии. Важно также учитывать, что изображения не обязательно распространяются на условиях той же лицензии, которая применяется к набору данных, и могут иметь более строгие условия использования. Наконец, указание источника и цитирование являются общепринятой нормой сообщества, поэтому даже если издатель отказался от установления условий использования данных, указание источника всё равно ожидается."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:307
 #, no-wrap
 msgid "intro-to-gbif::gofairlogo.svg"
-msgstr ""
+msgstr "intro-to-gbif::gofairlogo.svg"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:309
 #, no-wrap
 msgid "intro-to-gbif::FairPrinciples2.png"
-msgstr ""
+msgstr "intro-to-gbif::FairPrinciples2.png"
 
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:323
 msgid "The https://www.gbif.org/developer/summary[GBIF Portal API^] provides a machine readable interface (REST + JSON) and use the https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT) as trusted data repository."
-msgstr ""
+msgstr "https://www.gbif.org/developer/summary [GBIF Portal API^] предоставляет интерфейс, пригодный для машинного считывания (REST + JSON), и использует https://www.gbif.org/ipt [Integrated Publishing Toolkit^] (IPT) в качестве надежного хранилища данных."
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:361
 #, no-wrap
 msgid "Data metrics"
-msgstr ""
+msgstr "Показатели данных"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:365
 msgid "In this section review the various metrics available for datasets."
-msgstr ""
+msgstr "В этом разделе вы познакомитесь с различными показателями, доступными для наборов данных."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:367
 msgid "One of the many benefits of publishing data via GBIF is that, during the indexing process, GBIF analyses all datasets and produces https://www.gbif.org/analytics/global[metrics^] about them. These metrics are made available in several different ways:"
-msgstr ""
+msgstr "Одно из многочисленных преимуществ публикации данных через GBIF заключается в том, что в ходе индексирования GBIF анализирует все наборы данных и формирует по ним https://www.gbif.org/analytics/global[показатели^]. Эти показатели предоставляются несколькими различными способами:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:369
 msgid "global trends"
-msgstr ""
+msgstr "Глобальные тренды"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:370
 msgid "country pages"
-msgstr ""
+msgstr "страницы стран"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:371
 msgid "dataset content statistics"
-msgstr ""
+msgstr "статистика содержимого набора данных"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:372
 msgid "dataset download activity"
-msgstr ""
+msgstr "активность по загрузке наборов данных"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:374
 msgid "Participants and publishers can use this information to improve the quality of their datasets, e.g. by addressing issues detected during the indexing process. They can also use the access statistics as evidence of real user interest in their datasets and potential use of the published data."
-msgstr ""
+msgstr "Участники и издатели данных могут использовать эту информацию для повышения качества своих наборов данных, например устраняя проблемы, выявленные в процессе индексации. Они также могут использовать статистику доступа как свидетельство реального интереса пользователей к их наборам данных и потенциального использования опубликованных данных."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:376
 #, no-wrap
 msgid "*Global data trends*\n"
-msgstr ""
+msgstr "*Глобальные тенденции в области данных*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:378
 msgid "GBIF.org regularly updates analytics to provide an overview of global trends in the data from 2008 to the present. The charts illustrate trends in:"
-msgstr ""
+msgstr "GBIF.org регулярно обновляет аналитические показатели, позволяющие получить общее представление о глобальных тенденциях в данных с 2008 года по настоящее время. Графики отражают тенденции по следующим показателям:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:380
 msgid "occurrence records"
-msgstr ""
+msgstr "записи о находках организмов"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:381
 msgid "species counts"
-msgstr ""
+msgstr "количество видов"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:382
 msgid "time and seasonality"
-msgstr ""
+msgstr "время и сезонность"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:383
 msgid "completeness and precision"
-msgstr ""
+msgstr "полнота и точность данных"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:384
 msgid "geographic coverage for recorded species"
-msgstr ""
+msgstr "географический ареал распространения зарегистрированных видов"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:385
 msgid "data sharing with country of origin"
-msgstr ""
+msgstr "предоставление данных странам их происхождения"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:386
 #, no-wrap
 msgid "intro-to-gbif::10_trends.png"
-msgstr ""
+msgstr "intro-to-gbif::10_trends.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:389
 #, no-wrap
 msgid "*Dataset content statistics*\n"
-msgstr ""
+msgstr "*Статистика содержимого набора данных*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:391
 msgid "Each dataset page includes a tab labelled ‘Metrics’. This tab gives access to graphs and tables resulting from the analysis of the contents of the dataset. This includes a summaries of:"
-msgstr ""
+msgstr "На странице каждого набора данных имеется вкладка «Metrics» («Показатели»). На этой вкладке доступны графики и таблицы, сформированные на основе анализа содержимого набора данных. В частности, здесь представлена сводная информация о:"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:393
 msgid "Taxonomic distribution (both list and chart)"
-msgstr ""
+msgstr "Таксономическое распределение (в виде списка и диаграммы)"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:394
 msgid "Occurrences per issue"
-msgstr ""
+msgstr "количестве находок в каждом выпуске"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:395
 msgid "Occurrences per year"
-msgstr ""
+msgstr "количестве находок по годам"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:397
 msgid "The charts/tables are interactive and you can click to filter and explore further. Additionally, the images can be downloaded for reporting purposes."
-msgstr ""
+msgstr "Графики и таблицы являются интерактивными: вы можете нажимать на их элементы, чтобы фильтровать данные и изучать их подробнее. Кроме того, изображения графиков можно загружать для использования в отчётах."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:398
 #, no-wrap
 msgid "intro-to-gbif::MetricsImage6.png"
-msgstr ""
+msgstr "intro-to-gbif::MetricsImage6.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:401
 #, no-wrap
 msgid "*Data access logs*\n"
-msgstr ""
+msgstr "*Журналы доступа к данным*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:403
 msgid "There is a third tab in occurrence dataset pages labelled ‘Activity’. In this tab you can see a list of all download requests that included records from that dataset, including their download DOI for easy tracking."
-msgstr ""
+msgstr "На страницах наборов данных о находках организмов имеется также вкладка «Activity» («Активность»). На этой вкладке можно просмотреть список всех загрузок, в которые вошли записи из данного набора данных, включая DOI каждой загрузки, что упрощает отслеживание использования данных."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:404
 #, no-wrap
 msgid "intro-to-gbif::ActivityImage7.png"
-msgstr ""
+msgstr "intro-to-gbif::ActivityImage7.png"
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -1438,7 +1438,7 @@ msgstr ""
 #. type: delimited block *
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:422
 msgid "What dataset class makes up the core of data published within GBIF?"
-msgstr ""
+msgstr "Какой тип наборов данных составляет основную часть данных, публикуемых в GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:429
@@ -1447,13 +1447,16 @@ msgid "- [ ] Metadata-only\n"
 "- [ ] Checklist\n"
 "- [x] Occurrence\n"
 "- [ ] Sampling-event\n"
-msgstr ""
+msgstr "- [ ] Наборы данных, содержащие только метаданные\n"
+"- [ ] Таксономические списки\n"
+"- [x] Наборы данных о находках организмов\n"
+"- [ ] Наборы данных о событиях отбора проб\n"
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:432
 msgid "What is the taxonomic backbone?"
-msgstr ""
+msgstr "Что такое таксономическая основа (taxonomic backbone)?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:439
@@ -1462,13 +1465,16 @@ msgid "- [ ] A dataset\n"
 "- [ ] A management classification with the goal of covering all names in GBIF\n"
 "- [ ] Allows for taxonomic search on GBIF\n"
 "- [x] All of the above\n"
-msgstr ""
+msgstr "- [ ] Набор данных\n"
+"- [ ] Рабочая классификация, предназначенная для охвата всех названий, представленных в GBIF\n"
+"- [ ] Обеспечивает возможность таксономического поиска в GBIF\n"
+"- [x] Все вышеперечисленное\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:442
 msgid "Which licenses or waivers can be applied to datasets published in GBIF?"
-msgstr ""
+msgstr "Какие лицензии или отказы от прав могут применяться к наборам данных, публикуемым в GBIF?"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:453
@@ -1481,17 +1487,24 @@ msgid "- [x] CC BY\n"
 "- [ ] CC BY-NC-ND\n"
 "- [ ] CC BY-NC-SA\n"
 "- [x] CC0\n"
-msgstr ""
+msgstr "- [x] CC BY\n"
+"- [ ] CC BY-SA\n"
+"- [x] CC BY-NC\n"
+"- [ ] CC BY-NC-SA\n"
+"- [ ] CC BY-ND\n"
+"- [ ] CC BY-NC-ND\n"
+"- [ ] CC BY-NC-SA\n"
+"- [x] CC0\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:456
 msgid "Images are subject to the same licenses as datasets?"
-msgstr ""
+msgstr "Распространяются ли на изображения те же лицензии, что и на наборы данных?"
 
 #.  Question 5
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:464
 msgid "GBIF data are FAIR?"
-msgstr ""
+msgstr "Являются ли данные GBIF FAIR?"
 
