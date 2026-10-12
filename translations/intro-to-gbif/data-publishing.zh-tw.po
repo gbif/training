@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-12 11:43\n"
+"PO-Revision-Date: 2026-10-12 13:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -415,96 +415,96 @@ msgstr "intro-to-gbif::Register3.png"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:118
 msgid "Before GBIF indexes datasets, an institution must receive endorsement as a data publisher from one of the Participant nodes that coordinate activities of the national and organizational Participants in the GBIF network.  If the country is not yet participating in GBIF, endorsement is sought on the publisher's behalf from within the GBIF community."
-msgstr ""
+msgstr "GBIF在為資料集建立索引前，該機構必須先取得認證才能成為資料發布者，這項認證須由負責協調GBIF網絡中各國家及組織參與方活動的參與方節點授予。若該國尚未加入GBIF，就會由GBIF社群代為尋求認證。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:123
 msgid "Data hosting arrangements are stable and persistent"
-msgstr ""
+msgstr "資料託管方式穩定且持久"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:125
 msgid "Data are as open as possible, and available for sharing and reuse"
-msgstr ""
+msgstr "資料盡可能保持開放，並可供分享與再利用"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:128
 msgid "At present, GBIF and its Participants only publish data from organizations—that is, institutions, networks and societies—rather than individuals. Individuals wishing to publish data should work through their affiliated organizations to seek endorsement as a publisher."
-msgstr ""
+msgstr "目前GBIF與其參與方只發布來自組織（如機構、網絡與學會）的資料，不接受個人資料。若個人想發布資料，應透過所屬組織申請成為發布者並取得認證。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:129
 #, no-wrap
 msgid "intro-to-gbif::register4.png"
-msgstr ""
+msgstr "intro-to-gbif::register4.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:132
 msgid "The answers provided will also help users to understand more about the provenance of data shared through the GBIF network."
-msgstr ""
+msgstr "這些回答也能幫助使用者更了解透過GBIF網絡分享之資料的來源。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:133
 #, no-wrap
 msgid "intro-to-gbif::register5.png"
-msgstr ""
+msgstr "intro-to-gbif::register5.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:136
 msgid "Be sure to search existing publishers before registering a new one to make sure the publisher is not already registered."
-msgstr ""
+msgstr "註冊新發布者之前，記得先搜尋現有發布者名單，確認對方尚未註冊過。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:137
 #, no-wrap
 msgid "GBIF data quality requirements"
-msgstr ""
+msgstr "GBIF資料品質要求"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:141
 msgid "In this section, you will review GBIF's data quality requirements."
-msgstr ""
+msgstr "本節將介紹GBIF的資料品質要求。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:143
 msgid "Publishers play an essential role not simply in sharing datasets, but also in managing their quality, completeness and usefulness and ensuring their integration and value within GBIF’s global knowledge base."
-msgstr ""
+msgstr "發布者扮演著不可或缺的角色，不只是分享資料集而已，還要負責管理資料的品質、完整性與實用性，確保這些資料能整合進GBIF的全球知識庫並發揮價值。"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:145
 #, no-wrap
 msgid "Click on the _How-to menu_ on the GBIF website to navigate to the _Data quality_ page"
-msgstr ""
+msgstr "點選GBIF網站上的 _使用說明選單_，前往 _資料品質_ 頁面"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:150
 msgid "To share data through GBIF.org, publishers typically have to collate or transform existing datasets into a standardized format.  This work may include additional processing, content editing and mapping a dataset’s content into one of the available data transfer formats, as well as publication through one of the available data publishing tools, such as GBIF’s free, open-source https://www.gbif.org/ipt[Integrated Publishing Toolkit^] (IPT)."
-msgstr ""
+msgstr "若要透過GBIF.org分享資料，發布者通常需要把既有的資料集彙整或轉換成標準化格式，這可能包括額外的處理、內容編輯，以及將資料內容對應到可用的資料傳輸格式之一，最後再透過資料發布工具（例如GBIF免費開源的https://www.gbif.org/ipt[資料整合發布工具^]，即IPT）進行發布。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:154
 msgid "Once published, GBIF’s real-time infrastructure ‘indexes’ or ‘harvests’ new datasets, integrating them into a common access system where users can retrieve any and all data through common search and download services.  As datasets are indexed, GBIF.org performs additional checks, interpretation and conversion routines to ensure that data are interoperable and comply with minimum standards of data formats, data quality and fitness for use.  Many criteria for quality and usability of data, however, are best and most easily handled when addressed at their source: the individual dataset."
-msgstr ""
+msgstr "資料一發布，GBIF的即時系統就會為新資料集建立「索引」或進行「彙集」，將它們整合進共用的存取系統，讓使用者能透過共通的搜尋與下載服務取得所有資料。在建立索引的同時，GBIF.org也會進行額外的檢查、判讀與轉換，確保資料具備可互通性，並符合資料格式、品質與適用性的最低標準。不過，許多品質與可用性的問題，最好還是從源頭，也就是每個資料集本身著手處理，效果最好也最容易處理。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:157
 msgid "Publishers thus play an essential role not simply in sharing datasets, but also in managing their quality, completeness and usefulness as well as ensuring their integration and value within GBIF’s global knowledge base.  Learn more about https://www.gbif.org/data-quality-requirements[data quality requirements^] and recommendations for:"
-msgstr ""
+msgstr "因此，發布者的角色相當關鍵，不只是分享資料集，還要管理資料的品質、完整性與實用性，確保資料能整合進GBIF全球知識庫並發揮價值。想進一步了解https://www.gbif.org/data-quality-requirements[資料品質要求^]，可參考以下項目的相關建議："
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:159
 msgid "https://www.gbif.org/data-quality-requirements-occurrences[Occurrence-only datasets^]"
-msgstr ""
+msgstr "https://www.gbif.org/data-quality-requirements-occurrences[僅含出現紀錄的資料集^]"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:160
 msgid "https://www.gbif.org/data-quality-requirements-checklists[Checklists^]"
-msgstr ""
+msgstr "https://www.gbif.org/data-quality-requirements-checklists[名錄^]"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:161
 msgid "https://www.gbif.org/data-quality-requirements-sampling-events[Sampling-event datasets^]"
-msgstr ""
+msgstr "https://www.gbif.org/data-quality-requirements-sampling-events[調查活動資料集^]"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:164
