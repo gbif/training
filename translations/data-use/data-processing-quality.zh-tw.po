@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-04-12 21:11\n"
+"PO-Revision-Date: 2026-09-18 12:16\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,276 +20,277 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:1
 #, no-wrap
 msgid "Data processing and quality"
-msgstr ""
+msgstr "資料處理與品質"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:6
 msgid "In this module, you will learn how to determine if data is fit for your purpose and how reviewing GBIF data quality issues and flags can help you process the data you are using for your research."
-msgstr ""
+msgstr "在本單元中，您將學習如何判斷資料是否符合您的研究目的，以及如何透過檢視 GBIF 的資料品質問題與標記，來協助您處理研究中使用的資料。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:9
 msgid "Depending on your research question, you will need to decide if the available data/datasets are fit for your purpose.This will include evaluating the quality of the data."
-msgstr ""
+msgstr "根據您的研究問題，您需要判斷現有的資料／資料集是否符合您的研究目的。這將包括評估資料的品質。"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:13
 msgid "In this video (12:26), you will review some of the principles for fitness for use and data quality. This video's audience is directed towards the publishers of data, but many of the same principles apply to users of data. If you are unable to watch the embedded YouTube video, you can download it locally on the xref:downloads.adoc[Files for download] page."
-msgstr ""
+msgstr "在這段影片（12:26）中，您將學習關於「適用性」與「資料品質」的原則。本影片主要針對資料發布者，但其中許多原則同樣適用於資料使用者。 若您無法觀看內嵌的 YouTube 影片，可前往 xref:downloads.adoc[可下載檔案] 頁面將影片下載至本機。"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:18
 #, no-wrap
 msgid "Determining fitness for use"
-msgstr ""
+msgstr "判定是否適合使用"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:21
 msgid "For one person, data identified to the level of Genus may be sufficient to run predictive models of ecological niches. For a person studying a particular taxon, that same genus-level data will be much less useful than more detailed occurrences with subspecies information."
-msgstr ""
+msgstr "對某些人而言，分類至屬層級的資料已足以用來建立生態棲位的預測模型。然而，對研究特定分類群的人來說，同樣屬層級的資料，其價值遠低於包含亞種資訊且更詳細的出現記錄。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:23
 msgid "Based on the principles that Arthur Chapman discusses in the https://www.gbif.org/document/80509/principles-of-data-quality[_Principles of Data Quality_^] (2005), you should reflect on some important questions about the data to help you decide if data is trustworthy or useful enough for your purpose:"
-msgstr ""
+msgstr "根據 Arthur Chapman 在《資料品質原則》（https://www.gbif.org/document/80509/principles-of-data-quality）[_《資料品質原則》_^]（2005）一書中探討的原則，您應針對資料思考一些重要問題，以協助您判斷資料是否值得信賴，或是否足以滿足您的目的："
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:25
 msgid "How *Accurate* are the data? For example, are the identifications current and were they made by known experts?"
-msgstr ""
+msgstr "資料有多準確？例如，資料中的物種鑑定是否為最新，且是否由公認的專家完成？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:26
 msgid "How *Timely* are the data? When was the data made available? How often has it been updated?"
-msgstr ""
+msgstr "資料更新的時效性如何？資料何時可供使用？更新頻率為何？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:27
 msgid "How *Complete or Comprehensive* are the data? How well does the data cover a particular time, place, or domain?"
-msgstr ""
+msgstr "這些資料的完整度或全面性有多高？這些資料對特定時間、地點或領域的涵蓋程度如何？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:28
 msgid "How *Consistent* are the data? Are the data in each field always of the same type? Was the data collected using the same documented protocols?"
-msgstr ""
+msgstr "資料的一致性如何？每個欄位中的資料是否始終保持相同的型態？資料是否依照相同的、已記錄的收集規範進行收集？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:29
 msgid "How *Relevant* are the data? How similar is the dataset to others that have been used successfully for the same purpose?"
-msgstr ""
+msgstr "這些資料的相關性有多高？這組資料與其他曾成功用於相同目的的資料集有多相似？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:30
 msgid "How *Detailed* are the data? How much resolution is there in the data? At what scale can the data be used for mapping?"
-msgstr ""
+msgstr "資料有多詳細？資料的解析度如何？可用於製作地圖的比例或尺度為何？"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:31
 msgid "Is the data *Easy* to interpret? Is the dataset (metadata) documented in a clear and concise way?"
-msgstr ""
+msgstr "這些資料是否容易解讀？資料集（詮釋資料）是否以清晰簡潔的方式記錄？"
 
 #. type: Block title
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:33
 #, no-wrap
 msgid "Image by Melissa Liu"
-msgstr ""
+msgstr "圖片來源：Melissa Liu"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:34
 #, no-wrap
 msgid "data-use::fitnessforuse.png"
-msgstr ""
+msgstr "data-use::fitnessforuse.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:36
 #, no-wrap
 msgid "Evaluating data quality"
-msgstr ""
+msgstr "評估資料品質"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:40
 msgid "If you have determined a dataset is fit for your purpose, you need to further examine the dataset and complete post-download processing of the data. GBIF downloads contain data from a range of sources and the data will likely vary in its measures of quality.  Knowing the properties of the data you have will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "如果您已確定某個資料集符合您的需求，您需要進一步檢視該資料集，並完成資料的下載後處理。GBIF 下載的資料來自多種來源，其品質水準可能不盡相同。  了解您所擁有資料的特性，將有助於您掌握在哪些情況下可以、又在哪些情況下無法對資料進行清理、驗證與處理。"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:329
 msgid "Below you will find a selected reading from Arthur Chapman’s guide “Principles of data quality”.  https://www.gbif.org/document/80509/principles-of-data-quality[Full document^], references and translations can be found on GBIF.org."
-msgstr ""
+msgstr "以下為選讀文章，來自Arthur Chapman’s guide 的 “Principles of data quality” (資料品質原則)\n"
+"此為全文 https://www.gbif.org/document/80509/principles-of-data-quality[Full document^] ，相關參考資料及譯本也可於GBIF.org上找到。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:49
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:332
 msgid "Before a detailed discussion on data quality and its application to species-occurrence data can take place, there are a number of concepts that need to be defined and described.  These include the term data quality itself, the terms accuracy and precision that are often misapplied, and what we mean by primary species data and species-occurrence data."
-msgstr ""
+msgstr "在深入探討資料品質及其在物種出現紀錄上的應用之前，有幾個概念需要先加以定義與說明。包括「資料品質」一詞本身、常被誤用的「準確度」與「精確度」等術語，以及我們所指的「原始物種資料」與「物種出現紀錄資料」的具體涵義。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:51
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:334
 #, no-wrap
 msgid "*Species-occurrence data*\n"
-msgstr ""
+msgstr "*物種出現紀錄資料*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:55
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:338
 msgid "Species-occurrence data is used here to include specimen label data attached to specimens or lots housed in museums and herbaria, observational data and environmental survey data.  In general, the data are what we term “point-based”, although line (transect data from environmental surveys, collections along a river), polygon (observations from within a defined area such as a national park) and grid data (observations or survey records from a regular grid) are also included.  In general we are talking about georeferenced data – i.e. records with geographic references that tie them to a particular place in space – whether with a georeferenced coordinate (e.g. latitude and longitude, UTM) or not (textual description of a locality, altitude, depth) – and time (date, time of day)."
-msgstr ""
+msgstr "物種出現紀錄資料(Species-occurrence data)所指包含：博物館與植物標本館中附在標本(或批次)上的標籤資料、觀測資料和環境調查資料。一般而言，這些資料屬於我們所稱的「點資料」，儘管線資料（例如環境調查中的穿越線調查資料、沿河流的採集資料）、多邊形資料（例如國家公園等界定區域內的觀測資料）以及網格資料（來自規則網格中的觀測或調查紀錄）亦包含在內。一般而言，我們所指的是「地理參考資料」——即附有地理參考資訊、使其與空間中特定地點相關聯的記錄——無論是否包含地理參考座標（例如緯度、經度、UTM） （如地點的文字描述、海拔、深度）——以及時間（日期、時間）的記錄。\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:58
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:341
 msgid "In general the data are also tied to a taxonomic name, but unidentified collections may also be included.  The term has occasionally been used interchangeably with the term “primary species data”."
-msgstr ""
+msgstr "一般而言，這些資料也會附帶分類群名稱，但其中亦可能包含未經鑑定的標本。此專業用詞偶爾會與「原始物種資料 (primary species data)」一詞互換使用。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:60
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:343
 #, no-wrap
 msgid "*Primary species data*\n"
-msgstr ""
+msgstr "*原始物種資料*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:63
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:346
 msgid "“Primary species data” is used to describe raw collection data and data without any spatial attributes.  It includes taxonomic and nomenclatural data without spatial attributes, such as names, taxa and taxonomic concepts without associated geographic references."
-msgstr ""
+msgstr "「原始物種資料 (Primary species data)」是用來描述原始採集資料以及不具任何空間屬性的資料。其內容包含不具空間屬性的分類學與命名學資料，例如未附帶相關地理參考資訊的名稱、分類群及分類學概念。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:65
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:348
 #, no-wrap
 msgid "*Accuracy and Precision*\n"
-msgstr ""
+msgstr "*準確度與精確度*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:67
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:350
 msgid "Accuracy and precision are regularly confused and the differences are not generally understood."
-msgstr ""
+msgstr "準確度(Accuracy)與精準度(Precision)經常被混淆，大眾普遍不了解兩者間的差異。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:352
 msgid "Accuracy refers to the closeness of measured values, observations or estimates to the real or true value (or to a value that is accepted as being true – for example, the coordinates of a survey control point)."
-msgstr ""
+msgstr "「正確度」指的是量測值(或觀測值、估計值)與真值(或實際情況、或被接受為真的值，如：測量控制點的座標)的接近程度。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:76
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:359
 msgid "Precision (or Resolution) can be divided into two main types.  Statistical precision is the closeness with which repeated observations conform to themselves.  They have nothing to do with their relationship to the true value, and may have high precision, but low accuracy.  Numerical precision is the number of significant digits that an observation is recorded in and has become far more obvious with the advent of computers.  For example a database may output a decimal latitude/longitude record to 10 decimal places – i.e. ca .01 mm when in reality the record has a resolution no greater than 10-100 m (3-4 decimal places).  This often leads to a false impression of both the resolution and the accuracy."
-msgstr ""
+msgstr "「精確度」(又稱解析度)則可分為兩種形式：統計精確度是指重複觀測值彼此之間的一致程度，其與真值的接近程度無關，因此可能具有高精確度，但低準確度的狀況。數值精確度是指觀測值所記錄的有效位數，隨著電腦的出現更加明顯。舉例來說：資料庫可能會輸出小數精度的緯度／經度記錄，精確至小數點後 10 位——即約 0.01 毫米，但實際上該記錄的解析度不超過 10 至 100 公尺（小數點後 3 至 4 位）。這往往會讓人對解析度與精確度產生錯誤的印象。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:362
 msgid "These terms – accuracy and precision – can also be applied to non-spatial data as well as to spatial data.  For example, a collection may have an identification to subspecies level (i.e. have high precision), but be the wrong taxon (i.e. have low accuracy), or be identified only to Family level (high accuracy, but low precision)."
-msgstr ""
+msgstr "「準確度」與「精確度」這兩個術語，不僅適用於空間資料，也適用於非空間資料。  舉例來說，某個標本可能已鑑定至亞種層級（即具有高精確度），但歸類至錯誤的分類單元（即準確度低）；又或者，僅鑑定至科層級（準確度高，但精密度低）。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:81
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:364
 #, no-wrap
 msgid "*Data quality*\n"
-msgstr ""
+msgstr "*資料品質*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:86
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:369
 msgid "Data quality is multidimensional, and involves data management, modelling and analysis, quality control and assurance, storage and presentation.  As independently stated by Chrisman (1991) and Strong et al. (1997), data quality is related to use and cannot be assessed independently of the user.  In a database, the data have no actual quality or value (Dalcin 2004); they only have potential value that is realized only when someone uses the data to do something useful.  Information quality relates to its ability to satisfy its customers and to meet customers’ needs (English 1999)."
-msgstr ""
+msgstr "資料品質是多面向的，涉及資料管理、建模與分析、品質控管與保證、儲存及呈現。在Chrisman（1991）與 Strong 等人（1997）分別指出，資料品質與使用相關，無法脫離使用者而獨立評估。 在資料庫中，資料本身並無實際品質或價值（Dalcin 2004）；它們僅具有潛在價值，而這種價值唯有當有人利用資料執行有用的行動時，才會得以實現。資訊品質則與其滿足客戶及滿足客戶需求的能力有關（English 1999）。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:88
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:371
 msgid "Redman (2001), suggested that for data to be fit for use they must be accessible, accurate, timely, complete, consistent with other sources, relevant, comprehensive, provide a proper level of detail, be easy to read and easy to interpret."
-msgstr ""
+msgstr "Redman (2001) 認為：適合使用的資料必須具備：可被取得(accessible)、正確(accurate)、即時更新(timely)、完整(complete)、與其他來源一致(consistent with other sources)、與主題相關(relevant)、全面(comprehensive)，並提供使用者適當程度的細節、且容易閱讀理解。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:92
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:375
 msgid "One issue that a data custodian may need to consider is what may need to be done with the database to increase its usability to a wider audience (i.e. increase its potential use or relevance) and thus make it fit for a wider range of purposes.  There will be a trade off in this between the increased usability and the amount of effort required to add extra functionality and usability.  This may require such things as atomizing data fields, adding geo-referencing information, etc."
-msgstr ""
+msgstr "資料保管人可能需要思考的一項問題是，該如何提升資料庫對於廣泛大眾的實用性（即增加其潛在用途或相關性），使其適用於更廣泛的用途。  在此過程中，這需要在提升可用性與為了增加額外功能及可用性所需投入的工作量之間做權衡取捨。這可能需要進行諸如將資料欄位細分、添加地理參考資訊等操作。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:94
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:377
 #, no-wrap
 msgid "*Quality Assurance/ Quality Control*\n"
-msgstr ""
+msgstr "*品質保證/品質控管*"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:98
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:381
 msgid "The difference between quality control and quality assurance is not always clear.  Taulbee (1996) makes the distinction between Quality Control and Quality Assurance and stresses that one cannot exist without the other if quality goals are to be met.  She defines Quality Control as a judgement of quality based on internal standards, processes and procedures established to control and monitor quality; and Quality Assurance as a judgement of quality based on standards external to the process and is the reviewing of the activities and quality control processes to insure that the final products meet predetermined standards of quality."
-msgstr ""
+msgstr "品質管控 (Quality Control) 與品質保證 (Quality Assurance)之間的差異並非總是十分明確。Taulbee（1996）釐清了品質控館與品質保證的區別，並強調若要達成品質目標，兩者缺一不可。  她將「品質控制」定義為基於內部標準、流程及程序所作出的品質判斷，這些標準、流程及程序旨在控制與監控品質；而「品質保證」則定義為基於流程外部標準所作出的品質判斷，並透過審查各項活動與品質控制流程，以確保最終產品符合預先設定的品質標準。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:100
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:383
 msgid "In a more business-oriented approach, Redman (2001) defines Quality Assurance as “those activities that are designed to produce defect-free information products to meet the most important needs of the most important customers, at the lowest possible cost”."
-msgstr ""
+msgstr "從更商業導向的方法中，Redman (2001)將品質保證(QA)定義為「以盡可能低的成本，並為此設計來生產無瑕疵的資訊產品，來滿足最重要客戶之需求的所有行為活動」。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:102
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:385
 msgid "How these terms are to be applied in practice is not clear, and in most cases the terms seem to be largely used synonymously to describe the overall practice of data quality management."
-msgstr ""
+msgstr "這些術語在實際應用中應如何運用尚不明確，而在大多數情況下，這些術語似乎主要被視為同義詞，用以描述資料品質管理的整體操作。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:104
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:387
 #, no-wrap
 msgid "*Uncertainty*\n"
-msgstr ""
+msgstr "*不確定性*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:392
 msgid "Uncertainty may be thought of as a “measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if a perfect measuring device were available” (Cullen and Frey 1999).  Uncertainty is a property of the observer’s understanding of the data, and is more about the observer than the data per se.  There is always uncertainty in data; the difficulty is in recording, understanding and visualizing that uncertainty so that others can also understand it.  Uncertainty is a key term in understanding risk and risk assessment."
-msgstr ""
+msgstr "「不確定性」(Uncertainty ) 可以視為是「對某個未知量之知識及資訊的不完整性的衡量，若完美的測量裝置存在，該未知量的真實值便可被確定」（Cullen 與 Frey, 1999）。不確定性是觀察者對資料理解的性質，此性質與觀察者較有關，而非資料本身。在資料中永遠存在不確定性，若想透過記錄、理解、和視覺化這樣的不確定性來讓他人能理解並不容易。不確定性是用來理解風險及其評估的關鍵術語。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:111
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:394
 #, no-wrap
 msgid "*Error*\n"
-msgstr ""
+msgstr "*誤差*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:401
 msgid "Error encompasses both the imprecision of data and their inaccuracies.  There are many factors that contribute to error.  Error is generally seen as being either random or systematic.  Random error tends to refer to deviation from the true state in a random manner.  Systematic error or bias arises from a uniform shift in values and is sometimes described as having ‘relative accuracy’ in the cartographic world (Chrisman 1991).  In determining ‘fitness for use’ systematic error may be acceptable for some applications, and unfit for others."
-msgstr ""
+msgstr "「誤差」(Error ) 一詞同時包含了資料的不精準(imprecision) 與不準確(inaccuracy)兩個層面。有許多因素會造成誤差，一般而言，誤差可分為隨機誤差以及系統性誤差，隨機誤差指的是測量值與真實值之間產生的隨機偏差；系統誤差或偏差則源自於數值的均勻變化，從製圖學的角度來看，有時被稱為具有「相對準確度」（Chrisman 1991）。在判斷「適用性」時，系統誤差對於某些應用可能是可以接受的，而對於其他應用則可能是不適用的。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:404
 msgid "An example may be the use of a different geodetic datum1 – where, if used throughout the analysis, may not cause any major problems.  Problems will arise though where an analysis uses data from different sources and with different biases – for example data sources that use different geodetic datums, or where identifications may have been carried out using an earlier version of a nomenclatural code."
-msgstr ""
+msgstr "舉例而言，在使用不同的大地測量基準的時候，若在整個分析中只使用同個大地測量基準，可能不會發生大問題；但若在分析中使用了來自不同大地測量基準、且有不同偏差的資料，(如：使用不同大地測量基準的資料集、或鑑定時參照了早期版本的命名法規)，則可能就會發生問題。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:125
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:408
 msgid "“Because error is inescapable, it should be recognized as a fundamental dimension of data” (Chrisman 1991).  Only when error is included in a representation of the data is it possible to answer questions about limitations in the data, and even limitations in current knowledge.  Known errors in the three dimensions of space, attribute and time need to be measured, calculated, recorded and documented."
-msgstr ""
+msgstr "(Chrisman 1991)提到：由於無法避免誤差，因此應將它視為資料的基礎維度。只有當誤差與資料的同時呈現時，才可能去了解資料的限制、甚至理解現有知識的極限在哪。在空間、屬性、時間等三個維度的已知誤差，皆需要進行量測、計算、紀錄與建檔。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:127
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:410
 #, no-wrap
 msgid "*Validation and Cleaning*\n"
-msgstr ""
+msgstr "*資料驗證與清理*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:133
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:416
 msgid "Validation is a process used to determine if data are inaccurate, incomplete, or unreasonable.  The process may include format checks, completeness checks, reasonableness checks, limit checks, review of the data to identify outliers (geographic, statistical, temporal or environmental) or other errors, and assessment of data by subject area experts (e.g. taxonomic specialists).  These processes usually result in flagging, documenting and subsequent checking of suspect records.  Validation checks may also involve checking for compliance against applicable standards, rules, and conventions.  A key stage in data validation and cleaning is to identify the root causes of the errors detected and to focus on preventing those errors from re-occurring (Redman 2001)."
-msgstr ""
+msgstr "資料驗證 (Validation) 是檢查資料是否正確、完整、合理的過程。其中包含：格式檢查、完整度檢查、合理性檢查、限制檢查，資料回顧(藉此判別離群值及其他誤差。如：地理上、統計上、時間上、環境性的......等等)，以及相關領域專家(如：分類學家) 對資料的評估。這些流程通常包括標記、記錄和後續核查可疑記錄。驗證檢查還可能包括檢查是否符合適用的標準、規則和慣例。資料驗證和清理的關鍵階段是識別已發現錯誤的根本原因，並專注於防止這些錯誤再次發生（Redman 2001）。"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:138
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:421
 msgid "Data cleaning refers to the process of “fixing” errors in the data that have been identified during the validation process.  The term is synonymous with “data cleansing”, although some use data cleansing to encompass both data validation and data cleaning.  It is important in the data cleaning process that data is not inadvertently lost, and changes to existing information be carried out very carefully.  It is often better to retain both the old (original data) and the new (corrected data) side by side in the database so that if mistakes are made in the cleaning process, the original information can be recovered."
-msgstr ""
+msgstr "資料清理是針對在驗證過程中已識別出的資料錯誤進行「修正」的流程。  此術語與「資料清潔」同義，儘管有些人將「資料清潔」一詞用來涵蓋資料驗證與資料清理兩者。在資料清理過程中，需避免資料不慎遺失，並須極為謹慎地對現有資訊進行變更。  通常最好將舊資料（原始資料）與新資料（修正後的資料）並列保留在資料庫中，如此一來，若在清理過程中發生錯誤，便可恢復原始資訊。"
 
