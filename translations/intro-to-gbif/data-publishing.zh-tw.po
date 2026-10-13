@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-12 13:50\n"
+"PO-Revision-Date: 2026-10-13 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -509,51 +509,51 @@ msgstr "https://www.gbif.org/data-quality-requirements-sampling-events[調查活
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:164
 msgid "In practice, we encourage those responsible for publishing data to get acquainted with the expected data formats and content requirements as early as possible in the process (see also the pre-configured GBIF Excel templates with required and recommended terms for https://github.com/gbif/ipt/wiki/occurrenceData#templates[occurrence-only datasets^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^], and https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], all available with example data).  Doing so will save a lot of effort that may be needed at later stages, for example, in adding data conversions, capturing information for required or strongly recommended fields, or performing and addressing final pre-publication data-quality checks."
-msgstr ""
+msgstr "實務上，我們建議負責發布資料的人員盡早熟悉預期的資料格式與內容要求（可參考GBIF預先設定的Excel範本，涵蓋https://github.com/gbif/ipt/wiki/occurrenceData#templates[僅含出現紀錄的資料集^]、https://github.com/gbif/ipt/wiki/checklistData#templates[名錄^]和https://github.com/gbif/ipt/wiki/samplingEventData#templates[調查活動資料集^]所需與建議欄位，並附有範例資料）。越早熟悉，越能節省後續階段可能需要投入的大量心力，例如資料轉換、填寫必填欄位資訊，或處理發布前的最終資料品質檢查。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:166
 msgid "https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations[Data quality requirements^] are fully documented in GBIF's technical documentation."
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-publishing/data-quality-recommendations[資料品質要求^]已完整記錄於GBIF的技術文件中。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:168
 msgid "Datasets published by BID projects may have https://www.gbif.org/article/3NNEFbAK2Olyfpo91mEAN6/requirements-for-data-deliverables-of-bid-projects[different or additional data quality requirements^]."
-msgstr ""
+msgstr "由BID計畫所發布的資料集，可能具有https://www.gbif.org/article/3NNEFbAK2Olyfpo91mEAN6/requirements-for-data-deliverables-of-bid-projects[不同或額外的資料品質要求^]。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:169
 #, no-wrap
 msgid "Improve published data quality"
-msgstr ""
+msgstr "提升已發布資料的品質"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:173
 msgid "In this section, you will learn how to use the GBIF data validator."
-msgstr ""
+msgstr "本節將說明如何使用GBIF資料驗證工具。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:176
 msgid "The GBIF https://www.gbif.org/tools/data-validator[data validator^] is a service that allows anyone with a GBIF-relevant dataset to receive a report on the syntactical correctness and the validity of the content contained within the dataset.  By submitting a dataset to the validator, you can go through the validation and interpretation procedures usually associated with publishing in GBIF and quickly determine potential issues in data - without having to publish it."
-msgstr ""
+msgstr "GBIF的https://www.gbif.org/tools/data-validator[資料驗證工具^]能讓任何擁有GBIF相關資料集的人，取得一份關於資料語法正確性與內容有效性的報告。只要把資料集提交給驗證工具，就能經過與GBIF發布流程相似的驗證及判讀程序，不必真的發布資料，也能快速找出潛在問題。"
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:178
 #, no-wrap
 msgid "Click on the _Tools_ menu on the GBIF website to navigate to the _Data validator_ page"
-msgstr ""
+msgstr "點選GBIF網站上的 _工具_ 選單，前往 _資料驗證工具_ 頁面"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:179
 #, no-wrap
 msgid "intro-to-gbif::datavalidator.png"
-msgstr ""
+msgstr "intro-to-gbif::datavalidator.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:182
 #, no-wrap
 msgid "*How does it work?*\n"
-msgstr ""
+msgstr "*它是如何運作的？*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:187
