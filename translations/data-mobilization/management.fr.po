@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-10-10 04:07\n"
+"PO-Revision-Date: 2026-10-16 13:08\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -622,100 +622,110 @@ msgstr "La gestion des données dépend des compétences mobilisées, et personn
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:159
 msgid "Prioritize your cleaning to take advantage of the resources and knowledge that your institution possesses. For example, you may choose to review all of the data recorded by collectors who are still alive so that important data is not lost later. If you maintain a large dataset you might choose to prioritize data that can be cleaned at the lowest cost using automated processes and then prioritize the more difficult errors that require individual attention. Ultimately, you should prioritize the data that is of the greatest value to the work of your institution and then move through the data in a logical and orderly manner."
-msgstr ""
+msgstr "Définissez les priorités de nettoyage en fonction des ressources et des connaissances disponibles dans votre institution. Vous pouvez, par exemple, commencer par vérifier les données recueillies par des collecteurs encore en vie, afin de recueillir leurs précisions avant que des informations importantes ne soient perdues.\n"
+"Si vous gérez un grand jeu de données, traitez d’abord les données qui peuvent être nettoyées automatiquement et à moindre coût, puis les erreurs plus complexes qui nécessitent une vérification individuelle.\n"
+"Donnez la priorité aux données les plus importantes pour votre institution et avancez de manière logique et organisée."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:162
 #, no-wrap
 msgid "data-mobilization::management-cleaning-concepts-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::management-cleaning-concepts-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:165
 #, no-wrap
 msgid "*Slide 10 - Principles of data cleaning*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Principes du nettoyage des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:173
 msgid "Some times it can be an effective strategy to set some measures of performance before the cleaning process begins. One performance measure might be to complete the cleaning of 500 records every week. Another measure might be to provide a statistical report of the accuracy of the corrections being made, such as:   “95% of all georeferences corrected this week now have an uncertainty in meters of less than 1000 meters.”   These kinds of measures can give direction and guidance to the people performing the cleaning, as well as, to serve as a means to report on successes and areas in need of improvement.    In an ideal world, you will have developed a data maintenance plan that has been optimized to be as efficient and effective as possible. Optimization can be achieved in many different ways including taking advantage of your institution’s strengths, setting clear objectives and measure of success, and regular adjustment of your priorities based on available resources."
-msgstr ""
+msgstr "Il peut être utile de définir des indicateurs de performance avant de commencer le nettoyage. Vous pouvez, par exemple, fixer l’objectif de nettoyer 500 enregistrements par semaine. Vous pouvez aussi mesurer la qualité des corrections effectuées, par exemple :\n"
+"« Parmi les géoréférences corrigées cette semaine, 95 % présentent désormais une incertitude inférieure à 1 000 mètres. »\n"
+"Ces indicateurs guident les personnes chargées du nettoyage et permettent de présenter les progrès accomplis ainsi que les points à améliorer.\n"
+"Idéalement, votre plan de gestion des données doit être aussi efficace que possible. Pour l’optimiser, appuyez-vous sur les points forts de votre institution, fixez des objectifs clairs et mesurables, puis adaptez régulièrement vos priorités aux ressources disponibles."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:176
 #, no-wrap
 msgid "data-mobilization::management-cleaning-concepts-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::management-cleaning-concepts-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:179
 #, no-wrap
 msgid "*Slide 11 - Principles of data cleaning*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Principes du nettoyage des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:181
 msgid "One of the best ways to learn how successful your data cleaning and data maintenance processes are, is to seek feedback from the data users in your community. This can be accomplished through the partnerships we discussed earlier, but you can also seek feedback in other ways. Once such way is to review the way that GBIF presents your data.  You can view the comparison between the verbatim data published to GBIF and the interpreted data that GBIF might have corrected or updated. These comparisons can help you to optimize your data cleaning process, but you can also help GBIF to improve its data quality processes, too, when you provide expert feedback back to them."
-msgstr ""
+msgstr "L’un des meilleurs moyens d’évaluer l’efficacité de vos processus de nettoyage et de gestion des données est de demander l’avis des utilisateurs de votre communauté. Vous pouvez le faire dans le cadre des collaborations déjà mentionnées, mais aussi par d’autres moyens.\n"
+"Vous pouvez notamment examiner la manière dont le GBIF présente vos données. Il est possible de comparer les données originales publiées avec les données interprétées, corrigées ou mises à jour par le GBIF.\n"
+"Cette comparaison peut vous aider à améliorer votre processus de nettoyage. En retour, vos commentaires d’expert peuvent aussi aider le GBIF à améliorer ses propres méthodes de contrôle de la qualité des données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:183
 msgid "One of the best ways to achieve success with data cleaning is to provide training and education to everyone who works with your data. These may be trainings that you organize yourself, local or regional trainings in partnership with, or presented by, other institutions in your area, or workshops and courses provided by other groups, such as GBIF. If you need training, please check the GBIF web site regularly or contact GBIF’s Community Mentors or GBIF’s Biodiversity Open Data Ambassadors who also can be good resources for training and education opportunities."
-msgstr ""
+msgstr "L’un des meilleurs moyens d’améliorer le nettoyage des données est de former toutes les personnes qui travaillent avec celles-ci. Vous pouvez organiser vos propres formations, collaborer avec d’autres institutions pour proposer des formations locales ou régionales, ou participer aux ateliers et aux cours offerts par des organisations comme le GBIF.\n"
+"Si vous avez besoin d’une formation, consultez régulièrement le site web du GBIF. Vous pouvez également contacter les mentors de la communauté GBIF ou les Ambassadeurs des données ouvertes sur la biodiversité, qui pourront vous informer des possibilités de formation disponibles."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:186
 #, no-wrap
 msgid "data-mobilization::management-cleaning-concepts-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::management-cleaning-concepts-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:189
 #, no-wrap
 msgid "*Slide 12 - Principles of data cleaning*\n"
-msgstr ""
+msgstr "*Diapositive 12 - Principes du nettoyage des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:191
 msgid "Documentation is one of the most important principles of data cleaning. This is true in two key ways."
-msgstr ""
+msgstr "La documentation est l’un des principes les plus importants du nettoyage des données, et ce, pour deux raisons principales."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:193
 msgid "First, whatever processes you use to maintain your data, it is important to be transparent about how errors are discovered and corrected. This transparency can be truly successful when the data cleaning process is well documented. Without clear and accessible documentation, you run the risk of losing best practices, building redundant processes and losing optimization. Good documentation will help you to avoid recurring errors."
-msgstr ""
+msgstr "Premièrement, quelles que soient les méthodes utilisées pour gérer vos données, vous devez expliquer clairement comment les erreurs sont détectées et corrigées. Pour garantir cette transparence, le processus de nettoyage doit être bien documenté.\n"
+"Sans une documentation claire et accessible, vous risquez de perdre les bonnes pratiques, de répéter inutilement certaines tâches et de réduire l’efficacité du processus. Une bonne documentation permet également d’éviter que les mêmes erreurs se reproduisent."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:195
 msgid "Documentation is also key to good data quality. Good documentation, in metadata, for example, allows data users to determine the fitness for use of your data. Your documentation should not only include good metadata, it should also include the best practices, standardized vocabularies, and taxonomic and geographic authorities used. Documenting what data was cleaned by whom will help you to improve your optimization, reach performance measures, and ultimately, tell a more complete story of where your data came from and how it was improved over time."
-msgstr ""
+msgstr "La documentation est également essentielle à la qualité des données. De bonnes métadonnées permettent aux utilisateurs de déterminer si vos données sont adaptées à leurs besoins.\n"
+"Votre documentation doit aussi présenter les bonnes pratiques appliquées, les vocabulaires normalisés ainsi que les référentiels taxonomiques et géographiques utilisés. Indiquer quelles données ont été nettoyées, et par qui, vous aidera à améliorer le processus, à suivre les objectifs fixés et à retracer clairement l’origine des données ainsi que les améliorations apportées au fil du temps."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:198
 #, no-wrap
 msgid "data-mobilization::management-cleaning-concepts-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::management-cleaning-concepts-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:205
 msgid "This presentation was originally created by Nestor Beltran with additional contributions by David Bloom, BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Cette présentation a été initialement élaborée par Nestor Beltran, avec la contribution de David Bloom, ainsi que des formateurs, mentors et étudiants du BID et du BIFA."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:209
 #, no-wrap
 msgid "Exercise 2a"
-msgstr ""
+msgstr "Exercice 2a"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:214
 msgid "For this exercise, you will perform a series of validation checks to evaluate the provided file for errors."
-msgstr ""
+msgstr "Dans cet exercice, vous effectuerez une série de contrôles de validation afin de repérer les erreurs dans le fichier fourni."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:217
 msgid "The Swedish Butterfly Network has decided to begin sharing their data with GBIF. You have received an Excel file from the data capture team and have been asked to validate and correct the data in the file."
-msgstr ""
+msgstr "Le \"Swedish Butterfly Network\" a décidé de publier ses données sur le GBIF. L’équipe chargée de la capture des données vous a transmis un fichier Excel afin que vous puissiez vérifier et corriger les données qu’il contient."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:219
@@ -726,37 +736,37 @@ msgstr "*Contrôles de validation*\n"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:221
 msgid "In this exercise we will focus on technical and consistency errors and perform a basic validation check to identify the errors."
-msgstr ""
+msgstr "Dans cet exercice, nous effectuerons des contrôles de validation simples pour détecter les erreurs techniques et vérifier la cohérence des données."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:223
 msgid "Refer to <<Validation checks>> for information on the types of errors."
-msgstr ""
+msgstr "Pour plus d'informations sur les types d'erreurs, consultez <<Validation checks>>."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:225
 msgid "Download xref:attachment$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 KB)"
-msgstr ""
+msgstr "Télécharger le fichier xref : pièce jointe$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 Ko)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:226
 msgid "Open the file in Excel and examine the three tabs."
-msgstr ""
+msgstr "Ouvrez le fichier avec Excel, puis consultez les trois onglets."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:227
 msgid "Find and document the errors (indicating the technical or consistency subtype)."
-msgstr ""
+msgstr "Identifiez et documentez chaque erreur en indiquant s’il s’agit d’une erreur technique ou d’une incohérence."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:228
 msgid "Manually fix the errors if you have time."
-msgstr ""
+msgstr "Si vous avez le temps, corrigez les erreurs manuellement."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:229
 msgid "Use the previously downloaded xref:attachment$UC-Practice-exercise-sheet_EN.docx[exercise sheet,opts=download] (PDF, 4 MB) to provide your answers."
-msgstr ""
+msgstr "Utilisez le fichier xref:attachment$UC-Practice-exercise-sheet_EN.docx[fiche d'exercices, opts=download] (PDF, 4 Mo) que vous avez téléchargé précédemment pour fournir vos réponses."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:230
@@ -767,137 +777,140 @@ msgstr "Outils de gestion des données"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:235
 msgid "In this video (06:42), you will learn about a variety of tools that you can use to improve the quality of your data. Subtitles for this video are available in French and Spanish."
-msgstr ""
+msgstr "Dans cette vidéo (6 min 42 s), vous découvrirez différents outils permettant d’améliorer la qualité de vos données. Des sous-titres en français et en espagnol sont disponibles."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:237
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_tools_v1-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 30.3 MB)"
-msgstr ""
+msgstr "Si vous ne parvenez pas à visionner la vidéo intégrée, vous pouvez la télécharger localement via le lien suivant :$data_cleaning_tools_v1-720p.mp4[download,opts=download]. Si vous la téléchargez localement, les sous-titres ne seront pas disponibles. (MP4 - 30,3 Mo)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:256
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:259
 #, no-wrap
 msgid "*Slide 1 - Data management - Tools*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Gestion des données - Outils*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:261
 msgid "In this presentation, we are going to explore the importance of software tools that can help to maintain, clean and standardize your data."
-msgstr ""
+msgstr "Dans cette présentation, nous découvrirons l’importance des outils logiciels permettant de gérer, de nettoyer et de standardiser vos données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:263
 msgid "Image by https://pixabay.com/illustrations/developer-programmer-technology-3461405/[Mudassar Iqbal^] from Pixabay"
-msgstr ""
+msgstr "Image d'https://pixabay.com/illustrations/developer-programmer-technology-3461405/ [Mudassar Iqbal^] sur Pixabay"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:264
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:267
 #, no-wrap
 msgid "*Slide 2 - Importance of data maintenance*\n"
-msgstr ""
+msgstr "*Diapositive 2 – Importance de la maintenance des données*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:269
 msgid "Data Quality happens at every step in the data mobilization process. Within the roles on your team, you should ensure that someone is responsible and skilled with data maintenance and manipulation. We know that real-world data are messy and transformation and standardization is needed to make the data easily understandable and fit for use."
-msgstr ""
+msgstr "La qualité des données intervient à toutes les étapes de leur mobilisation. Dans votre équipe, assurez-vous qu’une personne compétente soit responsable de leur maintenance et de leur traitement.\n"
+"Dans la pratique, les données sont souvent désordonnées, présentées dans des formats différents ou saisies de manière incohérente. Il est donc nécessaire de les nettoyer, de les transformer et de les standardiser afin qu’elles soient faciles à comprendre et adaptées aux besoins des utilisateurs."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:271
 msgid "When transforming data (for example merging columns, converting coordinates, changing datum, etc), make sure that you document changes and that you have an original copy that you can revert to if necessary."
-msgstr ""
+msgstr "Lorsque vous transformez des données (par exemple, en fusi. onnant des colonnes, en convertissant des coordonnées, en modifiant le système de référence, etc.), veillez toujours à documenter chaque modification et à conserver une copie des données originales afin de pouvoir les restaurer si nécessaire."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:273
 msgid "Photo: Anas crecca subsp. crecca Observed in Japan by Yoshi.K. http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Photo : Anas crecca subsp. crecca, observée au Japon par Yoshi.K. http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:274
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:277
 #, no-wrap
 msgid "*Slide 3 - What to consider when choosing a tool*\n"
-msgstr ""
+msgstr "*Diapositive 3 – Éléments à prendre en compte pour choisir un outil*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:279
 msgid "As was covered in the foundations course, in the software section, in choosing tools, some things you should consider include, price, ease of use, documentation and support and any technical requirements to run the tool. No tool is perfect. The importance is to find the right balance and the tool that fits your requirement."
-msgstr ""
+msgstr "Comme indiqué dans la section consacrée aux logiciels du cours **Fondations**, plusieurs critères doivent être pris en compte lors du choix d’un outil : son prix, sa facilité d’utilisation, la documentation et l’assistance disponibles, ainsi que les exigences techniques nécessaires à son fonctionnement.\n"
+"Aucun outil n’est parfait. L’essentiel est de trouver le bon équilibre et de choisir celui qui répond le mieux à vos besoins."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:281
 msgid "Photo: Asota egens subsp. confinis Rothschild, 1897 Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Photo : Asota egens subsp. confinis Rothschild, 1897. Observée au Japon par Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:282
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide4.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide4.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:285
 #, no-wrap
 msgid "*Slide 4 - What to consider when choosing a tool*\n"
-msgstr ""
+msgstr "*Diapositive 4 – Éléments à prendre en compte pour choisir un outil*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:287
 msgid "The tools you choose may not be the tools that others use within your institution – and that’s just fine, unless your organization places mandates on the tools you can use.  You need to find and use the tools that help you to achieve the goals of your institution. So, you need to build a palette of tools that will help you and the people with whom you work to do their work as effectively as possible."
-msgstr ""
+msgstr "Vous n’êtes pas obligé d’utiliser les mêmes outils que vos collègues, sauf si votre institution en impose certains. Choisissez avant tout ceux qui vous aident à atteindre les objectifs de votre institution.\n"
+"Constituez donc un ensemble d’outils adaptés, qui vous aideront, vous et vos collègues, à travailler aussi efficacement que possible."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:289
 msgid "Photo: Crepidiastrum lanceolatum (Houtt.) Nakai Observed in Japan by Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Photo : Crepidiastrum lanceolatum (Houtt.) Nakai, observé au Japon par Takaaki Hattori http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:290
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide5.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide5.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:293
 #, no-wrap
 msgid "*Slide 5 - Basic technical considerations*\n"
-msgstr ""
+msgstr "*Diapositive 5 – Critères techniques de base*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:295
 msgid "Some of the technical considerations when choosing tools should include the inputs and outputs that the tool uses for files."
-msgstr ""
+msgstr "Parmi les critères techniques à prendre en compte lors du choix d’un outil figurent les formats de fichiers qu’il peut importer et exporter."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:297
 msgid "Does it allow for importing and exporting standardized delimited files?"
-msgstr ""
+msgstr "L’outil permet-il d’importer et d’exporter des fichiers standardisés utilisant des délimiteurs ?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:299
 msgid "Can you select encoding (for example UTF-8) when opening or saving files to avoid encoding issues with special characters."
-msgstr ""
+msgstr "Est-il possible de sélectionner un encodage (par exemple UTF-8) lors de l'ouverture ou de l'enregistrement de fichiers afin d'éviter les problèmes d'encodage liés aux caractères spéciaux ?"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:301
 msgid "Photo: Conus (Virroconus) ebraeus Linnaeus, 1758 Observed in Japan by Robert Guralnick http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
-msgstr ""
+msgstr "Photo : Conus (Virroconus) ebraeus Linnaeus, 1758. Observé au Japon par Robert Guralnick http://creativecommons.org/licenses/by/4.0/[CC BY 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:302
@@ -1189,30 +1202,30 @@ msgstr ""
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:434
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide1.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide1.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:437
 #, no-wrap
 msgid "*Slide 1 - Data management - OpenRefine*\n"
-msgstr ""
+msgstr "*Diapositive 1 - Gestion des données - OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:439
 msgid "In this presentation, we are going to introduce OpenRefine as a tool for data cleaning."
-msgstr ""
+msgstr "Dans cette présentation, nous vous présenterons OpenRefine, un outil de nettoyage des données."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:440
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide2.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide2.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:443
 #, no-wrap
 msgid "*Slide 2 - OpenRefine*\n"
-msgstr ""
+msgstr "*Diapositive 2 - OpenRefine*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:445
