@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-13 10:30\n"
+"PO-Revision-Date: 2026-10-17 05:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -392,7 +392,7 @@ msgstr "想透過GBIF分享資料的組織，可以到https://www.gbif.org/becom
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:108
 #, no-wrap
 msgid "Click on the _How-to menu_ on the GBIF website to navigate to the _Become a publisher_ page"
-msgstr ""
+msgstr "點選GBIF網站上的 _使用說明選單_，即可前往 _成為發布者_ 頁面"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:109
@@ -558,103 +558,103 @@ msgstr "*它是如何運作的？*\n"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:187
 msgid "You start by uploading the dataset file to the validator, either by 1) clicking SELECT FILE and selecting it on your local computer or 2) dragging the file from a local folder and dropping it on the Drop here icon.  You can also enter the URL of a dataset file accessible from the internet.  This is particularly useful for larger datasets. Once you hit the Submit button, the validator starts processing your dataset file.  You will be taken straight to a page showing the status of the validation."
-msgstr ""
+msgstr "首先，你需要將資料集檔案上傳至驗證工具，方法有二：1）點選「選擇檔案」，並在本機電腦中選取檔案；或2）將檔案從本機資料夾拖曳，並放置於「拖曳至此」的圖示上。你也可以輸入可於網路上存取之資料集檔案的網址，這對於較大型的資料集特別有用。點選「提交」按鈕後，驗證工具會開始處理你的資料集檔案，並直接將你導向顯示驗證狀態的頁面。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:188
 #, no-wrap
 msgid "intro-to-gbif::quality11.png"
-msgstr ""
+msgstr "intro-to-gbif::quality11.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:194
 msgid "Depending on the size of your dataset, processing might take a while.  You don’t have to keep the browser window open, as a unique job ID is issued every time a new validation process is started.  If your dataset is taking too long to process, just save the ID (bookmark the URL) and use it to return at a later time to view the report.  We’ll keep the report for a month, during which you can come back whenever you like."
-msgstr ""
+msgstr "依照資料集大小不同，處理可能需要一段時間，你不需要一直開著瀏覽器視窗，因為每次啟動驗證時都會產出一組專屬工作編號。如果處理時間太久，只要記下這組編號（把網址加進書籤），之後就能隨時回來查看報告。報告會保留一個月，這段期間你可以隨時回來查看。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:196
 #, no-wrap
 msgid "*Which file types are accepted?*\n"
-msgstr ""
+msgstr "*可以上傳哪些檔案類型？*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:198
 msgid "ZIP-compressed Darwin Core Archives (DwC-A) (containing cores Occurrence, Taxon, or Event)"
-msgstr ""
+msgstr "ZIP壓縮的達爾文核心封存檔（DwC-A），內含出現紀錄、分類群或調查活動"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:199
 msgid "Integrated Processing Toolkit (IPT) Excel templates containing Checklist, Occurrence, or Sampling-event data"
-msgstr ""
+msgstr "整合處理工具（IPT）的Excel範本，內含名錄、出現紀錄或調查活動資料"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:200
 msgid "Simple CSV files containing Darwin Core terms in the first row"
-msgstr ""
+msgstr "第一列包含達爾文核心詞彙的簡單CSV檔案"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:202
 #, no-wrap
 msgid "*What information is provided from the validation report?*\n"
-msgstr ""
+msgstr "*驗證報告會提供什麼資訊？*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:204
 msgid "Once processing is done, you will be able to see the validation report containing the following information:"
-msgstr ""
+msgstr "處理完成後，你將能夠看到包含以下資訊的驗證報告："
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:206
 msgid "a summary of the dataset type and a simple indicator of whether it can be indexed by GBIF or not"
-msgstr ""
+msgstr "資料集類型摘要，以及該資料集是否能被GBIF索引的簡易指標"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:207
 msgid "a summary of issues found during the GBIF interpretation of the dataset"
-msgstr ""
+msgstr "GBIF判讀該資料集過程中所發現問題的摘要"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:208
 msgid "detailed break-down of issues found in metadata, dataset core, and extensions (if any), respectively"
-msgstr ""
+msgstr "分別列出詮釋資料、資料集核心及擴充功能（如有）中發現問題的詳細說明"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:209
 msgid "number of records successfully interpreted"
-msgstr ""
+msgstr "成功解析的記錄筆數"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:210
 msgid "frequency of terms used in dataset"
-msgstr ""
+msgstr "資料集中各詞彙的使用頻率"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:212
 msgid "You will also be able to view the metadata as a draft version of the dataset page as it would appear when the dataset it published and registered with GBIF."
-msgstr ""
+msgstr "你還能看到詮釋資料以草稿頁面的形式呈現，模擬資料集正式在GBIF發布並註冊後的樣貌。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:213
 #, no-wrap
 msgid "intro-to-gbif::quality12.png"
-msgstr ""
+msgstr "intro-to-gbif::quality12.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:216
 #, no-wrap
 msgid "*I’ve got the validation report - now what?*\n"
-msgstr ""
+msgstr "*拿到驗證報告後，接下來該怎麼做？*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:220
 msgid "If the validator finds that your dataset cannot be indexed by GBIF, you should address the issues raised by the validation report before you consider publishing it to GBIF.  Even if your dataset is indexable by GBIF, you should still carefully review any issues that may be the result of e.g. conversion errors, etc. which could affect the quality of the data.  If you find and correct any error - from a single typo to large systematic problems - feel free to resubmit your dataset as many times you like."
-msgstr ""
+msgstr "如果驗證工具顯示你的資料集無法被GBIF索引，請先處理驗證報告中提到的問題，再考慮發布到GBIF。即使資料集可以被索引，也建議仔細檢查是否有轉換錯誤等可能影響資料品質的問題。不論是修正一個小錯字，還是解決大規模的系統性問題，只要你發現並修正了錯誤，都歡迎重新提交資料集，次數不限。"
 
 #.  Question 2
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:248
 msgid "What are the reasons for publishing data?"
-msgstr ""
+msgstr "為什麼要發布資料？"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:255
@@ -663,32 +663,36 @@ msgid "- [x] contribute to global knowledge about biodiversity\n"
 "- [ ] holding onto my data until it is perfect\n"
 "- [x] new opportunities for collaboration\n"
 "- [x] make data freely accessible\n"
-msgstr ""
+msgstr "- [x] 貢獻全球生物多樣性知識\n"
+"- [ ] 等資料完美了才發布\n"
+"- [x] 創造新的合作機會\n"
+"- [x] 讓資料能自由取用\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:258
 msgid "How do you become a publisher in the GBIF network?"
-msgstr ""
+msgstr "要怎麼成為GBIF網絡的發布者？"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:263
 #, no-wrap
 msgid "- [ ] email the GBIF helpdesk and wait for endorsement\n"
 "- [x] fill out the _Become a publisher_ form on GBIF.org and wait for endorsement\n"
-msgstr ""
+msgstr "- [ ] 寫信給GBIF服務窗口，等待認證\n"
+"- [x] 填寫GBIF.org的 _成為發布者_ 表單，等待認證\n"
 
 #.  Question 4
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:266
 msgid "There are no requirements for publishing your data on GBIF.org"
-msgstr ""
+msgstr "在GBIF.org發布資料並沒有任何條件限制"
 
 #.  Question 5
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:274
 msgid "What is the GBIF data validator?"
-msgstr ""
+msgstr "GBIF資料驗證工具是什麼？"
 
 #. type: delimited block .
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:280
@@ -696,5 +700,7 @@ msgstr ""
 msgid "- [ ] a tool to publish my data to GBIF\n"
 "- [ ] a tool to turn my data into XML\n"
 "- [x] a tool to check my data for issues\n"
-msgstr ""
+msgstr "- [ ] 把資料發布到GBIF的工具\n"
+"- [ ] 把資料轉成XML的工具\n"
+"- [x] 檢查資料是否有問題的工具\n"
 
