@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-09-10 13:47\n"
+"PO-Revision-Date: 2026-10-17 06:41\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -245,55 +245,55 @@ msgstr "資料存取"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:6
 msgid "In this module, you will learn how GBIF's data is used and accessed.  You will also learn about the handling of data quality and GBIF's data quality flags."
-msgstr ""
+msgstr "本單元將介紹GBIF資料的使用與存取方式，並說明如何處理資料品質問題，以及GBIF的資料品質標記。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:11
 msgid "The GBIF https://www.gbif.org/literature-tracking[literature tracking system^] has identified over 5,000 uses of GBIF mediated data, most of which are in peer-reviewed articles.  The majority of these uses are in the field of ecology, but others relate to climate change, conservation, human health and agriculture.  A systematic review of the use of https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[GBIF-mediated data by Heberling et al. (2020)^] showed:"
-msgstr ""
+msgstr "GBIF的https://www.gbif.org/literature-tracking[文獻追蹤系統^]已找到超過5,000筆經GBIF整合之資料的應用案例，其中大多發表於經同儕審查的論文中。這些應用大多屬於生態學領域，但也有部分與氣候變遷、保育、人類健康及農業相關。Heberling等人（2020年）針對https://www.gbif.org/news/4tJNXqSLYd37InZxyPrU7E/data-integration-enables-global-biodiversity-synthesis[經GBIF整合之資料應用所做的系統性回顧^]顯示："
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:21
 #, no-wrap
 msgid "intro-to-gbif::fig3.png"
-msgstr ""
+msgstr "intro-to-gbif::fig3.png"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:29
 #, no-wrap
 msgid "Accessing GBIF-mediated data"
-msgstr ""
+msgstr "存取經GBIF整合的資料"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:32
 msgid "There are three points of access to GBIF-mediated data: http://www.gbif.org[GBIF.org^], the https://www.gbif.org/developer/summary[Application Programming Interface (API) services^], and https://www.gbif.org/occurrence-snapshots[cloud-based datasets^]."
-msgstr ""
+msgstr "要存取經GBIF整合的資料，有三種管道：https://www.gbif.org[GBIF.org^]網站、https://www.gbif.org/developer/summary[應用程式介面（API）服務^]，以及https://www.gbif.org/occurrence-snapshots[雲端資料集^]。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:34
 msgid "Using the website requires no programming experience and allows for quick and easy search, filter and download functions for GBIF-mediated data, as well as a range of additional tools and metrics that are not available through API services."
-msgstr ""
+msgstr "使用網站不需要任何程式設計經驗，就能快速、輕鬆地搜尋、篩選並下載經GBIF整合的資料，還能使用許多API服務沒有提供的額外工具與指標。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:36
 msgid "API services allow continued access to GBIF-mediated data through other systems and can be the basis for the development of tools that allow for the interrogation of the data."
-msgstr ""
+msgstr "API服務讓其他系統也能持續存取經GBIF整合的資料，並可做為開發資料查詢工具的基礎。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:38
 msgid "Examples include https://www.gbif.org/tool/81747/rgbif[rgbif^], https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^], and https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^], as well as, specialized tools that allow for more specific use cases, such as http://geocat.kew.org/[GeoCat^] for Red List assessments."
-msgstr ""
+msgstr "範例包括https://www.gbif.org/tool/81747/rgbif[rgbif^]、https://www.rdocumentation.org/packages/CoordinateCleaner/versions/2.0-18[CoordinateCleaner^]和https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client[pygbif^]，以及針對特定用途設計的專門工具，例如用於紅皮書評估的http://geocat.kew.org/[GeoCat^]。"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:40
 msgid "With regards to cloud-based datasets, GBIF makes data available on the https://planetarycomputer.microsoft.com/dataset/gbif[Microsoft Planetary Computer (Azure)^], as an https://registry.opendata.aws/gbif/[Amazon AWS Open Dataset^] and on a public https://console.cloud.google.com/storage/browser/public-datasets-gbif[Google GCS bucket^] and https://console.cloud.google.com/marketplace/product/bigquery-public-data/gbif-occurrences[BigQuery table^]. When using cloud-based snapshots, we always recommend creating a https://www.gbif.org/citation-guidelines#derivedDatasets[Derived Dataset citation^] for the records that you use. When referring to the full dataset, please use the appropriate citations as listed on the https://www.gbif.org/occurrence-snapshots[cloud-based datasets^] page."
-msgstr ""
+msgstr "關於基於雲端的資料集，GBIF 透過 https://planetarycomputer.microsoft.com/dataset/gbif[Microsoft Planetary Computer (Azure)^] 提供資料，並以 https://registry.opendata.aws/gbif/[Amazon AWS Open Dataset^] 形式，並存放於公開的 https://console.cloud.google.com/storage/browser/public-datasets-gbif[Google GCS bucket^] 及 https://console.cloud.google.com/marketplace/product/bigquery-public-data/gbif-occurrences[BigQuery 資料表^] 中。 使用基於雲端的快照時，我們建議針對你所使用的記錄建立 https://www.gbif.org/citation-guidelines#derivedDatasets[衍生資料集引用^]。 若要引用完整資料集，請使用https://www.gbif.org/occurrence-snapshots[雲端資料集^] 頁面所列的適當引用格式。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:47
 #, no-wrap
 msgid "intro-to-gbif::downloadoptions.png"
-msgstr ""
+msgstr "intro-to-gbif::downloadoptions.png"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:56
