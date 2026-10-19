@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-07-08 10:28\n"
+"PO-Revision-Date: 2026-09-30 09:07\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -325,390 +325,390 @@ msgstr "Документация"
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:5
 msgid "This module provides information on the importance of documentation."
-msgstr ""
+msgstr "В этом модуле рассматривается важность документирования."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:9
 msgid "In this video (09:47), we will provide an overview of the importance of documentation as it relates to data management and data publishing. You will learn about data mapping, data relationships and metadata."
-msgstr ""
+msgstr "В этом видео (09:47) мы рассмотрим важность документирования в контексте управления данными и их публикации. Вы узнаете о сопоставлении данных, связях между данными и метаданных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:11
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-documentation_v4-720p.mp4[download,opts=download] it locally. (MP4 - 35.2 MB)"
-msgstr ""
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете xref:attachment$foundations-documentation_v4-720p.mp4[download,opts=download] скачать его на свой компьютер. (MP4 — 35,2 МБ)"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:28
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide1.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide1.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:31
 #, no-wrap
 msgid "*Slide 1 - Foundations - Documentation*\n"
-msgstr ""
+msgstr "*Слайд 1 — Основы — Документация*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:33
 msgid "In this presentation, we will provide an overview of the importance of documentation as it relates to data management and data publishing. You will learn about data mapping, data relationships and metadata."
-msgstr ""
+msgstr "В этой презентации мы рассмотрим важность документирования в контексте управления данными и их публикации. Вы узнаете о сопоставлении данных, связях между данными и метаданных."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:34
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide2.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide2.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:37
 #, no-wrap
 msgid "*Slide 2 - Documentation*\n"
-msgstr ""
+msgstr "*Слайд 2 — Документация*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:49
 msgid "In the previous Foundations presentations, we looked at the individual elements that make up both your data and the containers that hold it. Now we’ll look at ways to document those data and what you want to do with it.    According to the director Steven Spielberg,   “People have forgotten how to tell a story. Stories don’t have a middle or an end any more. They usually have a beginning that never stops beginning.” (Steven Spielberg)    Documentation is the story of your project or dataset. There should always be a concrete beginning, middle and end.    In essence you should be able to answer certain questions at specific points:   At the beginning : What did our project aim to do? What was the purpose of creating the dataset?"
-msgstr ""
+msgstr "В предыдущих презентациях раздела «Основы» мы рассмотрели отдельные элементы, из которых состоят ваши данные, а также структуры, в которых они хранятся. Теперь мы рассмотрим способы документирования этих данных и того, что вы планируете с ними делать.    По словам режиссёра Стивена Спилберга (Steven Spielberg):   «Люди разучились рассказывать истории. У историй больше нет ни середины, ни конца. Обычно у них есть начало, которое никак не перестаёт начинаться». (Стивен Спилберг)    Документация — это история вашего проекта или набора данных. У неё всегда должны быть чётко определённые начало, середина и конец. По сути, на каждом этапе вы должны уметь ответить на определённые вопросы: В начале: чего мы хотели достичь в рамках проекта? С какой целью был создан набор данных?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:51
 msgid "In the middle: What did we actually do? What did we achieve?"
-msgstr ""
+msgstr "В середине: что мы фактически сделали? Чего нам удалось достичь?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:53
 msgid "At the end: What didn’t we achieve? Why? What should happen next?"
-msgstr ""
+msgstr "В конце: чего нам не удалось достичь? Почему? Что следует делать дальше?"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:54
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide3.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide3.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:57
 #, no-wrap
 msgid "*Slide 3 - Key concepts*\n"
-msgstr ""
+msgstr "*Слайд 3 — Основные понятия*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:59
 msgid "In order to document your data and render them as fit for use as possible for yourself and future users, you need to follow these three essential steps:"
-msgstr ""
+msgstr "Чтобы документировать данные и сделать их максимально пригодными для использования как вами, так и будущими пользователями, необходимо выполнить три основных шага:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:61
 msgid "Mapping your data to existing formats and standards if necessary"
-msgstr ""
+msgstr "При необходимости сопоставить ваши данные с существующими форматами и стандартами"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:62
 msgid "Planning your data moves"
-msgstr ""
+msgstr "Планирование перемещения данных"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:63
 msgid "Create useful metadata describing your data"
-msgstr ""
+msgstr "Создание информативных метаданных, описывающих ваши данные"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:64
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide4.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide4.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:67
 #, no-wrap
 msgid "*Slide 4 - Mapping data*\n"
-msgstr ""
+msgstr "*Слайд 4 — Сопоставление данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
 msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
-msgstr ""
+msgstr "Сначала мы рассмотрим способы описания ваших данных, затем покажем, как сопоставлять данные при переходе от одной структуры данных к другой, и, наконец, поговорим о том, как документировать метаданные ваших данных.    Начнём с сопоставления данных.    Это процесс, позволяющий определить, каким образом поля одного набора данных могут быть преобразованы в соответствующие поля другого набора данных.    ПСопоставление данных — это «процесс определения исходного поля (или полей) в наборе данных A и соответствующего ему поля (или полей) в наборе данных B».   В этом примере набор данных A состоит из 10 столбцов. В него входят:  "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
 msgid "some integer fields represented by the purple squares,"
-msgstr ""
+msgstr "несколько полей с целочисленными значениями, обозначенных фиолетовыми квадратами,"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:80
 msgid "some boolean fields represented by the red triangles"
-msgstr ""
+msgstr "несколько логических полей, обозначенных красными треугольниками"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:81
 msgid "some date fields represented by blue pentagons"
-msgstr ""
+msgstr "несколько полей с датами, обозначенных синими пятиугольниками"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:82
 msgid "some text fields, green 8 pointed stars"
-msgstr ""
+msgstr "несколько текстовых полей, обозначенных зелёными восьмиконечными звёздами"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:83
 msgid "and some complex fields"
-msgstr ""
+msgstr "и несколько полей со сложной структурой"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:84
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide5.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide5.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:87
 #, no-wrap
 msgid "*Slide 5 - Mapping data*\n"
-msgstr ""
+msgstr "*Слайд 5 — Сопоставление данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:91
 msgid "Dataset B has a different set of fields, 15 in total.    What we need to do is identify which fields in Dataset A match which fields in Dataset B"
-msgstr ""
+msgstr "Набор данных B содержит другой набор полей — всего 15.    Нам необходимо определить, какие поля из набора данных A соответствуют каким полям из набора данных B."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:92
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide6.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide6.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:95
 #, no-wrap
 msgid "*Slide 6 - Mapping A to B*\n"
-msgstr ""
+msgstr "*Слайд 6 — Сопоставление данных из A с B*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:97
 msgid "We do that by describing the relationships."
-msgstr ""
+msgstr "Для этого мы описываем соответствия между полями."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
 msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
-msgstr ""
+msgstr "Например, в наборе данных A есть поле ID, и такое же поле есть в наборе данных B. Мы можем провести линию непосредственно между этими двумя полями. Такое соответствие называется «один к одному».    Вопрос: Видите ли вы другие соответствия «один к одному»? Ответ: State, Exp?, Pink Elephant!   ЕДругой тип соответствия — «один ко многим». В этом случае одно поле в наборе данных A соответствует двум или более полям в наборе данных B. Примером может служить поле Date.    Также встречаются случаи, когда несколько полей набора данных A содержат данные, соответствующие нескольким полям набора данных B. Особенно часто это бывает с полями для примечаний."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide7.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide7.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:110
 #, no-wrap
 msgid "*Slide 7 - Planning data moves - Data relationships*\n"
-msgstr ""
+msgstr "*Слайд 7 — Планирование переноса данных — Связи между данными*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:112
 msgid "In fact there are six relationships:"
-msgstr ""
+msgstr "На самом деле существует шесть типов связей:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:114
 msgid "Some fields will map one-to-one (1:1), meaning that the original column in dataset A exactly matches another one in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «один к одному» (1:1), то есть исходный столбец в наборе данных A точно соответствует одному столбцу в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:115
 msgid "Some fields will map many-to-one (∞:1) , meaning that some columns in dataset A can be merged (or concatenated) to match a single one in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «многие к одному» (∞:1), то есть несколько столбцов в наборе данных A могут быть объединены (или соединены) в один соответствующий столбец в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:116
 msgid "Some fields will map one-to-many (1:∞), meaning that one column in dataset A will have to be split into two or more fields in order to match the fields in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «один ко многим» (1:∞), то есть один столбец в наборе данных A необходимо разделить на два или более полей, чтобы они соответствовали полям в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:117
 msgid "Some fields might not exist yet zero-to-one (0:1), meaning that some information are not present in dataset A and need to be added in a new column to match an existing field in dataset B"
-msgstr ""
+msgstr "Некоторые поля могут пока отсутствовать — соответствие «ноль к одному» (0:1), то есть определённая информация отсутствует в наборе данных A и должна быть добавлена в новый столбец, соответствующий существующему полю в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:118
 msgid "Some fields might not have a place to go one-to-zero (1:0), meaning that some information present in dataset A does not match any existing field on dataset B"
-msgstr ""
+msgstr "Некоторые поля могут не иметь соответствующего поля — соответствие «один к нулю» (1:0), то есть определённая информация, присутствующая в наборе данных A, не соответствует ни одному существующему полю в наборе данных B"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:119
 msgid "Some fields will map many-to-many (∞ : ∞), meaning that information in dataset A is scattered in different fields, which do not match exactly existing ones in dataset B"
-msgstr ""
+msgstr "Некоторые поля будут иметь соответствие «многие ко многим» (∞:∞), то есть информация в наборе данных A распределена по нескольким полям, которые не имеют точного соответствия полям в наборе данных B"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:120
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide8.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide8.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:123
 #, no-wrap
 msgid "*Slide 8 - Planning data moves - Transformations*\n"
-msgstr ""
+msgstr "*Слайд 8 — Планирование переноса данных — Преобразования*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:125
 msgid "Each of the relationship types has its own nuances as to how you are going to have to handle them."
-msgstr ""
+msgstr "Каждый тип соответствия имеет свои особенности, которые необходимо учитывать при преобразовании данных."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:127
 msgid "one-to-one (1:1) - Beware your field types. If they are the not the same. You will need to do some manipulation."
-msgstr ""
+msgstr "один к одному (1:1) — обратите внимание на типы полей. Если они не совпадают, вам придётся выполнить некоторые преобразования."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:128
 msgid "many-to-one (∞:1) - These fields will need to joined together to go into the field."
-msgstr ""
+msgstr "«многие к одному» (∞:1) — данные из этих полей необходимо объединить, чтобы поместить их в одно поле."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:129
 msgid "one-to-many (1:∞) - These fields will need to be split apart and put in to different fields"
-msgstr ""
+msgstr "«один ко многим» (1:∞) — данные из этих полей необходимо разделить и поместить в разные поляя"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:130
 msgid "zero-to-one (0:1) - Work out how (or if) you can even fill these in. Is the data mixed into a notes field? If so how do you get it out?"
-msgstr ""
+msgstr "«ноль-к-одному» (0:1) — определите, каким образом (и возможно ли вообще) заполнить эти поля. Возможно, нужная информация содержится в поле для примечаний? Если да, то как её оттуда извлечь?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:131
 msgid "one-to-zero (1:0) - Either throw away the data or add a field.You might not even have a home in the other dataset. Do/Can you create a new field?"
-msgstr ""
+msgstr "один к нулю (1:0) — либо исключите эти данные, либо добавьте новое поле. В другом наборе данных для этой информации может вообще не быть подходящего поля. Нужно ли и можно ли создать новое поле?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:132
 msgid "many-to-many (∞ : ∞) - “for the love of a higher being!” This usually means that your incoming data is very messy and will take time to clean before you can map it."
-msgstr ""
+msgstr "«многие-ко-многим» (∞ : ∞) — «ради всего святого!» Обычно это означает, что ваши исходные данные очень неупорядочены и потребуется время, чтобы очистить их, прежде чем можно будет выполнить сопоставление."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:133
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide9.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide9.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:136
 #, no-wrap
 msgid "*Slide 9 - Planning data moves - Mapping document*\n"
-msgstr ""
+msgstr "*Слайд 9 — Планирование переноса данных — Документ сопоставления данных*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:138
 msgid "This is an example of what a mapping document looks like. Notice that not only do we document the relationships we also articulate (to the best of our knowledge) what should be done to the data."
-msgstr ""
+msgstr "Это пример того, как выглядит документ сопоставления данных. Обратите внимание, что мы не только документируем соответствия между полями, но и описываем (насколько позволяют имеющиеся у нас знания), какие преобразования необходимо выполнить с данными."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:139
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide10.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide10.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:142
 #, no-wrap
 msgid "*Slide 10 - Metadata*\n"
-msgstr ""
+msgstr "*Слайд 10 — Метаданные*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:146
 msgid "We’ve talked a lot about documenting the structures that hold your data but you must also document the information that gives context. This is called metadata and is data about your data!   As we mention in the section on data quality your ”Metadata must be rich enough to allow data (re)use by a third party without them having to refer to the data source.”"
-msgstr ""
+msgstr "Мы много говорили о документировании структур, в которых хранятся ваши данные, однако необходимо также документировать информацию, которая описывает контекст этих данных. Такая информация называется метаданными, то есть данными о ваших данных!   Как мы уже отмечали в разделе, посвящённом качеству данных, «метаданные должны быть достаточно подробными, чтобы третья сторона могла использовать или повторно использовать данные без необходимости обращаться к их источнику»."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:147
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide11.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide11.png"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:150
 #, no-wrap
 msgid "*Slide 11 - Metadata*\n"
-msgstr ""
+msgstr "*Слайд 11 — Метаданные*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:152
 msgid "We will discuss this in more detail in later sessions but as a quick guide good documentation should include:"
-msgstr ""
+msgstr "Мы более подробно рассмотрим этот вопрос в следующих разделах, а пока в качестве краткого ориентира отметим, что хорошая документация должна включать:"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:154
 msgid "A title – Which should be descriptive, memorable and if possible unique. Dates are good to include in a dataset name for example to allow you to track versions."
-msgstr ""
+msgstr "Название — оно должно быть информативным, запоминающимся и, по возможности, уникальным. Например, в название набора данных полезно включать даты, поскольку это позволяет отслеживать его версии."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:155
 msgid "A narrative – Should describe the rationale for the creation of the dataset. It should include at least general information about spatial, temporal and taxonomic coverage and give the potential user a broad picture of uses that may be appropriate for the data without further transformation."
-msgstr ""
+msgstr "Описание — должно объяснять цели создания набора данных. Оно должно содержать как минимум общую информацию о географическом, временном и таксономическом охвате и давать потенциальному пользователю общее представление о том, для каких целей эти данные могут использоваться без дополнительного преобразования."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:156
 msgid "Source information – If you did not collect or measure the data yourself, where or who did you get if from?"
-msgstr ""
+msgstr "Информация об источнике — если вы не сами собирали или получали эти данные в результате измерений, то откуда или от кого они были получены?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:157
 msgid "Lineage – Does the dataset have a history? Have any of the fields been transformed in any way from the original?"
-msgstr ""
+msgstr "Происхождение данных — есть ли у набора данных история? Были ли какие-либо поля каким-либо образом преобразованы по сравнению с исходными данными?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:158
 msgid "Statement of accuracy – Using the concepts of accuracy, precision, errors and uncertainty that we discussed previously, are there any issues with the dataset that should be known to a user?"
-msgstr ""
+msgstr "Сведения о точности — с учётом понятий точности, прецизионности, ошибок и неопределённости, которые мы обсуждали ранее, есть ли в наборе данных какие-либо особенности или проблемы, о которых следует знать пользователю?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:159
 msgid "Dates and life expectancy – When will the dataset be available? How long is it valid for? When if ever will it be updated?"
-msgstr ""
+msgstr "Даты и срок актуальности — когда набор данных станет доступен? Как долго он будет оставаться актуальным? Когда и будет ли он вообще обновляться?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:160
 msgid "Field Definitions – Describing the format of fields and what kind of data each contains. Was any cleaning or transformation down to the original data? This is important for you to know if you are mapping it to a standard such as Darwin Core."
-msgstr ""
+msgstr "Определения полей — описание формата полей и того, какие данные содержатся в каждом из них. Проводилась ли очистка или преобразование исходных данных? Это важно знать при сопоставлении данных со стандартом, таким как Darwin Core."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:161
 msgid "Collection methodology – How was the data collected? Where there protocols used which will affect its fitness for use?"
-msgstr ""
+msgstr "Методика сбора данных — как были собраны данные? Использовались ли при их сборе определённые протоколы, которые могут повлиять на пригодность данных для использования?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:162
 msgid "Statement of completeness – What is missing from the data and why?"
-msgstr ""
+msgstr "Сведения о полноте данных — какая информация отсутствует в данных и почему?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:163
 msgid "Conditions of use and constraints – Where and how can you use the data? For most portals and GBIF in particular data must use very open licensing, so understanding the requirements of data owners and their institutions is very important."
-msgstr ""
+msgstr "Условия использования и ограничения — где и каким образом можно использовать данные? Большинство порталов, и в частности GBIF, требуют использования максимально открытых лицензий, поэтому очень важно понимать требования владельцев данных и организаций, которым они принадлежат."
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:164
 msgid "Custodianship/Contact information – This should be the institution responsible for the dataset as presented to you, as well as (if possible) the individual who created the dataset. There should also be a technical contact who is responsible for the publication of the dataset."
-msgstr ""
+msgstr "Ответственные лица и контактная информация — следует указать организацию, ответственную за предоставленный вам набор данных, а также, по возможности, человека, который создал этот набор данных. Кроме того, необходимо указать контактное лицо по техническим вопросам, отвечающее за публикацию набора данных."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:165
 #, no-wrap
 msgid "foundations::foundations-documentation-Slide12.png"
-msgstr ""
+msgstr "foundations::foundations-documentation-Slide12.png"
 
 #. type: Plain text
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:168
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:126
 #, no-wrap
 msgid "*Slide 12 - Conclusion*\n"
-msgstr ""
+msgstr "*Слайд 12 — Заключение*\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:172
 msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sharon Grant and has been narrated by Sophie Pamerlon."
-msgstr ""
+msgstr "Это видео является частью серии презентаций, используемых в курсе GBIF по мобилизации данных о биоразнообразии. Учебная программа по мобилизации данных о биоразнообразии была первоначально разработана в рамках Программы развития информационных ресурсов по биоразнообразию, финансируемой Европейским союзом.    Эта презентация была первоначально подготовлена Шэрон Грант (Sharon Grant). Текст презентации озвучила Софи Памерлон (Sophie Pamerlon)н."
 
