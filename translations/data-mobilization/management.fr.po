@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-10-19 05:52\n"
+"PO-Revision-Date: 2026-10-19 07:30\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -961,164 +961,164 @@ msgstr "Photo : Microporus xanthopus (Fr.) Kuntze, observé en Thaïlande par Ja
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:318
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide8.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide8.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:321
 #, no-wrap
 msgid "*Slide 8 - Tools - taxonomic*\n"
-msgstr ""
+msgstr "*Diapositive 8 - Outils - taxonomiques*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:323
 msgid "Here we look at some useful tools for checking taxonomy within your data."
-msgstr ""
+msgstr "Nous allons ici passer en revue quelques outils utiles pour vérifier la taxonomie de vos données."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:325
 msgid "The GBIF Name Parser allows you to divide scientific name into its individual parts."
-msgstr ""
+msgstr "Le \"GBIF Name Parser\" permet de décomposer un nom scientifique en ses différents éléments."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:327
 msgid "The Global Names Resolver uses fuzzy matching to show the accepted taxon or synonym."
-msgstr ""
+msgstr "Le \"Global Names Resolver\" utilise une recherche par correspondance approximative pour identifier le taxon accepté ou son synonyme."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:329
 msgid "The Catalogue of Life checklist bank offers a name matching tool. It indicates matches found within the checklist bank to the provided list of names and returns back the match along with higher taxonomy."
-msgstr ""
+msgstr "Le ChecklistBank du Catalogue of Life propose un outil de mise en correspondance des noms. Il compare une liste de noms fournie avec les listes de référence disponibles, puis renvoie les correspondances trouvées ainsi que leur classification taxonomique supérieure."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:331
 msgid "In addition to these tools, there are tools that deal with specific taxonomic thematic categories like the iPlant Taxonomic Name Resoluton and the World Register of Marine Species."
-msgstr ""
+msgstr "D’autres outils sont spécialisés dans des groupes taxonomiques particuliers, comme iPlant Taxonomic Name Resolution pour les plantes et le World Register of Marine Species (WoRMS) pour les espèces marines."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:332
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide9.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide9.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:335
 #, no-wrap
 msgid "*Slide 9 - Transforming DMS to decimal format*\n"
-msgstr ""
+msgstr "*Diapositive 9 - Conversion des coordonnées DMS au format décimal*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:337
 msgid "Often you will find within your datasets, that coordinates have been stored in the degrees minutes seconds format (otherwise known as DMS) and you will need to convert this to decimal degrees to starndarize the data for the Darwin Core fields of decimalLatitude and decimalLongitude. You can do this yourself using this mathematical formula."
-msgstr ""
+msgstr "Dans vos jeux de données, les coordonnées sont souvent enregistrées au format \"degrés, minutes, secondes (DMS)\". Vous devrez les convertir en \"degrés décimaux\" afin de les standardiser pour les champs Darwin Core \"decimalLatitude\" et \"decimalLongitude\". Vous pouvez effectuer cette conversion à l’aide de la formule mathématique suivante."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:339
 msgid "Decimal degrees = (minutes + arc-minutes/60 + arc-seconds/3600) * hemisphere"
-msgstr ""
+msgstr "Degrés décimaux = (degrés + minutes d’arc/60 + secondes d’arc/3600) × signe de l’hémisphère"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:341
 msgid "Hemisphere longitudinal: west = -1; east = 1"
-msgstr ""
+msgstr "Hémisphère longitudinal : Ouest = -1 ; Est = 1"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:342
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide10.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide10.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:345
 #, no-wrap
 msgid "*Slide 10 - Tools - georeferencing*\n"
-msgstr ""
+msgstr "*Diapositive 10 - Outils - géoréférencement*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:347
 msgid "However, there are tools online that can help you with geoferencing and the conversion of coordinates."
-msgstr ""
+msgstr "Il existe toutefois des outils en ligne qui peuvent vous aider à géoréférencer vos données et à convertir les coordonnées."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:349
 msgid "CRIA’s Species link hosts a variety of data cleaning tools. infoXY can help to get locality information using geographic coordinates."
-msgstr ""
+msgstr "Le portail speciesLink du CRIA propose plusieurs outils de nettoyage des données. L’outil infoXY permet d’obtenir des informations sur une localité à partir de ses coordonnées géographiques."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:351
 msgid "The Georeferencing Calculator is a tool created to aid in the georeferencing of descriptive localities such as those found in museum-based natural history collections."
-msgstr ""
+msgstr "Le \"Georeferencing Calculator\" est un outil conçu pour faciliter le géoréférencement des localités décrites sous forme de texte, comme celles figurant dans les collections d’histoire naturelle des musées."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:353
 msgid "Additionally, you may also find Google Maps or Google Earth useful. Google Maps contains all of the navigation, mapping power and points of interest with just a small hint of satellite imagery, while Google Earth has complete 3D satellite data and just a small subset of information on places, without any point-to-point navigation."
-msgstr ""
+msgstr "Google Maps et Google Earth peuvent également être utiles. Google Maps propose des fonctions de navigation et de cartographie ainsi que de nombreux points d’intérêt, avec un aperçu limité des images satellites. Google Earth offre surtout une visualisation complète en 3D à partir d’images satellites, mais fournit moins d’informations sur les lieux et ne propose pas de navigation détaillée d’un point à un autre."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:355
 msgid "As we do not teach georeferencing in this course, it is recommended that you review the Georeferencing documentation, available on the GBIF website before completing any large scale georeferencing project."
-msgstr ""
+msgstr "Le géoréférencement n’étant pas enseigné dans cette formation, nous vous recommandons de consulter la documentation disponible sur le site du GBIF avant d’entreprendre tout projet de géoréférencement à grande échelle."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:356
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide11.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide11.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:359
 #, no-wrap
 msgid "*Slide 11 - Coordinate and date conversion*\n"
-msgstr ""
+msgstr "*Diapositive 11 - Conversion des coordonnées et des dates*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:361
 msgid "Canadensys offers two tools that can help with both Coordinate and Date conversion."
-msgstr ""
+msgstr "Canadensys propose deux outils permettant de convertir les coordonnées et les dates."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:362
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide12.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide12.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:365
 #, no-wrap
 msgid "*Slide 12 - Command line tools*\n"
-msgstr ""
+msgstr "*Diapositive 12 - Outils en ligne de commande*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:367
 msgid "Operating systems come with their own set of command line consoles. Additionally, many desktop tools provide command line functionality to be used within those consoles. Command line tools are great for scripting to automate processes."
-msgstr ""
+msgstr "Les systèmes d’exploitation disposent de leurs propres consoles de ligne de commande. De nombreux logiciels de bureau proposent également des fonctions accessibles depuis ces consoles. Ces outils sont particulièrement utiles pour créer des scripts et automatiser certaines tâches."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:368
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide13.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide13.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:371
 #, no-wrap
 msgid "*Slide 13 - Review*\n"
-msgstr ""
+msgstr "*Diapositive 13 - Récapitulatif*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:373
 msgid "Remember there are many, many sources for validating, cleaning and standardizing your data. Until you develop your preferred list of tried and trusted tools, remember to explore many options."
-msgstr ""
+msgstr "Il existe de nombreuses ressources pour valider, nettoyer et standardiser vos données. En attendant de constituer votre propre liste d’outils fiables et éprouvés, n’hésitez pas à explorer différentes options."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:375
 msgid "Photo: Cheilinus fasciatus (Bloch, 1791) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr ""
+msgstr "Photo : Cheilinus fasciatus (Bloch, 1791) observé en Thaïlande par Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:376
 #, no-wrap
 msgid "data-mobilization::management-tools-Slide14.png"
-msgstr ""
+msgstr "data-mobilization::management-tools-Slide14.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:379
@@ -1130,39 +1130,40 @@ msgstr "*Diapositive 14 - Conclusion*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:383
 msgid "This is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Nestor Beltran with additional contributions by Sophie Pamerlon and David Bloom, BID and BIFA Trainers, Mentors and Students."
-msgstr ""
+msgstr "Cette présentation fait partie d’une série utilisée dans le cadre de la formation du GBIF sur la mobilisation des données sur la biodiversité. Le programme de cette formation a été initialement élaboré dans le cadre de Biodiversity Information for Development (BID), une initiative financée par l’Union européenne.\n"
+"Cette présentation a été créée à l’origine par Nestor Beltran, avec les contributions complémentaires de Sophie Pamerlon, de David Bloom, ainsi que des formateurs, mentors et participants aux programmes BID et BIFA."
 
 #. type: Title ===
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:387
 #, no-wrap
 msgid "Exercise 2b"
-msgstr ""
+msgstr "Exercice 2b"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:392
 msgid "For this exercise, you will practice cleaning data using Excel and other helpful tools."
-msgstr ""
+msgstr "Dans cet exercice, vous vous entraînerez à nettoyer des données à l’aide d’Excel et d’autres outils utiles."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:395
 #, no-wrap
 msgid "*Data cleaning with Excel*\n"
-msgstr ""
+msgstr "*Nettoyage des données avec Excel*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:397
 msgid "SBN has given you a checklist of data quality elements to verify:"
-msgstr ""
+msgstr "SBN vous a fourni une liste de contrôle des éléments relatifs à la qualité des données à vérifier :"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:399
 msgid "All names are correctly spelled and are butterflies"
-msgstr ""
+msgstr "Tous les noms sont correctement orthographiés et correspondent bien à des papillons"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:400
 msgid "All names are complete"
-msgstr ""
+msgstr "Tous les noms sont complets"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:401
@@ -1177,27 +1178,27 @@ msgstr "Toutes les dates sont dans la colonne appropriée et au format AAAA-MM-J
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:404
 msgid "Refer to <<Helpful tools>> in order to complete the exercise. It is suggested to use the https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], the http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] and http://splink.cria.org.br/infoxy?criaLANG=en[InfoXY^]. You are not limited to these tools, you may use any tools you like."
-msgstr ""
+msgstr "Consultez la page <<Helpful tools>> pour réaliser cet exercice. Il est recommandé d'utiliser l'outil https://www.gbif.org/tools/species-lookup[GBIF Species Matching tool^], le http://data.canadensys.net/tools/coordinates[Canadensys Coordinate Converter^] et le site http://splink.cria.org.br/infoxy?criaLANG=en[InfoXY^]. Vous n'êtes pas limité à ces outils ; vous pouvez utiliser ceux de votre choix."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:405
 msgid "Continue using the same file from the previous exercise."
-msgstr ""
+msgstr "Utilisez le même fichier que pour l'exercice précédent."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:406
 msgid "Correct any additional errors found in the dataset and document the changes you perform in the exercise sheet."
-msgstr ""
+msgstr "Corrigez toute autre erreur repérée dans le jeu de données et notez les modifications effectuées dans la feuille d’exercice."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:413
 msgid "In this video (03:27), you will learn about https://openrefine.org/[OpenRefine^]. You can use OpenRefine to standardize and improve the quality of your data. Subtitles for this video are available in French and Spanish."
-msgstr ""
+msgstr "Dans cette vidéo (03:27), vous découvrirez https://openrefine.org/[OpenRefine^]. Vous pouvez utiliser OpenRefine pour harmoniser et améliorer la qualité de vos données. Les sous-titres de cette vidéo sont disponibles en français et en espagnol."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:415
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 7.7 MB)"
-msgstr ""
+msgstr "Si vous ne parvenez pas à visionner la vidéo intégrée, vous pouvez la télécharger localement via le lien suivant :$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download]. Si vous la téléchargez localement, les sous-titres ne seront pas disponibles. (MP4 - 7,7 Mo)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:434
@@ -1231,34 +1232,34 @@ msgstr "*Diapositive 2 - OpenRefine*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:445
 msgid "Previously known as Google Refine; it is now Open access and open sourced. OpenRefine can be used for data cleaning and standardization. You can find it at openrefine.org."
-msgstr ""
+msgstr "Auparavant appelé Google Refine, OpenRefine est désormais un logiciel libre et gratuit. Il permet de nettoyer et de standardiser les données. Vous pouvez le télécharger sur openrefine.org."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:446
 #, no-wrap
 msgid "data-mobilization::management-openrefine-Slide3.png"
-msgstr ""
+msgstr "data-mobilization::management-openrefine-Slide3.png"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:449
 #, no-wrap
 msgid "*Slide 3 - What is OpenRefine?*\n"
-msgstr ""
+msgstr "*Diapositive 3 - Qu'est-ce que OpenRefine ?*\n"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:451
 msgid "OpenRefine is a powerful tool for working with messy data."
-msgstr ""
+msgstr "OpenRefine est un outil performant pour nettoyer et organiser des données désordonnées."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:453
 msgid "OpenRefine supports faceted browsing as a mechanism for seeing a big picture of your data, and filtering down to just the subset of rows that you want to change in bulk."
-msgstr ""
+msgstr "Grâce aux facettes, OpenRefine permet d’avoir une vue d’ensemble des données, puis de sélectionner uniquement les lignes que vous souhaitez modifier en une seule opération."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:455
 msgid "The clustering feature works by trying to group the choices in the text facet, so that choices that \"look similar\" get grouped together."
-msgstr ""
+msgstr "La fonction de regroupement (clustering) tente de réunir les valeurs similaires d’une facette textuelle dans un même groupe."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:457
