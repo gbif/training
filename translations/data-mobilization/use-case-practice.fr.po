@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-10-20 02:58\n"
+"PO-Revision-Date: 2026-10-20 03:53\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -213,73 +213,76 @@ msgstr "data-mobilization::uc-practice-visit-indicators.png"
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:41
 msgid "The monitoring scheme implements two established methods: fixed-route Pollard walk transects and point site counts. The same method is used at a site each year. These methods are described in Pollard and Yates (1993) and Pettersson et al. (2011 and 2022) and enable the monitoring scheme to assess yearly changes in (1) the number of butterflies seen and (2) species composition."
-msgstr ""
+msgstr "Le programme de suivi utilise deux méthodes reconnues : les transects fixes de type Pollard et les comptages par points. La même méthode est appliquée chaque année sur un site donné.\n"
+"Ces méthodes, décrites par Pollard et Yates (1993) ainsi que par Pettersson et al. (2011 et 2022), permettent d’évaluer les variations annuelles (1) du nombre de papillons observés et (2) de la composition en espèces."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:43
 #, no-wrap
 msgid "*Fixed-route Pollard walk transects*\n"
-msgstr ""
+msgstr "*Transects à parcours fixe de type Pollard*\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:45
 msgid "Fixed-route Pollard walk transects are pre-defined routes typically 0.5-3 km in length. Surveyors follow the transect at a steady pace and identify all the butterflies observed up to 5 m in front, 5 m above, and 2.5 m to each side (see the figure below)."
-msgstr ""
+msgstr "Les transects à parcours fixe de type Pollard suivent des itinéraires prédéfinis, d’une longueur généralement comprise entre 0,5 et 3 km. Les observateurs parcourent le transect à vitesse constante et recensent tous les papillons détectés dans une zone allant jusqu’à 5 m devant eux, 5 m en hauteur et 2,5 m de chaque côté (voir la figure ci-dessous)."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:47
 msgid "A transect can be any shape, including a loop. Each transect is inventoried once per visit. Some transects are divided into segments that typically represent a change in habitat. For example, a loop that follows a forest road, over a clearing, and then out onto a bog will have three segments. Each segment is inventoried once per visit."
-msgstr ""
+msgstr "Un transect peut suivre n’importe quel tracé, y compris une boucle. Il est parcouru et inventorié une seule fois à chaque visite.\n"
+"Certains transects sont divisés en plusieurs segments, généralement lorsque le type d’habitat change. Par exemple, un parcours en boucle qui longe une route forestière, traverse une clairière puis une tourbière comprend trois segments. Chacun de ces segments est inventorié une fois par visite."
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:49
 #, no-wrap
 msgid "A butterfly monitor walking its loop. While walking at a slow walking pace, they identify and count all the butterflies observed in the zone identified by the dashed gray lines: 2.5 m on each side, 5 m ahead, and 5 m above the observer. Illustration: Måns Sjöberg. Source: Figures A1, Appendix 1, Pettersson et al. 2011 and  3, Appendix 1, Pettersson et al. 2022."
-msgstr ""
+msgstr "Un observateur de papillons parcourant son circuit en boucle. Tout en avançant lentement, il identifie et compte tous les papillons observés dans la zone délimitée par les lignes grises en pointillés : 2,5 m de chaque côté, 5 m devant lui et 5 m au-dessus de lui.\n"
+"Illustration : Måns Sjöberg. Source : figure A1, annexe 1, Pettersson et al., 2011, et figure 3, annexe 1, Pettersson et al., 2022."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:50
 #, no-wrap
 msgid "data-mobilization::uc-practice-pollard-walks.png"
-msgstr ""
+msgstr "data-mobilization::uc-practice-pollard-walks.png"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:53
 msgid "Each survey log from a fixed-route Pollard walk survey will include the following information:"
-msgstr ""
+msgstr "Chaque fiche d'inventaire d’un transect fixe de type Pollard contient les informations suivantes :"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:55
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:81
 msgid "Survey date"
-msgstr ""
+msgstr "Date de l’inventaire"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:56
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:82
 msgid "Site coordinates in EPSG:3857 representing the center point of the site"
-msgstr ""
+msgstr "Coordonnées géographiques du centre du site, exprimées dans le système de référence EPSG:3857"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:57
 msgid "Start time/end time for each segment (if applicable) otherwise for the full survey"
-msgstr ""
+msgstr "Heure de début et de fin pour chaque segment (s’il y en a) sinon pour la totalité de l’inventaire"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:58
 msgid "Weather conditions during each segment (if applicable) otherwise for the full survey"
-msgstr ""
+msgstr "Conditions météorologiques pour chaque segment (s’il y en a) sinon pour l’ensemble de l’inventaire"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:59
 msgid "A list of species observed and the total number of each species observed in each segment (if applicable) otherwise for the full survey. Surveys or segments where no butterflies were observed will include a note that zero butterflies were observed."
-msgstr ""
+msgstr "Liste des espèces recensées et nombre total d’individus observés pour chaque espèce, par segment (s’il y en a), sinon pour l’ensemble de l’inventaire. Si aucun papillon n’a été observé, la fiche précise que le nombre d’individus recensés est égal à zéro."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:61
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:87
 msgid "Unusual or difficult to identify species are marked on survey logs with an asterisk (*) and a photo is submitted by the surveyor for identification assistance. If the surveyor was unable to get a photo, the butterfly is reported as an ‘indeterminate butterfly’."
-msgstr ""
+msgstr "Les espèces inhabituelles ou difficiles à identifier sont signalées par un astérisque (*) sur les fiches d’inventaire. L’observateur transmet également une photo afin d’obtenir de l’aide pour l’identification. S’il n’a pas pu prendre de photo, le papillon est enregistré comme « papillon indéterminé »."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/use-case-practice.adoc:63
