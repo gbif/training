@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-10-20 13:09\n"
+"PO-Revision-Date: 2026-10-20 14:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -25,48 +25,48 @@ msgstr "Обеспечение качества данных"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:7
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and the occurrence search has a set of additional \"Advanced\" search filters with more criteria or options available.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise.  Below are some common data filters that you as a user might consider to make the data more fit for use."
-msgstr ""
+msgstr "Фильтрация данных позволяет пользователю отобрать данные, наиболее подходящие для решения конкретной задачи. Во всех типах поиска предусмотрен набор фильтров, которые помогают находить необходимые данные. Кроме того, при поиске записей о находках доступны дополнительные фильтры расширенного поиска («Advanced»), предоставляющие более широкий выбор критериев и параметров.  Хотя фильтры позволяют исключить данные, которые могут быть нерелевантными или недостаточно качественными для ваших целей, для устранения дополнительных проблем с качеством данных может потребоваться дальнейшая фильтрация — вручную или программными средствами. Ниже приведены некоторые распространённые фильтры, которые можно использовать для отбора данных, наиболее подходящих для ваших задач."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:8
 #, no-wrap
 msgid "Geospatial filters & issues"
-msgstr ""
+msgstr "Пространственные фильтры и связанные с ними проблемы"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:11
 msgid "The data can be filtered spatially in an occurrence search in one of three ways:"
-msgstr ""
+msgstr "При поиске записей о находках пространственная фильтрация данных может выполняться тремя способами:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:13
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)."
-msgstr ""
+msgstr "Страна или территория/континент — данные фильтруются по стране, включая сведения в пределах её исключительной экономической зоны (ИЭЗ)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:15
 msgid "Administrative area - this filter uses the https://gadm.org/data.html[GADM database of administrative areas^] for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "Административная территория — этот фильтр использует https://gadm.org/data.html[базу данных административных границ GADM^], охватывающую все страны мира, и позволяет выполнять поиск по административным территориям."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:16
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter."
-msgstr ""
+msgstr "Местоположение — этот фильтр позволяет отбирать записи с координатами, а также самостоятельно задавать границы области поиска, нарисовав полигон или загрузив файл GeoJSON."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:19
 msgid "If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "Если при поиске выбрать только записи с координатами, можно исключить ряд пространственных ошибок, возникающих в процессе публикации данных. К ним относятся:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:22
 msgid "Zero Coordinates — Coordinates are exactly (0,0) or what is sometimes called a \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasGeospatialIssues is set to FALSE."
-msgstr ""
+msgstr "Нулевые координаты (Zero Coordinates) — координаты равны ровно (0,0), соответствующие точке, которую иногда называют «нулевым островом» (Null Island). Нулевые координаты — одна из наиболее распространённых пространственных ошибок. GBIF исключает записи с координатами (0,0), если для параметра `hasGeospatialIssues` установлено значение FALSE."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:25
 msgid "Country coordinate mismatch — Data publishers often supply GBIF with a country code (US,TW,SE,JP…, etc.).  GBIF uses the two-letter https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] coding system.  When a point does not fall within the country’s polygon or EEZ but says that it should occur within the country, it gets flagged as having “country coordinate mismatch” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Несоответствие координат указанной стране (Country coordinate mismatch) — при публикации данных в GBIF поставщики часто указывают код страны (US, TW, SE, JP и т. д.).  GBIF использует двухбуквенные https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2^] коды стран.  Если координаты точки находятся за пределами территории указанной страны или её исключительной экономической зоны (ИЭЗ), запись помечается как содержащая ошибку «несоответствие координат указанной стране» (country coordinate mismatch) и исключается из результатов при фильтрации данных по местоположению."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:26
