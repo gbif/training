@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-30 09:07\n"
+"PO-Revision-Date: 2026-10-19 12:50\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -369,7 +369,7 @@ msgstr "*Слайд 2 — Документация*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:49
 msgid "In the previous Foundations presentations, we looked at the individual elements that make up both your data and the containers that hold it. Now we’ll look at ways to document those data and what you want to do with it.    According to the director Steven Spielberg,   “People have forgotten how to tell a story. Stories don’t have a middle or an end any more. They usually have a beginning that never stops beginning.” (Steven Spielberg)    Documentation is the story of your project or dataset. There should always be a concrete beginning, middle and end.    In essence you should be able to answer certain questions at specific points:   At the beginning : What did our project aim to do? What was the purpose of creating the dataset?"
-msgstr "В предыдущих презентациях раздела «Основы» мы рассмотрели отдельные элементы, из которых состоят ваши данные, а также структуры, в которых они хранятся. Теперь мы рассмотрим способы документирования этих данных и того, что вы планируете с ними делать.    По словам режиссёра Стивена Спилберга (Steven Spielberg):   «Люди разучились рассказывать истории. У историй больше нет ни середины, ни конца. Обычно у них есть начало, которое никак не перестаёт начинаться». (Стивен Спилберг)    Документация — это история вашего проекта или набора данных. У неё всегда должны быть чётко определённые начало, середина и конец. По сути, на каждом этапе вы должны уметь ответить на определённые вопросы: В начале: чего мы хотели достичь в рамках проекта? С какой целью был создан набор данных?"
+msgstr "В предыдущих презентациях раздела «Основы» мы рассмотрели отдельные элементы, из которых состоят ваши данные, а также структуры, в которых они хранятся. Теперь мы рассмотрим способы документирования этих данных и того, что вы планируете с ними делать.    По словам режиссёра Стивена Спилберга (Steven Spielberg):   «Люди разучились рассказывать истории. У историй больше нет ни середины, ни конца. Обычно у них есть начало, которое никак не перестаёт начинаться». (Стивен Спилберг)    Документация — это история вашего проекта или набора данных.  У неё всегда должны быть чётко определённые начало, середина и конец.  По сути, на каждом этапе вы должны уметь ответить на определённые вопросы: В начале: чего мы хотели достичь в рамках проекта? С какой целью был создан набор данных?"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:51
@@ -428,7 +428,7 @@ msgstr "*Слайд 4 — Сопоставление данных*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:78
 msgid "We will begin by looking at ways to describe your data, then we will show how to map your data from one data structure to another and finally talk about how to record metadata about your data.    First is mapping data.    This is the process that you will use to describe how the attributes in your dataset can be transformed into attributes in a different one.    Mapping data is the “Process of Identifying the start field(s) within dataset A, and its (their) corresponding field(s) in dataset B.”   In this example Dataset A has 10 columns. There are:  "
-msgstr "Сначала мы рассмотрим способы описания ваших данных, затем покажем, как сопоставлять данные при переходе от одной структуры данных к другой, и, наконец, поговорим о том, как документировать метаданные ваших данных.    Начнём с сопоставления данных.    Это процесс, позволяющий определить, каким образом поля одного набора данных могут быть преобразованы в соответствующие поля другого набора данных.    ПСопоставление данных — это «процесс определения исходного поля (или полей) в наборе данных A и соответствующего ему поля (или полей) в наборе данных B».   В этом примере набор данных A состоит из 10 столбцов. В него входят:  "
+msgstr "Сначала мы рассмотрим способы описания ваших данных, затем покажем, как сопоставлять данные при переходе от одной структуры данных к другой, и, наконец, поговорим о том, как документировать метаданные ваших данных.    Начнём с сопоставления данных.    Это процесс, позволяющий определить, каким образом поля одного набора данных могут быть преобразованы в соответствующие поля другого набора данных.    ПСопоставление данных — это «процесс определения исходного поля (или полей) в наборе данных A и соответствующего ему поля (или полей) в наборе данных B».   В этом примере набор данных A состоит из 10 столбцов. В него входят:  "
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:79
@@ -470,7 +470,7 @@ msgstr "*Слайд 5 — Сопоставление данных*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:91
 msgid "Dataset B has a different set of fields, 15 in total.    What we need to do is identify which fields in Dataset A match which fields in Dataset B"
-msgstr "Набор данных B содержит другой набор полей — всего 15.    Нам необходимо определить, какие поля из набора данных A соответствуют каким полям из набора данных B."
+msgstr "Набор данных B содержит другой набор полей — всего 15.    Нам необходимо определить, какие поля из набора данных A соответствуют каким полям из набора данных B"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:92
@@ -492,7 +492,7 @@ msgstr "Для этого мы описываем соответствия ме�
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:106
 msgid "For example Dataset A has an ID field and so does Dataset B. We can draw a line directly between the two. This is called a one to one match.    Question: Can you see any other one to one matches? Answer: State, Exp?, Pink Elephant!   Another type of relationship is is a one to many. In these cases there is a single field in dataset A that maps to 2 or more fields in Dataset B. Date is an example.    You many also find cases where a more than one field in Dataset A contains data for more than one field in Dataset B. Notes fields are often guilty of this."
-msgstr "Например, в наборе данных A есть поле ID, и такое же поле есть в наборе данных B. Мы можем провести линию непосредственно между этими двумя полями. Такое соответствие называется «один к одному».    Вопрос: Видите ли вы другие соответствия «один к одному»? Ответ: State, Exp?, Pink Elephant!   ЕДругой тип соответствия — «один ко многим». В этом случае одно поле в наборе данных A соответствует двум или более полям в наборе данных B. Примером может служить поле Date.    Также встречаются случаи, когда несколько полей набора данных A содержат данные, соответствующие нескольким полям набора данных B. Особенно часто это бывает с полями для примечаний."
+msgstr "Например, в наборе данных A есть поле ID, и такое же поле есть в наборе данных B. Мы можем провести линию непосредственно между этими двумя полями. Такое соответствие называется «один к одному».    Вопрос: Видите ли вы другие соответствия «один к одному»? Ответ: State, Exp?, Pink Elephant!   ЕДругой тип соответствия — «один ко многим». В этом случае одно поле в наборе данных A соответствует двум или более полям в наборе данных B. Примером может служить поле Date.    Также встречаются случаи, когда несколько полей набора данных A содержат данные, соответствующие нескольким полям набора данных B. Особенно часто это бывает с полями для примечаний."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:107
@@ -710,5 +710,5 @@ msgstr "*Слайд 12 — Заключение*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-documentation.adoc:172
 msgid "This video is part of a series of presentations used in the GBIF Biodiversity Data Mobilization course. The biodiversity data mobilization curriculum was originally developed as part of the Biodiversity Information Development Programme funded by the European Union.    This presentation was originally created by Sharon Grant and has been narrated by Sophie Pamerlon."
-msgstr "Это видео является частью серии презентаций, используемых в курсе GBIF по мобилизации данных о биоразнообразии. Учебная программа по мобилизации данных о биоразнообразии была первоначально разработана в рамках Программы развития информационных ресурсов по биоразнообразию, финансируемой Европейским союзом.    Эта презентация была первоначально подготовлена Шэрон Грант (Sharon Grant). Текст презентации озвучила Софи Памерлон (Sophie Pamerlon)н."
+msgstr "Это видео является частью серии презентаций, используемых в курсе GBIF по мобилизации данных о биоразнообразии. Учебная программа по мобилизации данных о биоразнообразии была первоначально разработана в рамках Программы развития информационных ресурсов по биоразнообразию, финансируемой Европейским союзом.    Эта презентация была первоначально подготовлена Шэрон Грант (Sharon Grant). Текст презентации озвучила Софи Памерлон (Sophie Pamerlon)н."
 
