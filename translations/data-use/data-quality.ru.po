@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-10-20 14:15\n"
+"PO-Revision-Date: 2026-10-20 15:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -71,39 +71,39 @@ msgstr "Несоответствие координат указанной ст�
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:26
 msgid "Coordinate invalid — If GBIF is unable to interpret the coordinates, i.e. the coordinates that are not in the valid decimal format."
-msgstr ""
+msgstr "Некорректные координаты (Coordinate invalid) — GBIF не может интерпретировать координаты, например если они представлены в неправильном формате десятичных градусов."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:27
 msgid "Coordinate out of range — The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "Координаты вне допустимого диапазона (Coordinate out of range) — значения координат выходят за пределы допустимых диапазонов широты или долготы ((-90, 90), (-180, 180))."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:28
 #, no-wrap
 msgid "Country centroids"
-msgstr ""
+msgstr "Центроиды стран"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will use the center of Brazil as the coordinate of the record.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "Центроиды стран — это точки, расположенные в географическом центре страны, а не в месте фактического наблюдения или регистрации таксона. Обычно такие записи получают координаты задним числом на основании текстового описания местонахождения, указанного в исходной записи.  Центроиды стран, как правило, представляют собой записи, которым задним числом были присвоены координаты широты и долготы на основе текстового описания местоположения исходной записи.  Программное обеспечение для геокодирования использует географические справочники, словари или каталоги в сочетании с картой или атласом, чтобы присвоить координаты географическим названиям.  Например, если в записи указано только «Бразилия», некоторые издатели данных могут присвоить ей координаты центра Бразилии. Аналогичным образом, если в записи указано только «Техас» или «Париж», точка будет размещена в центре соответствующей территории.  Такая ситуация характерна почти исключительно для данных музейных коллекций (PRESERVED_SPECIMEN), однако может встречаться и в других типах записей."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
 msgid "Use the \"Distance from centroid in meters\" on a GBIF occurrence search to filter for country centroids. The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], can also be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "Для фильтрации записей с координатами центроидов стран при поиске находок в GBIF используйте фильтр «Расстояние от центроида в метрах» (Distance from centroid in meters). R пакет https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^], также можно использовать для выявления и исключения таких записей."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:39
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "Точки, расположенные на экваторе или на нулевом меридиане"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:43
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "Некоторые издатели данных считают значения «zero» и «NULL» эквивалентными, поэтому пустым полям широты и долготы присваивается нулевое значение. В результате такие записи отображаются на карте вдоль экватора или нулевого меридиана."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:44
