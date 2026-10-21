@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-10-21 10:25\n"
+"PO-Revision-Date: 2026-10-21 12:29\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -25,63 +25,63 @@ msgstr "Обработка данных и их качество"
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:6
 msgid "In this module, you will learn how to determine if data is fit for your purpose and how reviewing GBIF data quality issues and flags can help you process the data you are using for your research."
-msgstr ""
+msgstr "В этом модуле вы узнаете, как определить, подходят ли данные для ваших целей, и как анализ проблем качества данных GBIF и соответствующих предупреждений помогает обрабатывать данные, используемые в ваших исследованиях."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:9
 msgid "Depending on your research question, you will need to decide if the available data/datasets are fit for your purpose.This will include evaluating the quality of the data."
-msgstr ""
+msgstr "В зависимости от исследовательского вопроса вам необходимо определить, насколько доступные данные и наборы данных подходят для ваших целей. Это включает оценку качества данных."
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:13
 msgid "In this video (12:26), you will review some of the principles for fitness for use and data quality. This video's audience is directed towards the publishers of data, but many of the same principles apply to users of data. If you are unable to watch the embedded YouTube video, you can download it locally on the xref:downloads.adoc[Files for download] page."
-msgstr ""
+msgstr "В этом видео (12:26) рассматриваются некоторые основные принципы оценки пригодности данных для использования и их качества. Хотя видео ориентировано прежде всего на издателей данных, многие из рассматриваемых принципов применимы и к пользователям данных. Если у вас нет возможности посмотреть встроенное видео YouTube, вы можете скачать его на странице xref:downloads.adoc[Файлы для скачивания]."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:18
 #, no-wrap
 msgid "Determining fitness for use"
-msgstr ""
+msgstr "Определение пригодности к использованию"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:21
 msgid "For one person, data identified to the level of Genus may be sufficient to run predictive models of ecological niches. For a person studying a particular taxon, that same genus-level data will be much less useful than more detailed occurrences with subspecies information."
-msgstr ""
+msgstr "Для одного исследователя данных, определенных до уровня рода, может быть достаточно для построения прогностических моделей экологических ниш. Однако для специалиста, изучающего конкретный таксон, такие данные будут значительно менее полезны, чем более подробные записи о находках, содержащие в том числе информацию о подвидах."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:23
 msgid "Based on the principles that Arthur Chapman discusses in the https://www.gbif.org/document/80509/principles-of-data-quality[_Principles of Data Quality_^] (2005), you should reflect on some important questions about the data to help you decide if data is trustworthy or useful enough for your purpose:"
-msgstr ""
+msgstr "Опираясь на принципы, которые Артур Чепмен рассматривает в книге https://www.gbif.org/document/80509/principles-of-data-quality[_Принципы качества данных_^] (2005), вам следует задать себе несколько важных вопросов о данных, которые помогут вам определить, являются ли они достаточно достоверными и полезными для ваших целей:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:25
 msgid "How *Accurate* are the data? For example, are the identifications current and were they made by known experts?"
-msgstr ""
+msgstr "Насколько *точны* эти данные? Например, актуальны ли определения таксонов и выполнены ли они признанными специалистами?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:26
 msgid "How *Timely* are the data? When was the data made available? How often has it been updated?"
-msgstr ""
+msgstr "Насколько своевременны данные? Когда данные стали доступны? Как часто они обновляются?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:27
 msgid "How *Complete or Comprehensive* are the data? How well does the data cover a particular time, place, or domain?"
-msgstr ""
+msgstr "Насколько *полны или всеобъемлющи* данные? Насколько хорошо они охватывают определённый период времени, территорию или предметную область?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:28
 msgid "How *Consistent* are the data? Are the data in each field always of the same type? Was the data collected using the same documented protocols?"
-msgstr ""
+msgstr "Насколько *согласованны* данные? Всегда ли значения в каждом поле относятся к одному типу данных? Были ли данные собраны с использованием одних и тех же документированных протоколов?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:29
 msgid "How *Relevant* are the data? How similar is the dataset to others that have been used successfully for the same purpose?"
-msgstr ""
+msgstr "Насколько *релевантны* данные? Насколько рассматриваемый набор данных сопоставим с другими наборами данных, которые уже успешно использовались для аналогичных целей?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:30
 msgid "How *Detailed* are the data? How much resolution is there in the data? At what scale can the data be used for mapping?"
-msgstr ""
+msgstr "Насколько *детализированы* данные? Какова степень их пространственной или иной детализации? В каком масштабе их можно использовать для картографирования?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:31
