@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-10-20 16:20\n"
+"PO-Revision-Date: 2026-10-22 05:04\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -166,7 +166,7 @@ msgstr "Поэтому фильтрация по этим полям может 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:73
 msgid "The R package, https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] has a function for removing gridded datasets."
-msgstr ""
+msgstr "В пакете R https://docs.ropensci.org/CoordinateCleaner/[Coordinate cleaner^] есть функция для удаления наборов данных, представленных в виде сетки."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:74
@@ -188,7 +188,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:84
 msgid "The Darwin Core term https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^] identifies the process by which the biological individual(s) represented in the Occurrence became established at the location.  As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant or uncertain."
-msgstr ""
+msgstr "Термин Darwin Core https://dwc.tdwg.org/terms/#dwc:establishmentMeans[establishmentMeans^] обозначает процесс, посредством которого биологический особь (или особи), указанные в записи «Occurrence», заселились в данном месте.  Таким образом, он может служить полезным инструментом фильтрации для выявления записей, которые находятся за пределами естественного ареала вида; допустимыми терминами для этого поля являются «native», «nativeReintroduced», «introduced», «introducedAssistedColonisation», «vagrant» или «uncertain»."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:87
@@ -204,7 +204,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:91
 msgid "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Basis of record^] is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:"
-msgstr ""
+msgstr "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Основа записи^] — это термин стандарта Darwin Core, который обозначает конкретную природу записи и может относиться к одному из шести классов:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:93
