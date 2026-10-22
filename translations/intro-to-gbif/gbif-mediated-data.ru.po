@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-21 17:07\n"
+"PO-Revision-Date: 2026-10-22 02:50\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -364,13 +364,13 @@ msgstr "Подробнее об ответах можно прочитать в 
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:250
 #, no-wrap
 msgid "Principles of GBIF-mediated data"
-msgstr ""
+msgstr "Принципы работы с данными через GBIF"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:254
 msgid "In this section, you will learn about the principles that GBIF follows with regards to data and how data in the GBIF portal are FAIR."
-msgstr ""
+msgstr "В этом разделе вы узнаете о принципах, которых придерживается GBIF в отношении данных, а также о том, как данные на портале GBIF соответствуют принципам FAIR."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:10
@@ -383,43 +383,43 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:14
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:259
 msgid "A Digital Object Identifier, or DOI, is a http://www.iso.org/iso/catalogue_detail?csnumber=43506[standard^], permanent identifier that provides an actionable, interoperable, persistent link to any entity.  The concept is that DOI differs from commonly used references like URL web links because it identifies an object itself as a first-class entity, not simply the place where the object is currently located."
-msgstr ""
+msgstr "Идентификатор цифрового объекта (Digital Object Identifier, DOI) — это стандарт [http://www.iso.org/iso/catalogue_detail?csnumber=43506^], представляющий собой постоянный идентификатор, который обеспечивает функциональную, совместимую и устойчивую ссылку на любой объект.  Суть концепции заключается в том, что DOI отличается от широко используемых ссылок, таких как веб-адреса (URL), поскольку он идентифицирует сам объект как сущность первого порядка, а не просто место, где объект находится в данный момент."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:16
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:261
 msgid "In the context of GBIF.org, DOIs serve as stable identifiers for four different types of things:"
-msgstr ""
+msgstr "В контексте GBIF.org идентификаторы DOI выступают в качестве стабильных идентификаторов для четырёх различных типов объектов:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:18
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:263
 msgid "datasets from the GBIF network"
-msgstr ""
+msgstr "наборы данных из сети GBIF"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:19
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:264
 msgid "data downloads from GBIF.org"
-msgstr ""
+msgstr "загрузка данных с сайта GBIF.org"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:20
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:265
 msgid "research articles and reports published by scientific journals, agencies and NGOs"
-msgstr ""
+msgstr "научные статьи и отчеты, опубликованные научными журналами, ведомствами и неправительственными организациями"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:21
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:266
 msgid "materials deposited in a general-use repository"
-msgstr ""
+msgstr "материалы, помещенные в хранилище общего пользования"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:28
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:273
 msgid "GBIF started issuing DOIs on 3 February 2015.  Downloads requested before this date do not have DOIs, however, if you wish to cite older downloads, you can contact helpdesk@gbif.org and we will assign DOIs as appropriate."
-msgstr ""
+msgstr "GBIF начал присваивать DOI 3 февраля 2015 года. Загрузки, запрошенные до этой даты, не имеют DOI; однако, если вы желаете сослаться на более старые загрузки, вы можете обратиться по адресу helpdesk@gbif.org, и мы присвоим им DOI."
 
 #. type: Title ===
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:29
@@ -432,19 +432,19 @@ msgstr "Стандарты"
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:32
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:277
 msgid "The data available through GBIF.org and its associated services is the result of the GBIF network of Participants and publishers applying shared rules and conventions to describe, record and structure thousands of different datasets drawn from hundreds of institutions around the world. Common standards are the main enabler for bringing together the hundreds of millions of primary biodiversity records in the GBIF index."
-msgstr ""
+msgstr "Данные, доступные через GBIF.org и связанные с ним сервисы, являются результатом работы сети участников GBIF и организаций-издателей данных, которые применяют общие правила и соглашения для описания, регистрации и структурирования тысяч различных наборов данных, поступающих из сотен учреждений по всему миру. Использование единых стандартов является ключевым условием объединения сотен миллионов первичных записей о биоразнообразии в индексе GBIF."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:34
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:279
 msgid "Within the biodiversity domain, the group most often responsible for developing and maintaining data standards is http://www.tdwg.org/[Biodiversity Information Standards^]. This nonprofit scientific and educational association focuses on the development of standards for the exchange of biological and biodiversity data. Members of the biodiversity community generally refer to this group as TDWG (pronounced tad-wig)—a vestigial reminder of its earlier manifestation as the Taxonomic Databases Working Group."
-msgstr ""
+msgstr "В области изучения биоразнообразия разработкой и поддержкой стандартов данных чаще всего занимается группа http://www.tdwg.org/[Стандарты информации о биоразнообразии (Biodiversity Information Standards)^]. Эта некоммерческая научно-образовательная ассоциация специализируется на разработке стандартов для обмена биологическими данными и данными о биоразнообразии. Представители сообщества специалистов по биоразнообразию обычно называют эту организацию TDWG (произносится «тэд-виг»). Это сокращение сохранилось от её прежнего названия — Taxonomic Databases Working Group (Рабочая группа по таксономическим базам данных)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:39
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:284
 msgid "Darwin Core: The https://dwc.tdwg.org/[Darwin Core Standard^] (DwC) offers a stable, straightforward and flexible framework for compiling biodiversity data from varied and variable sources.  The majority of the datasets shared through GBIF.org are published using the Darwin Core Archive format (DwC-A)."
-msgstr ""
+msgstr "Darwin Core: https://dwc.tdwg.org/[Стандарт Darwin Core^] (DwC) представляет собой стабильную, простую и гибкую структуру для сбора данных о биоразнообразии из разнообразных и изменчивых источников.  Большинство наборов данных, публикуемых через GBIF.org, публикуются в формате Darwin Core Archive (DwC-A)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:42
@@ -1181,7 +1181,7 @@ msgstr "intro-to-gbif::ChecklistBank-04-07-2026_01_43_PM.png"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:222
 msgid "https://www.catalogueoflife.org/[Catalogue of Life^] is a global index of species, which aims to provide a comprehensive and authoritative list of the world’s species. It is compiled from multiple taxonomic datasets and is updated regularly. The https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) builds on the Base Release by programmatically integrating additional data sources. It integrates information from over 58,000 overlapping taxonomic and nomenclatural global, regional, national and management data sources (checklists) as well as originating from digitised literature available in Catalogue of Life’s infrastructure https://www.checklistbank.org/[ChecklistBank^]."
-msgstr "«https://www.catalogueoflife.org/» [«Каталог жизни»^] — это глобальный каталог видов, целью которого является создание всеобъемлющего и авторитетного списка видов мира. Он формируется на основе множества таксономических наборов данных и регулярно обновляется. https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) создаётся на основе Base Release путём программной интеграции дополнительных источников данных. Она объединяет информацию из более чем 58 000 частично перекрывающихся глобальных, региональных и национальных источников таксономических и номенклатурных данных, а также специализированных списков, используемых для управления данными. Кроме того, используются сведения из оцифрованной литературы, доступной через инфраструктуру «Каталога жизни» https://www.checklistbank.org/[ChecklistBank^]."
+msgstr "https://www.catalogueoflife.org/[Каталог жизни^] — это глобальный каталог видов, целью которого является создание всеобъемлющего и авторитетного списка видов мира. Он формируется на основе множества таксономических наборов данных и регулярно обновляется. https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^](COL XR) создаётся на основе Base Release путём программной интеграции дополнительных источников данных. Она объединяет информацию из более чем 58 000 частично перекрывающихся глобальных, региональных и национальных источников таксономических и номенклатурных данных, а также специализированных списков, используемых для управления данными. Кроме того, используются сведения из оцифрованной литературы, доступной через инфраструктуру «Каталога жизни» https://www.checklistbank.org/[ChecklistBank^]."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:224
@@ -1260,7 +1260,7 @@ msgstr "Если у вас не получается посмотреть вст
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:270
 msgid "GBIF assigns DOIs to all datasets and occurrence downloads.  When data is used, following DOI https://www.gbif.org/citation-guidelines[citation practice^] ensures an easy and consistent way of crediting dataset holders while also allowing for reproducibility.  The DOIs will always resolve to dataset or download pages, even if the underlying data is no longer available."
-msgstr "GBIF присваивает DOI всем наборам данных и загрузкам данных о находках организмов. При использовании данных соблюдение рекомендаций по цитированию DOI https://www.gbif.org/citation-guidelines[практика цитирования^] обеспечивает простой и единообразный способ признания вклада владельцев наборов данных, одновременно позволяя обеспечить воспроизводимость исследований. DOI всегда будут вести на страницу соответствующего набора данных или загрузки, даже если сами исходные данные больше недоступны."
+msgstr "GBIF присваивает DOI всем наборам данных и загрузкам данных о находках организмов. При использовании данных соблюдение рекомендаций https://www.gbif.org/citation-guidelines[по цитированию DOI^] обеспечивает простой и единообразный способ признания вклада владельцев наборов данных, одновременно позволяя обеспечить воспроизводимость исследований. DOI всегда будут вести на страницу соответствующего набора данных или загрузки, даже если сами исходные данные больше недоступны."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:281
