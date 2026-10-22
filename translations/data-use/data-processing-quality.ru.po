@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-10-21 12:29\n"
+"PO-Revision-Date: 2026-10-22 03:52\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -172,13 +172,13 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:352
 msgid "Accuracy refers to the closeness of measured values, observations or estimates to the real or true value (or to a value that is accepted as being true – for example, the coordinates of a survey control point)."
-msgstr ""
+msgstr "Точность (Accuracy) характеризует степень близости измеренных значений, наблюдений или оценок к реальному или истинному значению (либо к значению, принятому за истинное, например к координатам опорного геодезического пункта)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:76
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:359
 msgid "Precision (or Resolution) can be divided into two main types.  Statistical precision is the closeness with which repeated observations conform to themselves.  They have nothing to do with their relationship to the true value, and may have high precision, but low accuracy.  Numerical precision is the number of significant digits that an observation is recorded in and has become far more obvious with the advent of computers.  For example a database may output a decimal latitude/longitude record to 10 decimal places – i.e. ca .01 mm when in reality the record has a resolution no greater than 10-100 m (3-4 decimal places).  This often leads to a false impression of both the resolution and the accuracy."
-msgstr ""
+msgstr "Точность (Precision, или Resolution) можно разделить на два основных типа. Статистическая точность (Statistical precision) характеризует степень согласованности результатов повторных наблюдений между собой. Она не связана с их близостью к истинному значению, поэтому результаты могут обладать высокой статистической точностью, но при этом иметь низкую точность (Accuracy). Числовая точность (Numerical precision) определяется количеством значащих цифр, с которыми записано значение наблюдения. Эта проблема стала особенно заметной с распространением компьютеров. Например, база данных может выдавать значения широты и долготы в десятичных градусах с 10 знаками после запятой, что соответствует примерно 0,01 мм, хотя в действительности пространственное разрешение исходной записи может составлять лишь 10–100 м (3–4 знака после запятой). Это часто создаёт ложное представление как о пространственном разрешении данных, так и об их фактической точности."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
