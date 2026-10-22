@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-08 13:37+0000\n"
-"PO-Revision-Date: 2026-10-22 05:05\n"
+"PO-Revision-Date: 2026-10-22 06:04\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -122,13 +122,13 @@ msgstr "Существует два основных способа доступ
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:42
 #, no-wrap
 msgid "*What is available to me?*\n"
-msgstr ""
+msgstr "*Что мне доступно?*\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:42
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:44
 msgid "Through the search functions on the website, users can access data that can either be directly downloaded through GBIF or accessed from the original sources following links that GBIF provides."
-msgstr ""
+msgstr "С помощью функций поиска на веб-сайте пользователи могут получить доступ к данным, которые можно либо напрямую загрузить через GBIF, либо просмотреть в исходных источниках, перейдя по ссылкам, предоставленным GBIF."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:44
@@ -146,41 +146,41 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:48
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:50
 msgid "The data available to you are:"
-msgstr ""
+msgstr "В вашем распоряжении имеются следующие данные:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:50
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:52
 msgid "Primary biodiversity data - occurrence, checklist and sampling event data that is provided to users through the one of the 3 download formats:"
-msgstr ""
+msgstr "Первичные данные о биоразнообразии — данные о находках, таксономические списки и данные о событиях отбора проб, которые предоставляются пользователям в одном из трёх форматов скачивания:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:51
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:53
 #, no-wrap
 msgid "*Simple*: https://www.gbif.org/faq?question=csv-download[Tab delimited CSV^]. Only contains the data after GBIF interpretation. No multimedia included. \n"
-msgstr "*Простой*: https://www.gbif.org/faq?question=csv-download[CSV с разделителем табуляции^]. Содержит только данные, прошедшие обработку GBIF. Мультимедийные материалы не включены. \n"
+msgstr "*Простой формат (Simple)*: https://www.gbif.org/faq?question=csv-download[CSV с разделителем табуляции^]. Содержит только данные после их обработки и интерпретации GBIF. Мультимедийные материалы не включены. \n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:52
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:54
 #, no-wrap
 msgid "*Darwin Core Archive*: The https://www.gbif.org/faq?question=dwc-download[Darwin Core Archive^] (DwC-A) contains both the original data as the publisher provided it and the GBIF interpretation. Links (but not files) to multimedia included.\n"
-msgstr "*Архив Darwin Core*: https://www.gbif.org/faq?question=dwc-download[Darwin Core архив^] (DwC-A) содержит как исходные данные в том виде, в котором они были предоставлены издателем, так и интерпретацию GBIF. Включены ссылки (но не файлы) на мультимедийные материалы.\n"
+msgstr "*Архив Darwin Core*: https://www.gbif.org/faq?question=dwc-download[Darwin Core архив^] (DwC-A) содержит как исходные данные, предоставленные издателем, так и результаты их интерпретации GBIF. Включает ссылки на мультимедийные материалы, но не сами файлы.\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:53
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:55
 #, no-wrap
 msgid "*Species list*: Tab delimited CSV with the distinct list of names in the search result and as a map visualization of the data.\n"
-msgstr ""
+msgstr "*Список видов (Species list)*: CSV с разделителями-табуляциями, содержащий список уникальных научных названий из результатов поиска, а также визуализацию данных на карте.\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:54
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:57
 #, no-wrap
 msgid "A range of metrics are provided for https://www.gbif.org/analytics/global[countries and regions^], data publishers, datasets and data searches that provide taxonomic breakdowns, trends in data collection and highlight data quality issues. For countries, these metrics can be also be downloaded in the form of a PDF activity report. \n"
-msgstr ""
+msgstr "Для https://www.gbif.org/analytics/global[стран и регионов^], издателей данных, наборов данных и поисковых запросов предоставляется ряд показателей, которые позволяют проанализировать структуру данных по категориям, выявить тенденции в сборе данных и обратить внимание на проблемы, связанные с качеством данных. По странам эти показатели также можно скачать в виде отчета о деятельности в формате PDF. \n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:55
@@ -193,5 +193,5 @@ msgstr "https://www.gbif.org/resource/search?contentType=literature&literatureTy
 #: en/data-use/modules/ROOT/pages/using-gbif-mediated-data.adoc:56
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:60
 msgid "Searches can be performed on the https://www.gbif.org/occurrence/search?occurrence_status=present&q=[occurrences^], https://www.gbif.org/species/search?q=[species^], https://www.gbif.org/dataset/search?q=[datasets^], https://www.gbif.org/publisher/search?q=[publishers] and https://www.gbif.org/resource/search?q=[resources^], and each search function carries a set of filters that allow for more refined searching and additional data associated with the data, for example, https://www.gbif.org/occurrence/gallery?occurrence_status=present[images^], can be found in tabs associated with the search."
-msgstr ""
+msgstr "Поиск можно осуществлять по базе данных https://www.gbif.org/occurrence/search?occurrence_status=present&q=[occurrences^], https://www.gbif.org/species/search?q=[species^], https://www.gbif.org/dataset/search?q=[datasets^], https://www.gbif.org/publisher/search?q=[издатели] и https://www.gbif.org/resource/search?q=[ресурсы^], причём каждая функция поиска содержит набор фильтров, позволяющих уточнить поиск и получить дополнительные данные, связанные с результатами, например, https://www.gbif.org/occurrence/gallery?occurrence_status=present[images^], можно найти на вкладках, связанных с поиском."
 
