@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-10-06 15:16\n"
+"PO-Revision-Date: 2026-10-23 11:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -49,7 +49,7 @@ msgstr "Если вы предпочитаете ознакомиться с м�
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
 #, no-wrap
 msgid "Presentation transcript"
-msgstr ""
+msgstr "Текст презентации"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
@@ -325,7 +325,7 @@ msgstr "Нажмите, чтобы раскрыть"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:515
@@ -381,12 +381,12 @@ msgstr "Принципы очистки данных"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:13
 msgid "In this video (09:49), you will review an important set of principles necessary to improve data through the processes of data cleaning based on the https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality^], Chapman AD (2005). Subtitles for this video are available in French and Spanish."
-msgstr "В этом видео (09:49) вы рассмотрите важный набор принципов, необходимых для улучшения данных в процессе их очистки, основанных на работе Артура Чепмена (2005) «https://doi.org/10.15468/doc.jrgg-a190» [«Принципы качества данных»]. Для этого видео доступны субтитры на французском и испанском языках."
+msgstr "В этом видео (09:49) вы рассмотрите важный набор принципов, необходимых для улучшения данных в процессе их очистки, основанных на работе Артура Чепмена (2005) https://doi.org/10.15468/doc.jrgg-a190[Принципы качества данных]. Для этого видео доступны субтитры на французском и испанском языках."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:15
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_concepts_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 27.9 MB)"
-msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке:$data_cleaning_concepts_v3-720p.mp4[download,opts=download]. При скачивании на компьютер субтитры недоступны. (MP4 — 27,9 МБ)"
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке: xref:attachment$data_cleaning_concepts_v3-720p.mp4[download,opts=download]. При скачивании на компьютер субтитры недоступны. (MP4 — 27,9 МБ)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:34
@@ -471,12 +471,12 @@ msgstr "*Слайд 4 — Система очистки данных*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:85
 msgid "Although there are many methods that can be applied while cleaning data, we view the process of cleaning in five general steps:  "
-msgstr "Хотя существует множество методов, которые можно применять при очистке данных, мы рассматриваем процесс очистки как пять основных этапов:  "
+msgstr "Хотя существует множество методов, которые можно применять при очистке данных, мы рассматриваем процесс очистки как пять основных этапов: "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:86
 msgid "First, we seek to determine and define the types of errors that are most likely present in our data. "
-msgstr "Сначала необходимо определить и описать типы ошибок, которые с наибольшей вероятностью могут присутствовать в наших данных. "
+msgstr "Сначала необходимо определить и описать типы ошибок, которые с наибольшей вероятностью могут присутствовать в наших данных. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:87
@@ -486,7 +486,7 @@ msgstr "Затем мы выполняем поиск, чтобы выявить
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:88
 msgid "Then, we will correct those errors, whenever possible."
-msgstr "Затем, по возможности, мы исправляем выявленные ошибки."
+msgstr "Затем, по возможности, мы исправляем выявленные ошибки. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:89
@@ -562,7 +562,7 @@ msgstr "*Слайд 7 — Принципы очистки данных*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:139
 msgid "The first two principles in data cleaning are planning and organization.    Plan how you want the cleaning process to go.  A scattered or random approach is not likely to produce consistent results. Develop and implement a strategy that fits with your institution’s resources and expertise. A solid plan will improve both your data and the reputation of your institution among data users.    One of the first steps of your plan should be to organize the data. For example, you could organize your data by taxon and then send the appropriate subset of data to individuals with the knowledge or resources to clean based on names. This can be done by geography or basis of record, or even in specifically sized packages of data in numeric order. Work to the strengths of your institution."
-msgstr "Первые два принципа очистки данных — это планирование и организация.    Спланируйте, как должен проходить процесс очистки данных. Разрозненный или случайный подход вряд ли позволит получить согласованные результаты. Разработайте и внедрите стратегию, соответствующую ресурсам и опыту вашего учреждения. Хорошо продуманный план позволит повысить как качество данных, так и репутацию вашего учреждения среди пользователей данных.    Одним из первых этапов такого плана должна быть организация данных. Например, можно организовать данные по таксонам, а затем передать соответствующие подмножества данных специалистам, обладающим знаниями или ресурсами для очистки данных на основе названий. Данные также можно организовать по географическому признаку, basisOfRecord или даже разделить на пакеты определённого размера в числовом порядке. Используйте сильные стороны и возможности вашего учреждения."
+msgstr "Первые два принципа очистки данных — это планирование и организация. Спланируйте, как должен проходить процесс очистки данных. Разрозненный или случайный подход вряд ли позволит получить согласованные результаты. Разработайте и внедрите стратегию, соответствующую ресурсам и опыту вашего учреждения. Хорошо продуманный план позволит повысить как качество данных, так и репутацию вашего учреждения среди пользователей данных. Одним из первых этапов такого плана должна быть организация данных. Например, можно организовать данные по таксонам, а затем передать соответствующие подмножества данных специалистам, обладающим знаниями или ресурсами для очистки данных на основе названий. Данные также можно организовать по географическому признаку, basisOfRecord или даже разделить на пакеты определённого размера в числовом порядке. Используйте сильные стороны и возможности вашего учреждения."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:141
@@ -633,7 +633,7 @@ msgstr "*Слайд 10 — Принципы очистки данных*\n"
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:173
 msgid "Some times it can be an effective strategy to set some measures of performance before the cleaning process begins. One performance measure might be to complete the cleaning of 500 records every week. Another measure might be to provide a statistical report of the accuracy of the corrections being made, such as:   “95% of all georeferences corrected this week now have an uncertainty in meters of less than 1000 meters.”   These kinds of measures can give direction and guidance to the people performing the cleaning, as well as, to serve as a means to report on successes and areas in need of improvement.    In an ideal world, you will have developed a data maintenance plan that has been optimized to be as efficient and effective as possible. Optimization can be achieved in many different ways including taking advantage of your institution’s strengths, setting clear objectives and measure of success, and regular adjustment of your priorities based on available resources."
-msgstr "Иногда эффективной стратегией может быть определение показателей эффективности ещё до начала процесса очистки данных. Например, одним из таких показателей может быть очистка 500 записей каждую неделю. Другим показателем может быть подготовка статистического отчёта о точности внесённых исправлений, например:   «95 % всех географических привязок, исправленных на этой неделе, теперь имеют неопределённость менее 1000 метров».   Такие показатели помогают определить направление работы и служат ориентиром для специалистов, выполняющих очистку данных, а также позволяют оценивать достигнутые результаты и выявлять области, требующие улучшения.    В идеальном случае у вас должен быть разработан план управления данными, оптимизированный таким образом, чтобы сделать этот процесс максимально эффективным. Оптимизации можно достичь различными способами, в том числе используя сильные стороны вашего учреждения, устанавливая чёткие цели и показатели успешности, а также регулярно корректируя приоритеты с учётом имеющихся ресурсов."
+msgstr "Иногда эффективной стратегией может быть определение показателей эффективности ещё до начала процесса очистки данных. Например, одним из таких показателей может быть очистка 500 записей каждую неделю. Другим показателем может быть подготовка статистического отчёта о точности внесённых исправлений, например: «95 % всех географических привязок, исправленных на этой неделе, теперь имеют неопределённость менее 1000 метров». Такие показатели помогают определить направление работы и служат ориентиром для специалистов, выполняющих очистку данных, а также позволяют оценивать достигнутые результаты и выявлять области, требующие улучшения. В идеальном случае у вас должен быть разработан план управления данными, оптимизированный таким образом, чтобы сделать этот процесс максимально эффективным. Оптимизации можно достичь различными способами, в том числе используя сильные стороны вашего учреждения, устанавливая чёткие цели и показатели успешности, а также регулярно корректируя приоритеты с учётом имеющихся ресурсов."
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:176
@@ -730,7 +730,7 @@ msgstr "Информацию о типах ошибок см. по ссылке 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:225
 msgid "Download xref:attachment$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 KB)"
-msgstr "Скачать внешнюю ссылку: вложение$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 КБ)"
+msgstr "Скачать внешнюю ссылку: xref:attachment$UC-Practice-2ab-ForCleaning.xlsx[UC-Practice-2ab-ForCleaning.xlsx,opts=download]. (43 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:226
@@ -766,7 +766,7 @@ msgstr "В этом видео (06:42) вы узнаете о различных
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:237
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_tools_v1-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 30.3 MB)"
-msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его локально по ссылке:$data_cleaning_tools_v1-720p.mp4[download,opts=download]. При скачивании на компьютер субтитры недоступны. (MP4 — 30,3 МБ)"
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его локально по ссылке: xref:attachment$data_cleaning_tools_v1-720p.mp4[download,opts=download]. При скачивании на компьютер субтитры недоступны. (MP4 — 30,3 МБ)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:256
@@ -913,7 +913,7 @@ msgstr "В курсе «Основы» мы познакомили вас со �
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:309
 msgid "Photo: Chelonia mydas (Linnaeus, 1758) Observed in Thailand by Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr "Фото: Chelonia mydas (Linnaeus, 1758). Снято в Таиланде Michael Barth http://creativecommons.org/licenses/by-nc/4.0/ [CC BY-NC 4.0^]"
+msgstr "Фото: Chelonia mydas (Linnaeus, 1758). Снято в Таиланде Michael Barth http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:310
@@ -935,7 +935,7 @@ msgstr "При работе с файлами данных вам часто п�
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:317
 msgid "Photo: Microporus xanthopus (Fr.) Kuntze Observed in Thailand by Jacky http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
-msgstr "Фото: Microporus xanthopus (Fr.) Kuntze. Сфотографировано в Таиланде Jacky http://creativecommons.org/licenses/by-nc/4.0/ [CC BY-NC 4.0^]"
+msgstr "Фото: Microporus xanthopus (Fr.) Kuntze. Сфотографировано в Таиланде Jacky http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0^]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:318
@@ -1177,7 +1177,7 @@ msgstr "В этом видео (03:27) вы узнаете о https://openrefine
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:415
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download] it locally. If you download it locally, subtitles are not available. (MP4 - 7.7 MB)"
-msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке:$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download]. При скачивании субтитры недоступны. (MP4 — 7,7 МБ)"
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке: xref:attachment$data_cleaning_using_openrefine_v3-720p.mp4[download,opts=download]. При скачивании субтитры недоступны. (MP4 — 7,7 МБ)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:434
@@ -1358,13 +1358,13 @@ msgstr "В этом упражнении вы будете использова�
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:509
 msgid "Download xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 KB)"
-msgstr "Скачать внешнюю ссылку: приложение$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 КБ)"
+msgstr "Скачайте xref:attachment$UC-Practice-2c-OpenRefine.csv[UC-Practice-2c-OpenRefine.csv,opts=download]. (42 КБ)"
 
 #. Also available in xref:attachment$OpenRefine-Exercise2c-FR.pdf[French,opts=download] and xref:attachment$OpenRefine-Exercise2c-ES.pdf[Spanish,opts=download].
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:510
 msgid "Download and complete the exercises in xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2.2 MB)"
-msgstr "Скачайте и выполните упражнения, приведенные в вложении:$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2,2 МБ)"
+msgstr "Скачайте и выполните упражнения, приведенные в xref:attachment$OpenRefine-Exercise2c-EN.pdf[OpenRefine-Exercise2c-EN.pdf,opts=download]. (PDF, 2,2 МБ)"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:513
@@ -1509,7 +1509,7 @@ msgstr "*Таксономия*\n"
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:563
 #, no-wrap
 msgid "*GBIF Species Matching: https://www.gbif.org/tools/species-lookup\n"
-msgstr "*Поиск видов в базе данных GBIF: https://www.gbif.org/tools/species-lookup\n"
+msgstr "*Поиск видов в базе данных GBIF*: https://www.gbif.org/tools/species-lookup\n"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:564
@@ -1624,7 +1624,7 @@ msgstr "Проверьте свои знания понятий, рассмот�
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc [Приложение с решениями]."
+msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc[Приложение с решениями]."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.

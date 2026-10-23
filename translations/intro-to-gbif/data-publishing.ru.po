@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-06 20:13\n"
+"PO-Revision-Date: 2026-10-23 11:43\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -69,7 +69,7 @@ msgstr "Проверьте свои знания понятий, рассмот�
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc [Приложение с решениями]."
+msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc[Приложение с решениями]."
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:208
@@ -131,7 +131,8 @@ msgstr "- [ ] Экспорт очищенных данных в CSV-файл, к
 #, no-wrap
 msgid "- [ ] True\n"
 "- [x] False\n"
-msgstr ""
+msgstr "- [ ] Верно\n"
+"- [x] Неверно\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:75
@@ -169,7 +170,7 @@ msgstr "intro-to-gbif::datapublishing.png"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:16
 msgid "Most organizations within the GBIF Network, otherwise known as publishers, make use of an IPT, the https://www.gbif.org/ipt[Integrated Publishing Toolkit^], to publish their data. These publishers may choose to host their own installation of an IPT like the Field Museum, but generally prefer to find a suitable host for their data publishing activities. This might be through an established GBIF Participant Node like GBIF France or through an established thematic group like VertNet. Or, a another option, might be to make use of one of the GBIF cloud-hosted IPTs."
-msgstr "Большинство организаций в сети GBIF, также называемых издателями данных, используют для публикации своих данных IPT (https://www.gbif.org/ipt [Интегрированный набор инструментов для публикации^]). Издатели могут установить и поддерживать собственный экземпляр IPT, как, например, Field Museum, однако обычно они предпочитают найти подходящую площадку для публикации своих данных. Такой площадкой может быть IPT, поддерживаемый действующим узлом участника GBIF, например GBIF France, или тематической сетью, например VertNet. Ещё один вариант — использование одного из облачных IPT, предоставляемых GBIF."
+msgstr "Большинство организаций в сети GBIF, также называемых издателями данных, используют для публикации своих данных https://www.gbif.org/ipt[Интегрированный набор инструментов для публикации (Integrated Publishing Toolkit, IPT)^]). Издатели могут установить и поддерживать собственный IPT, как, например, Field Museum, однако обычно они предпочитают найти подходящую площадку для публикации своих данных. Такой площадкой может быть IPT, поддерживаемый действующим узлом участника GBIF, например GBIF France, или тематической сетью, например VertNet. Ещё один вариант — использование одного из облачных IPT, предоставляемых GBIF."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:18
@@ -404,7 +405,7 @@ msgstr "intro-to-gbif::register.png"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:113
 msgid "Prospective new publishers are asked to complete an online form.  The answers provided help GBIF to give proper credit and attribution for the datasets shared by the new publisher."
-msgstr "Потенциальным новым издателям предлагается заполнить онлайн-форму. Предоставленная в ней информация помогает GBIF обеспечить надлежащее признание вклада нового издателя и корректное указание источника публикуемых им наборов данных."
+msgstr "Потенциальным новым издателям предлагается заполнить онлайн форму. Предоставленная в ней информация помогает GBIF обеспечить надлежащее признание вклада нового издателя и корректное указание источника публикуемых им наборов данных."
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:114
@@ -420,12 +421,12 @@ msgstr "Прежде чем GBIF начнёт индексировать наб�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:123
 msgid "Data hosting arrangements are stable and persistent"
-msgstr "Условия размещения данных являются стабильными и обеспечивают их долгосрочную доступность"
+msgstr "Условия размещения данных являлись стабильными и обеспечивали их долгосрочную доступность"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:125
 msgid "Data are as open as possible, and available for sharing and reuse"
-msgstr "Данные являются настолько открытыми, насколько это возможно, и доступны для предоставления и повторного использования"
+msgstr "Данные являлись настолько открытыми, насколько это возможно, и доступны для предоставления и повторного использования"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:128
@@ -474,7 +475,7 @@ msgstr "Издатели играют важнейшую роль не толь�
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:145
 #, no-wrap
 msgid "Click on the _How-to menu_ on the GBIF website to navigate to the _Data quality_ page"
-msgstr "В меню _How-to_ на сайте GBIF перейдите на страницу _Data quality_ («Качество данных»)"
+msgstr "В меню _How-to_ на сайте GBIF перейдите на страницу _Качество данных_ (Data quality)"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:150
@@ -499,7 +500,7 @@ msgstr "https://www.gbif.org/data-quality-requirements-occurrences[Наборы 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:160
 msgid "https://www.gbif.org/data-quality-requirements-checklists[Checklists^]"
-msgstr "https://www.gbif.org/data-quality-requirements-checklists [Таксономические списки (Checklists)^]"
+msgstr "https://www.gbif.org/data-quality-requirements-checklists[Таксономические списки (Checklists)^]"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:161
@@ -509,7 +510,7 @@ msgstr "https://www.gbif.org/data-quality-requirements-sampling-events[Набо�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:164
 msgid "In practice, we encourage those responsible for publishing data to get acquainted with the expected data formats and content requirements as early as possible in the process (see also the pre-configured GBIF Excel templates with required and recommended terms for https://github.com/gbif/ipt/wiki/occurrenceData#templates[occurrence-only datasets^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^], and https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], all available with example data).  Doing so will save a lot of effort that may be needed at later stages, for example, in adding data conversions, capturing information for required or strongly recommended fields, or performing and addressing final pre-publication data-quality checks."
-msgstr "На практике мы рекомендуем ответственным за публикацию данных как можно раньше ознакомиться с ожидаемыми форматами данных и требованиями к их содержимому (см. также предварительно настроенные шаблоны GBIF в формате Excel с обязательными и рекомендуемыми терминами по адресу https://github.com/gbif/ipt/wiki/occurrenceData#шаблоны [наборы данных, содержащие только данные о встречах^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^] и https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], все доступны с примерами данных).  Это позволит избежать значительных дополнительных трудозатрат на последующих этапах, например при преобразовании данных, добавлении информации в обязательные или настоятельно рекомендуемые поля, а также при проведении итоговых проверок качества данных перед публикацией и устранении выявленных проблем."
+msgstr "На практике мы рекомендуем ответственным за публикацию данных как можно раньше ознакомиться с ожидаемыми форматами данных и требованиями к их содержимому (см. также предварительно настроенные шаблоны GBIF в формате Excel с обязательными и рекомендуемыми терминами https://github.com/gbif/ipt/wiki/occurrenceData#шаблоны[наборы данных, содержащие только данные о встречах^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^] и https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], все доступны с примерами данных).  Это позволит избежать значительных дополнительных трудозатрат на последующих этапах, например при преобразовании данных, добавлении информации в обязательные или настоятельно рекомендуемые поля, а также при проведении итоговых проверок качества данных перед публикацией и устранении выявленных проблем."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:166
@@ -535,7 +536,7 @@ msgstr "В этом разделе вы узнаете, как использо�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:176
 msgid "The GBIF https://www.gbif.org/tools/data-validator[data validator^] is a service that allows anyone with a GBIF-relevant dataset to receive a report on the syntactical correctness and the validity of the content contained within the dataset.  By submitting a dataset to the validator, you can go through the validation and interpretation procedures usually associated with publishing in GBIF and quickly determine potential issues in data - without having to publish it."
-msgstr "https://www.gbif.org/tools/data-validatorGBIF [валидатор данных^] — это сервис, который позволяет любому пользователю, имеющему набор данных, соответствующий тематике GBIF, получить отчёт о синтаксической корректности и валидности содержащихся в нём данных. Загрузив набор данных в валидатор, вы можете выполнить процедуры валидации и интерпретации, которые обычно проводятся при публикации данных в GBIF, и быстро выявить потенциальные проблемы в данных — без необходимости их публикации."
+msgstr "https://www.gbif.org/tools/data-validatorGBIF[валидатор данных^] — это сервис, который позволяет любому пользователю, имеющему набор данных, соответствующий тематике GBIF, получить отчёт о синтаксической корректности и валидности содержащихся в нём данных. Загрузив набор данных в валидатор, вы можете выполнить процедуры валидации и интерпретации, которые обычно проводятся при публикации данных в GBIF, и быстро выявить потенциальные проблемы в данных — без необходимости их публикации."
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:178

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-19 12:50\n"
+"PO-Revision-Date: 2026-10-23 11:49\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -38,7 +38,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
 #, no-wrap
 msgid "Presentation transcript"
-msgstr ""
+msgstr "Текст презентации"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
@@ -314,13 +314,13 @@ msgstr "Нажмите, чтобы раскрыть"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:329
 msgid "Below you will find a selected reading from Arthur Chapman’s guide “Principles of data quality”.  https://www.gbif.org/document/80509/principles-of-data-quality[Full document^], references and translations can be found on GBIF.org."
-msgstr ""
+msgstr "Ниже приведен отрывок из руководства Артура Чепмена «Принципы качества данных».  https://www.gbif.org/document/80509/principles-of-data-quality[Полный текст^], ссылки и переводы можно найти на сайте GBIF.org."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:49
@@ -377,13 +377,13 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:352
 msgid "Accuracy refers to the closeness of measured values, observations or estimates to the real or true value (or to a value that is accepted as being true – for example, the coordinates of a survey control point)."
-msgstr ""
+msgstr "Точность (Accuracy) характеризует степень близости измеренных значений, наблюдений или оценок к реальному или истинному значению (либо к значению, принятому за истинное, например к координатам опорного геодезического пункта)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:76
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:359
 msgid "Precision (or Resolution) can be divided into two main types.  Statistical precision is the closeness with which repeated observations conform to themselves.  They have nothing to do with their relationship to the true value, and may have high precision, but low accuracy.  Numerical precision is the number of significant digits that an observation is recorded in and has become far more obvious with the advent of computers.  For example a database may output a decimal latitude/longitude record to 10 decimal places – i.e. ca .01 mm when in reality the record has a resolution no greater than 10-100 m (3-4 decimal places).  This often leads to a false impression of both the resolution and the accuracy."
-msgstr ""
+msgstr "Точность (Precision, или Resolution) можно разделить на два основных типа. Статистическая точность (Statistical precision) характеризует степень согласованности результатов повторных наблюдений между собой. Она не связана с их близостью к истинному значению, поэтому результаты могут обладать высокой статистической точностью, но при этом иметь низкую точность (Accuracy). Числовая точность (Numerical precision) определяется количеством значащих цифр, с которыми записано значение наблюдения. Эта проблема стала особенно заметной с распространением компьютеров. Например, база данных может выдавать значения широты и долготы в десятичных градусах с 10 знаками после запятой, что соответствует примерно 0,01 мм, хотя в действительности пространственное разрешение исходной записи может составлять лишь 10–100 м (3–4 знака после запятой). Это часто создаёт ложное представление как о пространственном разрешении данных, так и об их фактической точности."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
@@ -452,7 +452,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:392
 msgid "Uncertainty may be thought of as a “measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if a perfect measuring device were available” (Cullen and Frey 1999).  Uncertainty is a property of the observer’s understanding of the data, and is more about the observer than the data per se.  There is always uncertainty in data; the difficulty is in recording, understanding and visualizing that uncertainty so that others can also understand it.  Uncertainty is a key term in understanding risk and risk assessment."
-msgstr ""
+msgstr "Неопределённость (Uncertainty) можно рассматривать как «меру неполноты наших знаний или информации о неизвестной величине, истинное значение которой можно было бы установить при наличии идеального измерительного прибора» (Cullen and Frey 1999). Неопределённость отражает степень понимания данных наблюдателем и, таким образом, характеризует скорее знания наблюдателя, чем сами данные. Неопределённость присутствует в любых данных. Основная сложность заключается в том, чтобы правильно зафиксировать, понять и наглядно представить её таким образом, чтобы другие пользователи также могли её оценить. Неопределённость является ключевым понятием для понимания рисков и их оценки."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:111
@@ -465,7 +465,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:401
 msgid "Error encompasses both the imprecision of data and their inaccuracies.  There are many factors that contribute to error.  Error is generally seen as being either random or systematic.  Random error tends to refer to deviation from the true state in a random manner.  Systematic error or bias arises from a uniform shift in values and is sometimes described as having ‘relative accuracy’ in the cartographic world (Chrisman 1991).  In determining ‘fitness for use’ systematic error may be acceptable for some applications, and unfit for others."
-msgstr ""
+msgstr "Ошибка (Error) охватывает как недостаточную прецизионность данных, так и их отклонения от истинных значений. Существует множество факторов, способствующих возникновению ошибок. Обычно ошибки подразделяют на случайные и систематические. Случайная ошибка (Random error) представляет собой отклонение от истинного значения, возникающее случайным образом. Систематическая ошибка, или смещение (Systematic error или Bias), возникает вследствие однонаправленного смещения значений и в картографии иногда описывается с использованием понятия «относительная точность» (Relative accuracy) (Chrisman 1991). При оценке пригодности данных для использования (Fitness for use) систематические ошибки могут быть допустимыми для одних задач и делать данные непригодными для других."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
@@ -523,7 +523,7 @@ msgstr "В этом видео (12:26) вы познакомитесь с тер
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:13
 msgid "If you are unable to watch the embedded video, you can xref:attachment$foundations-data_quality_v1-720p.mp4[download,opts=download] it locally. (MP4 - 56.4 MB)"
-msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке:$foundations-data_quality_v1-720p.mp4[download,opts=download]. (MP4 — 56,4 МБ)"
+msgstr "Если у вас не получается посмотреть встроенное видео, вы можете скачать его на свой компьютер по ссылке: xref:attachment$foundations-data_quality_v1-720p.mp4[download,opts=download]. (MP4 — 56,4 МБ)"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:30
@@ -725,47 +725,49 @@ msgstr "*Слайд 10 — Пригодность к использованию*
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:156
 msgid "So, what is Fitness for Use and how does it relate to data?   When Chapman discusses Fitness for Use, he says that once a dataset has been created and shared there are two primary perspectives on how those data might be used; the perspective of the creator and the perspective of the user.    To help somebody to decide if your data is trustworthy or useful enough for them to use, you have to understand your data and how to convey those data to the potential user. These are some of the important questions about the metadata, or characteristics of your data, that you should be able to answer and share with others:  "
-msgstr "Итак, что такое пригодность для использования и как это понятие связано с данными?  Говоря о пригодности для использования, Чапман отмечает, что после создания и публикации набора данных существуют две основные точки зрения на возможное использование этих данных: точка зрения создателя данных и точка зрения пользователя.    Чтобы помочь потенциальному пользователю определить, насколько ваши данные заслуживают доверия и подходят для его целей, необходимо хорошо понимать собственные данные и уметь предоставлять информацию о них. Ниже приведены некоторые важные вопросы о метаданных, то есть характеристиках ваших данных, на которые вы должны уметь ответить и предоставить эту информацию другим:  "
+msgstr "Итак, что такое пригодность для использования и как это понятие связано с данными?  \n"
+"Говоря о пригодности для использования, Чапман отмечает, что после создания и публикации набора данных существуют две основные точки зрения на возможное использование этих данных: точка зрения создателя данных и точка зрения пользователя.   \n"
+"Чтобы помочь потенциальному пользователю определить, насколько ваши данные заслуживают доверия и подходят для его целей, необходимо хорошо понимать собственные данные и уметь предоставлять информацию о них. Ниже приведены некоторые важные вопросы о метаданных, то есть характеристиках ваших данных, на которые вы должны уметь ответить и предоставить эту информацию другим:\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:157
 msgid "How Accessible are your data? How easily can someone access your data? People can’t use the data if they can’t find the data."
-msgstr "Насколько доступны ваши данные? Насколько легко кто-либо может получить к ним доступ? Люди не смогут использовать данные, если не смогут их найти."
+msgstr "Насколько доступны ваши данные? Насколько легко кто-либо может получить к ним доступ? Люди не смогут использовать данные, если не смогут их найти.\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:158
 msgid "How Accurate are your data? Can your data be trusted? For example, are your identifications current and were they made by known experts?"
-msgstr "Насколько точны ваши данные? Можно ли им доверять? Например, актуальны ли определения видов и были ли они выполнены известными специалистами?"
+msgstr "Насколько точны ваши данные? Можно ли им доверять? Например, актуальны ли определения видов и были ли они выполнены известными специалистами?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:159
 msgid "How Timely are they? When will the data be made available? How often are they updated?"
-msgstr "Насколько своевременны ваши данные? Когда данные будут доступны? Как часто они обновляются?"
+msgstr "Насколько своевременны ваши данные? Когда данные будут доступны? Как часто они обновляются?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:160
 msgid "How Complete or Comprehensive are the data? Which parts of your dataset are documented fully? How well do the data cover a particular time, place, or domain?"
-msgstr "Насколько полны и всесторонни ваши данные? Какие части набора данных документированы полностью? Насколько хорошо данные охватывают определённый период времени, территорию или предметную область?"
+msgstr "Насколько полны и всесторонни ваши данные? Какие части набора данных документированы полностью? Насколько хорошо данные охватывают определённый период времени, территорию или предметную область?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:161
 msgid "How Consistent are they? Is the data in each field always of the same type? Was the data collected using the same documented protocols?"
-msgstr "Насколько они согласованы? Всегда ли данные в каждом поле представлены в одном и том же формате? Были ли данные собраны с использованием одних и тех же документированных протоколов?"
+msgstr "Насколько они согласованы? Всегда ли данные в каждом поле представлены в одном и том же формате? Были ли данные собраны с использованием одних и тех же документированных протоколов?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:162
 msgid "How Relevant are they? How similar is this dataset to others that have been used successfully for the same purpose?"
-msgstr "Насколько релевантны ваши данные? Насколько этот набор данных схож с другими наборами, которые уже успешно использовались для той же цели?"
+msgstr "Насколько релевантны ваши данные? Насколько этот набор данных схож с другими наборами, которые уже успешно использовались для той же цели?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:163
 msgid "How Detailed are the data? How much resolution is there in your data? At what scale can they be used for mapping?"
-msgstr "Насколько детальны ваши данные? Какова степень детализации данных? В каком масштабе их можно использовать для картографирования?"
+msgstr "Насколько детальны ваши данные? Какова степень детализации данных? В каком масштабе их можно использовать для картографирования?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:164
 msgid "Is the data Easy to interpret? Is the dataset documented in a clear and concise way? If your documents are handwritten, are they legible?"
-msgstr "Насколько легко интерпретировать ваши данные? Чётко и понятно ли документирован набор данных? Если документы написаны от руки, легко ли разобрать почерк?"
+msgstr "Насколько легко интерпретировать ваши данные? Чётко и понятно ли документирован набор данных? Если документы написаны от руки, легко ли разобрать почерк?\n"
 
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:171
@@ -992,7 +994,12 @@ msgstr "*Слайд 21 — Показатели качества — Согла�
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:296
 msgid "Sometimes, if you are familiar with the dataset, you might know how many collectors are represented just by looking at the data, but if you don’t know these data well, you might need to do some research, ask some questions or look at the original field notes.    In this example, if you guessed that these five names represent two or three unique collectors, you would be right:   In blue, Joseph Dalton Hooker AND Hook.f. are the same person. Hook.f. is the abbreviation used for Joseph Dalton Hooker (1817-1911).    In green, W. J. Hooker and Hook. are the same person.  Hook. is the abbreviation for William Jackson Hooker (1785-1865). William was actually Joseph’s father.    Finally, in the red, there is “Hooker, J.” This entry could be an error or typo of either Joseph or William Hooker, OR it could be a third person with a similar name. Thus, more research would be needed to clarify these data.    Reference: http://www.ipni.org/ipni/advAuthorSearch.do;jsessionid=087C235AF7757EF21CA33FF5325C94C7?find_forename=&find_surname=Hooker&find_abbreviation=&find_isoCountry=&output_format=normal&back_page=authorsearch&query_type=by_query"
-msgstr "Иногда, если вы хорошо знакомы с набором данных, то можете определить количество представленных в нём коллекторов, просто взглянув на данные. Однако, если данные вам недостаточно знакомы, может потребоваться дополнительное исследование, уточнение информации или обращение к исходным полевым записям.    В данном примере, если вы предположили, что эти пять вариантов имени относятся к двум или трём уникальным коллекторам, вы правы:   Синим цветом выделены Джозеф Далтон Хукер (Joseph Dalton Hooker) и Hook.f. — это один и тот же человек. Hook.f. — это аббревиатура, используемая для обозначения Джозефа Далтона Хукера (1817–1911).    Зелёным цветом выделены W. J. Hooker и Hook., которые обозначают одного и того же человека.  Hook. — это сокращение от Уильяма Джексона Хукера (1785–1865). Уильям, собственно, был отцом Джозефа.    Наконец, красным цветом выделено имя «Hooker, J.». Эта запись может быть ошибочным или опечатанным вариантом имени Джозефа или Уильяма Гукера либо относиться к третьему человеку с похожим именем. Поэтому для уточнения этих данных потребуется дополнительное исследование.    Источник: http://www.ipni.org/ipni/advAuthorSearch.do;jsessionid=087C235AF7757EF21CA33FF5325C94C7?find_forename=&find_surname=Hooker&find_abbreviation=&find_isoCountry=&output_format=normal&back_page=authorsearch&query_type=by_query"
+msgstr "Иногда, если вы хорошо знакомы с набором данных, то можете определить количество представленных в нём коллекторов, просто взглянув на данные. Однако, если данные вам недостаточно знакомы, может потребоваться дополнительное исследование, уточнение информации или обращение к исходным полевым записям.    \n"
+"В данном примере, если вы предположили, что эти пять вариантов имени относятся к двум или трём уникальным коллекторам, вы правы:   \n"
+"Синим цветом выделены Джозеф Далтон Хукер (Joseph Dalton Hooker) и Hook.f. — это один и тот же человек. Hook.f. — это аббревиатура, используемая для обозначения Джозефа Далтона Хукера (1817–1911).    \n"
+"Зелёным цветом выделены W. J. Hooker и Hook., которые обозначают одного и того же человека.  Hook. — это сокращение от Уильяма Джексона Хукера (1785–1865). Уильям, собственно, был отцом Джозефа.    \n"
+"Наконец, красным цветом выделено имя «Hooker, J.». Эта запись может быть ошибочным или опечатанным вариантом имени Джозефа или Уильяма Гукера либо относиться к третьему человеку с похожим именем. Поэтому для уточнения этих данных потребуется дополнительное исследование.    \n"
+"Источник: http://www.ipni.org/ipni/advAuthorSearch.do;jsessionid=087C235AF7757EF21CA33FF5325C94C7?find_forename=&find_surname=Hooker&find_abbreviation=&find_isoCountry=&output_format=normal&back_page=authorsearch&query_type=by_query"
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:297
@@ -1009,7 +1016,12 @@ msgstr "*Слайд 22 — Очистка данных*\n"
 #. type: delimited block =
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:312
 msgid "We have just discussed several simple illustrations of two measures of data quality. These examples should give you a basic understanding about how to identify the inaccuracies and imprecisions in data.    How we document and fix these issues or errors is a process that we call data cleaning.  More specifically:   Data cleaning is the process of correcting or removing dirty data caused by contradictions, disparities, keying mistakes, missing bits, and more. It also includes validation of the changes made, and may require normalization.    Our data cleaning, or lack thereof, will affect how data users perceive your data’s fitness for use.    It is not necessary for you to do all the data cleaning yourself, in fact, a common misconception is that all errors MUST be fixed before you can share your data.    The truth is that you can only clean as much data as your time, knowledge, and resources permit. As a result, it is essential to document what you know and what you do not know about your data so that when you do share them, data users will know the level of the quality of your data."
-msgstr "Мы только что рассмотрели несколько простых примеров, иллюстрирующих два показателя качества данных. Эти примеры должны дать вам базовое представление о том, как выявлять неточности и несогласованности в данных.    Процесс документирования и исправления таких проблем или ошибок называется очисткой данных. Более конкретно:   Очистка данных — это процесс исправления или удаления некорректных данных, появившихся в результате противоречий, несоответствий, ошибок ввода, отсутствующих значений и других проблем. Он также включает проверку внесённых изменений и при необходимости может требовать нормализации данных.    То, насколько тщательно мы проводим очистку данных — или не проводим её вовсе, — влияет на то, как пользователи оценивают пригодность наших данных для использования.    При этом вам не обязательно самостоятельно выполнять всю очистку данных. Более того, распространено ошибочное представление о том, что перед публикацией данных необходимо обязательно исправить все ошибки.    На практике вы можете очистить данные лишь в той мере, в какой позволяют имеющиеся у вас время, знания и ресурсы. Поэтому крайне важно документировать, что вам известно и что неизвестно о ваших данных, чтобы после их публикации пользователи могли оценить уровень их качества."
+msgstr "Мы только что рассмотрели несколько простых примеров, иллюстрирующих два показателя качества данных. Эти примеры должны дать вам базовое представление о том, как выявлять неточности и несогласованности в данных.    \n"
+"Процесс документирования и исправления таких проблем или ошибок называется очисткой данных. Более конкретно:   \n"
+"Очистка данных — это процесс исправления или удаления некорректных данных, появившихся в результате противоречий, несоответствий, ошибок ввода, отсутствующих значений и других проблем. Он также включает проверку внесённых изменений и при необходимости может требовать нормализации данных.    \n"
+"То, насколько тщательно мы проводим очистку данных — или не проводим её вовсе, — влияет на то, как пользователи оценивают пригодность наших данных для использования.    \n"
+"При этом вам не обязательно самостоятельно выполнять всю очистку данных. Более того, распространено ошибочное представление о том, что перед публикацией данных необходимо обязательно исправить все ошибки.    \n"
+"На практике вы можете очистить данные лишь в той мере, в какой позволяют имеющиеся у вас время, знания и ресурсы. Поэтому крайне важно документировать, что вам известно и что неизвестно о ваших данных, чтобы после их публикации пользователи могли оценить уровень их качества."
 
 #. type: Target for macro image
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:313

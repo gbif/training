@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-10-06 18:51\n"
+"PO-Revision-Date: 2026-10-23 11:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -49,7 +49,7 @@ msgstr "Если вы предпочитаете ознакомиться с м�
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:35
 #, no-wrap
 msgid "Presentation transcript"
-msgstr ""
+msgstr "Текст презентации"
 
 #. type: Block title
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:29
@@ -325,7 +325,7 @@ msgstr "Нажмите, чтобы раскрыть"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:537
@@ -389,7 +389,7 @@ msgstr "Проверьте свои знания понятий, рассмот�
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:230
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:413
 msgid "You can read more about the answers in the xref:solutions.adoc[Solutions Appendix]."
-msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc [Приложение с решениями]."
+msgstr "Подробнее об ответах можно прочитать в файле xref:solutions.adoc[Приложение с решениями]."
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:6
@@ -410,7 +410,7 @@ msgstr "В этом видео (15:27) вы познакомитесь с осн
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:15
 msgid "If you are unable to watch the embedded video, you can xref:attachment$data_publishing_concepts_v2-720p.mp4[download,opts=download] it locally. (MP4 - 53.2 MB)"
-msgstr "Если у вас не получается просмотреть встроенное видео, вы можете скачать его локально по ссылке:$data_publishing_concepts_v2-720p.mp4[download,opts=download]. (MP4 — 53,2 МБ)"
+msgstr "Если у вас не получается просмотреть встроенное видео, вы можете скачать его локально по xref:attachment$data_publishing_concepts_v2-720p.mp4[download,opts=download]. (MP4 — 53,2 МБ)"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:34
@@ -597,42 +597,42 @@ msgstr "*Слайд 6 — Выбор ядра для публикации дан
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:109
 msgid "We’re now putting together what you learned in the first two presentations in the Data Capture section on Standards and Darwin Core and Data Types.    At its heart, the IPT is based on Darwin Core and the Darwin Core text guide and its recommendations for sharing data in a Darwin Core Archive. The Darwin Core contains three distinct data cores which match up to three of the dataset types that GBIF accepts.    Keep in mind:  "
-msgstr "Теперь мы объединим знания, полученные вами из первых двух презентаций раздела «Сбор данных», посвящённых стандартам и Darwin Core, а также типам данных.    В основе IPT лежат стандарт Darwin Core, руководство Darwin Core по текстовому формату и содержащиеся в нём рекомендации по обмену данными в формате Darwin Core Archive. Darwin Core включает три отдельных ядра данных, которые соответствуют трём типам наборов данных, принимаемых GBIF.    Помните:  "
+msgstr "Теперь мы объединим знания, полученные вами из первых двух презентаций раздела «Сбор данных», посвящённых стандартам и Darwin Core, а также типам данных. В основе IPT лежат стандарт Darwin Core, руководство Darwin Core по текстовому формату и содержащиеся в нём рекомендации по обмену данными в формате Darwin Core Archive. Darwin Core включает три отдельных ядра данных, которые соответствуют трём типам наборов данных, принимаемых GBIF. Помните:  "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:110
 msgid "Each dataset has one and only one Core file"
-msgstr "Каждый набор данных содержит один и только один файл ядра"
+msgstr "Каждый набор данных содержит один и только один файл ядра: "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:111
 msgid "Each Core file corresponds to a dataset type: occurrence, checklist or sampling event."
-msgstr "Каждый файл ядра соответствует определённому типу набора данных: находкам организмов, таксономическому списку или событиям отбора проб."
+msgstr "Каждый файл ядра соответствует определённому типу набора данных: находкам организмов, таксономическому списку или событиям отбора проб. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:112
 msgid "Each dataset can have one or more extensions file"
-msgstr "Каждый набор данных может иметь один или несколько файлов расширений"
+msgstr "Каждый набор данных может иметь один или несколько файлов расширений. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:113
 msgid "The aim of an extension is to add new data fields not present in the core."
-msgstr "Цель расширения — добавить дополнительные поля данных, отсутствующие в ядре."
+msgstr "Цель расширения — добавить дополнительные поля данных, отсутствующие в ядре. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:114
 msgid "Each entry in the core file is linked to zero, one or several rows in an extension file."
-msgstr "Каждая запись в основном файле связана с нулем, одной или несколькими строками в файле расширения."
+msgstr "Каждая запись в основном файле связана с нулем, одной или несколькими строками в файле расширения. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:115
 msgid "Each row in an extension file reference one and only one row in the core file."
-msgstr "Каждая строка в файле расширения ссылается на одну и только одну строку в файле ядра."
+msgstr "Каждая строка в файле расширения ссылается на одну и только одну строку в файле ядра. "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:117
 msgid "Some examples:"
-msgstr "Некоторые примеры:"
+msgstr "Некоторые примеры: "
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:119
@@ -667,7 +667,7 @@ msgstr "Ядро «Событие» (Event) с расширениями «Нах
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:126
 msgid "Photo: Pieris formosa (Wall.) D.Don Observed in Nepal by Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0]"
-msgstr "Фото: Pieris formosa (Wall.) D.Don. Снято в Непале Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/ [CC0 1.0]"
+msgstr "Фото: Pieris formosa (Wall.) D.Don. Снято в Непале Neil Alderson http://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0]"
 
 #. type: Target for macro image
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:127
@@ -962,7 +962,7 @@ msgstr "В ходе этой демонстрации вы познакомит�
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
 msgid "A live demonstration will be provided. Visit the https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] for full documentation."
-msgstr "Будет проведена демонстрация работы с IPT в режиме реального времени. Полную документацию можно найти в [руководстве пользователя IPT] по адресу https://ipt.gbif.org/manual/en/ipt/latest/."
+msgstr "Будет проведена демонстрация работы с IPT в режиме реального времени. Полную документацию можно найти в https://ipt.gbif.org/manual/en/ipt/latest/[руководстве пользователя IPT^]."
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:237
@@ -1002,7 +1002,7 @@ msgstr "После очистки данных команда решила, чт
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:249
 msgid "Download xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 KB)"
-msgstr "Скачать внешнюю ссылку: приложение$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 КБ)"
+msgstr "Скачайте xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 КБ)"
 
 #. type: Plain text
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250

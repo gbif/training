@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-07-08 08:20\n"
+"PO-Revision-Date: 2026-10-23 11:47\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -290,7 +290,7 @@ msgstr "Нажмите, чтобы раскрыть"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:580
@@ -350,7 +350,7 @@ msgstr ""
 #: en/grscicoll/modules/ROOT/pages/grscicoll-content.adoc:136
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:143
 msgid "_True or False?_"
-msgstr ""
+msgstr "_Верно или Неверно?_"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:43
@@ -368,7 +368,8 @@ msgstr ""
 #, no-wrap
 msgid "- [x] True\n"
 "- [ ] False\n"
-msgstr ""
+msgstr "- [x] Верно\n"
+"- [ ] Неверно\n"
 
 #. type: delimited block .
 #: en/grscicoll/modules/ROOT/pages/grscicoll-api.adoc:61
@@ -385,7 +386,8 @@ msgstr ""
 #, no-wrap
 msgid "- [ ] True\n"
 "- [x] False\n"
-msgstr ""
+msgstr "- [ ] Верно\n"
+"- [x] Неверно\n"
 
 #. type: Title =
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:1
@@ -398,7 +400,8 @@ msgstr ""
 #, no-wrap
 msgid "In this video (07:14), GBIF Data Administrator, Marie Grosjean, describes the linking of occurrence records within GRSciColl.   \n"
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
+msgstr "В этом видео (07:14) администратор данных GBIF Мари Грожан (Marie Grosjean) рассказывает о связывании записей о находках в системе GRSciColl.   \n"
+"Если у вас не получается посмотреть встроенное видео с Vimeo, вы можете скачать его на свой компьютер со страницы xref:downloads.adoc[Файлы для скачивания].\n"
 
 #. type: Target for macro image
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:26
@@ -480,7 +483,7 @@ msgstr ""
 #. type: quote
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:53
 msgid "This training material doesn’t cover how data should be shared on GBIF, if you are interested, consider reviewing the course on https://docs.gbif.org/course-data-mobilization[Biodiversity data mobilization^]. This https://www.gbif.org/composition/2w2DNTfjtU9OrGDLIagfc5[Data Use Club recorded webinar^] is also a good introduction to how the data are shared and processed on GBIF."
-msgstr ""
+msgstr "В данном учебном материале не рассматривается, как следует публиковать данные в GBIF; если вас это интересует, рекомендуем ознакомиться с курсом https://docs.gbif.org/course-data-mobilization[Мобилизация данных о биоразнообразии^]. Этот https://www.gbif.org/composition/2w2DNTfjtU9OrGDLIagfc5[записанный вебинар Data Use Club^] также является хорошим введением в то, как данные обмениваются и обрабатываются в GBIF."
 
 #. type: quote
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:55
@@ -527,7 +530,7 @@ msgstr "Цитирование материала"
 #. type: quote
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:67
 msgid "Every time one of these occurrences is processed by GBIF (when it is published or re-interpreted), GBIF attempts to match it to GRSciColl entries by using the https://techdocs.gbif.org/en/openapi/v1/registry#/Lookup%20institutions%20and%20collections[GRSciColl lookup service^] and a cached version of GRSciColl."
-msgstr ""
+msgstr "Каждый раз, когда одно из этих наблюдений обрабатывается GBIF (при его публикации или переосмыслении), GBIF пытается сопоставить его с записями GRSciColl, используя службы поиска по коллекциям https://techdocs.gbif.org/en/openapi/v1/registry#/Lookup%20i, учреждениям%20aи коллекциям%20c[служба поиска GRSciColl^] а также кэшированную версию GRSciColl."
 
 #. type: quote
 #: en/grscicoll/modules/ROOT/pages/linking-occurrences.adoc:70
