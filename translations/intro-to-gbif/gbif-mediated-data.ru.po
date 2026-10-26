@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-10-26 08:26\n"
+"PO-Revision-Date: 2026-10-26 11:12\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -383,7 +383,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:14
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:259
 msgid "A Digital Object Identifier, or DOI, is a http://www.iso.org/iso/catalogue_detail?csnumber=43506[standard^], permanent identifier that provides an actionable, interoperable, persistent link to any entity.  The concept is that DOI differs from commonly used references like URL web links because it identifies an object itself as a first-class entity, not simply the place where the object is currently located."
-msgstr "Идентификатор цифрового объекта (Digital Object Identifier, DOI) — это стандарт [http://www.iso.org/iso/catalogue_detail?csnumber=43506^], представляющий собой постоянный идентификатор, который обеспечивает функциональную, совместимую и устойчивую ссылку на любой объект.  Суть концепции заключается в том, что DOI отличается от широко используемых ссылок, таких как веб-адреса (URL), поскольку он идентифицирует сам объект как сущность первого порядка, а не просто место, где объект находится в данный момент."
+msgstr "Идентификатор цифрового объекта (Digital Object Identifier, DOI) —  http://www.iso.org/iso/catalogue_detail?csnumber=43506[это стандарт^], представляющий собой постоянный идентификатор, который обеспечивает функциональную, совместимую и устойчивую ссылку на любой объект.  Суть концепции заключается в том, что DOI отличается от широко используемых ссылок, таких как веб-адреса (URL), поскольку он идентифицирует сам объект как сущность первого порядка, а не просто место, где объект находится в данный момент."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/gbif-mediated-data-principles.adoc:16
@@ -1145,7 +1145,7 @@ msgstr "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[Catalo
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:206
 msgid "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF backbone^] - This is a taxonomy that, up until recently, GBIF has been building and integrating periodically. It is primarily based on an older version of Catalogue of Life with additional taxa added in an automated way from other taxonomic datasets. The build process has now been discontinued in favour of the eXtended release of the Catalogue of Life. The GBIF Backbone will no longer be updated, but will remain available for backwards compatibility. All GBIF Backbone identifiers will be preserved and supported in the API."
-msgstr "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[Основная таксономическая база GBIF^] — таксономическая система, которую до недавнего времени GBIF периодически формировал и обновлял. Она основана главным образом на более ранней версии Catalogue of Life с автоматическим добавлением таксонов из других таксономических наборов данных. В настоящее время её формирование прекращено в пользу расширенной версии Catalogue of Life (Catalogue of Life eXtended Release). GBIF Backbone больше не будет обновляться, однако останется доступным для обеспечения обратной совместимости. Все идентификаторы GBIF Backbone будут сохранены и продолжат поддерживаться через API."
+msgstr "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[Основная таксономическая база GBIF (GBIF backbone)^] — таксономическая система, которую до недавнего времени GBIF периодически формировал и обновлял. Она основана главным образом на более ранней версии Catalogue of Life с автоматическим добавлением таксонов из других таксономических наборов данных. В настоящее время её формирование прекращено в пользу расширенной версии Catalogue of Life (Catalogue of Life eXtended Release). GBIF Backbone больше не будет обновляться, однако останется доступным для обеспечения обратной совместимости. Все идентификаторы GBIF Backbone будут сохранены и продолжат поддерживаться через API."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:208
@@ -1183,7 +1183,7 @@ msgstr "intro-to-gbif::ChecklistBank-04-07-2026_01_43_PM.png"
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:222
 msgid "https://www.catalogueoflife.org/[Catalogue of Life^] is a global index of species, which aims to provide a comprehensive and authoritative list of the world’s species. It is compiled from multiple taxonomic datasets and is updated regularly. The https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^] (COL XR) builds on the Base Release by programmatically integrating additional data sources. It integrates information from over 58,000 overlapping taxonomic and nomenclatural global, regional, national and management data sources (checklists) as well as originating from digitised literature available in Catalogue of Life’s infrastructure https://www.checklistbank.org/[ChecklistBank^]."
-msgstr "https://www.catalogueoflife.org/[Каталог жизни^] — это глобальный каталог видов, целью которого является создание всеобъемлющего и авторитетного списка видов мира. Он формируется на основе множества таксономических наборов данных и регулярно обновляется. https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^](COL XR) создаётся на основе Base Release путём программной интеграции дополнительных источников данных. Она объединяет информацию из более чем 58 000 частично перекрывающихся глобальных, региональных и национальных источников таксономических и номенклатурных данных, а также специализированных списков, используемых для управления данными. Кроме того, используются сведения из оцифрованной литературы, доступной через инфраструктуру «Каталога жизни» https://www.checklistbank.org/[ChecklistBank^]."
+msgstr "https://www.catalogueoflife.org/[Каталог жизни (Catalogue of Life)^] — это глобальный каталог видов, целью которого является создание всеобъемлющего и авторитетного списка видов мира. Он формируется на основе множества таксономических наборов данных и регулярно обновляется. https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b[eXtended Release^](COL XR) создаётся на основе Base Release путём программной интеграции дополнительных источников данных. Она объединяет информацию из более чем 58 000 частично перекрывающихся глобальных, региональных и национальных источников таксономических и номенклатурных данных, а также специализированных списков, используемых для управления данными. Кроме того, используются сведения из оцифрованной литературы, доступной через инфраструктуру «Каталога жизни» https://www.checklistbank.org/[ChecklistBank^]."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:224
