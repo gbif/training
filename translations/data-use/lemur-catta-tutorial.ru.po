@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-10-27 10:39\n"
+"PO-Revision-Date: 2026-10-27 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -345,7 +345,7 @@ msgstr "Верификация и исправление данных"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:152
 msgid "After some exploring of our data, we know that there are potential quality issues in our download. Apparently points outside Madagascar are suspicious, and we have just looked at basisOfRecord and establishmentMeans columns for cues of needed data actions."
-msgstr ""
+msgstr "После предварительного изучения наших данных мы выяснили, что скачанный набор данных может содержать проблемы с качеством. В частности, записи с координатами за пределами Мадагаскара вызывают подозрения. Мы также рассмотрели столбцы basisOfRecord и establishmentMeans, чтобы определить, какие действия могут потребоваться для дальнейшей обработки данных."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:154
@@ -357,7 +357,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:155
 #, no-wrap
 msgid "Step 1: basisOfRecord"
-msgstr ""
+msgstr "Шаг 1: basisOfRecord"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:158
@@ -371,7 +371,10 @@ msgid "```{r}\n"
 "clean_step1 <- gdf %>%\n"
 "  as_tibble() %>%\n"
 "  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
-msgstr ""
+msgstr "```{r}\n"
+"clean_step1 <- gdf %>%\n"
+"  as_tibble() %>%\n"
+"  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:167
