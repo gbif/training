@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-12 20:32+0000\n"
-"PO-Revision-Date: 2026-10-27 10:39\n"
+"PO-Revision-Date: 2026-10-27 16:26\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -51,7 +51,7 @@ msgstr "Для одного исследователя данных, опред�
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:23
 msgid "Based on the principles that Arthur Chapman discusses in the https://www.gbif.org/document/80509/principles-of-data-quality[_Principles of Data Quality_^] (2005), you should reflect on some important questions about the data to help you decide if data is trustworthy or useful enough for your purpose:"
-msgstr "Опираясь на принципы, которые Артур Чепмен рассматривает в книге https://www.gbif.org/document/80509/principles-of-data-quality[_Принципы качества данных_^] (2005), вам следует задать себе несколько важных вопросов о данных, которые помогут вам определить, являются ли они достаточно достоверными и полезными для ваших целей:"
+msgstr "Опираясь на принципы, которые Артур Чепмен рассматривает в книге https://www.gbif.org/document/80509/principles-of-data-quality[_Принципы качества данных_^] (2005), вам следует задать себе несколько важных вопросов о данных, которые помогут определить, являются ли они достаточно достоверными и полезными для ваших целей:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:25
@@ -61,7 +61,7 @@ msgstr "Насколько *точны* эти данные? Например, �
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:26
 msgid "How *Timely* are the data? When was the data made available? How often has it been updated?"
-msgstr "Насколько своевременны данные? Когда данные стали доступны? Как часто они обновляются?"
+msgstr "Насколько *своевременны* данные? Когда данные стали доступны? Как часто они обновляются?"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:27
@@ -86,7 +86,7 @@ msgstr "Насколько *детализированы* данные? Како
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:31
 msgid "Is the data *Easy* to interpret? Is the dataset (metadata) documented in a clear and concise way?"
-msgstr ""
+msgstr "Насколько *легко* интерпретировать данные? Является ли документация набора данных (метаданные) ясной и лаконичной?"
 
 #. type: Block title
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:33
@@ -98,18 +98,18 @@ msgstr "Автор изображения — Мелисса Лю (Melissa Liu)"
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:34
 #, no-wrap
 msgid "data-use::fitnessforuse.png"
-msgstr ""
+msgstr "data-use::fitnessforuse.png"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:36
 #, no-wrap
 msgid "Evaluating data quality"
-msgstr ""
+msgstr "Оценка качества данных"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:40
 msgid "If you have determined a dataset is fit for your purpose, you need to further examine the dataset and complete post-download processing of the data. GBIF downloads contain data from a range of sources and the data will likely vary in its measures of quality.  Knowing the properties of the data you have will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "Если вы определили, что набор данных подходит для ваших целей, необходимо более подробно изучить его и выполнить дополнительную обработку данных после скачивания. Выгрузки из GBIF содержат данные из различных источников, поэтому показатели их качества могут существенно различаться. Понимание характеристик имеющихся данных поможет вам определить, какие способы очистки, проверки и обработки данных можно применять, а какие — нет.."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:44
@@ -121,52 +121,52 @@ msgstr "Ниже приведен отрывок из руководства А�
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:49
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:332
 msgid "Before a detailed discussion on data quality and its application to species-occurrence data can take place, there are a number of concepts that need to be defined and described.  These include the term data quality itself, the terms accuracy and precision that are often misapplied, and what we mean by primary species data and species-occurrence data."
-msgstr ""
+msgstr "Прежде чем перейти к подробному рассмотрению качества данных и его оценки применительно к данным о находках видов, необходимо определить и объяснить ряд понятий. К ним относятся само понятие качества данных, термины «точность» (accuracy) и «прецизионность» (precision), которые часто используются некорректно, а также понятия первичных данных о видах и данных о находках видов."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:51
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:334
 #, no-wrap
 msgid "*Species-occurrence data*\n"
-msgstr ""
+msgstr "*Данные о находках видов*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:55
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:338
 msgid "Species-occurrence data is used here to include specimen label data attached to specimens or lots housed in museums and herbaria, observational data and environmental survey data.  In general, the data are what we term “point-based”, although line (transect data from environmental surveys, collections along a river), polygon (observations from within a defined area such as a national park) and grid data (observations or survey records from a regular grid) are also included.  In general we are talking about georeferenced data – i.e. records with geographic references that tie them to a particular place in space – whether with a georeferenced coordinate (e.g. latitude and longitude, UTM) or not (textual description of a locality, altitude, depth) – and time (date, time of day)."
-msgstr ""
+msgstr "В данном контексте данные о находках видов (Species-occurrence data) включают информацию с этикеток отдельных экземпляров или серий образцов, хранящихся в музеях и гербариях, данные наблюдений, а также данные экологических обследований.  Как правило, такие данные имеют точечную пространственную привязку, однако они могут быть представлены и в виде линий (например, данные учётов вдоль трансект или сборов вдоль реки), полигонов (наблюдения в пределах определённой территории, например национального парка) или регулярной сетки (наблюдения или результаты учётов, привязанные к ячейкам сетки).  В целом речь идёт о данных с географической привязкой, то есть о записях, содержащих информацию, позволяющую связать их с определённым местоположением — как с помощью географических координат (например, широты и долготы или координат UTM), так и без них (текстовое описание местонахождения, высота над уровнем моря, глубина), а также с определённым временем (дата, время суток)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:58
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:341
 msgid "In general the data are also tied to a taxonomic name, but unidentified collections may also be included.  The term has occasionally been used interchangeably with the term “primary species data”."
-msgstr ""
+msgstr "Как правило, данные также связаны с определённым таксономическим названием, однако могут включать и сборы, таксономическая принадлежность которых ещё не установлена. Иногда этот термин используется как синоним понятия «первичные данные о видах» (primary species data).."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:60
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:343
 #, no-wrap
 msgid "*Primary species data*\n"
-msgstr ""
+msgstr "*Первичные данные о видах*"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:63
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:346
 msgid "“Primary species data” is used to describe raw collection data and data without any spatial attributes.  It includes taxonomic and nomenclatural data without spatial attributes, such as names, taxa and taxonomic concepts without associated geographic references."
-msgstr ""
+msgstr "Термин «первичные данные о видах» используется для обозначения необработанных данных о сборах, а также данных, не содержащих пространственных характеристик. Он включает таксономические и номенклатурные данные без пространственной привязки, например научные названия, таксоны и таксономические концепции, не связанные с конкретными географическими местоположениями."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:65
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:348
 #, no-wrap
 msgid "*Accuracy and Precision*\n"
-msgstr ""
+msgstr "*Точность и прецизионность*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:67
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:350
 msgid "Accuracy and precision are regularly confused and the differences are not generally understood."
-msgstr ""
+msgstr "Понятия точности и прецизионности часто путают, а различия между ними, как правило, недостаточно хорошо понимают."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:69
@@ -184,64 +184,64 @@ msgstr "Точность (Precision, или Resolution) можно раздел�
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:79
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:362
 msgid "These terms – accuracy and precision – can also be applied to non-spatial data as well as to spatial data.  For example, a collection may have an identification to subspecies level (i.e. have high precision), but be the wrong taxon (i.e. have low accuracy), or be identified only to Family level (high accuracy, but low precision)."
-msgstr ""
+msgstr "Эти понятия — точность и прецизионность — применимы не только к пространственным, но и к другим типам данных. Например, собранный экземпляр может быть определён до уровня подвида (то есть с высокой прецизионностью), но при этом отнесён к неправильному таксону (низкая точность). И наоборот, экземпляр может быть определён только до уровня семейства (высокая точность, но низкая прецизионность)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:81
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:364
 #, no-wrap
 msgid "*Data quality*\n"
-msgstr ""
+msgstr "*Качество данных*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:86
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:369
 msgid "Data quality is multidimensional, and involves data management, modelling and analysis, quality control and assurance, storage and presentation.  As independently stated by Chrisman (1991) and Strong et al. (1997), data quality is related to use and cannot be assessed independently of the user.  In a database, the data have no actual quality or value (Dalcin 2004); they only have potential value that is realized only when someone uses the data to do something useful.  Information quality relates to its ability to satisfy its customers and to meet customers’ needs (English 1999)."
-msgstr ""
+msgstr "Качество данных — многомерное понятие, охватывающее управление данными, моделирование и анализ, контроль и обеспечение качества, хранение и представление данных. Как независимо друг от друга отмечали Chrisman (1991) и Strong et al. (1997), качество данных зависит от целей их использования и не может оцениваться в отрыве от пользователя.  Сами по себе данные, хранящиеся в базе данных, не обладают реальным качеством или ценностью (Dalcin 2004). Они имеют лишь потенциальную ценность, которая реализуется только тогда, когда кто-либо использует эти данные для решения практических задач.  Качество информации определяется её способностью удовлетворять потребности пользователей и соответствовать их требованиям (English 1999)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:88
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:371
 msgid "Redman (2001), suggested that for data to be fit for use they must be accessible, accurate, timely, complete, consistent with other sources, relevant, comprehensive, provide a proper level of detail, be easy to read and easy to interpret."
-msgstr ""
+msgstr "Redman (2001) предположил, что для того, чтобы данные были пригодны для использования, они должны быть доступными, точными, актуальными, полными, согласованными с другими источниками, релевантными и всесторонними, иметь необходимый уровень детализации, а также быть удобными для чтения и интерпретации."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:92
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:375
 msgid "One issue that a data custodian may need to consider is what may need to be done with the database to increase its usability to a wider audience (i.e. increase its potential use or relevance) and thus make it fit for a wider range of purposes.  There will be a trade off in this between the increased usability and the amount of effort required to add extra functionality and usability.  This may require such things as atomizing data fields, adding geo-referencing information, etc."
-msgstr ""
+msgstr "Один из вопросов, который необходимо учитывать специалисту, ответственному за управление данными, заключается в том, какие изменения следует внести в базу данных, чтобы сделать её более удобной для широкого круга пользователей (то есть расширить возможности её использования и повысить её востребованность) и тем самым обеспечить пригодность данных для решения более широкого спектра задач.  При этом необходимо найти баланс между повышением удобства использования данных и объёмом усилий, необходимых для расширения функциональных возможностей базы данных.  Для этого могут потребоваться, например, разделение содержимого полей на отдельные элементы, добавление информации о географической привязке и другие меры."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:94
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:377
 #, no-wrap
 msgid "*Quality Assurance/ Quality Control*\n"
-msgstr ""
+msgstr "*Обеспечение и контроль качества*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:98
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:381
 msgid "The difference between quality control and quality assurance is not always clear.  Taulbee (1996) makes the distinction between Quality Control and Quality Assurance and stresses that one cannot exist without the other if quality goals are to be met.  She defines Quality Control as a judgement of quality based on internal standards, processes and procedures established to control and monitor quality; and Quality Assurance as a judgement of quality based on standards external to the process and is the reviewing of the activities and quality control processes to insure that the final products meet predetermined standards of quality."
-msgstr ""
+msgstr "Различие между контролем качества (Quality Control) и обеспечением качества (Quality Assurance) не всегда очевидно. Taulbee (1996) разграничивает эти понятия и подчёркивает, что для достижения установленных целей в области качества они не могут существовать друг без друга.  Она определяет контроль качества как оценку качества на основе внутренних стандартов, процессов и процедур, разработанных для контроля и мониторинга качества. Обеспечение качества, в свою очередь, определяется как оценка качества на основе стандартов, внешних по отношению к рассматриваемому процессу. Оно предполагает проверку выполняемых действий и процедур контроля качества с целью убедиться, что конечные результаты соответствуют заранее установленным стандартам качества."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:100
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:383
 msgid "In a more business-oriented approach, Redman (2001) defines Quality Assurance as “those activities that are designed to produce defect-free information products to meet the most important needs of the most important customers, at the lowest possible cost”."
-msgstr ""
+msgstr "В рамках подхода, более ориентированного на бизнес-процессы, Redman (2001) определяет обеспечение качества как «деятельность, направленную на создание информационных продуктов, не содержащих ошибок, которые удовлетворяют наиболее важные потребности наиболее значимых пользователей при минимально возможных затратах»."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:102
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:385
 msgid "How these terms are to be applied in practice is not clear, and in most cases the terms seem to be largely used synonymously to describe the overall practice of data quality management."
-msgstr ""
+msgstr "Как именно следует применять эти понятия на практике, остаётся не вполне ясным. В большинстве случаев они, по-видимому, используются практически как синонимы для обозначения совокупности процессов управления качеством данных."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:104
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:387
 #, no-wrap
 msgid "*Uncertainty*\n"
-msgstr ""
+msgstr "*Неопределенность*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:109
@@ -254,7 +254,7 @@ msgstr "Неопределённость (Uncertainty) можно рассмат
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:394
 #, no-wrap
 msgid "*Error*\n"
-msgstr ""
+msgstr "*Ошибка*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:118
@@ -266,30 +266,30 @@ msgstr "Ошибка (Error) охватывает как недостаточн�
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:121
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:404
 msgid "An example may be the use of a different geodetic datum1 – where, if used throughout the analysis, may not cause any major problems.  Problems will arise though where an analysis uses data from different sources and with different biases – for example data sources that use different geodetic datums, or where identifications may have been carried out using an earlier version of a nomenclatural code."
-msgstr ""
+msgstr "Примером может служить использование другой геодезической системы отсчёта¹, которое, если она последовательно применяется на протяжении всего анализа, может не вызывать существенных проблем. Однако проблемы возникают, когда в анализе объединяются данные из разных источников, содержащие различные систематические смещения. Например, это могут быть источники данных, использующие разные геодезические системы отсчёта, или данные, в которых определение таксонов проводилось с использованием более ранней версии номенклатурного кодекса."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:125
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:408
 msgid "“Because error is inescapable, it should be recognized as a fundamental dimension of data” (Chrisman 1991).  Only when error is included in a representation of the data is it possible to answer questions about limitations in the data, and even limitations in current knowledge.  Known errors in the three dimensions of space, attribute and time need to be measured, calculated, recorded and documented."
-msgstr ""
+msgstr "«Поскольку ошибки неизбежны, их следует рассматривать как одну из фундаментальных характеристик данных» (Chrisman 1991).  Только при условии, что информация об ошибках включена в описание данных, становится возможным оценить ограничения, связанные с самими данными, и даже ограничения существующих знаний. Известные ошибки, относящиеся к трём измерениям данных — пространственному, атрибутивному и временному, — необходимо измерять, оценивать количественно, регистрировать и документировать.      "
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:127
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:410
 #, no-wrap
 msgid "*Validation and Cleaning*\n"
-msgstr ""
+msgstr "*Проверка и очистка*\n"
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:133
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:416
 msgid "Validation is a process used to determine if data are inaccurate, incomplete, or unreasonable.  The process may include format checks, completeness checks, reasonableness checks, limit checks, review of the data to identify outliers (geographic, statistical, temporal or environmental) or other errors, and assessment of data by subject area experts (e.g. taxonomic specialists).  These processes usually result in flagging, documenting and subsequent checking of suspect records.  Validation checks may also involve checking for compliance against applicable standards, rules, and conventions.  A key stage in data validation and cleaning is to identify the root causes of the errors detected and to focus on preventing those errors from re-occurring (Redman 2001)."
-msgstr ""
+msgstr "Валидация данных — это процесс, направленный на выявление неточных, неполных или неправдоподобных данных. Он может включать проверку формата, полноты и правдоподобности данных, проверку соответствия допустимым диапазонам значений, анализ данных для выявления выбросов (географических, статистических, временных или экологических) и других ошибок, а также экспертную оценку данных специалистами в соответствующих предметных областях (например, систематиками).  Как правило, в результате таких проверок подозрительные записи помечаются, информация о выявленных проблемах документируется, а сами записи подвергаются последующей проверке.  Валидация также может включать проверку соответствия данных применимым стандартам, правилам и соглашениям.  Важным этапом валидации и очистки данных является выявление первопричин обнаруженных ошибок и принятие мер, направленных на предотвращение их повторного возникновения (Redman 2001)."
 
 #. type: delimited block _
 #: en/data-use/modules/ROOT/pages/data-processing-quality.adoc:138
 #: en/foundations/modules/ROOT/pages/foundations-data-quality.adoc:421
 msgid "Data cleaning refers to the process of “fixing” errors in the data that have been identified during the validation process.  The term is synonymous with “data cleansing”, although some use data cleansing to encompass both data validation and data cleaning.  It is important in the data cleaning process that data is not inadvertently lost, and changes to existing information be carried out very carefully.  It is often better to retain both the old (original data) and the new (corrected data) side by side in the database so that if mistakes are made in the cleaning process, the original information can be recovered."
-msgstr ""
+msgstr "Очистка данных (Data cleaning) — это процесс исправления ошибок, выявленных в ходе валидации данных.  Термин data cleaning является синонимом data cleansing, хотя иногда под data cleansing понимают более широкий процесс, включающий как валидацию, так и очистку данных.  При очистке данных важно не допустить случайной потери информации, а любые изменения существующих данных необходимо вносить с особой осторожностью.  Зачастую предпочтительнее сохранять в базе данных как исходные (оригинальные), так и исправленные данные, чтобы в случае ошибок, допущенных в процессе очистки, можно было восстановить первоначальную информацию."
 
