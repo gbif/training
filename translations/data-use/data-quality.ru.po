@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-10-27 16:26\n"
+"PO-Revision-Date: 2026-10-27 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -25,7 +25,7 @@ msgstr "Обеспечение качества данных"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:7
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and the occurrence search has a set of additional \"Advanced\" search filters with more criteria or options available.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required, either manually or programmaticially, to deal with additional data quality issues that arise.  Below are some common data filters that you as a user might consider to make the data more fit for use."
-msgstr "Фильтрация данных позволяет пользователю отобрать данные, наиболее подходящие для решения конкретной задачи. Во всех типах поиска предусмотрен набор фильтров, которые помогают находить необходимые данные. Кроме того, при поиске записей о находках доступны дополнительные фильтры расширенного поиска («Advanced»), предоставляющие более широкий выбор критериев и параметров.  Хотя фильтры позволяют исключить данные, которые могут быть нерелевантными или недостаточно качественными для ваших целей, для устранения дополнительных проблем с качеством данных может потребоваться дальнейшая фильтрация — вручную или программными средствами. Ниже приведены некоторые распространённые фильтры, которые можно использовать для отбора данных, наиболее подходящих для ваших задач."
+msgstr "Фильтрация данных позволяет пользователю отобрать данные, наиболее подходящие для решения конкретной задачи. Во всех типах поиска предусмотрен набор фильтров, которые помогают находить необходимые данные. Кроме того, при поиске записей о находках доступны дополнительные фильтры расширенного поиска (Advanced), предоставляющие более широкий выбор критериев и параметров.  Хотя фильтры позволяют исключить данные, которые могут быть нерелевантными или недостаточно качественными для ваших целей, для устранения дополнительных проблем с качеством данных может потребоваться дальнейшая фильтрация — вручную или программными средствами. Ниже приведены некоторые распространённые фильтры, которые можно использовать для отбора данных, наиболее подходящих для ваших задач."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:8
@@ -46,7 +46,7 @@ msgstr "Страна или территория/континент — данн
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:15
 msgid "Administrative area - this filter uses the https://gadm.org/data.html[GADM database of administrative areas^] for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr "Административная территория — этот фильтр использует https://gadm.org/data.html[базу данных административных границ GADM^], охватывающую все страны мира, и позволяет выполнять поиск по административным территориям."
+msgstr "Административная территория — этот фильтр использует https://gadm.org/data.html[базу данных административных границ (GADM)^], охватывающую все страны мира, и позволяет выполнять поиск по административным территориям."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:16
@@ -87,7 +87,7 @@ msgstr "Центроиды стран"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:36
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will use the center of Brazil as the coordinate of the record.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr "Центроиды стран — это точки, расположенные в географическом центре страны, а не в месте фактического наблюдения или регистрации таксона. Обычно такие записи получают координаты задним числом на основании текстового описания местонахождения, указанного в исходной записи.  Центроиды стран, как правило, представляют собой записи, которым задним числом были присвоены координаты широты и долготы на основе текстового описания местоположения исходной записи.  Программное обеспечение для геокодирования использует географические справочники, словари или каталоги в сочетании с картой или атласом, чтобы присвоить координаты географическим названиям.  Например, если в записи указано только «Бразилия», некоторые издатели данных могут присвоить ей координаты центра Бразилии. Аналогичным образом, если в записи указано только «Техас» или «Париж», точка будет размещена в центре соответствующей территории.  Такая ситуация характерна почти исключительно для данных музейных коллекций (PRESERVED_SPECIMEN), однако может встречаться и в других типах записей."
+msgstr "Центроиды стран — это точки, расположенные в географическом центре страны, которым присваиваются координаты находок вместо фактического местоположения, где таксон наблюдался или был зарегистрирован. Как правило, такие записи возникают в результате ретроспективного присвоения географических координат (широты и долготы) на основании текстового описания местонахождения, указанного в исходной записи.  Программы геокодирования используют географические справочники, словари географических названий и другие источники, связанные с картами или атласами, чтобы присваивать координаты географическим названиям.  Например, если в записи указано только «Бразилия», некоторые издатели данных присваивают ей координаты географического центра Бразилии. Аналогичным образом, если в записи указано только «Техас» или «Париж», ей могут быть присвоены координаты центра соответствующей территории.  Такая ситуация характерна почти исключительно для данных музейных коллекций (PRESERVED_SPECIMEN), однако может встречаться и в записях других типов."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:38
@@ -183,7 +183,7 @@ msgstr "По умолчанию при поиске записей в GBIF от�
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:80
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "Способ появления на территории"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:84
@@ -193,13 +193,13 @@ msgstr "Термин Darwin Core https://dwc.tdwg.org/terms/#dwc:establishmentMe
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:87
 msgid "Use this filter cautiously, however, as most records do not contain this information, and so would be excluded from a search when using this filter.  We would recommend using the information within the Establishment Means term for filtering after download."
-msgstr ""
+msgstr "Однако используйте этот фильтр с осторожностью, поскольку в большинстве записей такая информация отсутствует и при применении фильтра эти записи будут исключены из результатов поиска. Мы рекомендуем использовать информацию из поля Establishment Means («Способ появления на территории») для фильтрации данных уже после их скачивания."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:88
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "Основа записи "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:91
@@ -209,72 +209,72 @@ msgstr "https://dwc.tdwg.org/terms/#dwc:basisOfRecord[Основа записи^
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:93
 msgid "Living Specimen - a specimen that is alive. For example, a living plant in a botanical garden or a living animal in a zoo."
-msgstr ""
+msgstr "Живой экземпляр (Living Specimen) — живой организм, например растение, выращиваемое в ботаническом саду, или животное, содержащееся в зоопарке."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:94
 msgid "Preserved Specimen - a specimen that has been preserved. For example, a plant on a herbarium sheet or a cataloged lot of fish in a jar."
-msgstr ""
+msgstr "Сохранённый экземпляр (Preserved Specimen) — экземпляр организма, сохранённый для длительного хранения. Например, растение на гербарном листе или зарегистрированная в каталоге серия экземпляров рыб, хранящихся в сосуде с консервирующей жидкостью."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:95
 msgid "Fossil Specimen - a preserved specimen that is a fossil. For example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree."
-msgstr ""
+msgstr "Ископаемый экземпляр (Fossil Specimen) — сохранившийся в ископаемом состоянии экземпляр или след жизнедеятельности древнего организма. Например, окаменелые остатки организма, копролит, гастролит, ихнофоссилия (ископаемый след жизнедеятельности) или фрагмент окаменевшей древесины."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:96
 msgid "Material Citation - a reference to, or citation of, one, a part of, or multiple specimens in scholarly publications. For example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "Ссылка на коллекционный материал (Material Citation) — упоминание или цитирование одного экземпляра, его части или нескольких экземпляров в научных публикациях. Например, ссылка на физический экземпляр из научной коллекции в таксономическом описании, опубликованном в научной работе, или упоминание находки в полевом дневнике."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:97
 msgid "Human Observation - an output of human observation process, e.g. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "Наблюдение человеком (Human Observation) — запись, полученная в результате непосредственного наблюдения человеком. Например, сведения о находке, извлечённые из полевых записей или литературы, либо запись о находке, не подтверждённая физическим экземпляром или данными, полученными с помощью технических средств."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:98
 msgid "Machine Observation - an output of a machine observation process. For example, a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "Машинное наблюдение (Machine Observation) — данные, полученные в результате наблюдения с использованием технических средств. Например, фотография, видеозапись, аудиозапись, изображение дистанционного зондирования или запись о находке, основанная на данных телеметрии.."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:100
 msgid "Basis of record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation."
-msgstr ""
+msgstr "Поле basisOfRecord позволяет пользователям исключать записи об организмах, содержащихся в коллекциях ex situ, например в зоопарках и ботанических садах, а также записи об ископаемых остатках. Кроме того, с помощью этого поля можно фильтровать записи в зависимости от того, основаны ли они на коллекционных экземплярах или наблюдениях, что может быть полезно для проверки правильности таксономического определения."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:102
 msgid "Even though this can be a useful filter, data publishers do not always complete the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user, e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr ""
+msgstr "Хотя этот фильтр может быть полезен, издатели данных не всегда корректно заполняют поле `basisOfRecord`. Кроме того, данные могут иметь особенности, которые не сразу очевидны пользователю, например: https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/. Поэтому перед использованием данных всегда следует дополнительно проверять их корректность."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:103
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "Старые записи"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:106
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "В базе данных GBIF содержится множество музейных записей, которые могут оказаться более старыми, чем требуется для некоторых исследований."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:107
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "Дубликаты"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:112
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from, for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "Дублирование записей может возникать, когда об одном и том же организме создаётся несколько записей. Например, исследователь может передать несколько образцов, собранных с одного дерева, в гербарии разных стран, каждый из которых впоследствии публикует соответствующие данные в GBIF. Другая ситуация возникает, когда экземпляр организма поступает в естественно-научную коллекцию и одновременно используется для получения образца ДНК. В этом случае в GBIF могут появиться две записи: одна — о коллекционном экземпляре, другая — о последовательности ДНК."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:115
 msgid "GBIF has introduced a clustering function in its advanced search that allows users to identify clusters of records, i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter them out."
-msgstr ""
+msgstr "GBIF внедрил в расширенный поиск функцию кластеризации, которая позволяет пользователям выявлять группы записей, предположительно происходящих из одного источника. Это помогает обнаруживать потенциально дублирующиеся данные и исключать их из результатов поиска."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/data-quality.adoc:117
 msgid "If you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
-msgstr ""
+msgstr "Если исключить из результатов поиска все записи, входящие в кластеры, будут удалены все записи из этих кластеров, что может привести к потере потенциально полезных данных.  Поэтому данный фильтр целесообразнее использовать для оценки степени дублирования записей в наборе данных либо для раздельного скачивания записей, входящих и не входящих в кластеры, с целью их последующего сравнения."
 
