@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 01:16+0000\n"
-"PO-Revision-Date: 2026-10-26 13:24\n"
+"PO-Revision-Date: 2026-10-27 09:31\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -510,7 +510,7 @@ msgstr "https://www.gbif.org/data-quality-requirements-sampling-events[Набо�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:164
 msgid "In practice, we encourage those responsible for publishing data to get acquainted with the expected data formats and content requirements as early as possible in the process (see also the pre-configured GBIF Excel templates with required and recommended terms for https://github.com/gbif/ipt/wiki/occurrenceData#templates[occurrence-only datasets^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^], and https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], all available with example data).  Doing so will save a lot of effort that may be needed at later stages, for example, in adding data conversions, capturing information for required or strongly recommended fields, or performing and addressing final pre-publication data-quality checks."
-msgstr "На практике мы рекомендуем ответственным за публикацию данных как можно раньше ознакомиться с ожидаемыми форматами данных и требованиями к их содержимому (см. также предварительно настроенные шаблоны GBIF в формате Excel с обязательными и рекомендуемыми терминами https://github.com/gbif/ipt/wiki/occurrenceData#шаблоны[наборы данных, содержащие только данные о встречах^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^] и https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], все доступны с примерами данных).  Это позволит избежать значительных дополнительных трудозатрат на последующих этапах, например при преобразовании данных, добавлении информации в обязательные или настоятельно рекомендуемые поля, а также при проведении итоговых проверок качества данных перед публикацией и устранении выявленных проблем."
+msgstr "На практике мы рекомендуем ответственным за публикацию данных как можно раньше ознакомиться с ожидаемыми форматами данных и требованиями к их содержимому (см. также предварительно настроенные шаблоны GBIF в формате Excel с обязательными и рекомендуемыми терминами https://github.com/gbif/ipt/wiki/occurrenceData#шаблоны[наборы данных, содержащие только данные о находках^], https://github.com/gbif/ipt/wiki/checklistData#templates[checklists^] и https://github.com/gbif/ipt/wiki/samplingEventData#templates[sampling-event datasets^], все доступны с примерами данных).  Это позволит избежать значительных дополнительных трудозатрат на последующих этапах, например при преобразовании данных, добавлении информации в обязательные или настоятельно рекомендуемые поля, а также при проведении итоговых проверок качества данных перед публикацией и устранении выявленных проблем."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:166
@@ -536,7 +536,7 @@ msgstr "В этом разделе вы узнаете, как использо�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:176
 msgid "The GBIF https://www.gbif.org/tools/data-validator[data validator^] is a service that allows anyone with a GBIF-relevant dataset to receive a report on the syntactical correctness and the validity of the content contained within the dataset.  By submitting a dataset to the validator, you can go through the validation and interpretation procedures usually associated with publishing in GBIF and quickly determine potential issues in data - without having to publish it."
-msgstr "https://www.gbif.org/tools/data-validatorGBIF[валидатор данных^] — это сервис, который позволяет любому пользователю, имеющему набор данных, соответствующий тематике GBIF, получить отчёт о синтаксической корректности и валидности содержащихся в нём данных. Загрузив набор данных в валидатор, вы можете выполнить процедуры валидации и интерпретации, которые обычно проводятся при публикации данных в GBIF, и быстро выявить потенциальные проблемы в данных — без необходимости их публикации."
+msgstr "https://www.gbif.org/tools/data-validator[GBIF валидатор данных^] — это сервис, который позволяет любому пользователю, имеющему набор данных, соответствующий тематике GBIF, получить отчёт о синтаксической корректности и валидности содержащихся в нём данных. Загрузив набор данных в валидатор, вы можете выполнить процедуры валидации и интерпретации, которые обычно проводятся при публикации данных в GBIF, и быстро выявить потенциальные проблемы в данных — без необходимости их публикации."
 
 #. type: Block title
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:178
@@ -644,7 +644,7 @@ msgstr "intro-to-gbif::quality12.png"
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:216
 #, no-wrap
 msgid "*I’ve got the validation report - now what?*\n"
-msgstr "*Я получил отчёт о валидации — что дальшее?*\n"
+msgstr "*Я получил отчёт о валидации — что дальше?*\n"
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:220
