@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 11:49+0000\n"
-"PO-Revision-Date: 2026-04-11 15:04\n"
+"PO-Revision-Date: 2026-10-28 11:08\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/course-review.adoc:1
 #, no-wrap
 msgid "Course review"
-msgstr ""
+msgstr "Bilan du cours"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:5
 msgid "Review concepts covered in this course."
-msgstr ""
+msgstr "Révision des notions abordées dans ce cours."
 
 #.  Note the lack of empty lines between the end of the question (....) and the start of the next question
 #.  (. What…) is required, so I have added // comments to help separate them.
@@ -43,7 +43,9 @@ msgstr "Comment pouvez-vous accéder aux données GBIF ?"
 msgid "- [x] GBIF.org search interface\n"
 "- [x] GBIF API\n"
 "- [x] rgbif\n"
-msgstr ""
+msgstr "- [x] Interface de recherche GBIF.org\n"
+"- [x] API GBIF\n"
+"- [x] rgbif\n"
 
 #.  Question 2
 #. type: Plain text
@@ -59,13 +61,16 @@ msgid "- [x] Simple\n"
 "- [ ] XML\n"
 "- [x] Darwin Core Archive\n"
 "- [x] Species list\n"
-msgstr ""
+msgstr "- [x] Simple\n"
+"- [ ] XML\n"
+"- [x] Archive Darwin Core\n"
+"- [x] Liste d'espèces\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:31
 msgid "Who determines if a dataset is fit for use?"
-msgstr ""
+msgstr "Qui décide si un ensemble de données est apte à être utilisé ?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:38
@@ -84,7 +89,7 @@ msgstr "- [ ] Le directeur du musée ou de département\n"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:41
 msgid "Which of these aspects do you need to consider when assessing if a GBIF-mediated dataset is fit for use?"
-msgstr ""
+msgstr "Lesquels de ces éléments devez-vous prendre en compte pour déterminer si un ensemble de données fourni par le GBIF est apte à être utilisé ?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:48
@@ -93,26 +98,30 @@ msgid "- [x] The number of data points\n"
 "- [x] The spatial resolution of the data\n"
 "- [x] Dataset metadata\n"
 "- [x] The species identification\n"
-msgstr ""
+msgstr "- [x] Le nombre de points de données\n"
+"- [x] La résolution spatiale des données\n"
+"- [x] Les métadonnées de l'ensemble de données\n"
+"- [x] L'identification des espèces\n"
 
 #.  Question 6
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:51
 msgid "Which of these would you consider to be accurate data?"
-msgstr ""
+msgstr "Lesquelles de ces données considérez-vous comme exactes ?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:56
 #, no-wrap
 msgid "- [x] Data where the coordinates match the country information\n"
 "- [ ] Data where the higher taxonomy of a species does not reflect the current taxonomy of a species\n"
-msgstr ""
+msgstr "- [x] Données dont les coordonnées correspondent aux informations sur le pays\n"
+"- [ ] Données pour lesquelles la taxonomie supérieure d'une espèce ne correspond pas à la taxonomie actuelle de celle-ci\n"
 
 #.  Question 7
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:59
 msgid "Which of these are some common GBIF data quality issues?"
-msgstr ""
+msgstr "Lesquels de ces éléments constituent des problèmes courants liés à la qualité des données du GBIF ?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:66
@@ -121,7 +130,10 @@ msgid "- [x] Duplicates of occurrence data\n"
 "- [x] Gridded datasets\n"
 "- [x] Country centroids\n"
 "- [x] Coordinate mismatches\n"
-msgstr ""
+msgstr "- [x] Doublons de données d'occurrence\n"
+"- [x] Ensembles de données géographiques quadrillés\n"
+"- [x] Centroïdes des pays\n"
+"- [x] Incohérences de coordonnées\n"
 
 #.  Question 3
 #. type: Plain text

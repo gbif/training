@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-07-08 08:18\n"
+"PO-Revision-Date: 2026-10-27 16:26\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:1
 #, no-wrap
 msgid "Data quality issues and flags"
-msgstr ""
+msgstr "Проблемы качества данных и соответствующие флаги"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:3
@@ -31,7 +31,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:9
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here, users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr ""
+msgstr "Сеть GBIF обеспечивает публикацию наборов данных и их интеграцию в единую систему доступа. Пользователи могут находить и получать данные с помощью общих инструментов поиска и скачивания. В процессе индексирования исходных данных GBIF добавляет к записям информацию о выявленных типичных проблемах качества данных в виде специальных отметок и флагов. Эта информация может быть полезна пользователям при формировании наборов данных, соответствующих конкретным целям использования."
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:10
@@ -42,27 +42,27 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:13
 msgid "Remarks are shown on the individual occurrence pages to explain the process done after interpretation:"
-msgstr ""
+msgstr "На страницах отдельных записей о находках отображаются примечания, поясняющие, какие действия были выполнены после интерпретации данных:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:15
 msgid "Excluded means the original data couldn’t be interpreted, so it is excluded in the interpreted fields."
-msgstr ""
+msgstr "Исключено (Excluded) означает, что исходные данные не удалось интерпретировать, поэтому они не были включены в соответствующие поля с интерпретированными значениями."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:17
 msgid "Altered means the original data is modified in the interpretation process to be indexed in GBIF.org."
-msgstr ""
+msgstr "Изменено (Altered) означает, что исходные данные были изменены в процессе интерпретации для последующего индексирования на GBIF.org."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:19
 msgid "Inferred means if the original is empty, the data is inferred using other indexed record information."
-msgstr ""
+msgstr "Выведено (Inferred) означает, что если исходное поле не заполнено, его значение определяется на основе другой информации, содержащейся в проиндексированной записи."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:24
 msgid "Excluding all records with a particular issue is not currently possible with the search interface.  It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button.  However, reversing will still only give you all other flagged occurrences and not issue-free records.  This is something that GBIF is working to improve."
-msgstr ""
+msgstr "В настоящее время поисковый интерфейс не позволяет исключить все записи, содержащие определённую проблему качества данных.  Можно отфильтровать записи с нежелательной проблемой, выбрав соответствующий тип проблемы и воспользовавшись кнопкой инверсии фильтра. Однако в результате будут отображаться только записи, отмеченные другими проблемами качества данных, а записи без выявленных проблем в выборку не попадут.  GBIF работает над совершенствованием этой функциональности."
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:25
@@ -74,20 +74,20 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:27
 #, no-wrap
 msgid "Issues and flags documentation"
-msgstr ""
+msgstr "Документация по проблемам качества данных и флагам"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:30
 msgid "A full overview of all issues and flags is found within https://techdocs.gbif.org/[GBIF Technical Documentation^]:"
-msgstr ""
+msgstr "Полный обзор всех проблем и предупреждений приведен на странице https://techdocs.gbif.org/[Техническая документация GBIF^]:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
 msgid "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Occurrence issues and flags^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags[Проблемы с появлением и флаги^]"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/dq-issues-and-flags.adoc:32
 msgid "https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[Checklist issues and flags^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/data-use/checklist-issues-and-flags[Проблемы и предупреждения в списке проверки^]"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-02-13 09:20+0000\n"
-"PO-Revision-Date: 2026-07-08 08:18\n"
+"PO-Revision-Date: 2026-10-27 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: en/project-planning/modules/ROOT/pages/exercise-dataset-deliverables.adoc:4
 #, no-wrap
 msgid "Instructions"
-msgstr ""
+msgstr "Инструкции"
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/exercise2.adoc:6
@@ -35,7 +35,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/exercise5.adoc:6
 #, no-wrap
 msgid "Exercise sheet "
-msgstr ""
+msgstr "Рабочий лист "
 
 #. type: Title =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:1
@@ -46,36 +46,36 @@ msgstr ""
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:6
 msgid "In this exercise you will use the GBIF API to locate specific taxon keys."
-msgstr ""
+msgstr "В этом упражнении вы будете использовать API GBIF для поиска идентификаторов конкретных таксонов (taxon keys)."
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:8
 #, no-wrap
 msgid "*Taxon keys* are issued at the species, genus family, order, phylum and kingdom rank. \n"
-msgstr ""
+msgstr "*Идентификаторы таксонов (Taxon keys)* присваиваются таксонам в ранге вида, рода, семейства, отряда, типа и царства. \n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:9
 #, no-wrap
 msgid "*Unique identifiers* are issued to accepted names with synonyms of those accepted names issued the same identifier.  Usage keys vs acceptedUsageKeys.\n"
-msgstr ""
+msgstr "*Уникальные идентификаторы* присваиваются принятым научным названиям, при этом их синонимам присваивается тот же идентификатор. Различие между `usageKey` и `acceptedUsageKey`.\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:10
 #, no-wrap
 msgid "Taxon keys allow for user to ensure that they are collecting all the data they need.\n"
-msgstr ""
+msgstr "Идентификаторы таксонов позволяют пользователям убедиться, что они получают все необходимые им данные.\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:11
 #, no-wrap
 msgid "Taxon keys also facilitate multiple species downloads.\n"
-msgstr ""
+msgstr "Идентификаторы таксонов также позволяют скачивать данные сразу по нескольким видам.\n"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:13
 msgid "Taxon keys can be found via:"
-msgstr ""
+msgstr "Идентификаторы таксонов можно найти с помощью:"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:15
@@ -85,12 +85,12 @@ msgstr "https://www.gbif.org/[GBIF.org]"
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:16
 msgid "https://techdocs.gbif.org/en/openapi/v1/species[Species API^]"
-msgstr ""
+msgstr "https://techdocs.gbif.org/en/openapi/v1/species[API видов^]"
 
 #. type: delimited block =
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:17
 msgid "https://www.gbif.org/tools/species-lookup[Species matching tool^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/species-lookup[Инструмент сопоставления научных названий видов^]"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:22
@@ -100,7 +100,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:26
 msgid "Using the Species API find the GBIF taxonkeys for these scientific names:"
-msgstr ""
+msgstr "С помощью API «Виды» найдите таксономические ключи GBIF для следующих научных названий:"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/exercise4.adoc:27

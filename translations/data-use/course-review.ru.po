@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-04-11 11:49+0000\n"
-"PO-Revision-Date: 2026-07-08 08:18\n"
+"PO-Revision-Date: 2026-10-29 05:18\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -35,7 +35,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/course-review.adoc:12
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:130
 msgid "How can you access GBIF data?"
-msgstr ""
+msgstr "Как получить доступ к данным GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:18
@@ -50,7 +50,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/course-review.adoc:21
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:141
 msgid "Which file formats are available for downloads of data?"
-msgstr ""
+msgstr "В каких форматах можно скачать данные?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:28
@@ -75,7 +75,10 @@ msgid "- [ ] The museum or department director\n"
 "- [x] The users of the data for research or education\n"
 "- [ ] The collector of the data in the field\n"
 "- [ ] The person entering the data into the database\n"
-msgstr ""
+msgstr "- [ ] Директор музея или отдела\n"
+"- [x] Пользователи данных в научно-исследовательских или образовательных целях\n"
+"- [ ] Лицо, осуществляющее сбор данных в полевых условиях\n"
+"- [ ] Лицо, вводящее данные в базу данных\n"
 
 #.  Question 4
 #. type: Plain text
@@ -109,7 +112,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:59
 msgid "Which of these are some common GBIF data quality issues?"
-msgstr ""
+msgstr "Какие из перечисленных ниже проблем относятся к числу наиболее распространенных проблем, связанных с качеством данных GBIF?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:66
@@ -118,14 +121,17 @@ msgid "- [x] Duplicates of occurrence data\n"
 "- [x] Gridded datasets\n"
 "- [x] Country centroids\n"
 "- [x] Coordinate mismatches\n"
-msgstr ""
+msgstr "- [x] Дубликаты данных о находках\n"
+"- [x] Наборы данных в виде сетки\n"
+"- [x] Центроиды стран\n"
+"- [x] Несоответствия координат\n"
 
 #.  Question 3
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:69
 #: en/intro-to-gbif/modules/ROOT/pages/data-access.adoc:152
 msgid "What kind of flags does GBIF apply to data to alert you to the quality?"
-msgstr ""
+msgstr "Какие метки GBIF применяет к данным, чтобы предупредить вас о их качестве?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:78
@@ -143,7 +149,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/course-review.adoc:81
 msgid "Which of the following data quality checks cannot be performed automatically by GBIF?"
-msgstr ""
+msgstr "Какую из перечисленных ниже проверок качества данных GBIF не может выполнить автоматически?"
 
 #. type: delimited block .
 #: en/data-use/modules/ROOT/pages/course-review.adoc:88
@@ -167,5 +173,8 @@ msgid "- [ ] Country coordinate mismatch\n"
 "- [ ] Taxon match fuzzy\n"
 "- [ ] Basis of record invalid\n"
 "- [x] Outside native range\n"
-msgstr ""
+msgstr "- [ ] Несоответствие координат страны\n"
+"- [ ] Неточное соответствие таксона\n"
+"- [ ] Недостоверная основа записи\n"
+"- [x] Находится за пределами ареала распространения\n"
 

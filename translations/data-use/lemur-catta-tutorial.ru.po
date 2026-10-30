@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2025-01-29 12:43+0000\n"
-"PO-Revision-Date: 2026-07-08 08:18\n"
+"PO-Revision-Date: 2026-10-27 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:4
 msgid "Author: Arman Pili with additional edits by Chihjen Ko"
-msgstr ""
+msgstr "Автор: Арман Пили (Arman Pili); дополнительная редакция — Чи-Чжен Ко (Chihjen Ko)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:6
@@ -35,7 +35,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:8
 msgid "You can download the R Markdown document for your own use here - xref:attachment$Lemur_catta_project.Rmd[_Lemur catta_ project, opts=download]. You will be redirected to another page.  Right click and \"Save as...\" to save the file to your hard drive. (If you save it as an .Rmd file instead of a .txt file you will benefit from the additional functionality that comes with that format when you open it in RStudio)."
-msgstr ""
+msgstr "Здесь вы можете скачать документ R Markdown для личного использования — xref:attachment$Lemur_catta_project.Rmd[_Lemur catta_ project, opts=download]. Вы будете перенаправлены на другую страницу. Щелкните правой кнопкой мыши и выберите «Сохранить как...», чтобы сохранить файл на жёсткий диск. (Если вы сохраните его в формате .Rmd, а не .txt, то при открытии в RStudio сможете воспользоваться дополнительными возможностями, которые предоставляет этот формат)."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:10
@@ -73,7 +73,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:26
 #, no-wrap
 msgid "The scenario"
-msgstr ""
+msgstr "Сценарий"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:29
@@ -143,7 +143,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:55
 msgid "The following line calls https://www.gbif.org/developer/species[GBIF Species API] and retrieve possible matches."
-msgstr ""
+msgstr "Следующая строка вызывает https://www.gbif.org/developer/species[GBIF Species API] и извлекает возможные совпадения."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:59
@@ -159,7 +159,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:62
 msgid "Looks like we have a good matched accepted name here. The `usageKey` is the key that identify the usage of a name in the https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF Taxonomy Backbone]. Once we decide which 'usage' is what we are looking for, We will use the key as the `taxonKey` for specifying the taxon for its occurrence data."
-msgstr ""
+msgstr "Похоже, у нас здесь есть подходящее утверждённое имя. `usageKey` — это ключ, который идентифицирует использование названия в базе данных https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c[GBIF Taxonomy Backbone]. Как только мы определим, какое именно «использование» нам нужно, мы будем использовать этот ключ в качестве `taxonKey` для указания таксона в данных о его встречаемости."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:64
@@ -196,7 +196,17 @@ msgid "```{r}\n"
 ")\n"
 "```\n"
 "Note that, with \"pred(\"hasCoordinate\", TRUE),\", we only want data with coordinates, which are required for our plotting. But you can test run the block with the line commented and see some errors would appear in later steps.\n"
-msgstr ""
+msgstr "```{r}\n"
+"gd_key <- occ_download(\n"
+"    pred(\"taxonKey\", usageKey),\n"
+"#   pred(\"hasCoordinate\", TRUE),\n"
+"    format = \"SIMPLE_CSV\",\n"
+"    user = \"USERNAME\",\n"
+"    pwd = \"PASSWORD\",\n"
+"    email = \"EMAIL_ADDRESS\"\n"
+")\n"
+"```\n"
+"Обратите внимание, что с помощью \"pred(\"hasCoordinate\", TRUE),\" мы хотим получить только данные с координатами, которые необходимы для построения графика. Но вы можете протестировать блок с закомментированной строкой и увидеть, что на последующих шагах появятся некоторые ошибки.\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:87
@@ -224,7 +234,8 @@ msgstr ""
 #, no-wrap
 msgid "gd <- occ_download_get(gd_key, overwrite = TRUE) %>%\n"
 "    occ_download_import()\n"
-msgstr ""
+msgstr "gd <- occ_download_get(gd_key, overwrite = TRUE) %>%\n"
+"    occ_download_import()\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:99
@@ -323,7 +334,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:148
 msgid "```{r} gdf %>% distinct(basisOfRecord)  gdf %>% distinct(establishmentMeans)  ``` There are 5 distinct values for https://dwc.tdwg.org/terms/#dwc:basisOfRecord[DwC:basisOfRecord]. We also looked at https://dwc.tdwg.org/list/#dwc_establishmentMeans[dwc:establishmentMeans], where only `NATIVE` is noted for some records."
-msgstr ""
+msgstr "```{r} gdf %>% distinct(basisOfRecord)  gdf %>% distinct(establishmentMeans)  ``` Существует 5 различных значений для https://dwc.tdwg.org/terms/#dwc:basisOfRecord[DwC:basisOfRecord]. Мы также рассмотрели https://dwc.tdwg.org/list/#dwc_establishmentMeans[dwc:establishmentMeans], где для некоторых записей указано только значение `NATIVE`."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:149
@@ -334,7 +345,7 @@ msgstr "Верификация и исправление данных"
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:152
 msgid "After some exploring of our data, we know that there are potential quality issues in our download. Apparently points outside Madagascar are suspicious, and we have just looked at basisOfRecord and establishmentMeans columns for cues of needed data actions."
-msgstr ""
+msgstr "После предварительного изучения наших данных мы выяснили, что скачанный набор данных может содержать проблемы с качеством. В частности, записи с координатами за пределами Мадагаскара вызывают подозрения. Мы также рассмотрели столбцы basisOfRecord и establishmentMeans, чтобы определить, какие действия могут потребоваться для дальнейшей обработки данных."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:154
@@ -346,7 +357,7 @@ msgstr ""
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:155
 #, no-wrap
 msgid "Step 1: basisOfRecord"
-msgstr ""
+msgstr "Шаг 1: basisOfRecord"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:158
@@ -360,7 +371,10 @@ msgid "```{r}\n"
 "clean_step1 <- gdf %>%\n"
 "  as_tibble() %>%\n"
 "  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
-msgstr ""
+msgstr "```{r}\n"
+"clean_step1 <- gdf %>%\n"
+"  as_tibble() %>%\n"
+"  filter(!basisOfRecord %in% c(\"FOSSIL_SPECIMEN\", \"MATERIAL_SAMPLE\"))\n"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:167
@@ -416,7 +430,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:192
 msgid "Flagging records with problematic occurrence information using functions of the https://ropensci.github.io/CoordinateCleaner/index.html[coordinateCleaner] package. See comments for what each function does."
-msgstr ""
+msgstr "Пометка записей с некорректными данными о местонахождении с помощью функций пакета https://ropensci.github.io/CoordinateCleaner/index.html[coordinateCleaner]. Описание функций см. в комментариях."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:207
@@ -513,7 +527,23 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step2,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:254
@@ -578,7 +608,23 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step3,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:292
@@ -595,7 +641,7 @@ msgstr ""
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:297
 msgid "We might have other data layers to work with the occurrence download (e.g. https://worldclim.org/data/index.html[WorldClim] provides data from 1960). Depending on the temporal availability of the data, say, only after 1955, we also want to filter away occurrence records prior to the year as it wouldn't be used."
-msgstr ""
+msgstr "У нас могут быть и другие слои данных, которые можно использовать при загрузке данных о находках (например, https://worldclim.org/data/index.html[WorldClim] предоставляет данные, начиная с 1960 года). В зависимости от временной доступности данных, например, только после 1955 года, мы также хотим отфильтровать записи о случаях, относящиеся к периоду до этого года, поскольку они не будут использоваться."
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:299
@@ -643,7 +689,23 @@ msgid "```{r}\n"
 "           ylim = st_bbox(country_map)[c(2,4)]) +\n"
 "  theme_bw()\n"
 "```\n"
-msgstr ""
+msgstr "```{r}\n"
+"ggplot() +\n"
+"  geom_sf(data = country_map) +\n"
+"  geom_point(data = gdf,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"black\") +\n"
+"  geom_point(data = clean_step4,\n"
+"             aes(x = decimalLongitude,\n"
+"                 y = decimalLatitude),\n"
+"             shape = \"+\",\n"
+"             color = \"red\") +\n"
+"  coord_sf(xlim = st_bbox(country_map)[c(1,3)],\n"
+"           ylim = st_bbox(country_map)[c(2,4)]) +\n"
+"  theme_bw()\n"
+"```\n"
 
 #. type: Target for macro image
 #: en/data-use/modules/ROOT/pages/lemur-catta-tutorial.adoc:327

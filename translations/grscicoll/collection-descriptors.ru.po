@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-07-08 10:27\n"
+"PO-Revision-Date: 2026-10-28 09:05\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -290,7 +290,7 @@ msgstr "Нажмите, чтобы раскрыть"
 #: en/project-planning/modules/ROOT/pages/overview-activities-deliverables.adoc:355
 #, no-wrap
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/add-remove-entries.adoc:88
@@ -329,7 +329,8 @@ msgstr "Видео"
 #, no-wrap
 msgid "In this video (05:33), GBIF Data Administrator, Marie Grosjean, describes collection descriptors and how to use them within GRSciColl.   \n"
 "If you are unable to watch the embedded Vimeo video, you can download it locally on the xref:downloads.adoc[Files for download] page.\n"
-msgstr ""
+msgstr "В этом видео (05:33) администратор базы данных GBIF Мари Грожан (Marie Grosjean) рассказывает о дескрипторах коллекций и о том, как их использовать в GRSciColl.   \n"
+"Если у вас не получается посмотреть встроенное видео с Vimeo, вы можете скачать его на свой компьютер со страницы xref:downloads.adoc[Файлы для скачивания].\n"
 
 #. type: Title ==
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:14
@@ -460,7 +461,7 @@ msgstr ""
 #. type: delimited block =
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:64
 msgid "As mentioned above the descriptor tables are CSV files where each row is a subset of the collection (or a group of specimens) and each column is a descriptor. When possible, the data should be mapped to the Darwin Core and Latimer Core standards but it is possible to share data that is not mapped to any standard. When mapped to one of the standards, the header of the column should contain the prefix of the standard (`ltc`: for Latimer Core and `dwc`: for Darwin Core) as well as the name of the term."
-msgstr ""
+msgstr "Как упоминалось выше, таблицы дескрипторов представляют собой файлы CSV, в которых каждая строка описывает часть коллекции (или группу экземпляров), а каждый столбец соответствует отдельному дескриптору. По возможности данные следует приводить в соответствие со стандартами Darwin Core и Latimer Core, однако допускается также предоставление данных, не сопоставленных ни с одним из стандартов. Если данные сопоставлены с одним из этих стандартов, заголовок соответствующего столбца должен содержать префикс стандарта (`ltc:` для Latimer Core и `dwc:` для Darwin Core), а также название соответствующего термина."
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:70
@@ -566,7 +567,11 @@ msgid "| continent | date | taxon | Is type | Percentage identified at genus lev
 "| Africa | 1940-1952 | Bony fish |  | 50\n"
 "| Africa |  | Eustomias monoclonoides | TRUE | \n"
 "| Africa |  | Bothus podas | TRUE | \n"
-msgstr ""
+msgstr "| континент | дата | таксон | Типовой экземпляр | Процент видов, идентифицированных на уровне рода\n\n"
+"| Африка | XIX | Костные рыбы |  | 50\n"
+"| Африка | 1940–1952 | Костные рыбы |  | 50\n"
+"| Африка |  | Eustomias monoclonoides | TRUE | \n"
+"| Африка |  | Bothus podas | TRUE | \n"
 
 #. type: Table
 #: en/grscicoll/modules/ROOT/pages/collection-descriptors.adoc:126

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-09 12:38+0000\n"
-"PO-Revision-Date: 2026-07-08 08:18\n"
+"PO-Revision-Date: 2026-10-27 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -29,36 +29,36 @@ msgstr "OpenRefine"
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:1
 #, no-wrap
 msgid "Data processing tools"
-msgstr ""
+msgstr "Инструменты для обработки данных"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:5
 msgid "While GBIF filters will allow you to select and download data that only fulfils specific criteria, it is highly recommended that you perform additional data processing.  Your choice for a data processing tool should be based on personal access, familiarity and utility of that tool(s)."
-msgstr ""
+msgstr "Хотя фильтры GBIF позволяют отбирать и скачивать данные, соответствующие определённым критериям, настоятельно рекомендуется проводить их дополнительную обработку. Выбор инструментов для обработки данных должен зависеть от их доступности, вашего опыта работы с ними и их функциональных возможностей."
 
 #. type: Title ==
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:6
 #, no-wrap
 msgid "Example tools "
-msgstr ""
+msgstr "Примеры инструментов "
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:9
 msgid "Spreadsheet editing software, e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "Программы для работы с электронными таблицами, например Excel, Google Sheets (для небольших наборов данных)"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:11
 msgid "R packages and scripts, e.g. rgbif, CoordinateCleaner, scrubr and biogeo"
-msgstr ""
+msgstr "Пакеты и скрипты для R, например rgbif, CoordinateCleaner, scrubr и biogeo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:12
 msgid "Geographical Information Systems (GIS), e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "Геоинформационные системы (ГИС), например ArcGIS, QGIS и MapInfo"
 
 #. type: Plain text
 #: en/data-use/modules/ROOT/pages/processing-tools.adoc:13
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. This can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "При обработке данных всегда важно включать этап визуализации, позволяющий выявлять аномальные записи, которые могли остаться незамеченными на предыдущих этапах обработки. Визуализацию можно выполнять непосредственно в R. Однако при использовании OpenRefine или программ для работы с электронными таблицами может потребоваться дополнительное применение геоинформационных систем (ГИС) или даже таких инструментов, как Google Earth."
 
