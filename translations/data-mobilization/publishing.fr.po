@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-06-09 12:08+0000\n"
-"PO-Revision-Date: 2026-10-19 20:16\n"
+"POT-Creation-Date: 2026-10-30 11:17+0000\n"
+"PO-Revision-Date: 2026-10-30 11:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -332,7 +332,7 @@ msgstr "&nbsp;"
 #: en/data-mobilization/modules/ROOT/pages/capture.adoc:772
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:407
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:512
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:252
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
 msgid "Use the previously downloaded exercise sheet to provide your answers."
 msgstr "Utilisez la feuille d'exercice précédemment téléchargée pour donner vos réponses."
 
@@ -350,7 +350,7 @@ msgstr "Publication de données"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:580
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -369,7 +369,7 @@ msgstr "Révision"
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:585
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:267
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -381,7 +381,7 @@ msgstr "Testez vos connaissances sur les concepts abordés dans ce module. Certa
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:587
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:269
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -964,21 +964,27 @@ msgstr "Cette présentation fait partie d'une série de présentations utilisée
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:228
 #, no-wrap
-msgid "IPT overview and demonstration"
-msgstr "Présentation et démonstration de l'IPT"
-
-#. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:233
-msgid "During this demonstration, you will receive an overview of the IPT data publishing interface and you will learn how to publish an occurrence dataset using an IPT."
-msgstr "Au cours de cette démonstration, vous découvrirez l’interface de publication des données de l’IPT et apprendrez à l’utiliser pour publier un jeu de données d’occurrences."
+msgid "IPT overview"
+msgstr ""
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:236
-msgid "A live demonstration will be provided. Visit the https://ipt.gbif.org/manual/en/ipt/latest/[IPT user manual] for full documentation."
-msgstr "Une démonstration en direct sera proposée. Consultez le [manuel d'utilisation de l'https://ipt.gbif.org/manual/en/ipt/latest/ (IPT)] pour obtenir la documentation complète."
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:231
+msgid "Visit the https://ipt.gbif.org/manual/en/ipt/latest/home[IPT user manual] for full documentation."
+msgstr ""
 
 #. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:232
+#, no-wrap
+msgid "IPT demonstration"
+msgstr ""
+
+#. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/publishing.adoc:237
+msgid "During this demonstration, you will learn how to publish an occurrence dataset using an IPT."
+msgstr ""
+
+#. type: Title ==
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:242
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:145
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:71
 #: en/data-mobilization/modules/ROOT/pages/use-case-invasive-species.adoc:84
@@ -991,12 +997,12 @@ msgid "Exercise 3"
 msgstr ""
 
 #. type: delimited block =
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:242
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:247
 msgid "In this exercise, you will publish an event dataset using the IPT."
 msgstr "Dans cet exercice, vous publierez un jeu de données d’événements d’échantillonnage ( sampling event) à l’aide de l’IPT."
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:245
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250
 #: en/data-mobilization/modules/ROOT/pages/rubrics.adoc:94
 #: en/data-mobilization/modules/ROOT/pages/use-case-birds-from-literature.adoc:148
 #: en/data-mobilization/modules/ROOT/pages/use-case-herbarium-specimens.adoc:74
@@ -1008,37 +1014,37 @@ msgid "*Data publishing*\n"
 msgstr "*Publication de données*\n"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:247
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:252
 msgid "After cleaning the data in the dataset, the team considers that publishing the data online through GBIF could be a good way to make this effort visible. They plan on assigning the data with a CC0 waiver. You have been requested to lead that publishing work."
 msgstr "Après avoir nettoyé le jeu de données, l’équipe estime que sa publication en ligne par via le GBIF permettrait de valoriser le travail réalisé. Elle prévoit de placer les données sous CC0 et vous a confié la responsabilité de leur publication."
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:249
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:254
 msgid "Download xref:attachment$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 KB)"
 msgstr "Télécharger le fichier xref : pièce jointe$UC-Practice-3-ForPublication.xlsx[UC-Practice-3-ForPublication.xlsx,opts=download]. (22 Ko)"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:250
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:255
 msgid "Open the file in Excel and export each tab as an individual CSV file (resulting in 4 files for upload to the IPT)."
 msgstr "Ouvrez le fichier dans Excel et exportez chaque onglet sous forme de fichier CSV distinct (ce qui donnera 4 fichiers à ajouter sur l'IPT)."
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:251
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
 msgid "Use the assigned IPT installation to publish the dataset and register it with GBIF."
 msgstr "Utilisez l’IPT qui vous a été attribué pour publier le jeu de données et l’enregistrer auprès du GBIF."
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:254
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:259
 msgid "https://training-ipt-a.gbif.org/ \t"
 msgstr "https://training-ipt-a.gbif.org/ \t"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:255
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:260
 msgid "https://training-ipt-b.gbif.org/\t"
 msgstr "https://training-ipt-b.gbif.org/\t"
 
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:256
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:261
 msgid "https://training-ipt-c.gbif.org/"
 msgstr "https://training-ipt-c.gbif.org/"
 
@@ -1047,13 +1053,13 @@ msgstr "https://training-ipt-c.gbif.org/"
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:278
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr "Que signifie la publication de données dans le contexte du GBIF ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:284
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
@@ -1065,12 +1071,12 @@ msgstr "- [ ] Exporter un fichier csv de vos données nettoyées que vous pouvez
 
 #.  Question 2
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:282
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:287
 msgid "What is an IPT?"
 msgstr "Qu'est-ce qu'un IPT ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:288
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:293
 #, no-wrap
 msgid "- [ ] a tool that helps you manage & correct your data\n"
 "- [x] a tool that helps you publish your data to GBIF\n"
@@ -1081,12 +1087,12 @@ msgstr "- [ ] un outil qui vous aide à gérer & corriger vos données\n"
 
 #.  Question 3
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:291
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:296
 msgid "Which Creative Commons licences and waivers are recommended by GBIF for data publication?"
 msgstr "Quelles licences ou dérogations Creative Commons sont recommandées par le GBIF pour la publication de données ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:297
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:302
 #, no-wrap
 msgid "- [ ] CC-BY, CC-BY-SA and CC-BY-ND\n"
 "- [x] CC0, CC-BY and CC-BY-NC\n"
@@ -1097,12 +1103,12 @@ msgstr "- [ ] CC-BY, CC-BY-SA et CC-BY-ND\n"
 
 #.  Question 4
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:300
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:305
 msgid "What are the three Cores from which you can choose for an IPT resource?"
 msgstr "Quels sont les trois noyaux (cores) que vous pouvez choisir pour une ressource sur l'IPT ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:306
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:311
 #, no-wrap
 msgid "- [ ] Metadata Core, Occurrence Core, Multimedia Core\n"
 "- [ ] Taxon Core, Collection Core, MeasurementOrFact Core\n"
@@ -1113,12 +1119,12 @@ msgstr "- [ ] Métadonnées, Occurrence, Multimédia\n"
 
 #.  Question 5
 #. type: Plain text
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:309
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:314
 msgid "How many Extensions files can a dataset have?"
 msgstr "Combien de fichiers d'extensions un jeu de données peut-il avoir ?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:315
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:320
 #, no-wrap
 msgid "- [ ] zero\n"
 "- [ ] one\n"
