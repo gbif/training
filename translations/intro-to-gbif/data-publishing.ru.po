@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
-"POT-Creation-Date: 2026-10-30 10:05+0000\n"
-"PO-Revision-Date: 2026-10-30 10:18\n"
+"POT-Creation-Date: 2026-10-30 11:17+0000\n"
+"PO-Revision-Date: 2026-10-30 13:14\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -30,7 +30,7 @@ msgstr "Публикация данных"
 
 #. type: Title ==
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:580
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:257
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
 #: en/epn/modules/ROOT/pages/participant-process.adoc:6
 #: en/grscicoll/modules/ROOT/pages/entities.adoc:79
 #: en/grscicoll/modules/ROOT/pages/external-sources.adoc:51
@@ -49,7 +49,7 @@ msgstr ""
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:585
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:262
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:267
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:6
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:488
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:172
@@ -61,7 +61,7 @@ msgstr "Проверьте свои знания понятий, рассмот�
 
 #. type: delimited block =
 #: en/data-mobilization/modules/ROOT/pages/management.adoc:587
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:264
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:269
 #: en/foundations/modules/ROOT/pages/foundations-review.adoc:8
 #: en/intro-to-gbif/modules/ROOT/pages/about-gbif.adoc:490
 #: en/intro-to-gbif/modules/ROOT/pages/community-of-practice.adoc:174
@@ -100,13 +100,13 @@ msgstr "Издатели данных могли реагировать на о�
 #.  The + connects the question into the numbered list item, see https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/
 #.  Question 1
 #. type: delimited block *
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:273
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:278
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:239
 msgid "What does data publishing mean in the context of GBIF?"
 msgstr "Что означает публикация данных в контексте GBIF?"
 
 #. type: delimited block .
-#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:279
+#: en/data-mobilization/modules/ROOT/pages/publishing.adoc:284
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:245
 #, no-wrap
 msgid "- [ ] Exporting a csv file of your cleaned data that you can share with your colleagues\n"
@@ -510,7 +510,7 @@ msgstr "https://www.gbif.org/data-quality-requirements-sampling-events[Набо�
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:164
 msgid "In practice, we encourage those responsible for publishing data to get acquainted with the expected data formats and content requirements as early as possible in the process (see also the pre-configured GBIF Excel templates with required and recommended terms for https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[occurrence-only datasets^], https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates[checklists^], and https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data#templates[sampling-event datasets^], all available with example data).  Doing so will save a lot of effort that may be needed at later stages, for example, in adding data conversions, capturing information for required or strongly recommended fields, or performing and addressing final pre-publication data-quality checks."
-msgstr ""
+msgstr "На практике мы рекомендуем ответственным за публикацию данных как можно раньше ознакомиться с ожидаемыми форматами данных и требованиями к их содержимому (см. также предварительно настроенные шаблоны GBIF в формате Excel с обязательными и рекомендуемыми терминами https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[наборы данных, содержащие только данные о находках^], https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates[checklists^] и https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data#templates[sampling-event datasets^], все доступны с примерами данных).  Это позволит избежать значительных дополнительных трудозатрат на последующих этапах, например при преобразовании данных, добавлении информации в обязательные или настоятельно рекомендуемые поля, а также при проведении итоговых проверок качества данных перед публикацией и устранении выявленных проблем."
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/data-publishing.adoc:166
