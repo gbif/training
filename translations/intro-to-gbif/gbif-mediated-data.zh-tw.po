@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbif-training-courses\n"
 "POT-Creation-Date: 2026-06-01 04:26+0000\n"
-"PO-Revision-Date: 2026-09-18 08:01\n"
+"PO-Revision-Date: 2026-10-30 00:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -661,116 +661,116 @@ msgstr ""
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:1
 #, no-wrap
 msgid "GBIF-mediated data "
-msgstr ""
+msgstr "經GBIF整合的資料 "
 
 #. type: Plain text
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:5
 msgid "In this module, you will learn about primary biodiversity data and the principles that GBIF follows with regards to data. You will learn how GBIF makes primary biodiversity data accessible, the accepted dataset types and how GBIF uses the taxonomic backbone to provide taxonomic information. You will also have a chance to review the various metrics that are available for the data within the portal."
-msgstr ""
+msgstr "在這個單元中，你會學到什麼是原始生物多樣性資料，以及GBIF在資料方面所遵守的原則，包括GBIF如何讓這些資料可供存取、有哪些可接受的資料集類型，以及GBIF如何運用分類學核心提供分類資訊。你也會有機會瀏覽GBIF入口網站提供的各種資料指標。"
 
 #. type: Title ==
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:6
 #, no-wrap
 msgid "Primary biodiversity data"
-msgstr ""
+msgstr "原始生物多樣性資料"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:11
 msgid "In this video (12:03), Cecilie Svenningsen, GBIF Data Product Manager, shares how data is shared with GBIF and how that data might be used, along with describing biodiversity standards and GBIF dataset types."
-msgstr ""
+msgstr "在這部影片（12:03）中，GBIF資料產品經理Cecilie Svenningsen說明資料如何分享給GBIF、這些資料可能的用途，並介紹生物多樣性標準與GBIF的資料集類型。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:13
 msgid "If you are unable to watch the embedded Vimeo video, you can xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[download] it locally (MP4 - 73.1 MB)."
-msgstr ""
+msgstr "如果無法播放嵌入的Vimeo影片，可以xref:attachment$how_data_is_shared_with_gbif._v1_1080p.mp4[下載]到本機觀看（MP4，73.1 MB）。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:30
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide1.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide1.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:33
 #, no-wrap
 msgid "*Slide 1 - How is data shared on GBIF.org?*\n"
-msgstr ""
+msgstr "*投影片1－資料如何在GBIF.org上共享？*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:35
 msgid "One thing to be mindful of is that data publishers on GBIF own and maintain their data, and then they share that with GBIF."
-msgstr ""
+msgstr "首先要注意的是，資料仍由GBIF的資料發布者自行擁有及維護，他們只是把資料分享給GBIF。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:36
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide2.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide2.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:39
 #, no-wrap
 msgid "*Slide 2 - Data publishing*\n"
-msgstr ""
+msgstr "*投影片2－資料發布*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:41
 msgid "So the way it works is that we have a data set that is owned by an organization. That organization needs to be endorsed by a GBIF node, that could be a country node or any sort of participant node, to be able to share data with GBIF."
-msgstr ""
+msgstr "運作方式是這樣的：資料集由某個組織擁有，而這個組織必須先經過GBIF節點認證，可能是國家節點或其他類型的參與方節點，才能把資料分享給GBIF。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:43
 msgid "That data then needs to be hosted somewhere in an installation, for example, the integrated publishing toolkit provided by GBIF."
-msgstr ""
+msgstr "接下來，這些資料需要存放在某個安裝環境中，例如GBIF提供的整合發布工具。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:45
 msgid "So the data sets are hosted there, and then they can be published to GBIF and shared with you."
-msgstr ""
+msgstr "資料集存放好之後，就能發布到GBIF，分享給使用者。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:46
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide3.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide3.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:49
 #, no-wrap
 msgid "*Slide 3 - Data shared on GBIF is heterogeneous*\n"
-msgstr ""
+msgstr "*投影片3－GBIF上共享的資料具有異質性*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:51
 msgid "Another thing to be mindful of is that data on GBIF is quite heterogeneous. These organizations that share data with GBIF come from quite various sources, and it's a community-endorsed process, as I had mentioned, where we have the nodes endorsing the publishing organizations, and that they can be anything from universities, museums, governmental agencies, et cetera."
-msgstr ""
+msgstr "另一點要注意的是，GBIF上的資料種類非常多元。分享資料的組織來源相當廣泛，正如前面提到的，這是一個由社群把關的認證流程，由節點來認證發布組織，而這些組織可能是大學、博物館、政府機關等各種單位。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:53
 msgid "So what they share can come from research projects or monitoring efforts, citizen science data or collections."
-msgstr ""
+msgstr "所以他們所共享的資料，可能來自研究專案或監測活動、公民科學資料或典藏資料。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:55
 msgid "That is also something to be mindful of, that data is not live on GBIF."
-msgstr ""
+msgstr "另一點也需要留意，資料並非即時呈現在GBIF上。"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:57
 msgid "You can have data that is a part of a mobilized effort of a collection, museum collection that might be digitizing their data from 50 years ago, 70 years ago, and the next day, it's available on GBIF."
-msgstr ""
+msgstr "你可能會遇到這樣的資料，它是某個典藏機構，例如博物館典藏數位化工作的一部分，這個機構可能正在將50年前、70年前的資料數位化，而隔天這些資料就出現在GBIF上了。"
 
 #. type: Target for macro image
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:58
 #, no-wrap
 msgid "intro-to-gbif::how-data-is-shared_Slide4.png"
-msgstr ""
+msgstr "intro-to-gbif::how-data-is-shared_Slide4.png"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:61
 #, no-wrap
 msgid "*Slide 4 - Accessing and downloading data*\n"
-msgstr ""
+msgstr "*投影片4－存取與下載資料*\n"
 
 #. type: delimited block =
 #: en/intro-to-gbif/modules/ROOT/pages/gbif-mediated-data.adoc:63
